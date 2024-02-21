@@ -1,0 +1,2 @@
+- Thanquol will einen elfischen Menhir aktivieren und korrumpieren um einen magischen Kataklysmus zu beschwören.
+- dazu muss er drei Bruchstücke eines elfischen Kristalls kombinierenc

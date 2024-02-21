@@ -1,0 +1,8 @@
+- konzentrierte dämonische Magie
+- wird unterirdisch gewonnen
+- Abbau nur unter Aufwendugn von Schutzzaubern möglich die die Magien abschwächen und bändigen
+- beinahe unendliche Energiequelle
+	- kann zum Antrieb mechanischer Geräte benutzt werden
+- instabil
+- grün leuchtend, teilweise schwarzer Rauch
+- mutierende Wirkung auf geringere Rassen wie Menschen, Orks, Tieflinge

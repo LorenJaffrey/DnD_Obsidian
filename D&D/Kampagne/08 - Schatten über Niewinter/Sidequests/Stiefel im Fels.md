@@ -1,0 +1,8 @@
+- in Fels stecken zwei Stiefel
+- Gardist aus der Stadt hatte eine Freundin
+- um schneller zu ihr zu kommen ließ er sich magische Stiefel fertigen von einem Freund
+- Freund stand aber auch auf das Mädchen und betrog ihn
+- Gardist wurde von Lawine erschlagen
+- Schuster empfand Reue und brachte Inschrift an und steckte Stiefel in die Wand
+- daraufhin wurde er in die Höhle teleportiert und vom Gardist erschlagen
+- Gardist wartet auf würdigen Gegner der ihn erschlägt

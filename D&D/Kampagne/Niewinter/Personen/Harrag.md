@@ -1,0 +1,3 @@
+# `=this.file.name`
+Kapitän Harrag ist ein bulliger, haariger Mann mit nur einem Bein (das andere hat er in einem Kampf mit [[Sahuagin]] verloren). 
+Er hat ein furchterregendes und brummiges Äußeres, aber diejenigen, die ihn am besten kennen, wissen, dass der Mann über eine beeindruckende Menge an Mitgefühl und Empathie verfügt. Die gestrandete Leviathan ist eine wahre Liebesarbeit für den Kapitän, und er ist ungemein stolz auf das Etablissement. Dennoch ist Harrag kein Weichei. Harrag schreckt nicht davor zurück, gute Deals für sein Geschäft zu sichern, selbst wenn die Taktiken erfordern, dass er kompromisslos ist. Ebenso werden diejenigen, die das Etablissement bedrohen, schnell und energisch zur Rechenschaft gezogen.

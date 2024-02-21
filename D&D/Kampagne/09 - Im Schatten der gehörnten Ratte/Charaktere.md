@@ -1,0 +1,5 @@
+- Ceridan Elf Berater
+- Urgat Schlitzauge (Ork Warlord)
+- Dargrimm Feuerbart
+- Engrol Goldzunge
+- Azguz Blutfaust

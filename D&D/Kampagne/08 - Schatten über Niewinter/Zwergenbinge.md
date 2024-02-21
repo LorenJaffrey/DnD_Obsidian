@@ -1,0 +1,172 @@
+- Eingangstor zerstört (durch massive Krafteinwirkung)
+
+## Erste Ebene
+- erster Raum (Werkzeugkammer)
+	- Regale mit zerstörten Werkzeugen
+- zweiter Raum (Rüstkammer)
+	- Tür zerstört (durch massive Krafteinwirkung)
+	- Gegner - Oger
+	- Regale mit zerstörten Waffen und Rüstungen
+	- Loot - unversehrte Waffe
+	- tote Zwerge
+- dritter Raum (Schmiede)
+	- Tür zerstört (durch massive Krafteinwirkung)
+	- Loot - besondere Waffe (Hammer) in der Schmiede versteckt
+	- tote Zwerge
+- vierter Raum (Schlafsaal)
+	- komplett ausgeplündert
+	- Tagebuch erhalten
+		- kürzlich
+			- im Norden Statue mitten im Stein entdeckt
+			- sollen stattdessen im Süden weitergraben weil erzhaltiger
+		- gesamt
+			- Zwerge würden von Fürst in Hügel geführt
+			- waren enttäuscht weil keine richtigen Berge und keine größere Erzader gefunden nach mehreren Monaten
+			- Fürst bestand darauf weiter zu suchen
+			- vor etwa einem Jahr sieben Zwerge bei Einsturz im Südwesten verschüttet
+			- Unglücksstelle gemieden, da Geister angeblich dort spuken
+			- in Folgezeit hin und wieder Zwerge verschwunden (vermutlich desertiert)
+			- nachdem Statue gefunden wurde, erste Anzeichen von Orkaktivität
+			- erste Angriffe abgewehrt
+			- Zwerge in Mine verschanzt
+			- letzter Eintrag: Orks und Oger rücken gegen Eingang vor
+- fünfter Raum (Schlafsaal)
+	- Gegner - schlafende Orks
+- weitere Schlafsäle
+	- Loot - Tränke, Geld, Schmuck, etc.
+- sechster Raum (Trinkhalle)
+	- zerschlagenes Geschirr, Essensreste, Bierlachen, Weinlachen (oder Blut?)
+	- Gegner - Orks sitzen vornübergebeugt am Tisch
+- siebter Raum (Raum des Zwergenfürsten)
+	- magisch gesicherte Truhe
+		- enthält besonderen Schlüssel (für Loch in Regal)
+	- Regal mit Loch in der Rückwand
+	- Regale mit Büchern über Bergbau
+- achter Raum (Vorratskammer)
+	- Fass mit Zwergenleiche kopfüber
+		- Mund ist komischerweise geschlossen
+		- Hat Schlüssel (für Truhe in Raum des Zwergenfürsten) darin versteckt
+	- Feuerstelle
+	- Vorratsregale und Fässer
+	- Loot - ein paar intakte Rationen, ggf. Kräuter
+- neunter Raum (Bierlager)
+	- tote Orks (zu Tode gesoffen)
+	- etwas Bier zu retten
+- zehnter Raum (geheimer Raum hinter Regal im Raum des Zwergenfürsten)
+	- Leiche des Zwergenfürsten
+	- Loot - Gold
+	- Tagebuch
+		- sehr geschwächt
+		- Schlüssel vergessen, kann nicht mehr raus
+		- Suche nach "dem Buch" hat so viele Leben gefordert
+		- Buch sollte zerstört werden
+		- um es zu finden muss man Fragen des Gehörnten richtig beantworten
+		- nur zwei Fragen mit Ja beantworten
+	- Truhe mit zerfetzten Briefen und Dokumenten
+		- manche lassen sich noch zusammensetzen
+			- Buch soll vorsichtig behandelt werden und am besten ungeöffnet bei K. abgeliefert werden
+			- Schreiber war mit anderem bei der Statue, der hat erste Frage bejaht und wurde mit Feuerstrahl aus den Augen der Statue verbrannt
+			- Brief von Freund außerhalb der Mine: Orks verhalten sich merkwürdig, Anführer besonders schlau, sprechen teils sogar Zwergisch
+- elfter Raum
+	- Truhe
+		- Innenboden zu hoch (vollständig glatt, muss also von außen geöffnet werden)
+		- kleiner Haken an der Unterseite und gleich darüber eine kleine Nadel
+		- Loot - magischer Armreif
+- Gang zum Abstieg in die Mine
+	- einsturzgefährdet
+	- stürzt ein wenn Gruppe einfach durchgeht
+	- Gegner - Orks dahinter 
+
+
+
+## Zweite Ebene
+- Gang (direkt nach Abstieg)
+	- Geräusche von Orks sind zu hören
+	- zwei Orks schleppen Zwergenleiche und werfen sie nahen Abhang hinunter
+	- sprechen von Ungeheuern die unten lauern
+	- drehen sich um, sehen Gruppe, einer stürzt und reißt den anderen mit
+- mehrere Gänge und Ausgrabungsorte
+- teils liegt Ausgrabungswerkzeug wild herum (bei Angriff alles fallen lassen)
+- teils eingestürzte Stollen
+- erster Raum mit Tür
+	- Gegner - Orks
+	- Tisch mit Essensresten
+- zweiter Raum Vorratsraum
+	- Fässer
+		- Wasser
+		- Kästchen am Boden eines Fasses
+			- Loot - Schmuck
+- verletzter Ork kommt um die Ecke
+	- wenn am Leben gelassen beschimpft er Gruppe, aber sagt auch was von Fallen
+	- stirbt
+- überfluteter Bereich
+	- Riesenblutegel im Wasser
+	- Loot - magischer Zweihänder
+- Wand mit anderer Gesteinsschicht (glatter)
+	- Steinspalter (Keil) steckt in der Wand
+- Bereich mit komischem Geruch
+	- Skelett liegt am Boden mit Rüstung und Zweihänder
+	- steht auf und kämpft wenn jemand versucht zu looten
+- große Halle mit Steinsäulen
+	- gehörnter Kopf mit Tür im Maul spricht Gruppe an
+		- stellt fünf Fragen
+			- Habt ihr geschändet mein Volk und seinen Tod beschlossen? Nein
+			- Seid ihr gekommen diese Hallen zu plündern? Nein
+			- Schwört ihr aller Gier und Habsucht ab? Ja
+			- Begehrt ihr Einlass zu den Kammern ohne Seele? Ja
+			- Kann der Blinde sehen oder der Stumme schreien? Nein
+		- wenn alles richtig öffnet sich die Tür -> dritte Ebene
+## Dritte Ebene
+- Raum (nach Rutsche)
+	- Boden bewegt sich
+	- Gegner - Spinnen
+	- Leichenberg
+		- Loot - Schmuck
+- Raum (nach Halle mit Säulen)
+	- langer Steingang (behauen)
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe V
+	- eine Bodenplatte ist sauber, alle daneben voll mit Blut -> Fallgrube
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe E
+	- Löcher in der Wand, geschickt in Mauerunebenheiten verborgen -> Bolzenfalle
+		- eine Bodenplatte ist etwas höher
+		- mehrere Auslöser versteckt
+	- relativ offensichtliche Bodenplatte und Bolzenfalle
+		- kurz dahinter Stolperdraht der die Falle eigentlich auslöst
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe R
+	- verkanteter Steinblock an der Decke
+		- löst sich wenn jemand drunter durch geht (fällt nicht ganz zu Boden)
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe G
+	- große Bodenplatte
+		- kein Mechanismus zu finden
+		- Fallgrube
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe E
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe B
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe U
+	- Bodenplatte die erst beim Anheben auslöst -> Bolzenfalle
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe N
+	- Buchstabe an der Wand herausgemeißelt und von metallischem Glanz umgeben
+		- alte Magiersprache -> Buchstabe G
+	- Flechte an der Wand
+		- erstes Anzeichen von Leben
+		- dahinter bewegliche Platte
+			- nichts passiert
+			- erste wenn drei Gesichter erledigt sind, öffnet sich eine Geheimtür
+	- drei Türen nebeneinander
+		- alle drei Türen
+			- nach kurzem Weg Steinplatte mit Gesicht
+				- Was sucht ihr hier? Vergebung -> Gesicht verschwindet
+	- Geheime Kammer
+		- Orks stehen hinter einem Pult an der gegenüberliegenden Wand
+		- beschwören einen Dämon
+		- wenn Dämon besiegt
+			- Gegner - Orks
+				- Manresh dabei
+				- wenn getötet, kriecht ein riesiger wurmartiger Parasit aus dem gespaltenen Schädel und verschwindet in einer Gesteinsspalte

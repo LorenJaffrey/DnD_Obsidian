@@ -1,0 +1,21 @@
+# `=this.file.name`
+[[Energieschaden]] wird meist durch stumpfe Gewalteinwirkung erzeugt.
+
+Folgende Effekte können [[Energieschaden]] verursachen:
+- Explosionen
+- Magie
+
+## Kritischer Energieschaden
+
+| W20   | Ergebnis                                | Schaden                              |                                                                                                                                                                                                                                     |
+| ----- | --------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Du nennst das einen kritischen Treffer? | Normaler Schaden                     |                                                                                                                                                                                                                                     |
+| 2-3   | Zaubergetroffen!                        | Normaler Schaden                     | [[Vorteil und Nachteil\|Nachteil]] bei [[Rettungswurf\|Rettungswürfen]] gegen Zauber bis zum Ende des nächsten Zuges                                                                                                                |
+| 4-6   | Guter Treffer!                          | doppelter Schaden                    |                                                                                                                                                                                                                                     |
+| 7-8   | Magische Leuchtkraft!                   | doppelter Schaden                    | Zauberangriffe gegen das Ziel haben bis zum Ende seines nächsten Zuges [[Vorteil und Nachteil\|Vorteil]]                                                                                                                            |
+| 9-11  | Großartiger Treffer!                    | maximaler Schaden + normaler Schaden |                                                                                                                                                                                                                                     |
+| 12-13 | Bezaubernder Schlag!                    | maximaler Schaden + normaler Schaden | Ziel ist bis zum Ende seines nächsten Zuges [[Verzaubert]].                                                                                                                                                                         |
+| 14-16 | Mystischer Magnet!                      | maximaler Schaden + normaler Schaden | Ziel ist für die nächste Minute [[Verzaubert]]. Am Ende jedes Zuges des Wesens kann es einen [[Rettungswurf]] auf [[Intelligenz]] gegen [[Schwierigkeitsgrad\|SG]] 14 ablegen, um diesen Effekt zu beenden.                         |
+| 17-18 | Verzaubert!                             | doppelter maximaler Schaden          | [[Leichte Verletzung]]; Ziel ist für die nächste Minute [[Verzaubert]]. Am Ende jedes Zuges des Wesens kann es einen [[Rettungswurf]] auf [[Intelligenz]] gegen [[Schwierigkeitsgrad\|SG]] 16 ablegen, um diesen Effekt zu beenden. |
+| 19    | Arkane Verletzung!                      | doppelter maximaler Schaden          | [[Schwere Verletzung]]                                                                                                                                                                                                              |
+| 20    | Magisch zerrissen!                      | doppelter maximaler Schaden          | [[Schwere Verletzung]]; Ziel ist für die nächste Minute [[Verzaubert]]. Am Ende jedes Zuges des Wesens kann es einen [[Rettungswurf]] auf [[Intelligenz]] gegen [[Schwierigkeitsgrad\|SG]] 18 ablegen, um diesen Effekt zu beenden. |

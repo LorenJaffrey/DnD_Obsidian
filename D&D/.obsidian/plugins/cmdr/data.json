@@ -1,0 +1,60 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "insert-template",
+      "icon": "lucide-copy",
+      "name": "Templates: Insert template",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-charts:creation-helper",
+      "icon": "bar-chart-2",
+      "name": "Obsidian Charts: Insert new Chart",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:9d568959-d7da-41a7-9f7f-da484ffe54c5",
+      "icon": "gem",
+      "name": "QuickAdd: Edelstein",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:05a84bdd-ad88-4c6e-bcde-90d4991ba8a2",
+      "icon": "wand",
+      "name": "QuickAdd: Zauber",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Templater",
+      "Advanced Tables Toolbar",
+      "Insert template",
+      "Create new canvas"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

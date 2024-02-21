@@ -1,0 +1,6 @@
+# `=this.file.name`
+Seraphina ist von mittlerem Alter und strahlt eine geheimnisvolle Aura aus, die sofort die Aufmerksamkeit auf sich zieht. Sie hat lange, tiefschwarze Haare, die in sanften Wellen über ihre Schultern fallen, und ihre Augen sind von einem tiefen Smaragdgrün, das an die Tiefen des Meeres erinnert. Ihr Lächeln ist warm und einladend, und sie hat eine natürliche Anmut, die ihre Präsenz beherrscht.
+
+Ihre Kleidung ist eine Kombination aus Eleganz und Praktikabilität. Sie trägt oft fließende Gewänder in schimmernden Blautönen, die an das Meer erinnern, und sie ist immer mit auffälligem, aber raffiniertem Schmuck geschmückt. Seraphina hat eine ruhige und gelassene Art, die Vertrauen und Respekt ausstrahlt, und sie versteht es, die Bedürfnisse ihrer Gäste zu erkennen und diskret zu erfüllen.
+
+Seraphina ist eine erfahrene Geschäftsfrau und kennt sich in den Feinheiten der Unterhaltungswelt aus. Ihre Anleitung und ihr Talent haben die "Mystische Grotte" zu einem Ort gemacht, an dem Reisende und Einheimische gleichermaßen Entspannung, Vergnügen und geheimnisvolle Genüsse finden können. Ihre Präsenz verleiht dem Etablissement eine besondere Note der Raffinesse und des Geheimnisvollen, die Gäste immer wieder anzieht.

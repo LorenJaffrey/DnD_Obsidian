@@ -1,0 +1,25 @@
+- [ ] #task Flankenangriff (Gegner in die Zange nehmen gibt +2 auf Angriffswürfe)  [priority:: low]
+- [ ] #task System Shock (mehr als 50% der [[Trefferpunkte]] in einer Runde verlieren = permanente Verletzung) [priority:: low]
+-  [ ] #task Mana System [priority:: low]
+	- Alle Zauberplätze zusammengerechnet = Maximales Mana des Charakters
+	- Höchster verfügbarer Zauber = Maximaler [[Zaubergrad]]
+- [ ] #task Kritische Effekte [priority:: low]
+	- https://www.reddit.com/r/DnDBehindTheScreen/comments/7jv4rm/damagetyped_critical_hits/
+	- https://sterlingvermin.files.wordpress.com/2016/09/critical-hits-revisited.pdf
+- [ ] #task Wrestling Regeln [priority:: low]
+- [ ] #task Alternative Initiative? [priority:: low]
+- [ ] #task [Statuseffekte Baldurs Gate](https://baldursgate3.wiki.fextralife.com/Status+Effects) [priority:: low]
+- Ausrüstung
+	- [ ] #task Fernkampfwaffen[priority:: low]
+	- [ ] #task Waffenaktionen [priority:: low]
+	- [ ] #task [Spezialpfeile](https://baldursgate3.wiki.fextralife.com/Ammunition) [priority:: low]
+- Klassen
+	- [ ] #task Schurke (Meistertüftler) [priority:: low]
+		- [ ] #task Mount (Mechaspider, Mechanostrider) [priority:: low]
+- Werkzeuge ergänzen
+	- [ ] #task Alchemie[priority:: low]
+- Reisen
+	- [ ] #task Zufallsbegegnungen  [priority:: low]
+	- [ ] #task Verpflegung finden [priority:: low]
+	- [ ] #task Ressourcen sammeln [priority:: low]
+- [x] #task Regeln für [Schriftrollen](https://www.dndbeyond.com/magic-items/5418-spell-scroll) [priority:: low]

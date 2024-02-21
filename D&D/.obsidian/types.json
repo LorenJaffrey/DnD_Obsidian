@@ -1,0 +1,27 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "verbal": "checkbox",
+    "geste": "checkbox",
+    "material": "checkbox",
+    "konzentration": "checkbox",
+    "ritual": "checkbox",
+    "skalierbar": "checkbox",
+    "grad": "number",
+    "klassen": "multitext",
+    "Eigenschaften": "multitext",
+    "Kategorie": "text",
+    "Gewicht": "text",
+    "EigenschaftenFern": "multitext",
+    "Hände": "number",
+    "Größe": "number",
+    "Alter": "number",
+    "Beruf": "multitext",
+    "Wiederholbar": "checkbox",
+    "Stufe": "number",
+    "Voraussetzungen": "multitext",
+    "Modifikator": "number"
+  }
+}

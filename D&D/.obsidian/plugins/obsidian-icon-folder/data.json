@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiMap",
+      "FasPerson",
+      "FasWandMagicSparkles",
+      "TiTool",
+      "TiTools"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Monster Manual": "SiMonster",
+  "Ausrüstung": "TiShoppingBag",
+  "Ausrüstung/Edelsteine": "LiGem",
+  "Ausrüstung/Getränke": "TiGlassFull",
+  "Ausrüstung/Speisen": "TiMeat",
+  "_DnD/Charaktere": "FasPerson",
+  "Kampagne": "LiMap"
+}

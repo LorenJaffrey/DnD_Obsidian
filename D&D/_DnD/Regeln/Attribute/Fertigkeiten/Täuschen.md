@@ -1,0 +1,15 @@
+---
+tags:
+- Fertigkeit/Charisma
+Attribut: "[[Charisma]]"
+---
+# `=this.file.name`
+
+Jemanden täuschen oder die Wahrheit verschleiern.
+Beispiele:
+- einen Wärter überreden
+- einen Händler übers Ohr hauen
+- Geld beim Glücksspiel verdienen
+- eine Verkleidung glaubhaft annehmen
+- jemandes Misstrauen durch falsche Zusicherungen zerstreuen
+- haarsträubende Lügen erzählen ohne dabei eine Miene zu verziehen

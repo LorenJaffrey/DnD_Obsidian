@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "dd5f89c5e0dbe812",
+    "type": "split",
+    "children": [
+      {
+        "id": "01885bd5f9635b68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153d3ce629e4e3de",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kampagne/01 - Die Drachen der Sturmwrack-Insel/Locations/Sternwarte auf den Klippen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0db8be709f7ae348",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kampagne/Gruppe/Gruppenstats.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b98c4064cc8c841e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kampagne/Niewinter/Örtlichkeiten/Protektor Enklave.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eba64f6f9b549f90",
+    "type": "split",
+    "children": [
+      {
+        "id": "76fffc56fa7a9908",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2d564bb14886840",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2271dd179de432a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "21265a841ad4ac4b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.5
+  },
+  "right": {
+    "id": "2d22f6c17148bb79",
+    "type": "split",
+    "children": [
+      {
+        "id": "147863f4820b545a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ddda094fa83e17f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kampagne/Niewinter/Örtlichkeiten/Protektor Enklave.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9801a6b6d4f7e76",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kampagne/Niewinter/Örtlichkeiten/Protektor Enklave.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f0e3cc3f4ba801c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1798e6def674b71e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kampagne/Niewinter/Örtlichkeiten/Protektor Enklave.md"
+              }
+            }
+          },
+          {
+            "id": "be21a61eb9a56a5c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "89f537cde42621fe",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 349.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "templater-obsidian:Templater": true,
+      "cmdr:QuickAdd: Edelstein": false,
+      "cmdr:QuickAdd: Zauber": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
+    }
+  },
+  "active": "b98c4064cc8c841e",
+  "lastOpenFiles": [
+    "Kampagne/Niewinter/Örtlichkeiten/Schwarzwasserviertel.md",
+    "Kampagne/Gruppe/Gruppenstats.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Protektor Enklave.md",
+    "Kampagne/Niewinter/Personen/Soman Galt.md",
+    "Kampagne/Niewinter/Fraktionen/Mintarn-Söldner.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Haus des Wissens.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Halle der Gerechtigkeit.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Brannurs Zuverlässiges Rüstzeug.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Brannwyns Scharfe Klingen.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Burg Nie.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Der Mantelturm.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Der Splitter des Mondes.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Die Halle der Helden.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Die Mondstein Maske.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Die Treibholz Taverne.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Die Halle der Helden (conflicted copy 2023-07-23 144923).md",
+    "Kampagne/Niewinter/Personen/Thaladon Sternenwind.md",
+    "Kampagne/Niewinter/Personen/Prestan Kenning.md",
+    "Kampagne/Niewinter/Personen/Ophala Cheldarstorn.md",
+    "Kampagne/Niewinter/Personen/Madame Rosene.md",
+    "Kampagne/Niewinter/Personen/Liset Cheldar.md",
+    "Kampagne/Niewinter/Personen/Dagult Nieglut.md",
+    "Kampagne/Niewinter/Personen/Branwynn Luthger.md",
+    "Kampagne/Niewinter/Örtlichkeiten/Thaladon's Wundersame Elixiere.md",
+    "Kampagne/01 - Die Drachen der Sturmwrack-Insel/Zufallsbegegnungen/Was, wer Eulenbär!.md",
+    "Kampagne/Niewinter/Fraktionen/Söhne von Alagondar.md",
+    "Kampagne/Niewinter/Fraktionen",
+    "_DnD/_Attachments/NeverwinterMapClean.jpg",
+    "_DnD/_Attachments/Neverwinter/Locations/shard_of_the_moon.png",
+    "Vorlagen",
+    "_DnD/Charaktere/Regeln/Kampf/Aktionen/Angreifen",
+    "_DnD/Charaktere/Regeln/Kampf/Aktionen",
+    "_DnD/Charaktere/Regeln/Attribute/Fertigkeiten",
+    "_DnD/Charaktere/Regeln/Attribute/Attribute",
+    "_DnD/Charaktere/Regeln/Zustände",
+    "_DnD/Charaktere/Regeln/Umgebung",
+    "_DnD/Charaktere/Regeln/Kampf",
+    "_DnD/Charaktere/Regeln/Attribute",
+    "_DnD/_Attachments/Gesinnungsmatrix.jpg",
+    "_DnD/_Attachments/Neverwinter/Charaktere/Branwynn Lutgehr.png",
+    "_DnD/_Attachments/Neverwinter/Charaktere/Brannur_Luthger.png",
+    "_DnD/_Attachments/Neverwinter/Locations/castle_never.jpg",
+    "_DnD/_Attachments/Neverwinter/Locations/beached_leviathan.png",
+    "_DnD/_Attachments/Neverwinter/Locations/moonstone_mask_2.png",
+    "_DnD/_Attachments/Neverwinter/Locations/moonstone_mask_1.png",
+    "_DnD/Regeln/Kampf/0. Kampfablauf.canvas",
+    "_DnD/_Attachments/Maps/toril.jpg",
+    "DnD/Regeln/Kampf/0. Kampfablauf.canvas"
+  ]
+}

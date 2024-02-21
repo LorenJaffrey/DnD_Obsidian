@@ -1,0 +1,7 @@
+---
+aliases: Neverember
+---
+# `=this.file.name`
+[[Haus Neverember]] war ursprünglich eine Adelsfamilie, die sowohl in [[Niewinter]] als auch in [[Tiefwasser]] lebte. Diese Familie stieg zu Ruhm auf, als [[Dagult Nieglut]] sowohl zum offenen Lord von [[Tiefwasser]] als auch zum Lord Protektor von [[Niewinter]] wurde. Doch im Jahr 1489 DR verschworen sich [[Dagult Nieglut]]s Feinde, um ihn als offenen Lord zu ersetzen und aus [[Tiefwasser]] zu verbannen. In diesen Tagen konzentriert sich [[Dagult Nieglut]] ausschließlich auf [[Niewinter]] und bemüht sich, die Stadt in ihrer vollen Pracht wiederherzustellen, während er nur Hass für die Menschen hegt, die ihn aus [[Tiefwasser]] verbannten. Aus diesem Grund gibt es einen verborgenen Konflikt zwischen den beiden Städten, der in einer Art Kaltem Krieg besteht, bei dem gegenseitig Spione und verdeckte Operationen entsendet werden.
+
+Das einzige andere aktuelle Mitglied dieser Familie ist [[Dagult Nieglut|Dagult]]s Sohn [[Renaer Neverember]]. Er steht seinem Vater ziemlich distanziert gegenüber, da er seit dem Verlust seiner Mutter das umfangreiche Eigentum der gesamten Familie geerbt hat, um das er sich kümmern musste, während sein Vater seine Zeit im Palast verbrachte.

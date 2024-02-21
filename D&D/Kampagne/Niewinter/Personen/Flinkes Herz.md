@@ -1,0 +1,6 @@
+# `=this.file.name`
+![[flinkes_herz.png|400]]
+Flinkes Herz ist eine ältere weibliche Tabaxi und ehemalige Abenteurerin. 
+Sie hat nach einem langen Leben voller abenteuerlicher Schatzsuchen ihre kleine Schatzsammlung genutzt, um sich niederzulassen und ihren Ruhestand zu suchen. Immer mutig wählte sie jedoch absichtlich eine unbekannte Stadt, um ihren Laden zu eröffnen. Sie dachte, dass sich das Niederlassen an einem fremden Ort ihr zumindest auch im "Ruhestand" Spannung bieten würde. Im Laufe ihrer Reisen hat sie zahlreiche Verbindungen zu Lieferanten und Händlern geknüpft und vermutet, dass sie diese Verbindungen nutzen kann, um einen profitablen kleinen Laden zu betreiben. Als sie hörte, dass es in [[Niewinter]]s [[Kluftdistrikt]] fast kostenloses Land gab, eilte sie in die Stadt, um ihren Laden zu eröffnen.
+
+[[Flinkes Herz]] hat jetzt eine entspannte und einfühlsame Art, aber sie wird Ihnen als Erste sagen, dass sie in ihrer Jugend eine leidenschaftliche Abenteurerin war. Sie erzählt Ihnen gerne eine oder zwei Geschichten über ihre gefährlichen Treks durch Dschungel voller riesiger giftiger Schlangen, lebensbedrohliche Erlebnisse beim Wandern in endlosen Wüstendünen oder Zeiten, die sie auf hoher See mit ihrem tabaxischen Kapitänfreund Stands in Tar verbracht hat.

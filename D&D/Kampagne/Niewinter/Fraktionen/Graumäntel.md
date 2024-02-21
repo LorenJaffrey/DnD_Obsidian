@@ -1,0 +1,6 @@
+# `=this.file.name`
+Die andere Fraktion, die [[Graumäntel]] fungiert in den meisten Angelegenheiten als Diplomaten. Sie setzen [[Dagult Nieglut|Lord Nieglut]] unter Druck, dem Volk mehr politische Macht zu geben, aber ihre Bemühungen sind nur mit geringem Erfolg gekrönt, da ihr Name durch die gewaltsamen Bemühungen der [[Nasher]] in den Schmutz gezogen wird.
+
+Die Fraktion hat sich mittlerweile weitgehend mit [[Dagult Nieglut|Nieglut]]s Herrschaft arrangiert, viele ihrer Mitglieder sind sogar in die Armee von [[Niewinter]] eingetreten (da sie es für besser halten, ihre eigene Armee zu kontrollieren, anstatt weiterhin den [[Mintarn-Söldner]]n Macht in der Stadt zu überlassen).
+
+Vor all diesen Gruppen gab es eine Organisation namens die [[Graumäntel]], benannt nach den grauen Umhängen, die sie trugen, die während des 14. Jahrhunderts DR die einzige Polizeikraft der Stadt [[Niewinter]] bildeten. Sie lösten sich nach der Zerstörung des alten [[Niewinter]] auf, aber sie haben diese Fraktion der [[Söhne von Alagondar]] inspiriert.

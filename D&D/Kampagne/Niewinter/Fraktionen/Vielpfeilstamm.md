@@ -1,0 +1,2 @@
+# `=this.file.name`
+Einst eine dominante Macht, mit der man rechnen musste, die [[Niewinter]] im Auftrag von König Obould XVII überfiel, ist jetzt nur noch ein einzelner Kundschafter in den Schatten übrig geblieben. Sie hatten hauptsächlich Macht im [[Turmdistrikt]], halten sich aber nun in einer Taverne am Hafen namens [[Hafenspalte]] versteckt.

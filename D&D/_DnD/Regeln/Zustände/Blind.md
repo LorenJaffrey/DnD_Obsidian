@@ -1,0 +1,8 @@
+---
+tags:
+- Zustand
+---
+# `=this.file.name`
+
+- ﻿﻿Eine blinde Kreatur kann nicht sehen und scheitert automatisch bei allen [[Attribute|Attributswürfen]], die Sicht erfordern.
+- ﻿﻿Ein [[Angriffswurf]] gegen die Kreatur ist immer im [[Vorteil und Nachteil|Vorteil]], die Kreatur ist bei ihrem [[Angriffswurf]] hingegen im [[Vorteil und Nachteil|Nachteil]].

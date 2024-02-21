@@ -1,0 +1,10 @@
+- Geschlecht
+- Größe und Gewicht
+- Andere körperliche Charakteristika
+	- Alter
+	- Haarfarbe
+	- Hautfarbe
+	- Bart
+	- Narben
+	- Muttermale
+	- Tattoos

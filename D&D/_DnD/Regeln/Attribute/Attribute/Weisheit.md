@@ -1,0 +1,26 @@
+---
+aliases: Weisheitswurf, Weisheitswürfe, WE
+tags:
+- Attribut
+---
+# `=this.file.name`
+
+Stellt dar wie gut du auf die Welt um dich herum eingestimmt bist.
+Repräsentiert Wahrnehmung und Intuition.
+Wird benötigt um Körpersprache oder Gefühle einer Person zu verstehen, Dinge in der Umgebung zu bemerken oder um Verletzte zu kümmern.
+
+## Weisheitsmodifikator
+![[Attribute#Attributsmodifikator]]
+
+## Verbundene Fertigkeiten
+```dataview
+TABLE
+FROM #Fertigkeit/Weisheit
+```
+
+## Sonstige Tätigkeiten
+- ein Bauchgefühl bekommen wie man vorgehen sollte
+- herausfinden ob eine scheinbar lebende oder tote Kreatur untot ist
+
+## Attribut zum Zauberwirken
+[[Druide]], [[Kleriker]] und [[Waldläufer]] benutzen Weisheit als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].

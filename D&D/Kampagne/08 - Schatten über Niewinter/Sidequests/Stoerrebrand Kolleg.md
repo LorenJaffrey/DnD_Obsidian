@@ -1,0 +1,3 @@
+- Absolvent des Kollegs muss Rätsel lösen und braucht dafür Hilfe
+- muss Horn an verschiedenen Orten blasen um nächsten Hinweis zu erhalten
+- am Ende erhält er magische Gegenstände von denen er einen abgibt
