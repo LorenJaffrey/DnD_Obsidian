@@ -3,6 +3,6 @@
   "deleteOutsideNoteWithFolder": false,
   "indexName": "_about_",
   "autoRename": true,
-  "folderNoteTemplate": "# `=this.file.name`",
+  "folderNoteTemplate": "{{FOLDER_NAME}}",
   "logLevel": 4
 }
