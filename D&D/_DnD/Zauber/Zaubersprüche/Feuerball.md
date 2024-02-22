@@ -1,0 +1,38 @@
+---
+aliases:
+  - Fireball
+tags:
+  - Zauber
+Grad: 3
+Schule: "[[Hervorrufungszauber|Hervorrufung]]"
+Zeitaufwand: "[[Zug#Aktion]]"
+Reichweite: 45 Meter
+Verbal: true
+Geste: true
+Material: true
+Materialkosten: 
+Dauer: unmittelbar
+Konzentration: false
+Ritual: false
+Skalierbar: true
+Klassen:
+- "[[Magier]]"
+- "[[Zauberer]]"
+---
+# `=this.file.name`
+*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
+
+Zeitaufwand: `=this.Zeitaufwand`
+Reichweite: `=this.Reichweite`
+Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
+Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+
+## Beschreibung
+Ein gleißender Lichtblitz schießt aus einem deiner Finger zu einem Punkt deiner Wahl in Reichweite und erblüht mit einem dunklen Grollen zu einer feurigen Explosion aus Flammen. 
+Alle Kreaturen in einem Radius von 6 m um diesen Punkt müssen einen Geschicklichkeitsrettungswurf ablegen. 
+Bei einem Misserfolg erleidet ein Ziel 8W6 [[Feuerschaden]] oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
+
+Das Feuer kann sich um Ecken ausbreiten. Es entzündet alle brennbaren Gegenstände im Bereich, die nicht getragen oder in der Hand gehalten werden.
+
+### Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 4. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 3. hinaus um 1W6.
