@@ -1,3 +1,6 @@
+---
+aliases: Hexenmeisterzauber
+---
 # `=this.file.name`
 
 ```dataview
