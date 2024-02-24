@@ -1,5 +1,5 @@
 ---
-Charakter: "[[Character Sheet Vorlage]]"
+Charakter: "[[Aranon]]"
 Geld:
   PM: 0
   GM: 203
