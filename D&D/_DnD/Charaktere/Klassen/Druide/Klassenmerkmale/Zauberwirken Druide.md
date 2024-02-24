@@ -8,7 +8,7 @@ tags:
 Indem du dich der göttlichen Essenz der Natur bedienst, kannst du [[Zauber wirken]] und diese Essenz nach deinem Willen formen. 
 
 ## Zaubertricks
-Auf Stufe 1 kennst du zwei beliebige Zaubertricks aus der [[Zauberliste des Druiden]]. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der [[Druide#Klassentabelle]] angegeben ist.
+Auf Stufe 1 kennst du zwei beliebige [[Zaubertricks]] aus der [[Zauberliste des Druiden]]. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der [[Druide#Klassentabelle]] angegeben ist.
 
 ## Vorbereiten und Wirken von Zaubern
 Du musst Zaubersprüche vorbereiten, um sie wirken zu können.
@@ -23,7 +23,7 @@ Du kannst nur Sprüche aussuchen, für deren [[Zaubergrad]] du auch [[Zauberplä
 Die [[Druide#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] pro [[Zaubergrad]] dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen [[Zauberplätze|Zauberplatz]] des gleichen oder eines höheren [[Zaubergrad]]s verbrauchen. Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Lange Rast]] wieder zur Verfügung. 
 
 >[!example]
->Hast du beispielsweise den Zauber [[Wunden heilen]] des 1. Grades vorbereitet, kannst du sowohl einen [[Zauberplätze|Zauberplatz]] des 1. [[Zaubergrad]]s als auch einen des 2. [[Zaubergrad]]s verwenden, um [[Wunden heilen]] zu wirken.
+>Hast du beispielsweise den Zauber [[Wunden heilen]] des 1. [[Zaubergrad|Grades]] vorbereitet, kannst du sowohl einen [[Zauberplätze|Zauberplatz]] des 1. [[Zaubergrad]]s als auch einen des 2. [[Zaubergrad]]s verwenden, um [[Wunden heilen]] zu wirken.
 
 Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder [[Lange Rast]] ändern. 
 Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je [[Zaubergrad]] pro Spruch.

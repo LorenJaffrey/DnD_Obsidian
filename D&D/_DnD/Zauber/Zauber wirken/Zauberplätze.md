@@ -1,6 +1,8 @@
 ---
-aliases: Zauberplatz
+aliases:
+  - Zauberplatz
 ---
+# `=this.file.name`
 Charaktere können nur eine bestimmte Anzahl an Zaubern einsetzen bevor sie Rasten müssen.
 Jeder Charakter hat eine bestimmte Anzahl an `=this.file.name`n pro [[Zaubergrad]] zur Verfügung. 
 Das Wirken von Zaubern verbraucht dann einen `=this.aliases` des entsprechenden [[Zaubergrad]]s.
