@@ -25,11 +25,11 @@ Moral: 3
 ## Plot Hook
 
 ### Zerstörung des Zirkels
-- Kräfte des [[Einhorn]]s gehen auf [[Aranon]] über
+- Kräfte des [[Einhorn]]s gehen auf [[Aranon DM Notes]] über
 	- in stressigen Situationen
 	- Rettungswurf auf [[Weisheit]] gegen variablen [[Schwierigkeitsgrad|SG]] sonst wird er wegteleportiert
 - Wer hat den Stamm ausgelöscht?
-- [[Lucian]] hat zur Vernichtung der Sippe beigetragen
+- [[Lucian DM Notes]] hat zur Vernichtung der Sippe beigetragen
 
 ### Psychischer Stress
 #### Stresslevel
