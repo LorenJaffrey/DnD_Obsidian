@@ -1,32 +1,38 @@
 # `=this.file.name`
+KW 8
 
 ## Regeln
 
 ## Recap
-- Gruppe ist in [[Tresendar Anwesen]] eingedrungen
-- haben diverse Türen verrammelt
+- Gruppe hat [[Tresendar Anwesen]] infiltriert
+	- haben diverse Türen verbarrikadiert
+	- Geheimtür wurde verrammelt
+- wurden im Labor von Ratten-Vertrautem von [[Iarno Albrek|Glasstab]] entdeckt
+	- [[Grottenschrat]] ist durch die Tür geschmettert und hat [[Niptac]]angegriffen
 
-## Szenen
+## Ablauf
+- [[Überraschung]]
+- [[Sildar Hallwinter]] kann sich befreien und dem einzelnen Rotbrenner ein Schwert abnehmen
+- [[Rotbrenner]] im Nachbarraum hören die Kampfgeräusche und versuchen durch die Tür zu gelangen
+
 - [[Szene Rückkehr der Schürfer]]
 
-## Hooks
-- Überlebende des Brands
-	- [[Don-Jon Raskin]] war in der [[Bierhalle Schlafender Riese]]
-	- [[Sildar Hallwinter]] hat noch drei [[Rotbrenner]]  getötet bevor er von den [[Grottenschrat|Grottenschraten]] überwältigt wurde
-	- [[Gasthaus Steinhügel#Toblen Steinhügel]] und Familie wurden entführt
-- Gäste im [[Gasthaus Steinhügel]] deuten auf [[Erlenblatt Hof]] hin
-- [[Sildar Hallwinter]] setzt sich zur Gruppe
-	- Priorität haben die [[Rotbrenner]], will Vorgehen wissen
-	- auch wenn er [[Gundren Felssucher|Gundren]] schnellstmöglich retten will fehlen die Anhaltspunkte
-	- sollten sich auch um die Übergriffe kümmern
+## Hintergrundinfos
 
-## Tresendar Anwesen
-- [[Rotbrenner]] erwarten Ärger
+### Phandalin
+- [[Don-Jon Raskin]] war in der [[Bierhalle Schlafender Riese]]
+- [[Sildar Hallwinter]] hat noch drei [[Rotbrenner]]  getötet bevor er von den [[Grottenschrat|Grottenschraten]] überwältigt wurde
+- [[Gasthaus Steinhügel#Toblen Steinhügel]] und Familie wurden entführt und werden im [[Tresendar Anwesen]] festgehalten
 
-## Secrets and Clues
-1. [[Drogan]] hat das Amulett versteckt
-	1. Hat das Amulett [[Lucian]] gezeigt zum identifizieren -> nicht erfolgreich
-2. [[Gundren Felssucher|Gundren]] und sein Begleiter wurden auf dem Weg nach [[Phandalin]] überfallen und entführt
-3. [[Gundren Felssucher|Gundren]] hatte Karte zur [[Wellenhallhöhle]] dabei
-5. [[Gundren Felssucher|Gundren]] wurde zur [[Burg Cragmaw]] gebracht
-6. Der weiße Drache [[Cryovain]] wurde von der [[Schwarze Spinne|Schwarzen Spinne]] versklavt und überfällt wahllos Höfe, Siedlungen und Lager in der Gegend
+### Gundren Felssucher
+- hat Drogan ein verziertes Amulett gegeben
+	- [[Drogan DM Notes]] hat das Amulett versteckt
+	- hat das Amulett [[Lucian]] gezeigt zum identifizieren -> nicht erfolgreich
+- [[Gundren Felssucher|Gundren]] wurde zur [[Burg Cragmaw]] gebracht
+- [[Gundren Felssucher|Gundren]] hatte Karte zur [[Wellenhallhöhle]] dabei
+ 
+### Cryovain
+- Der weiße Drache [[Cryovain]] wurde von der [[Schwarze Spinne|Schwarzen Spinne]] versklavt und überfällt wahllos Höfe, Siedlungen und Lager in der Gegend
+
+### Schwarze Spinne
+- 
