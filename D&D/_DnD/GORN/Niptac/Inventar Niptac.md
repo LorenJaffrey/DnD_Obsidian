@@ -48,16 +48,15 @@ Geld:
 | ------------------------------------------------------------------ |:------:|:-------:|:------:|
 | [[Schlafsack]]                                                     |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
-| [[Fackel]]                                                         |   10   |    1    |   10   |
+| [[Fackel]]                                                         |   9    |    1    |   9    |
 | [[Rationen\|Ration]]                                               |   10   |    1    |   10   |
 | [[Trinkschlauch]]                                                  |   1    |    0    |   0    |
-| [[Hanfseil]] in m                                                  |   15   |   0.5   |  7.5   |
 | [[Beschlagene Lederrüstung]] (ranzig)                              |   1    |   13    |   13   |
 | [[Dolch]]e                                                         |   5    |    1    |   5    |
-| Armbrust Bolzen                                                    |   15   |   1.5   |  22.5  |
+| Armbrust Bolzen                                                    |   13   |   1.5   |  22.5  |
 | Obsidianscherben                                                   |   5    |  0.25   |  1.25  |
 | Gildenabzeichen                                                    |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches \n mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| GESAMT                                                             |        |         | 77.25  |
+| GESAMT                                                             |        |         | 68.75  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
