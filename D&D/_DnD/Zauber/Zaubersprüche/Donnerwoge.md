@@ -2,8 +2,7 @@
 aliases: 
 - Thunderwave
 tags: 
-- Zauber/Art/Schaden/Schall
-- Zauber/Wirkungsbereich/Bereich/Würfel
+- Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

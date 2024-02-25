@@ -2,8 +2,7 @@
 aliases:
   - Entangle
 tags:
-  - Zauber/Art/CC
-  - Zauber/Wirkungsbereich/Quadrat
+  - Zauber
 Grad: 1
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

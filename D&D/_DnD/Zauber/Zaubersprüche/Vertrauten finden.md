@@ -2,7 +2,7 @@
 aliases:
   - Find Familiar
 tags:
-  - Zauber/Art/Beschwörung
+  - Zauber
 Grad: 1
 Schule: "[[Beschwörungszauber]]"
 Zeitaufwand: 1h

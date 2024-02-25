@@ -2,7 +2,7 @@
 aliases: 
 - Mage Hand
 tags: 
-- Zauber/Art/Utility
+- Zauber
 Grad: 0
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

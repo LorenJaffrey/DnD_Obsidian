@@ -2,7 +2,7 @@
 aliases: 
 - Identify
 tags: 
-- Zauber/Art/Utility
+- Zauber
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
 Zeitaufwand: 1m

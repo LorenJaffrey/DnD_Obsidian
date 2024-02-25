@@ -2,7 +2,7 @@
 aliases:
   - Sign of Terror
 tags:
-  - Zauber/Art/CC
+  - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

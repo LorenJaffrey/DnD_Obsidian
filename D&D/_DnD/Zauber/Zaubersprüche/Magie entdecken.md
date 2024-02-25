@@ -2,7 +2,7 @@
 aliases: 
 - Detect Magic
 tags: 
-- Zauber/Art/Utility
+- Zauber
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
 Zeitaufwand: "[[Zug#Aktion]]"

@@ -2,7 +2,7 @@
 aliases: 
 - Druidcraft
 tags: 
-- Zauber/Art/Utility
+- Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

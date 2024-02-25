@@ -2,8 +2,7 @@
 aliases: 
 - Eldritch Blast
 tags:
-- Zauber/Art/Schaden/Energie
-- Zauber/Wirkungsbereich/Geschoss
+- Zauber
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

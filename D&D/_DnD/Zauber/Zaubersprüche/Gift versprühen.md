@@ -2,8 +2,7 @@
 aliases: 
 - Poison Spray
 tags: 
-- Zauber/Art/Schaden/Gift
-- Zauber/Wirkungsbereich/Geschoss
+- Zauber
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

@@ -2,8 +2,7 @@
 aliases: 
 - Hellish Rebuke
 tags: 
-- Zauber/Art/Schaden/Feuer
-- Zauber/Wirkungsbereich/Geschoss
+- Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Reaktion]]"

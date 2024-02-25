@@ -2,8 +2,7 @@
 aliases:
 - Thorn Whip
 tags:
-- Zauber/Art/Schaden/Stich
-- Zauber/Wirkungsbereich/Geschoss
+- Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

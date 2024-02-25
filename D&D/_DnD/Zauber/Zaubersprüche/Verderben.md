@@ -2,7 +2,7 @@
 aliases: 
 - Bane
 tags: 
-- Zauber/Art/Debuff
+- Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

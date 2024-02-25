@@ -2,8 +2,7 @@
 aliases:
 - Burning Hands
 tags:
-- Zauber/Art/Schaden/Feuer
-- Zauber/Wirkungsbereich/Bereich/Kegel
+- Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

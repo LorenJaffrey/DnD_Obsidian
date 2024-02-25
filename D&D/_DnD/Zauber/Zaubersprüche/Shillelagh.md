@@ -1,6 +1,6 @@
 ---
 tags: 
-- Zauber/Art/Buff
+- Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Zug#Bonusaktion]]"

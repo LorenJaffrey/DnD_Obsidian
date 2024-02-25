@@ -2,7 +2,7 @@
 aliases: 
 - Healing Word
 tags: 
-- Zauber/Art/Heilung
+- Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Zug#Bonusaktion]]"

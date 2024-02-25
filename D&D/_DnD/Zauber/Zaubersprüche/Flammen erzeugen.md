@@ -2,8 +2,7 @@
 aliases: 
 - Produce Flame
 tags: 
-- Zauber/Art/Schaden/Feuer
-- Zauber/Wirkungsbereich/Geschoss
+- Zauber
 Grad: 0
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

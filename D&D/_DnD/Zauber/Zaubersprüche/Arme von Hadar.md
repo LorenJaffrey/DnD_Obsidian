@@ -2,9 +2,7 @@
 aliases:
 - Arms of Hadar
 tags:
-- Zauber/Art/Schaden/Nekrotisch
-- Zauber/Art/Debuff
-- Zauber/Wirkungsbereich/Bereich/Kreis
+- Zauber
 Grad: 1
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Zug#Aktion]]"

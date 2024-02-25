@@ -1,7 +1,7 @@
 ---
 alias: Minor Illusion
 tags: 
-- Zauber/Art/Utility
+- Zauber
 Grad: 0
 Schule: "[[Illusionszauber|Illusion]]"
 Zeitaufwand: "[[Zug#Aktion]]"
