@@ -27,31 +27,31 @@ Geld:
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 
 ## Am Körper
-| Gegenstand                | Anzahl | Gewicht | Gesamt |
-| ------------------------- |:------:|:-------:|:------:|
-| [[Kampfstab]]             |   1    |    7    |   7    |
-| [[Krummsäbel]]            |   1    |    3    |   3    |
-| [[Gewöhnliche Kleidung]]  |   1    |    3    |   3    |
-| Druidischer Fokus / Totem |   1    |    0    |   0    |
-| [[Gildenabzeichen]]       |   1    |    0    |   0    |
-| GESAMT                    |        |         |   13   |
+| Gegenstand                                | Anzahl | Gewicht | Gesamt |
+| ----------------------------------------- |:------:|:-------:|:------:|
+| [[Kampfstab]]                             |   1    |    7    |   7    |
+| [[Krummsäbel]]                            |   1    |    3    |   3    |
+| Gewöhnliche Kleidung                      |   1    |    3    |   3    |
+| [[Druidischer Fokus]] (Horn des Einhorns) |   1    |    0    |   0    |
+| [[Gildenabzeichen]]                       |   1    |    0    |   0    |
+| [[Reisegeschirr]]                         |   1    |    1    |   1    |
+| GESAMT                                    |        |         |   13   |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
 ## Rucksack
-| Gegenstand                | Anzahl | Gewicht | Gesamt |
-| ------------------------- |:------:|:-------:|:------:|
-| [[Schlafsack]]            |   1    |    5    |   5    |
-| [[Zunderkästchen]]        |   1    |    1    |   1    |
-| [[Reisegeschirr]]         |   1    |    1    |   1    |
-| [[Schleuder]]             |   1    |    1    |   1    |
-| [[Holzschild]]            |   1    |    6    |   6    |
-| [[Fackel]]                |   2    |    1    |   2    |
-| [[Tagesration]]           |   12   |    1    |   12   |
-| [[Trinkschlauch]]         |   1    |    4    |   4    |
-| [[Hanfseil]] 12m          |   1    |   10    |   10   |
-| [[Schnaps]]               |   0    |    1    |   0    |
-| [[Schriftrollenbehälter]] |   1    |    1    |   1    |
-| GESAMT                    |        |         |   43   |
+| Gegenstand                        | Anzahl | Gewicht | Gesamt |
+| --------------------------------- |:------:|:-------:|:------:|
+| Schlafsack                        |   1    |    5    |   5    |
+| Zunderkästchen                    |   1    |    1    |   1    |
+| [[Schleuder]]                     |   1    |    1    |   1    |
+| [[Holzschild]]                    |   1    |    6    |   6    |
+| [[Fackel]]                        |   2    |    1    |   2    |
+| [[Rationen\|Ration]]              |   12   |    1    |   12   |
+| [[Trinkschläuche\|Trinkschlauch]] |   1    |    4    |   4    |
+| Hanfseil in Metern                |   13   |  0.66   |  8.58  |
+| [[Einfacher Rum]]                 |   0    |    1    |   0    |
+| [[Schriftrollenbehälter]]         |   1    |    1    |   1    |
+| GESAMT                            |        |         | 41.58  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

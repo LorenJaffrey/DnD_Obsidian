@@ -49,7 +49,7 @@ Geld:
 | Hammer                                                              |   1    |    3    |   3    |
 | [[Kletterhaken]]                                                    |   10   |  0.25   |  2.5   |
 | [[Rationen\|Ration]]                                                |   15   |    1    |   15   |
-| Hanfseil (15m)                                                      |   1    |   10    |   10   |
+| Hanfseil in Metern                                                  |   15   |  0.66   |  9.9   |
 | Zunderkästchen                                                      |   1    |    1    |   1    |
 | Fackel                                                              |   3    |    1    |   3    |
 | [[Trinkschläuche\|Trinkschlauch]]                                   |   1    |    4    |   4    |
@@ -64,6 +64,6 @@ Geld:
 | [[Obsidianscherben]]                                                |   5    |   0.2   |   1    |
 | [[Zauberstab der Magieerkennung]]                                   |   1    |    1    |   1    |
 | [[Zauberschriftrollen\|Zauberschriftrolle]] ([[Person festhalten]]) |   1    |  0.25   |  0.25  |
-| GESAMT                                                              |        |         | 59.45  |
+| GESAMT                                                              |        |         | 59.35  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

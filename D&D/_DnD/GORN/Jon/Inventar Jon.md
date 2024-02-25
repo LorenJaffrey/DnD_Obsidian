@@ -37,7 +37,7 @@ Geld:
 | [[Holzschild]]                                               |   1    |    3    |   3    |
 | [[Kurzschwert]]                                              |   2    |    2    |   4    |
 | [[Dolch]]                                                    |   1    |    2    |   2    |
-| [[Pfeile]]                                                       |   34   |  0.05   |  1.7   |
+| [[Pfeile]]                                                   |   34   |  0.05   |  1.7   |
 | [[Reisegeschirr]]                                            |   1    |    1    |   1    |
 | [[Rucksack]]                                                 |   1    |    5    |   5    |
 | Freundschaftsarmband                                         |   1    |  0.25   |  0.25  |
@@ -45,30 +45,30 @@ Geld:
 | [[Beschlagene Lederrüstung]] (mit blauen Drachenschuppen)    |   1    |   13    |   13   |
 | Klamotten                                                    |   1    |    3    |   3    |
 | Rotbrenner Verkleidung                                       |   1    |    1    |   1    |
-| GESAMT                                                       |        |         |  45.2  | 
+| GESAMT                                                       |        |         |  45.2  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
 ## Rucksack
 | Gegenstand                                    | Anzahl | Gewicht | Gesamt |
 | --------------------------------------------- |:------:|:-------:|:------:|
-| [[Schlafsack]]                                |   1    |    7    |   7    |
-| [[Zunderkästchen]]                            |   1    |    1    |   1    |
-| [[Fackel]]                                    |   10   |    1    |   10   |
+| Schlafsack                                    |   1    |    7    |   7    |
+| Zunderkästchen                                |   1    |    1    |   1    |
+| Fackel                                        |   10   |    1    |   10   |
 | [[Rationen\|Ration]] (5 Silber)               |   15   |    1    |   15   |
-| [[Trinkschlauch]] (2,5 Liter)                 |   1    |    0    |   0    |
-| [[Hanfseil]] in m                             |   15   |   0.5   |  7.5   |
+| [[Trinkschläuche\|Trinkschlauch]] (2,5 Liter) |   1    |    0    |   0    |
+| Hanfseil in Metern                            |   15   |  0.66   |  9.9   |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                       |   1    |    2    |   2    |
 | [[Lederrüstung]] (ranzig)                     |   1    |   10    |   10   |
-| [[Kettenhemd]] (ranzig)                       |   1    |   30    |   30   | 
+| [[Kettenhemd]] (ranzig)                       |   1    |   30    |   30   |
 | [[Windsporen-Pilz]] (Stunde lang nicht atmen) |   1    |    0    |   0    |
 | [[Obsidianscherben]]                          |   5    |  0.05   |  0.25  |
 | blau durchsichtiger Edelstein                 |   1    |    0    |   0    |
 | [[Gildenabzeichen]]                           |   1    |    0    |   0    |
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
-| [[Bier]] (Flaschen)                           |   3    |   0.5   |  1.5   |
-| 1/2 Flasche [[Wein]]                          |   1    |   0.5   |  0.5   |
-| GESAMT                                        |        |         | 91.75  |
+| [[Einfaches Bier]] (Flaschen)                 |   3    |   0.5   |  1.5   |
+| 1/2 Flasche [[Einfacher Wein]]                |   1    |   0.5   |  0.5   |
+| GESAMT                                        |        |         | 94.15  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

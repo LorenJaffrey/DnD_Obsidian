@@ -29,17 +29,17 @@ Geld:
 ## Am Körper
 | Gegenstand                   | Anzahl | Gewicht | Gesamt |
 | ---------------------------- |:------:|:-------:|:------:|
-| [[Kurzschwert]]              |   1    |    7    |   7    |
-| [[Dolch]]                    |   1    |    2    |   2    |
-| [[Schleuder]]                |   1    |    2    |   2    |
-| [[Leichte Armbrust]]         |   5    |    2    |   10   |
+| [[Kurzschwert]]              |   1    |    2    |   2    |
+| [[Dolch]]                    |   1    |    1    |   1    |
+| [[Schleuder]]                |   1    |    0    |   0    |
+| [[Leichte Armbrust]]         |   1    |    5    |   5    |
 | [[Reisegeschirr]]            |   1    |    1    |   1    |
 | [[Stiefel der Elfen]]        |   1    |    1    |   1    |
-| [[Rucksack]]                 |   1    |    0    |   0    |
+| [[Rucksack]]                 |   1    |    5    |   5    |
 | [[Diebeswerkzeug]]           |   1    |    1    |   1    |
 | Freundschaftsarmband         |   1    |  0.25   |  0.25  |
 | [[Beschlagene Lederrüstung]] |   1    |   13    |   13   |
-| GESAMT                       |        |         | 37.25  |
+| GESAMT                       |        |         | 29.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -52,11 +52,11 @@ Geld:
 | [[Rationen\|Ration]]                                               |   10   |    1    |   10   |
 | [[Trinkschlauch]]                                                  |   1    |    0    |   0    |
 | [[Beschlagene Lederrüstung]] (ranzig)                              |   1    |   13    |   13   |
-| [[Dolch]]e                                                         |   5    |    1    |   5    |
-| Armbrust Bolzen                                                    |   13   |   1.5   |  22.5  |
-| Obsidianscherben                                                   |   5    |  0.25   |  1.25  |
-| Gildenabzeichen                                                    |   1    |    0    |   0    |
+| [[Dolch]]                                                          |   5    |    1    |   5    |
+| Armbrust Bolzen                                                    |   13   |  0.075  | 0.975  |
+| [[Obsidianscherben]]                                               |   5    |  0.25   |  1.25  |
+| [[Gildenabzeichen]]                                                |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches \n mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| GESAMT                                                             |        |         | 68.75  |
+| GESAMT                                                             |        |         | 47.225 |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
