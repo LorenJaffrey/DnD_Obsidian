@@ -1,7 +1,7 @@
 ---
 tags:
-- Edelstein/Farbe/blau
-- Edelstein/Lichtdurchlässigkeit/undurchsichtig
+- Gegenstand/Edelstein/Farbe/blau
+- Gegenstand/Edelstein/Lichtdurchlässigkeit/undurchsichtig
 Farben: hellblau-grünlich
 Wert: 10 GM
 Lichtdurchlässigkeit: undurchsichtig

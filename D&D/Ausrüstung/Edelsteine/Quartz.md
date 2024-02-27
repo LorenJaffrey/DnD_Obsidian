@@ -1,9 +1,9 @@
 ---
 tags:
-- Edelstein/Farbe/weiß
-- Edelstein/Farbe/grau
-- Edelstein/Farbe/gelb
-- Edelstein/Lichtdurchlässigkeit/durchsichtig
+- Gegenstand/Edelstein/Farbe/weiß
+- Gegenstand/Edelstein/Farbe/grau
+- Gegenstand/Edelstein/Farbe/gelb
+- Gegenstand/Edelstein/Lichtdurchlässigkeit/durchsichtig
 Farben: weiß, rauchiges grau oder gelb
 Wert: 50 GM
 Lichtdurchlässigkeit: durchsichtig

@@ -1,7 +1,7 @@
 ---
 tags:
-- Edelstein/Farbe/braun
-- Edelstein/Lichtdurchlässigkeit/lichtdurchlässig
+- Gegenstand/Edelstein/Farbe/braun
+- Gegenstand/Edelstein/Lichtdurchlässigkeit/lichtdurchlässig
 Farben: braun mit goldener Mitte
 Wert: 10 GM
 Lichtdurchlässigkeit: lichtdurchlässig

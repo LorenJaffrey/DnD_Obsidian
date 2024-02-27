@@ -1,7 +1,7 @@
 ---
 tags:
-  - Edelstein/Farbe/grau
-  - Edelstein/Lichtdurchlässigkeit/undurchsichtig
+  - Gegenstand/Edelstein/Farbe/grau
+  - Gegenstand/Edelstein/Lichtdurchlässigkeit/undurchsichtig
 Farben: dunkelgrau mit roten Flecken
 Wert: 50 GM
 Lichtdurchlässigkeit: undurchsichtig

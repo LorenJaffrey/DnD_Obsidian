@@ -1,7 +1,7 @@
 ---
 tags:
-- Edelstein/Farbe/schwarz
-- Edelstein/Lichtdurchlässigkeit/undurchsichtig
+- Gegenstand/Edelstein/Farbe/schwarz
+- Gegenstand/Edelstein/Lichtdurchlässigkeit/undurchsichtig
 Farben: schwarz
 Wert: 10 GM
 Lichtdurchlässigkeit: undurchsichtig

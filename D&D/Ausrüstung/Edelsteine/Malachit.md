@@ -1,7 +1,7 @@
 ---
 tags:
-  - Edelstein/Farbe/grün
-  - Edelstein/Lichtdurchlässigkeit/undurchsichtig
+  - Gegenstand/Edelstein/Farbe/grün
+  - Gegenstand/Edelstein/Lichtdurchlässigkeit/undurchsichtig
 Farben: hell- und dunkelgrün gestreift
 Wert: 10 GM
 Lichtdurchlässigkeit: undurchsichtig
