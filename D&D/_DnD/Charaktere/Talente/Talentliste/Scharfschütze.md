@@ -23,7 +23,7 @@ Wiederholbar: false
 Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Weitschuss
-Du bist beim [[Angriffswurf]] nicht im [[Vorteil und Nachteil|Nachteil]], wenn du ein Ziel angreifst, das sich weiter entfernt befindet als die #Reichweite/Grundreichweite deiner Waffe.
+Du bist beim [[Angriffswurf]] nicht im [[Vorteil und Nachteil|Nachteil]], wenn du ein Ziel angreifst, das sich weiter entfernt befindet als die [[Fernkampfangriff#Grundreichweite]] deiner Waffe.
 
 ## Deckung umgehen
 ﻿﻿Deine [[Fernkampfangriff|Fernkampfangriffe]] ignorieren [[Deckung#Halbe Deckung]] und [[Deckung#Dreiviertel Deckung]].

@@ -8,4 +8,4 @@ tags:
 - Sie lässt fallen, was sie in Händen hält, und stürzt zu Boden ([[Liegend]]).
 - Sie scheitert automatisch bei [[Rettungswurf|Rettungswürfen]] auf [[Stärke]] und [[Geschicklichkeit]].
 - ﻿﻿Ein [[Angriffswurf]] gegen die Kreatur ist immer im [[Vorteil und Nachteil|Vorteil]].
-- ﻿﻿Jeder [[Angriff]], der die Kreatur trifft, ist automatisch ein [[Kritische Treffer|Kritischer Treffer]], wenn sich der Angreifer in #Reichweite/Nahkampfreichweite um die Kreatur befindet. 
+- ﻿﻿Jeder [[Angriff]], der die Kreatur trifft, ist automatisch ein [[Kritische Treffer|Kritischer Treffer]], wenn sich der Angreifer in Nahkampfreichweite um die Kreatur befindet. 

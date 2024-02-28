@@ -30,7 +30,7 @@ Führt eine Kreatur ohne [[Schwimmen]] einen [[Nahkampfangriff]] unter Wasser au
 - [[Wurfspeer]] 
 - [[Dreizack]]
 
-Ein [[Fernkampfangriff]] verfehlt automatisch wenn er außerhalb der #Reichweite/Grundreichweite ausgeführt wird.
-Innerhalb der #Reichweite/Grundreichweite hat der [[Fernkampfangriff]] [[Vorteil und Nachteil|Nachteil]] wenn er nicht mit einer [[Schwere Armbrust]], oder einer Wurfwaffe ähnlich einem [[Wurfspeer]] durchgeführt wurde.
+Ein [[Fernkampfangriff]] verfehlt automatisch wenn er außerhalb der [[Fernkampfangriff#Grundreichweite]] ausgeführt wird.
+Innerhalb der [[Fernkampfangriff#Grundreichweite]] hat der [[Fernkampfangriff]] [[Vorteil und Nachteil|Nachteil]] wenn er nicht mit einer [[Schwere Armbrust]], oder einer Wurfwaffe ähnlich einem [[Wurfspeer]] durchgeführt wurde.
 
 Kreaturen die sich vollständig im Wasser befinden haben eine [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]] .

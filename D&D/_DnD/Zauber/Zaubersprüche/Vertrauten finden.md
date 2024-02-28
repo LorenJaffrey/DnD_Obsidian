@@ -54,4 +54,4 @@ Solange sich dein Vertrauter innerhalb von 30 m aufhält, bist du in der Lage, t
 
 Du kannst nicht mehr als einen Vertrauten gleichzeitig haben.
 Wenn du diesen Zauber wirkst, obwohl du bereits über einen Vertrauten verfügst, lässt du ihn stattdessen eine neue Gestalt annehmen. Wähle eins der oben genannten Tiere, in das sich dein Vertrauter verwandelt.
-Wenn du außerdem einen Zauber mit der #Reichweite/Berührung wirkst, kann dein Vertrauter diesen überbringen, als hättest du ihn gewirkt. Dein Vertrauter muss sich innerhalb von 30 m von dir befinden und seine [[Zug#Reaktion]] verwenden, um den Zauber zu überbringen, wenn du ihn wirkst. Erfordert der Zauber einen [[Zauberangriffswürfe|Zauberangriffswurf]], verwende deinen Angriffsmodifikator für den Wurf.
+Wenn du außerdem einen Zauber mit der Reichweite Berührung wirkst, kann dein Vertrauter diesen überbringen, als hättest du ihn gewirkt. Dein Vertrauter muss sich innerhalb von 30 m von dir befinden und seine [[Zug#Reaktion]] verwenden, um den Zauber zu überbringen, wenn du ihn wirkst. Erfordert der Zauber einen [[Zauberangriffswürfe|Zauberangriffswurf]], verwende deinen Angriffsmodifikator für den Wurf.

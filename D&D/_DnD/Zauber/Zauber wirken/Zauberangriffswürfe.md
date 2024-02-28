@@ -8,7 +8,7 @@ Einige Zauber erfordern, dass der Wirkende einen [[Zauberangriffswürfe|Zauberan
 Dein Angriffsbonus mit einem Zauberangriff entspricht dem Modifikator deines [[Zauberattribut]]s + deinem [[Übung|Übungsbonus]]. 
 
 Die meisten Sprüche, die [[Zauberangriffswürfe]] erfordern, sind [[Fernkampfangriff|Fernkampfangriffe]]. 
-Vergiss nicht, dass du [[Bedroht]] bist, wenn du dich in #Reichweite/Nahkampfreichweite einer feindliche Kreatur befindest, die dich sehen kann und nicht [[Kampfunfähig]] ist.
+Vergiss nicht, dass du [[Bedroht]] bist, wenn du dich in Nahkampfreichweite einer feindliche Kreatur befindest, die dich sehen kann und nicht [[Kampfunfähig]] ist.
 
 >[!info] Zauberangriffswurf
 >W20 + [[Übung|Übungsbonus]] + [[Attribute#Attributsmodifikator]] (primäres [[Zauberattribut]])

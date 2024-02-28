@@ -23,7 +23,7 @@ Wiederholbar: false
 Erhöhe deine [[Stärke]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Schildschlag
-﻿﻿Wenn du in deinem [[Zug]] als [[Zug#Aktion]] [[Angriff]] wählst, kannst du deine [[Zug#Bonusaktion]] dazu verwenden, eine Kreatur in #Reichweite/Nahkampfreichweite mit deinem [[Schilde|Schild]] zurückzustoßen.
+﻿﻿Wenn du in deinem [[Zug]] als [[Zug#Aktion]] [[Angriff]] wählst, kannst du deine [[Zug#Bonusaktion]] dazu verwenden, eine Kreatur in Nahkampfreichweite mit deinem [[Schilde|Schild]] zurückzustoßen.
 Das Ziel muss einen [[Rettungswurf]] gegen [[Schwierigkeitsgrad|SG]] 8 + deinen [[Stärke#Stärkemodifikator]] + deinen [[Übung|Übungsbonus]] bestehen. Bei einem Misserfolg wird das Ziel entweder [[Liegend|zu Boden]] gestoßen oder 1,5m (1 Kästchen) von dir weggestoßen.
 Du kannst diese Fähigkeit nur einmal pro [[Zug]] nutzen.
 

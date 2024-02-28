@@ -22,7 +22,7 @@ Dein Wissen über hölzerne Gegenstände liefert dir zusätzliche Informationen,
 ### Pfeile anfertigen
 Als Teil einer kurzen Rast kannst du bis zu fünf Pfeile anfertigen. Als Teil einer langen Rast kannst du bis zu zwanzig herstellen. 
 Um die Pfeile herstellen zu können, musst du genug Holz zur Hand haben. 
-Für die Befiederung benötigst du außerdem Federn,  Leim, sowie eine Schnur. Pfeile ohne Befiederung halbieren die #Reichweite/Grundreichweite und #Reichweite/Maximalreichweite des benutzten Bogens
+Für die Befiederung benötigst du außerdem Federn,  Leim, sowie eine Schnur. Pfeile ohne Befiederung halbieren die [[Fernkampfangriff#Grundreichweite]] und [[Fernkampfangriff#Maximalreichweite]] des benutzten Bogens
 Für die Pfeilspitze wird außerdem eine geschmiedete (oder ähnliche) Spitze benötigt. Pfeile ohne Spitze erhalten [[Vorteil und Nachteil|Nachteil]] beim [[Schadenswurf]].
 
 ### Reparieren
