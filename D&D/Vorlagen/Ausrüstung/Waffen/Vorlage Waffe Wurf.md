@@ -1,10 +1,10 @@
 ---
 tags:
-- Waffe/Art
-- Waffe/Größe
-- Waffe/Gruppe
-- Waffe/Kategorie
-- Waffe/Klasse
+- Gegenstand/Waffe/Art
+- Gegenstand/Waffe/Größe
+- Gegenstand/Waffe/Gruppe
+- Gegenstand/Waffe/Kategorie
+- Gegenstand/Waffe/Klasse
 Schaden:
 Schadensart:
 Eigenschaften:
@@ -28,6 +28,12 @@ Verfügbarkeit:
 | Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
 | ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
 | `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
+
+## `=this.file.name` (Wurf)
+
+| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 

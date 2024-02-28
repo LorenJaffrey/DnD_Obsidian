@@ -1,6 +1,6 @@
 ---
 tags:
-- Ausrüstung/Rüstung
+- Gegenstand/Rüstung
 Klasse: Leicht/Mittel/Schwer/Schild
 RP:
 SR:

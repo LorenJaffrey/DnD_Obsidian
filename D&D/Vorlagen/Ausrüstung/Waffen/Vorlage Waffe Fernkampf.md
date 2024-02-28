@@ -1,10 +1,10 @@
 ---
 tags:
-- Waffe/Art
-- Waffe/Größe
-- Waffe/Gruppe
-- Waffe/Kategorie
-- Waffe/Klasse
+- Gegenstand/Waffe/Art
+- Gegenstand/Waffe/Größe
+- Gegenstand/Waffe/Gruppe
+- Gegenstand/Waffe/Kategorie
+- Gegenstand/Waffe/Klasse
 Schaden:
 Schadensart:
 Eigenschaften:

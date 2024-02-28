@@ -1,7 +1,7 @@
 ---
 tags:
-- Edelstein/Farbe
-- Edelstein/Lichtdurchlässigkeit
+- Gegenstand/Edelstein/Farbe
+- Gegenstand/Edelstein/Lichtdurchlässigkeit
 Farben:
 Lichtdurchlässigkeit:
 Wert:
