@@ -313,7 +313,7 @@ Fertigkeiten:
 - [[Leichte Armbrust]] oder beliebige [[Einfache Waffen|Einfache Waffe]]
 - [[Lederrüstung]]
 - [[Ausrüstungssets#Gewölbeforscherausrüstung]] oder [[Ausrüstungssets#Gelehrtenausrüstung]]
-- #Ausrüstung/Materialkomponentenbeutel oder #Ausrüstung/Arkaner_Fokus
+- [[Materialkomponentenbeutel]] oder [[Arkaner Fokus]]
 - beliebige [[Einfache Waffen|Einfache Waffe]]
 - zwei [[Dolch]]e 
 

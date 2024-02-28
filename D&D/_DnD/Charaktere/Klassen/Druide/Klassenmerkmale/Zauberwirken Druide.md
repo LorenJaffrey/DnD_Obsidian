@@ -42,4 +42,4 @@ Wird der [[Schwierigkeitsgrad]] für einen [[Rettungswurf]] gegen deine Druidenz
 Du kannst einen Druidenzauber als [[Rituale|Ritual]] wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.
 
 ## Zauberfokus
-Du kannst einen #Ausrüstung/Druidischer_Fokus als #Ausrüstung/Zauberfokus für deine Druidenzauber verwenden.
+Du kannst einen [[Druidischer Fokus|Druidischen Fokus]] als [[Zauberfokus]] für deine Druidenzauber verwenden.

@@ -1,6 +1,6 @@
 ---
 tags:
-- Ausrüstung/Nahrungsmittel/Getränke
+- Gegenstand/Nahrungsmittel/Getränk
 Preis: 
 Art: 
 ---

@@ -1,17 +1,17 @@
 # `=this.file.name`
 
-`=this.file.name` wird in der Mengeneinheit [[Trinkschläuche]] verwaltet. Ein [[Trinkschläuche|Trinkschlauch]] entspricht dabei 2 Liter Wasser.
-Ein Charakter benötigt einen [[Trinkschläuche|Trinkschlauch]] pro Tag oder bis zu 2 [[Trinkschläuche]] bei heißem Klima. 
+`=this.file.name` wird in der Mengeneinheit [[Trinkschlauch\|Trinkschläuche]] verwaltet. Ein [[Trinkschlauch]] entspricht dabei 2 Liter Wasser.
+Ein Charakter benötigt einen [[Trinkschlauch]] pro Tag oder bis zu 2 [[Trinkschlauch\|Trinkschläuche]] bei heißem Klima. 
 
 ## Bedarf an `=this.file.name`
 | Kreaturengröße |            Bedarf pro Tag             |
 | -------------- |:-------------------------------------:|
-| Winzig         | 1/2 [[Trinkschläuche\|Trinkschlauch]] |
-| Klein          |         2 [[Trinkschläuche]]          |
-| Mittel         |         2 [[Trinkschläuche]]          |
-| Groß           |         8 [[Trinkschläuche]]          |
-| Sehr groß      |         32 [[Trinkschläuche]]         |
-| Gigantisch     |        128 [[Trinkschläuche]]         |
+| Winzig         |         1/2 [[Trinkschlauch]]         |
+| Klein          |  2 [[Trinkschlauch\|Trinkschläuche]]  |
+| Mittel         |  2 [[Trinkschlauch\|Trinkschläuche]]  |
+| Groß           |  8 [[Trinkschlauch\|Trinkschläuche]]  |
+| Sehr groß      | 32 [[Trinkschlauch\|Trinkschläuche]]  |
+| Gigantisch     | 128 [[Trinkschlauch\|Trinkschläuche]] |
 
 ## Aufnahme von `=this.file.name` reduzieren
 Nimmt ein Charakter nur die halbe Menge zu sich, muss er am Ende des Tages einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder er erleidet eine Stufe [[Erschöpft|Erschöpfung]].

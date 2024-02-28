@@ -6,7 +6,7 @@ aliases:
 
 Eine `=this.file.name` ist eine Zeitspanne der Ruhe, die mindestens 1 Stunde dauern muss und in der die Charaktere nichts Anstrengenderes unternehmen als zu essen, zu trinken, zu lesen oder ihre Wunden zu versorgen.
 
-Um den Effekt einer `=this.aliases[0]` nutzen zu können muss ein Charakter eine [[Rationen|Ration]] sowie einen halben [[Trinkschläuche|Trinkschlauch]] (einen vollen in heißem Klima) verbrauchen.
+Um den Effekt einer `=this.aliases[0]` nutzen zu können muss ein Charakter eine [[Ration]] sowie einen halben [[Trinkschlauch]] (einen vollen in heißem Klima) verbrauchen.
 
 Pro [[Lange Rast|Langer Rast]] kann ein Charakter maximal zweimal den Effekt einer [[Kurze Rast|Kurzen Rast]] nutzen.
 
@@ -20,7 +20,7 @@ Einige der verbrauchten [[Trefferwürfel]] erhält jeder Abenteurer nach Beenden
 > ### Voraussetzungen
 >- min. 1 Stunde
 >- nichts anstrengenderes tun als essen, trinken, Wunden versorgen
->- 1 [[Rationen|Tagesration]] nötig, sowie ein halbvoller [[Trinkschläuche|Trinkschlauch]]
+>- 1 [[Ration]] nötig, sowie ein halbvoller [[Trinkschlauch]]
 >- max. 2 [[Kurze Rast]] pro [[Lange Rast]]
 >### Effekt
 >- einen oder mehrere [[Trefferwürfel]] ausgeben (bis zur Höchstzahl der Trefferwürfel = Charakterstufe)

@@ -22,4 +22,4 @@ Du lernst einen [[Zaubertricks|Zaubertrick]] und einen [[Zauber des 1. Grades]] 
 
 Du kannst den [[ Zauber des 1. Grades]] ohne [[Zauberplätze|Zauberplatz]] wirken und kannst ihn erst nach einer [[Lange Rast|Langen Rast]] auf diese Weise erneut wirken. Du kannst den Zauber auch mit einem beliebigen verfügbaren [[Zauberplätze|Zauberplatz]] wirken.
 
-Du hast [[Übung]] im Umgang mit einem [[Werkzeuge]] deiner Wahl und kannst dieses [[Werkzeuge]] als #Ausrüstung/Zauberfokus für Zauber verwenden, die du mit [[Intelligenz]] als Attribut zum [[Zauber wirken]] wirkst.
+Du hast [[Übung]] im Umgang mit einem [[Werkzeuge]] deiner Wahl und kannst dieses [[Werkzeuge]] als [[Zauberfokus]] für Zauber verwenden, die du mit [[Intelligenz]] als Attribut zum [[Zauber wirken]] wirkst.

@@ -9,5 +9,5 @@ Mindestens die Hälfte des Ziels muss verdeckt sein.
 Mindestens dreiviertel des Ziels muss verdeckt sein.
 
 ## Vollständige Deckung
-Kann nicht von Angriffen oder Zaubern getroffen werden die #Sichtlinie benötigen.
+Kann nicht von Angriffen oder Zaubern getroffen werden die Sichtlinie benötigen.
 Kompletter Körper muss verdeckt sein.
