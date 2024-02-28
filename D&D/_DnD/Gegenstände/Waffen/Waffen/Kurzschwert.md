@@ -26,7 +26,6 @@ Kosten: 15 GM
 Verfügbarkeit: gewöhnlich
 ---
 ## `=this.file.name`
-Test
 
 | Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
 | ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |

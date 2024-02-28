@@ -6,6 +6,6 @@ tags:
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Ausrüstung/Waffen/Waffen" AND #Waffe/Art/Hiebwaffe 
+FROM "_DnD/Gegenstände/Waffen/Waffen" AND #Gegenstand/Waffe/Art/Hiebwaffe 
 SORT größe, file.name
 ```

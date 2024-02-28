@@ -2,5 +2,5 @@
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Ausrüstung/Waffen/Waffen"
+FROM "_DnD/Gegenstände/Waffen/Waffen"
 ```

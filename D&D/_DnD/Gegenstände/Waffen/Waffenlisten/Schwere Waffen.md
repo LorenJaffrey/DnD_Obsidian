@@ -7,5 +7,5 @@ tags:
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Ausrüstung/Waffen/Waffen"  AND #Waffe/Klasse/Nahkampfwaffe AND #Waffe/Schwer
+FROM "_DnD/Gegenstände/Waffen/Waffen"  AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND #Gegenstand/Waffe/Schwer
 ```

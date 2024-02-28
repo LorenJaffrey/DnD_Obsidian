@@ -6,5 +6,5 @@ tags:
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Ausrüstung/Waffen/Waffen" AND #Waffe/Gruppe/Stangenwaffe
+FROM "_DnD/Gegenstände/Waffen/Waffen" AND #Gegenstand/Waffe/Gruppe/Stangenwaffe
 ```
