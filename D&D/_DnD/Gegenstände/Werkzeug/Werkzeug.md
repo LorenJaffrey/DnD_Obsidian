@@ -20,5 +20,5 @@ Am Ende jeder Beschreibung führt eine Tabelle unterschiedliche Aktivitäten auf
 
 ```dataview
 TABLE kosten AS "Kosten", gewicht AS "Gewicht"
-FROM #Werkzeug
+FROM #Gegenstand/Werkzeug
 ```

@@ -1,7 +1,7 @@
 ---
 aliases: Musikinstrumente
 tags:
-- Werkzeug
+- Gegenstand/Werkzeug
 kosten: variiert
 gewicht: variiert
 ---

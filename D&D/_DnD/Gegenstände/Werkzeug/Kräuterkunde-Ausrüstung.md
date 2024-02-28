@@ -1,6 +1,6 @@
 ---
 tags:
-- Werkzeug/Handwerkszeug
+- Gegenstand/Werkzeug/Handwerkszeug
 kosten: 10 GM
 gewicht: 8
 ---

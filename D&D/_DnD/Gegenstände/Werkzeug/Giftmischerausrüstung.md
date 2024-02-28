@@ -1,6 +1,6 @@
 ---
 tags:
-- Werkzeug
+- Gegenstand/Werkzeug
 kosten: 50 GM
 gewicht: 2
 ---
