@@ -55,8 +55,8 @@ Geld:
 | Schlafsack                                    |   1    |    7    |   7    |
 | Zunderkästchen                                |   1    |    1    |   1    |
 | Fackel                                        |   10   |    1    |   10   |
-| [[Rationen\|Ration]] (5 Silber)               |   15   |    1    |   15   |
-| [[Trinkschläuche\|Trinkschlauch]] (2,5 Liter) |   1    |    0    |   0    |
+| [[Ration]] (5 Silber)                         |   15   |    1    |   15   |
+| [[Trinkschlauch]]                             |   1    |    4    |   4    |
 | Hanfseil in Metern                            |   15   |  0.66   |  9.9   |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                       |   1    |    2    |   2    |
@@ -69,6 +69,6 @@ Geld:
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
 | [[Einfaches Bier]] (Flaschen)                 |   3    |   0.5   |  1.5   |
 | 1/2 Flasche [[Einfacher Wein]]                |   1    |   0.5   |  0.5   |
-| GESAMT                                        |        |         | 94.15  |
+| GESAMT                                        |        |         | 98.15  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

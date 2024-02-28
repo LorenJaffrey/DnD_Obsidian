@@ -33,7 +33,6 @@ Geld:
 | [[Dolch]]                    |   1    |    1    |   1    |
 | [[Schleuder]]                |   1    |    0    |   0    |
 | [[Leichte Armbrust]]         |   1    |    5    |   5    |
-| [[Reisegeschirr]]            |   1    |    1    |   1    |
 | [[Stiefel der Elfen]]        |   1    |    1    |   1    |
 | [[Rucksack]]                 |   1    |    5    |   5    |
 | [[Diebeswerkzeug]]           |   1    |    1    |   1    |
@@ -49,14 +48,15 @@ Geld:
 | [[Schlafsack]]                                                     |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
 | [[Fackel]]                                                         |   9    |    1    |   9    |
-| [[Rationen\|Ration]]                                               |   10   |    1    |   10   |
-| [[Trinkschlauch]]                                                  |   1    |    0    |   0    |
+| [[Ration]]                                                         |   10   |    1    |   10   |
+| [[Trinkschlauch]]                                                  |   1    |    4    |   4    |
+| [[Reisegeschirr]]                                                  |   1    |    1    |   1    |
 | [[Beschlagene Lederrüstung]] (ranzig)                              |   1    |   13    |   13   |
 | [[Dolch]]                                                          |   5    |    1    |   5    |
 | Armbrust Bolzen                                                    |   13   |  0.075  | 0.975  |
 | [[Obsidianscherben]]                                               |   5    |  0.25   |  1.25  |
 | [[Gildenabzeichen]]                                                |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches \n mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| GESAMT                                                             |        |         | 47.225 |
+| GESAMT                                                             |        |         | 52.225 |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

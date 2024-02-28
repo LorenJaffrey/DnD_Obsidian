@@ -48,11 +48,11 @@ Geld:
 | Brechstange                                                         |   1    |    5    |   5    |
 | Hammer                                                              |   1    |    3    |   3    |
 | [[Kletterhaken]]                                                    |   10   |  0.25   |  2.5   |
-| [[Rationen\|Ration]]                                                |   15   |    1    |   15   |
+| [[Ration]]                                                          |   15   |    1    |   15   |
 | Hanfseil in Metern                                                  |   15   |  0.66   |  9.9   |
 | Zunderkästchen                                                      |   1    |    1    |   1    |
 | Fackel                                                              |   3    |    1    |   3    |
-| [[Trinkschläuche\|Trinkschlauch]]                                   |   1    |    4    |   4    |
+| [[Trinkschlauch]]                                                   |   1    |    4    |   4    |
 | Schreibfeder                                                        |   1    |    0    |   0    |
 | [[Windsporen-Pilz]]                                                 |   1    |    0    |   0    |
 | [[Einfacher Wein]]                                                  |   3    |    2    |   6    |
