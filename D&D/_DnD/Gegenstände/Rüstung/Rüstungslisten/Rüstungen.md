@@ -5,6 +5,6 @@ aliases: Rüstung
 
 ```dataview
 TABLE Klasse, RP, SR, Stärke, Dex_cap AS "GES Cap", Eigenschaften, Gewicht, Kosten
-FROM #Ausrüstung/Rüstung
+FROM #Gegenstand/Rüstung
 SORT Klasse, RP, SR
 ```

@@ -1,6 +1,6 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Mittel
+- Gegenstand/Rüstung/Mittel
 Klasse: "[[Mittelschwere Rüstung|Mittel]]"
 RP: 2
 SR: 2

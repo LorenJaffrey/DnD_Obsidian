@@ -1,23 +1,18 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Schwer
-Klasse: "[[Schwere Rüstung|Schwer]]"
-RP: 5
-SR: 3
-Stärke: 14
-Dex_cap: 2
+- Gegenstand/Rüstung/Schild
+Klasse: "[[Schilde|Schild]]"
+RP: 2
+SR: 1
+Stärke: 10
+Dex_cap:
 Eigenschaften: 
-- "[[Laut]]"
+- "[[Nichtmetallisch]]"
 
-Gewicht: 45 Pfund
-Kosten: 150 GM
+Gewicht: 6 Pfund
+Kosten: 10 GM
 ---
 # `=this.file.name`
-
-*Ein Kettenpanzer ist eine Ganzkörperrüstung die vorwiegend aus Kettengeflecht - feuergeschweißten bzw. vernieteten ineinander verflochtenen kleinen Metallringen - besteht. 
-Sie bedeckt den ganzen Körper vom Kopf bis zu den Beinen.*
-
-Ein [[Kettenpanzer]] beinhaltet einen darunter getragenen [[Gambeson]].
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |

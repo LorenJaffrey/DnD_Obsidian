@@ -1,20 +1,20 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Schwer
-Klasse: "[[Schwere Rüstung|Schwer]]"
-RP: 7
-SR: 5
+- Gegenstand/Rüstung/Mittel
+Klasse: "[[Mittelschwere Rüstung|Mittel]]"
+RP: 4
+SR: 3
 Stärke: 14
-Dex_cap: 1
-Eigenschaften: 
-- "[[Laut]]"
+Dex_cap: 2
+Eigenschaften:
+- "[[Bequem]]"
 
-Gewicht: 50 Pfund
-Kosten: 1000 GM
+Gewicht: 35 Pfund
+Kosten: 100 GM
 ---
 # `=this.file.name`
 
-Ein [[Plattenrüstung]] beinhaltet einen darunter getragenen [[Gambeson]].
+*Die Brigantine bestand aus zahlreichen Metallplättchen, die unter eine Lage Stoff, festem Leinen oder auch Samt genietet wurden. Die Nietköpfe, die an der Außenseite des Oberstoffes sichtbar wurden, bilden das typische Aussehen der Brigantine. Da die Plättchen in verschiedenen Größen gehalten waren und in unterschiedlicher Ausrichtung vernietet wurden, garantierte die Brigantine eine gute Kombination aus Beweglichkeit und Schutz*
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |

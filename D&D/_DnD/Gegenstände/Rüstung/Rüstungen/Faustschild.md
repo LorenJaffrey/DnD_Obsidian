@@ -1,6 +1,6 @@
 ---
 tags:
-  - Ausrüstung/Rüstung/Schild
+  - Gegenstand/Rüstung/Schild
 Klasse: "[[Schilde|Schild]]"
 RP: 1
 SR: 

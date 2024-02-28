@@ -1,20 +1,20 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Schwer
+- Gegenstand/Rüstung/Schwer
 Klasse: "[[Schwere Rüstung|Schwer]]"
-RP: 8
-SR: 6
-Stärke: 16
-Dex_cap: 0
+RP: 7
+SR: 5
+Stärke: 14
+Dex_cap: 1
 Eigenschaften: 
 - "[[Laut]]"
 
-Gewicht: 60 Pfund
-Kosten: 1500 GM
+Gewicht: 50 Pfund
+Kosten: 1000 GM
 ---
 # `=this.file.name`
 
-Ein [[Plattenharnisch]] beinhaltet einen darunter getragenen [[Gambeson]].
+Ein [[Plattenrüstung]] beinhaltet einen darunter getragenen [[Gambeson]].
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |

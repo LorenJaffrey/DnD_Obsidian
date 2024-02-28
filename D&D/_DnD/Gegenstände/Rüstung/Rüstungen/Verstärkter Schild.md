@@ -1,15 +1,15 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Leicht
-Klasse: "[[Leichte Rüstung|Leicht]]"
+- Gegenstand/Rüstung/Schild
+Klasse: "[[Schilde|Schild]]"
 RP: 2
-SR: 1
-Stärke:
-Dex_cap: 4
+SR: 2
+Stärke: 12
+Dex_cap:
 Eigenschaften:
 
-Gewicht: 13 Pfund
-Kosten: 45 GM
+Gewicht: 10 Pfund
+Kosten: 20 GM
 ---
 # `=this.file.name`
 

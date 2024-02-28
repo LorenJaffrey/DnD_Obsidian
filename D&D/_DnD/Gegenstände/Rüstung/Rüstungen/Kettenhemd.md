@@ -1,22 +1,20 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Schwer
-Klasse: "[[Schwere Rüstung|Schwer]]"
-RP: 5
-SR: 4
-Stärke: 14
-Dex_cap: 1
+- Gegenstand/Rüstung/Mittel
+Klasse: "[[Mittelschwere Rüstung|Mittel]]"
+RP: 3
+SR: 2
+Stärke: 12
+Dex_cap: 3
 Eigenschaften: 
 - "[[Laut]]"
 
-Gewicht: 50 Pfund
-Kosten: 500 GM
+Gewicht: 30 Pfund
+Kosten: 50 GM
 ---
 # `=this.file.name`
 
-*Schienenpanzer bestehen in der Regel aus Metallschienen, die um den Rumpf gebogen werden und durch auf Lederriemen genietete Scharniere und Schnallen und durch Schnürhaken zusammengehalten werden. Der Schienenpanzer bietet einen guten Schutz vor Klingen- und Hiebwaffen, aber ein Stoß mit einer Stichwaffe kann genau zwischen die Metallschienen geraten, so dass die Rüstung in diesem Fall nicht schützt.*
-
-Ein [[Schienenpanzer]] beinhaltet einen darunter getragenen [[Gambeson]].
+*Als Kettenhemd bezeichnet man eine Rüstung, die aus zahlreichen – feuergeschweißten bzw. vernieteten ineinander verflochtenen kleinen Metallringen besteht. Es ist von leichter Machart und kann daher leicht mit anderer Kleidung kombiniert werden. Kettenhemden bedecken meist nur Oberkörper und Arme und weisen manchmal einen kurzen Schoß auf der den oberen Teil der Beine bedeckt. *
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |

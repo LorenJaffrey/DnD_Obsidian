@@ -1,21 +1,18 @@
 ---
 tags:
-- Ausrüstung/Rüstung/Leicht
-Klasse: "[[Leichte Rüstung|Leicht]]"
-RP: 1
-SR:
-Stärke:
-Dex_cap: 3
+- Gegenstand/Rüstung/Schild
+Klasse: "[[Schilde|Schild]]"
+RP: 3
+SR: 3
+Stärke: 16
+Dex_cap:
 Eigenschaften: 
-- "[[Nichtmetallisch]]"
-- "[[Bequem]]"
+- "[[Mobile Deckung]]"
 
-Gewicht: 8 Pfund
-Kosten: 5 GM
+Gewicht: 25 Pfund
+Kosten: 35 GM
 ---
 # `=this.file.name`
-
-*Ein Gambeson ist ein textiles Rüstungsteil, das entweder aus mehreren Lagen Leinentuch bestand oder mit verschiedenen Materialien wie Rohwolle oder Stoffresten ausgestopft und abgesteppt war.*
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |

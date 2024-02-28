@@ -1,12 +1,12 @@
 ---
-aliases: Leichter Rüstung
+aliases: Mittelschwerer Rüstung
 tags:
-- Ausrüstung/Rüstung
+- Gegenstand/Rüstung
 ---
 # `=this.file.name`
 
 ```dataview
 TABLE RP, SR, Stärke, Dex_cap AS "GES Cap", Eigenschaften, Gewicht, Kosten
-FROM #Ausrüstung/Rüstung/Leicht
+FROM #Gegenstand/Rüstung/Mittel
 SORT RP, SR
 ```
