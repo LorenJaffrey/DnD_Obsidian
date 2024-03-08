@@ -40,22 +40,22 @@ Mitte des 15. Jahrhunderts DR (Jahr des Wandels) trieb die Herberge nach dem Aus
 | Gesellschaft einer Maske             | 50 GM |
 
 ## Angebot
-| Getränke                            | Preis |
-| ----------------------------------- | -----:|
-| Humpen [[Einfaches Bier]]           |  4 KM |
-| Humpen [[Apfelschaumwein]]          |  4 KM |
-| Glas [[Durchschnittlicher Wein]]    |  3 SM |
-| Flasche [[Durchschnittlicher Wein]] |  9 SM |
-| Glas [[Guter Wein]]                 |  2 GM |
-| Flasche [[Guter Wein]]              |  6 GM |
-| Glas [[Feuerwein]]                  |  3 GM |
-| Flasche [[Feuerwein]]               |  9 GM |
-| Glas [[Elverquisst]]                |  1 GM |
-| Flasche [[Elverquisst]]             | 20 GM |
-| Glas [[Feywein]]                    |  2 GM |
-| Flasche [[Feywein]]                 |  6 GM |
-| Glas [[Feuersaat]]                  |  1 GM |
-| Flasche [[Feuersaat]]               |  5 GM |
+| Getränke                              | Preis |
+| ------------------------------------- | -----:|
+| [[Einfaches Bier (Humpen)]]           |  4 KM |
+| [[Apfelschaumwein (Humpen)]]          |  4 KM |
+| [[Durchschnittlicher Wein (Glas)]]    |  3 SM |
+| [[Durchschnittlicher Wein (Flasche)]] |  9 SM |
+| Glas [[Guter Wein]]                   |  2 GM |
+| Flasche [[Guter Wein]]                |  6 GM |
+| Glas [[Feuerwein]]                    |  3 GM |
+| Flasche [[Feuerwein]]                 |  9 GM |
+| Glas [[Elverquisst]]                  |  1 GM |
+| Flasche [[Elverquisst]]               | 20 GM |
+| Glas [[Feywein]]                      |  2 GM |
+| Flasche [[Feywein]]                   |  6 GM |
+| Glas [[Feuersaat]]                    |  1 GM |
+| Flasche [[Feuersaat]]                 |  5 GM |
 
 ### Appetithäppchen
 - [[Oktopusbouillon]]

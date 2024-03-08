@@ -55,7 +55,7 @@ Geld:
 | [[Trinkschlauch]]                                                   |   1    |    4    |   4    |
 | Schreibfeder                                                        |   1    |    0    |   0    |
 | [[Windsporen-Pilz]]                                                 |   1    |    0    |   0    |
-| [[Einfacher Wein]]                                                  |   3    |    2    |   6    |
+| [[Einfacher Wein (Flasche)]]                                        |   3    |   1.5   |  4.5   |
 | Brief eines verstorbenen Freundes mit Frage                         |   1    |   0.1   |  0.1   |
 | [[Heiltrank]]                                                       |   1    |   0.5   |  0.5   |
 | Kompassrose                                                         |   1    |    1    |   1    |
@@ -64,6 +64,6 @@ Geld:
 | [[Obsidianscherben]]                                                |   5    |   0.2   |   1    |
 | [[Zauberstab der Magieerkennung]]                                   |   1    |    1    |   1    |
 | [[Zauberschriftrollen\|Zauberschriftrolle]] ([[Person festhalten]]) |   1    |  0.25   |  0.25  |
-| GESAMT                                                              |        |         | 59.35  |
+| GESAMT                                                              |        |         | 57.85  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

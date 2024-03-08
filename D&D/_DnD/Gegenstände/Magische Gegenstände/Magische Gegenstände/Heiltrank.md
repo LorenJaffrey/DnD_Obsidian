@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Trank/Heiltrank
+- Gegenstand/Magischer_Gegenstand/Trank/Heiltrank
 Art: "[[Trank]]"
 Seltenheit: "gewöhnlich"
 Einstimmung: false

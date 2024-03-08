@@ -27,10 +27,10 @@ mapmarker: Taverne
 > ##### Getränke
 > | Getränke                          | Preis |
 > | --------------------------------- | -----:|
-> | Humpen [[Einfaches Bier]]         |  4 KM |
+> | [[Einfaches Bier (Humpen)]]         |  4 KM |
 > | Humpen [[Vagdrus Spezialgebräu]]  |  2 KM |
 > | Humpen [[Einfaches Starkbier]]    |  4 KM |
-> | Humpen [[Apfelschaumwein]]        |  4 KM |
+> | [[Apfelschaumwein (Humpen)]]        |  4 KM |
 > | Becher [[Orkischer Rachenputzer]] |  3 KM |
 
 

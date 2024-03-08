@@ -1,6 +1,6 @@
 ---
 tags:
-  - Magischer_Gegenstand/Wundersamer_Gegenstand
+  - Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand
 Art: Wundersamer Gegenstand
 Seltenheit: "[[ungewöhnlich]]"
 Einstimmung: false

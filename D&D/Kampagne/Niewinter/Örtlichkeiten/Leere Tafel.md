@@ -25,10 +25,10 @@ rig - die Leute sind sich nicht sicher, wie das möglich ist. Es gibt Gerüchte,
 | [[Kürbissuppe]]                                                                            |  6 KM |
 | [[Laib Brot]]                                                                              |  2 KM |
 
-| Getränke                   | Preis |
-| -------------------------- | -----:|
-| Humpen [[Einfaches Bier]]  |  4 KM |
-| Humpen [[Braun]]           |  6 KM |
-| Flasche [[Schwarz]]        |  2 KM |
-| Becher [[Einfacher Rum]]   |  1 SM |
-| Flasche [[Einfacher Wein]] |  5 SM |
+| Getränke                     | Preis |
+| ---------------------------- | -----:|
+| [[Einfaches Bier (Humpen)]]  |  4 KM |
+| Humpen [[Braun]]             |  6 KM |
+| Flasche [[Schwarz]]          |  2 KM |
+| Becher [[Einfacher Rum (Becher)]]     |  1 SM |
+| [[Einfacher Wein (Flasche)]] |  5 SM |

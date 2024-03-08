@@ -35,12 +35,12 @@ Es ist auch äußerst üblich, dass eine Reihe zwielichtiger Gruppen in der gest
 | [[Laib Brot]]            |  2 KM |
 | [[Stück Käse]]           |  5 KM |
 
-| Getränke                      | Preis |
-| ----------------------------- | -----:|
-| Humpen [[Einfaches Bier]]     |  4 KM |
-| Becher [[Einfacher Rum]]      |  1 SM |
-| Becher [[Einfacher Grog]]     |  5 KM |
-| Flasche [[Einfacher Wein]]    |  5 SM |
+| Getränke                     | Preis |
+| ---------------------------- | -----:|
+| [[Einfaches Bier (Humpen)]]  |  4 KM |
+| Becher [[Einfacher Rum (Becher)]]     |  1 SM |
+| Becher [[Einfacher Grog]]    |  5 KM |
+| [[Einfacher Wein (Flasche)]] |  5 SM |
 
 | Zimmer          | Anzahl | Preis (pro Nacht) |
 | --------------- |:------:| -----------------:|

@@ -32,8 +32,8 @@ Wenn die Charaktere mehr als eine Nacht in dieser Taverne verbringen, bemerken s
 
 | Getränke                      | Preis |
 | ----------------------------- | -----:|
-| Humpen [[Einfaches Bier]]     |  4 KM |
-| Becher [[Einfacher Rum]]      |  1 SM |
+| [[Einfaches Bier (Humpen)]]   |  4 KM |
+| Becher [[Einfacher Rum (Becher)]]      |  1 SM |
 | Becher [[Einfacher Grog]]     |  5 KM |
 | Becher [[Höhlenatem Whiskey]] |  1 SM |
-| Flasche [[Einfacher Wein]]    |  5 SM |
+| [[Einfacher Wein (Flasche)]]  |  5 SM |

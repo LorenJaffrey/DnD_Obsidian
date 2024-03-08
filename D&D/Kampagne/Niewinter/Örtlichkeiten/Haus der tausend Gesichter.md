@@ -30,11 +30,11 @@ Der Keller der Taverne dient als geheimer Treffpunkt für das [[Niewinter]]-Kapi
 
 | Getränke                                     | Preis |
 | -------------------------------------------- | -----:|
-| Humpen [[Einfaches Bier]]                    |  4 KM |
+| [[Einfaches Bier (Humpen)]]                  |  4 KM |
 | Humpen [[Mordenkainens Prächtiges Malzbier]] |  5 KM |
 | Humpen [[Mordenkainens Schreckliches Malz]]  |  8 KM |
-| Becher [[Einfacher Rum]]                     |  1 SM |
-| Flasche [[Einfacher Wein]]                   |  5 SM |
+| Becher [[Einfacher Rum (Becher)]]                     |  1 SM |
+| [[Einfacher Wein (Flasche)]]                 |  5 SM |
 
 ---
 

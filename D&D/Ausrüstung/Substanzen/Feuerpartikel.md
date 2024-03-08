@@ -1,3 +1,0 @@
-- sieht aus wie ein Stein der leicht glüht und immer warm ist
-- wenn man es in Feuer wirft, löst es den Effekt von [[Feenfeuer]] aus
-- kann als [[Materialkomponenten|Materialkomponente]] für [[Heiliges Gespräch]] verwendet werden um mit einer Gottheit auf der Elementarebene des Feuers zu kommunizieren

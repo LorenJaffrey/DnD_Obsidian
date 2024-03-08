@@ -2,7 +2,7 @@
 Charakter: "[[Jon]]"
 aliases:
 tags:
-- Charakter/Jon/Inventar
+- Charakter/Jon
 Geld:
   PM: 0
   GM: 228
@@ -38,12 +38,11 @@ Geld:
 | [[Kurzschwert]]                                              |   2    |    2    |   4    |
 | [[Dolch]]                                                    |   1    |    2    |   2    |
 | [[Pfeile]]                                                   |   34   |  0.05   |  1.7   |
-| [[Reisegeschirr]]                                            |   1    |    1    |   1    |
 | [[Rucksack]]                                                 |   1    |    5    |   5    |
+| [[Beschlagene Lederrüstung]] (mit blauen Drachenschuppen)    |   1    |   13    |   13   |
 | Freundschaftsarmband                                         |   1    |  0.25   |  0.25  |
 | Halsband mit orangen Kristallen und Drachenknochen (Messing) |   1    |  0.25   |  0.25  |
-| [[Beschlagene Lederrüstung]] (mit blauen Drachenschuppen)    |   1    |   13    |   13   |
-| Klamotten                                                    |   1    |    3    |   3    |
+| [[Gewöhnliche Kleidung]]                                     |   1    |    3    |   3    |
 | Rotbrenner Verkleidung                                       |   1    |    1    |   1    |
 | GESAMT                                                       |        |         |  45.2  |
 <!-- TBLFM: $>=($-1*$-2) -->
@@ -52,12 +51,13 @@ Geld:
 ## Rucksack
 | Gegenstand                                    | Anzahl | Gewicht | Gesamt |
 | --------------------------------------------- |:------:|:-------:|:------:|
-| Schlafsack                                    |   1    |    7    |   7    |
-| Zunderkästchen                                |   1    |    1    |   1    |
-| Fackel                                        |   10   |    1    |   10   |
+| [[Schlafsack]]                                |   1    |    7    |   7    |
+| [[Zunderkästchen]]                            |   1    |    1    |   1    |
+| [[Reisegeschirr]]                             |   1    |    1    |   1    |
+| [[Fackel]]                                    |   10   |    1    |   10   |
 | [[Ration]] (5 Silber)                         |   15   |    1    |   15   |
 | [[Trinkschlauch]]                             |   1    |    4    |   4    |
-| Hanfseil in Metern                            |   15   |  0.66   |  9.9   |
+| [[Seil aus Hanf]] in Metern                   |   15   |   0.6   |   9    |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                       |   1    |    2    |   2    |
 | [[Lederrüstung]] (ranzig)                     |   1    |   10    |   10   |
@@ -67,8 +67,8 @@ Geld:
 | blau durchsichtiger Edelstein                 |   1    |    0    |   0    |
 | [[Gildenabzeichen]]                           |   1    |    0    |   0    |
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
-| [[Einfaches Bier]] (Flaschen)                 |   3    |   0.5   |  1.5   |
-| 1/2 Flasche [[Einfacher Wein]]                |   1    |   0.5   |  0.5   |
-| GESAMT                                        |        |         | 98.15  |
+| [[Einfaches Bier (Flasche)]]                  |   3    |    1    |   3    |
+| [[Einfacher Wein (Flasche)]]                  |  0.5   |   1.5   |  0.75  |
+| GESAMT                                        |        |         |  100   |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
