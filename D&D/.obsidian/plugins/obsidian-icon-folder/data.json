@@ -28,8 +28,6 @@
     "iconIdentifier": ":"
   },
   "Monster Manual": "SiMonster",
-  "Ausrüstung": "TiShoppingBag",
-  "Ausrüstung/Edelsteine": "LiGem",
   "_DnD/Charaktere": "FasPerson",
   "Kampagne": "LiMap",
   "_DnD/Gegenstände/Behälter": "TiShoppingBag",
@@ -39,8 +37,5 @@
   "_DnD/Gegenstände/Magische Gegenstände": "RiMagicLine",
   "_DnD/Gegenstände/Nahrungsmittel": "TiToolsKitchen2",
   "_DnD/Gegenstände/Nahrungsmittel/Getränke": "LiBeer",
-  "_DnD/Gegenstände/Nahrungsmittel/Speisen": "TiMeat",
-  "Ausrüstung/Nahrungsmittel/Speisen": "TiMeat",
-  "Ausrüstung/Nahrungsmittel/Getränke": "LiBeer",
-  "Ausrüstung/Nahrungsmittel": "TiToolsKitchen2"
+  "_DnD/Gegenstände/Nahrungsmittel/Speisen": "TiMeat"
 }
