@@ -1,7 +1,8 @@
 # `=this.file.name`
 KW 8
 
-## Regeln
+## Organisatorisches
+- Character Sheets alle überführt
 
 ## Recap
 - Gruppe hat [[Tresendar Anwesen]] infiltriert
@@ -15,6 +16,10 @@ KW 8
 - [[Sildar Hallwinter]] kann sich befreien und dem einzelnen Rotbrenner ein Schwert abnehmen
 - [[Rotbrenner]] im Nachbarraum hören die Kampfgeräusche und versuchen durch die Tür zu gelangen
 
+### Kampf
+- [[Iarno Albrek]]
+- [[Grottenschrat]]
+
 - [[Szene Rückkehr der Schürfer]]
 
 ## Hintergrundinfos
@@ -25,8 +30,8 @@ KW 8
 - [[Gasthaus Steinhügel#Toblen Steinhügel]] und Familie wurden entführt und werden im [[Tresendar Anwesen]] festgehalten
 
 ### Gundren Felssucher
-- hat Drogan ein verziertes Amulett gegeben
-	- [[Drogan DM Notes]] hat das Amulett versteckt
+- hat [[Drogan]] ein verziertes Amulett gegeben
+	- [[Drogan]] hat das Amulett versteckt
 	- hat das Amulett [[Lucian]] gezeigt zum identifizieren -> nicht erfolgreich
 - [[Gundren Felssucher|Gundren]] wurde zur [[Burg Cragmaw]] gebracht
 - [[Gundren Felssucher|Gundren]] hatte Karte zur [[Wellenhallhöhle]] dabei
