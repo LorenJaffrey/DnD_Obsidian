@@ -14,3 +14,5 @@ Kapazität:
 > | Kosten | `=this.Kosten` |
 > | Gewicht | `=this.Gewicht` Pfund |
 > | Kapazität | `=this.Kapazität`  |
+
+Beschreibung

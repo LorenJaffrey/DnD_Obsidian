@@ -1,12 +1,17 @@
 ---
 tags:
 - Gegenstand/Nahrungsmittel/Getränk
-Preis: 
+Kosten: 
+Gewicht:
 Art: 
 ---
 # `=this.file.name`
-Beschreibung
+> [!infobox]
+> # `=this.file.name`
+> |  |  |
+> | ---- | ---- |
+> | Art | `=this.Art` |
+> | Kosten | `=this.Kosten` |
+> | Gewicht | `=this.Gewicht` Pfund |
 
-| Einheit |         Preis |
-| ------- | -------------:|
-| Humpen  | `=this.Preis` |
+Ein {{Einheit}} (ca. `=(this.Gewicht)/2`L) {{Getränk}}.

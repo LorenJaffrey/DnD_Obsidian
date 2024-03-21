@@ -13,3 +13,4 @@ Gewicht:
 > | Kosten | `=this.Kosten` |
 > | Gewicht | `=this.Gewicht` Pfund |
 
+Beschreibung

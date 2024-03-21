@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand
+- Gegenstand/Magischer_Gegenstand
 Art: 
 Seltenheit:
 Einstimmung:
