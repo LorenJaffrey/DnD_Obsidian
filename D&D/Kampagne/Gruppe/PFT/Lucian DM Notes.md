@@ -1,6 +1,6 @@
 ---
 tags:
-- Charakter/PFT
+- Charakter/GORN/Lucian
 Ordnung: -3
 Moral: -1
 ---
@@ -29,7 +29,7 @@ Moral: -1
 ### Aranons Zirkel
 - Aufgabe des Patrons hat zur Vernichtung des Zirkels geführt
 	- Lucian wusste nichts von den Konsequenzen
-- Lucian hat [[Aranon DM Notes]] danach gefunden und es nicht übers Herz gebracht ihn zu töten
+- Lucian hat [[Aranon]] danach gefunden und es nicht übers Herz gebracht ihn zu töten
 - hat ihn danach aufgepäppelt
 
 ### Patron

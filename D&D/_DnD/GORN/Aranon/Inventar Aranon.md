@@ -1,4 +1,6 @@
 ---
+tags:
+- Charakter/GORN/Aranon
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0

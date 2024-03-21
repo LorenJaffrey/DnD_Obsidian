@@ -1,4 +1,6 @@
 ---
+tags:
+- Charakter/GORN/Lucian
 Charakter: "[[Lucian]]"
 Geld:
   PM: 0

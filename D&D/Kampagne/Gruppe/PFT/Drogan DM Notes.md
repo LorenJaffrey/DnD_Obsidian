@@ -1,6 +1,6 @@
 ---
 tags:
-  - Charakter/PFT
+  - Charakter/GORN/Drogan
 Ordnung: 2
 Moral: 4
 ---

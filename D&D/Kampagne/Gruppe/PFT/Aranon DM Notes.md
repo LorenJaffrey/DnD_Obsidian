@@ -1,6 +1,6 @@
 ---
 tags:
-  - Charakter/PFT
+  - Charakter/GORN/Aranon
 Ordnung: 3
 Moral: 3
 ---
@@ -25,11 +25,11 @@ Moral: 3
 ## Plot Hook
 
 ### Zerstörung des Zirkels
-- Kräfte des [[Einhorn]]s gehen auf [[Aranon DM Notes]] über
+- Kräfte des [[Einhorn]]s gehen auf [[Aranon]] über
 	- in stressigen Situationen
 	- Rettungswurf auf [[Weisheit]] gegen variablen [[Schwierigkeitsgrad|SG]] sonst wird er wegteleportiert
 - Wer hat den Stamm ausgelöscht?
-- [[Lucian DM Notes]] hat zur Vernichtung der Sippe beigetragen
+- [[Lucian]] hat zur Vernichtung der Sippe beigetragen
 
 ### Psychischer Stress
 #### Stresslevel

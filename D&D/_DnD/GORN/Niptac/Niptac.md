@@ -100,6 +100,8 @@ Persönlichkeit:
   Ideale: Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe.
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
+tags:
+- Charakter/GORN/Niptac
 ---
 # `=this.file.name`
 
@@ -170,7 +172,7 @@ Persönlichkeit:
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Waffe/Klasse/Nahkampfwaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -186,7 +188,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -202,7 +204,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```

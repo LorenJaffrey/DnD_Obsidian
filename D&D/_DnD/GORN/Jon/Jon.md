@@ -1,4 +1,6 @@
 ---
+tags:
+- Charakter/GORN/Jon
 Name: Jon "Verisus" Longbow
 Stufe: 4
 Glück: 0
@@ -98,7 +100,8 @@ Persönlichkeit:
   Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
-
+tags:
+- Charakter/GORN/Jon
 ---
 # `=this.file.name`
 
@@ -183,7 +186,7 @@ Persönlichkeit:
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Waffe/Klasse/Nahkampfwaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -195,11 +198,11 @@ Persönlichkeit:
 >> Range1 AS "Min RW",
 >> Range2 AS "Gnd RW",
 >> Range3 AS "Max RW",
->> 2+floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+>> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -215,7 +218,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```

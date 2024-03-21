@@ -92,6 +92,8 @@ Persönlichkeit:
   Ideale: Wissen, Macht, Selbstverwirklichung, Selbstfindung
   Bindungen: Buch der Schatten, Teuflischer Pakt
   Makel: eitel, egoistisch, kein Teilen von Gedanken oder Plänen
+tags:
+- Charakter/GORN/Lucian
 ---
 # `=this.file.name`
 
@@ -168,7 +170,7 @@ Persönlichkeit:
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Waffe/Klasse/Nahkampfwaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -184,7 +186,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -200,7 +202,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```

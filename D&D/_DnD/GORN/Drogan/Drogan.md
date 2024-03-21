@@ -103,6 +103,8 @@ Persönlichkeit:
   Ideale: Ich versuche denjenigen zu helfen die Hilfe benötigen, egal was es mich kosten mag.
   Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
   Makel: Ich habe eine (Alkohol-)Sucht.
+tags:
+- Charakter/GORN/Drogan
 ---
 # `=this.file.name`
 
@@ -179,7 +181,7 @@ Persönlichkeit:
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Waffe/Klasse/Nahkampfwaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -195,7 +197,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
@@ -211,7 +213,7 @@ Persönlichkeit:
 >> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
->> FROM #Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```

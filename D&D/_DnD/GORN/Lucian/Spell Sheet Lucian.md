@@ -1,4 +1,6 @@
 ---
+tags:
+- Charakter/GORN/Lucian
 Charakter: "[[Lucian]]"
 Zaubertricks: 3
 Bekannte_Zauber: 4

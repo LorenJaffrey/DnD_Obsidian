@@ -1,6 +1,6 @@
 ---
 tags:
-  - Charakter/PFT
+  - Charakter/GORN/Jon
 Ordnung: 4
 Moral: 1
 ---

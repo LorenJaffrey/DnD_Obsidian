@@ -1,6 +1,6 @@
 ---
 tags:
-- Charakter/PFT
+- Charakter/GORN/Niptac
 Ordnung: -2
 Moral: 3
 ---

@@ -1,4 +1,6 @@
 ---
+tags:
+- Charakter/GORN/Aranon
 Charakter: "[[Aranon]]"
 Zaubertricks: 3
 Bekannte_Zauber: 4
