@@ -25,7 +25,9 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
   },
   "Monster Manual": "SiMonster",
   "_DnD/Charaktere": "FasPerson",
