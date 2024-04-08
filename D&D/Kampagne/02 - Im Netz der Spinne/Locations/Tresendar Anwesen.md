@@ -164,7 +164,7 @@ Mehr Informationen zu verschlossenen Türen und Geheimtüren findest du im Berei
 >Ein Dutzend dreckiger roter Umhänge hängt von Haken an der Tür.
 
 Die [[Rotbrenner]] haben ehrgeizige Pläne, sich in naher Zukunft zu vergrößern, also haben sie hier Waffen und Rüstungen angehäuft.
-In den Waffenständern befinden sich zwölf Speere, sechs Kurzschwerter, vier Langschwerter, sechs leichte Armbrüste und acht Köcher mit jeweils 20 Armbrustbolzen.
+In den Waffenständern befinden sich zwölf [[Speer|Speere]], sechs [[Kurzschwert|Kurzschwerter]], vier Langschwerter, sechs leichte Armbrüste und acht Köcher mit jeweils 20 Armbrustbolzen.
 
 ## 7. Lagerraum und Arbeitsbereich
 In diesem Raum bewahren die Rotbrenner ihre gestohlenen Waren auf, die sie dann entweder durch die Kaverne im Süden ausliefern oder sie verpacken, um sie im Versteck zu lagern.

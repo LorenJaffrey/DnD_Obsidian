@@ -252,7 +252,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Rüstung
 >> ```dataview
 >> LIST
->> FROM #Ausrüstung/Rüstung
+>> FROM #Gegenstand/Rüstung 
 >> WHERE contains(this.Übung.Rüstungen, file.link) 
 >> SORT file.name
 >> ```
@@ -260,7 +260,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Waffen
 >> ```dataview
 >> LIST
->> FROM #Waffe 
+>> FROM #Gegenstand/Waffe 
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
@@ -276,7 +276,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Werkzeuge
 >> ```dataview
 >> LIST
->> FROM #Werkzeug
+>> FROM #Gegenstand/Werkzeug
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```

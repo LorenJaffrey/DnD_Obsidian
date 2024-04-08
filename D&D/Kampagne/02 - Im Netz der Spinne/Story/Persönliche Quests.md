@@ -2,7 +2,7 @@
 
 | Charakter  | Quest                                                  | Belohnung                                                |
 | ---------- | ------------------------------------------------------ | -------------------------------------------------------- |
-| [[Aranon]] | [[Stab des Sommerwalds]] heilen                   | Stab verbessert                                          |
+| [[Aranon]] | [[Stab des Sommerwalds]] heilen                        | Stab verbessert                                          |
 | [[Drogan]] | [[Zwergenausgrabung]], [[Gundren Felssucher\|Gundren]] | Gott aus Tempel war für Schande irgendwie verantwortlich |
 | [[Lucian]] |                                                        |                                                          |
 | [[Niptac]] | [[Gnomengard]]                                         | Neue Erfindungen                                         |
