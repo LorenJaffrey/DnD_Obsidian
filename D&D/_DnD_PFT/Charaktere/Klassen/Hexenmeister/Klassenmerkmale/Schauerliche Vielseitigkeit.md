@@ -10,4 +10,4 @@ So wird die Weiterentwicklung an deinem Fokus bei deinen okkulten Studien berüc
 - ﻿﻿Ersetze die Option, die du für das Merkmal [[Segen des Pakts]] ausgewählt hast, durch eine andere.
 - ﻿﻿Ab der 12. Stufe kannst du einen Zauber aus dem Merkmal [[Mystisches Arkanum]] durch einen anderen [[Zauberliste des Hexenmeisters|Hexenmeisterzauber]] des gleichen [[Zaubergrad|Grads]] ersetzen.
 
-Wenn diese Änderung bewirkt, dass du bestimmte bisherige [[Schauerliche Anrufungen]] nicht mehr nutzen darfst, musst du diese Anrufungen durch erlaubte ersetzen.
+Wenn diese Änderung bewirkt, dass du bestimmte bisherige [[_DnD_PFT/Charaktere/Klassen/Hexenmeister/Klassenmerkmale/Schauerliche Anrufungen]] nicht mehr nutzen darfst, musst du diese Anrufungen durch erlaubte ersetzen.
