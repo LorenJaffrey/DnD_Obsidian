@@ -59,6 +59,6 @@ Geld:
 | Goldohrring                  |   1    |    0    |   0    |
 | Edelstein blutrot            |   1    |    0    |   0    |
 | Besonderer Gegenstand        |   1    |    0    |   0    |
-| GESAMT                       |        |         |  70.5  |
+| GESAMT                       |        |         |  71.5  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

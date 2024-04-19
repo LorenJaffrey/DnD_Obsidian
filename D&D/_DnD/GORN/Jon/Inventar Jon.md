@@ -7,7 +7,7 @@ Geld:
   PM: 0
   GM: 228
   EM: 0
-  SM: 301
+  SM: 329
   KM: 92
 ---
 
@@ -43,7 +43,6 @@ Geld:
 | Freundschaftsarmband                                         |   1    |  0.25   |  0.25  |
 | Halsband mit orangen Kristallen und Drachenknochen (Messing) |   1    |  0.25   |  0.25  |
 | [[Gewöhnliche Kleidung]]                                     |   1    |    3    |   3    |
-| Rotbrenner Verkleidung                                       |   1    |    1    |   1    |
 | GESAMT                                                       |        |         |  45.2  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
@@ -54,10 +53,10 @@ Geld:
 | [[Schlafsack]]                                |   1    |    7    |   7    |
 | [[Zunderkästchen]]                            |   1    |    1    |   1    |
 | [[Reisegeschirr]]                             |   1    |    1    |   1    |
-| [[Fackel]]                                    |   10   |    1    |   10   |
+| [[Fackel]]                                    |   8   |    1    |   10   |
 | [[Ration]] (5 Silber)                         |   15   |    1    |   15   |
 | [[Trinkschlauch]]                             |   1    |    4    |   4    |
-| [[Seil aus Hanf]] in Metern                   |   15   |   0.6   |   9    |
+| [[Seil aus Hanf]] in Metern                   |   12   |   0.6   |   9    |
 | [[Leichte Armbrust]] (loot)                   |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                       |   1    |    2    |   2    |
 | [[Lederrüstung]] (ranzig)                     |   1    |   10    |   10   |

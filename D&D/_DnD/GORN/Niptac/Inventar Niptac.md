@@ -4,9 +4,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 219
+  GM: 349
   EM: 0
-  SM: 167
+  SM: 347
   KM: 95
 ---
 # `=this.file.name`
@@ -40,7 +40,7 @@ Geld:
 | [[Diebeswerkzeug]]           |   1    |    1    |   1    |
 | Freundschaftsarmband         |   1    |  0.25   |  0.25  |
 | [[Beschlagene Lederrüstung]] |   1    |   13    |   13   |
-| GESAMT                       |        |         | 29.25  |
+| GESAMT                       |        |         | 28.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -49,16 +49,19 @@ Geld:
 | ------------------------------------------------------------------ |:------:|:-------:|:------:|
 | [[Schlafsack]]                                                     |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
-| [[Fackel]]                                                         |   9    |    1    |   9    |
+| [[Fackel]]                                                         |   8    |    1    |   8    |
 | [[Ration]]                                                         |   10   |    1    |   10   |
 | [[Trinkschlauch]]                                                  |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                                  |   1    |    1    |   1    |
 | [[Beschlagene Lederrüstung]] (ranzig)                              |   1    |   13    |   13   |
 | [[Dolch]]                                                          |   5    |    1    |   5    |
-| Armbrust Bolzen                                                    |   13   |  0.075  | 0.975  |
+| Armbrust Bolzen                                                    |   30   |  0.075  |  2.25  |
 | [[Obsidianscherben]]                                               |   5    |  0.25   |  1.25  |
 | [[Gildenabzeichen]]                                                |   1    |    0    |   0    |
-| Jade-Statuette eines Frosches \n mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| GESAMT                                                             |        |         | 52.225 |
+| Edelsteine (durchsichtig, grün)                                    |   2    |    0    |   0    |
+| Edelsteine (undurchsichtig, rotbraun)                              |   5    |         |   0    |
+| Perle                                                              |   1    |         |   0    |
+| Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
+| GESAMT                                                             |        |         |  52.5  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
