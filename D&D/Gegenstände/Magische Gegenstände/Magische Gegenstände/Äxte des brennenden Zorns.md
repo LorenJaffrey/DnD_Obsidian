@@ -25,8 +25,6 @@ Verflucht: true
 
 Diese beiden zwergischen [[Streitaxt|Streitäxte]] enthalten jeweils ein Feuergefäß. 
 
-
-
 ## Verbunden
 Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magischer Gegenstände]] als ein einzelner Gegenstand.
 Wer eine der beiden [[Streitaxt|Streitäxte]] findet und sich darauf [[Einstimmung magischer Gegenstände|einstimmt]] kennt zu jeder Zeit die Richtung in der sich die zweite [[Streitaxt]] befindet.
