@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbGlobe",
+      "CoInfo",
+      "LiCookingPot",
       "RiAttachment2",
-      "FasWandMagicSparkles",
-      "FasPeopleGroup",
-      "CoMap",
-      "RaEyeMonster"
+      "FasWandMagicSparkles"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,5 +36,8 @@
   "_DnD_PFT/Zauber": "FasWandMagicSparkles",
   "_DnD_PFT/_Attachments": "RiAttachment2",
   "DM Bereich/Kampagne": "CoMap",
-  "DM Bereich/Bestiarium": "RaEyeMonster"
+  "DM Bereich/Bestiarium": "RaEyeMonster",
+  "DM Bereich/Homebrew": "LiCookingPot",
+  "DM Bereich/Tips": "CoInfo",
+  "DM Bereich/Worldbuilding": "IbGlobe"
 }
