@@ -73,7 +73,7 @@ Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre
 
 ### Größe und Gewicht
 Im Mittel sind Halblinge etwa 90 cm groß und wiegen dabei um die 40 Pfund.
-[[Größenkategorie]]: klein
+[[Größenkategorie]]: [[klein]]
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
 | 97 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
@@ -107,7 +107,7 @@ Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre
 
 ### Größe und Gewicht
 Im Mittel sind Halblinge etwa 90 cm groß und wiegen dabei um die 40 Pfund.
-[[Größenkategorie]]: klein
+[[Größenkategorie]]: [[klein]]
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
 | 97 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |

@@ -7,7 +7,7 @@ HG: 3
 ```statblock
 image: [[manticore.png]]
 name: Mantikor
-size: Groß
+size: [[Groß]]
 type: [[Monstrositäten|Monstrosität]]
 alignment: [[Rechtschaffen Böse]]
 ac: 14

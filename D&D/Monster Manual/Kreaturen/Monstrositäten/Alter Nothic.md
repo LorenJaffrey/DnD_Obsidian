@@ -7,7 +7,7 @@ HG: 3
 ```statblock
 image: [[nothic.png]]
 name: Alter Nothic
-size: Mittelgroße
+size: [[Mittelgroß|Mittelgroße]]
 type: [[Monstrositäten|Monstrosität]]
 subtype: [[Nothics|Nothic]]
 alignment: [[Neutral Böse]]

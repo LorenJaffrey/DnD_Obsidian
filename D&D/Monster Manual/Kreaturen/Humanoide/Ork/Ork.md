@@ -7,8 +7,8 @@ tags:
 ```statblock
 image: [[orc.jpg]]
 name: Ork
-size: Mittelgroßer
-type: [[Humanoide|Humanoider]]
+size: [[Mittelgroß]]
+type: [[Humanoide]]
 subtype: [[Orks|Ork]]
 alignment: [[Chaotisch Böse]]
 ac: 13 ([[Fellrüstung]])

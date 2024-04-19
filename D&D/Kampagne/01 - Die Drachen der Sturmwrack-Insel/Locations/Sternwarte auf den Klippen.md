@@ -16,7 +16,7 @@
 ### Kampf gegen Mek und Min
 ```statblock
 name: Mek & Min
-size: Klein
+size: [[Klein]]
 type: Humanoid
 alignment: Rechtschaffen Böse
 ac: 13

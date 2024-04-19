@@ -129,7 +129,7 @@ tags:
 > | ---- | ---- |
 > | Geschlecht | `=this.Aussehen.Geschlecht` |
 > | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
+> | [[Größenkategorie]] | `=this.Aussehen.Größenkategorie` |
 > | Größe | `=this.Aussehen.Größe` |
 > | Gewicht | `=this.Aussehen.Gewicht` |
 > | Augenfarbe | `=this.Aussehen.Augenfarbe` |

@@ -8,7 +8,7 @@ tags:
 image: [[bandit.jpg]]
 name: Bandit
 size: [[Mittelgroß]]
-type: [[Humanoide]]
+type: [[Humanoide|Humanoid]]
 subtype:
 alignment: jede nicht rechtschaffene
 ac: 12 ([[Lederrüstung]])

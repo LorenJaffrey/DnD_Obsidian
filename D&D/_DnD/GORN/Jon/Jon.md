@@ -349,7 +349,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> 
 >>- **[[Kampfüberlegenheit#Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
->>        **Verwendung**: Ziel (groß oder kleiner) muss Stärkerettungswurf ablegen
+>>        **Verwendung**: Ziel ([[groß]] oder kleiner) muss Stärkerettungswurf ablegen
 >> 
 >>- **[[Kampfüberlegenheit#Parieren]]**
 >>        **Auswirkung**: Schadensreduktion 

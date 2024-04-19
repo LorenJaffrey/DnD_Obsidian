@@ -6,12 +6,12 @@ Ein Charakter benötigt einen [[Trinkschlauch]] pro Tag oder bis zu 2 [[Trinksch
 ## Bedarf an `=this.file.name`
 | Kreaturengröße |            Bedarf pro Tag             |
 | -------------- |:-------------------------------------:|
-| Winzig         |         1/2 [[Trinkschlauch]]         |
-| Klein          |  2 [[Trinkschlauch\|Trinkschläuche]]  |
+| [[Winzig]]         |         1/2 [[Trinkschlauch]]         |
+| [[Klein]]          |  2 [[Trinkschlauch\|Trinkschläuche]]  |
 | Mittel         |  2 [[Trinkschlauch\|Trinkschläuche]]  |
-| Groß           |  8 [[Trinkschlauch\|Trinkschläuche]]  |
+| [[Groß]]           |  8 [[Trinkschlauch\|Trinkschläuche]]  |
 | Sehr groß      | 32 [[Trinkschlauch\|Trinkschläuche]]  |
-| Gigantisch     | 128 [[Trinkschlauch\|Trinkschläuche]] |
+| [[Gigantisch]]     | 128 [[Trinkschlauch\|Trinkschläuche]] |
 
 ## Aufnahme von `=this.file.name` reduzieren
 Nimmt ein Charakter nur die halbe Menge zu sich, muss er am Ende des Tages einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder er erleidet eine Stufe [[Erschöpft|Erschöpfung]].

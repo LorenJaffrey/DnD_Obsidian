@@ -30,7 +30,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 Du erschaffst eine lange, rankenartige Peitsche, die mit Dornen bedeckt ist und die auf deinen Befehl hin nach einer Kreatur in Reichweite schlägt. 
 Führe einen Nahkampf-Zauberangriff gegen das Ziel durch. Wenn der Angriff trifft, erleidet die Kreatur 1W6 [[Stichschaden]] . 
-Handelt es sich um eine Kreatur der [[Größenkategorie]] groß oder kleiner, wird sie zusätzlich 3 m in deine Richtung gezogen.
+Handelt es sich um eine Kreatur der [[Größenkategorie]] [[groß]] oder kleiner, wird sie zusätzlich 3 m in deine Richtung gezogen.
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
