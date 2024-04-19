@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBeer",
-      "TiToolsKitchen2",
-      "RiMagicLine",
-      "TiTool",
-      "LiSword"
+      "RiAttachment2",
+      "FasWandMagicSparkles",
+      "FasPeopleGroup",
+      "CoMap",
+      "RaEyeMonster"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,7 +23,7 @@
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
@@ -31,6 +31,10 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor"
   },
-  "Monster Manual": "SiMonster",
-  "Kampagne": "LiMap"
+  "_DnD_PFT/Bestiarium": "RaEyeMonster",
+  "_DnD_PFT/GORN": "FasPeopleGroup",
+  "_DnD_PFT/Zauber": "FasWandMagicSparkles",
+  "_DnD_PFT/_Attachments": "RiAttachment2",
+  "DM Bereich/Kampagne": "CoMap",
+  "DM Bereich/Bestiarium": "RaEyeMonster"
 }
