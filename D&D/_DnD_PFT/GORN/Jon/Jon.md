@@ -168,7 +168,7 @@ tags:
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`    | `=this.Gesundheit.TempTP`   |
+>> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
 >
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
