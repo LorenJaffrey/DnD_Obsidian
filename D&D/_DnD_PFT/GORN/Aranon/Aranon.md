@@ -6,9 +6,9 @@ Bewegung: 6
 Rüstung: "[[Lederrüstung]]"
 Schild: "[[Holzschild]]"
 Waffen:
-- "[[Kampfstab]]"
-- "[[Krummsäbel]]"
-- "[[Schleuder]]"
+  - "[[Kampfstab]]"
+  - "[[Krummsäbel]]"
+  - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 31
   TP: 31
@@ -100,15 +100,15 @@ Hintergrund:
   Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Große Empathie für alle jene die großes Leid erfahren
-  - Erlangt durch Meditation innere Ruhe und Frieden
-  - Gesellig und trinkfest
+    - Große Empathie für alle jene die großes Leid erfahren
+    - Erlangt durch Meditation innere Ruhe und Frieden
+    - Gesellig und trinkfest
   Ideale: Alles Böse zu vernichten!
   Bindungen: Rache für den ausgelöschten Stamm.
-  Makel: 
-  - Visionen, Alpträume und unkontrollierte Teleportation
+  Makel:
+    - Visionen, Alpträume und unkontrollierte Teleportation
 tags:
-- Charakter/GORN
+  - Charakter/GORN
 ---
 # `=this.file.name`
 
