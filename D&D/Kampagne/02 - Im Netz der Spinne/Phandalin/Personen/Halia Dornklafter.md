@@ -23,4 +23,4 @@ Halia arbeitet daran, [[Phandalin]] langsam unter ihre Kontrolle zu bringen, und
 	- haben einen geheimen Stützpunkt unter dem [[Tresendar-Anwesen]] am Ostrand der Stadt
 
 ### Quests
-- ![[Halias Auftrag]]
+- ![[Quest - Halias Auftrag]]

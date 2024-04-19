@@ -1,8 +1,9 @@
 ---
 tags: 
 - Quest
-Belohnung: 25 GM
+Belohnung: 50 GM
 Questgeber: "[[Rathaus von Phandalin#Harbin Wester]]"
+Erledigt: false
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`
@@ -14,4 +15,4 @@ Questgeber: `=this.Questgeber`
 >Überzeugt [[Adabra Gwynn|Adabra]], nach [[Phandalin]] zurückzukehren. 
 >Wenn sie hier in Sicherheit ist, kehrt zu Bürgermeister [[Rathaus von Phandalin#Harbin Wester]] zurück, um die Belohnung abzuholen.
 
-Weiter bei [[Der Haderhügel]]
+Weiter bei [[Haderhügel]]

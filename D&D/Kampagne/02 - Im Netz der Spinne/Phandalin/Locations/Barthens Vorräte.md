@@ -33,4 +33,4 @@ Waffen und Rüstung findet man bei Barthen nicht, dafür andere Abenteuerausrüs
 
 ## Quests
 - [[Rotbrenner machen Ärger]]
-- [[Vorräte für Phandalin]]
+- [[Quest - Vorräte für Phandalin]]

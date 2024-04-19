@@ -3,6 +3,7 @@ tags:
 - Quest
 Belohnung:
 Questgeber: "[[Erlenblatt Hof#Quelline Erlenblatt]]"
+Erledigt: true
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`

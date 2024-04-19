@@ -3,6 +3,7 @@ tags:
 - Quest
 Belohnung: 100 GM
 Questgeber: "[[Halia Dornklafter]]"
+Erledigt: false
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`

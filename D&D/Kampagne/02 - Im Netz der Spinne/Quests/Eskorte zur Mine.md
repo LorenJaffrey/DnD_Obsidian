@@ -3,6 +3,7 @@ tags:
 - Quest
 Belohnung: 100 GM
 Questgeber: "[[Don-Jon Raskin]]"
+Erledigt: false
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`

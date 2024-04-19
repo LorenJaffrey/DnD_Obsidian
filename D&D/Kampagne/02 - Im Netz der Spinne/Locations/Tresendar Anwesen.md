@@ -136,7 +136,7 @@ Seit zwei Monaten fangen die Rotbrenner Reisende in der Gegend und sperren sie i
 >Alle tragen schlichte, graue Tuniken und haben Eisenkrägen um den Hals.
 >Ein Haufen weggeworfener Kleidung ist achtlos vor der gegenüberliegenden Wand aufgetürmt.
 
-Zwei [[Rotbrenner Schurke|ROtbrenner Schurken]] in scharlachroten Umhängen stehen hier Wache, doch verbringen sie den Großteil ihrer Zeit damit, die hilflosen Gefangenen zu verspotten. 
+Zwei [[Rotbrenner Schurke|Rotbrenner Schurken]] in scharlachroten Umhängen stehen hier Wache, doch verbringen sie den Großteil ihrer Zeit damit, die hilflosen Gefangenen zu verspotten. 
 Wenn die Wachen einen Kampf in Bereich 5 hören, nehmen sie Position an der Wand nahe der Tür ein und versuchen Eindringlinge zu überraschen. 
 Die Gefangenen sind zu eingeschüchtert, um Warnungen zu rufen oder um Hilfe zu rufen.
 Der Haufen Kleidung gehört den verschiedenen Gefangenen, die hier in den letzten zwei Monaten untergebracht wurden – mindestens ein Dutzend Leute, wenn man von der Größe des Haufens ausgeht.
@@ -387,7 +387,7 @@ Verschiedene Papiere und Notizen sind ordentlich auf dem Schreibtisch gestapelt.
 Es handelt sich vor allem um Iarnos schriftliche Bestellungen von mehr Materialien für seine Werkstatt bei Apothekern und Alchemisten aus der Umgebung. 
 Die Charaktere finden auch einen Brief, der mit dem Symbol der Schwarzen Spinne unterzeichnet ist.
 
->[!info] Die Schwarze Spinne 
+>[!quote] Die Schwarze Spinne 
 >Fürst Albrek
 >Meine Spione in Niewinter sagen mir, dass Fremde in Phandalin eintreffen werden. 
 >Sie könnten für die Zwerge arbeiten. 

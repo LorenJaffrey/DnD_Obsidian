@@ -3,6 +3,7 @@ tags:
 - Quest
 Belohnung: 50 GM
 Questgeber: "[[Rathaus von Phandalin#Harbin Wester]]"
+Erledigt: false
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`
@@ -13,4 +14,4 @@ Questgeber: `=this.Questgeber`
  >Sie müssen vor den Orks und Monstern gewarnt werden, die in diese Gegend gekommen sind.
  >Überbringt ihnen die Warnung und kehrt dann zu Bürgermeister Harbin Wester zurück, um eine Belohnung von 50 GM abzuholen.
  
- Weiter bei [[Die Zwergenausgrabung]]
+ Weiter bei [[Zwergenausgrabung]]

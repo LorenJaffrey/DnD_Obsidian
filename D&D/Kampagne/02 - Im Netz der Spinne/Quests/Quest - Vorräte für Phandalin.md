@@ -3,6 +3,7 @@ tags:
 - Quest
 Belohnung: 50 GM
 Questgeber: "[[Barthens Vorräte#Elmar Barthen]]"
+Erledigt: true
 ---
 # `=this.file.name`
 Belohnung: `=this.Belohnung`

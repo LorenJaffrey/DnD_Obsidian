@@ -7,5 +7,7 @@ file.link AS "Quest", Belohnung, Questgeber
 
 FROM "Kampagne/02 - Im Netz der Spinne/Quests" AND #Quest
 
+WHERE Erledigt = false
+
 SORT file.name
 ```
