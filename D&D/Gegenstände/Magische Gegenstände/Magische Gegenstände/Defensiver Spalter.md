@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Waffe/Beil
+- Gegenstand/Magischer_Gegenstand/Waffe/Beil
 Art: "[[Magische Waffe]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

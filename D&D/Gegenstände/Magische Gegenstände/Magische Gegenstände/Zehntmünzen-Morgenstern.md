@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Waffe/Streitkolben
+- Gegenstand/Magischer_Gegenstand/Waffe/Streitkolben
 Art: "[[Magische Waffe]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Waffe/Dolch
+- Gegenstand/Magischer_Gegenstand/Waffe/Dolch
 Art: "[[Magische Waffe]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

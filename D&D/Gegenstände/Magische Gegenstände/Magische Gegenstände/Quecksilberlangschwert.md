@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Waffe/Langschwert
+- Gegenstand/Magischer_Gegenstand/Waffe/Langschwert
 Art: "[[Magische Waffe]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: Ja

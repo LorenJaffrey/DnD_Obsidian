@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Waffe/Bogen
+- Gegenstand/Magischer_Gegenstand/Waffe/Bogen
 Art: "[[Magische Waffe]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

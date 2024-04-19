@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Stiefel
+- Gegenstand/Magischer_Gegenstand/Stiefel
 Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: false

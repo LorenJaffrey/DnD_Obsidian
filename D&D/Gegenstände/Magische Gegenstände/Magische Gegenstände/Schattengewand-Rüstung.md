@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Rüstung
+- Gegenstand/Magischer_Gegenstand/Rüstung
 Art: "[[Magische Rüstung]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

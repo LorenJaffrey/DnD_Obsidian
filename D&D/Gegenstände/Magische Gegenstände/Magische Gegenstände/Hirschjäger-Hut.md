@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Wundersamer_Gegenstand/Hut
+- Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Hut
 Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: true

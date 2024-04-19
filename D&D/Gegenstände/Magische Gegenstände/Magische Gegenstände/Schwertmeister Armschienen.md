@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Wundersamer_Gegenstand/Armschienen
+- Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Armschienen
 Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: false

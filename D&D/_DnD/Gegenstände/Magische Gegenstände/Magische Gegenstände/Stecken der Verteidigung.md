@@ -1,6 +1,6 @@
 ---
 tags:
-  - Magischer_Gegenstand/Zauberstecken
+  - Gegenstand/Magischer_Gegenstand/Zauberstecken
 Art: "[[Zauberstecken]]"
 Seltenheit: 
 Einstimmung: true

@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Wundersamer_Gegenstand/Halskette
+- Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Halskette
 Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: false

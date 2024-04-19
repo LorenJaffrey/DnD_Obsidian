@@ -1,6 +1,6 @@
 ---
 tags:
-- Magischer_Gegenstand/Wundersamer_Gegenstand/Ring
+- Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Ring
 Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "ungewöhnlich"
 Einstimmung: false

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Magischer_Gegenstand/Waffe/Streitaxt
+  - Gegenstand/Magischer_Gegenstand/Waffe/Streitaxt
 Art: "[[Magische Waffe]]"
 Seltenheit: Erbstück
 Einstimmung: true
