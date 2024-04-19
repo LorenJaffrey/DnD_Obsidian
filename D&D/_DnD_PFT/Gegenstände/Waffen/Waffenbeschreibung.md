@@ -13,7 +13,7 @@ Manche Waffen können sowohl einhändig als auch zweihändig geführt werden. Di
 ## Größe
 Waffen werden in Größenkategorien von 1 bis 5 eingeteilt. Während kleinere Wesen sehr große Waffen gar nicht führen können, können größere Wesen diese sogar einhändig führen.
 
-| Größenkategorie      | Beispiele                    | Hände [[groß]] | Hände [[Mittelgroß]] | Hände klein |
+| Größenkategorie      | Beispiele                    | Hände [[Groß]] | Hände [[Mittelgroß]] | Hände klein |
 | -------------------- | ---------------------------- | ---------- | ---------------- | ----------- |
 | 1 (Kleine Waffe)     | Dolch                        | -          | 1                | 1           |
 | 2 (Einhandwaffe)     | Kurzschwert                  | 1          | 1                | 1           |
