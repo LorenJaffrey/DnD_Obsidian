@@ -7,7 +7,6 @@ image: [[chestweasel.png]]
 name: Truhenwesen
 size: [[Klein]]
 type: [[Feenwesen]]
-subtype: string
 alignment: [[Chaotisch Neutral]]
 ac: 22 (als Objekt, sonst 14)
 sr: 0

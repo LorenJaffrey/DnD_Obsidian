@@ -3,6 +3,7 @@ aliases:
 - Wölfe
 tags:
 - Kreatur/Tier
+HG: 1/4
 ---
 ```statblock
 image: [[Wikilink To Image]]
@@ -19,7 +20,7 @@ skillsaves:
   - Heimlichkeit: 4
   - Wahrnehmung: 3
 senses: [[Wahrnehmung#Passive Wahrnehmung]] 13
-cr: 1/4
+cr: =this.HG
 traits:
   - name: [[Rudeltaktik]]
   - name: Scharfes Gehör und scharfer Geruchssinn
