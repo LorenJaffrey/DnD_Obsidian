@@ -1,5 +1,8 @@
 ---
 Stufe: 4
+Druide:
+  Tiergestalt: 2
+  Geistertotem: 1
 Glück: 0
 Erschöpfung: 0
 Bewegung: 6
@@ -111,7 +114,6 @@ tags:
   - Charakter/GORN
 ---
 # `=this.file.name`
-
 > [!infobox]
 > ![[Aranon.jpg]]
 > ## Hintergrund
@@ -156,6 +158,24 @@ tags:
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+## Druide
+> [!column] 
+>> ## Aufladungen
+>> |         |        Tiergestalt         |        Geistertotem         |
+>> | ------- |:--------------------------:|:---------------------------:|
+>> | Maximal |             2              |              1              |
+>> | Aktuell | `=this.Druide.Tiergestalt` | `=this.Druide.Geistertotem` |
+>
+>> ## Tiergestalten
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Tier",
+>> HG
+>> FROM #Kreatur/Tier 
+>> SORT HG DESC
+>> WHERE HG = "1/4" OR HG = "1/8" OR HG = 0
+>> ```
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
@@ -320,7 +340,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
->> Tiergestalt verfügbar: 2
 
 ## Hintergrundgeschichte
 * Vater Waldelf 
