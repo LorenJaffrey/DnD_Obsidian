@@ -51,26 +51,26 @@ Charaktere, die sich vorsichtig bewegen oder die Umgebung auskundschaften, könn
 Jeder Charakter, der sich nach vorne bewegt, muss einen Wurf auf [[Heimlichkeit]] gegen die [[Wahrnehmung#Passive Wahrnehmung]] der Goblins ablegen, um nicht überrascht zu werden.
 
 ## 3. Zwinger
-Die Cragmaws halten hier einen Zwinger voller übellauniger [[Wolf2|Wölfe]], die sie für den Kampf ausbilden.
+Die Cragmaws halten hier einen Zwinger voller übellauniger [[Wolf|Wölfe]], die sie für den Kampf ausbilden.
 
 >[!info] Beschreibung 
 >Direkt hinter der Höhlenöffnung führen einige unebene Steinstufen zu einer kleinen, feuchten Kammer an der Ostseite des Durchgangs. 
 >Die Höhle verjüngt sich zu einem steilen Spalt am hinteren Ende und ist vom Gestank von Tieren erfüllt. 
->Wildes Knurren und die Geräusche von rasselnden Ketten begrüßen euch, da direkt in der Öffnung drei übellaunige [[Wolf2|Wölfe]] angekettet sind. 
+>Wildes Knurren und die Geräusche von rasselnden Ketten begrüßen euch, da direkt in der Öffnung drei übellaunige [[Wolf|Wölfe]] angekettet sind. 
 >Die Ketten der Wölfe führen zu eisernen Stangen, die in den Fuß eines Stalagmiten getrieben sind.
 
-Die [[Wolf2|Wölfe]] sind hier eingesperrt. Sie können Ziele, die sich auf den Treppen befinden, nicht erreichen, aber alle drei greifen alle Kreaturen an, die keine Goblins sind und sich in den Raum bewegen.
+Die [[Wolf|Wölfe]] sind hier eingesperrt. Sie können Ziele, die sich auf den Treppen befinden, nicht erreichen, aber alle drei greifen alle Kreaturen an, die keine Goblins sind und sich in den Raum bewegen.
 Goblins in nahen Höhlen ignorieren die Geräusche von kämpfenden Wölfen, da sie die ganze Zeit knurren und nacheinander schnappen.
 
 Ein Charakter, der die Tiere beruhigen möchte, kann einen Wurf auf [[Mit Tieren umgehen]] gegen [[Schwierigkeitsgrad|SG]] 15 ablegen.
-Bei einem Erfolg erlauben es die [[Wolf2|Wölfe]] dem Charakter, sich durch den Raum zu bewegen. 
-Wenn den [[Wolf2|Wölfen]] etwas zu fressen gegeben wird, sinkt der [[Schwierigkeitsgrad|SG]] auf 10.
+Bei einem Erfolg erlauben es die [[Wolf|Wölfe]] dem Charakter, sich durch den Raum zu bewegen. 
+Wenn den [[Wolf|Wölfen]] etwas zu fressen gegeben wird, sinkt der [[Schwierigkeitsgrad|SG]] auf 10.
 
-Wenn die [[Wolf2|Wölfe]] von Gegnern außerhalb ihrer Reichweite gereizt werden, verfallen sie in Raserei, die es ihnen erlaubt, die Eisenstangen, die sie festhalten, aus dem Boden zu reißen. 
+Wenn die [[Wolf|Wölfe]] von Gegnern außerhalb ihrer Reichweite gereizt werden, verfallen sie in Raserei, die es ihnen erlaubt, die Eisenstangen, die sie festhalten, aus dem Boden zu reißen. 
 In jeder Runde, in der ein Charakter in Sicht bleibt, versuchen die Wölfe einen einzelnen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 15. 
 Beim ersten Versuch lockern sie den Stab, und der [[Schwierigkeitsgrad|SG]] sinkt auf 10. 
 Beim zweiten Erfolg reißen sie den Stab los oder verbiegen ihn, sodass ihre Ketten nicht mehr festgehalten werden.
-Ein [[Goblin]] oder [[Grottenschrat]] kann seine Aktion verwenden, um einen [[Wolf2]] von seiner Kette zu befreien.
+Ein [[Goblin]] oder [[Grottenschrat]] kann seine Aktion verwenden, um einen [[Wolf]] von seiner Kette zu befreien.
 
 ### Spalte
 Eine schmale Öffnung in der Ostwand führt zu einem natürlichen Schacht, der 9 Meter nach oben in Bereich 8 führt.
@@ -227,7 +227,7 @@ Die Beute, die die Cragmaws im letzten Monat bei Plünderungen und Angriffen auf
 
 ### Kampf
 - Klarg, der [[Grottenschrat]] (33 TP)
-- sein räudiger [[Wolf2]] Reißer (14 TP)
+- sein räudiger [[Wolf]] Reißer (14 TP)
 - 3 [[Goblins]] (10 TP) 
 Der [[Grottenschrat]] ist größenwahnsinnig und sieht sich als mächtigen Kriegsherren, der seine Laufbahn der Eroberungen gerade erst begonnen hat. 
 Er ist nicht ganz bei klarem Verstand und spricht von sich in der dritten Person („Wer wagt es, sich Klarg zu widersetzen?“ oder „Klarg wird einen Thron aus euren Knochen errichten, ihr Schwächlinge!“). 

@@ -20,11 +20,11 @@ skillsaves:
   - Heimlichkeit: 4
   - Wahrnehmung: 3
 senses: [[Wahrnehmung#Passive Wahrnehmung]] 13
-cr: =this.HG
+cr: 1/4
 traits:
   - name: [[Rudeltaktik]]
-  - name: Scharfes Gehör und scharfer Geruchssinn
-    desc: Der Wolf hat einen Vorteil bei Würfen auf [[Wahrnehmung]], die mit Gehör und Geruchssinn zusammenhängen.
+  - name: [[Scharfes Gehör]]
+  - name: [[Scharfer Geruchssinn]]
 actions:
   - name: Biss
     desc: Nahkampf-Waffenangriff +4 zum Treffen, Reichweite 1,5 m (1 Kästchen), ein Ziel. Treffer 5 (2W4+2) Stichschaden, wenn das Ziel eine Kreatur ist, muss sie einen [[Rettungswurf]] auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 11 schaffen, sonst erleidet sie den Zustand [[liegend]]..
