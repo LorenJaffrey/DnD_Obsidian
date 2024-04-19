@@ -6,11 +6,15 @@ tags:
 # `=this.file.name`
 
 *Du lernst Apparaturen zu erschaffen die dir einen Vorteil im Kampf und außerhalb gewähren können.* 
-Du lernst zwei Apparaturen herzustellen und vorzubereiten, die unter [[Meistertüftler#Apparaturen]] beschrieben sind. Einige dieser [[Meistertüftler#Apparaturen]] verstärken deinen [[Angriff]]. Du kannst nur eine einzelne [[Meistertüftler#Apparaturen]] pro [[Angriff]] einsetzen. 
+Du lernst zwei Apparaturen herzustellen und vorzubereiten, die unter [[Meistertüftler#Apparaturen]] beschrieben sind. 
+Einige dieser [[Meistertüftler#Apparaturen]] verstärken deinen [[Angriff]]. Du kannst nur eine einzelne [[Meistertüftler#Apparaturen]] pro [[Angriff]] einsetzen. 
 Du kannst außerdem eine dir bekannte Apparatur durch eine andere ersetzen nachdem du eine [[Lange Rast]] beendet hast.
 
 ## Engergiekerne
-Du besitzt 4 Engergiekerne, die W6 sind. Ein Engergiekerne wird nur bei einem erfolgreichen [[Attribute#Attributswurf]] oder [[Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. Du regenerierst alle verbrauchten Engergiekerne wenn du eine [[Lange Rast]] beendest. Auf höheren Stufen erhältst du zusätzliche und größere Engergiekerne.
+Du besitzt 4 Engergiekerne, die W6 sind. 
+Ein Engergiekerne wird nur bei einem erfolgreichen [[Attribute#Attributswurf]] oder [[Angriffswurf]] verbraucht, außer die [[Meistertüftler#Apparaturen]] besagt etwas anderes. 
+Du regenerierst alle verbrauchten Engergiekerne wenn du eine [[Lange Rast]] beendest. 
+Auf höheren Stufen erhältst du zusätzliche und größere Engergiekerne.
 
 ## Tüftlerwurf
 Um eine [[Meistertüftler#Apparaturen]] zu benutzen ist ein Wurf auf [[Intelligenz]] gegen den [[Schwierigkeitsgrad]] der Apparatur notwendig. 

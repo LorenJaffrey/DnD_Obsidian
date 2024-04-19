@@ -1,17 +1,23 @@
 ---
 Stufe: 4
+Schurke:
+  Energiekerne: 4
+  Energiekerngröße: W6
+  Apparaturen:
+    - "[[Gnomischer Flammenwerfer]]"
+    - "[[Gnomisches Überbrückungskabel]]"
+  Verschwinden: 1
 Glück: 1
 Erschöpfung: 0
-Energiekern: 4
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
 Waffen:
-- "[[Kurzschwert]]"
-- "[[Dolch]]"
-- "[[Beil]]"
-- "[[Schleuder]]"
-- "[[Leichte Armbrust]]"
+  - "[[Kurzschwert]]"
+  - "[[Dolch]]"
+  - "[[Beil]]"
+  - "[[Schleuder]]"
+  - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 35
   TP: 35
@@ -105,7 +111,6 @@ tags:
 - Charakter/GORN
 ---
 # `=this.file.name`
-
 > [!infobox]
 > ![[Niptac.jpeg]]
 > ## Hintergrund
@@ -144,6 +149,24 @@ tags:
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 [[Energiekern|Energiekern]]: `=this.Energiekern` von 4
+
+## Meistertüftler
+### Aufladungen
+|         |          [[Durchdachte Vorbereitung#Engergiekerne]]           | [[Verschwinden#Verschwinden]] |
+| ------- |:-------------------------------------------------------------:|:-----------------------------:|
+| Maximal |              4 `=this.Schurke.Energiekerngröße`               |               1               |
+| Aktuell | `=this.Schurke.Energiekerne` `=this.Schurke.Energiekerngröße` | `=this.Schurke.Verschwinden`  |
+### Apparaturen
+```dataview
+TABLE WITHOUT ID
+file.link AS "Apparaturen", 
+SG AS "Schwierigkeitsgrad"
+FROM #Merkmal/Klasse/Schurke/Meistertüftler/Apparatur 
+WHERE contains(this.Schurke.Apparaturen, file.link)
+SORT SG, file.link
+```
+
+
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
@@ -277,7 +300,7 @@ SORT file.name
 ## Werkzeuge
 ```dataview
 LIST
-FROM #Werkzeug
+FROM #Gegenstand/Werkzeug
 WHERE contains(this.Übung.Werkzeuge, file.link)
 SORT file.name
 ```
