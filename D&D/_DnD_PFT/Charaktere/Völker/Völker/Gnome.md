@@ -60,7 +60,7 @@ Sie werden zwischen 350 und fast 500 Jahren alt.
 
 ### Größe und Gewicht
 Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
-[[Größenkategorie]]: [[klein]]
+[[Größenkategorie]]: [[Klein]]
 
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
@@ -95,7 +95,7 @@ Sie werden zwischen 350 und fast 500 Jahren alt.
 
 ### Größe und Gewicht
 Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
-[[Größenkategorie]]: [[klein]]
+[[Größenkategorie]]: [[Klein]]
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
 | 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
