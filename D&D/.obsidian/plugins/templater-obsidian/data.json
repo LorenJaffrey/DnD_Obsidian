@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Vorlagen",
+  "templates_folder": "DM Bereich/Vorlagen",
   "templates_pairs": [
     [
       "",
@@ -16,18 +16,19 @@
   "folder_templates": [
     {
       "folder": "Monster Manual",
-      "template": "Vorlagen/Vorlage Fantasy Statblock.md"
+      "template": "DM Bereich/Vorlagen/Vorlage Fantasy Statblock.md"
     },
     {
       "folder": "_DnD/Ausrüstung/Magische Gegenstände",
-      "template": "Vorlagen/Vorlage Magischer Gegenstand.md"
+      "template": "DM Bereich/Vorlagen/Ausrüstung/Vorlage Magischer Gegenstand.md"
     },
     {
       "folder": "_DnD/Ausrüstung/Waffen/Waffen",
-      "template": "Vorlagen/Waffen/Vorlage Waffe Nahkampf.md"
+      "template": "DM Bereich/Vorlagen/Ausrüstung/Waffen/Vorlage Waffe Nahkampf.md"
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     ""
   ],
