@@ -31,8 +31,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Eine Kreatur, die du berührst, wird [[unsichtbar]], bis der Zauber endet. 
-Alles, was das Ziel trägt oder in der Hand hält, wird ebenfalls [[unsichtbar]], solange es sich am Körper der Kreatur befindet.
+Eine Kreatur, die du berührst, wird [[Unsichtbar]], bis der Zauber endet. 
+Alles, was das Ziel trägt oder in der Hand hält, wird ebenfalls [[Unsichtbar]], solange es sich am Körper der Kreatur befindet.
 Der Zauber endet für das betroffene Ziel, wenn dieses angreift oder einen Zauber wirkt.
 
 ### Auf höheren Graden

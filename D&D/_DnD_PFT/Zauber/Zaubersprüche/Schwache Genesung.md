@@ -33,4 +33,4 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Du berührst eine Kreatur und beendest entweder eine Krankheit oder einen [[Zustände|Zustand]], unter dem sie leidet. 
-Mögliche [[Zustände]] sind [[blind]], [[gelähmt]], [[taub]] oder [[vergiftet]].
+Mögliche [[Zustände]] sind [[Blind]], [[Gelähmt]], [[Taub]] oder [[Vergiftet]].
