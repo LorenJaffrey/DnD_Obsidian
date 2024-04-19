@@ -42,8 +42,8 @@ Moral: 3
 |      +2      | wird [[Verängstigt]]                                     |
 |      +1      | fällt unter 50% [[Trefferpunktemaximum]]                 |
 |      -1      | steigt über 50% [[Trefferpunktemaximum]]                 |
-|      -2      | [[kurze Rast]] (-2)                                      |
-|      -5      | [[lange Rast]] (-5)                                      |
+|      -2      | [[Kurze Rast]] (-2)                                      |
+|      -5      | [[Lange Rast]] (-5)                                      |
 
 #### Stresstest
 - fällig wenn das Stresslevel auf einmal um mehr als 2 auf einmal Punkte erhöht wird

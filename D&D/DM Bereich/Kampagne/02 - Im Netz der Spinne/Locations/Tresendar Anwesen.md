@@ -113,7 +113,7 @@ Die Ältesten der lange toten Tresendar-Familie wurden einst in diesem Mausoleum
 >Falsche Säulen an den Wänden sind in die Form einer Eiche gehauen. 
 >Die Doppeltüren in der Südostecke sind mit angelaufenem Kupferblech überzogen.
 
-Die drei [[Kampagne/02 - Im Netz der Spinne/Locations/Skelett|Skelette]] sind belebt und greifen jede Kreatur an, die sich der Tür, die in Bereich 5 oder Bereich 6 führt, auf 3 Meter annähert, 
+Die drei [[DM Bereich/Kampagne/02 - Im Netz der Spinne/Locations/Skelett|Skelette]] sind belebt und greifen jede Kreatur an, die sich der Tür, die in Bereich 5 oder Bereich 6 führt, auf 3 Meter annähert, 
 es sei denn die Kreatur trägt den scharlachroten Umhang der Rotbrenner oder spricht das Passwort „Illefarn“ 
 (der Name einer uralten Elfennation, die sich einst über einen Großteil der Schwertküste erstreckte).
 
@@ -217,7 +217,7 @@ Jede Kreatur kann ihre Aktion verwenden, um ein Ende der beiden Brücken zu lös
 ### Spalte
 Der steile Spalt ist zwischen 1,5 und 3 Metern breit und 6 Meter tief. 
 Die rauen Wände sind leicht ohne Attributswurf zu erklimmen. 
-Eine Kreatur, die in den Spalt fällt, erleidet 2W6 Wuchtschaden und landet liegend in einem Haufen aus Geröll, der [[schwieriges Gelände]] darstellt.
+Eine Kreatur, die in den Spalt fällt, erleidet 2W6 Wuchtschaden und landet liegend in einem Haufen aus Geröll, der [[Schwieriges Gelände]] darstellt.
 Der Boden der Grube fühlt sich unnatürlich kalt an. 
 Wenn ein [[Magie entdecken]] auf diesen Bereich gewirkt wird, strahlt er eine schwache nekromantische Aura ab. 
 Die Magie lässt jegliche organische Materie im Spalt mit der halben normalen Geschwindigkeit altern und verrotten.

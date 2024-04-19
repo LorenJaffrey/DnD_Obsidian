@@ -1,6 +1,6 @@
 # `=this.file.name`
 
-- [ ] #task Location vorbereiten [priority:: high]
+- [ ] #task Location vorbereiten [priority:: highest]
 ![[Dwarven Excavation.jpg|300px]]
 ## Überblick
 
@@ -26,7 +26,7 @@ Es gibt keine Lichtquellen im Tempel, da sich die Zwergenpriester von [[Abbathor
 
 #### Staub und Schutt
 Überall im Tempel liegt staubiger Schutt herum. 
-Mit Schutt gefüllte Quadrate sind [[schwieriges Gelände]].
+Mit Schutt gefüllte Quadrate sind [[Schwieriges Gelände]].
 
 #### Türen
 Alle Türen und Angeln sind aus Stein gehauen.
