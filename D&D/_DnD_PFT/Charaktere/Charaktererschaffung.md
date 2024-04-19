@@ -9,7 +9,7 @@
 	1. modifiziertes Standard Array (16, 14, 13, 12, 10, 8)
 4. Persönlichkeit und Hintergrund
 	1. [[Körperliche Merkmale]]
-	2. [[_DnD/Charaktere/Persönlichkeit und Hintergrund/Gesinnung/Gesinnung]]
+	2. [[Gesinnung]]
 	3. [[Sprachen]]
 	4. [[Persönliche Charakteristika]]
 		1. [[Persönliche Charakteristika#Ideale]]
