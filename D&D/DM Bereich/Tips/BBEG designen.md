@@ -1,0 +1,15 @@
+## Motivation
+- Antiheldenreise
+- Rache
+- will sich beweisen
+- durch Macht korrumpiert
+- 
+- früh den Hass schüren
+	- Dorf vernichten
+- Berührungspunkte schaffen
+	- Begegnungen
+	- Nachrichten
+- den Helden immer einen Schritt voraus
+- Handlungen des BBEG sind in der Welt spürbar
+- moralische Zwickmühlen schaffen
+- nicht zu sehr schwarz/weiß malen
