@@ -27,17 +27,10 @@
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
     "iconsInLinksEnabled": true,
-    "debugMode": false
+    "debugMode": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor"
   },
   "Monster Manual": "SiMonster",
-  "_DnD/Charaktere": "FasPerson",
-  "Kampagne": "LiMap",
-  "_DnD/Gegenstände/Behälter": "TiShoppingBag",
-  "_DnD/Gegenstände/Rüstung": "TiShirt",
-  "_DnD/Gegenstände/Waffen": "LiSword",
-  "_DnD/Gegenstände/Werkzeug": "TiTool",
-  "_DnD/Gegenstände/Magische Gegenstände": "RiMagicLine",
-  "_DnD/Gegenstände/Nahrungsmittel": "TiToolsKitchen2",
-  "_DnD/Gegenstände/Nahrungsmittel/Getränke": "LiBeer",
-  "_DnD/Gegenstände/Nahrungsmittel/Speisen": "TiMeat"
+  "Kampagne": "LiMap"
 }

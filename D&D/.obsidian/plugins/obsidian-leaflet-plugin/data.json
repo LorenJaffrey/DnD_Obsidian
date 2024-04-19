@@ -1,34 +1,6 @@
 {
   "mapMarkers": [
     {
-      "id": "northern_swordcoast_map",
-      "locked": false,
-      "lastAccessed": 1692103467544,
-      "markers": [
-        {
-          "id": "ID_4b7838f898f9",
-          "type": "Stadt",
-          "loc": [
-            128.6991711999992,
-            40.76705574065976
-          ],
-          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
-          "mutable": true,
-          "command": false,
-          "percent": null,
-          "description": null,
-          "minZoom": null,
-          "maxZoom": null,
-          "tooltip": "hover"
-        }
-      ],
-      "overlays": [],
-      "shapes": [],
-      "files": [
-        "Kampagne/02 - Der Drache vom Eisnadelgipfel/Karte Phandalin und Umgebung.md"
-      ]
-    },
-    {
       "id": "neverwinter-map",
       "locked": true,
       "lastAccessed": 1697142764007,
@@ -53,6 +25,34 @@
       "overlays": [],
       "shapes": [],
       "files": []
+    },
+    {
+      "id": "northern_swordcoast_map",
+      "locked": false,
+      "lastAccessed": 1713389418877,
+      "markers": [
+        {
+          "id": "ID_4b7838f898f9",
+          "type": "Stadt",
+          "loc": [
+            128.6991711999992,
+            40.76705574065976
+          ],
+          "layer": "%5B%5Bice-map-sword-coast-pc.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Kampagne/02 - Im Netz der Spinne/Karte Phandalin und Umgebung.md"
+      ]
     }
   ],
   "defaultMarker": {
