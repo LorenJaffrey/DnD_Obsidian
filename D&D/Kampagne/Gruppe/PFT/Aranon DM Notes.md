@@ -1,6 +1,5 @@
 ---
 tags:
-  - Charakter/GORN/Aranon
 Ordnung: 3
 Moral: 3
 ---

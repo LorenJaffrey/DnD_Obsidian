@@ -102,7 +102,7 @@ Persönlichkeit:
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 tags:
-- Charakter/GORN/Niptac
+- Charakter/GORN
 ---
 # `=this.file.name`
 

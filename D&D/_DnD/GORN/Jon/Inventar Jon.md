@@ -2,7 +2,6 @@
 Charakter: "[[Jon]]"
 aliases:
 tags:
-- Charakter/GORN/Jon
 Geld:
   PM: 0
   GM: 228

@@ -1,6 +1,5 @@
 ---
 tags:
-- Charakter/GORN/Lucian
 Ordnung: -3
 Moral: -1
 ---

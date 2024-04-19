@@ -1,6 +1,5 @@
 ---
 tags:
-- Charakter/GORN/Niptac
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0

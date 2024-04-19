@@ -93,7 +93,7 @@ Persönlichkeit:
   Bindungen: Buch der Schatten, Teuflischer Pakt
   Makel: eitel, egoistisch, kein Teilen von Gedanken oder Plänen
 tags:
-- Charakter/GORN/Lucian
+- Charakter/GORN
 ---
 # `=this.file.name`
 

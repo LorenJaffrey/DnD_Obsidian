@@ -1,6 +1,5 @@
 ---
 tags:
-- Charakter/GORN/Drogan
 Charakter: "[[Drogan]]"
 Geld:
   PM: 10

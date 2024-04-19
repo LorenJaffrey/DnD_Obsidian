@@ -1,6 +1,5 @@
 ---
 tags:
-- Charakter/GORN/Niptac
 Ordnung: -2
 Moral: 3
 ---

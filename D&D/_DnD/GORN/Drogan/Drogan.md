@@ -104,7 +104,7 @@ Persönlichkeit:
   Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
   Makel: Ich habe eine (Alkohol-)Sucht.
 tags:
-- Charakter/GORN/Drogan
+- Charakter/GORN
 ---
 # `=this.file.name`
 

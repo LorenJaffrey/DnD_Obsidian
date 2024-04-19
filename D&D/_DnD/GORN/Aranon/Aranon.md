@@ -108,7 +108,7 @@ Persönlichkeit:
   Makel: 
   - Visionen, Alpträume und unkontrollierte Teleportation
 tags:
-- Charakter/GORN/Aranon
+- Charakter/GORN
 ---
 # `=this.file.name`
 
