@@ -12,7 +12,7 @@
 
 ## Recap
 - Gruppe hat die Geiseln befreit und nach draußen geführt
-	- Sildar und die Geiseln haben sich im Haus der ??? versteckt
+	- Sildar und die Geiseln haben sich im Haus der Dendrars versteckt
 - Gruppe ist nochmal rein um nach den Grottenschraten, dem Magier, etc. zu sehen
 	- niemanden mehr vorgefunden
 	- stattdessen haben sie den [[Goblin]] [[Baumel]] gefunden und mitgenommen
@@ -27,7 +27,8 @@
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Der Butterschädelhof]]
 
 ### Szenen
-- [[Szene Rückkehr der Schürfer]]
+- [[Szene - Rückkehr der Schürfer]]
+- [[Szene - Sildars Plan]]
 
 ## Secrets and Clues
 1. Grottenschrate haben [[Iarno Albrek]] weggebracht

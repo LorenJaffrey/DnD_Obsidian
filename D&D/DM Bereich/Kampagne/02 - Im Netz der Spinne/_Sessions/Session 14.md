@@ -14,9 +14,9 @@ KW 8
 - Goblin Baumel biedert sich bei der Gruppe an
 
 ### Szenen
-- [[Szene Rückkehr der Schürfer]]
-- [[Szene Verhandlung mit dem Nothic]]
-- [[Szene Sildar Rotbrenner]]
+- [[Szene - Rückkehr der Schürfer]]
+- [[Szene - Verhandlung mit dem Nothic]]
+- [[Szene - Sildar Rotbrenner]]
 
 ## Secrets and Clues
 1. Grottenschrate haben [[Iarno Albrek]] weggebracht
