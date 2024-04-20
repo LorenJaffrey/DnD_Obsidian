@@ -1,8 +1,10 @@
 ---
 Stufe: 4
-Druide:
+Aranon:
   Tiergestalt: 2
   Geistertotem: 1
+  Nebelschritt: 1
+  Identifizieren: 1
 Glück: 0
 Erschöpfung: 0
 Bewegung: 6
@@ -159,13 +161,14 @@ tags:
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 
-## Druide
+## Aranon
 > [!column] 
 >> ## Aufladungen
->> |         |        Tiergestalt         |        Geistertotem         |
->> | ------- |:--------------------------:|:---------------------------:|
->> | Maximal |             2              |              1              |
->> | Aktuell | `=this.Druide.Tiergestalt` | `=this.Druide.Geistertotem` |
+>> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
+>> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
+>> | Maximal      |             2                                                    |                                   1                                   |                                     1                                |                                      1                                    |
+>> | Aktuell         | `=this.Aranon.Tiergestalt` | `=this.Aranon.Geistertotem` | `=this.Aranon.Nebelschritt`  | `=this.Aranon.Identifizieren` |
+>> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten
 >> ```dataview

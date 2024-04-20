@@ -1,6 +1,6 @@
 ---
 Stufe: 4
-Barbar:
+Drogan:
   Kampfrausch: 3
 Glück: 0
 Erschöpfung: 0
@@ -155,12 +155,13 @@ tags:
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 
-## Barbar
+## Drogan
 ## Aufladungen
-|         |                                       [[Kampfrausch]]                                       |                                           Bonusschaden                                            |
-| ------- |:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|
-| Maximal | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl` | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
-| Aktuell |                                 `=this.Barbar.Kampfrausch`                                  |                                                                                                   |
+|         |                                  Nutzungen [[Kampfrausch]]                                  |
+| ------- |:-------------------------------------------------------------------------------------------:|
+| Maximal | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl` |
+| Aktuell |                                 `=this.Drogan.Kampfrausch`                                  |
+Bonuschaden [[Kampfrausch]]: +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden`
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |

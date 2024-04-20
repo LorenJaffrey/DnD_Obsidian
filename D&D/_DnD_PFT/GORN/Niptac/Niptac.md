@@ -1,6 +1,7 @@
 ---
 Stufe: 4
-Schurke:
+Niptac:
+  Anzahl_Apparaturen: 2
   Energiekerne: 4
   Energiekerngröße: W6
   Apparaturen:
@@ -150,23 +151,21 @@ tags:
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 [[Energiekern|Energiekern]]: `=this.Energiekern` von 4
 
-## Meistertüftler
-### Aufladungen
+## Niptac
+### Aufladungen 
 |         |          [[Durchdachte Vorbereitung#Engergiekerne]]           | [[Verschwinden#Verschwinden]] |
 | ------- |:-------------------------------------------------------------:|:-----------------------------:|
-| Maximal |              4 `=this.Schurke.Energiekerngröße`               |               1               |
-| Aktuell | `=this.Schurke.Energiekerne` `=this.Schurke.Energiekerngröße` | `=this.Schurke.Verschwinden`  |
-### Apparaturen
+| Maximal |              4 `=this.Niptac.Energiekerngröße`               |               1               |
+| Aktuell | `=this.Niptac.Energiekerne` `=this.Niptac.Energiekerngröße` | `=this.Niptac.Verschwinden`  |
+### Apparaturen (max `=this.Niptac.Anzahl_Apparaturen`)
 ```dataview
 TABLE WITHOUT ID
 file.link AS "Apparaturen", 
 SG AS "Schwierigkeitsgrad"
 FROM #Merkmal/Klasse/Schurke/Meistertüftler/Apparatur 
-WHERE contains(this.Schurke.Apparaturen, file.link)
+WHERE contains(this.Niptac.Apparaturen, file.link)
 SORT SG, file.link
 ```
-
-
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
