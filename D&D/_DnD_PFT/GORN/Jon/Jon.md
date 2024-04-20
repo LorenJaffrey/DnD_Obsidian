@@ -334,6 +334,8 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	**Auswirkung**: Man kann nochmal im selben Zug  angreifen bzw. eine Aktion ausführen
 >>	**Verwendung**: Kann 1 Mal verwendet werden
 >>	**Erholung**: kurze oder langen Rast
+>>- **[[Zusätzlicher Angriff]]**
+>>	![[Mehrfach_Angriff.gif | 200]]
 >
 >>## Manöver (Verbrauch)
 >>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
@@ -344,7 +346,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur stattdessen als Reaktion  angreifen kann + Schadensbonus (Wert des Überlegenheitswürfels)
+>>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
 >>- **[[Kampfüberlegenheit#Fällender Angriff]]**
@@ -383,3 +385,24 @@ Er hatte oft Schwierigkeiten, seine Emotionen im Umgang mit Orks zu kontrolliere
 
 Nachdem er viele Jahre in der Armee gedient hatte, wurde Jon Longbow zunehmend desillusioniert vom Militärleben. Die Handlungen die er im Auftrag seiner Vorgesetzten durchführen musste waren im immer mehr zuwider und widersprachen seinem persönlichen Ehrempfinden. Als er eines Tages den direkten Befehl eines vorgesetzten Offiziers missachtete, wurde er für seine Insubordination ausgepeitscht und unehrenhaft aus dem Militärdienst entlassen. Sehr zum Missfallen seines Vaters.
 Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner Liebe zu Frauen und Alkohol um die schrecklichen Alpträume an seine verstümmelten und zerstückelten Kameraden zu verdrängen die ihn des Nachts wach halten...
+
+
+
+##  Bilder
+>[!column]
+>>## Jon
+>>|||
+>>| ------------------ |:---------:|
+>>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| 
+>>|**Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]|**Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
+>
+>>## Geschehnisse
+>>||||||
+>>| :--: |:--:|:--:|:--:|:--:|
+>>| **Vergangenheit**| **Überfall auf Jon's Militär-Einheit durch Orks** ![[Jons_Vergangenheit.jpeg]] | |
+>>|**Dracheninsel**| **Skelette besiegt** ![[Skelett_Krieger.jpeg]]|**Riesen Schlange in der  Mykoniden Höhle besiegt** ![[Große_Schlange.jpeg]]| **Kobolde erschossen** ![[Kobold_Geschwister.jpeg]]|**Funkenschinder im Turm erschossen** ![[Funkenschinder.jpeg]]|
+>>| **Phandalin**| **Goblin Überfall abgewehrt** ![[Goblin_Hinterhalt.jpeg]]|**Rotbrenner vor der Taverne bekämpft** ![[Rotbrenner_Gruppe.jpeg]] | **Böser Zauberer erschossen** ![[Phandalin_Zauberer.jpeg]] | | |
+>>| | | | | |
+>>| | | | | |
+>>| | | | | |
+>>| | | | | |
