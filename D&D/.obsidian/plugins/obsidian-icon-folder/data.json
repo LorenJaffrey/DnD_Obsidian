@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "IbGlobe",
-      "CoInfo",
-      "LiCookingPot",
-      "RiAttachment2",
-      "FasWandMagicSparkles"
+      "FasUser",
+      "RaKnightHelmet",
+      "FasPenRuler",
+      "RaSpeechBubbles",
+      "IbGlobe"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,9 @@
   "DM Bereich/Bestiarium": "RaEyeMonster",
   "DM Bereich/Homebrew": "LiCookingPot",
   "DM Bereich/Tips": "CoInfo",
-  "DM Bereich/Worldbuilding": "IbGlobe"
+  "DM Bereich/Worldbuilding": "IbGlobe",
+  "_DnD_PFT/Sprachen": "RaSpeechBubbles",
+  "_DnD_PFT/Regeln": "FasPenRuler",
+  "_DnD_PFT/Gegenstände": "RaKnightHelmet",
+  "_DnD_PFT/Charaktere": "FasUser"
 }
