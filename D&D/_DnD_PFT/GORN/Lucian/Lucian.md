@@ -1,5 +1,8 @@
 ---
 Stufe: 4
+Lucian:
+  Thaumaturgie: 2
+  Höllischer_Tadel: 1
 Glück: 0
 Erschöpfung: 0
 Bewegung: 6
@@ -7,6 +10,7 @@ Rüstung: "[[Lederrüstung]]"
 Schild:
 Waffen:
 - "[[Dolch]]"
+- "[[Kampfstab]]"
 Gesundheit:
   MaxTP: 29
   TP: 16
@@ -142,9 +146,17 @@ tags:
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 
+## Lucian
+### Aufladungen
+|           |      [[Thaumaturgie]]       |      [[Höllischer Tadel]]       |
+| --------- |:---------------------------:|:-------------------------------:|
+| Maximal   |              2              |                1                |
+| Aktuell   | `=this.Lucian.Thaumaturgie` | `=this.Lucian.Höllischer_Tadel` |
+| Aufladung |       [[Lange Rast]]        |         [[Lange Rast]]          |
+
 ## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
+| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                                   | [[Hochsprung]] ohne Anlauf                                    | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+| -------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------- |
 | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
@@ -302,6 +314,14 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```dataview
 >> LIST
 >> FROM #Merkmal
+>> WHERE contains(this.Merkmale.Klasse, file.link)
+>> SORT file.name
+>> ```
+>>
+>> ## Schauerliche Anrufungen
+>> ```dataview
+>> LIST
+>> FROM #Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen 
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```

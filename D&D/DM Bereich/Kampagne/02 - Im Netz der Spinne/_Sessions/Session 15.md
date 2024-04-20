@@ -3,6 +3,12 @@
 ## Organisatorisches
 - [[Bedroht]]
 - [[Kräuterkunde]]
+- zweite [[Schauerliche Anrufung]] Lucian
+	- [[Schauerlicher Verstand]]?
+	- [[Maske der vielen Gesichter]]?
+	- [[Lanze der Lethargie]]?
+	- [[Buch der Uralten Geheimnisse]]?
+	- [[Aspekt des Mondes]]?
 
 ## Recap
 - Gruppe hat die Geiseln befreit und nach draußen geführt

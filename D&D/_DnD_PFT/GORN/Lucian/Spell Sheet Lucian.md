@@ -22,6 +22,7 @@ Zauber:
   - "[[Unsichtbarkeit]]"
   - "[[Spiegelbilder]]"
   - "[[Einflüsterung]]"
+Pakt_des_Buches:
   - "[[Magierhand]]"
   - "[[Göttliche Führung]]"
   - "[[Flammen erzeugen]]"
@@ -53,6 +54,26 @@ Zauber:
 ## Bemerkungen
 ![[Pakt des Buches]]
 ![[Infernalisches Erbe]]
+
+## Pakt des Buches
+```dataview
+TABLE WITHOUT ID
+file.link AS "Zauber",
+Schule,
+Zeitaufwand, 
+Reichweite, 
+choice(Verbal,"X","") AS "Verbal", 
+choice(Geste,"X","") AS "Geste", 
+choice(Material,"X","") AS "Material", 
+choice(Materialkosten, "X", "") AS "Materialkosten", 
+Dauer, 
+choice(Konzentration,"X","") AS "Konzentration", 
+choice(Ritual,"X","") AS "Ritual", 
+choice(Skalierbar,"X","") AS "Skalierbar" 
+FROM #Zauber
+WHERE contains(this.Pakt_des_Buches, file.link) AND Grad=0
+SORT file.name
+```
 
 ## Zaubertricks
 ```dataview
