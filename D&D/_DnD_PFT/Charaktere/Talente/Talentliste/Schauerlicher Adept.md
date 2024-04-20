@@ -20,6 +20,6 @@ Wiederholbar: false
 *Du hast okkulte Überlieferungen studiert und eine schauerliche Kraft in dir erweckt.*
 
 ## Schauerliche Anrufung
-Du lernst eine [[_DnD_PFT/Charaktere/Klassen/Hexenmeister/Klassenmerkmale/Schauerliche Anrufungen|Schauerliche Anrufung]] des [[Hexenmeister]] deiner Wahl. 
-Wenn die [[_DnD_PFT/Charaktere/Klassen/Hexenmeister/Klassenmerkmale/Schauerliche Anrufungen|Schauerliche Anrufung]] eine Voraussetzung hat, musst du ein [[Hexenmeister]] sein, der diese erfüllt. 
-Immer wenn du um eine Stufe aufsteigst, kannst du die [[_DnD_PFT/Charaktere/Klassen/Hexenmeister/Klassenmerkmale/Schauerliche Anrufungen]] durch eine andere des [[Hexenmeister]] ersetzen.
+Du lernst eine [[Schauerliche Anrufungen|Schauerliche Anrufung]] des [[Hexenmeister]] deiner Wahl. 
+Wenn die [[Schauerliche Anrufungen|Schauerliche Anrufung]] eine Voraussetzung hat, musst du ein [[Hexenmeister]] sein, der diese erfüllt. 
+Immer wenn du um eine Stufe aufsteigst, kannst du die [[Schauerliche Anrufungen]] durch eine andere des [[Hexenmeister]] ersetzen.
