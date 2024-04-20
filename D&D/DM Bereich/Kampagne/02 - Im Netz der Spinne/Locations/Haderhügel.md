@@ -12,13 +12,12 @@ Lies zuerst den folgenden Text im Kasten laut vor:
 
 > [!info]
 > Am Hang des Haderhügels steht eine alte steinerne Windmühle, die von einem eisernen Zaun umgeben ist.
-> Ein großes geflügeltes Monster mit einem stacheligen Schwanz versucht gerade, die Haustür der Windmühle einzuschlagen. 
+> Zwei große geflügelte Monster mit einem stacheligen Schwanz versuchen gerade, die Haustür der Windmühle einzuschlagen. 
 > Eine Frau lehnt sich aus einem Fenster im 1. Stock, winkt euch zu und ruft um Hilfe.
 
 [[Adabra Gwynn]] hat die Spielwerte einer [[Gemeinen]]. 
-Charaktere können den [[Mantikor]] bekämpfen oder mit ihm verhandeln. 
-Er bricht seinen Angriff ab und fliegt davon, wenn er Schätze im Wert von mindestens 25 GM oder ein paar Pfund Fleisch erhält.
-Wenn der [[Mantikor]] nicht getötet wird, könnte er später mit einem Partner zurückkehren und mehr Ärger machen.
+Charaktere können die [[Mantikor|Mantikore]] bekämpfen oder mit ihnen verhandeln. 
+Sie brechen ihren Angriff ab und fliegen davon, wenn sie Schätze im Wert von mindestens 50 GM oder ein paar Pfund Fleisch erhalten.
 
 ## Ziel
 [[Adabra Gwynn|Adabra]] will zwar nicht nach [[Phandalin]] zurückzukehren, aber die Charaktere können [[Quest - Warnung an Adabra]] abschließen, indem sie sie bitten, eine Nachricht an Harbin Wester zu schreiben, in der sie bestätigt, dass sie in Sicherheit ist. 
