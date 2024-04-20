@@ -9,33 +9,94 @@ Trefferwürfel: W12
 Hauptattribut:
   - "[[Stärke]]"
 Zauberwirker: 
+Kampfrausch:
+  Stufe1:
+    Anzahl: 2
+    Bonusschaden: 2
+  Stufe2:
+    Anzahl: 2
+    Bonusschaden: 2
+  Stufe3:
+    Anzahl: 3
+    Bonusschaden: 2
+  Stufe4:
+    Anzahl: 3
+    Bonusschaden: 2
+  Stufe5:
+    Anzahl: 3
+    Bonusschaden: 2
+  Stufe6:
+    Anzahl: 4
+    Bonusschaden: 2
+  Stufe7:
+    Anzahl: 4
+    Bonusschaden: 2
+  Stufe8:
+    Anzahl: 4
+    Bonusschaden: 2
+  Stufe9:
+    Anzahl: 4
+    Bonusschaden: 3
+  Stufe10:
+    Anzahl: 4
+    Bonusschaden: 3
+  Stufe11:
+    Anzahl: 4
+    Bonusschaden: 3
+  Stufe12:
+    Anzahl: 2
+    Bonusschaden: 3
+  Stufe13:
+    Anzahl: 5
+    Bonusschaden: 3
+  Stufe14:
+    Anzahl: 5
+    Bonusschaden: 3
+  Stufe15:
+    Anzahl: 5
+    Bonusschaden: 3
+  Stufe16:
+    Anzahl: 5
+    Bonusschaden: 4
+  Stufe17:
+    Anzahl: 6
+    Bonusschaden: 4
+  Stufe18:
+    Anzahl: 6
+    Bonusschaden: 4
+  Stufe19:
+    Anzahl: 6
+    Bonusschaden: 4
+  Stufe20:
+    Anzahl: unbegrenzt
+    Bonusschaden: 4
 ---
 # `=this.file.name`
 
 ## Klassentabelle
 
-| Stufe | Anzahl Kampfräusche | Kampfrausch Schaden | Merkmale                                        |
-|:-----:|:-------------------:|:-------------------:| ----------------------------------------------- |
-|   1   |          2          |         +2          | [[Kampfrausch]], [[Ungerüstete Verteidigung]]   |
-|   2   |          2          |         +2          | [[Rücksichtsloser Angriff]], [[Gefahrengespür]] |
-|   3   |          3          |         +2          | [[Urtümliche Pfade]], [[Urwissen]]              |
-|   4   |          3          |         +2          | [[Talente\|Talent]]                             |
-|   5   |          3          |         +2          | [[Zusätzlicher Angriff]], [[Schnelle Bewegung]] |
-|   6   |          4          |         +2          | Pfadmerkmal                                     |
-|   7   |          4          |         +2          | [[Wilder Instinkt]], [[Instinktiver Sprung]]    |
-|   8   |          4          |         +2          | [[Talente\|Talent]]                             |
-|   9   |          4          |         +3          | [[Brutale Kritische Treffer]] (1 Würfel)        |
-|  10   |          4          |         +3          | Pfadmerkmal                                     |
-|  11   |          4          |         +3          | [[Unerbittlicher Kampfrausch]]                  |
-|  12   |          5          |         +3          | [[Talente\|Talent]]                             |
-|  13   |          5          |         +3          | [[Brutale Kritische Treffer]] (2 Würfel)        |
-|  14   |          5          |         +3          | Pfadmerkmal                                     |
-|  15   |          5          |         +3          | [[Anhaltender Kampfrausch]]                     |
-|  16   |          5          |         +4          | [[Talente\|Talent]]                             |
-|  17   |          6          |         +4          | [[Brutale Kritische Treffer]] (3 Würfel)        |
-|  18   |          6          |         +4          | [[Unbändige Stärke]]                            |
-|  19   |          6          |         +4          | [[Talente\|Talent]]                             |
-|  20   |     unbegrenzt      |         +4          | [[Meister der Wildnis]]                         |
+| Stufe |        Anzahl Kampfräusche         |            Kampfrausch Schaden            | Merkmale                                        |
+|:-----:|:----------------------------------:|:-----------------------------------------:| ----------------------------------------------- |
+|   1   | `=this.Kampfrausch.Stufe1.Anzahl`  | +`=this.Kampfrausch.Stufe1.Bonusschaden`  | [[Kampfrausch]], [[Ungerüstete Verteidigung]]   |
+|   2   | `=this.Kampfrausch.Stufe2.Anzahl`  | +`=this.Kampfrausch.Stufe2.Bonusschaden`  | [[Rücksichtsloser Angriff]], [[Gefahrengespür]] |
+|   3   | `=this.Kampfrausch.Stufe3.Anzahl`  | +`=this.Kampfrausch.Stufe3.Bonusschaden`  | [[Urtümliche Pfade]], [[Urwissen]]              |
+|   4   | `=this.Kampfrausch.Stufe4.Anzahl`  | +`=this.Kampfrausch.Stufe4.Bonusschaden`  | [[Talente\|Talent]]                             |
+|   5   | `=this.Kampfrausch.Stufe5.Anzahl`  | +`=this.Kampfrausch.Stufe5.Bonusschaden`  | [[Zusätzlicher Angriff]], [[Schnelle Bewegung]] |
+|   6   | `=this.Kampfrausch.Stufe6.Anzahl`  | +`=this.Kampfrausch.Stufe6.Bonusschaden`  | Pfadmerkmal                                     |
+|   7   | `=this.Kampfrausch.Stufe7.Anzahl`  | +`=this.Kampfrausch.Stufe7.Bonusschaden`  | [[Wilder Instinkt]], [[Instinktiver Sprung]]    |
+|   8   | `=this.Kampfrausch.Stufe8.Anzahl`  | +`=this.Kampfrausch.Stufe8.Bonusschaden`  | [[Talente\|Talent]]                             |
+|   9   | `=this.Kampfrausch.Stufe9.Anzahl`  | +`=this.Kampfrausch.Stufe9.Bonusschaden`  | [[Brutale Kritische Treffer]] (1 Würfel)        |
+|  10   | `=this.Kampfrausch.Stufe10.Anzahl` | +`=this.Kampfrausch.Stufe10.Bonusschaden` | Pfadmerkmal                                     |
+|  11   | `=this.Kampfrausch.Stufe11.Anzahl` | +`=this.Kampfrausch.Stufe11.Bonusschaden` | [[Unerbittlicher Kampfrausch]]                  |
+|  12   | `=this.Kampfrausch.Stufe12.Anzahl` | +`=this.Kampfrausch.Stufe12.Bonusschaden` | [[Talente\|Talent]]                             |
+|  13   | `=this.Kampfrausch.Stufe13.Anzahl` | +`=this.Kampfrausch.Stufe13.Bonusschaden` | [[Brutale Kritische Treffer]] (2 Würfel)        |
+|  14   | `=this.Kampfrausch.Stufe14.Anzahl` | +`=this.Kampfrausch.Stufe14.Bonusschaden` | Pfadmerkmal                                     |
+|  15   | `=this.Kampfrausch.Stufe15.Anzahl` | +`=this.Kampfrausch.Stufe15.Bonusschaden` | [[Anhaltender Kampfrausch]]                     |
+|  16   | `=this.Kampfrausch.Stufe16.Anzahl` | +`=this.Kampfrausch.Stufe16.Bonusschaden` | [[Talente\|Talent]]                             |
+|  17   | `=this.Kampfrausch.Stufe17.Anzahl` | +`=this.Kampfrausch.Stufe17.Bonusschaden` | [[Brutale Kritische Treffer]] (3 Würfel)        |
+|  18   | `=this.Kampfrausch.Stufe18.Anzahl` | +`=this.Kampfrausch.Stufe18.Bonusschaden` | [[Unbändige Stärke]]                            |
+|  19   | `=this.Kampfrausch.Stufe19.Anzahl` | +`=this.Kampfrausch.Stufe19.Bonusschaden` | [[Talente\|Talent]]                             |
+|  20   | `=this.Kampfrausch.Stufe20.Anzahl` | +`=this.Kampfrausch.Stufe20.Bonusschaden` | [[Meister der Wildnis]]                         |
 
 ## Trefferpunkte
 [[Trefferwürfel]]: 1`=this.Trefferwürfel` pro Stufe

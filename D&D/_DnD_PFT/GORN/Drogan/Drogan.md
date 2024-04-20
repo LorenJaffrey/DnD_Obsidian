@@ -1,5 +1,7 @@
 ---
 Stufe: 4
+Barbar:
+  Kampfrausch: 3
 Glück: 0
 Erschöpfung: 0
 Bewegung: 5
@@ -152,6 +154,13 @@ tags:
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 [[Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+## Barbar
+## Aufladungen
+|         |                                       [[Kampfrausch]]                                       |                                           Bonusschaden                                            |
+| ------- |:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|
+| Maximal | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl` | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
+| Aktuell |                                 `=this.Barbar.Kampfrausch`                                  |                                                                                                   |
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
