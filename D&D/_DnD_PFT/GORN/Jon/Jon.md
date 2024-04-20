@@ -51,6 +51,11 @@ Fertigkeiten:
   Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 1
+Aufladungen:
+  Durchschnaufen: 1
+  Tatendrang: 1
+  Unbeugsamkeit: 0
+  Manöver: 4
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
@@ -318,12 +323,12 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
->>| [[Durchschnaufen]] |    Ja    |
->>| [[Tatendrang]]             |    Ja     |
->>| [[Zusätzlicher Angriff]]  (Lv. 5) |    -     |
->>| [[Unbeugsamkeit]] (Lv. 9) |    -     |
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |    -     |
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |    -     |
+>>| [[Durchschnaufen]] |    `=choice(this.Aufladungen.Durchschnaufen=1, "Ja", "Bereits verwendet")`   |
+>>| [[Tatendrang]]             |    `=choice(this.Aufladungen.Tatendrang=1, "Ja", "Bereits verwendet")`     |
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) |   `=choice(this.Stufe>=5, "aktiv", "Noch nicht freigeschaltet")`     |
+>>| [[Unbeugsamkeit]] (Lv. 9) |    `=choice(this.Aufladungen.Unbeugsamkeit=1, "Ja", "Noch nicht freigeschaltet")`     |
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |    `=choice(this.Stufe>=11, "aktiv", "Noch nicht freigeschaltet")`      |
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |    `=choice(this.Stufe=20, "aktiv", "Noch nicht freigeschaltet")`     |
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
 >>- **[[Durchschnaufen]]**
@@ -338,11 +343,14 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	![[Mehrfach_Angriff.gif | 200]]
 >
 >>## Manöver (Verbrauch)
->>| Ausgewählte Manöver                             | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
->>| ----------------------------------------------- |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
->>| [[Kampfüberlegenheit#Schlag des Befehlshabers]] |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Fällender Angriff]]        |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
->>| [[Kampfüberlegenheit#Parieren]]                 |    Ja    |    Ja     |    Ja     |    Ja     |    -    |    -    |
+>>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
+>>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
+>>| Überlegenheitswürfel | `=choice(this.Aufladungen.Manöver>=1, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=2, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=3, "Ja", "aufgebraucht")`  | `=choice(this.Aufladungen.Manöver>=4, "Ja", "aufgebraucht")`  | `=choice(this.Stufe>=7, choice(this.Aufladungen.Manöver>=5, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` | `=choice(this.Stufe>=15, choice(this.Aufladungen.Manöver>=6, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` |
+>>
+>> ## Aktuelle aktive Manöver
+>>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
+>>- [[Kampfüberlegenheit#Fällender Angriff]]
+>>- [[Kampfüberlegenheit#Parieren]]
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
@@ -360,6 +368,10 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Hinweis
 >>- Überlegenheits-Würfel: W8
 >>- Rettungswürfe gegen Manöver: `=8+ceil(this.Stufe/4)+1+min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)`
+>>- Jedes Mal wenn neue Manöver erlernt werden, kann **EIN** altes Manöver durch ein anderes Manöver ausgetauscht werden
+>>- Ab Level 7 stehen 5 aktive Manöver zur Verfügung 
+>>- Ab Level 10 stehen 7 aktive Manöver zur Verfügung 
+>>- Ab Level 15 stehen 9 aktive Manöver zur Verfügung
 
 
 ## Aussehen
@@ -389,20 +401,18 @@ Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner
 
 
 ##  Bilder
->[!column]
 >>## Jon
 >>|||
->>| ------------------ |:---------:|
->>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| 
->>|**Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]|**Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
+>>| ------------------ |:---------:|:---------:|:---------:|
+>>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| **Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
 >
 >>## Geschehnisse
->>||||||
->>| :--: |:--:|:--:|:--:|:--:|
->>| **Vergangenheit**| **Überfall auf Jon's Militär-Einheit durch Orks** ![[Jons_Vergangenheit.jpeg]] | |
->>|**Dracheninsel**| **Skelette besiegt** ![[Skelett_Krieger.jpeg]]|**Riesen Schlange in der  Mykoniden Höhle besiegt** ![[Große_Schlange.jpeg]]| **Kobolde erschossen** ![[Kobold_Geschwister.jpeg]]|**Funkenschinder im Turm erschossen** ![[Funkenschinder.jpeg]]|
->>| **Phandalin**| **Goblin Überfall abgewehrt** ![[Goblin_Hinterhalt.jpeg]]|**Rotbrenner vor der Taverne bekämpft** ![[Rotbrenner_Gruppe.jpeg]] | **Böser Zauberer erschossen** ![[Phandalin_Zauberer.jpeg]] | | |
->>| | | | | |
->>| | | | | |
->>| | | | | |
->>| | | | | |
+>>| | | | | | | | |
+>>| :--: |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+>>| **Vergangenheit**|**Kriege in ganz Faerûn** <br/><br/> ![[Krieg.jpeg \| 235]] |**Überfall auf Jon's Militär-Einheit durch Orks**<br/><br/> ![[Jons_Vergangenheit.jpeg \|235]] | | | | | |
+>>|**Dracheninsel**| **Skelette am Strand besiegt**<br/> <br/><br/> ![[Skelett_Krieger.jpeg \|235]]|**Harpyien auf dem zerstörten Schiff durch GORN besiegt**<br/><br/> ![[Schiff_Harpyien.jpeg \|235]]|**Zombies auf dem zerstörten Schiff besiegt**<br/> ![[Schiff_Zombies.jpeg \|235]]|**Dampfdrachlinge am Strand besiegt**<br/> <br/> ![[Nebelmonster.jpeg \|235]]|**Riesen Schlange in der  Mykoniden Höhle durch GORN besiegt** <br/><br/> ![[Große_Schlange.jpeg \|235]]| **Kobolde erschossen**<br/> <br/> ![[Kobold_Geschwister.jpeg \|235]]|**Funkenschinder im Turm erschossen**<br/> ![[Funkenschinder.jpeg \|235]]|
+>>| **Phandalin**| **Goblin Überfall abgewehrt**<br/> <br/><br/> ![[Goblin_Hinterhalt.jpeg \|235]]|**Rotbrenner vor der Taverne bekämpft**<br/><br/> ![[Rotbrenner_Gruppe.jpeg \|235]] | **Böser Zauberer erschossen**<br/> <br/> ![[Phandalin_Zauberer.jpeg \|235]] | | | | | |
+>>| | | | | | | | |
+>>| | | | | | | | |
+>>| | | | | | | | |
+>>| | | | | | | | |
