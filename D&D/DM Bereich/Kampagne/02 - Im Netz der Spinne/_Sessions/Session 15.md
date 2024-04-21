@@ -20,15 +20,13 @@
 ## Ablauf
 - [[Lange Rast]]
 - [[Baumel]]hat widerliches Essen gekocht
-- [[Sildar Hallwinter|Sildar]] hat die Unterlagen des Bürgermeisters gesichtet
-	- [[Quest - Warnung an Adabra]] --> [[Haderhügel]]
-	- [[Quest - Warnung an die Ausgräber]] --> [[Zwergenausgrabung]]
-- Reiter erscheint udn berichtet, dass Orks den Butterschädelhof angreifen
-- [[Quest - Überfall auf den Butterschädelhof]] --> [[Der Butterschädelhof]]
+- [[Szene - Sildars Plan]]
+- Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
+- [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
 
 ### Szenen
 - [[Szene - Rückkehr der Schürfer]]
-- [[Szene - Sildars Plan]]
+
 
 ## Secrets and Clues
 1. Grottenschrate haben [[Iarno Albrek]] weggebracht

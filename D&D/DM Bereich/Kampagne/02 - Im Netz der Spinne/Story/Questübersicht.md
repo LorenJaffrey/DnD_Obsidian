@@ -73,7 +73,7 @@ Cryovain --> SchwarzeSpinne
 | [[Tresendar Anwesen\|Rotbrenner Versteck]] |  3   |   4   | Informationen              | [[Iarno Albrek]] finden, Exposition [[Schwarze Spinne]]    |
 | [[Haderhügel]]                         |  3   |   4   | Warnung                    | Zugriff auf Heiltränke                                     |
 | [[Zwergenausgrabung]]                  |  3   |   4   | Warnung                    | Warnung an Ausgräber                                       |
-| [[Der Butterschädelhof]]                   |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]          |
+| [[Butterschädelhof]]                   |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]          |
 | [[Bergzeh-Goldmine]]                       |  4   |   5   | Lieferung                  | Exposition [[Schrein von Savras]]                          |
 | [[Das Holzfällerlager]]                    |  4   |   5   | Lieferung/Rettung          | Exposition Talosanhänger                                   |
 | [[Gnomengard]]                             |  5   |   5   | Unterstützung holen        | Unterstützung für Kampf gegen [[Cryovain]]                 |

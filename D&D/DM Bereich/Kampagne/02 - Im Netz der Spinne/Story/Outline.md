@@ -8,7 +8,7 @@
 		- [[Rotbrenner]] versuchen Phandalin unter Kontrolle zu bringen/halten
 		- weißer Drache [[Cryovain]] wurde zum [[Eisnadelfestung]] gelockt unter Versprechung leichter, fetter Beute
 			- hat die Orks vertrieben die nicht mit der schwarzen Spinne zusammenarbeiten wollten
-				- Orks bei Wyvern Tor werden verstrieben -> [[Der Butterschädelhof]]
+				- Orks bei Wyvern Tor werden verstrieben -> [[Butterschädelhof]]
 				- Orks helfen Talosanhängern bei [[Altes Haus im Wald]]
 				- Orks und Oger erobern [[Schrein von Savras]]
 					- Werratten werden zur [[Bergzeh-Goldmine]] vertrieben

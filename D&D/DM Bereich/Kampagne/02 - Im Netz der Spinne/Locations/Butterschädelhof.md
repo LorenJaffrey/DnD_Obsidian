@@ -4,55 +4,48 @@
 - Orks haben Hof überfallen und Besitzer gefesselt
 - Cryovain hat Hof überfallen und Orks angegriffen
 
-DER BUTTERSCHÄDELHOF
+## Überblick
+[[Alfons Kalazorn]] war früher der Schulze von [[Dreieber]], einer Stadt östlich von [[Phandalin]], in der ihn die Leute [[Alfons Kalazorn|Big Al Kalazorn]] nannten. 
+Vor einem Jahrzehnt ging er in den Ruhestand, aber Ruhe war nichts für ihn. 
+Auf der Suche nach neuen Herausforderungen beanspruchte er ein Stück Land östlich von [[Hasenbeere]] und machte es zu einer Rinder- und Pferdefarm. 
+Kurze Zeit später fügte er noch einen Schweinestall, ein Hühnerhaus, Gemüsegärten, Getreidefelder und einen Apfelgarten hinzu.
 
-DER BUTTERSCHÄDELHOF IST AUF CHARAKTERE DER
+Sein Geld bezieht er hauptsächlich aus dem Verkauf von Butterschädeln - Butterbatzen, aus denen er geschickt humanoide Schädel modelliert. 
+Diese Butterschädel verkauft er zumeist in östlich gelegenen Städten, aber einige fanden ihren Weg zu [[Barthens Proviant]] in [[Phandalin]].
+Die Butter stellt [[Alfons Kalazorn|Big Al]] aus der Milch seiner preisgekrönten Kuh Petunia her.
 
-3. Stufe ausgelegt, die Quest kann aber auch von Charakteren der 2. Stufe bestritten werden, solange sie Kämpfe vermeiden und sich darauf konzentrieren, den Eigentümer Alfons Kalazorn zu retten. Charaktere der 4. oder einer höheren Stufe sollten keine Schwierigkeiten haben, Big Al und seine Ranch zu retten.
+Als der weiße Drache [[Cryovain]] alle Orks aus der [[Eisnadelfestung]] vertrieb, stiegen sie ins Flachland herunter.
 
-DER SCHAUPLATZ:
+Vor einem Zehntag überfiel eine kleine Gruppe von ihnen die Ranch, ließ die Schweine frei und zündete dann Scheune und Schmiede an. 
+Ein paar andere Tiere, ein Dutzend Pferde und die Kuh Petunia konnten während des Feuers fliehen.  Big Al und fünf seiner Stallburschen hatten weniger Glück. 
+Beim Versuch die Orks abzuwehren wurden die Stallburschen getötet und Big Al gefangen genommen. 
+Nur ein Bursche konnte auf ein Pferd springen und nach [[Phandalin]] fliehen, wo er von dem Angriff berichtete.
 
-ÜBERBLICK
+## Ziel
+Um die Quest [[Butterschädelhof]] abzuschließen, müssen die Abenteurer [[Alfons Kalazorn]] retten und ihn entweder dazu überreden, nach Phandalin zurückzukehren, oder ihm helfen, seine Ranch von Orks zu befreien. 
+Alfons benötigt auch Hilfe bei der Suche nach seiner preisgekrönten Kuh und bietet eine prächtige Belohnung.
 
-Alfons Kalazorn war früher der Schulze von Dreieber, einer Stadt östlich von Phandalin, in der ihn die Leute Big Al Kalazorn nannten. Vor einem Jahrzehnt ging er in den Ruhestand, aber Ruhe war nichts für ihn. Auf der Suche nach neuen Herausforderungen beanspruchte er ein Stück Land östlich von Hasenbeere und machte es zu einer Rinder- und Pferdefarm. Kurze Zeit später fügte er noch einen Schweinestall, ein Hühnerhaus, Gemüse-gärten, Getreidefelder und einen Apfelgarten hinzu.
+## Bereiche
+### Reise zum Hof
+Der sicherste und schnellste Weg von [[Phandalin]] zum [[Butterschädelhof]] führt über den [[Dreieberpfad]] nach Nordosten. 
+Die Wegstrecke beträgt 96 Kilometer.
+Charaktere legen zu Fuß bis zu 38 Kilometer am Tag zurück. 
+Sie können also damit rechnen, auf der Reise zwei lange Rasten einzulegen.
 
-Sein Geld bezieht er hauptsächlich aus dem Verkauf von Butterschädeln - Butterbatzen, aus denen er geschickt humanoide Schädel modelliert. Diese Butterschädel verkauft er zumeist in östlich gelegenen Städten, aber einige fanden ihren Weg zu Barthens Proviant in Phandalin.
+### Begegnungen auf dem Weg
+#### Die Kuh Petunia
+Auf dem Weg zwischen [[Hasenbeere]] und der Ranch sehen die Charaktere Petunia, eine [[Kuh]], einige Dutzend Meter vom [[Dreieberpfad]] ab auf einem Feld stehen. 
+Petunia trägt eine Kuhglocke um den Hals. 
+Wenn sich die Charaktere ihr nähern, erkennen sie ein Brandzeichen auf ihrer Hinterhand: die Buchstaben BAK. 
+Petunia ist von ruhiger, unerschütterlicher Natur. 
+Wird sie gut behandelt, folgt sie ihren neuen Wohltätern überallhin.
 
-Die Butter stellt Big Al aus der Milch seiner preisgekrönten Kuh Petunia her.
+#### Pferde in Hasenbeere
+Die verlassene Stadt [[Hasenbeere]] wirkt gespenstisch still.
+Nur das Pfeifen des Windes, der durch die verbrannten und eingestürzten Bauwerke weht, ist zu hören. 
+Auf ihrem Weg durch oder um die Ruinen erblicken die Charaktere drei ungesattelte [[Reitpferd: Reitp]] (Spielwerte unter Seite 79), die in der Nähe eines alten Brunnens grasen. Bei einem erfolgreichen Wurf auf Weisheit (Wahrnehmung) gegen SG 10 erkennen Spieler, dass die Pferde mit dem Brand-zeichen BAK (Big Al Kalazorn) gekennzeichnet sind.
 
-Als der weiße Drache Cryovain alle Orks aus der Eis-nadelfestung vertrieb, stiegen sie ins Flachland herunter.
-
-Vor einem Zehntag überfiel eine kleine Gruppe von ihnen die Ranch, ließ die Schweine frei und zündete dann Scheune und Schmiede an. Ein paar andere Tiere, ein Dutzend Pferde und die Kuh Petunia konnten während des Feuers fliehen. Big Al und fünf seiner Stallburschen hatten weniger Glück. Beim Versuch die Orks abzuwehren wurden die Stallburschen getötet und Big Al gefangen genommen. Nur ein Bursche konnte auf ein Pferd springen und nach Phandalin fliehen, wo er von dem Angriff
-
-berichtete.
-
-QUESTZIELE
-
-Um die Quest Butterschädelhof („Folgequests" auf Seite 12) abzuschließen, müssen die Abenteurer Alfons Kalazorn retten und ihn entweder dazu überreden, nach Phandalin zurückzukehren, oder ihm helfen, seine Ranch von Orks zu befreien. Alfons benötigt auch Hilfe bei der Suche nach seiner preisgekrönten Kuh und bietet eine prächtige Belohnung.
-
-DIE REISE ZUM HOF
-
-Der sicherste und schnellste Weg von Phandalin zum Butterschädelhof führt über den Dreieberpfad nach Nordosten. Die Wegstrecke beträgt 96 Kilometer.
-
-Charaktere legen zu Fuß bis zu 38 Kilometer am Tag zurück. Sie können also damit rechnen, auf der Reise zwei lange Rasten einzulegen.
-
-BEGEGNUNGEN AUF DEM WEG
-
-Auf der Reise zum Hof kommt es zu folgenden
-
-Begegnungen:
-
-DIE KUH PETUNIA
-
-Auf dem Weg zwischen Hasenbeere und der Ranch sehen die Charaktere Petunia, eine Kuh (Spielwerte unter Seite 75), einige Dutzend Meter vom Dreieberpfad ab auf einem Feld stehen. Petunia trägt eine Kuhglocke um den Hals. Wenn sich die Charaktere ihr nähern, erkennen sie ein Brandzeichen auf ihrer Hinterhand: die Buchstaben BAK. Petunia ist von ruhiger, unerschütterlicher Natur. Wird sie gut behandelt, folgt sie ihren neuen Wohltätern überallhin.
-
-PFERDE IN HASENBEERE
-
-Die verlassene Stadt Hasenbeere wirkt gespenstisch still.
-
-Nur das Pfeifen des Windes, der durch die verbrannten und eingestürzten Bauwerke weht, ist zu hören. Auf ihrem Weg durch oder um die Ruinen erblicken die Charaktere drei ungesattelte Reitpferde (Spielwerte unter Seite 79), die in der Nähe eines alten Brunnens grasen. Bei einem erfolgreichen Wurf auf Weisheit (Wahrnehmung) gegen SG 10 erkennen Spieler, dass die Pferde mit dem Brand-zeichen BAK (Big Al Kalazorn) gekennzeichnet sind.
-
-Würfelt ein Charakter erfolgreich auf Weisheit (Mit Tieren umgehen) gegen SG 15, kann er sich den Pferden nähern, ohne dass sie scheuen, und sogar auf ihnen reiten.
+Würfelt ein Charakter erfolgreich auf  ([[Mit Tieren umgehen]]) gegen [[Schwierigkeitsgrad|SG]] 15, kann er sich den Pferden nähern, ohne dass sie scheuen, und sogar auf ihnen reiten.
 
 ANKUNFT
 

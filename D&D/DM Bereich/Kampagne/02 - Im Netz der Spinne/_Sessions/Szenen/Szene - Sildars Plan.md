@@ -1,0 +1,3 @@
+- [[Sildar Hallwinter|Sildar]] hat die Unterlagen des Bürgermeisters gesichtet
+	- [[Quest - Warnung an Adabra]] --> [[Haderhügel]]
+	- [[Quest - Warnung an die Ausgräber]] --> [[Zwergenausgrabung]]
