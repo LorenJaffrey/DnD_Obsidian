@@ -1,7 +1,7 @@
 ---
 tags:
   - Gegenstand/Nahrungsmittel/Getränk/Bier
-Art: "[[_DnD_PFT/Gegenstände/Nahrungsmittel/Getränke/Getränke#Bier]]"
+Art: "[[Getränke#Bier]]"
 Kosten: 6 KM
 Gewicht: 1
 ---

@@ -3,7 +3,7 @@ tags:
   - Gegenstand/Nahrungsmittel/Getränk/Wein
 Gewicht: 0.6
 Kosten: 4 KM
-Art: "[[_DnD_PFT/Gegenstände/Nahrungsmittel/Getränke/Getränke#Wein]]"
+Art: "[[Getränke#Wein]]"
 ---
 # `=this.file.name`
 > [!infobox]
