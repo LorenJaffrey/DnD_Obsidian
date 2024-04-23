@@ -1,6 +1,7 @@
 ---
 aliases:
 - HG
+- CR
 ---
 # `=this.file.name`
 Der [[Herausforderungsgrad]] eines Monsters sagt dir, wie groß die Bedrohung durch das Monster ist.
