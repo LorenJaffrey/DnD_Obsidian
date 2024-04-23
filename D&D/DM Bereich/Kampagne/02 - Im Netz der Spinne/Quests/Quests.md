@@ -5,7 +5,7 @@ TABLE WITHOUT ID
 
 file.link AS "Quest", Belohnung, Questgeber
 
-FROM "Kampagne/02 - Im Netz der Spinne/Quests" AND #Quest
+FROM "DM Bereich/Kampagne/02 - Im Netz der Spinne/Quests" AND #Quest
 
 WHERE Erledigt = false
 

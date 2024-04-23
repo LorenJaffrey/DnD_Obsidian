@@ -1,7 +1,9 @@
 # `=this.file.name`
 
 - [ ] #task Location vorbereiten [priority:: highest]
-![[Dwarven Excavation.jpg|300px]]
+
+[[Dwarven Excavation.jpg|300]]
+
 ## Überblick
 
 ### Dazlin und Norbus
@@ -14,32 +16,33 @@ Hinter der Siedlung, in die Rückwand der Schlucht gehauen, liegt ein alter Temp
 Einmal genügten dem Gott die Opfer der Priester nicht und er löste ein Erdbeben und eine Lawine aus, wodurch Teile des Tempels einstürzten und die Siedlung verschüttet wurde. 
 Die Priester im Tempel, die nicht sofort getötet wurden, wurden in Ockergallerte verwandelt - entwürdigte Reflexionen von [[Abbathor||Abbathors]] Hunger und Gier.
 
-### Merkmale des Tempels
-Der Tempel (Bereiche Z4 bis Z11) ist glatt aus hartem Fels gehauen. 
-Die folgenden Merkmale gelten allgemein.
-
-#### Decken
-Die Decken sind drei Meter hoch und flach.
-
-#### Licht
-Es gibt keine Lichtquellen im Tempel, da sich die Zwergenpriester von [[Abbathor]] auf ihre Dunkelsicht verließen.
-
-#### Staub und Schutt
-Überall im Tempel liegt staubiger Schutt herum. 
-Mit Schutt gefüllte Quadrate sind [[Schwieriges Gelände]].
-
-#### Türen
-Alle Türen und Angeln sind aus Stein gehauen.
-Die Geheimtüren sind von der umgebenden Wand nicht zu unterscheiden. 
-Zum Erkennen einer Geheimtür ist das Absuchen der Wand und ein erfolgreicher Wurf auf  [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 15 erforderlich. 
-[[Dazlin Grausplitter]] und [[Norbus Eisenrune]] haben bisher in Bereich Z4 eine Geheimtür gefunden. Die anderen müssen noch entdeckt werden.
-
-## Ziele
+### Ziele
 -  [[Dazlin Grausplitter]] und [[Norbus Eisenrune]] warnen
 
 Die dankbaren Zwerge bieten den Abenteurern dann eine eigene Quest an: 
 Wenn die Charaktere den Tempel von den Monstern befreien, winkt als Belohnung ein Paar [[Steine der Verständigung]]. 
 Wenn sie lange genug bleiben, um  [[Dazlin Grausplitter|Dazlin]] und [[Norbus Eisenrune|Norbus]] zu helfen, treffen die Charaktere vor ihrer Abreise auf [[Orks]].
+
+## Merkmale des Tempels
+Der Tempel (Bereiche Z4 bis Z11) ist glatt aus hartem Fels gehauen. 
+Die folgenden Merkmale gelten allgemein.
+
+### Decken
+Die Decken sind drei Meter hoch und flach.
+
+### Licht
+Es gibt keine Lichtquellen im Tempel, da sich die Zwergenpriester von [[Abbathor]] auf ihre Dunkelsicht verließen.
+
+### Staub und Schutt
+Überall im Tempel liegt staubiger Schutt herum. 
+Mit Schutt gefüllte Quadrate sind [[Schwieriges Gelände]].
+
+### Türen
+Alle Türen und Angeln sind aus Stein gehauen.
+Die Geheimtüren sind von der umgebenden Wand nicht zu unterscheiden. 
+Zum Erkennen einer Geheimtür ist das Absuchen der Wand und ein erfolgreicher Wurf auf  [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 15 erforderlich. 
+[[Dazlin Grausplitter]] und [[Norbus Eisenrune]] haben bisher in Bereich Z4 eine Geheimtür gefunden. Die anderen müssen noch entdeckt werden.
+
 
 ## Ablauf
 
@@ -73,7 +76,7 @@ Die Siedlung wurde gründlich geplündert. Charaktere, die die Ruinen durchsuche
 >Dahinter führt ein drei Meter hoher Durchgang, an dessen Seiten zerbröckelnde, lebensgroße Granitstatuen von Zwergen in Umhängen stehen.
 >Ihre verwitterten Gesichtern grinsen euch böse an.
 
-Wenn die Charaktere ihnen noch nicht begegnet sind, essen  [[Dazlin Grausplitter|Dazlin]] und [[Norbus Eisenrune|Norbus]] Rationen hinter dem östlichsten Schutthaufen, behalten aber den Tempeleingang (Bereich Z4) im Auge. 
+Wenn die Charaktere ihnen noch nicht begegnet sind, essen  [[Dazlin Grausplitter|Dazlin]] und [[Norbus Eisenrune|Norbus]] [[Ration|Rationen]] hinter dem östlichsten Schutthaufen, behalten aber den Tempeleingang (Bereich Z4) im Auge. 
 Diese Schildzwerge sind Gemeine (Spielwerte auf Seite 72), sprechen Gemeinsprache und Zwergisch und haben Dunkelsicht auf 18 Meter.  
 [[Dazlin Grausplitter|Dazlin]] ist offen und fast zu ehrlich. 
 [[Norbus Eisenrune|Norbus]] ist schroff und übermäßig vorsichtig. 
@@ -109,7 +112,7 @@ Im Schutt im südlichen Teil lauert eine [[Ockergallerte]].
 ### Z8: Schlafzimmer der Priester
 An der Ostwand stehen drei Bettrahmen aus Stein.
 
-### Z9: SAKRISTEI
+### Z9: Sakristei
 An der Südwestwand befindet sich ein leeres Taufbecken.
 Ein Steinschrank an der Ostwand enthält verfaulte Überreste zweier roter [[Lederrüstung|Lederrüstungen]]. 
 Dies sind jetzt wertlose Gewänder der Priester von [[Abbathor]].
@@ -133,10 +136,8 @@ Nimmt jemand den Edelstein an sich, zerfällt er zu Staub und die Statue explodi
 Eine Kreatur in einem Umkreis von drei Metern um die Statue muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 15 ausführen. 
 Bei einem Misserfolg erleidet sie 22 (4W10) [[Stichschaden]], bei einem Erfolg halb so viel Schaden.
 
-
 ## Orks greifen an
 Orks kommen im Bereich [[Zwergenausgrabung#Z1 Schlucht]] an, wenn die Charaktere ihr Geschäft mit den Zwergen abwickelt haben. 
 Die Anzahl der Orks entspricht der Anzahl der Charaktere in der Gruppe, einschließlich Sidekicks. 
 Die Orks wurden von Cryovain aus ihrem Territorium vertrieben und suchen nach einem neuen Versteck. 
 Sie kämpfen bis zum Tod.
-

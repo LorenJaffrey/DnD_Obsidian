@@ -7,7 +7,7 @@ Nur die Steingräber der Gefallenen zeugen von der Schlacht.
 Die steinerne Windmühle auf dem Hügel wurde später gebaut, ist aber trotzdem über hundert Jahre alt.
 
 Hier wohnt [[Adabra Gwynn]], eine Hebamme und Apothekerin, die [[Chauntea]] (Göttin der Landwirtschaft) anbetet. 
-Ein [[Mantikor]], der von [[Cryovain]] dem weißen Drachen aus den Bergen vertrieben wurde, greift die Windmühle kurz vor Ankunft der Abenteurer an. 
+Zwei [[Mantikor|Mantikore]], die von [[Cryovain]] dem weißen Drachen aus den Bergen vertrieben wurde, greifen die Windmühle kurz vor Ankunft der Abenteurer an. 
 Lies zuerst den folgenden Text im Kasten laut vor:
 
 > [!info]
