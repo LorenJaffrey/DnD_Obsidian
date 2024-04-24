@@ -348,20 +348,20 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| Überlegenheitswürfel | `=choice(this.Aufladungen.Manöver>=1, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=2, "Ja", "aufgebraucht")` | `=choice(this.Aufladungen.Manöver>=3, "Ja", "aufgebraucht")`  | `=choice(this.Aufladungen.Manöver>=4, "Ja", "aufgebraucht")`  | `=choice(this.Stufe>=7, choice(this.Aufladungen.Manöver>=5, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` | `=choice(this.Stufe>=15, choice(this.Aufladungen.Manöver>=6, "Ja", "aufgebraucht"), "Noch nicht freigeschaltet")` |
 >>
 >> ## Aktuelle aktive Manöver
->>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
->>- [[Kampfüberlegenheit#Fällender Angriff]]
->>- [[Kampfüberlegenheit#Parieren]]
+>>- [[Schlag des Befehlshabers]]
+>>- [[Fällender Angriff]]
+>>- [[Parieren]]
 >>
 >>## Kurze Manöver Aktions-Beschreibung
->>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
+>>- **[[Schlag des Befehlshabers]]**
 >>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
->>- **[[Kampfüberlegenheit#Fällender Angriff]]**
+>>- **[[Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Ziel ([[Groß]] oder kleiner) muss Stärkerettungswurf ablegen
 >> 
->>- **[[Kampfüberlegenheit#Parieren]]**
+>>- **[[Parieren]]**
 >>        **Auswirkung**: Schadensreduktion 
 >>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
 >>
