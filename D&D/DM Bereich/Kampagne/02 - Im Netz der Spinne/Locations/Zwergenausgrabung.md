@@ -43,7 +43,6 @@ Die Geheimtüren sind von der umgebenden Wand nicht zu unterscheiden.
 Zum Erkennen einer Geheimtür ist das Absuchen der Wand und ein erfolgreicher Wurf auf  [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 15 erforderlich. 
 [[Dazlin Grausplitter]] und [[Norbus Eisenrune]] haben bisher in Bereich Z4 eine Geheimtür gefunden. Die anderen müssen noch entdeckt werden.
 
-
 ## Ablauf
 
 ### Ankunft

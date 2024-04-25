@@ -24,7 +24,7 @@ Sie brechen ihren Angriff ab und fliegen davon, wenn sie Schätze im Wert von mi
 [[Adabra Gwynn|Adabra]] gibt ihren Rettern auch einen Heiltrank, wenn sie den [[Mantikor]] unschädlich machen.
 
 ## Bereiche
-### Hl: Zwergische Steingräber
+### H1: Zwergische Steingräber
 Unter diesen Steinpyramiden sind Zwerge begraben, deren Knochen, Rüstungen und Waffen schon lange verrottet sind.
 
 ### H2: Verfallenes Haus

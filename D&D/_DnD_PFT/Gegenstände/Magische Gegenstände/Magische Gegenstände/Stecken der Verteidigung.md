@@ -12,7 +12,6 @@ Verflucht: false
 
 > [!infobox]
 > # `=this.file.name`
-> ![[summerwood_staff.png]]
 > ###### Eigenschaften
 > | Eigenschaft |  |
 > | ---- | ---- |
