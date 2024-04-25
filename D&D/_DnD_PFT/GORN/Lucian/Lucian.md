@@ -74,7 +74,7 @@ Merkmale:
     - "[[Pakt des Buches]]"
     - "[[Segen des dunklen Meisters]]"
     - "[[Qualvoller Strahl]]"
-    - Zweite Schauerliche Anrufung?
+    - "[[Maske der vielen Gesichter]]"
   Talente:
     - "[[Infernalische Konstitution]]"
 Hintergrund:
@@ -331,7 +331,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 >>
->> ## Schauerliche Anrufungen
+>> ## Schauerliche Anrufungen (max. `$=dv.page(dv.current().Hintergrund.Klasse).Bekannte_Anrufungen["Stufe"+dv.current().Stufe]`)
 >> ```dataview
 >> LIST
 >> FROM #Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen 

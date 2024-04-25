@@ -68,7 +68,7 @@ Aussehen:
   Größe: 140 cm
   Gewicht: 150 Pfund
   Augenfarbe: Blau
-  Haarfarbe: Grau
+  Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
   Volk:
@@ -172,11 +172,9 @@ tags:
 
 ## Drogan
 ## Aufladungen
-|         |                                  Nutzungen [[Kampfrausch]]                                  |
-| ------- |:-------------------------------------------------------------------------------------------:|
-| Maximal | `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl` |
-| Aktuell |                                 `=this.Drogan.Kampfrausch`                                  |
-Bonuschaden [[Kampfrausch]]: +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden`
+| Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`)              | Bonuschaden [[Kampfrausch]]                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" unchecked id="0f5ac6"> <input type="checkbox" unchecked id="1f94b0"> <input type="checkbox" unchecked id="846e47"> | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
