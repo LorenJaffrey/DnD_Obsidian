@@ -30,9 +30,11 @@
 - [x] 19 - beim Händler Waffen kaufen/verkaufen
 - [x] 20 - beim Händler verkaufen/kaufen
 - [x] Essen gehen
-- [ ] Geheimnisvolle Person verfolgen
+- [x] Geheimnisvolle Person verfolgen
 - [x] Rüstung beim Händler abholen
 - [x] mit Drogans Freund saufen gehen
+- [ ] Trank-Omi (Frau) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
+- [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
 
 
 # Weitere Hintergrund Informationen
