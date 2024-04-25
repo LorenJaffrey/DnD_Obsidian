@@ -5,6 +5,7 @@ Aranon:
   Geistertotem: 1
   Nebelschritt: 1
   Identifizieren: 1
+  Stresslevel: 2
 Glück: 0
 Erschöpfung: 0
 Bewegung: 6

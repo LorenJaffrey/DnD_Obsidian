@@ -40,8 +40,10 @@ Moral: 3
 |      +3      | erhält [[Psychischer Schaden]]                           |
 |      +3      | Schaden würde den Charakter [[Bewusstlos]] werden lassen |
 |      +2      | wird [[Verängstigt]]                                     |
+|      +2      | fällt unter 80% [[Trefferpunktemaximum]]                 |
 |      +1      | fällt unter 50% [[Trefferpunktemaximum]]                 |
 |      -1      | steigt über 50% [[Trefferpunktemaximum]]                 |
+|      -2      | steigt über 80% [[Trefferpunktemaximum]]                 |
 |      -2      | [[Kurze Rast]] (-2)                                      |
 |      -5      | [[Lange Rast]] (-5)                                      |
 
