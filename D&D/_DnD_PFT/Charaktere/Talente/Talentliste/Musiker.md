@@ -22,5 +22,5 @@ Wiederholbar: false
 Du erhältst [[Übung]] mit drei [[Musikinstrument|Musikinstrumenten]] deiner Wahl.
 
 ## Inspirierendes Lied
-Während einer [[Lange Rast|Langen Rast]] oder [[Kurze Rast|Kurzen Rast]] kannst du ein inspirierendes Lied anstimmen, welches jedem der es hört einen [[Glückspunkte|Glückspunkt]] verleiht.
-Eine Kreatur kann nur einmal pro Tag von dieser Fähigkeit profitieren und nur einen [[Glückspunkte|Glückspunkt]] gleichzeitig durch diese Fähigkeit besitzen.
+Während einer [[Lange Rast|Langen Rast]] oder [[Kurze Rast|Kurzen Rast]] kannst du ein inspirierendes Lied anstimmen, welches jedem der es hört einen [[Glück|Glückspunkt]] verleiht.
+Eine Kreatur kann nur einmal pro Tag von dieser Fähigkeit profitieren und nur einen [[Glück|Glückspunkt]] gleichzeitig durch diese Fähigkeit besitzen.

@@ -9,4 +9,4 @@
 - Kampf
 	- [[Angriff]]
 	- [[Zauber wirken|Zaubern]]
-- XP und [[Glückspunkte einsetzen]]
+- XP und [[Glück]]

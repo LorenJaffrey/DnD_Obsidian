@@ -19,5 +19,5 @@ Wiederholbar: false
 Du hast ausgesprochenes Glück, und das immer im richtigen Moment. 
 
 ## Glückspunkte
-Mit diesem Talent verfügst du über zusätzliche [[Glückspunkte einsetzen|Glückspunkte]] in Höhe deines [[Übung|Übungsbonus]].
-Die auf diese Weise verbrauchten Glückspunkte stehen dir nach Beenden einer [[Lange Rast|Langen Rast]] wieder zur Verfügung.
+Mit diesem Talent verfügst du über zusätzliche [[Glück|Glückspunkte]] in Höhe deines [[Übung|Übungsbonus]].
+Die auf diese Weise verbrauchten [[Glück|Glückspunkte]] stehen dir nach Beenden einer [[Lange Rast|Langen Rast]] wieder zur Verfügung.

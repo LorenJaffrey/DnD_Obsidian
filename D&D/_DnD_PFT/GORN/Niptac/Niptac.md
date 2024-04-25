@@ -147,7 +147,7 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glückspunkte]]: `=this.Glück`
+[[Glück|Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
 [[Energiekern|Energiekern]]: `=this.Energiekern` von 4
 
