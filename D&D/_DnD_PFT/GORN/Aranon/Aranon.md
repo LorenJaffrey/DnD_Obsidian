@@ -1,13 +1,5 @@
 ---
 Stufe: 4
-Aranon:
-  Tiergestalt: 2
-  Geistertotem: 1
-  Nebelschritt: 1
-  Identifizieren: 1
-  Stresslevel: 2
-Glück: 0
-Erschöpfung: 0
 Bewegung: 6
 Rüstung: "[[Lederrüstung]]"
 Schild: "[[Holzschild]]"
@@ -159,16 +151,41 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glück|Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -
+> 	- Stresslevel 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Aranon
 > [!column] 
 >> ## Aufladungen
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
->> | Maximal      |             2                                                    |                                   1                                   |                                     1                                |                                      1                                    |
->> | Aktuell         | `=this.Aranon.Tiergestalt` | `=this.Aranon.Geistertotem` | `=this.Aranon.Nebelschritt`  | `=this.Aranon.Identifizieren` |
+>> | Maximal      | <input type="checkbox" unchecked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" unchecked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
 >> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten

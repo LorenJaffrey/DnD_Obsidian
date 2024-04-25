@@ -1,9 +1,5 @@
 ---
 Stufe: 4
-Drogan:
-  Kampfrausch: 3
-Glück: 0
-Erschöpfung: 0
 Bewegung: 5
 Rüstung:
 Schild:
@@ -152,8 +148,27 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glück|Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Drogan
 ## Aufladungen

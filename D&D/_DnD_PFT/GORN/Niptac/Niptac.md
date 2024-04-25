@@ -2,14 +2,10 @@
 Stufe: 4
 Niptac:
   Anzahl_Apparaturen: 2
-  Energiekerne: 4
   Energiekerngröße: W6
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Gnomisches Überbrückungskabel]]"
-  Verschwinden: 1
-Glück: 1
-Erschöpfung: 0
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
@@ -147,16 +143,34 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glück|Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
-[[Energiekern|Energiekern]]: `=this.Energiekern` von 4
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Niptac
 ### Aufladungen 
-|         |          [[Durchdachte Vorbereitung#Engergiekerne]]           | [[Verschwinden#Verschwinden]] |
-| ------- |:-------------------------------------------------------------:|:-----------------------------:|
-| Maximal |              4 `=this.Niptac.Energiekerngröße`               |               1               |
-| Aktuell | `=this.Niptac.Energiekerne` `=this.Niptac.Energiekerngröße` | `=this.Niptac.Verschwinden`  |
+| [[Durchdachte Vorbereitung#Engergiekerne]] | Anzahl [[Durchdachte Vorbereitung#Engergiekerne]]                                                                                                                                       |         [[Verschwinden#Verschwinden]]         |
+|:------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:---------------------------------------------:|
+|      `=this.Niptac.Energiekerngröße`       | <input type="checkbox" unchecked id="446ae6"> <input type="checkbox" unchecked id="5f3d3b"> <input type="checkbox" unchecked id="112c14"> <input type="checkbox" unchecked id="c98f08"> | <input type="checkbox" unchecked id="75076a"> |
+
 ### Apparaturen (max `=this.Niptac.Anzahl_Apparaturen`)
 ```dataview
 TABLE WITHOUT ID

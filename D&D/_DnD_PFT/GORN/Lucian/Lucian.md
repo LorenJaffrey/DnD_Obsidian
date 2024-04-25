@@ -1,10 +1,5 @@
 ---
 Stufe: 4
-Lucian:
-  Thaumaturgie: 2
-  Höllischer_Tadel: 1
-Glück: 0
-Erschöpfung: 0
 Bewegung: 6
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
@@ -143,16 +138,34 @@ tags:
 
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-[[Glück|Glückspunkte]]: `=this.Glück`
-[[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`
+
+> [!checks] 
+> -  
+> 	- [[Glück|Glückspunkte]] 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> -  
+> 	- [[Erschöpft|Erschöpfung]]     
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Lucian
 ### Aufladungen
-|           |      [[Thaumaturgie]]       |      [[Höllischer Tadel]]       |
-| --------- |:---------------------------:|:-------------------------------:|
-| Maximal   |              2              |                1                |
-| Aktuell   | `=this.Lucian.Thaumaturgie` | `=this.Lucian.Höllischer_Tadel` |
-| Aufladung |       [[Lange Rast]]        |         [[Lange Rast]]          |
+|           |               [[Thaumaturgie]]                |             [[Höllischer Tadel]]              |
+| --------- |:---------------------------------------------:|:---------------------------------------------:|
+| Maximal   | <input type="checkbox" unchecked id="dabe36"> | <input type="checkbox" unchecked id="c0a200"> |
+| Aufladung |                [[Lange Rast]]                 |                [[Lange Rast]]                 |
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                                   | [[Hochsprung]] ohne Anlauf                                    | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
