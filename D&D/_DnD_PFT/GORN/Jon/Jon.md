@@ -99,7 +99,6 @@ Persönlichkeit:
 tags:
 - Charakter/GORN
 ---
-# `=this.file.name`
 
 > [!infobox]
 > ![[Jon.jpeg]]
@@ -157,47 +156,43 @@ tags:
 > - Phandalin
 > 	- Magier getötet
 
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
-[[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-> [!checks] 
-> -  
-> 	- [[Glück|Glückspunkte]] 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> -  
-> 	- [[Erschöpft|Erschöpfung]]     
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-
-## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
-
-## Verteidigung
-> [!column] 
+# `=this.file.name`
+> [!column | 3 ]
+>>  ## Allgemeine Spiel - Parameter
+>> |  Eigenschaft  |  Wert  |  
+>> | :---: | :---: | 
+>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>> 
+>> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+>> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+>> | [[Glück\|Glückspunkte]]  | <input type="checkbox" unchecked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
+>> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
+>
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
 >> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
->
+>> 
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>
+>> ## Bewegung
+>> | Gehen                                              | [[Spurt]]                                          | 
+>> | -------------------------------------------------- | -------------------------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>>
+>> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
+>> | ---------------------------------------------------- | ------------------------------------------------------ |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
+>>
+>> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
+>> | ----------------------------------------- | ------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Angriff
 > [!column]
@@ -259,6 +254,10 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
 >> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
 >> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
+>>
+>><br />
+>>
+>> ![[so_true.jpg | 550]] 
 >
 >> ## Fertigkeiten
 >> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |
@@ -284,9 +283,9 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)`
 
-## Übung
+## Übung / Merkmale
 
-> [!column]
+> [!column | 3]
 >> ## Rüstung
 >> ```dataview
 >> LIST
@@ -318,9 +317,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Übung.Werkzeuge, file.link)
 >> SORT file.name
 >> ```
-
-## Merkmale
-> [!column]
+>
 >> ## Talente
 >> ```dataview
 >> LIST
@@ -328,7 +325,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Talente, file.link)
 >> SORT file.name
 >> ```
->
+>>
 >> ## Klassenmerkmale
 >> ```dataview
 >> LIST
@@ -367,7 +364,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|<input type="checkbox" unchecked id="76d80f">| <input type="checkbox" unchecked id="1e4943">|
+>>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">| <input type="checkbox" unchecked id="76d80f">   | <input type="checkbox" unchecked id="1e4943">|
 >>
 >> ## Aktuelle aktive Manöver
 >>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
