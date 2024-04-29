@@ -40,8 +40,8 @@
   "DM Bereich/Homebrew": "LiCookingPot",
   "DM Bereich/Tips": "CoInfo",
   "DM Bereich/Worldbuilding": "IbGlobe",
-  "_DnD_PFT/Sprachen": "RaSpeechBubbles",
   "_DnD_PFT/Regeln": "FasPenRuler",
   "_DnD_PFT/Gegenstände": "RaKnightHelmet",
-  "_DnD_PFT/Charaktere": "FasUser"
+  "_DnD_PFT/Charaktere": "FasUser",
+  "_DnD_PFT/Charaktere/Sprachen": "RaSpeechBubbles"
 }
