@@ -5,11 +5,11 @@ Bewegung: 6
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild: "[[Holzschild]]"
 Waffen:
-- "[[Langbogen]]"
-- "[[Leichte Armbrust]]"
-- "[[Kurzschwert]]"
-- "[[Krummsäbel]]"
-- "[[Dolch]]"
+  - "[[Langbogen]]"
+  - "[[Leichte Armbrust]]"
+  - "[[Kurzschwert]]"
+  - "[[Krummsäbel]]"
+  - "[[Dolch]]"
 Feinde: "[[Orks]]"
 Gesundheit:
   MaxTP: 39
@@ -74,7 +74,7 @@ Aussehen:
   Haarfarbe: Schwarz
   Hautfarbe: Weiß
 Merkmale:
-  Volk:
+  Volk: 
   Klasse:
     - "[[Durchschnaufen]]"
     - "[[Tatendrang]]"
@@ -92,12 +92,12 @@ Hintergrund:
   Hintergrund: "[[Söldner]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
+    - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
   Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
 tags:
-- Charakter/GORN
+  - Charakter/GORN
 ---
 
 > [!infobox]
@@ -171,10 +171,10 @@ tags:
 >> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
 >
 >> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
+>> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW` `=this.Hintergrund.Klasse.Trefferwürfel`    | `=this.Gesundheit.TempTP`   |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >> 
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |

@@ -1,7 +1,7 @@
 ---
 Charakter: "[[Jon]]"
-aliases:
-tags:
+aliases: 
+tags: 
 Geld:
   PM: 0
   GM: 220
@@ -46,7 +46,7 @@ Geld:
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
-## Rucksack
+ ## Rucksack
 | Gegenstand                                    | Anzahl | Gewicht | Gesamt |
 | --------------------------------------------- |:------:|:-------:|:------:|
 | [[Schlafsack]]                                |   1    |    7    |   7    |
