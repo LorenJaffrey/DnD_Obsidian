@@ -3,26 +3,31 @@
 ## Organisatorisches
 - [[Bedroht]]
 - [[Kräuterkunde]]
-- zweite [[Schauerliche Anrufung]] Lucian
-	- [[Maske der vielen Gesichter]]?
+- [[Reisen]]
 
 ## Recap
-- Gruppe hat die Geiseln befreit und nach draußen geführt
-	- Sildar und die Geiseln haben sich im Haus der Dendrars versteckt
-- Gruppe ist nochmal rein um nach den Grottenschraten, dem Magier, etc. zu sehen
-	- niemanden mehr vorgefunden
-	- stattdessen haben sie den [[Goblin]] [[Baumel]] gefunden und mitgenommen
+- [[Lange Rast]]
+- [[Baumel]] hat widerliches Essen gekocht
+- [[Szene - Sildars Plan]]
+- Reise zum [[Haderhügel]]
+- Kampf mit den [[Mantikor|Mantikoren]]
+
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %H:%M
+	section Gruppe
+		Lange Rast: done, a1, 2024-04-27 07:00, 8h
+		Treffen mit Sildar: done, a2, after a1, 30m
+		Reise zum Haderhügel: done, a3, after a2, 2.5h
+```
 
 ## Ablauf
-- [[Lange Rast]]
-- [[Baumel]]hat widerliches Essen gekocht
-- [[Szene - Sildars Plan]]
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
 
 ### Szenen
 - [[Szene - Rückkehr der Schürfer]]
-
 
 ## Secrets and Clues
 1. Grottenschrate haben [[Iarno Albrek]] weggebracht
