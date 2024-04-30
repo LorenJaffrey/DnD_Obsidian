@@ -206,10 +206,10 @@ tags:
 ## Verteidigung
 > [!column] 
 >> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]]        | [[Temporäre Trefferpunkte]] |
+>> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` `=this.Hintergrund.Klasse.Trefferwürfel` |                             |
->> | Aktuell | `=this.Gesundheit.TP`    | `=this.Gesundheit.TW`  `=this.Hintergrund.Klasse.Trefferwürfel`   | `=this.Gesundheit.TempTP`   |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe`  |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
