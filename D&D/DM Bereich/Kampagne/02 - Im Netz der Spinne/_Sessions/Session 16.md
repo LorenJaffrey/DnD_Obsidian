@@ -1,9 +1,13 @@
 # `=this.file.name`
 
 ## Organisatorisches
-- [[Bedroht]]
 - [[Kräuterkunde]]
 - [[Reisen]]
+- [[Glück]]
+- Character Sheet Verbesserungen
+	- Lebenspunkte
+	- Glück
+	- Erschöpfung
 
 ## Recap
 - [[Lange Rast]]
@@ -30,13 +34,10 @@ gantt
 - [[Szene - Rückkehr der Schürfer]]
 
 ## Secrets and Clues
-1. Grottenschrate haben [[Iarno Albrek]] weggebracht
-2. Grottenschrate haben restliche Rotbrenner getötet
-3. [[Alter Nothic]] hat Infos für die Gruppe
-4. Gefangene sollten als Sklaven verkauft werden
-5. Besitztümer von [[Iarno Albrek]] sind größtenteils verbrannt
-6. [[Schwarze Spinne]] statuiert ein Exempel an [[Iarno Albrek]]
-7. [[Iarno Albrek|Iarno]] kann der Gruppe vorher noch eine letzte Information zukommen lassen?
+1. [[Alter Nothic]] hat Infos für die Gruppe
+2. Gefangene sollten als Sklaven verkauft werden
+3. [[Schwarze Spinne]] statuiert ein Exempel an [[Iarno Albrek]]
+4. [[Iarno Albrek|Iarno]] kann der Gruppe vorher noch eine letzte Information zukommen lassen?
 
 ## Hintergrundinfos
 
@@ -54,10 +55,12 @@ gantt
 - [[Gundren Felssucher|Gundren]] wurde zur [[Burg Cragmaw]] gebracht
 - [[Gundren Felssucher|Gundren]] hatte Karte zur [[Wellenhallhöhle]] dabei
 
-## Iarno Albrek
+## Iarno Albrek und die Rotbrenner
 - hat sich nur mit der [[Schwarze Spinne|Schwarzen Spinne]] verbündet um sie danach zu hintergehen
 - hat eigentlich gute Absichten
 - will die Region zu ihrer alten Stärke zurückführen 
+- Grottenschrate haben [[Iarno Albrek]] weggebracht
+- Grottenschrate haben restliche Rotbrenner getötet
 
 ### Cryovain
 - Der weiße Drache [[Cryovain]] wurde von der [[Schwarze Spinne|Schwarzen Spinne]] versklavt und überfällt Höfe, Siedlungen und Lager in der Gegend
