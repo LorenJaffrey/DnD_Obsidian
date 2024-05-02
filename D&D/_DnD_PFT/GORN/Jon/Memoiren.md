@@ -62,5 +62,5 @@
 > [!timeline|t-l] **Böser Zauberer erschossen**
 > ![[Phandalin_Zauberer.jpeg \|235]]
 
-> [!timeline|t-r] **Mantikor Gruppe  begegnet**
+> [!timeline|t-r] **Mantikor Gruppe  besiegt**
 > ![[Mantikor.jpeg\|235]]

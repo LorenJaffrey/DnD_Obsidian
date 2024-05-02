@@ -36,7 +36,7 @@ Geld:
 | [[Holzschild]]                                               |   1    |    3    |   3    |
 | [[Kurzschwert]]                                              |   2    |    2    |   4    |
 | [[Dolch]]                                                    |   1    |    2    |   2    |
-| [[Pfeile]]                                                   |   34   |  0.05   |  1.7   |
+| [[Pfeile]]                                                   |   32   |  0.05   |  1.7   |
 | [[Rucksack]]                                                 |   1    |    5    |   5    |
 | [[Beschlagene Lederrüstung]] (mit blauen Drachenschuppen)    |   1    |   13    |   13   |
 | Freundschaftsarmband                                         |   1    |  0.25   |  0.25  |
@@ -71,6 +71,7 @@ Geld:
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
 | [[Einfaches Bier (Flasche)]]                  |   3    |    1    |   3    |
 | [[Einfacher Wein (Flasche)]]                  |  0.5   |   1.5   |  0.75  |
+|  Mantikor Klauen                              |  20    |  0.05   |   2    |
 | GESAMT                                        |        |         |  100   |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

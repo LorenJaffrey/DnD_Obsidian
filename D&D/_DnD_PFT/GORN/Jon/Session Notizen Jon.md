@@ -32,7 +32,7 @@ todoListe: |-
   - [x] Geheimnisvolle Person verfolgen
   - [x] Rüstung beim Händler abholen
   - [x] mit Drogans Freund saufen gehen
-  - [ ] Trank-Omi (Frau) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
+  - [x] Trank-Omi (Adabra Gwynn) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
   - [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
 wichtigeHintergrundInformationen: |-
   - #1 Mondsteinmaske -> berühmte Taverne

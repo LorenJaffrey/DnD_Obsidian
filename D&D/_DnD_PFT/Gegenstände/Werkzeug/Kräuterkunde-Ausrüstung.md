@@ -25,4 +25,12 @@ Als Experte der Kräuterkunde wirst du besser darin, Krankheiten und Wunden zu h
 Wenn du durch die Wildnis reist, kannst du dank deiner Kenntnisse der Kräuterkunde leichter Pflanzen identifizieren und Nahrungsquellen ausfindig machen, die anderen vielleicht gar nicht auffallen würden.
 
 ## Besondere Anwendungsmöglichkeiten
+### Pflanzen identifizieren
+Du kannst die meisten Pflanzen rasch anhand ihres Aussehens und ihres Geruchs identifizieren.
 
+## Beispiel-SG
+
+| Aktivität           | Attribut/Fertigkeit | SG  |
+| ------------------- | ------------------- | --- |
+| Pflanzen aufspüren  | [[Naturkunde]]      | 15  |
+| Gift identifizieren | [[Nachforschungen]] | 20  |

@@ -96,6 +96,8 @@ Persönlichkeit:
   Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
+Heilerausrüstung1: 10
+Heilerausrüstung2: 10
 tags:
   - Charakter/GORN
 ---
@@ -180,6 +182,12 @@ tags:
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>> 
+>> ## Heiler Ausrüstung
+>> | Ausrüstung | Verwendungen|
+>> |:----:|:----:|
+>> | [[Heilerausrüstung]] #1 |  `INPUT[number():Heilerausrüstung1]` |  
+>> | [[Heilerausrüstung]] #2 |  `INPUT[number():Heilerausrüstung2]` |  
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
