@@ -53,8 +53,8 @@ Geld:
 | [[Zunderkästchen]]                            |   1    |    1    |   1    |
 | Stofffetzen (Molotov Bestandteil)             |   2    |    0    |   0    |
 | Flasche Lampen-Öl (Molotov Bestandteil)       |   2    |    1    |   2    |
-| [[Heilerausrüstung]] (10/10) Anwendungen      |   1    |    1    |   1    |
-| [[Heilerausrüstung]] (10/10) Anwendungen      |   1    |    1    |   1    |
+| [[Heilerausrüstung]] #1                       |   1    |    1    |   1    |
+| [[Heilerausrüstung]] #2                       |   1    |    1    |   1    |
 | [[Reisegeschirr]]                             |   1    |    1    |   1    |
 | [[Fackel]]                                    |   8    |    1    |   10   |
 | [[Ration]] (5 Silber)                         |   14   |    1    |   15   |
@@ -71,7 +71,7 @@ Geld:
 | feine Laute mit Verzierungen                  |   1    |    2    |   2    |
 | [[Einfaches Bier (Flasche)]]                  |   3    |    1    |   3    |
 | [[Einfacher Wein (Flasche)]]                  |  0.5   |   1.5   |  0.75  |
-|  Mantikor Klauen                              |  20    |  0.05   |   2    |
+| Mantikor Klauen                               |   20   |  0.05   |   2    |
 | GESAMT                                        |        |         |  100   |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

@@ -1,40 +1,69 @@
 ---
 wichtigePersonen: |-
-  - Herrscher/Lord-Protector: Dagult Nieglut
-  - Drogans Freund: Gudren Felssucher
-  - 18: Abenteuer Gilde + Trainingscenter
-  - 19/20: Waffen/Rüstungsladen
-  - wurden von einer Person verfolgt/wurde entdeckt/verschw.
-  - Frau in der Gilde heißt "Destiny"
-  - Gildenmeister Sir Preston Kenning
-  - Gilde hat Bibliothek & Trainingsbereich
-  - Gilden-Elite: Sildar (reist mit Gudren-Felssucher)
-  - Banditen-Lager im Hafen-Spalte
-  - Linene Grauwind (Waren-Laden)
-  - Harbin Wester (Bürgermeister)
-  - Toblen Steinhügel (Wirt)
-  - Schwester Garaele (beim Glücksschrein)
-  - Adabra Gwynn (Kräuterhexe)
-  - larno Albrek (freund von Sildar)
-  - Rotbrenner: Oi Gehard (weggelaufen)
-  - Rotbrenner: Melek (holt Geld von Bürgermeister)
-  - König Groll von Burg Cragmaw
-  - Baumel - Goblin
-wichtigeOrte: |-
+  > ### Quest-Relevant:
+  > - Drogans Freund: **Gudren Felssucher**
+  > - Freund von Sildar: **larno Albrek **
+
+  #### Neverwinter:
+    - Herrscher/Lord-Protector: **Dagult Nieglut**
+    - Gilden-Rezeptionistin: **Destiny**
+    - Gildenmeister: **Sir Preston Kenning**
+    - Gilden-Elite: **Sildar** (reist mit Gudren-Felssucher)
+
+  #### Phandalin
+    - Waren-Laden: **Linene Grauwind**
+    - Bürgermeister: **Harbin Wester**
+    - Wirt: **Toblen Steinhügel**
+    - Beim Glücksschrein: **Schwester Garaele** (Elfin)
+    - Kräuterhexe: **Adabra Gwynn ** (Einsiedlerin -> Haderhügel)
+    - Rotbrenner:
+      - **Oi Gehard** (weggelaufen)
+      - **Melek** (holt Geld von Bürgermeister)
+
+  > #### Burg Cragmaw
+  >  - Anführer: **König Groll von Burg Cragmaw**
+
+  #### Momentane Begleitung:
+    - **Baumel** (Goblin)
+wichtigeOrte: |
+  - Neverwinter
+    - [x] Ort erreicht
+    - [x] 18: Abenteuer Gilde (hat Bibliothek & Trainingsbereich)
+    - [x] 19/20: Waffen/Rüstungsladen
+    - [x] Banditen-Lager im Hafen-Spalte
   - Phandalin (im Süden) -> Barthens Vorräte Laden (3 Tage)
-  - Wellenhall-Höhle (hat Gudren und seine Brüder gefunden)
-  - Burg Cragmaw (dort ist Gruden anscheinend verschleppt)
-todoListe: |-
+    - [x] Ort erreicht
+  - Haderhügel
+    - [x] Ort erreicht
+  - Zwergenausgrabung
+    - [ ] Ort erreicht
+  - Wellenhall-Höhle
+    (hat Gudren und seine Brüder **etwas** gefunden)
+    - [ ] mehr über den Ort erfahren
+    - [ ] Ort erreicht
+  - Burg Cragmaw 
+    (dorthin ist Gudren anscheinend verschleppt worden)
+    - [ ] Ort gefunden/ausgemacht
+    - [ ] Ort erreicht
+todoListe: |
+  #### Neverwinter
   - [x] Abenteuer Gilde beitreten
   - [x] 19 - beim Händler Waffen kaufen/verkaufen
   - [x] 20 - beim Händler verkaufen/kaufen
-  - [x] Essen gehen
   - [x] Geheimnisvolle Person verfolgen
   - [x] Rüstung beim Händler abholen
   - [x] mit Drogans Freund saufen gehen
+
+  > #### Allgemein
+  > - [ ] Burg Cragmaw finden
+  >   - [ ] **Gudren Felssucher** finden (wurde nach Burg Cragmaw verschleppt)
+
+  #### Phandalin
   - [x] Trank-Omi (Adabra Gwynn) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
+    - [ ] Trank-Omi gewarnt -> Lohn von **Sildar** abholen
   - [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
 wichtigeHintergrundInformationen: |-
+  #### Neverwinter
   - #1 Mondsteinmaske -> berühmte Taverne
   - #2 Burg Never (Burg von Nie)
   - Stadt-Abschnitte:
@@ -44,10 +73,19 @@ wichtigeHintergrundInformationen: |-
   - Katastrophen:
   	- #1 Zauberpest
   	- #2 Ausbruch des Vulkans (Hotenow)
-sonstigeInformationen: "- tür rechts gruft -> gefängnis zellen"
+
+  #### Phandalin
+  - Herberge vor Phandalin ist zerstört und von einer **düsteren Kälte** umzogen
+    - [ ] wurde aufgeklärt
+  - Im Unterschlupf der Rotbrenner **lebt** ein mysteriöses Wesen, was magische Gegenstände will (in der Höhle für uns nicht sichtbar)
+    - [ ]  wurde aufgeklärt
+sonstigeInformationen: |-
+  - In Neverwinter wurden wir von einer Person verfolgt
+    - Person wurde entdeckt und konnte verschwinden
+    - [ ] Auflösung? (Wer war das?)
 ---
 
-> [!column | 3 ]
+> [!column | 2]
 >>  ## Wichtige Personen
 >>  ```meta-bind
 >>  INPUT[editor():wichtigePersonen]
@@ -58,7 +96,7 @@ sonstigeInformationen: "- tür rechts gruft -> gefängnis zellen"
 >> INPUT[editor():wichtigeOrte]
 >> ```
 >
->> ## TO-DO Liste
+>> ## TO-DO/Quest Liste
 >> ```meta-bind
 >> INPUT[editor():todoListe]
 >> ```

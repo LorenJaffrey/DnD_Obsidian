@@ -96,8 +96,13 @@ Persönlichkeit:
   Ideale: Leben und leben lassen. Ideale sind es nicht wert, dafür zu töten oder in den Krieg zu ziehen. (Neutral)
   Bindungen: Ich werde nie die vernichtende Niederlage vergessen, die meine Kompanie erlitten hat, oder die Feinde, die ihr zugefügt haben.
   Makel: Abneigung gegen militärische Führungspositionen / Autorität
-Heilerausrüstung1: 10
-Heilerausrüstung2: 10
+GesundheitsAusrüstung:
+  Heilerausrüstung1: 10
+  Heilerausrüstung2: 10
+  Heiltränke: 0
+KurzeRast:
+  Uhrzeit1: 16:00
+  Uhrzeit2: 00:00
 tags:
   - Charakter/GORN
 ---
@@ -162,6 +167,11 @@ tags:
 # `=this.file.name`
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
+>> | Erholungs-Art | 1 | 2 |
+>> | :---: | :---: | :---: |
+>> | [[Kurze Rast]]| <input type="checkbox" checked id="0675a7">| <input type="checkbox" unchecked id="f34473"> |
+>> | Uhrzeit            | `INPUT[time():KurzeRast.Uhrzeit1]` | `INPUT[time():KurzeRast.Uhrzeit2]` |
+>>  
 >> |  Eigenschaft  |  Wert  |  
 >> | :---: | :---: | 
 >> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
@@ -184,10 +194,11 @@ tags:
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 >> 
 >> ## Heiler Ausrüstung
->> | Ausrüstung | Verwendungen|
->> |:----:|:----:|
->> | [[Heilerausrüstung]] #1 |  `INPUT[number():Heilerausrüstung1]` |  
->> | [[Heilerausrüstung]] #2 |  `INPUT[number():Heilerausrüstung2]` |  
+>> | Ausrüstung | Verfügbare Verwendungen | Maximal |
+>> | :----: | :----: | :----: |
+>> | [[Heilerausrüstung]] #1 |  `INPUT[number():GesundheitsAusrüstung.Heilerausrüstung1]` |  10 |
+>> | [[Heilerausrüstung]] #2 |  `INPUT[number():GesundheitsAusrüstung.Heilerausrüstung2]` |  10 |
+>> | [[Heiltrank]]                          | `INPUT[number():GesundheitsAusrüstung.Heiltränke]`  |   `=this.GesundheitsAusrüstung.Heiltränke`   |
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
@@ -349,10 +360,10 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| ------------------ |:---------:|
 >>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
 >>| [[Tatendrang]]             |   <input type="checkbox" unchecked id="435009">|
->>| [[Zusätzlicher Angriff]]  (Lv. 5) | <input type="checkbox" unchecked id="2392c6">|
->>| [[Unbeugsamkeit]] (Lv. 9) |  <input type="checkbox" unchecked id="fe8cbd">|
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |   <input type="checkbox" unchecked id="0c091f">|
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |   <input type="checkbox" unchecked id="c2c6e3">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) | <input type="checkbox" checked id="2392c6">|
+>>| [[Unbeugsamkeit]] (Lv. 9) |  <input type="checkbox" checked id="fe8cbd">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |   <input type="checkbox" checked id="0c091f">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |   <input type="checkbox" checked id="c2c6e3">|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
 >>- **Gezielter Schuss**
@@ -372,23 +383,23 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">| <input type="checkbox" unchecked id="76d80f">   | <input type="checkbox" unchecked id="1e4943">|
+>>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">| <input type="checkbox" checked id="76d80f">   | <input type="checkbox" checked id="1e4943">|
 >>
 >> ## Aktuelle aktive Manöver
->>- [[Kampfüberlegenheit#Schlag des Befehlshabers]]
->>- [[Kampfüberlegenheit#Fällender Angriff]]
->>- [[Kampfüberlegenheit#Parieren]]
+>>- [[Schlag des Befehlshabers]]
+>>- [[Fällender Angriff]]
+>>- [[Parade]]
 >>
 >>## Kurze Manöver Aktions-Beschreibung
->>- **[[Kampfüberlegenheit#Schlag des Befehlshabers]]**
+>>- **[[Schlag des Befehlshabers]]**
 >>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
->>- **[[Kampfüberlegenheit#Fällender Angriff]]**
+>>- **[[Fällender Angriff]]**
 >>        **Auswirkung**: Versuchen das Ziel zu Fall zu bringen + Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Ziel ([[Groß]] oder kleiner) muss Stärkerettungswurf ablegen
 >> 
->>- **[[Kampfüberlegenheit#Parieren]]**
+>>- **[[Parade]]**
 >>        **Auswirkung**: Schadensreduktion 
 >>        **Verwendung**: Überlegenheitswürfel + Geschicklichkeitsmodifikator
 >>

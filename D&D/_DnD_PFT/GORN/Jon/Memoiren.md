@@ -62,5 +62,9 @@
 > [!timeline|t-l] **Böser Zauberer erschossen**
 > ![[Phandalin_Zauberer.jpeg \|235]]
 
-> [!timeline|t-r] **Mantikor Gruppe  besiegt**
+> [!timeline|t-r] **Mantikor Gruppe  erschossen**
 > ![[Mantikor.jpeg\|235]]
+
+> **Ruinen/Zwergenausgrabung in der nähe von Phandalin**
+
+>[!timeline|t-l] **to be continued**
