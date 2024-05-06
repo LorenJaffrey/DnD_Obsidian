@@ -21,9 +21,11 @@ gantt
 	dateFormat HH:mm
 	axisFormat %H:%M
 	section Gruppe
-		Lange Rast: done, a1, 2024-04-27 07:00, 8h
-		Treffen mit Sildar: done, a2, after a1, 30m
-		Reise zum Haderhügel: done, a3, after a2, 2.5h
+		Abreise in Niewinter: done, a1, 2024-04-23 08:00
+		Reise nach Phandalin: done, a2, after a1, 3d
+		Lange Rast: done, a3, 2024-04-27 07:00, 8h
+		Treffen mit Sildar: done, a4, after a3, 30m
+		Reise zum Haderhügel: done, a5, after a4, 2.5h
 ```
 
 ## Ablauf
