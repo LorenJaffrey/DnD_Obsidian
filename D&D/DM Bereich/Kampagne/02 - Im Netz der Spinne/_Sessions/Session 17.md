@@ -3,30 +3,12 @@
 ## Organisatorisches
 - [[Kräuterkunde]]
 - [[Reisen]]
-- [[Glück]]
-- Character Sheet Verbesserungen
-	- Lebenspunkte
-	- Glück
-	- Erschöpfung
 
 ## Recap
-- [[Lange Rast]]
-- [[Baumel]] hat widerliches Essen gekocht
-- [[Szene - Sildars Plan]]
-- Reise zum [[Haderhügel]]
+- [[Haderhügel]]
 - Kampf mit den [[Mantikor|Mantikoren]]
 
-```mermaid
-gantt
-	dateFormat HH:mm
-	axisFormat %H:%M
-	section Gruppe
-		Abreise in Niewinter: done, a1, 2024-04-23 08:00, 30m
-		Reise nach Phandalin: done, a2, after a1, 3d
-		Lange Rast: done, a3, 2024-04-27 07:00, 8h
-		Treffen mit Sildar: done, a4, after a3, 30m
-		Reise zum Haderhügel: done, a5, after a4, 2.5h
-```
+![[Timeline Kampagne 2#Tag 5]]
 
 ## Ablauf
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
