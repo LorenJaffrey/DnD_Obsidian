@@ -101,7 +101,7 @@ GesundheitsAusrüstung:
   Heilerausrüstung2: 10
   Heiltränke: 0
 KurzeRast:
-  Uhrzeit1: 16:00
+  Uhrzeit1: 19:00
   Uhrzeit2: 00:00
 tags:
   - Charakter/GORN

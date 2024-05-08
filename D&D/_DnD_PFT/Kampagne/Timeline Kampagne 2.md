@@ -1,3 +1,5 @@
+# Woche 1
+
 ### Tag 1 + 2
 ```mermaid
 gantt
@@ -8,6 +10,8 @@ gantt
 		Abreise in Niewinter: milestone, done, a1, 2024-04-23 08:00, 30m
 		Reise auf der Hohen Straße: done, a2, after a1, 2d
 ```
+
+>
 
 ### Tag 3
 ```mermaid
@@ -25,13 +29,15 @@ gantt
 		Weiterreise nach Phandalin: done, a6, after a5, 2h
 ```
 
+>
+
 ### Tag 4
 ```mermaid
 gantt
 	dateFormat HH:mm
 	axisFormat %e.%m. %H:%M
 	tickinterval 1hour
-	weekday thursday
+	weekday friday
 	section G.O.R.N
 		Weiterreise nach Phandalin: done, a1, 2024-04-26 07:00, 1.5h
 		Ankunft in Phandalin: done, milestone, a2, after a1, 30m
@@ -40,13 +46,15 @@ gantt
 		Lange Rast: done, a5, after a4, 8h
 ```
 
+>
+
 ### Tag 5
 ```mermaid
 gantt
 	dateFormat HH:mm
 	axisFormat %e.%m. %H:%M
 	tickinterval 1hour
-	weekday thursday
+	weekday saturday
 	section G.O.R.N
 		Überfall auf das Gasthaus: done, milestone, a1, 2024-04-27 02:00, 30m
 		Tresendar Anwesen: done, a2, after a1, 5h
@@ -54,5 +62,125 @@ gantt
 		Treffen mit Sildar: done, a4, after a3, 30m
 		Reise zum Haderhügel: done, a5, after a4, 2.5h
 		Kampf mit den Mantikoren: done, milestone, a6, after a5, 30m
-		Kurze Rast: 
+		Kurze Rast: done, a7, after a6, 1h
+		Reise zur Zwergenausgrabung: 
 ```
+
+> Hier befinden wir uns aktuell!
+
+### Tag 6
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday sunday
+	section G.O.R.N
+		-: a1, 2024-04-28 00:00, 
+```
+
+>
+
+### Tag 7
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-04-29 00:00, 
+```
+
+# Woche 2
+
+### Tag 8
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday tuesday
+	section G.O.R.N
+		-: a1, 2024-04-30 00:00, 
+```
+
+>
+### Tag 9
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday wednesday
+	section G.O.R.N
+		-: a1, 2024-05-01 00:00, 
+```
+
+>
+
+### Tag 10
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday thursday
+	section G.O.R.N
+		-: a1, 2024-05-02 00:00, 
+```
+
+>
+
+### Tag 11
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday friday
+	section G.O.R.N
+		-: a1, 2024-05-03 00:00, 
+```
+
+>
+
+### Tag 12
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday saturday
+	section G.O.R.N
+		-: a1, 2024-05-04 00:00, 
+```
+
+>
+
+### Tag 13
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday sunday
+	section G.O.R.N
+		-: a1, 2024-05-05 00:00, 
+```
+
+>
+
+### Tag 14
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-06 00:00, 
+```
+
+
+# Woche 3
