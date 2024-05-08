@@ -15,11 +15,11 @@ Geld:
 > ###### Geld
 > | Währung | Anzahl |
 > | ---- | ---- |
-> | PM (10 GM)| `=this.Geld.PM` |
-> | GM  (10 SM)| `=this.Geld.GM` |
-> | EM  (5 SM) | `=this.Geld.EM` |
-> | SM (10 KM) | `=this.Geld.SM` |
-> | KM | `=this.Geld.KM` |
+> | PM (10 GM)| `INPUT[number():Geld.PM]` |
+> | GM  (10 SM)| `INPUT[number():Geld.GM]` |
+> | EM  (5 SM) | `INPUT[number():Geld.EM]` |
+> | SM (10 KM) | `INPUT[number():Geld.SM]` |
+> | KM | `INPUT[number():Geld.KM]` |
 > 
 > ##### Last
 > | Type | Stat |

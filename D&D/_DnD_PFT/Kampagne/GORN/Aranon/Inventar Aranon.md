@@ -13,11 +13,11 @@ Geld:
 > ###### Geld
 > | Währung | Anzahl |
 > | ---- | ---- |
-> | PM (10 GM)| `=this.Geld.PM` |
-> | GM  (10 SM)| `=this.Geld.GM` |
-> | EM  (5 SM) | `=this.Geld.EM` |
-> | SM (10 KM) | `=this.Geld.SM` |
-> | KM | `=this.Geld.KM` |
+> | PM (10 GM)| `INPUT[number():Geld.PM]` |
+> | GM  (10 SM)| `INPUT[number():Geld.GM]` |
+> | EM  (5 SM) | `INPUT[number():Geld.EM]` |
+> | SM (10 KM) | `INPUT[number():Geld.SM]` |
+> | KM | `INPUT[number():Geld.KM]` |
 > 
 > ##### Last
 > | Type | Stat |
@@ -59,7 +59,7 @@ Geld:
 | Flüssigkeit (zäh, braun)    |   1    |    0    |   0    |
 | [[Kurzschwert]]             |   1    |    2    |   2    |
 | [[Gildenabzeichen]]         |   1    |    0    |   0    |
-| GESAMT                      |        |         |  64.8  |
+| GESAMT                      |        |         |  63.8  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
