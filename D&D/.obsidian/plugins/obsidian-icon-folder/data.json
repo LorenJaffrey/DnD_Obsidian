@@ -31,17 +31,9 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor"
   },
-  "_DnD_PFT/Bestiarium": "RaEyeMonster",
-  "_DnD_PFT/Zauber": "FasWandMagicSparkles",
-  "_DnD_PFT/_Attachments": "RiAttachment2",
   "DM Bereich/Kampagne": "CoMap",
   "DM Bereich/Bestiarium": "RaEyeMonster",
   "DM Bereich/Homebrew": "LiCookingPot",
   "DM Bereich/Tips": "CoInfo",
-  "DM Bereich/Worldbuilding": "IbGlobe",
-  "_DnD_PFT/Regeln": "FasPenRuler",
-  "_DnD_PFT/Gegenstände": "RaKnightHelmet",
-  "_DnD_PFT/Charaktere": "FasUser",
-  "_DnD_PFT/Charaktere/Sprachen": "RaSpeechBubbles",
-  "_DnD_PFT/Kampagne/GORN": "FasPeopleGroup"
+  "DM Bereich/Worldbuilding": "IbGlobe"
 }
