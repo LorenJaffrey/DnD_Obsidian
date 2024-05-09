@@ -8,7 +8,7 @@ Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkei
 
 | SG  | Ort                                      |
 | --- | ---------------------------------------- |
-| 10  | Wald, Grasland, Sumpf                    |
+| 10  | Wald, Grasland, Hügel, Sumpf             |
 | 15  | Küste, Gebirge, Tiefenreich, Unterwasser |
 | 20  | Arktisch, Wüste                          |
 

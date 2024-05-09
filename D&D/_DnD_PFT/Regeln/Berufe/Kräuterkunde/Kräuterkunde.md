@@ -1,3 +1,7 @@
+---
+tags:
+- Beruf/Kräuterkunde
+---
 # `=this.file.name`
 
 [[Kräuterkunde]] besteht aus drei Bestandteilen
