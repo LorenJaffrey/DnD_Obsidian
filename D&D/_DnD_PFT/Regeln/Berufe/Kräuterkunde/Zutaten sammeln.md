@@ -21,3 +21,5 @@ Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkei
 
 Bei einem [[Erfolg]] erhältst du eine Zutat aus der Tabelle für gewöhnliche Kräuter. 
 Bei einem [[Misserfolg]] findest du nichts. 
+
+## Umgebungen
