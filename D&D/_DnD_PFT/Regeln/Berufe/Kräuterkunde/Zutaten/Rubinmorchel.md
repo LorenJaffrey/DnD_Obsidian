@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Wirselkräuter
-Art: "[[Blätter]]"
+  - Rubinmorcheln
+Art: "[[Pilz]]"
 Effekt:
-  Roh: "Heilt für 1W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
-  Verarbeitet: "Heilt 2W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
+  Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
+  Verarbeitet: 
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,7 +18,7 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
+AnzahlDosenFürVerarbeitung: 4
 VerarbeitungsSG: 20
 ---
 # `=this.file.name`

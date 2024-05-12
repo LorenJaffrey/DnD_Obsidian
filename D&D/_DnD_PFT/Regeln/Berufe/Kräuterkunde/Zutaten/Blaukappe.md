@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Wirselkräuter
-Art: "[[Blätter]]"
+  - Blaukappen
+Art: "[[Pilz]]"
 Effekt:
-  Roh: "Heilt für 1W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
-  Verarbeitet: "Heilt 2W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
+  Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde." 
+  Verarbeitet: "Heilt gewöhnliche Krankheiten."
 Umgebungen:
   - Grasland
   - Hügel
@@ -19,7 +19,7 @@ Umgebungen:
   - Wüste
   - Unterreich
 AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 20
+VerarbeitungsSG: 15
 ---
 # `=this.file.name`
 

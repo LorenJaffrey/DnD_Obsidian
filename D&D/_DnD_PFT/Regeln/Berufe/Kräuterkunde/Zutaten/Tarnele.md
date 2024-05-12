@@ -2,8 +2,8 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Singular
-Art: "[[Pilz]], [[Blätter/Stengel]], [[Wurzel]], [[Blüte]]"
+  - Tarnelen
+Art: "[[Blüte]]"
 Effekt:
   Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
   Verarbeitet: "Maximale Erholung aus nächstem [[Trefferwürfel]]."
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 5
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

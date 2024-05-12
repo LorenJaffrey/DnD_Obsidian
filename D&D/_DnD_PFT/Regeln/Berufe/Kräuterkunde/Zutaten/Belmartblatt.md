@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Wirselkräuter
+  - Belmartblätter
 Art: "[[Blätter]]"
 Effekt:
-  Roh: "Heilt für 1W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
-  Verarbeitet: "Heilt 2W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
+  Roh: "Gewährt 3 temporäre Trefferpunkte für eine Stunde"
+  Verarbeitet: 
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 20
+AnzahlDosenFürVerarbeitung: 3
+VerarbeitungsSG: 19
 ---
 # `=this.file.name`
 
