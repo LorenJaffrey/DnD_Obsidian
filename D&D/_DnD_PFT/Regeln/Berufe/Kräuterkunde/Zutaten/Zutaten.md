@@ -8,13 +8,7 @@ aliases:
 
 | Zutat               | Effekt Roh                                                       | Effekt Trank                                                  | benötigte Dosen | SG  |
 | ------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------- | --------------- | --- |
-| [[Einbeere]]        | Heilt für 1 Trefferpunkt (max. 1 kurze Rast)                     | Heilt 1 Trefferpunkt pro Runde für 6 Runden                   | 5               | 20  |
-| [[Herzkappe]]       | Heilt für 1 Trefferpunkt (max. 1 kurze Rast)                     | Heilt 1W6 Trefferpunkte (max. 1 kurze Rast)                   | 5               | 20  |
-| [[Wirselkraut]]     | Heilt für 1W4 Trefferpunkte (max. 1 kurze Rast)                  | Heilt 2W4 Trefferpunkte (max. 1 kurze Rast)                   | 10              | 20  |
-| [[Irrlichtatem]]    | Verlangsamt Trunkenheit                                          | Immun gegen [[Betrunken]] für 1 Stunde                        | 6               | 18  |
-| [[Nachtschatten]]   | Vorteil auf Rettungswurf gegen Gifte                             | Heilt [[Vergiftet]]                                           | 4               | 20  |
 | Schattiges Moos     | Vorteil auf Rettungswurf gegen Gifte                             | Schadensresistenz gegen Giftschaden für 1 Stunde              | 4               | 20  |
-| [[Alraune]]         | Stoppt Versteinerung                                             | Heilt [[Versteinert]]                                         | 5               | 20  |
 | [[Tarnele]]         | +2 Erholung aus nächstem [[Trefferwürfel]]                       | Maximale Erholung aus nächstem [[Trefferwürfel]]              | 5               | 20  |
 | [[Rubinmorchel]]    | +2 Erholung aus nächstem [[Trefferwürfel]]                       |                                                               |                 |     |
 | [[Blaukappe]]       | Verlangsamt Infektionen durch gewöhnliche Krankheiten            | Heilt gewöhnliche Krankheiten                                 | 5               | 15  |
@@ -47,7 +41,9 @@ TABLE WITHOUT ID
 file.link AS "Kraut",
 Art,
 Effekt.Roh AS "Effekt Roh",
-Effekt.Verarbeitet AS "Effekt Verarbeitet"
+Effekt.Verarbeitet AS "Effekt Verarbeitet",
+AnzahlDosenFürVerarbeitung AS "Dosen",
+VerarbeitungsSG AS "SG"
 FROM #Beruf/Kräuterkunde/Zutat
 WHERE file.name != "Vorlage Kräuterkunde-Zutat"
 SORT file.name
