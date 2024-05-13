@@ -1,12 +1,10 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+Art: "[[Blätter]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
+  Verarbeitet: "Erhält Schwimmbewegung gleich normaler Bewegung für 1 Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +16,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 4
+VerarbeitungsSG: 18
 ---
 # `=this.file.name`
 

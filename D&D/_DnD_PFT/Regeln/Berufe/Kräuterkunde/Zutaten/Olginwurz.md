@@ -1,12 +1,10 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
-  - Alraunen
 Art: "[[Wurzeln]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Wahrnehmung]] (Gehör) für 1 Stunde."
+  Verarbeitet: "Heilt [[Taub\|Taubheit]]."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +16,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 5
+VerarbeitungsSG: 19
 ---
 # `=this.file.name`
 

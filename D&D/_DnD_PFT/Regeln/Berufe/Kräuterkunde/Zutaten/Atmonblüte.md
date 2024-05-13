@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+  - Atmonblüten
+Art: "[[Blüten]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Erhöht die [[Bewegungsrate]] um 1,5m (1 Kästchen) für eine Stunde."
+  Verarbeitet: "Erhöht [[Rüstungsklasse]] um 1 für 1 Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 6
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

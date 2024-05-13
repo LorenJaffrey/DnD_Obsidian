@@ -1,7 +1,7 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-Art: "[[Pilz]]"
+Art: "[[Pilze]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf]] gegen Gifte für 1 Stunde."
   Verarbeitet: "Heilt [[Vergiftet|Vergiftung]]."

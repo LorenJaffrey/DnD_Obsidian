@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
+  - Blutwurzeln
 Art: "[[Wurzeln]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Reduziert eine Stufe [[Erschöpfung]] (max. 1 pro Tag)."
+  Verarbeitet: "Entfernt alle Stufen [[Erschöpft|Erschöpfung]] bei einer [[Lange Rast|Langen Rast]]"
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 4
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

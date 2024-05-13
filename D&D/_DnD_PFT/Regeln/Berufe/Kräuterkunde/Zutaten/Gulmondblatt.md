@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+  - Gulmondblätter
+Art: "[[Blätter]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Athletik]]-Würfe für 1 Stunde."
+  Verarbeitet: "+1 auf [[Schadenswurf|Schadenswürfe]] für 1 Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 5
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

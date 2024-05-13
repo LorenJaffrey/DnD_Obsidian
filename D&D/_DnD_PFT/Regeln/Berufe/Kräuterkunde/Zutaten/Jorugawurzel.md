@@ -2,8 +2,8 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Singular
-Art: "[[Wurzel]]"
+  - Jorugawurzeln
+Art: "[[Wurzeln]]"
 Effekt:
   Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde."
   Verarbeitet: Effekt Verarbeitet

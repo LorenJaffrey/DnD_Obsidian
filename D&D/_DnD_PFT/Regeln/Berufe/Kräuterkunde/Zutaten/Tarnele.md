@@ -3,7 +3,7 @@ tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
   - Tarnelen
-Art: "[[Blüte]]"
+Art: "[[Blüten]]"
 Effekt:
   Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
   Verarbeitet: "Maximale Erholung aus nächstem [[Trefferwürfel]]."

@@ -1,25 +1,19 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+Art: "[[Pilze]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Gewährt [[Dunkelsicht]] für 1 Stunde."
+  Verarbeitet: "Gewährt [[Überlegene Dunkelsicht]] für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
   - Unterwasser
-  - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 5
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

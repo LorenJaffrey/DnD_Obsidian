@@ -1,7 +1,7 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-Art: "[[Blüte]]"
+Art: "[[Blüten]]"
 Effekt:
   Roh: "Verlangsamt Trunkenheit um 50% für 1 Stunde."
   Verarbeitet: "Immun gegen [[Betrunken]] für 1 Stunde."

@@ -3,20 +3,15 @@ tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
   - Blaukappen
-Art: "[[Pilz]]"
+Art: "[[Pilze]]"
 Effekt:
   Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde." 
   Verarbeitet: "Heilt gewöhnliche Krankheiten."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
   - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
 AnzahlDosenFürVerarbeitung: 5
 VerarbeitungsSG: 15

@@ -3,7 +3,7 @@ tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
   - Rubinmorcheln
-Art: "[[Pilz]]"
+Art: "[[Pilze]]"
 Effekt:
   Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
   Verarbeitet: 

@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+  - Weißweidenrinden
+Art: "[[Rinden]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Gewährt 3 [[Temporäre Trefferpunkte]] für eine Stunde."
+  Verarbeitet: "Gewährt 10 temporäre Trefferpunkte für eine Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 5
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

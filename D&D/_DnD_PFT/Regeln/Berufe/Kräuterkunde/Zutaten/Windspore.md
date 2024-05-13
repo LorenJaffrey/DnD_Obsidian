@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+  - Windsporen
+Art: "[[Pilze]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
+  Verarbeitet: "Muss 1 Stunde lang nicht atmen."
 Umgebungen:
   - Grasland
   - Hügel

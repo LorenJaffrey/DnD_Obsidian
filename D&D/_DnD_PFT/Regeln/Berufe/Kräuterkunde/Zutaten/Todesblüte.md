@@ -2,11 +2,11 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Alraunen
-Art: "[[Wurzeln]]"
+  - Todesblüten
+Art: "[[Blüte]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf]] gegen Gifte für 1 Stunde."
+  Verarbeitet: "[[Schadensarten#Schadensresistenz]] gegen [[Giftschaden]] für 1 Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,8 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
+AnzahlDosenFürVerarbeitung: 4
+VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 
