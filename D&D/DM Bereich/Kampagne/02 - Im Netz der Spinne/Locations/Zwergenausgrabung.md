@@ -2,7 +2,7 @@
 
 - [ ] #task Location vorbereiten [priority:: highest]
 
-[[Dwarven Excavation.jpg|300]]
+![[Dwarven Excavation.jpg]]
 
 ## Überblick
 
