@@ -1,7 +1,5 @@
 ---
 aliases: Schwerer Rüstung, Schweren Rüstung
-tags:
-- Gegenstand/Rüstung
 ---
 # `=this.file.name`
 

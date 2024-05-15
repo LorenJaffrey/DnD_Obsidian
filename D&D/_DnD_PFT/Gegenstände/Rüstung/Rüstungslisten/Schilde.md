@@ -1,7 +1,5 @@
 ---
 aliases: Schild
-tags:
-- Gegenstand/Rüstung
 ---
 # `=this.file.name`
 

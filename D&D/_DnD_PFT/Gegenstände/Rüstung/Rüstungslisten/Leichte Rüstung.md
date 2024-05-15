@@ -1,7 +1,5 @@
 ---
 aliases: Leichter Rüstung
-tags:
-- Gegenstand/Rüstung
 ---
 # `=this.file.name`
 
