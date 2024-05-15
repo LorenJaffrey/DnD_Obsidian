@@ -6,7 +6,7 @@ tags:
 ---
 ```statblock
 image: [[orc.jpg]]
-name: Ork
+name: Ork mit Zweihandaxt
 size: [[Mittelgroß]]
 type: [[Humanoide]]
 subtype: [[Orks|Ork]]
