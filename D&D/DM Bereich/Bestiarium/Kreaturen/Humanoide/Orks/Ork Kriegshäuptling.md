@@ -13,7 +13,7 @@ subtype: [[Orks|Ork]]
 alignment: [[Chaotisch Böse]]
 ac: 16 ([[Kettenhemd]])
 sr: 2 ([[Kettenhemd]])
-hp: 93 (11W8 + 44)
+hp: 11W8 + 44
 speed: 9 m (6 Kästchen)
 stats: [18, 12, 18, 11, 11, 16]
 saves:
@@ -33,7 +33,7 @@ actions:
   - name: [[Zweihandaxt]]
     desc: Nahkampf-Waffenangriff +5 zum Treffen, Reichweite 1,5 m (1 Kästchen), ein Ziel. Treffer 15 (1W12 + 4 + 1W8) Hiebschaden, [[Tödlich]].
   - name: [[Speer]]
-    desc: Nahkampf- oder Fernkampf-Waffenangriff +6 zum Treffen, Reichweite 1,5 m (1 Kästchen) oder 1,5/6/18 m (1/4/12 Kästchen), ein Ziel. Treffer 12 (1W6 + 4 + 1W8) Stichschaden oder 13 (2W8 + 4) Stichschaden, wenn die Waffe mit beiden Händen für einen Nahkampfangriff verwendet wird.
+    desc: Nahkampf- oder Fernkampf-Waffenangriff +6 zum Treffen, Reichweite 1,5 m (1 Kästchen) oder 1,5/6/18 m (1/4/12 Kästchen), ein Ziel. Treffer 1W6 + 4 + 1W8 Stichschaden oder 2W8 + 4 Stichschaden, wenn die Waffe mit beiden Händen für einen Nahkampfangriff verwendet wird.
   - name: [[Kriegsschrei]]
 bonus_actions:
   - name: [[Aggressiv]]
