@@ -11,9 +11,9 @@ Die Schildzwerge [[Dazlin Grausplitter]] und [[Norbus Eisenrune]] sind Goldsuche
 Auf der Suche nach Gold in den Bergen südwestlich von [[Phandalin]] beschlossen sie, eine nahe gelegene Schlucht zu erkunden und fanden Hinweise auf eine alte Zwergensiedlung, die von einem Bergrutsch verschüttet wurde. 
 Sie haben die letzten Monate damit verbracht, den Schutt wegzuräumen und die Ruinen nach Schätzen abzusuchen, aber bisher nichts Wertvolles gefunden.
 
-Hinter der Siedlung, in die Rückwand der Schlucht gehauen, liegt ein alter Tempel von [[Abbathor]], dem bösen Zwergengott der Gier. 
-[[Abbathor]] muss bei jeder Sonnenfinsternis mit Opfern von Blut und Edelsteinen besänftigt werden. 
-Einmal genügten dem Gott die Opfer der Priester nicht und er löste ein Erdbeben und eine Lawine aus, wodurch Teile des Tempels einstürzten und die Siedlung verschüttet wurde. 
+Hinter der Siedlung, in die Rückwand der Schlucht gehauen, liegt ein alter Tempel von [[Abbathor]], dem bösen Zwergengott der Gier.
+[[Abbathor]] muss bei jeder Sonnenfinsternis mit Opfern von Blut und Edelsteinen besänftigt werden.
+Einmal genügten dem Gott die Opfer der Priester nicht und er löste ein Erdbeben und eine Lawine aus, wodurch Teile des Tempels einstürzten und die Siedlung verschüttet wurde.
 Die Priester im Tempel, die nicht sofort getötet wurden, wurden in Ockergallerte verwandelt - entwürdigte Reflexionen von [[Abbathor||Abbathors]] Hunger und Gier.
 
 ### Ziele
@@ -76,7 +76,7 @@ Die Siedlung wurde gründlich geplündert. Charaktere, die die Ruinen durchsuche
 >Ihre verwitterten Gesichtern grinsen euch böse an.
 
 Wenn die Charaktere ihnen noch nicht begegnet sind, essen  [[Dazlin Grausplitter|Dazlin]] und [[Norbus Eisenrune|Norbus]] [[Ration|Rationen]] hinter dem östlichsten Schutthaufen, behalten aber den Tempeleingang (Bereich Z4) im Auge. 
-Diese Schildzwerge sind Gemeine (Spielwerte auf Seite 72), sprechen Gemeinsprache und Zwergisch und haben Dunkelsicht auf 18 Meter.  
+Diese Schildzwerge sind Gemeine (Spielwerte auf Seite 72), sprechen [[Gemeinsprache]] und [[Zwergisch]] und haben Dunkelsicht auf 18 Meter.  
 [[Dazlin Grausplitter|Dazlin]] ist offen und fast zu ehrlich. 
 [[Norbus Eisenrune|Norbus]] ist schroff und übermäßig vorsichtig. 
 Sie streiten sich wie ein altes Ehepaar.
