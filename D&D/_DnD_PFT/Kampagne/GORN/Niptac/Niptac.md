@@ -8,11 +8,11 @@ Niptac:
     - "[[Gnomisches Überbrückungskabel]]"
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
-Schild:
+Schild: 
 Waffen:
   - "[[Kurzschwert]]"
   - "[[Dolch]]"
-  - "[[Beil]]"
+  - "[[Axt]]"
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
@@ -100,12 +100,12 @@ Hintergrund:
   Hintergrund: "[[Scharlatan]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
+    - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
   Ideale: Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe.
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
 tags:
-- Charakter/GORN
+  - Charakter/GORN
 ---
 # `=this.file.name`
 > [!infobox]

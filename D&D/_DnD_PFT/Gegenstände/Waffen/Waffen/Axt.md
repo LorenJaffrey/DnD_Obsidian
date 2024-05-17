@@ -6,6 +6,8 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Einhandwaffe
+aliases:
+  - Äxte
 Schaden: 1W6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:

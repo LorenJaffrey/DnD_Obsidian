@@ -30,7 +30,7 @@ Geld:
 | Gegenstand      | Anzahl | Gewicht | Gesamt |
 | --------------- |:------:|:-------:|:------:|
 | [[Zweihandaxt]] |   1    |    7    |   7    |
-| [[Beil]]        |   2    |    2    |   4    |
+| [[Axt]]        |   2    |    2    |   4    |
 | [[Wurfspeer]]   |   4    |    2    |   8    |
 | GESAMT          |        |         |   19   |
 <!-- TBLFM: $>=($-1*$-2) -->
@@ -40,7 +40,7 @@ Geld:
 | Gegenstand     | Anzahl | Gewicht | Gesamt |
 | -------------- |:------:|:-------:|:------:|
 | [[Schlafsack]] |   1    |    7    |   7    |
-| [[Beil]]       |   2    |    2    |   4    |
+| [[Axt]]       |   2    |    2    |   4    |
 | [[Wurfspeer]]  |   4    |    2    |   8    |
 | GESAMT         |        |         |   19   |
 <!-- TBLFM: $>=($-1*$-2) -->

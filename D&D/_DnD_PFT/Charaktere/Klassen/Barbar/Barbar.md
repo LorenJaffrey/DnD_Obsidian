@@ -128,7 +128,7 @@ Kampfrausch:
 
 ## Ausrüstung
 - [[Zweihandaxt]] oder beliebige [[Kriegswaffen|Kriegswaffe]]
-- zwei [[Beil||Beile]] oder beliebige [[Einfache Waffen]]
+- zwei [[Axt|Äxte]] oder beliebige [[Einfache Waffen]]
 - 4 [[Wurfspeer]]e 
 - [[Ausrüstungssets#Entdeckerausrüstung]]
 
