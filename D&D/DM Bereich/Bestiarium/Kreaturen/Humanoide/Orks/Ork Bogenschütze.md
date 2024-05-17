@@ -5,7 +5,7 @@ tags:
 - Kreatur/Humanoide/Ork
 ---
 ```statblock
-image: [[orc.jpg]]
+image: [[orc_archer.webp]]
 name: Ork Bogenschütze
 size: [[Mittelgroß]]
 type: [[Humanoide]]

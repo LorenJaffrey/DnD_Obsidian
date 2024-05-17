@@ -32,8 +32,6 @@ actions:
     desc: Der Ork Kriegshäuptling führt zwei Angriffe aus, entweder mit seiner Zweihandaxt oder seinem Speer.
   - name: [[Zweihandaxt]]
     desc: Nahkampf-Waffenangriff +5 zum Treffen, Reichweite 1,5 m (1 Kästchen), ein Ziel. Treffer 15 (1W12 + 4 + 1W8) Hiebschaden, [[Tödlich]].
-  - name: [[Speer]]
-    desc: Nahkampf- oder Fernkampf-Waffenangriff +6 zum Treffen, Reichweite 1,5 m (1 Kästchen) oder 1,5/6/18 m (1/4/12 Kästchen), ein Ziel. Treffer 1W6 + 4 + 1W8 Stichschaden oder 2W8 + 4 Stichschaden, wenn die Waffe mit beiden Händen für einen Nahkampfangriff verwendet wird.
   - name: [[Kriegsschrei]]
 bonus_actions:
   - name: [[Aggressiv]]
