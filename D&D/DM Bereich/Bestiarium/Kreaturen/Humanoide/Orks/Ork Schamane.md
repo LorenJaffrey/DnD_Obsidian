@@ -54,7 +54,7 @@ reactions:
 - Dauerhafte Flamme (2) 
 - Staubteufel (2)
 - Erdbindung (2)
-- Falmmenklinge (2)
+- Flammenklinge (2)
 - Windstoß (2)
 - Schwache Genesung (2)
 - Magische Waffe (2)
