@@ -9,8 +9,8 @@ Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
 Herausforderungsgrad: 20
 Stufe: 3
-Trefferwürfel: "W10"
-Bewegung: 
+Trefferwürfel: W10
+Bewegung:
   Boden: 9
   Fliegen: 0
   Schwimmen: 0
@@ -101,7 +101,10 @@ Merkmale:
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`                                                                           |
 >> | [[Rüstungsklasse]]    | `=this.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` |
->> | [[Schadensreduktion]] | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)`           
+>> | [[Schadensreduktion]] | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)`       
+>> 
+>> ## Merkmale
+>> `$=dv.list(dv.current().Merkmale)`
 >
 >> ## Angriff
 >> `=choice(this.Angriffe, "###### Mehrfachangriff", "")`
@@ -192,3 +195,5 @@ Merkmale:
 >> dv.span("![[" + dv.page(merkmale[i]).file.name + " | no-title]]");
 >> }
 >> ```
+
+- [ ] #task Template finalisieren [priority:: highest]

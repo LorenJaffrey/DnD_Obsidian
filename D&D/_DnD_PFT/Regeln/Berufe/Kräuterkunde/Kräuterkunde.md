@@ -1,6 +1,6 @@
 ---
 tags:
-- Beruf/Kräuterkunde
+  - Beruf/Kräuterkunde
 ---
 # `=this.file.name`
 
@@ -11,3 +11,6 @@ tags:
 
 Alle gesammelten [[Zutaten]] haben intrinsische Eigenschaften, die durch Einnahme oder äußerliche Anwendung aktiviert werden können.
 Darüber hinaus können mehrere dieser [[Zutaten]] zu einer [[Kräuterpasten|Kräuterpaste]] verarbeitet werden, was ihre Wirkung verstärken kann.
+
+- [ ] #task Liste Kräuter fertigstellen [priority:: high]
+- [ ] #task Liste Kräuter Fundstellen fertigstellen [priority:: high]
