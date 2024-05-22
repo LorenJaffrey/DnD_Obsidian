@@ -64,6 +64,29 @@ Merkmale:
   - "[[Aggressiv]]"
   - "[[Unbeugsamkeit]]"
   - "[[Amorph]]"
+Zauberplätze:
+  Grad_1: 4
+  Grad_2: 0
+  Grad_3: 0
+  Grad_4: 0
+  Grad_5: 0
+  Grad_6: 0
+  Grad_7: 0
+  Grad_8: 0
+  Grad_9: 0
+Zauber:
+  - "[[Gift versprühen]]"
+  - "[[Druidenkunst]]"
+  - "[[Shillelagh]]"
+  - "[[Donnerwoge]]"
+  - "[[Wunden heilen]]"
+  - "[[Mit Tieren sprechen]]"
+  - "[[Nebelschritt]]"
+  - "[[Identifizieren]]"
+  - "[[Heilendes Wort]]"
+  - "[[Schwache Genesung]]"
+  - "[[Fallen finden]]"
+  - "[[Spurloses Gehen]]"
 ---
 # `=this.file.name`
 
@@ -197,3 +220,12 @@ Merkmale:
 >> ```
 
 - [ ] #task Template finalisieren [priority:: highest]
+
+> [!column | 2 flex ]
+>> ## Zauberplätze
+>> | [[Zaubergrad\|Grad]] |              1              |              2              |              3              |              4              |              5              |              6              |              7              |              8              |              9              |
+>> | -------------------- |:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+>> | Anzahl               | `=this.Zauberplätze.Grad_1` | `=this.Zauberplätze.Grad_2` | `=this.Zauberplätze.Grad_3` | `=this.Zauberplätze.Grad_4` | `=this.Zauberplätze.Grad_5` | `=this.Zauberplätze.Grad_6` | `=this.Zauberplätze.Grad_7` | `=this.Zauberplätze.Grad_8` | `=this.Zauberplätze.Grad_9` |
+>>
+>> ## Zauber
+>> `$=dv.list(dv.current().Zauber)`
