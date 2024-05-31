@@ -14,7 +14,7 @@ Sie haben die letzten Monate damit verbracht, den Schutt wegzuräumen und die Ru
 Hinter der Siedlung, in die Rückwand der Schlucht gehauen, liegt ein alter Tempel von [[Abbathor]], dem bösen Zwergengott der Gier.
 [[Abbathor]] muss bei jeder Sonnenfinsternis mit Opfern von Blut und Edelsteinen besänftigt werden.
 Einmal genügten dem Gott die Opfer der Priester nicht und er löste ein Erdbeben und eine Lawine aus, wodurch Teile des Tempels einstürzten und die Siedlung verschüttet wurde.
-Die Priester im Tempel, die nicht sofort getötet wurden, wurden in Ockergallerte verwandelt - entwürdigte Reflexionen von [[Abbathor||Abbathors]] Hunger und Gier.
+Die Priester im Tempel, die nicht sofort getötet wurden, wurden in Ockergallerte verwandelt - entwürdigte Reflexionen von [[Abbathor|Abbathors]] Hunger und Gier.
 
 ### Ziele
 -  [[Dazlin Grausplitter]] und [[Norbus Eisenrune]] warnen
