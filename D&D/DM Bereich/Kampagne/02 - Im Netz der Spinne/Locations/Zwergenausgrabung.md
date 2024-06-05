@@ -131,6 +131,9 @@ Dies dauert 40 Stunden, wenn nur ein Charakter arbeitet. Arbeiten mehrere Charak
 
 In einer Nische in der Südwand befinden sich die Überreste einer Statue. 
 In einer Nische im Norden steht eine Statue eines Zwergs mit Hörnern, der gierig auf einen leuchtend grünen Edelstein in seinen Händen starrt. 
+Wenn die Charaktere die Statue in der Südwand untersuchen entdecken sie getrocknete Blutspuren und Anzeichen, dass die Statue explodiert ist.
+Am Hals der Statue im Norden lassen sich leichte Spuren erkennen. Die Hals kette aus [[Zwergenausgrabung#Z10 Teilweise eingestürzter Raum]] muss der Statue umgehängt werden um sie zu "entschärfen".
+
 Nimmt jemand den Edelstein an sich, zerfällt er zu Staub und die Statue explodiert. 
 Eine Kreatur in einem Umkreis von drei Metern um die Statue muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 15 ausführen. 
 Bei einem Misserfolg erleidet sie 22 (4W10) [[Stichschaden]], bei einem Erfolg halb so viel Schaden.
