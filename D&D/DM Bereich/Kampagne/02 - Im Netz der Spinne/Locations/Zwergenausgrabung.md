@@ -1,8 +1,6 @@
 # `=this.file.name`
 
-- [ ] #task Location vorbereiten [priority:: highest]
-
-![[Dwarven Excavation.jpg]]
+![[Dwarven Excavation.jpg|500px]]
 
 ## Überblick
 
@@ -132,7 +130,9 @@ Dies dauert 40 Stunden, wenn nur ein Charakter arbeitet. Arbeiten mehrere Charak
 In einer Nische in der Südwand befinden sich die Überreste einer Statue. 
 In einer Nische im Norden steht eine Statue eines Zwergs mit Hörnern, der gierig auf einen leuchtend grünen Edelstein in seinen Händen starrt. 
 Wenn die Charaktere die Statue in der Südwand untersuchen entdecken sie getrocknete Blutspuren und Anzeichen, dass die Statue explodiert ist.
-Am Hals der Statue im Norden lassen sich leichte Spuren erkennen. Die Hals kette aus [[Zwergenausgrabung#Z10 Teilweise eingestürzter Raum]] muss der Statue umgehängt werden um sie zu "entschärfen".
+Am Hals der Statue im Norden lassen sich leichte Spuren erkennen. 
+Die Hals kette aus [[Zwergenausgrabung#Z10 Teilweise eingestürzter Raum]] muss der Statue umgehängt werden um sie zu "entschärfen".
+Danach lässt sich der Kristall herausnehmen.
 
 Nimmt jemand den Edelstein an sich, zerfällt er zu Staub und die Statue explodiert. 
 Eine Kreatur in einem Umkreis von drei Metern um die Statue muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 15 ausführen. 
@@ -143,3 +143,5 @@ Orks kommen im Bereich [[Zwergenausgrabung#Z1 Schlucht]] an, wenn die Charaktere
 Die Anzahl der Orks entspricht der Anzahl der Charaktere in der Gruppe, einschließlich Sidekicks. 
 Die Orks wurden von Cryovain aus ihrem Territorium vertrieben und suchen nach einem neuen Versteck. 
 Sie kämpfen bis zum Tod.
+
+[[Ork mit Axt und Schild]]
