@@ -1,9 +1,9 @@
 ---
-tags:
+tags: 
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 299
+  GM: 301
   EM: 0
   SM: 342
   KM: 95
@@ -49,7 +49,7 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   9    |    1    |   9    |
+| [[Ration]]                                                      |   7    |    1    |   9    |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |

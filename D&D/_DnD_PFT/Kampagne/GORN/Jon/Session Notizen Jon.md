@@ -23,6 +23,10 @@ wichtigePersonen: |-
   > #### Burg Cragmaw
   >  - Anführer: **König Groll von Burg Cragmaw**
 
+  #### Zwergenausgrabung
+  - Dazlin Grausplitter (Zwerg #1) >> Tod
+  - Norbus Eisenrune (Zwerg #2) >> Tod
+
   #### Momentane Begleitung:
     - **Baumel** (Goblin)
 wichtigeOrte: |
@@ -35,8 +39,9 @@ wichtigeOrte: |
     - [x] Ort erreicht
   - Haderhügel
     - [x] Ort erreicht
-  - Zwergenausgrabung
-    - [ ] Ort erreicht
+  - Zwergenausgrabung (von Haderhügel -> 20 km)
+    - [x] Ort erreicht
+    - [ ] Tempel (böser Zwergen-Gott) erkunden
   - Wellenhall-Höhle
     (hat Gudren und seine Brüder **etwas** gefunden)
     - [ ] mehr über den Ort erfahren
@@ -45,7 +50,7 @@ wichtigeOrte: |
     (dorthin ist Gudren anscheinend verschleppt worden)
     - [ ] Ort gefunden/ausgemacht
     - [ ] Ort erreicht
-todoListe: |
+todoListe: |-
   #### Neverwinter
   - [x] Abenteuer Gilde beitreten
   - [x] 19 - beim Händler Waffen kaufen/verkaufen
@@ -62,6 +67,8 @@ todoListe: |
   - [x] Trank-Omi (Adabra Gwynn) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
     - [ ] Trank-Omi gewarnt -> Lohn von **Sildar** abholen
   - [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
+    - [ ] Zwerger gewarnt -> Lohn von **Sildar** abholen
+    - [x] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
   - #1 Mondsteinmaske -> berühmte Taverne

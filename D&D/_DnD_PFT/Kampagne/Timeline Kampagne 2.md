@@ -63,10 +63,10 @@ gantt
 		Reise zum Haderhügel: done, a5, after a4, 2.5h
 		Kampf mit den Mantikoren: done, milestone, a6, after a5, 30m
 		Kurze Rast: done, a7, after a6, 1h
-		Reise zur Zwergenausgrabung: 
+		Reise zur Zwergenausgrabung (halber Weg): done, a8, after a7, 4h
 ```
 
-> Hier befinden wir uns aktuell!
+>
 
 ### Tag 6
 ```mermaid
@@ -76,10 +76,24 @@ gantt
 	tickinterval 1hour
 	weekday sunday
 	section G.O.R.N
-		-: a1, 2024-04-28 00:00, 
+		Lager aufgeschlagen: done, milestone, a1, 2024-04-28 00:00, 15m
+		Lange Rast: done, a2, after a1, 8h
+		Lager abgebaut & frühstücken: done, milestone, a3, after a2, 30m
+		Weiterreise zur Zwergenausgrabung: done, a4, after a3, 2h
+		Tempel des bösen Zwergengottes (Zwergenausgrabung) erreicht: done, milestone, a5, after a4, 0m
+		Tempel erkunden: done, a6, after a5, 15m
+		Kampf mit Schleim-Monstern: done, milestone, a7, after a6, 20m
 ```
 
->
+- Altar untersuchen, Geheimgang gefunden
+- Graben ein paar Stunden (2 - 3 Stunden)
+- Graben noch 1h -> Niptac wird verrückt
+- Aranon hat eine Falle ausgelöst und die beiden NPC Zwerge sind in der Explosion zerrissen **BOOOOOM**
+- paar Minuten wird der Raum mit den 2 zerstörten Statuten erkundet
+- 2h wird im Altarraum erkundet
+- beim rausgehen hört Jon Ork Rufe .. to be continued
+
+> Hier befinden wir uns aktuell!
 
 ### Tag 7
 ```mermaid

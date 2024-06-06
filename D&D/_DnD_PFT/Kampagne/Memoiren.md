@@ -69,4 +69,7 @@
 
 > **Ruinen/Zwergenausgrabung in der nähe von Phandalin**
 
+>[!timeline|t-l] **Gegen Schleim-Monster gekämpft**
+>![[Ooze.jpeg]] <br /> \*Wichtig: **STICH ES AB!**
+
 >[!timeline|t-l] **to be continued**
