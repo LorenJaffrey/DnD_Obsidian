@@ -20,6 +20,14 @@ Verteidigung:
   Rüstung: "[[Lederrüstung]]"
   Schild: "[[Holzschild]]"
   Natürliche_Rüstung: 10
+  Resistenzen:
+    Schadensresistenz:
+      - "[[Hiebschaden]]"
+      - "[[Giftschaden]]"
+    Schadensimmunität:
+    Zustandsimmunität:
+      - "[[Blind]]"
+      - "[[Gepackt]]"
 Angriff:
   Waffen:
     - "[[Axt]]"
@@ -97,7 +105,7 @@ Merkmale:
 >> }
 >> dv.paragraph(string);
 >> ```
->>   
+>>
 >> ## Verteidigung
 >>  
 >> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwürfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
@@ -107,6 +115,14 @@ Merkmale:
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
 >> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
 >> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
+>>
+>> ### Resistenzen
+>> `$=if(dv.current().Verteidigung.Resistenzen.Schadensresistenz.length>0){dv.span("Schadensresistenz: " + dv.current().Verteidigung.Resistenzen.Schadensresistenz)}else{""}`
+>> `$=if(dv.current().Verteidigung.Resistenzen.Schadensimmunität && dv.current().Verteidigung.Resistenzen.Schadensimmunität.length>0){dv.span("Schadensimmunität: " + dv.current().Verteidigung.Resistenzen.Schadensimmunität)}else{""}`
+>> `$=if(dv.current().Verteidigung.Resistenzen.Zustandsimmunität.length>0){dv.span("Zustandsimmunität: " + dv.current().Verteidigung.Resistenzen.Zustandsimmunität)}else{""}`
+>>
+>> 
+>> 
 >
 >> ## Angriff
 >> `=choice(this.Angriff.Angriffe, "###### Mehrfachangriff " + "</br>" + this.Angriff.Angriffe, "")`
@@ -183,5 +199,42 @@ Merkmale:
 >> 
 >> ## Merkmale
 >> `$=dv.list(dv.current().Merkmale)`
+
+### Einzeln
+`$=if(dv.current().Verteidigung.Resistenzen.Schadensresistenz.length>0){dv.span("Schadensresistenz: " + dv.current().Verteidigung.Resistenzen.Schadensresistenz)}else{""}`
+`$=if(dv.current().Verteidigung.Resistenzen.Schadensimmunität && dv.current().Verteidigung.Resistenzen.Schadensimmunität.length>0){dv.span("Schadensimmunität: " + dv.current().Verteidigung.Resistenzen.Schadensimmunität)}else{""}`
+`$=if(dv.current().Verteidigung.Resistenzen.Zustandsimmunität.length>0){dv.span("Zustandsimmunität: " + dv.current().Verteidigung.Resistenzen.Zustandsimmunität)}else{""}`
+
+### Gruppiert
+``` dataviewjs
+var schadensresistenzen = dv.current().Verteidigung.Resistenzen.Schadensresistenz;
+var schadensimmunitäten = dv.current().Verteidigung.Resistenzen.Schadensresistenz;
+var zustandsimmunitäten = dv.current().Verteidigung.Resistenzen.Zustandsimmunität;
+
+if (schadensresistenzen) {
+	dv.span('Schadensresistenzen: ');
+	for (var i = 0, j = schadensresistenzen.length; i<j; i++) {
+		dv.span(schadensresistenzen[i]);
+		if (i<j-1) {
+			dv.span(', ');
+		}
+	}
+}
+
+if (schadensimmunitäten) {
+	if (schadensresistenzen) {
+		dv.span('\n Test');
+	}
+	dv.span('Schadensimmunitäten: ');
+	for (var i = 0, j = schadensimmunitäten.length; i<j; i++) {
+		dv.span(schadensimmunitäten[i]);
+		if (i<j-1) {
+			dv.span(', ');
+		}
+	}
+}
+
+
+```
 
 - [ ] #task Template finalisieren [priority:: highest]
