@@ -152,7 +152,7 @@ tags:
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-> [!checks] 
+> [!checks | no-title] 
 > -  
 > 	- [[Glück|Glückspunkte]] 
 > 	- [ ] %% %% 
@@ -181,7 +181,7 @@ tags:
 > 	- [ ] %% %% 
 
 ## Aranon
-> [!column] 
+> [!column | no-title] 
 >> ## Aufladungen
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
@@ -204,7 +204,7 @@ tags:
 | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
-> [!column] 
+> [!column | no-title] 
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
@@ -217,7 +217,7 @@ tags:
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
 ## Angriff
-> [!column]
+> [!column | no-title]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -266,7 +266,7 @@ tags:
 
 Disclaimer: Waffen haben immer Übungsbonus...
 ## Stats
-> [!column]
+> [!column | no-title]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -303,7 +303,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 
-> [!column]
+> [!column | no-title]
 >> ## Rüstung
 >> ```dataview
 >> LIST
@@ -337,7 +337,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Merkmale
-> [!column]
+> [!column | no-title]
 >> ## Volksmerkmale
 >> ```dataview
 >> LIST

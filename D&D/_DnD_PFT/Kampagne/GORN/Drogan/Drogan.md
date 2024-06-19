@@ -149,7 +149,7 @@ tags:
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-> [!checks] 
+> [!checks | no-title] 
 > -  
 > 	- [[Glück|Glückspunkte]] 
 > 	- [ ] %% %% 
@@ -171,7 +171,6 @@ tags:
 > 	- [ ] %% %% 
 
 ## Drogan
-## Aufladungen
 | Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`)              | Bonuschaden [[Kampfrausch]]                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <input type="checkbox" unchecked id="0f5ac6"> <input type="checkbox" unchecked id="1f94b0"> <input type="checkbox" unchecked id="846e47"> | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
@@ -182,7 +181,7 @@ tags:
 | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
-> [!column] 
+> [!column | no-title] 
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)        | [[Temporäre Trefferpunkte]] |
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
@@ -195,7 +194,7 @@ tags:
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)+floor(((this.Attribute.Konstitution)-10)/2)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
 ## Angriff
-> [!column]
+> [!column | no-title]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -244,7 +243,7 @@ tags:
 
 Disclaimer: Waffen haben immer Übungsbonus...
 ## Stats
-> [!column]
+> [!column  | no-title]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -281,7 +280,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 
-> [!column]
+> [!column | flex | no-title]
 >> ## Rüstung
 >> ```dataview
 >> LIST
@@ -289,7 +288,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Übung.Rüstungen, file.link) 
 >> SORT file.name
 >> ```
->> 
+> 
 >> ## Waffen
 >> ```dataview
 >> LIST
@@ -305,7 +304,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Übung.Sprachen, file.link)
 >> SORT file.name
 >> ```
->> 
+>
 >> ## Werkzeuge
 >> ```dataview
 >> LIST
@@ -315,7 +314,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Merkmale
-> [!column]
+> [!column | flex | no-title]
 >> ## Volksmerkmale
 >> ```dataview
 >> LIST
@@ -323,7 +322,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> WHERE contains(this.Merkmale.Volk, file.link)
 >> SORT file.name
 >> ```
->>
+>
 >> ## Talente
 >> ```dataview
 >> LIST

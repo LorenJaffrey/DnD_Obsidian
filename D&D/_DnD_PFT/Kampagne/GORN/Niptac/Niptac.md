@@ -144,7 +144,7 @@ tags:
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-> [!checks] 
+> [!checks | no-title] 
 > -  
 > 	- [[Glück|Glückspunkte]] 
 > 	- [x] %% %% 

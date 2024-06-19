@@ -165,7 +165,7 @@ tags:
 
 
 # `=this.file.name`
-> [!column | 3 ]
+> [!column | 3  | no-title]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
@@ -214,7 +214,7 @@ tags:
 >> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Stats
-> [!column]
+> [!column | no-title]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -254,7 +254,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column]
+> [!column | no-title]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -304,7 +304,7 @@ tags:
 Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Aktionen
->[!column | 3]
+>[!column | 3 | no-title]
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
@@ -369,7 +369,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Übung / Merkmale
-> [!column | 3]
+> [!column | 3 | no-title]
 >> ## Rüstung
 >> - [[Leichte Rüstung]]
 >> - [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]
