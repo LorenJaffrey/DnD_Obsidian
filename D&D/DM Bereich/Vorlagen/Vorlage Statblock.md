@@ -14,11 +14,11 @@ Bewegung:
   Boden: 9
   Fliegen: 3
   Schwimmen: 6
-  Klettern:
+  Klettern: 
   Graben: 6
 Sinne:
-- "[[Blindsicht]] 18m (12 Kästchen)"
-- "[[Dunkelsicht]] 36m (24 Kästchen)"
+  - "[[Blindsicht]] 18m (12 Kästchen)"
+  - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
   Rüstung: "[[Lederrüstung]]"
   Schild: "[[Holzschild]]"
@@ -263,4 +263,5 @@ Merkmale:
 >> SORT file.name
 >> ```
 
-- [ ] #task Template finalisieren [priority:: highest]
+- [ ] #task Angriffe?, Mehrfachangriff [priority:: high]
+- [ ] #task Aktionen/Bonusaktionen, etc. [priority:: high]
