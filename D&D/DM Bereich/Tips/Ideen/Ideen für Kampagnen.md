@@ -66,6 +66,12 @@
 	- diese Person wird von einer größeren Macht festgehalten die die Gruppe nicht besiegen kann
 	- diese Person soll getötet werden um sie von ihrem Schicksal zu erlösen
 
+## Drogenring
+- Drogenring treibt sein Unwesen und Menschen sterben massenhaft
+- Gruppe bekämpft Drogenring mit Verbündeten
+- Autoritäten greifen nur alibimäßig gegen den Ring ein (wollen insgeheim dass die Armen und Schwachen sterben)
+- ein Verbündeter wechselt aus persönlichen Gründen / Habgier die Seiten
+
 ## Diverses
 - BBEG streut Gerüchte über Spieler
 - beliebter NSC entpuppt sich als Spion für BBEG 
