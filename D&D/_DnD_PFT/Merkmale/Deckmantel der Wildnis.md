@@ -2,6 +2,7 @@
 alias:
 tags:
 - Merkmal/Volk
+Einsatz: Passiv
 ---
 kann versuchen sich zu verstecken obwohl nur von 
 - Blattwerk

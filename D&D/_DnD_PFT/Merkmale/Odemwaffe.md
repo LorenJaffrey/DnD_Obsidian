@@ -2,6 +2,7 @@
 alias:
 tags:
 - Merkmal/Volk
+Einsatz: "[[Aktion]]"
 ---
 Odemwaffe entsprechend der [[Drakonische Abstammung]]
 - Schadensart und Wirkungsbereich werden durch [[Drakonische Abstammung]] bestimmt

@@ -1,6 +1,7 @@
 ---
 tags:
 - Merkmal
+Einsatz: Passiv
 ---
 # `=this.file.name`
 Während du ein Objekt in Besitz genommen hast, fungiert dieses als Erweiterung deiner Selbst.

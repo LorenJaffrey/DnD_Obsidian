@@ -2,6 +2,7 @@
 aliases: 
 tags:
   - Merkmal/Volk
+Einsatz: Passiv
 ---
 # `=this.file.name`
 beherrscht folgende Zauber die mit [[Charisma]] gewirkt werden und durch eine [[Lange Rast]] regeneriert werden:

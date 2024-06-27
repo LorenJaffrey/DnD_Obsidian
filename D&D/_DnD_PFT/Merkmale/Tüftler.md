@@ -2,6 +2,7 @@
 alias:
 tags:
 - Merkmal/Volk
+Einsatz: Passiv
 ---
 - Übung mit [[Tüftlerwerkzeug]]
 - kann 1 Stunde und Material im Wert von 10 [[Münzen#Goldmünzen]]  investieren um ein winziges aufziehbares Gerät konstruieren
