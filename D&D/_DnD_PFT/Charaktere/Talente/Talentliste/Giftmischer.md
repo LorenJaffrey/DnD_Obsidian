@@ -21,7 +21,7 @@ Wiederholbar: false
 Wenn du einen [[Schadenswurf]] ausführst, der [[Giftschaden]] verursacht, wird eine etwaige [[Schadensarten#Schadensresistenz]] gegen [[Giftschaden]] ignoriert.
 
 ## Schnelles Auftragen
-Du benötigst zum Vergiften einer Waffe oder eines Geschosses nur eine [[Zug#Bonusaktion]], keine vollständige [[Zug#Aktionen Aktion]].
+Du benötigst zum Vergiften einer Waffe oder eines Geschosses nur eine [[Bonusaktion]], keine vollständige [[Aktion]].
 
 ## Giftmischer
 Du hast [[Übung]] im Umgang mit der [[Giftmischerausrüstung]], wenn du es noch nicht sein solltest. 

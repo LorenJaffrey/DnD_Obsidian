@@ -5,10 +5,10 @@ aliases: Kampfbewegung, Positionierung, Bewegung im Kampf
 
 ## Bewegung aufteilen
 [[Bewegungsrate|Bewegen]] kann im Zug beliebig aufgeteilt werden.
-- [[Bewegungsrate]] -> [[Aktionen|Aktion]]
-- [[Aktionen|Aktion]] -> [[Bewegungsrate|Bewegen]]
-- [[Bewegungsrate|Bewegen]] -> [[Aktionen|Aktion]] -> [[Bewegungsrate|Bewegen]]
-- [[Bewegungsrate|Bewegen]] -> [[Aktionen|Aktion]] -> [[Bewegungsrate|Bewegen]] -> [[Aktionen|Aktion]] -> [[Bewegungsrate|Bewegen]]
+- [[Bewegungsrate]] -> [[Aktion]]
+- [[Aktion]] -> [[Bewegungsrate|Bewegen]]
+- [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]]
+- [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]]
 
 ## Um andere Kreaturen herumbewegen
 Durch den Bereich, den eine nicht feindliche Kreatur einnimmt, kannst du dich jederzeit hindurchbewegen. 

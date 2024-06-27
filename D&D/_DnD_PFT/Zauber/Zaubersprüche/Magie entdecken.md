@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true
@@ -34,5 +34,5 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Für die Wirkungsdauer fühlst du die Anwesenheit von Magie im Umkreis von 9 m. Verwendest du deine [[Zug#Aktion]], wenn du Magie auf diese Weise spürst, nimmst du eine schwache Aura um jede sichtbare Kreatur und jeden Gegenstand im Wirkungsbereich wahr, der von Magie erfüllt ist. Außerdem ist dir auch die Schule der Magie bekannt, sofern es eine gibt.
+Für die Wirkungsdauer fühlst du die Anwesenheit von Magie im Umkreis von 9 m. Verwendest du deine [[Aktion]], wenn du Magie auf diese Weise spürst, nimmst du eine schwache Aura um jede sichtbare Kreatur und jeden Gegenstand im Wirkungsbereich wahr, der von Magie erfüllt ist. Außerdem ist dir auch die Schule der Magie bekannt, sofern es eine gibt.
 Der Zauber kann die meisten Hindernisse durchdringen, wird aber blockiert von 30 cm Stein, 2,5 cm gewöhnlichem Metall, einer dünnen Schicht Blei oder 90 cm Holz oder Erde.

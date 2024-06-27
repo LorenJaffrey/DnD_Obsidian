@@ -29,4 +29,4 @@ Du bist bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] im [[Vorteil u
 Du kannst die [[Zaubergesten]] von Zaubern auch dann ausführen, wenn du eine Waffe oder einen [[Schilde|Schild]] in einer oder beiden Händen hältst.
 
 ## Reaktive Zauber
-Provoziert die [[Zug#Bewegung]] einer feindlichen Kreatur einen [[Gelegenheitsangriff]] von dir, kannst du als [[Zug#Reaktion]] einen [[Zauber wirken]] auf die Kreatur, anstatt einen [[Angriff]] auszuführen. Der Spruch muss einen [[Zauber wirken#Zeitaufwand]] von einer [[Zug#Aktionen Aktion]] haben und darf nur diese Kreatur als Ziel haben.
+Provoziert die [[Zug#Bewegung]] einer feindlichen Kreatur einen [[Gelegenheitsangriff]] von dir, kannst du als [[Reaktion]] einen [[Zauber wirken]] auf die Kreatur, anstatt einen [[Angriff]] auszuführen. Der Spruch muss einen [[Zauber wirken#Zeitaufwand]] von einer [[Aktion]] haben und darf nur diese Kreatur als Ziel haben.

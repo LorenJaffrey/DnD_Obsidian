@@ -22,8 +22,8 @@ Verflucht: false
 
 *Die rote Flüssigkeit des Trankes schimmert, wenn sie bewegt wird.*
 
-Als [[Zug#Aktion]]:
+Als [[Aktion]]:
 Du erhältst 10 [[Trefferpunkte]] zurück, wenn du diesen Trank trinkst.
 
-Als [[Zug#Bonusaktion]]:
+Als [[Bonusaktion]]:
 Du erhältst 2W4 + 2 [[Trefferpunkte]] zurück, wenn du diesen Trank trinkst.

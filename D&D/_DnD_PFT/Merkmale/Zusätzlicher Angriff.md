@@ -4,4 +4,4 @@ tags:
 ---
 # `=this.file.name`
 
-Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Angriff]] [[Aktionen]] ausführen
+Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Angriff]] [[Aktion]] ausführen

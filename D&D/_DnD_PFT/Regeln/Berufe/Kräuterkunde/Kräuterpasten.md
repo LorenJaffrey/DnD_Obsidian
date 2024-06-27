@@ -11,4 +11,4 @@ Bei einem erfolgreichen Wurf erstellst du eine [[Kräuterpasten|Kräuterpaste]].
 Bei einem Misserfolg verlieren alle Zutaten ihre Wirksamkeit. 
 Einmal hergestellt, bleibt eine [[Kräuterpaste]] eine Woche lang wirksam.
 
-Du kannst eine [[Zug#Aktion]] in deinem [[Zug]] verwenden, um eine [[Kräuterpasten|Kräuterpaste]] aufzutragen oder zu schlucken.
+Du kannst eine [[Aktion]] in deinem [[Zug]] verwenden, um eine [[Kräuterpasten|Kräuterpaste]] aufzutragen oder zu schlucken.

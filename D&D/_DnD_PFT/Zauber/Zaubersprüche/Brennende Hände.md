@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: Kegel 4,5 Meter
 Verbal: true
 Geste: true

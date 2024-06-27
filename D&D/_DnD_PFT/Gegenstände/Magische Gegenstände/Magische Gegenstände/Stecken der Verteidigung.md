@@ -33,7 +33,7 @@ Solange du den Stecken hältst, erhältst du [[Rüstungsbonus]] (+1).
 Der Stecken hat 10 Ladungen, die genutzt werden können, um die Zauber in seinem Inneren zu wirken.
 Es sind keine Komponenten notwendig.
 Du musst Zauberwirker sein um diese Zauber einsetzen zu können.
-Mit dem Stecken in Händen kannst du deine [[Zug#Aktion]] nutzen, um einen der folgenden Zauber aus dem Stab zu wirken: 
+Mit dem Stecken in Händen kannst du deine [[Aktion]] nutzen, um einen der folgenden Zauber aus dem Stab zu wirken: 
 - [[Magierrüstung]] (1 Ladung) 
 - [[Schild]] (2 Ladungen). 
  

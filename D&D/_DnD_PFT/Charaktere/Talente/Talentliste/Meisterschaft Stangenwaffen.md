@@ -23,4 +23,4 @@ Wiederholbar: false
 Du ignorierst den [[Vorteil und Nachteil|Nachteil]] auf den Angriffswurf der Eigenschaft [[Unhandlich]] von [[Stangenwaffen]] in Nahkampfreichweite.
 
 ## Zurückweichen
-Du kannst deine [[Zug#Bonusaktion]] einsetzen um 1,5m (1 Kästchen) zurückzuweichen ohne einen [[Gelegenheitsangriff]] zu provozieren.
+Du kannst deine [[Bonusaktion]] einsetzen um 1,5m (1 Kästchen) zurückzuweichen ohne einen [[Gelegenheitsangriff]] zu provozieren.

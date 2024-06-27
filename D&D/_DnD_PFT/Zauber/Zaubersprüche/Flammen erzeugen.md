@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 0
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: true
@@ -29,9 +29,9 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 *Eine flackernde Flamme erscheint in deiner Hand.*
 
-Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. Der Zauber endet, wenn du ihn als [[Zug#Aktion]] aufhebst oder noch einmal wirkst.
+Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. Der Zauber endet, wenn du ihn als [[Aktion]] aufhebst oder noch einmal wirkst.
 
-Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. Beim Wirken des Zaubers oder als [[Zug#Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. Führe einen Fernkampf-Zauberangriff aus. Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
+Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. Beim Wirken des Zaubers oder als [[Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. Führe einen Fernkampf-Zauberangriff aus. Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt auf höheren Stufen:

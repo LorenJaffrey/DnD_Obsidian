@@ -6,7 +6,7 @@ tags:
   - Zauber/Wirkungsbereich
 Grad: 1
 Schule: Schule
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: Kegel 4,5 Meter
 Verbal: false
 Geste: false

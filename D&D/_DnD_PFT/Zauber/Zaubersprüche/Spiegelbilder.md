@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 2
 Schule: "[[Illusionszauber|Illusion]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: selbst
 Verbal: true
 Geste: true
@@ -33,7 +33,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 Drei illusionäre Duplikate von dir erscheinen in deinem Bereich.
 Bis der Zauber endet, bewegen sie sich mit dir und ahmen deine Aktionen nach. 
 Dabei verändern sie ständig ihre Position, sodass du und deine Abbilder unmöglich zu unterscheiden seid. 
-Als [[Zug#Aktion]] kannst du die illusionären Duplikate jederzeit fortschicken.
+Als [[Aktion]] kannst du die illusionären Duplikate jederzeit fortschicken.
 
 Immer wenn du während der Wirkungsdauer Ziel eines [[Angriff|Angriffs]] wirst, würfle mit einem W20, um zu bestimmen, ob der Angriff dir gilt oder einem deiner Duplikate.
 

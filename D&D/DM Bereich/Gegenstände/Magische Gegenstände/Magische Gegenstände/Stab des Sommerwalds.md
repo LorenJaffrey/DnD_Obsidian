@@ -48,7 +48,7 @@ Wenn du ihn führst, erhältst du außerdem [[Zauberpräzision]] (+2).
 Der [[Zauberstecken]] erhält 5 zusätzliche Ladungen (insgesamt 10). Er erhält zu jeder Morgendämmerung 1W6 + 4 der verbrauchten Ladungen zurück. 
 
 ### Stufe 5
-Du kannst eine [[Zug#Aktion]] verwenden, um ein Ende des [[Zauberstecken|Zaubersteckens]] in fruchtbare Erde zu pflanzen und 1 Ladung zu verbrauchen, damit der [[Zauberstecken]] sich in einen gesunden Baum verwandelt. Der Baum ist 18 Meter hoch und hat einen Stamm von 1,5 Meter Durchmesser. Seine Äste haben in der Krone einen Radius von 6 Meter. Der Baum wirkt normal, versprüht aber eine leichte Aura von [[Verwandlungszauber|Verwandlungsnagie]], wenn er von [[Magie entdecken]] getroffen wird.
+Du kannst eine [[Aktion]] verwenden, um ein Ende des [[Zauberstecken|Zaubersteckens]] in fruchtbare Erde zu pflanzen und 1 Ladung zu verbrauchen, damit der [[Zauberstecken]] sich in einen gesunden Baum verwandelt. Der Baum ist 18 Meter hoch und hat einen Stamm von 1,5 Meter Durchmesser. Seine Äste haben in der Krone einen Radius von 6 Meter. Der Baum wirkt normal, versprüht aber eine leichte Aura von [[Verwandlungszauber|Verwandlungsnagie]], wenn er von [[Magie entdecken]] getroffen wird.
 Wenn du den Baum berührst und sein Befehlswort sprichst, wird er wieder zu einem [[Zauberstecken]]. Jede Kreatur auf dem Baum fällt zu Boden, wenn er sich in einen [[Zauberstecken]] zurück verwandelt.
 
 ## Zauber

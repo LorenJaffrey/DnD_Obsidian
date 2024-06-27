@@ -78,7 +78,7 @@ Lösen einen zusätzlichen Effekt pro Runde aus:
 
 #### Aidron befreien
 Aidron ist mit 6 großen Eisennägeln und einer massiven Kette am Boden festgenagelt. Wenn min. 2 Nägel entfernt werden hat er genug Spielraum um sich zu befreien und seine Atemattacke einzusetzen.
-Einen Eisennagel zu entfernen erfordert eine [[Zug#Aktion]].
+Einen Eisennagel zu entfernen erfordert eine [[Aktion]].
 
 
 ```statblock

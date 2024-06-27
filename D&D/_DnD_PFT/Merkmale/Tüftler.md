@@ -20,7 +20,7 @@ tags:
 
 ### Anzünder
 - erzeugt kleine Flamme
-- Verwendung erfordert [[Zug#Aktion]]
+- Verwendung erfordert [[Aktion]]
 
 ### Spieluhr
 - wenn geöffnet ertönt Musik in moderater Lautstärke

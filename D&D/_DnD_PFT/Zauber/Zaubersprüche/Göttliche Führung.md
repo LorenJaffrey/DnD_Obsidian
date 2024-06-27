@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 0
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

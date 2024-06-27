@@ -20,4 +20,4 @@ Verflucht: false
 > | Voraussetzung | `=this.Voraussetzung` |
 > | Kosten | `=this.Kosten` |
 
-Einmal pro Tag kann der Träger seine [[Zug#Reaktion]] einsetzen, um für 30 Sekunden +1 [[Rüstungsklasse]] und +1 Schaden zu erhalten.
+Einmal pro Tag kann der Träger seine [[Reaktion]] einsetzen, um für 30 Sekunden +1 [[Rüstungsklasse]] und +1 Schaden zu erhalten.

@@ -68,7 +68,7 @@ Sein Verhalten wird exzentrisch und düster sein, aber er wird die PCs nicht bed
 Wenn er eingekesselt ist oder sich eingekesselt fühlt, wird er noch irrer und verrückter werden und kann in diesem Moment selbst den Kampf beginnen, indem er reflexartig seine Fäulnisblicke wie ein Stinktier einsetzt. Wenn er jedoch in ein Gespräch verwickelt wird, wird er sein Interesse an Geheimnissen, insbesondere an magischen Geheimnissen, enthüllen und den PCs mitteilen, dass er sein Wissen im Austausch gegen ein magisches Objekt weitergeben kann.
 
 ## Verhalten im Kampf
-Sobald der Kampf beginnt, wenn der [[Nothics|Nothic]] als erster [[Initiative]] hat, wird er seine [[Verfaulender Blick|Verfaulenden Blick]] als [[Zug#Reaktion]] bereithalten, um sie gegen den ersten PC einzusetzen, der sich ihm auf 6m (4 Kästchen) nähert. 
+Sobald der Kampf beginnt, wenn der [[Nothics|Nothic]] als erster [[Initiative]] hat, wird er seine [[Verfaulender Blick|Verfaulenden Blick]] als [[Reaktion]] bereithalten, um sie gegen den ersten PC einzusetzen, der sich ihm auf 6m (4 Kästchen) nähert. 
 Andernfalls wird er [[Ausweichen]] (er hat nicht das Kampftraining, um zu wissen, wie er sich [[Rückzug|zurückziehen]] kann) und sich von den angreifenden PCs wegbewegen, um an einem Ort maximaler Deckung zu bleiben. 
 Nur wenn er keinen Platz zum Weglaufen hat, setzt er seinen doppelten Klauenangriff gegen einen Nahkämpfer ein. 
 Wenn dieser Angreifer auf 0 [[Trefferpunkte]] reduziert wird und andere Feinde ihn aus der Ferne angreifen, setzt er seinen [[Verfaulender Blick|Verfaulenden Blick]] gegen jeden von ihnen ein, der sich innerhalb von 9m (6 Kästchen) von ihm befindet, und versucht dann, eine neue Fluchtroute zu finden.

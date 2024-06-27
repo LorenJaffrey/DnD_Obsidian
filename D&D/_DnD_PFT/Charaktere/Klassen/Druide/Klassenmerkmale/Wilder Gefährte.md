@@ -5,7 +5,7 @@ tags:
 ---
 # `=this.file.name`
 
-- kann [[Zug#Aktion]] einsetzen um den Zauber [[Vertrauten finden]] zu wirken
+- kann [[Aktion]] einsetzen um den Zauber [[Vertrauten finden]] zu wirken
 	- verbraucht eine Ladung von [[Tiergestalt]]
 	- benötigt keine [[Materialkomponenten]]
 	- statt eines Tieres erscheint ein Feenwesen
