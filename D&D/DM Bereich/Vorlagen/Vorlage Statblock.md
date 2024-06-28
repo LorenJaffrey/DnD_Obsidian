@@ -26,19 +26,14 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz:
       - "[[Hiebschaden]]"
-      - "[[Giftschaden]]"
       - "[[Stichschaden]]"
       - "[[Wuchtschaden]]"
-      - "[[Energieschaden]]"
-      - "[[Nekrotischer Schaden]]"
-      - "[[Feuerschaden]]"
-    Schadensimmunität:
+    Schadensimmunität: 
     Zustandsimmunität:
       - "[[Blind]]"
       - "[[Gepackt]]"
 Angriff:
   Waffen:
-    - "[[Axt]]"
     - "[[Axt]]"
     - "[[Kurzbogen]]"
   Angriffe: "Die Kreatur führt drei Angriffe aus: Zwei mit ihrem [[Langschwert]] und eine mit ihrem [[Biss]] oder zwei Angriffe mit ihrem [[Kurzbogen]]."
@@ -82,6 +77,11 @@ Merkmale:
   - "[[Aggressiv]]"
   - "[[Unbeugsamkeit]]"
   - "[[Amorph]]"
+  - "[[Behändes Entkommen]]"
+  - "[[Drakonische Abstammung]]"
+Anzahl_Legendäre_Aktionen: 3
+Legendäre_Aktionen:
+  - "[[Augenstrahlen]]"
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
@@ -96,6 +96,19 @@ Merkmale:
 >> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
 >> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
 >> | [[Sprachen]] | `=this.Sprachen` |
+>> 
+>> ``` dataviewjs
+>> var sinne = dv.current().Sinne;
+>> var sinneString = "";
+>> 
+>> if (sinne) {
+>> 	sinneString += "## Sinne";
+>> 	for (var i = 0, j = sinne.length; i<j; i++) {
+>> 		sinneString +=   "\n - " + sinne[i];
+>> 	}
+>> 	dv.span(sinneString);
+>> }
+>>```
 >
 >> ## Bewegung
 >> ```dataviewjs
@@ -173,19 +186,6 @@ Merkmale:
 >> 	dv.span(resistenzenString);
 >> }
 >> ```
->>
->> ``` dataviewjs
->> var sinne = dv.current().Sinne;
->> var sinneString = "";
->> 
->> if (sinne) {
->> 	sinneString += "## Sinne";
->> 	for (var i = 0, j = sinne.length; i<j; i++) {
->> 		sinneString +=   "\n - " + sinne[i];
->> 	}
->> 	dv.span(sinneString);
->> }
->>```
 >
 >> ## Attribute
 >> |         |                                       [[Stärke\|ST]]                                        |                                                         [[Geschicklichkeit\|GE]]                                                          |                                          [[Konstitution\|KO]]                                           |                                          [[Intelligenz\|IN]]                                          |                                        [[Weisheit\|WE]]                                         |                                        [[Charisma\|CH]]                                         |
@@ -199,24 +199,123 @@ Merkmale:
 >> const skills = dv.current().Fertigkeiten;
 >> var string = ""; 
 >> for (var key in skills) {
->> if(skills[key] > 0) {
->> if (string.length > 0) {
->> string += "\n";
->> }
->> string += "- [[" + key + "]]: +" + skills[key]*(Math.ceil(dv.current().Herausforderungsgrad/4)+1);
->> }
+>> 	if(skills[key] > 0) {
+>> 		if (string.length > 0) {
+>> 			string += "\n";
+>> 		}
+>> 		string += "- [[" + key + "]]: +" + skills[key]*(Math.ceil(dv.current().Herausforderungsgrad/4)+1);
+>> 	}
 >> }
 >> dv.paragraph(string);
 >> ```
 >> 
 >> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Herausforderungsgrad/4)+1))`
+>>
+>> ``` dataviewjs
+>> var merkmale = dv.current().Merkmale;
+>> var aktionen = [];
+>> var bonusaktionen = [];
+>> var reaktionen = [];
+>> var passiv = [];
 >> 
->> ## Merkmale
->> `$=dv.list(dv.current().Merkmale)`
+>> var merkmaleString = "";
+>> var aktionenString = "";
+>> var bonusaktionenString = "";
+>> var reaktionenString = "";
+>> var passivString = "";
+>> 
+>> var aktuellesMerkmal;
+>> 
+>> for (var i = 0, j = merkmale.length; i<j; i++) {
+>> 	aktuellesMerkmal = dv.page(merkmale[i]);
+>> 
+>> 	if (typeof(aktuellesMerkmal.Einsatz) == "object") {
+>> 		if (dv.page(aktuellesMerkmal.Einsatz).file.name == dv.parse("[[Aktion]]").path)  {
+>> 			aktionen.push(merkmale[i]);
+>> 		}
+>> 		if (dv.page(aktuellesMerkmal.Einsatz).file.name == dv.parse("[[Bonusaktion]]").path)  {
+>> 			bonusaktionen.push(merkmale[i]);
+>> 		}
+>> 		if (dv.page(aktuellesMerkmal.Einsatz).file.name == dv.parse("[[Reaktion]]").path)  {
+>> 			reaktionen.push(merkmale[i]);
+>> 		}
+>> 	}
+>> 	else {
+>> 		passiv.push(merkmale[i]);
+>> 	}
+>> }
+>> 
+>> if (aktionen.length > 0) {
+>> 	aktionenString += "#### Aktionen";
+>> 	for (var i = 0, j = aktionen.length; i<j; i++) {
+>> 		aktionenString += "\n - " + aktionen[i];
+>> 	}
+>> }
+>> 
+>> if (bonusaktionen.length > 0) {
+>> 	bonusaktionenString += "#### Bonusaktionen";
+>> 	for (var i = 0, j = bonusaktionen.length; i<j; i++) {
+>> 		bonusaktionenString +=  "\n - " + bonusaktionen[i];
+>> 	}
+>> }
+>> 
+>> if (reaktionen.length > 0) {
+>> 	reaktionenString += "#### Reaktionen";
+>> 	for (var i = 0, j = reaktionen.length; i<j; i++) {
+>> 		reaktionenString +=  "\n - " + reaktionen[i];
+>> 	}
+>> }
+>> 
+>> if (passiv.length > 0) {
+>> 	passivString += "#### Passive Merkmale";
+>> 	for (var i = 0, j = passiv.length; i<j; i++) {
+>> 		passivString +=  "\n - " + passiv[i];
+>> 	}
+>> }
+>> 
+>> if (aktionenString) {
+>> 	merkmaleString += aktionenString;
+>> }
+>> if (bonusaktionenString) {
+>> 	if (merkmaleString) {
+>> 		merkmaleString += "\n"
+>> 	}
+>> 	merkmaleString += bonusaktionenString;
+>> }
+>> if (reaktionenString) {
+>> 	if (merkmaleString) {
+>> 		merkmaleString += "\n"
+>> 	}
+>> 	merkmaleString += reaktionenString;
+>> }
+>> if (passivString) {
+>> 	if (merkmaleString) {
+>> 		merkmaleString += "\n"
+>> 	}
+>> 	merkmaleString += passivString;
+>> }
+>> if (merkmaleString) {
+>> 	merkmaleString = "### Merkmale\n" + merkmaleString;
+>> 	dv.span(merkmaleString);
+>> }
+>> ```
+>>
+>> ``` dataviewjs
+>> var legendäreAktionen = dv.current().Legendäre_Aktionen;
+>> var anzahlLegendäreAktionen = dv.current().Anzahl_Legendäre_Aktionen;
+>>
+>> var legendäreAktionenString = "";
+>> 
+>> for (var i = 0, j = legendäreAktionen.length; i<j; i++) {
+>> 	legendäreAktionenString += "\n- "
+>> 	legendäreAktionenString += legendäreAktionen[i];
+>> }
+>> 
+>> legendäreAktionenString = "### Legendäre Aktionen\n" + "Anzahl: " + anzahlLegendäreAktionen + "\n" + legendäreAktionenString;
+>> dv.span(legendäreAktionenString);
+>> ```
 >
 >> ## Angriff
->> `=choice(this.Angriff.Angriffe, "###### Mehrfachangriff " + "</br>" + this.Angriff.Angriffe, "")`
->>
 >> #### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -263,5 +362,4 @@ Merkmale:
 >> SORT file.name
 >> ```
 
-- [ ] #task Angriffe?, Mehrfachangriff [priority:: high]
-- [ ] #task Aktionen/Bonusaktionen, etc. [priority:: high]
+- [ ] #task Hortaktionen [priority:: normal]
