@@ -7,8 +7,8 @@ Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
-Herausforderungsgrad: 1
-Stufe: 4
+Herausforderungsgrad: 3
+Stufe: 6
 Trefferwürfel: W8
 Bewegung:
   Boden: 9
@@ -31,11 +31,11 @@ Angriff:
     - "[[Zweihandaxt]]"
 Attribute:
   Stärke: 17
-  Geschicklichkeit: 12
+  Geschicklichkeit: 13
   Konstitution: 17
   Intelligenz: 8
   Weisheit: 10
-  Charisma: 12
+  Charisma: 14
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -68,6 +68,7 @@ Sprachen:
 Merkmale:
   - "[[Aggressiv]]"
   - "[[Robust]]"
+  - "[[Kriegsschrei]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---

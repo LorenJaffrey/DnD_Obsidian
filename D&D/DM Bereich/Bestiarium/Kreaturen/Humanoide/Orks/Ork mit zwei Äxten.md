@@ -17,7 +17,7 @@ Bewegung:
   Klettern: 
   Graben:
 Sinne:
-  - "[[Blindsicht]] 18m (12 Kästchen)"
+  - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
   Rüstung: "[[Fellrüstung]]"
   Schild:
@@ -34,8 +34,8 @@ Attribute:
   Geschicklichkeit: 12
   Konstitution: 16
   Intelligenz: 7
-  Weisheit: 11
-  Charisma: 10
+  Weisheit: 10
+  Charisma: 12
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -46,7 +46,7 @@ Rettungswürfe:
 Fertigkeiten:
   Akrobatik: 0
   Arkane_Kunde: 0
-  Athletik: 0
+  Athletik: 1
   Auftreten: 0
   Einschüchtern: 1
   Fingerfertigkeit: 0
@@ -67,7 +67,8 @@ Sprachen:
   - "[[Orkisch]]"
 Merkmale:
   - "[[Aggressiv]]"
-  - "[[Mehrfachangriff Äxte|Mehrfachangriff]]"
+  - "[[Robust]]"
+  - "[[Mehrfachangriff Äxte]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
@@ -120,7 +121,7 @@ Legendäre_Aktionen:
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
->> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
+>> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+floor(((this.Attribute.Konstitution)-10)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
 >> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
 >>
 >> ``` dataviewjs

@@ -34,7 +34,7 @@ Verteidigung:
       - "[[Gepackt]]"
 Angriff:
   Waffen:
-    - "[[Axt]]"
+    - "[[Kurzschwert]]"
     - "[[Kurzbogen]]"
   Angriffe: "Die Kreatur führt drei Angriffe aus: Zwei mit ihrem [[Langschwert]] und eine mit ihrem [[Biss]] oder zwei Angriffe mit ihrem [[Kurzbogen]]."
 Attribute:
