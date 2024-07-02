@@ -85,7 +85,7 @@ Legendäre_Aktionen:
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[orc.jpg |  350]]
+>> ![[orc.jpg | 350]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -96,19 +96,6 @@ Legendäre_Aktionen:
 >> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
 >> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
 >> | [[Sprachen]] | `=this.Sprachen` |
->> 
->> ``` dataviewjs
->> var sinne = dv.current().Sinne;
->> var sinneString = "";
->> 
->> if (sinne) {
->> 	sinneString += "## Sinne";
->> 	for (var i = 0, j = sinne.length; i<j; i++) {
->> 		sinneString +=   "\n - " + sinne[i];
->> 	}
->> 	dv.span(sinneString);
->> }
->>```
 >
 >> ## Bewegung
 >> ```dataviewjs
@@ -124,6 +111,19 @@ Legendäre_Aktionen:
 >> }
 >> dv.paragraph(string);
 >> ```
+>>
+>> ``` dataviewjs
+>> var sinne = dv.current().Sinne;
+>> var sinneString = "";
+>> 
+>> if (sinne) {
+>> 	sinneString += "## Sinne";
+>> 	for (var i = 0, j = sinne.length; i<j; i++) {
+>> 		sinneString +=   "\n - " + sinne[i];
+>> 	}
+>> 	dv.span(sinneString);
+>> }
+>>```
 >>
 >> ## Verteidigung
 >>  
@@ -305,14 +305,15 @@ Legendäre_Aktionen:
 >> var anzahlLegendäreAktionen = dv.current().Anzahl_Legendäre_Aktionen;
 >>
 >> var legendäreAktionenString = "";
->> 
+>> if (legendäreAktionen) {
 >> for (var i = 0, j = legendäreAktionen.length; i<j; i++) {
 >> 	legendäreAktionenString += "\n- "
 >> 	legendäreAktionenString += legendäreAktionen[i];
 >> }
->> 
+>>
 >> legendäreAktionenString = "### Legendäre Aktionen\n" + "Anzahl: " + anzahlLegendäreAktionen + "\n" + legendäreAktionenString;
 >> dv.span(legendäreAktionenString);
+>> }
 >> ```
 >
 >> ## Angriff

@@ -3,7 +3,7 @@
 ```dataview
 TABLE WITHOUT ID
 
-file.link AS "Merkmal"
+file.link AS "Merkmal", Einsatz
 
 FROM #Merkmal
 
