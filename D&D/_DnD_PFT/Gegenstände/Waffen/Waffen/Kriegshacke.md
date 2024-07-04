@@ -9,7 +9,7 @@ Schaden: 1W6
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
 - "[[Leicht]]"
-- "[[Rüstungsbrechend]] (2)"
+- "[[Rüstungsbrechend]] (1)"
 
 SchadenFern:
 SchadensartFern:
