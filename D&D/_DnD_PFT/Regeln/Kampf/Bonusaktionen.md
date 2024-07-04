@@ -1,11 +1,7 @@
----
-aliases:
-- Reaktionen
----
 # `=this.file.name`
 
 ```dataview
 TABLE
-FROM #Zug/Reaktion
+FROM #Zug/Bonusaktion
 SORT file.name
 ```

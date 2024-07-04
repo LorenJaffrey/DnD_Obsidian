@@ -1,11 +1,7 @@
----
-aliases:
-- Bonusaktionen
----
 # `=this.file.name`
 
 ```dataview
 TABLE
-FROM #Zug/Bonusaktion
+FROM #Zug/Reaktion
 SORT file.name
 ```
