@@ -1,41 +1,41 @@
 ---
 aliases:
-- Orks
+  - Orks
 tags:
-- Kreatur/Humanoide/Ork
+  - Kreatur/Humanoide/Ork
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
-Herausforderungsgrad: 0.5
-Stufe: 3
+Herausforderungsgrad: 3
+Stufe: 8
 Trefferwürfel: W8
 Bewegung:
   Boden: 9
-  Fliegen:
-  Schwimmen:
+  Fliegen: 
+  Schwimmen: 
   Klettern: 
-  Graben:
+  Graben: 
 Sinne:
   - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
   Rüstung: "[[Fellrüstung]]"
-  Schild: "[[Holzschild]]"
+  Schild: 
   Natürliche_Rüstung: 10
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
-    Zustandsimmunität:
+    Zustandsimmunität: 
 Angriff:
   Waffen:
-    - "[[Axt]]"
+    - "[[Kriegsflegel]]"
 Attribute:
-  Stärke: 16
+  Stärke: 17
   Geschicklichkeit: 12
   Konstitution: 16
   Intelligenz: 7
-  Weisheit: 10
-  Charisma: 12
+  Weisheit: 8
+  Charisma: 10
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -67,13 +67,15 @@ Sprachen:
   - "[[Orkisch]]"
 Merkmale:
   - "[[Aggressiv]]"
+  - "[[Wüstling]]"
   - "[[Robust]]"
-Anzahl_Legendäre_Aktionen:
-Legendäre_Aktionen:
+  - "[[Mehrfachangriff|Mehrfachangriff]]"
+Anzahl_Legendäre_Aktionen: 
+Legendäre_Aktionen: 
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[orc.jpg | 350]]
+>> ![[orc_bruiser.png]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -120,7 +122,7 @@ Legendäre_Aktionen:
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
->> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+floor(((this.Attribute.Konstitution)-10)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
+>> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+ceil(floor(((this.Attribute.Konstitution)-10)/2)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
 >> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
 >>
 >> ``` dataviewjs
@@ -309,7 +311,6 @@ Legendäre_Aktionen:
 >> ```dataview
 >> TABLE WITHOUT ID 
 >> file.link AS "Waffe",
->> Reichweite,
 >> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
 >> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,

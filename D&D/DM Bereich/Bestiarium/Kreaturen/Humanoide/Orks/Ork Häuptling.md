@@ -7,8 +7,8 @@ Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
-Herausforderungsgrad: 1
-Stufe: 4
+Herausforderungsgrad: 3
+Stufe: 7
 Trefferwürfel: W8
 Bewegung:
   Boden: 9
@@ -20,7 +20,7 @@ Sinne:
   - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
   Rüstung: "[[Schuppenpanzer]]"
-  Schild:
+  Schild: "[[Holzschild]]"
   Natürliche_Rüstung: 10
   Resistenzen:
     Schadensresistenz:
@@ -28,14 +28,14 @@ Verteidigung:
     Zustandsimmunität:
 Angriff:
   Waffen:
-    - "[[Zweihandaxt]]"
+    - "[[Streitaxt]]"
 Attribute:
   Stärke: 17
-  Geschicklichkeit: 12
+  Geschicklichkeit: 13
   Konstitution: 17
-  Intelligenz: 8
-  Weisheit: 10
-  Charisma: 12
+  Intelligenz: 9
+  Weisheit: 8
+  Charisma: 16
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -68,12 +68,15 @@ Sprachen:
 Merkmale:
   - "[[Aggressiv]]"
   - "[[Robust]]"
+  - "[[Kriegsschrei]]"
+  - "[[Spott]]"
+  - "[[Mehrfachangriff 3|Mehrfachangriff]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[orog.jpg | 350]]
+>> ![[orc_commander.png]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -120,7 +123,7 @@ Legendäre_Aktionen:
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
->> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+floor(((this.Attribute.Konstitution)-10)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
+>> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+ceil(floor(((this.Attribute.Konstitution)-10)/2)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
 >> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
 >>
 >> ``` dataviewjs

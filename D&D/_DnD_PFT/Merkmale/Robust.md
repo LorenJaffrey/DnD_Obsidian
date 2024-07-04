@@ -4,4 +4,4 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Die Kreatur addiert ihren [[Konstitution#Konstitutionsmodifikator]] zu ihrer [[Rüstungsklasse]].
+Die Kreatur addiert ihren halben [[Konstitution#Konstitutionsmodifikator]] (aufgerundet) zu ihrer [[Rüstungsklasse]].

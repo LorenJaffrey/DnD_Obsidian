@@ -34,7 +34,7 @@ Attribute:
   Stärke: 14
   Geschicklichkeit: 16
   Konstitution: 14
-  Intelligenz: 7
+  Intelligenz: 8
   Weisheit: 11
   Charisma: 10
 Rettungswürfe:
@@ -74,7 +74,7 @@ Legendäre_Aktionen:
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[orc_archer.webp | 350]]
+>> ![[orc_archer.png | 350]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -121,7 +121,7 @@ Legendäre_Aktionen:
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
->> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
+>> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+ceil(floor(((this.Attribute.Konstitution)-10)/2)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
 >> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
 >>
 >> ``` dataviewjs
