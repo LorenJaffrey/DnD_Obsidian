@@ -12,4 +12,4 @@ Das Ziel, mit dem du ringst, darf nicht mehr als eine [[Größenkategorie]] grö
 Mit mindestens einer freien Hand versuchst du das Ziel mit einer Ringen-Probe zu packen. Du wirfst dazu eine Probe auf [[Athletik]], die von deinem Ziel mit einer Probe auf [[Athletik]] oder  [[Akrobatik]] - dein Ziel hat die Wahl - gekontert wird.
 Wenn du erfolgreich bist, wird dein Ziel [[Gepackt]].
 
-Ziel kann in seinem Zug versuchen mit einer [[Zug#Aktion]] zu [[Entkommen]].
+Ziel kann in seinem Zug versuchen mit einer [[Aktion]] zu [[Entkommen]].
