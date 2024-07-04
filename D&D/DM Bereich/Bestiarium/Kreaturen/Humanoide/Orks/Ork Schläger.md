@@ -69,7 +69,7 @@ Merkmale:
   - "[[Aggressiv]]"
   - "[[Wüstling]]"
   - "[[Robust]]"
-  - "[[Mehrfachangriff|Mehrfachangriff]]"
+  - "[[Mehrfachangriff 2|Mehrfachangriff]]"
 Anzahl_Legendäre_Aktionen: 
 Legendäre_Aktionen: 
 ---
