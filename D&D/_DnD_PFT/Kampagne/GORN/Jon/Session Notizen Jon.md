@@ -41,7 +41,7 @@ wichtigeOrte: |
     - [x] Ort erreicht
   - Zwergenausgrabung (von Haderhügel -> 20 km)
     - [x] Ort erreicht
-    - [ ] Tempel (böser Zwergen-Gott) erkunden
+    - [x] Tempel (böser Zwergen-Gott) erkunden
   - Wellenhall-Höhle
     (hat Gudren und seine Brüder **etwas** gefunden)
     - [ ] mehr über den Ort erfahren

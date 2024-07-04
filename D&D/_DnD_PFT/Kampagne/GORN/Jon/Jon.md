@@ -162,10 +162,15 @@ tags:
 > 	- Goblins getötet
 > - Phandalin
 > 	- Magier getötet
+> 
+> ### Spielstil
+> 
+> ![External Image Fighter Meme | 400](https://i.redd.it/wsmxgs5vctt21.jpg)
+> 
 
 
-# `=this.file.name`
-> [!column | 3  | no-title]
+# ![Dice Gif | 50](https://64.media.tumblr.com/d649fcbc7faec703ddd7eb7aeafd9961/tumblr_p3a80wrkZp1s60oo7o1_400.gif)  `=this.file.name`  "man hat von Ihm gehört!"
+> [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
@@ -181,6 +186,8 @@ tags:
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 >> | [[Glück\|Glückspunkte]]  | <input type="checkbox" unchecked id="ecb03e"> |  <input type="checkbox" unchecked id="5d748c"> | <input type="checkbox" unchecked id="d25850"> | <input type="checkbox" unchecked id="5a568a"> | <input type="checkbox" unchecked id="7199c2"> |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  <input type="checkbox" unchecked id="73f4b5">  |  <input type="checkbox" unchecked id="0297f5"> |  <input type="checkbox" unchecked id="cd9aab">  |  <input type="checkbox" unchecked id="003cca">  | <input type="checkbox" unchecked id="949a4c">  |  <input type="checkbox" unchecked id="c1e92f">  |  <input type="checkbox" unchecked id="a2b7ed">  |  <input type="checkbox" unchecked id="89be6f">  |  <input type="checkbox" unchecked id="f1bb52">  |
+>> 
+>> ![External Image Fighter Defense Meme | 250 ](https://i.pinimg.com/736x/bb/54/df/bb54df71e47582d8bf5cb332faedcd83.jpg)
 >
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
@@ -212,9 +219,11 @@ tags:
 >> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
 >> | ----------------------------------------- | ------------------------------------------- |
 >> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>> 
+>> ![External Image Running](https://i.gifer.com/7Iuq.gif)
 
 ## Stats
-> [!column | no-title]
+> [!column ]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -227,10 +236,10 @@ tags:
 >>
 >><br />
 >>
->> ![[so_true.jpg | 550]] 
+>> ![External Image Low Intelligence Meme | 300](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiISAjPo27NptIadxoh7Lb2EUjUGyq9l4qPDiWt6J7Gkf2KKwws4AJJrhv8_JK8IrIcYbpyjgej1VbqeYtDHyedGe-JPmw8_fS4N5w_j72E4NzZCKmcaKkqDTOZ4bZT78bZgWwIkxgp5Pq_/s1600/comic-7-5.png) ![External Image High Wisdom Meme | 335](https://i.imgflip.com/8vtszo.jpg)
 >
 >> ## Fertigkeiten
->> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |
+>> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |  
 >> | ---------------------------- | ------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------- |
 >> | [[Akrobatik]]                | [[Geschicklichkeit]]      |                                                 `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Akrobatik=2, "Expertise", choice(this.Fertigkeiten.Akrobatik=1, "Übung", ""))`                   |
 >> | [[Arkane Kunde]]             | [[Intelligenz]]           |                                                  `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`                                                  | `=choice(this.Fertigkeiten.Arkane_Kunde=2, "Expertise", choice(this.Fertigkeiten.Arkane_Kunde=1, "Übung", ""))`             |
@@ -254,7 +263,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | no-title]
+> [!column | 3]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -300,20 +309,22 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
+>
+>> ![External Image Fighter Waiting Meme | 450](https://www.enworld.org/attachments/1670280997283-png.268831/)
 
 Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Aktionen
->[!column | 3 | no-title]
+>[!column | 3]
 >> ## Kampfmerkmale (Verbrauch)
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
 >>| [[Durchschnaufen]] | <input type="checkbox" unchecked id="3db231">|
 >>| [[Tatendrang]]             |   <input type="checkbox" unchecked id="435009">|
->>| [[Zusätzlicher Angriff]]  (Lv. 5) | <input type="checkbox" checked id="2392c6">|
->>| [[Unbeugsamkeit]] (Lv. 9) |  <input type="checkbox" checked id="fe8cbd">|
->>| [[Zusätzlicher Angriff]]  (Lv. 11) |   <input type="checkbox" checked id="0c091f">|
->>| [[Zusätzlicher Angriff]]  (Lv. 20) |   <input type="checkbox" checked id="c2c6e3">|
+>>| [[Zusätzlicher Angriff]]  (Lv. 5) |  `=choice(this.Stufe > 4, "⭕", "❌")` <!--input type="checkbox" checked id="2392c6"-->  |
+>>| [[Unbeugsamkeit]] (Lv. 9) | `=choice(this.Stufe > 8, "⭕", "❌")`  <!--input type="checkbox" checked id="fe8cbd"-->|
+>>| [[Zusätzlicher Angriff]]  (Lv. 11) |   `=choice(this.Stufe > 10, "⭕", "❌")` <!--input type="checkbox" checked id="0c091f"-->|
+>>| [[Zusätzlicher Angriff]]  (Lv. 20) |   `=choice(this.Stufe > 19, "⭕", "❌")` <!--input type="checkbox" checked id="c2c6e3"-->|
 >>
 >>## Kurze Kampfmermal Aktions-Beschreibung
 >>- **Gezielter Schuss**
@@ -328,12 +339,12 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	**Verwendung**: Kann 1 Mal verwendet werden
 >>	**Erholung**: kurze oder langen Rast
 >>- **[[Zusätzlicher Angriff]]**
->>	![[Mehrfach_Angriff.gif | 200]]
+>>	![External Meme Extra Attack Meme | 450 ](https://i.imgflip.com/8vtwwo.jpg)
 >
 >>## Manöver (Verbrauch)
 >>|  Manöver-Ladungen                                      | Verfügbar | Verfügbar | Verfügbar | Verfügbar | Verfügbar (Lv. 7) | Verfügbar (Lv. 15) |
 >>| ----------------------------------------------- |:-------------:|:------------:|:-------------:|:-------------:|:---------------------:|:-----------------------:|
->>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">| <input type="checkbox" checked id="76d80f">   | <input type="checkbox" checked id="1e4943">|
+>>|Überlegenheitswürfel| <input type="checkbox" unchecked id="232419">| <input type="checkbox" unchecked id="2d18b0">| <input type="checkbox" unchecked id="a50c00"> | <input type="checkbox" unchecked id="b91c8c">|  `=choice(this.Stufe > 6, "⭕", "❌")`<!--input type="checkbox" checked id="76d80f"-->   |  `=choice(this.Stufe > 14, "⭕", "❌")` <!--input type="checkbox" checked id="1e4943"-->|
 >>
 >> ## Aktuelle aktive Manöver
 >>- [[Schlag des Befehlshabers]]
@@ -369,7 +380,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Übung / Merkmale
-> [!column | 3 | no-title]
+> [!column | 3]
 >> ## Rüstung
 >> - [[Leichte Rüstung]]
 >> - [[Mittelschwere Rüstung|Mittelschwerer Rüstung]]
