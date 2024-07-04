@@ -30,4 +30,4 @@ Wenn du noch keine [[Übung]] in der gewählten [[Fertigkeiten|Fertigkeit]] hast
 Falls du bereits [[Übung]] hast, erhältst du [[Übung|Expertise]].
 
 ## Schnelle Suche
-Du kannst [[Suchen]] als [[Zug#Bonusaktion]] ausführen.
+Du kannst [[Suchen]] als [[Bonusaktion]] ausführen.

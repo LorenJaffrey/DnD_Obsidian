@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
-Zeitaufwand: "[[Zug#Aktion]]"
+Zeitaufwand: "[[Aktion]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: false
@@ -37,7 +37,7 @@ Du kannst einen der folgenden magischen Effekte erzeugen:
 - Du lässt eine nicht verriegelte Tür oder ein Fenster auffliegen oder zuschlagen.
 - Du änderst für 1 Minute das Aussehen deiner Augen.
 
-Wenn du diesen Zauber mehrmals wirkst, können bis zu drei der nicht sofortigen Effekte gleichzeitig aktiv sein. Du kannst solche Effekte als [[Zug#Aktion]] aufheben.
+Wenn du diesen Zauber mehrmals wirkst, können bis zu drei der nicht sofortigen Effekte gleichzeitig aktiv sein. Du kannst solche Effekte als [[Aktion]] aufheben.
 
 ## Zauberlisten
 - [[Kleriker]]

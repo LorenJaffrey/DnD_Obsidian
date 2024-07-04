@@ -19,7 +19,7 @@ Wiederholbar: false
 *Du hast Techniken erlernt, die im Kampf gegen Zauberwirker hilfreich sind.*
 
 ## Inquisitor
-Wenn eine Kreatur innerhalb von 1,50 m einen Zauber wirkt, kannst du deine [[Zug#Reaktion]] nutzen, um einen [[Nahkampfangriff]] gegen diese Kreatur auszuführen.
+Wenn eine Kreatur innerhalb von 1,50 m einen Zauber wirkt, kannst du deine [[Reaktion]] nutzen, um einen [[Nahkampfangriff]] gegen diese Kreatur auszuführen.
 
 ## Unterbrechen
 Kreaturen sind beim [[Rettungswurf]] zum Aufrechterhalten der [[Konzentration]] im [[Vorteil und Nachteil|Nachteil]], wenn du ihnen Schaden zufügst.

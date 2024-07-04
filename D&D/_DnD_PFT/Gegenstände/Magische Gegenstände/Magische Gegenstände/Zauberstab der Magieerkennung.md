@@ -20,5 +20,5 @@ Verflucht: false
 > | Voraussetzung | `=this.Voraussetzung` |
 > | Kosten | `=this.Kosten` |
 
-Dieser Zauberstab hat 3 Ladungen. Während du ihn in der Hand hältst, kannst du 1 Ladung als [[Zug#Aktion]] verbrauchen, um mit ihm den Zauber [[Magie entdecken]] zu wirken. 
+Dieser Zauberstab hat 3 Ladungen. Während du ihn in der Hand hältst, kannst du 1 Ladung als [[Aktion]] verbrauchen, um mit ihm den Zauber [[Magie entdecken]] zu wirken. 
 Der Zauberstab erhält täglich bei Sonnenaufgang 1W3 verbrauchte Ladungen zurück.

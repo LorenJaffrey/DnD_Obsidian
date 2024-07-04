@@ -13,4 +13,4 @@ Wenn du den Zauber wirkst, kannst du für deinen Vertrauten neben den normalen F
 - Quasit
 - Feengeist.
 
-Nutzt du deine [[Zug#Aktion]] für einen [[Angriff]], kannst du statt selbst anzugreifen auch deinen Vertrauten attackieren lassen, indem er seine [[Zug#Reaktion]] aufwendet.
+Nutzt du deine [[Aktion]] für einen [[Angriff]], kannst du statt selbst anzugreifen auch deinen Vertrauten attackieren lassen, indem er seine [[Reaktion]] aufwendet.

@@ -30,7 +30,8 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Du wählst einen Gegenstand, den du berühren musst, während du den Zauber wirkst. 
-Handelt es sich um einen magischen Gegenstand oder ein anderweitig mit Magie erfülltes Objekt, würfle einen W20, addiere deinen [[Attribute#Attributsmodifikator]] zum Zauberwirken und vergleiche das Ergebnis mit der folgenden Tabelle. Wenn du [[Übung]] in [[Arkane Kunde]] hast, erhältst du [[Vorteil und Nachteil|Vorteil]] auf den Wurf. 
+Handelt es sich um einen magischen Gegenstand oder ein anderweitig mit Magie erfülltes Objekt, würfle einen W20, addiere deinen [[Attribute#Attributsmodifikator]] zum Zauberwirken und vergleiche das Ergebnis mit der folgenden Tabelle. 
+Wenn du [[Übung]] in [[Arkane Kunde]] hast, erhältst du [[Vorteil und Nachteil|Vorteil]] auf den Wurf. 
 
 ![[Identifikation magischer Gegenstände#Magische Gegenstände Seltenheit SG]]
 

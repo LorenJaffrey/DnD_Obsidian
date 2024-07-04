@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 2
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Zug#Bonusaktion]]"
+Zeitaufwand: "[[Bonusaktion]]"
 Reichweite: selbst
 Verbal: true
 Geste: false

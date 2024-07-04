@@ -31,4 +31,4 @@ Wenn am Ende der [[Kurze Rast|Kurzen Rast]] eine Kreatur die Mahlzeit isst und m
 ## Leckereien
 Mit einer Stunde Arbeit oder nach einer [[Lange Rast|Langen Rast]] kannst du eine Anzahl von Leckereien zubereiten, die deinem [[Übung|Übungsbonus]] entspricht. 
 Diese Leckereien sind acht Stunden nach der Herstellung genießbar. 
-Eine Kreatur kann mit einer [[Zug#Bonusaktion]] eine dieser Leckereien essen und erhält eine Anzahl von [[Temporäre Trefferpunkte]], die deinem [[Übung|Übungsbonus]] entspricht.
+Eine Kreatur kann mit einer [[Bonusaktion]] eine dieser Leckereien essen und erhält eine Anzahl von [[Temporäre Trefferpunkte]], die deinem [[Übung|Übungsbonus]] entspricht.

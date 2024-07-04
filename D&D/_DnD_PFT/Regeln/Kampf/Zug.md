@@ -8,7 +8,7 @@ In einem Zug kann eine Kreatur jeweils eine der folgenden Aktivitäten ausführe
 Eine Kreatur kann sich in ihrem Zug entsprechend ihrer [[Bewegungsrate]] bewegen.
 
 ## Aktion
-![[Aktionen]]
+![[Aktion]]
 
 ## Kostenlose Aktion
 - einfache Gesten
@@ -17,9 +17,9 @@ Eine Kreatur kann sich in ihrem Zug entsprechend ihrer [[Bewegungsrate]] bewegen
 - Tür öffnen
 
 ## Bonusaktion
-![[Bonusaktionen]]
+![[Bonusaktion]]
 
 ## Reaktion
 Bestimmte Spezialfähigkeiten, Zauber und Situationen ermöglichen eine besondere Reaktion.
 Wenn der Zug durch eine Reaktion unterbrochen wird, darf er danach fortgesetzt werden.
-![[Reaktionen]]
+![[Reaktion]]

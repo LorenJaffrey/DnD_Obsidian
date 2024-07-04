@@ -3,7 +3,7 @@ tags:
 - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
-Zeitaufwand: "[[Zug#Bonusaktion]]"
+Zeitaufwand: "[[Bonusaktion]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true
