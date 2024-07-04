@@ -26,4 +26,4 @@ Erhöhe deine [[Konstitution]] um 1 Punkt, bis zu einem maximalen Attributswert 
 Du erhältst [[Vorteil und Nachteil|Vorteil]] auf [[Todesrettungswürfe]].
 
 ## Schnelle Erholung
-Als [[Bonusaktion]] kannst du einen deiner [[Trefferwürfel]] ausgeben, den Würfel werfen und die geworfene Anzahl an [[Trefferpunkte|Trefferpunkten]] regenerieren. 
+Als [[Zug#Bonusaktion]] kannst du einen deiner [[Trefferwürfel]] ausgeben, den Würfel werfen und die geworfene Anzahl an [[Trefferpunkte|Trefferpunkten]] regenerieren. 

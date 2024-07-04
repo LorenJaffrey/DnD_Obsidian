@@ -2,7 +2,6 @@
 alias:
 tags:
 - Merkmal
-Einsatz: Passiv
 ---
 # `=this.file.name`
 Viele Kreaturen besonders diejenigen, die unterirdisch leben, verfügen über Dunkelsicht.

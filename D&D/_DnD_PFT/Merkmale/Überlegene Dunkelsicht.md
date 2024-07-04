@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - Merkmal/Volk
-Einsatz: Passiv
 ---
 # `=this.file.name`
 Im Umkreis von 36m:

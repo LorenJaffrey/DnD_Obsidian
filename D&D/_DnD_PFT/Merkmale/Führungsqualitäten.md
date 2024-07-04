@@ -1,7 +1,6 @@
 ---
 tags:
 - Merkmal
-Einsatz: Passiv
 ---
 # `=this.file.name`
 (Aufladung nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]])

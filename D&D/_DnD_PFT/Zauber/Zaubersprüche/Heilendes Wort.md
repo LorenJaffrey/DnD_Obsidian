@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Bonusaktion]]"
+Zeitaufwand: "[[Zug#Bonusaktion]]"
 Reichweite: 18 Meter
 Verbal: true
 Geste: false

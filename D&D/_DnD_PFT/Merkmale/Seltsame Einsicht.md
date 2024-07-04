@@ -1,7 +1,6 @@
 ---
 tags:
 - Merkmal
-Einsatz: Passiv
 ---
 # `=this.file.name`
 Wähle eine Kreatur innerhalb von 9 m aus, die du sehen kannst. 

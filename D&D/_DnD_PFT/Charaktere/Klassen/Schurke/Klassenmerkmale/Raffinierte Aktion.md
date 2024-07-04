@@ -5,7 +5,7 @@ tags:
 ---
 # `=this.file.name`
 
-Du kannst folgende [[Aktion|Aktionen]] als [[Bonusaktion]] ausführen:
+Du kannst folgende [[Aktionen|Aktionen]] als [[Zug#Bonusaktion]] ausführen:
 	- [[Spurt]]
 	- [[Rückzug]]
 	- [[Verstecken]]

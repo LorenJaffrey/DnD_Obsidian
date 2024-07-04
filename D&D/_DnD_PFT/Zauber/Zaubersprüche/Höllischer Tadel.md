@@ -5,7 +5,7 @@ tags:
 - Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Reaktion]]"
+Zeitaufwand: "[[Zug#Reaktion]]"
 Reichweite: 18 Meter
 Verbal: true
 Geste: true

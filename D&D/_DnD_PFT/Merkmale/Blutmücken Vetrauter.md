@@ -1,7 +1,6 @@
 ---
 tags:
 - Merkmal
-Einsatz: Passiv
 ---
 # `=this.file.name`
 Du besitzt einen Blutmücken Vertrauten als ob du den Zauber [[Vertrauten finden]] gewirkt hättest. 

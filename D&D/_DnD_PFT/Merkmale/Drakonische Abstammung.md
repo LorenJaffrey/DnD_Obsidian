@@ -2,7 +2,6 @@
 alias:
 tags:
 - Merkmal
-Einsatz: "[[Aktion]]"
 ---
 | Drache  | Schadensart | Odemwaffe       | Rettungswurf         |
 | ------- | ----------- | --------------- | -------------------- |
