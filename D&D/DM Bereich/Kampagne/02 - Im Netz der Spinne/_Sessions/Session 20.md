@@ -1,17 +1,19 @@
 # `=this.file.name`
 
 ## Organisatorisches
-- [[Kräuterkunde]]
+- [[Kräuterkunde]] kommt noch...
 - [[Reisen]]
 
 ## Recap
-- [[Haderhügel]]
-- Kampf mit den [[Mantikor|Mantikoren]]
-
-![[Timeline Kampagne 2#Tag 5]]
+- [[Zwergenausgrabung]]
+![[Timeline Kampagne 2#Tag 6]]
 
 ## Ablauf
-- [[Zwergenausgrabung]]
+- Kampf gegen die Orks
+
+
+
+
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
 
