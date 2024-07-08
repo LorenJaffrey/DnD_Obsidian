@@ -142,7 +142,7 @@ tags:
 > [!checks | no-title] 
 > -  
 > 	- [[Glück|Glückspunkte]] 
-> 	- [ ] %% %% 
+> 	- [x] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
 > 	- [ ] %% %% 
@@ -166,6 +166,20 @@ tags:
 | --------- |:---------------------------------------------:|:---------------------------------------------:|
 | Maximal   | <input type="checkbox" unchecked id="dabe36"> | <input type="checkbox" unchecked id="c0a200"> |
 | Aufladung |                [[Lange Rast]]                 |                [[Lange Rast]]                 |
+
+> [!checks | no-title] 
+> -  
+> 	- [[Stecken der Verteidigung]]     
+> 	- [x] %% %% 
+> 	- [x] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
+> 	- [ ] %% %% 
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                                   | [[Hochsprung]] ohne Anlauf                                    | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
