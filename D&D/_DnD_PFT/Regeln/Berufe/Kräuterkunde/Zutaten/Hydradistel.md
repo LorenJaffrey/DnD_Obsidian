@@ -18,8 +18,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 19
 ---
 # `=this.file.name`
 

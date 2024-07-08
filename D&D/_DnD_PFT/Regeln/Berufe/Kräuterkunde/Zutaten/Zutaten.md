@@ -21,12 +21,9 @@ aliases:
 ```dataview
 TABLE WITHOUT ID
 file.link AS "Kraut",
-aliases,
 Art,
 Effekt.Roh AS "Effekt Roh",
-Effekt.Verarbeitet AS "Effekt Verarbeitet",
-AnzahlDosenFürVerarbeitung AS "Dosen",
-VerarbeitungsSG AS "SG"
+Effekt.Verarbeitet AS "Effekt Verarbeitet"
 FROM #Beruf/Kräuterkunde/Zutat
 WHERE file.name != "Vorlage Kräuterkunde-Zutat"
 SORT Art, file.name

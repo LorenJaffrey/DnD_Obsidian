@@ -13,8 +13,6 @@ Umgebungen:
   - Gebirge
   - Unterwasser
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 15
 ---
 # `=this.file.name`
 

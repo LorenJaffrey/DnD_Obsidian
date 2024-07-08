@@ -6,18 +6,10 @@ Effekt:
   Roh: "Verlangsamt Trunkenheit um 50% für 1 Stunde."
   Verarbeitet: "Immun gegen [[Betrunken]] für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
-  - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
 ---
 # `=this.file.name`
 

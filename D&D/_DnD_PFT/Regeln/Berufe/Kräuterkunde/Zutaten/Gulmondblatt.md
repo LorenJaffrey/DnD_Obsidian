@@ -8,18 +8,11 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Athletik]]-Würfe für 1 Stunde."
   Verarbeitet: "+1 auf [[Schadenswurf|Schadenswürfe]] für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
   - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

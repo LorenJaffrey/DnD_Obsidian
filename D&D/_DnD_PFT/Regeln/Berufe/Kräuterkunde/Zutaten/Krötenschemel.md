@@ -9,11 +9,7 @@ Umgebungen:
   - Sumpf
   - Wald
   - Gebirge
-  - Unterwasser
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

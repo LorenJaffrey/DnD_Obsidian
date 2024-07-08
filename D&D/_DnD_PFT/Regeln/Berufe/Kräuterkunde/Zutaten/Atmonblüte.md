@@ -8,8 +8,6 @@ Effekt:
   Roh: "Erhöht die [[Bewegungsrate]] um 1,5m (1 Kästchen) für eine Stunde."
   Verarbeitet: "Erhöht [[Rüstungsklasse]] um 1 für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
   - Küste
@@ -18,8 +16,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 6
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

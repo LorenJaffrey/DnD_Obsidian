@@ -8,7 +8,6 @@ Effekt:
   Roh: "Reduziert eine Stufe [[Erschöpfung]] (max. 1 pro Tag)."
   Verarbeitet: "Entfernt alle Stufen [[Erschöpft|Erschöpfung]] bei einer [[Lange Rast|Langen Rast]]"
 Umgebungen:
-  - Grasland
   - Hügel
   - Sumpf
   - Wald
@@ -18,8 +17,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

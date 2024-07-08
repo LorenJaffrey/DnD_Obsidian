@@ -6,7 +6,7 @@ aliases:
 Art: "[[Blätter]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Weisheit]] für eine Stunde."
-  Verarbeitet: Effekt Verarbeitet
+  Verarbeitet: "Immun gegen [[Verängstigt]] und [[Bezaubert]] für eine Stunde."
 Umgebungen:
   - Grasland
   - Hügel
@@ -18,8 +18,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

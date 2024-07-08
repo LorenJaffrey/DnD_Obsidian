@@ -8,18 +8,10 @@ Effekt:
   Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
   Verarbeitet: 
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
-  - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

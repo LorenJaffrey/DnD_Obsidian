@@ -3,23 +3,15 @@ tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
   - Todesblüten
-Art: "[[Blüte]]"
+Art: "[[Blüten]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf]] gegen Gifte für 1 Stunde."
   Verarbeitet: "[[Schadensarten#Schadensresistenz]] gegen [[Giftschaden]] für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
-  - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

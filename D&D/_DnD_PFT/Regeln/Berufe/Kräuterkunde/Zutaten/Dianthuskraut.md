@@ -6,18 +6,11 @@ Effekt:
   Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
   Verarbeitet: "Erhält Schwimmbewegung gleich normaler Bewegung für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
   - Küste
   - Gebirge
   - Unterwasser
-  - Arktisch
-  - Wüste
-  - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 18
 ---
 # `=this.file.name`
 

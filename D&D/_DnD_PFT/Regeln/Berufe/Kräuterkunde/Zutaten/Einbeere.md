@@ -8,7 +8,6 @@ Effekt:
   Roh: "Heilt für 1 [[Trefferpunkte|Trefferpunkt]] (max. 1 pro [[kurze Rast]])"
   Verarbeitet: "Heilt 1 [[Trefferpunkte|Trefferpunkt]] pro [[Zug]] für 6 [[Zug|Züge]]."
 Umgebungen: 
-  - Grasland
   - Hügel
   - Sumpf
   - Wald
@@ -18,8 +17,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 15
 ---
 # `=this.file.name`
 

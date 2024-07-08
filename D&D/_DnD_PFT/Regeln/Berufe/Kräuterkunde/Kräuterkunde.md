@@ -6,7 +6,7 @@ tags:
 
 [[Kräuterkunde]] besteht aus drei Bestandteilen:
 - [[Zutaten]]
-- [[Zutaten sammeln]]
+- [[Zutaten suchen]]
 - [[Kräuterpasten]]
 
 Alle gesammelten [[Zutaten]] haben intrinsische Eigenschaften, die durch Einnahme oder äußerliche Anwendung aktiviert werden können.

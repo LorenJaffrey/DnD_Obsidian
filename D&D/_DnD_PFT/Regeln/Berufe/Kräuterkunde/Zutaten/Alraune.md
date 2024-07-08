@@ -8,18 +8,10 @@ Effekt:
   Roh: "Stoppt [[Versteinert|Versteinerung]]."
   Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
-  - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
 ---
 # `=this.file.name`
 

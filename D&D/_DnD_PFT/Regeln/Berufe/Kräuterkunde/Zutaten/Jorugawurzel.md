@@ -8,7 +8,6 @@ Effekt:
   Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde."
   Verarbeitet: Effekt Verarbeitet
 Umgebungen:
-  - Grasland
   - Hügel
   - Sumpf
   - Wald
@@ -18,8 +17,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 5
-VerarbeitungsSG: 15
 ---
 # `=this.file.name`
 

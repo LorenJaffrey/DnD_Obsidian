@@ -8,8 +8,6 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Charisma]] für eine Stunde."
   Verarbeitet: "Vorteil auf Überzeugen, Täuschen, Motiv erkennen für 1 Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
   - Küste
@@ -18,8 +16,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 4
-VerarbeitungsSG: 20
 ---
 # `=this.file.name`
 

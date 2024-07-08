@@ -8,18 +8,10 @@ Effekt:
   Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
   Verarbeitet: "Muss 1 Stunde lang nicht atmen."
 Umgebungen:
-  - Grasland
-  - Hügel
-  - Sumpf
-  - Wald
   - Küste
   - Gebirge
   - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
 ---
 # `=this.file.name`
 

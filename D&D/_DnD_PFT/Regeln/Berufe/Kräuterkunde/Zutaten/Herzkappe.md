@@ -8,18 +8,10 @@ Effekt:
   Roh: "Heilt für 1 [[Trefferpunkte|Trefferpunkt]] (max. 1 pro [[Kurze Rast]])."
   Verarbeitet: "Heilt sofort 1W6 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])." 
 Umgebungen:
-  - Grasland
-  - Hügel
   - Sumpf
   - Wald
-  - Küste
   - Gebirge
-  - Unterwasser
-  - Arktisch
-  - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 
-VerarbeitungsSG:
 ---
 # `=this.file.name`
 
