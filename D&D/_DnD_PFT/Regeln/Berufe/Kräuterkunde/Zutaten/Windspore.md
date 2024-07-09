@@ -9,9 +9,9 @@ Effekt:
   Verarbeitet: "Muss 1 Stunde lang nicht atmen."
 Umgebungen:
   - Küste
-  - Gebirge
-  - Unterwasser
-  - Unterreich
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

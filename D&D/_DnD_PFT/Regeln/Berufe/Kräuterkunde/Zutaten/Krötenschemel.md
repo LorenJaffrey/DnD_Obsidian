@@ -6,10 +6,10 @@ Effekt:
   Roh: "Gewährt [[Dunkelsicht]] für 1 Stunde."
   Verarbeitet: "Gewährt [[Überlegene Dunkelsicht]] für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterreich
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

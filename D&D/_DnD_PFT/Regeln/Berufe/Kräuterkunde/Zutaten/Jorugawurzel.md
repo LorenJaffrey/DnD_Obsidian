@@ -8,15 +8,15 @@ Effekt:
   Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde."
   Verarbeitet: Effekt Verarbeitet
 Umgebungen:
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

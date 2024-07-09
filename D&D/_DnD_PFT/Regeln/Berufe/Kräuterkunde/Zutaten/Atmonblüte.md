@@ -8,20 +8,20 @@ Effekt:
   Roh: "Erhöht die [[Bewegungsrate]] um 1,5m (1 Kästchen) für eine Stunde."
   Verarbeitet: "Erhöht [[Rüstungsklasse]] um 1 für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
+| Zutat             | Art         |
+| ----------------- | ----------- |
+| `=this.file.name` | `=this.Art` |
 
 ## Effekt Roh
 `=this.Effekt.Roh`
@@ -31,3 +31,7 @@ Umgebungen:
 
 ## Umgebungen
 `=this.Umgebungen`
+
+```
+=this.file
+```

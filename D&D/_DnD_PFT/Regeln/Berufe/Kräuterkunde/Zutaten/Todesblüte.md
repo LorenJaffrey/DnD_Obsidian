@@ -8,10 +8,10 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf]] gegen Gifte für 1 Stunde."
   Verarbeitet: "[[Schadensarten#Schadensresistenz]] gegen [[Giftschaden]] für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterreich
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

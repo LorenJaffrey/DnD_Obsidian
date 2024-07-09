@@ -8,11 +8,11 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Athletik]]-Würfe für 1 Stunde."
   Verarbeitet: "+1 auf [[Schadenswurf|Schadenswürfe]] für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterwasser
-  - Unterreich
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

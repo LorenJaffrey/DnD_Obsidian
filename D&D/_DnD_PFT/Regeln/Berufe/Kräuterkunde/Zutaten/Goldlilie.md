@@ -8,14 +8,14 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Charisma]] für eine Stunde."
   Verarbeitet: "Vorteil auf Überzeugen, Täuschen, Motiv erkennen für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

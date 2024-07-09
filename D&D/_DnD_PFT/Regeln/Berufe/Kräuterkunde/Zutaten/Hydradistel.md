@@ -8,16 +8,16 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Wahrnehmung]] (Sicht) für 1 Stunde."
   Verarbeitet: "Heilt [[Blind\|Blindheit]]."
 Umgebungen:
-  - Grasland
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Graslands|Grasland]]"
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

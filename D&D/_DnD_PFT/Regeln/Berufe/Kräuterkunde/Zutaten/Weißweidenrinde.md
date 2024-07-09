@@ -8,12 +8,12 @@ Effekt:
   Roh: "Gewährt 3 [[Temporäre Trefferpunkte]] für eine Stunde."
   Verarbeitet: "Gewährt 10 temporäre Trefferpunkte für eine Stunde."
 Umgebungen:
-  - Hügel
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterwasser
-  - Unterreich
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

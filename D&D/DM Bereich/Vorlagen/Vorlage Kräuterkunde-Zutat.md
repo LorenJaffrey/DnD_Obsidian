@@ -2,7 +2,7 @@
 tags:
   - Beruf/Kräuterkunde/Zutat
 aliases:
-  - Singular
+  - Pluralname
 Art: "[[Pilz]], [[Blätter/Stengel]], [[Wurzel]], [[Blüte]]"
 Effekt:
   Roh: "Effekt Roh"
@@ -18,8 +18,6 @@ Umgebungen:
   - Arktisch
   - Wüste
   - Unterreich
-AnzahlDosenFürVerarbeitung: 1
-VerarbeitungsSG: 1
 ---
 # `=this.file.name`
 

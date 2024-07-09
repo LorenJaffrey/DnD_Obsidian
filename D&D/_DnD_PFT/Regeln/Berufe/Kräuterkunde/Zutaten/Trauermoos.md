@@ -6,12 +6,12 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] für eine Stunde."
   Verarbeitet: "Besteht automatisch [[Todesrettungswürfe]] für 1 Stunde."
 Umgebungen:
-  - Hügel
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterwasser
-  - Unterreich
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

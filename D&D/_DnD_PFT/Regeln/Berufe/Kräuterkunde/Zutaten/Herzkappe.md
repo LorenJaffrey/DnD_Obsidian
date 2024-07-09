@@ -8,10 +8,10 @@ Effekt:
   Roh: "Heilt für 1 [[Trefferpunkte|Trefferpunkt]] (max. 1 pro [[Kurze Rast]])."
   Verarbeitet: "Heilt sofort 1W6 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])." 
 Umgebungen:
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterreich
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

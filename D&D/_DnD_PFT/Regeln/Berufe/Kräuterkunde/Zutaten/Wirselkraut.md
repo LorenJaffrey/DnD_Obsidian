@@ -8,16 +8,16 @@ Effekt:
   Roh: "Heilt für 1W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
   Verarbeitet: "Heilt 2W4 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])"
 Umgebungen:
-  - Grasland
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Graslands|Grasland]]"
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

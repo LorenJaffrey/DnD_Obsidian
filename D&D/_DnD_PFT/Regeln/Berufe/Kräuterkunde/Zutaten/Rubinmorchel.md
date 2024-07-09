@@ -8,10 +8,10 @@ Effekt:
   Roh: "+2 Erholung aus nächstem [[Trefferwürfel]]."
   Verarbeitet: 
 Umgebungen:
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterreich
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

@@ -10,7 +10,8 @@ aliases:
 | ---------------- | ------------------------------------------------------- | ---------------------------------------------------------- | --------------- | --- |
 | [[Winterkuss]]   | Keine Erschöpfung durch Kälte                           | Schadensresistenz gegen Kälteschaden                       | 6               | 18  |
 | [[Ilmenblatt]]   | Vorteil bei Rettungswürfen auf Weisheit für eine Stunde |                                                            | 4               | 20  |
-| [[Schneelilie]]  |                                                         | Immun gegen [[Bezaubert]] und [[Verängstigt]] für 1 Stunde | 4               | 18  |
+| [[Schneelilie]]  |             |                    |                 |     |
+|                  |                                                         | Immun gegen [[Bezaubert]] und [[Verängstigt]] für 1 Stunde | 4               | 18  |
 | [[Thonnys]]      | Vorteil auf [[Konzentration]] für 1 Stunde              |                                                            | 4               | 18  |
 |                  | Erhöht die Geschwindigkeit um 1,5m für eine Stunde      | Erhöht Initiative um 1 für 1 Stunde                        | 3               | 19  |
 | [[Blutgras]]     |                                                         |                                                            | 6               | 18  |

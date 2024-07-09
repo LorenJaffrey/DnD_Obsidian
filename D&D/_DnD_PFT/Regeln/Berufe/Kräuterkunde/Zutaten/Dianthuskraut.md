@@ -6,11 +6,11 @@ Effekt:
   Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
   Verarbeitet: "Erhält Schwimmbewegung gleich normaler Bewegung für 1 Stunde."
 Umgebungen:
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
 ---
 # `=this.file.name`
 

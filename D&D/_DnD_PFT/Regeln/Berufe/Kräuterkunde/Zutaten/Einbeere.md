@@ -8,15 +8,15 @@ Effekt:
   Roh: "Heilt für 1 [[Trefferpunkte|Trefferpunkt]] (max. 1 pro [[kurze Rast]])"
   Verarbeitet: "Heilt 1 [[Trefferpunkte|Trefferpunkt]] pro [[Zug]] für 6 [[Zug|Züge]]."
 Umgebungen: 
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

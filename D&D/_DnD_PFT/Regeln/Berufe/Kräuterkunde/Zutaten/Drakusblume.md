@@ -8,11 +8,11 @@ Effekt:
   Roh: "Reduziert eine Stufe [[Erschöpft|Erschöpfung]] (max. 1 pro Tag)."
   Verarbeitet: Heilt [[Gelähmt|Lähmung]].
 Umgebungen:
-  - Hügel
-  - Sumpf
-  - Wald
-  - Gebirge
-  - Unterreich
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

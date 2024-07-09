@@ -8,16 +8,16 @@ Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Weisheit]] für eine Stunde."
   Verarbeitet: "Immun gegen [[Verängstigt]] und [[Bezaubert]] für eine Stunde."
 Umgebungen:
-  - Grasland
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Graslands|Grasland]]"
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

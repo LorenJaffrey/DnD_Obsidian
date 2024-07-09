@@ -8,15 +8,15 @@ Effekt:
   Roh: "Reduziert eine Stufe [[Erschöpfung]] (max. 1 pro Tag)."
   Verarbeitet: "Entfernt alle Stufen [[Erschöpft|Erschöpfung]] bei einer [[Lange Rast|Langen Rast]]"
 Umgebungen:
-  - Hügel
-  - Sumpf
-  - Wald
+  - "[[Pflanzen des Hügellands|Hügelland]]"
+  - "[[Pflanzen des Sumpflands|Sumpfland]]"
+  - "[[Pflanzen des Waldlands|Waldland]]"
   - Küste
-  - Gebirge
-  - Unterwasser
+  - "[[Pflanzen des Gebirgslands|Gebirge]]"
+  - "[[Unterwasserpflanzen|Unterwasser]]"
   - Arktisch
   - Wüste
-  - Unterreich
+  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 
