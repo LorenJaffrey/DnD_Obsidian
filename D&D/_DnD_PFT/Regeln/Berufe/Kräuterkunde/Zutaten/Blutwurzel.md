@@ -11,11 +11,11 @@ Umgebungen:
   - "[[Pflanzen des Hügellands|Hügelland]]"
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
   - "[[Pflanzen des Waldlands|Waldland]]"
-  - Küste
+  - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Unterwasserpflanzen|Unterwasser]]"
-  - Arktisch
-  - Wüste
+  - "[[Arktisch]]"
+  - "[[Wüstenpflanzen|Wüste]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

@@ -8,7 +8,7 @@ Effekt:
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
   - "[[Pflanzen des Waldlands|Waldland]]"
-  - Küste
+  - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Unterwasserpflanzen|Unterwasser]]"
 ---

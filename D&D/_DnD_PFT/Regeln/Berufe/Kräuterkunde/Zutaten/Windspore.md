@@ -8,7 +8,7 @@ Effekt:
   Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
   Verarbeitet: "Muss 1 Stunde lang nicht atmen."
 Umgebungen:
-  - Küste
+  - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Unterwasserpflanzen|Unterwasser]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
