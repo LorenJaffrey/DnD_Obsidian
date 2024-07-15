@@ -1,0 +1,4 @@
+- Matriarchat
+- Echsenreittiere
+- unterirdische Städte mit mehreren Adelshäusern die um die Vorherrschaft kämpfen
+- Glaube an Lolth
