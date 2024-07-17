@@ -8,9 +8,9 @@ Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkei
 
 | Ort                                                      | SG  |
 | -------------------------------------------------------- | --- |
-| Wald, [[Pflanzen des Graslands\|Grasland]], Hügel, Sumpf | 10  |
-| Küste, Gebirge, Tiefenreich, Unterwasser                 | 15  |
-| Arktisch, Wüste                                          | 20  |
+| [[Pflanzen des Waldlands\|Waldland]], [[Pflanzen des Graslands\|Grasland]], [[Pflanzen des Hügellands]], [[Pflanzen des Sumpflands\|Sumpfland]] | 10  |
+| [[Küste]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Tiefenreich]], [[Unterwasserpflanzen\|Unterwasser]]                 | 15  |
+| [[Arktisch]], [[Wüstenpflanzen]]                                          | 20  |
 
 | SG-Mod | Suchmethode                                        |
 | ------ | -------------------------------------------------- |
