@@ -1,5 +1,7 @@
 ---
-aliases: Subklasse Druide, Subklassen Druide
+aliases: 
+  - Subklasse Druide
+  - Subklassen Druide
 ---
 # `=this.file.name`
 

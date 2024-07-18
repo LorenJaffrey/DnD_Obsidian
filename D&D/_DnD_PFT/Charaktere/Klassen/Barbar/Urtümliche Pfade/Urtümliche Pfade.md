@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Subklasse Barbar
-- Subklassen Barbar
-- Urtümlicher Pfad
+  - Subklasse Barbar
+  - Subklassen Barbar
+  - Urtümlicher Pfad
 ---
 # `=this.file.name`
 

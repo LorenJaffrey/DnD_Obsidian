@@ -1,12 +1,12 @@
 ---
 aliases: 
-- Ursprung der Zauberei
-- Subklassen Zauberer
-- Subklasse Zauberer
+  - Ursprung der Zauberei
+  - Subklassen Zauberer
+  - Subklasse Zauberer
 ---
 ## Ursprung der Zauberei
 
-| Klostertradition        | Beschreibung                                     | Quelle                            |
+| Ursprung der Zauberei   | Beschreibung                                     | Quelle                            |
 | ----------------------- | ------------------------------------------------ | --------------------------------- |
 | Drachenblutlinie        | Elementfokus, Fliegen                            | Players Handbook  S.117           |
 | Wilde Magie             | Chaos, Zufall                                    | Players Handbook S.118            |
