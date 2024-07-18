@@ -49,7 +49,7 @@ Moral: 3
 
 #### Stresstest
 - fällig wenn das Stresslevel auf einmal um mehr als 2 auf einmal Punkte erhöht wird
-- [[Rettungswurf]] auf [[Weisheit]] gegen [[Schwierigkeitsgrad|SG]] 5 + Stresslevel
+- [[Rettungswurf]] auf [[Weisheit]] gegen [[Schwierigkeitsgrad|SG]] 10 + Stresslevel
 - wenn Misserfolg erfolgt unbewusste Teleportation anhand Tabelle Stresslevel
 
 | W10 + Stresslevel | Ereignis                                                                                |
