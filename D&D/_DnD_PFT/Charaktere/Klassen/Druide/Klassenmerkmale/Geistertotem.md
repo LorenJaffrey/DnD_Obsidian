@@ -5,9 +5,13 @@ tags:
 ---
 # `=this.file.name`
 
-Du kannst Naturgeister heraufbeschwören, um die Welt um dich herum zu beeinflussen. Als eine [[Bonusaktion]] kannst du auf magische Weise einen körperlosen Geist beschwören, der in einem Bereich erscheint, den du innerhalb von 18 m um dich herum sehen kannst. Der Geist erschafft um diesen Bereich eine Aura mit einem Radius von 9 m. Er zählt weder als eine Kreatur noch als ein Objekt, auch wenn er wie die geisterhafte Erscheinung der Kreatur aussieht, die er darstellen soll.
+Du kannst Naturgeister heraufbeschwören, um die Welt um dich herum zu beeinflussen. 
+Als eine [[Bonusaktion]] kannst du auf magische Weise einen körperlosen Geist beschwören, der in einem Bereich erscheint, den du innerhalb von 18 m um dich herum sehen kannst. 
+Der Geist erschafft um diesen Bereich eine Aura mit einem Radius von 9 m. 
+Er zählt weder als eine Kreatur noch als ein Objekt, auch wenn er wie die geisterhafte Erscheinung der Kreatur aussieht, die er darstellen soll.
 Als eine [[Bonusaktion]] kannst du den Geist bis zu 18 m weit zu einem Bereich bewegen, den du sehen kannst.
-Der Geist bleibt 1 Minute lang bestehen oder bis du kampfunfähig wirst. Wenn du dieses Merkmal eingesetzt hast, kannst du es erst wieder einsetzen, nachdem du eine [[Kurze Rast]] oder [[Lange Rast]] beendet hast.
+Der Geist bleibt 1 Minute lang bestehen oder bis du kampfunfähig wirst. 
+Wenn du dieses Merkmal eingesetzt hast, kannst du es erst wieder einsetzen, nachdem du eine [[Kurze Rast]] oder [[Lange Rast]] beendet hast.
 Der Effekt der Geisteraura hängt davon ab, welchen der folgenden Geister du beschwörst.
 
 ## Geist des Bären

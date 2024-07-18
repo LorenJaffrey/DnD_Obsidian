@@ -22,4 +22,4 @@ Wiederholbar: false
 Du erhältst deinen [[Übung|Übungsbonus]] auf [[Initiative]].
 
 ## Augen im Hinterkopf
-Kreaturen, die du nicht sehen kannst, sind nicht im [[Vorteil und Nachteil|Vorteil]] bei [[Angriffswurf]] gegen dich.
+Kreaturen, die du nicht sehen kannst, sind nicht im [[Vorteil und Nachteil|Vorteil]] bei [[Angriffswurf|Angriffswürfen]] gegen dich.
