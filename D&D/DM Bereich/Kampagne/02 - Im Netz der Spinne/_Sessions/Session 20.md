@@ -1,8 +1,11 @@
 # `=this.file.name`
 
 ## Organisatorisches
-- [[Kräuterkunde]] kommt noch...
+- [[Kräuterkunde]] fast fertig...
 - [[Reisen]]
+- [[Glück|Glückspunkte]]
+- [[Überraschung|überrascht]]
+- [[Kampfrausch]]
 
 ## Recap
 - [[Zwergenausgrabung]]
@@ -10,7 +13,6 @@
 
 ## Ablauf
 - Kampf gegen die Orks
-
 
 
 
