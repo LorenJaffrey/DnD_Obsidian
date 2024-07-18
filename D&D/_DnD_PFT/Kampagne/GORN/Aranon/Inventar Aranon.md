@@ -48,7 +48,7 @@ Geld:
 | [[Schleuder]]               |   1    |    1    |   1    |
 | [[Holzschild]]              |   1    |    6    |   6    |
 | [[Fackel]]                  |   2    |    1    |   2    |
-| [[Ration]]                  |   11   |    1    |   11   |
+| [[Ration]]                  |   9    |    1    |   9    |
 | [[Trinkschlauch]]           |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]] |   0    |    1    |   0    |
@@ -59,7 +59,7 @@ Geld:
 | Flüssigkeit (zäh, braun)    |   1    |    0    |   0    |
 | [[Kurzschwert]]             |   1    |    2    |   2    |
 | [[Gildenabzeichen]]         |   1    |    0    |   0    |
-| GESAMT                      |        |         |  63.8  |
+| GESAMT                      |        |         |  61.8  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 

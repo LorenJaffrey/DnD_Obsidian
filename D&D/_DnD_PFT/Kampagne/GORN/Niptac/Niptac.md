@@ -5,7 +5,7 @@ Niptac:
   Energiekerngröße: W6
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
-    - "[[Gnomisches Überbrückungskabel]]"
+    - "[[Kobold Blitzwerfer]]"
 Bewegung: 5
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild: 
@@ -17,7 +17,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 35
-  TP: 35
+  TP: 0
   TW: 4
   TempTP: 0
 Attribute:
@@ -169,7 +169,7 @@ tags:
 ### Aufladungen 
 | [[Durchdachte Vorbereitung#Engergiekerne]] | Anzahl [[Durchdachte Vorbereitung#Engergiekerne]]                                                                                                                                       |         [[Verschwinden#Verschwinden]]         |
 |:------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:---------------------------------------------:|
-|      `=this.Niptac.Energiekerngröße`       | <input type="checkbox" unchecked id="446ae6"> <input type="checkbox" unchecked id="5f3d3b"> <input type="checkbox" unchecked id="112c14"> <input type="checkbox" unchecked id="c98f08"> | <input type="checkbox" unchecked id="75076a"> |
+|      `=this.Niptac.Energiekerngröße`       | <input type="checkbox" checked id="446ae6"> <input type="checkbox" checked id="5f3d3b"> <input type="checkbox" unchecked id="112c14"> <input type="checkbox" unchecked id="c98f08"> | <input type="checkbox" unchecked id="75076a"> |
 
 ### Apparaturen (max `=this.Niptac.Anzahl_Apparaturen`)
 ```dataview

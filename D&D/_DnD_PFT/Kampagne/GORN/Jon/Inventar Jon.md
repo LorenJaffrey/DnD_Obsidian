@@ -36,13 +36,13 @@ Geld:
 | [[Holzschild]]                                               |   1    |    3    |   3    |
 | [[Kurzschwert]]                                              |   2    |    2    |   4    |
 | [[Dolch]]                                                    |   1    |    2    |   2    |
-| [[Pfeile]]                                                   |   32   |  0.05   |  1.7   |
+| [[Pfeile]]                                                   |   32   |  0.05   |  1.6   |
 | [[Rucksack]]                                                 |   1    |    5    |   5    |
 | [[Beschlagene Lederrüstung]] (mit blauen Drachenschuppen)    |   1    |   13    |   13   |
 | Freundschaftsarmband                                         |   1    |  0.25   |  0.25  |
 | Halsband mit orangen Kristallen und Drachenknochen (Messing) |   1    |  0.25   |  0.25  |
 | [[Gewöhnliche Kleidung]]                                     |   1    |    3    |   3    |
-| GESAMT                                                       |        |         |  45.2  |
+| GESAMT                                                       |        |         |  45.1  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -51,15 +51,15 @@ Geld:
 | ------------------------------------------------------------------ |:------:|:-------:|:------:|
 | [[Schlafsack]]                                                     |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                                 |   1    |    1    |   1    |
-| Stofffetzen (Molotov Bestandteil)                                  |   2    |    0    |   0    |
-| Flasche Lampen-Öl (Molotov Bestandteil)                            |   2    |    1    |   2    |
+| Stofffetzen (Molotov Bestandteil)                                  |   1    |    0    |   0    |
+| Flasche Lampen-Öl (Molotov Bestandteil)                            |   1    |    1    |   1    |
 | [[Heilerausrüstung]] #1                                            |   1    |    1    |   1    |
 | [[Heilerausrüstung]] #2                                            |   1    |    1    |   1    |
 | [[Reisegeschirr]]                                                  |   1    |    1    |   1    |
-| [[Fackel]]                                                         |   8    |    1    |   10   |
+| [[Fackel]]                                                         |   8    |    1    |   8    |
 | [[Ration]] (5 Silber)                                              |   12   |    1    |   12   |
 | [[Trinkschlauch]]                                                  |   1    |    4    |   4    |
-| [[Seil aus Hanf]] in Metern                                        |   12   |   0.6   |   9    |
+| [[Seil aus Hanf]] in Metern                                        |   12   |   0.6   |  7.2   |
 | [[Leichte Armbrust]] (loot)                                        |   1    |    5    |   5    |
 | [[Krummsäbel]] (ranzig)                                            |   1    |    2    |   2    |
 | [[Lederrüstung]] (ranzig)                                          |   1    |   10    |   10   |
@@ -69,10 +69,10 @@ Geld:
 | blau durchsichtiger Edelstein                                      |   1    |    0    |   0    |
 | [[Gildenabzeichen]]                                                |   1    |    0    |   0    |
 | feine Laute mit Verzierungen                                       |   1    |    2    |   2    |
-| [[Einfaches Bier (Flasche)]]                                       |   2    |    1    |   3    |
+| [[Einfaches Bier (Flasche)]]                                       |   2    |    1    |   2    |
 | [[Einfacher Wein (Flasche)]]                                       |  0.5   |   1.5   |  0.75  |
 | Silbernes Amulett mit Dolch-Symbol (Zwergengott-Abbathor der Gier) |   0    |    0    |   0    |
-| Mantikor Klauen                                                    |   20   |  0.05   |   2    |
-| GESAMT                                                             |        |         |  100   |
+| Mantikor Klauen                                                    |   20   |  0.05   |   1    |
+| GESAMT                                                             |        |         |  96.2  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

@@ -89,7 +89,8 @@ gantt
 		Aranon löst Falle aus: done, milestone, a11, after a10, 10m
 		Raum mit zerstörten Statuen untersuchen: done, a12, after a11, 30m
 		Altarraum nochmal untersuchen: done, a13, after a12, 2h
-		GORN verlässt verfluchten Tempel: milestone, a14, after a13, 0m		
+		GORN verlässt verfluchten Tempel: milestone, a14, after a13, 0m
+		Ork Überfall/Angriff: milestone, a15, after a14, 15m		
 ```
 
 > Hier befinden wir uns aktuell!

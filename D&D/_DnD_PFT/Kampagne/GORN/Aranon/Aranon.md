@@ -9,7 +9,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 31
-  TP: 31
+  TP: 29
   TW: 4
   TempTP: 0
 Attribute:
@@ -185,7 +185,7 @@ tags:
 >> ## Aufladungen
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
->> | Maximal      | <input type="checkbox" checked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" unchecked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
+>> | Maximal      | <input type="checkbox" unchecked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" checked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
 >> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten
