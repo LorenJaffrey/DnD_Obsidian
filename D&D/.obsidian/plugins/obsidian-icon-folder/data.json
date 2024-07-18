@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasUser",
-      "RaKnightHelmet",
-      "FasPenRuler",
-      "RaSpeechBubbles",
-      "IbGlobe"
+      "RaMonsterSkull",
+      "RaCloakAndDagger",
+      "RaFire",
+      "TiBow",
+      "RaCrossedAxes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,5 +36,11 @@
   "DM Bereich/Bestiarium": "RaEyeMonster",
   "DM Bereich/Homebrew": "LiCookingPot",
   "DM Bereich/Tips": "CoInfo",
-  "DM Bereich/Worldbuilding": "IbGlobe"
+  "DM Bereich/Worldbuilding": "IbGlobe",
+  "_DnD_PFT/Kampagne/GORN/Aranon": "RaWolfHowl",
+  "_DnD_PFT/Kampagne/GORN/Drogan": "RaCrossedAxes",
+  "_DnD_PFT/Kampagne/GORN/Jon": "TiBow",
+  "_DnD_PFT/Kampagne/GORN/Lucian": "RaFire",
+  "_DnD_PFT/Kampagne/GORN/Niptac": "RaCloakAndDagger",
+  "_DnD_PFT/Kampagne/GORN": "RaMonsterSkull"
 }
