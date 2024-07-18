@@ -2,19 +2,30 @@
 aliases:
 tags:
 - Merkmal/Klasse/Barbar
+Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
+*Auf dem Schlachtfeld kämpfst du mit urtümlicher Wildheit.*
 
-Auf dem Schlachtfeld kämpfst du mit urtümlicher Wildheit.
+In deinem Zug kannst du dich mit einer [[Bonusaktion]] in einen Kampfrausch versetzen. 
 
-In deinem Zug kannst du dich mit einer [[Bonusaktion]] in einen Kampfrausch versetzen. Während du dich in diesem befindest, erhältst du die folgenden Vorteile, solange du keine [[Schwere Rüstung]] trägst:
+## Effekt
+Während du dich in diesem befindest, erhältst du die folgenden Vorteile, solange du keine [[Schwere Rüstung]] trägst:
 - ﻿﻿Du bist bei jedem[[Attribute#Attributswurf]] und [[Rettungswurf]], der auf [[Stärke]] basiert, im [[Vorteil und Nachteil|Vorteil]].
-- ﻿﻿Führst du einen [[Nahkampfangriff]] mit einer Waffe durch, die deinen [[Stärke#Stärkemodifikator]] verwendet, erhältst du auf deinen [[Schadenswurf]] den Bonus, der in der [[Barbar#Klassentabelle]] unter Kampfrausch-Schaden angegeben ist. Dieser Wert erhöht sich, wenn du weiter als [[Barbar]] aufsteigst.
-- ﻿﻿Du besitzt eine [[Schadensarten#Schadensresistenz]] gegen [[Hiebschaden]], [[Stichschaden]] und [[Wuchtschaden]].
+- ﻿﻿Führst du einen [[Nahkampfangriff]] mit einer Waffe durch, die deinen [[Stärke#Stärkemodifikator]] verwendet, erhältst du auf deinen [[Schadenswurf]] den Bonus, der in der [[Barbar#Klassentabelle]] unter Kampfrausch-Schaden angegeben ist. 
+  Dieser Wert erhöht sich, wenn du weiter als [[Barbar]] aufsteigst.
+- ﻿﻿Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Hiebschaden]], [[Stichschaden]] und [[Wuchtschaden]].
 
-Falls du in der Lage bist, Zauber zu wirken, kannst du dies nicht während des Kampfrausches. Auch ist es in diesem nicht möglich, [[Konzentration]] auf einen Zauber zu halten.
+Falls du in der Lage bist, Zauber zu wirken, kannst du dies nicht während des Kampfrausches. 
+Auch ist es in diesem nicht möglich, [[Konzentration]] auf einen Zauber zu halten.
 
-Dein Kampfrausch dauert 1 Minute. 
-Er endet vorzeitig, wenn du [[Bewusstlos]] wirst; außerdem endet er am Ende deines Zuges, wenn du seit dem Ende des vorherigen Zuges weder eine feindliche Kreatur angegriffen hast noch Schaden erhalten hast. Du kannst den Kampfrausch auch selbst als [[Bonusaktion]] in deinem [[Zug]] beenden.
+## Dauer
+Dein Kampfrausch dauert 1 Minute.
+Er endet vorzeitig, wenn:
+- du [[Bewusstlos]] wirst.
+- du seit dem Ende des vorherigen Zuges weder eine feindliche Kreatur angegriffen noch Schaden erhalten hast, endet er am Ende deines Zuges.
+- du den Kampfrausch selbst als [[Bonusaktion]] in deinem [[Zug]] beendest.
+Falls der Kampfrausch vorzeitig enden würde, kannst du eine [[Bonusaktion]] aufwenden um ihn aufrecht zu erhalten.
 
-Bist du so viele Male in Kampfrausch verfallen, wie es in der Tabelle angegeben ist, musst du eine [[Lange Rast]] einlegen, um erneut auf diese Fähigkeit zurückgreifen zu können.
+## Regeneration
+Bist du so viele Male in Kampfrausch verfallen, wie es in der [[Barbar#Klassentabelle]] angegeben ist, musst du eine [[Lange Rast]] einlegen, um erneut auf diese Fähigkeit zurückgreifen zu können.
