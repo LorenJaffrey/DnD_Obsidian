@@ -3,8 +3,8 @@ Charakter: "[[Argo]]"
 Zaubertricks: 4
 Bekannte_Zauber: 2
 Zauberplätze:
-  Grad_1: 2
-  Grad_2: 0
+  Grad_1: 4
+  Grad_2: 3
   Grad_3: 0
   Grad_4: 0
   Grad_5: 0
@@ -12,7 +12,7 @@ Zauberplätze:
   Grad_7: 0
   Grad_8: 0
   Grad_9: 0
-Zauberpunkte: 4
+Zauberpunkte: 17
 Zauber:
   - "[[Windbö]]"
   - "[[Schockgriff]]"
@@ -20,6 +20,13 @@ Zauber:
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
   - "[[Schild]]"
+  - "[[Chaospfeil]]"
+  - "[[Botschaft]]"
+  - "[[Schutzwind]]"
+  - "[[Spiegelbilder]]"
+Metamagie:
+  - "[[Weitreichender Zauber]]"
+  - "[[Zielsuchzauber]]"
 ---
 # `=this.file.name`
 
@@ -69,6 +76,11 @@ Zauber:
 >> | Level 7     |        10         |
 >> | Level 8     |        11         |
 >> | Level 9     |        13         | 
+
+## Metamagie
+
+![[Weitreichender Zauber]]
+![[Zielsuchzauber]]
 
 ## Zaubertricks
 ```dataview
