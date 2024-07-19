@@ -2,10 +2,11 @@
 Name: Argo
 Stufe: 1
 Bewegung: 6
-Rüstung: "[[Beschlagene Lederrüstung]]"
+Rüstung: 
 Schild: 
 Waffen:
-Feinde: 
+  - "[[Kampfstab]]"
+  - "[[Dolch]]"
 Gesundheit:
   MaxTP: 9
   TP: 9
@@ -38,7 +39,7 @@ Fertigkeiten:
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 1
   Nachforschungen: 0
-  Naturkunde: 0
+  Naturkunde: 1
   Religion: 1
   Täuschen: 1
   Überlebenskunst: 0
@@ -47,45 +48,56 @@ Fertigkeiten:
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
+    - "[[Urtümlich]]"
     - "[[Drakonisch]]"
   Werkzeuge:
   Rüstungen:
   Waffen:
-      - "[[Dolch]]"
-	  - "[[Wurfmesser]]"
-	  - "[[Schleuder]]"
-	  - "[[Kampfstab]]"
-	  - "[[Leichte Armbrust]]"
+    - "[[Dolch]]"
+    - "[[Wurfmesser]]"
+    - "[[Kampfstab]]"
+    - "[[Leichte Armbrust]]"
 Aussehen:
   Geschlecht: männlich
-  Alter: ? Jahre
+  Alter: 19 Jahre
   Größenkategorie: "[[Mittelgroß]]"
-  Größe: ? cm
-  Gewicht: ? Pfund
+  Größe: 200 cm
+  Gewicht: 120 Kilo
   Augenfarbe: Blau
-  Haarfarbe: Schwarz
-  Hautfarbe: Schwarz
+  Haarfarbe: Dunkel Blau
+  Hautfarbe: Blau
 Merkmale:
-  Volk: 
-	  - "[[Odemwaffe]]"
-	  - "[[Drakonische Resistenz]]"
+  Volk:
+    - "[[Odemwaffe]]"
+    - "[[Drakonische Resistenz]]"
   Klasse:
-	  - "[[Windsprecher]]"
-	  - "[[Stürmische Magie]]"
+    - "[[Windsprecher]]"
+    - "[[Stürmische Magie]]"
   Talente:
 Hintergrund:
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Rechtschaffen Neutral]]"
-  Hintergrund: 
+  Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-KurzeRast:
-  Uhrzeit1: 00:00
-  Uhrzeit2: 00:00
+    - <ul><b>Respekt vor der Natur</b></ul>Argo empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
+  Ideale: 
+    - <ul><b>Gleichgewicht</b></ul>Das Gleichgewicht der Natur und der Elemente ist das höchste Gut und muss um jeden Preis bewahrt werden.
+  Bindungen:
+    - <ul><b>Tempestus-Kristall</b></ul>Die Fragmente des Kristalls sind für ihn mehr als nur ein Ziel; sie sind heilige Objekte, die er mit größtem Respekt behandelt.
+  Makel:
+    - <ul><b>Unbarmherzigkeit</b></ul>Im Kampf um das Gleichgewicht der Natur kann Argo unbarmherzig und kompromisslos sein, was ihm Feinde einbringen kann.
+Zauber:
+  - "[[Windbö]]"
+  - "[[Schockgriff]]"
+  - "[[Donnerschlag]]"
+  - "[[Kältestrahl]]"
+  - "[[Hexenpfeil]]"
+  - "[[Schild]]"
 tags:
-  - Charakter/Backup Charakter
+  - Charakter/GORN
 ---
 
 > [!infobox]
@@ -93,21 +105,12 @@ tags:
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
-> |Name|`=this.Name`|
 > | Stufe | `=this.Stufe` |
 > | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
-> |Feinde| `=this.Feinde`|
-> 
-> ## Todesrettungswürfe
-> |                      ❌                       |                       ✔                       |
-> |:---------------------------------------------:|:---------------------------------------------:|
-> | <input type="checkbox" unchecked id="54dec1"> | <input type="checkbox" unchecked id="aaa2d5"> |
-> | <input type="checkbox" unchecked id="1b59d7"> | <input type="checkbox" unchecked id="d8e3f7"> |
-> | <input type="checkbox" unchecked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
 > 
 > ## Aussehen
 > |  |  |
@@ -118,8 +121,8 @@ tags:
 > | Größe | `=this.Aussehen.Größe` |
 > | Gewicht | `=this.Aussehen.Gewicht` |
 > | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
+> | Hornfarbe | `=this.Aussehen.Haarfarbe` |
+> | Schuppenfarbe | `=this.Aussehen.Hautfarbe` |
 >
 > ### Persönlichkeitsmerkmale 
 > `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
@@ -131,7 +134,7 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 
-#   `=this.file.name`  
+#   `=this.file.name`  Sturmzorn
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
@@ -159,6 +162,9 @@ tags:
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>
+>>## Resistenz
+>> - Blitz
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
@@ -211,7 +217,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | 3]
+> [!column | 2]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -258,28 +264,101 @@ tags:
 >> SORT file.name
 >> ```
 >
->> ![External Image Fighter Waiting Meme | 450](https://www.enworld.org/attachments/1670280997283-png.268831/)
-
-Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Aktionen
->[!column | 3]
->> ## Kampfmerkmale (Verbrauch)
+>[!column | 2]
+>> ### Blitz-Odem
+>>  - Schadensart: Blitz
+>>  - Reichweite: `=1.5*9` m (Linie)
+>>  - Schaden: `=8+(floor(((this.Attribute.Stärke)-10)/2))+(ceil(this.Stufe/4)+1)`
+>>  - Rettungswurf: [[Geschicklichkeit]] 
+>>    
+>>| Merkmal            | Verfügbar |
+>>| ------------------ |:---------:|
+>>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >>
->>## Kurze Kampfmermal Aktions-Beschreibung
->
->>## Manöver (Verbrauch)
->>
->> ## Aktuelle aktive Manöver
->>
->>## Kurze Manöver Aktions-Beschreibung
->
->> ```dataviewjs
->> const merkmale = dv.current().Merkmale.Talente; 
->> for (var i = 0, j = merkmale.length; i < j; i++) {
->> 	dv.span("![[" + dv.page(merkmale[i]).file.name + " | no-title]]");
->> }
+>> ![[Odemwaffe]]
+> 
+>> ## Zaubertricks
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=0
+>> SORT file.name
 >> ```
+>> 
+>> ## Grad 1
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=1
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 2
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=2
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 3
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> choice(Material,"X","") AS "Material", 
+>> choice(Materialkosten, "X", "") AS "Materialkosten", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=3
+>> SORT file.name
+>> ```
+>
 
 ## Übung / Merkmale
 > [!column | 3]
@@ -325,34 +404,23 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 
-## Aussehen
-- schlank
-- athletisch
-- gut aussehend
-- leichter Bartwuchs
-
 ## Hintergrundgeschichte
 
-### Kindheit & Ausbildung bei der Armee
+**Argo Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Argo war der einzige Drachengeborene unter ihnen.
 
-Jon Longbow wurde in eine Familie von Soldaten geboren, die in der königlichen Armee dienten. Sein Vater war ein bekannter General, und seine Mutter war eine erfahrene Bogenschützin, die Soldaten im Bogenschießen ausbildete. Während seiner Kindheit war Jon von den Fähigkeiten seiner Mutter im Bogenschießen fasziniert und verbrachte die meiste Zeit damit, mit Pfeil und Bogen zu üben.
-Im Alter von achtzehn Jahren trat Jon der Armee bei und trainierte hart, um ein Experte im Bogenschießen zu werden. Er stieg schnell in den Rängen auf und wurde zum Spezialisten im Bogenschießen. Sein natürliches Talent verdiente ihm den Spitznamen "Longbow" unter seinen Mitkämpfern.
-Jons derber Sinn für Humor und seine Angewohnheit Fehler lieber zu leugnen als sie zuzugeben oder Entschuldigungen zu finden brachte ihn oft in Schwierigkeiten mit seinen Vorgesetzten. Während des Trainings machte er oft sarkastische Bemerkungen, die seine Ausbilder nervten, aber seine Mitkämpfer amüsierten.
+Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Argo wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
 
-### Kampagne gegen die Orks
+Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Argo in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Argos Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
 
-Während einer Mission, um ein Dorf von raubenden Orks zu befreien, wurden Jon und seine Kameraden überfallen. Die Orks waren wilde Kämpfer, und die Schlacht war brutal und blutig. Im Chaos des Kampfes wurde Jons bester Freund und Mitbogenschütze von einem Ork getötet. Jon war von dem Verlust seines Freundes am Boden zerstört und fühlte sich für dessen Tod verantwortlich. Er wurde von Wut und einem Verlangen nach Rache gegenüber den Orks erfüllt. Er begann, sie als nichts weiter als blutrünstige Monster zu sehen, unfähig zu vernünftigem Handeln oder Mitgefühl. Als Jon weiterhin im Militär diente, traf er mehrmals auf Orks, und jede Begegnung diente nur dazu, seinen Hass zu schüren. Er sah sie als Bedrohung für die Menschheit und glaubte, dass sie ausgelöscht werden mussten.
-Er hatte oft Schwierigkeiten, seine Emotionen im Umgang mit Orks zu kontrollieren und würde oft ohne Vorwarnung auf sie losgehen, selbst wenn er damit sich selbst und seine Kameraden in Gefahr brachte.
- 
-### Entlassung aus der Armee
+Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 
-Nachdem er viele Jahre in der Armee gedient hatte, wurde Jon Longbow zunehmend desillusioniert vom Militärleben. Die Handlungen die er im Auftrag seiner Vorgesetzten durchführen musste waren im immer mehr zuwider und widersprachen seinem persönlichen Ehrempfinden. Als er eines Tages den direkten Befehl eines vorgesetzten Offiziers missachtete, wurde er für seine Insubordination ausgepeitscht und unehrenhaft aus dem Militärdienst entlassen. Sehr zum Missfallen seines Vaters.
-Von da an schlug er sich als Jäger und Söldner durchs Leben und frönte seiner Liebe zu Frauen und Alkohol um die schrecklichen Alpträume an seine verstümmelten und zerstückelten Kameraden zu verdrängen die ihn des Nachts wach halten...
+1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
 
+Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Argo besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
 
+Von dieser Vision tief bewegt, verließ Argo die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
 
-##  Bilder
->>## Jon
->>|||
->>| ------------------ |:---------:|:---------:|:---------:|
->>|**Regulärer Jon** <br/> ![[Jon.jpeg\|300]]| **Jon Longbow in Action** <br/> ![[Jon_Angriff.jpg\|300]]| **Verkleideter Long Jonbow**  <br/> ![[Jon_Rotbrenner.jpg\|300]]| **Toter Jon Longbow** <br/> ![[Jon_Tod.jpg\|300]]|
+Argos Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Argo weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
