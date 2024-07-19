@@ -1,11 +1,10 @@
 ---
 aliases: Finesse Waffe
 tags:
-- Gegenstand/Waffe
 ---
 # `=this.file.name`
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Gegenstände/Waffen/Waffen" AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND [[Finesse]]
+FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND [[Finesse]]
 ```

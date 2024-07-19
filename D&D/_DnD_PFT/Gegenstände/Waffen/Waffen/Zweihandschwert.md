@@ -6,7 +6,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Großwaffe
-  - Gegenstand/Waffe/Schwer
 Schaden: 2W6
 Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:

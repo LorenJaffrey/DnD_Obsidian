@@ -1,6 +1,6 @@
 ---
 tags:
-- Gegenstand/Waffe/Eigenschaft
+  - Merkmal/Gegenstand
 ---
 # `=this.file.name`
 

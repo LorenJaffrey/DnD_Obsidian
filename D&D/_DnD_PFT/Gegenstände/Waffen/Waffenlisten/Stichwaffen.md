@@ -1,11 +1,10 @@
 ---
 tags:
-- Gegenstand/Waffe
 ---
 # `=this.file.name`
 
 ```dataview
 TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
-FROM "_DnD/Gegenstände/Waffen/Waffen" AND #Gegenstand/Waffe/Art/Stichwaffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
+FROM #Gegenstand/Waffe/Art/Stichwaffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
 SORT größe, file.name
 ```

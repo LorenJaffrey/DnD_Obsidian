@@ -5,7 +5,6 @@ tags:
 - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Gegenstand/Waffe/Kategorie/Kriegswaffe
 - Gegenstand/Waffe/Größe/Großwaffe
-- Gegenstand/Waffe/Schwer
 Schaden:
 Schadensart:
 Eigenschaften:

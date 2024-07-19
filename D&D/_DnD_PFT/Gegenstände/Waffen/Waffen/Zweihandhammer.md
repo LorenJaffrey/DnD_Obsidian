@@ -5,7 +5,6 @@ tags:
 - Gegenstand/Waffe/Klasse/Nahkampfwaffe
 - Gegenstand/Waffe/Kategorie/Kriegswaffe
 - Gegenstand/Waffe/Größe/Großwaffe
-- Gegenstand/Waffe/Schwer
 Schaden: 1W12
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:

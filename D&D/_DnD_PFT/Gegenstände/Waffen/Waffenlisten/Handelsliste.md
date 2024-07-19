@@ -2,5 +2,5 @@
 
 ```dataview
 TABLE Kategorie, Gewicht, Kosten, Verfügbarkeit
-FROM "_DnD/Gegenstände/Waffen/Waffen"
+FROM #Gegenstand/Waffe
 ```
