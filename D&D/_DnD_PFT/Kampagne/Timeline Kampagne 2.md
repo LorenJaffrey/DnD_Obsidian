@@ -91,6 +91,7 @@ gantt
 		Altarraum nochmal untersuchen: done, a13, after a12, 2h
 		GORN verlässt verfluchten Tempel: milestone, a14, after a13, 0m
 		Ork Überfall/Angriff: milestone, a15, after a14, 15m		
+		Jon Longbow wurde getötet: milestone, a16, after a15, 10m
 ```
 
 > Hier befinden wir uns aktuell!
