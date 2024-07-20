@@ -63,7 +63,7 @@ Metamagie:
 >> 
 >> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
 >> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  1   | `$=(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad1*2)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad2*3)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad3*5)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad4*6)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad5*7)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad6*9)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad7*10)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad8*11)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad9*13)` | `INPUT[number():Zauberpunkte]` |
+>> |  `$=dv.page(dv.current().Charakter).Stufe`  | `$=(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad1*2)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad2*3)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad3*5)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad4*6)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad5*7)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad6*9)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad7*10)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad8*11)+(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad9*13)` | `INPUT[number():Zauberpunkte]` |
 >>
 >> | Zauberlevel | Umwandlungskosten |
 >> | ----------- |:-----------------:|
@@ -79,8 +79,8 @@ Metamagie:
 
 ## Metamagie
 
-![[Weitreichender Zauber]]
-![[Zielsuchzauber]]
+![[Verlängerter Zauber]]
+![[Gespiegelter Zauber]]
 
 ## Zaubertricks
 ```dataview
@@ -88,6 +88,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -107,7 +110,10 @@ SORT file.name
 TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
-Zeitaufwand, 
+Zeitaufwand,
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -128,6 +134,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -148,6 +157,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -168,6 +180,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -188,6 +203,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -207,7 +225,10 @@ SORT file.name
 TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
-Zeitaufwand, 
+Zeitaufwand,
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -227,7 +248,10 @@ SORT file.name
 TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
-Zeitaufwand, 
+Zeitaufwand,
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -247,7 +271,10 @@ SORT file.name
 TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
-Zeitaufwand, 
+Zeitaufwand,
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 
@@ -268,6 +295,9 @@ TABLE WITHOUT ID
 file.link AS "Zauber",
 Schule,
 Zeitaufwand, 
+Schadensart,
+Schaden,
+Ziel,
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 

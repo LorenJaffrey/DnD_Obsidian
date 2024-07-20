@@ -108,7 +108,7 @@ tags:
 ---
 
 > [!infobox]
-> ![[Jon.jpeg]]
+> ![[Jon - Tod.jpeg]]
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |

@@ -101,6 +101,7 @@ Zauber:
   - "[[Botschaft]]"
   - "[[Schutzwind]]"
   - "[[Spiegelbilder]]"
+ExtraRüstungsklasse: 0
 tags:
   - Charakter/GORN
 ---
@@ -162,14 +163,16 @@ tags:
 >> | ------- | ------------------------ | ------------------------ | --------------------------- |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
->> 
->>## Rüstung
->> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 >>
->>## Resistenz
->> - Blitz
+>>>[!column | 2 ] 
+>>>>## Rüstung
+>>>> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
+>>>> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+>>>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>>> | Magisches Schutzschild | `INPUT[number():ExtraRüstungsklasse]` | |
+>>>
+>>>>## Resistenz
+>>>> - Blitz
 >
 >> ## Bewegung
 >> | Gehen                                              | [[Spurt]]                                          | 
@@ -236,6 +239,11 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
+>> 
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >
 >> ### Schusswaffen 
 >> ```dataview
@@ -271,22 +279,19 @@ tags:
 >
 
 ## Aktionen
->[!column | 2]
+>[!column | 2 ]
 >> ### Blitz-Odem
->>  - Schadensart: Blitz
->>  - Reichweite: `=1.5*9` m (Linie)
->>  - Schaden: `=8+(floor(((this.Attribute.Stärke)-10)/2))+(ceil(this.Stufe/4)+1)`
->>  - Rettungswurf: [[Geschicklichkeit]] 
+>>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
+>>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | `=1.5*9` m |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >>    
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
 >>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
->>
->> ![[Odemwaffe]]
 >> 
 >> ### Metamagie
->> ![[Weitreichender Zauber]]
->> ![[Zielsuchzauber]]
+>> ![[Verlängerter Zauber]]
+>> ![[Gespiegelter Zauber]]
 > 
 >> ## Zaubertricks
 >> ```dataview
@@ -294,11 +299,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -314,11 +320,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -334,11 +341,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
@@ -354,11 +362,12 @@ tags:
 >> file.link AS "Zauber",
 >> Schule,
 >> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
->> choice(Material,"X","") AS "Material", 
->> choice(Materialkosten, "X", "") AS "Materialkosten", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
 >> choice(Ritual,"X","") AS "Ritual", 
