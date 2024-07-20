@@ -2,7 +2,7 @@
 aliases:
   - Shocking Grasp
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"

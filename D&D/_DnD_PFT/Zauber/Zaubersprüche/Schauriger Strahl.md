@@ -2,7 +2,7 @@
 aliases: 
   - Eldritch Blast
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W10
+Schadensart: "[[Energieschaden]]"
+Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"
 ---

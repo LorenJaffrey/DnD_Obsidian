@@ -2,7 +2,7 @@
 aliases:
   - Fireball
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 3
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 8W6
+Schadensart: "[[Feuerschaden]]"
+Ziel: AoE
 Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"

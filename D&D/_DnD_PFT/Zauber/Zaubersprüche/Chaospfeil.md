@@ -2,7 +2,7 @@
 aliases:
   - Chaos Bolt
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"

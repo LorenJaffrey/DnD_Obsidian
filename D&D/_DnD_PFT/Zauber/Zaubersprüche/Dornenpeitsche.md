@@ -2,7 +2,7 @@
 aliases:
   - Thorn Whip
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"

@@ -2,7 +2,7 @@
 aliases:
   - Arms of Hadar
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 1
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Aktion]]"

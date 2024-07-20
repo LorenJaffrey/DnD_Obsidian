@@ -2,7 +2,7 @@
 aliases:
   - Burning Hands
 tags:
-  - Zauber
+  - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
