@@ -1,8 +1,8 @@
 ---
 aliases:
-- Arms of Hadar
+  - Arms of Hadar
 tags:
-- Zauber
+  - Zauber
 Grad: 1
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,7 +16,7 @@ Konzentration: true
 Ritual: true
 Skalierbar: true
 Klassen: 
-- "[[Hexenmeister]]"
+  - "[[Hexenmeister]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -33,4 +33,4 @@ Tentakel aus finsterer Energie brechen aus dir hervor und schlagen auf alle Krea
 Bei einem Misserfolg erleidet ein Ziel 2W6 [[Nekrotischer Schaden]] und kann bis zu seinem nächsten [[Zug]] keine [[Reaktion]] verwenden. Bei einem erfolgreichen [[Rettungswurf]] nimmt die Kreatur halben Schaden, erleidet aber keine anderen Auswirkungen.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W6.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W6.

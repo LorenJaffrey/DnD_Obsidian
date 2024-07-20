@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasWandMagicSparkles",
       "RaMonsterSkull",
       "RaCloakAndDagger",
       "RaFire",
-      "TiBow",
-      "RaCrossedAxes"
+      "TiBow"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "_DnD_PFT/Kampagne/GORN/Jon": "TiBow",
   "_DnD_PFT/Kampagne/GORN/Lucian": "RaFire",
   "_DnD_PFT/Kampagne/GORN/Niptac": "RaCloakAndDagger",
-  "_DnD_PFT/Kampagne/GORN": "RaMonsterSkull"
+  "_DnD_PFT/Kampagne/GORN": "RaMonsterSkull",
+  "_DnD_PFT/Zauber": "FasWandMagicSparkles"
 }

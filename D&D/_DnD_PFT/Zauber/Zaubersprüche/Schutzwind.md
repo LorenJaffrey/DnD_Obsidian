@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: false
 Klassen:
-- "[[Zauberer]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -27,13 +27,14 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Ein starker Wind (30 km/h) weht in einem Radius von 3 m um dich herum und bewegt sich mit dir, wobei er auf dir zentriert bleibt. Der Wind verbleibt für die Wirkungsdauer des Zaubers.
+Ein starker Wind (30 km/h) weht in einem Radius von 3 m um dich herum und bewegt sich mit dir, wobei er auf dir zentriert bleibt. 
+Der Wind verbleibt für die Wirkungsdauer des Zaubers.
 
 Der Wind hat folgende Effekte: 
-- Er macht dich und andere Kreaturen in seinem Bereich taub. 
+- Er macht dich und andere Kreaturen in seinem Bereich [[taub]]. 
 - Er löscht ungeschützte Feuer in seinem Bereich die so groß sind wie Fackeln oder kleiner. 
-- Er halt Dampfe, Gase und Nebel ab, die von starken Winden verweht werden 
-- Der Bereich ist schwieriges Gelände für jede Kreatur außer dir. 
-- Die Angriffswürfe von Fernkampfwaffen haben Nachteil, wenn der Angriff in den Wind hinein oder aus ihm hinaus führt.
+- Er hält Dampfe, Gase und Nebel ab, die von starken Winden verweht werden 
+- Der Bereich ist [[Schwieriges Gelände]]für jede Kreatur außer dir. 
+- Die [[Angriffswurf|Angriffswürfe]] von [[Fernkampfwaffen]] haben [[Vorteil und Nachteil|Nachteil]], wenn der Angriff in den Wind hinein oder aus ihm hinaus führt.
 
 Quelle: Xanathars Ratgeber für alles, Seite: 164

@@ -16,8 +16,8 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Magier]]"
-- "[[Zauberer]]"
+  - "[[Magier]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -29,10 +29,11 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Ein gleißender Lichtblitz schießt aus einem deiner Finger zu einem Punkt deiner Wahl in Reichweite und erblüht mit einem dunklen Grollen zu einer feurigen Explosion aus Flammen. 
-Alle Kreaturen in einem Radius von 6 m um diesen Punkt müssen einen Geschicklichkeitsrettungswurf ablegen. 
+Alle Kreaturen in einem Radius von 6 m um diesen Punkt müssen einen [[Rettungswurf]] auf [[Geschicklichkeit]] ablegen. 
 Bei einem Misserfolg erleidet ein Ziel 8W6 [[Feuerschaden]] oder halb so viel Schaden bei einem erfolgreichen [[Rettungswurf]].
 
-Das Feuer kann sich um Ecken ausbreiten. Es entzündet alle brennbaren Gegenstände im Bereich, die nicht getragen oder in der Hand gehalten werden.
+Das Feuer kann sich um Ecken ausbreiten. 
+Es entzündet alle brennbaren Gegenstände im Bereich, die nicht getragen oder in der Hand gehalten werden.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 4. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 3. hinaus um 1W6.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 4. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 3. hinaus um 1W6.

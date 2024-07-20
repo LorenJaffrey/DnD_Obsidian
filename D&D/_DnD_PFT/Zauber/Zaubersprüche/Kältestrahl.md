@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Zauberer]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -27,8 +27,10 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Ein eisiger Strahl aus blau-weißem Licht schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. 
-Bei einem Treffer erleidet die Kreatur 1W8 Kälteschaden und ihre Bewegungsrate wird bis zum Beginn deines nächsten Zuges um 3 m verringert 
+*Ein eisiger Strahl aus blau-weißem Licht schießt auf eine Kreatur in Reichweite zu.*
+
+Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff gegen das Ziel aus. 
+Bei einem Treffer erleidet die Kreatur 1W8 [[Kälteschaden]] und ihre [[Bewegungsrate]] wird bis zum Beginn deines nächsten Zuges um 3 m verringert 
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W8 bei Erreichen höherer Stufen:

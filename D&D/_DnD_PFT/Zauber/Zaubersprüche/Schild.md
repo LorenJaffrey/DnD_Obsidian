@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: false
 Klassen:
-- "[[Zauberer]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -27,6 +27,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer:  1 Runde
 
 ## Beschreibung
-Eine unsichtbare Barriere aus magischer Energie erscheint und schützt dich. Bis zum Beginn deines nächsten Zuges hast du einen Bonus von +5 auf deine RK, auch gegen den auslösenden Angriff, und erleidest keinen Schaden durch den Zauber Magisches Geschoss.
+*Eine unsichtbare Barriere aus magischer Energie erscheint und schützt dich.*
+
+Bis zum Beginn deines nächsten Zuges hast du einen Bonus von +5 auf deine [[Rüstungsklasse]], auch gegen den auslösenden Angriff, und erleidest keinen Schaden durch den Zauber [[Magisches Geschoss]].
 
 Quelle: Players Handbook, Seite: 260

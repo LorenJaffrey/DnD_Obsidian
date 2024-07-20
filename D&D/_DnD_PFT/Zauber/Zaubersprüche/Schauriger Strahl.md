@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Eldritch Blast
+  - Eldritch Blast
 tags:
-- Zauber
+  - Zauber
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Hexenmeister]]"
+  - "[[Hexenmeister]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

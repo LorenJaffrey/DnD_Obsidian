@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Thaumaturgy
+  - Thaumaturgy
 tags: 
-- Zauber
+  - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: false
 Klassen:
-- "[[Kleriker]]"
+  - "[[Kleriker]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

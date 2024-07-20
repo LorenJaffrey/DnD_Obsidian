@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Poison Spray
+  - Poison Spray
 tags: 
-- Zauber
+  - Zauber
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,11 +16,11 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Druide]]"
-- "[[Hexenmeister]]"
-- "[[Magier]]"
-- "[[Magieschmied]]"
-- "[[Zauberer]]"
+  - "[[Druide]]"
+  - "[[Hexenmeister]]"
+  - "[[Magier]]"
+  - "[[Magieschmied]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

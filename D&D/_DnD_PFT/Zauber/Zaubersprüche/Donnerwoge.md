@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Thunderwave
+  - Thunderwave
 tags: 
-- Zauber
+  - Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,10 +16,10 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Barde]]"
-- "[[Druide]]"
-- "[[Magier]]"
-- "[[Zauberer]]"
+  - "[[Barde]]"
+  - "[[Druide]]"
+  - "[[Magier]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -32,11 +32,11 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 *Eine Woge aus donnernder Kraft geht von dir aus.* 
 
-Jede Kreatur in einem Würfel mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. Bei einem Misserfolg erleidet eine Kreatur 2W8 [[Schallschaden]] und wird 3 m von dir weggestoßen.
-
+Jede Kreatur in einem Würfel mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. 
+Bei einem Misserfolg erleidet eine Kreatur 2W8 [[Schallschaden]] und wird 3 m von dir weggestoßen.
 Bei einem erfolgreichen [[Rettungswurf]] erleidet die Kreatur nur den halben Schaden und wird nicht weggestoßen.
-
-Nicht gesicherte oder befestigte Gegenstände, die sich vollständig innerhalb des Wirkungsbereichs befinden, werden automatisch 3 m von dir weggestoßen. Der Zauber erzeugt ein donnerndes Dröhnen, das bis in 90 m Entfernung hörbar ist.
+Nicht gesicherte oder befestigte Gegenstände, die sich vollständig innerhalb des Wirkungsbereichs befinden, werden automatisch 3 m von dir weggestoßen. 
+Der Zauber erzeugt ein donnerndes Dröhnen, das bis in 90 m Entfernung hörbar ist.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W8.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W8.

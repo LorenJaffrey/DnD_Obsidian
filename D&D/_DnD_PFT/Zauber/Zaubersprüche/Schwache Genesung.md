@@ -16,12 +16,12 @@ Konzentration: false
 Ritual: false
 Skalierbar: false
 Klassen:
-- "[[Barde]]"
-- "[[Druide]]"
-- "[[Kleriker]]"
-- "[[Paladin]]"
-- "[[Waldläufer]]"
-- "[[Magieschmied]]"
+  - "[[Barde]]"
+  - "[[Druide]]"
+  - "[[Kleriker]]"
+  - "[[Paladin]]"
+  - "[[Waldläufer]]"
+  - "[[Magieschmied]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*

@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Zauberer]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -28,7 +28,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Du erzeugst einen Ausbruch donnernden Klangs, den man bis zu 30 m weit hören kann. 
-Jede andere Kreatur innerhalb der Reichweite außer dir muss einen Konstitutionsrettungswurf bestehen oder 1W6 Schallschaden erleiden. 
+Jede andere Kreatur innerhalb der Reichweite außer dir muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen oder 1W6 [[Schallschaden]] erleiden. 
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:

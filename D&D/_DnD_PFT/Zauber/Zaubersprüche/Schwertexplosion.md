@@ -16,10 +16,10 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Magieschmied]]"
-- "[[Zauberer]]"
-- "[[Magier]]"
-- "[[Hexenmeister]]"
+  - "[[Magieschmied]]"
+  - "[[Zauberer]]"
+  - "[[Magier]]"
+  - "[[Hexenmeister]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -30,7 +30,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Für einen Moment fegt eine Schar spektraler Klingen in Kreisform um dich herum. 
+*Für einen Moment fegt eine Schar spektraler Klingen in Kreisform um dich herum.*
+
 Alle Kreaturen innerhalb von 1,5 Metern müssen einen [[Rettungswurf]] auf [[Geschicklichkeit]] ausführen, ansonsten erleiden sie 1W6 [[Energieschaden]].
 
 ### Auf höheren Graden

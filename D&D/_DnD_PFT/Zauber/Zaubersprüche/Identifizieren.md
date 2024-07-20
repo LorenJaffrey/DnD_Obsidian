@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Identify
+  - Identify
 tags: 
-- Zauber
+  - Zauber
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
 Zeitaufwand: 1m
@@ -16,9 +16,9 @@ Konzentration: false
 Ritual: true
 Skalierbar: false
 Klassen:
-- "[[Barde]]"
-- "[[Magier]]"
-- "[[Magieschmied]]"
+  - "[[Barde]]"
+  - "[[Magier]]"
+  - "[[Magieschmied]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*

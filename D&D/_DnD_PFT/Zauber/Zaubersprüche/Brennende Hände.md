@@ -1,8 +1,8 @@
 ---
 aliases:
-- Burning Hands
+  - Burning Hands
 tags:
-- Zauber
+  - Zauber
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,8 +16,8 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Magier]]"
-- "[[Zauberer]]"
+  - "[[Magier]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -35,4 +35,4 @@ Jede Kreatur in einem Kegel von 4,50 m muss einen [[Rettungswurf]] auf [[Geschic
 Das Feuer entzündet alle brennbaren Gegenstände im [[Zauber wirken#Wirkungsbereich]], die nicht getragen oder in der Hand gehalten werden.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W6.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W6.

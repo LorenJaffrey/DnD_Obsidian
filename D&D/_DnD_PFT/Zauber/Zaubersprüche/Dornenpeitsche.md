@@ -1,8 +1,8 @@
 ---
 aliases:
-- Thorn Whip
+  - Thorn Whip
 tags:
-- Zauber
+  - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,8 +16,8 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Druide]]"
-- "[[Magieschmied]]"
+  - "[[Druide]]"
+  - "[[Magieschmied]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*

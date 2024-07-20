@@ -1,8 +1,8 @@
 ---
 aliases: 
-- Bane
+  - Bane
 tags: 
-- Zauber
+  - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -16,8 +16,8 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Barde]]"
-- "[[Kleriker]]"
+  - "[[Barde]]"
+  - "[[Kleriker]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -32,4 +32,4 @@ Bis zu drei Kreaturen deiner Wahl in Reichweite, die du sehen kannst, müssen ei
 Immer wenn ein Ziel, dem sein [[Rettungswurf]] nicht gelungen ist, während der Wirkungsdauer des Zaubers einen [[Angriffswurf]] oder [[Rettungswurf]] ausführt, muss es mit einem W4 würfeln und das Ergebnis vom entsprechenden Wurf abziehen.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grades wirkst, kannst du für jeden Grad über den 1. hinaus eine zusätzliche Kreatur als Ziel wählen.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, kannst du für jeden [[Zaubergrad|Grad]] über den 1. hinaus eine zusätzliche Kreatur als Ziel wählen.

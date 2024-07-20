@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-- "[[Zauberer]]"
+  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -27,7 +27,11 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Blitze springen aus deinen Händen und versetzen einer Kreatur. die du berührst, einen Schock. Führe einen Nahkampf-Zauberangriff gegen das Ziel durch. Du bist im Vorteil bei diesem Angriffswurf, wenn das Ziel eine Rüstung tragt, die aus Metall besteht. Bei einem Treffer erleidet die Kreatur 1W8 Blitzschaden und kann bis zum Beginn deines nächsten Zuges keine Reaktionen durchführen
+*Blitze springen aus deinen Händen und versetzen einer Kreatur. die du berührst, einen Schock.*
+
+Führe einen [[Nahkampfangriff|Nahkampf]]-Zauberangriff gegen das Ziel durch. 
+Du bist im [[Vorteil und Nachteil|Vorteil]] bei diesem [[Angriffswurf]], wenn das Ziel eine [[Rüstungen|Rüstung]] tragt, die aus Metall besteht. 
+Bei einem Treffer erleidet die Kreatur 1W8 [[Blitzschaden]] und kann bis zum Beginn deines nächsten Zuges keine [[Reaktion]] durchführen
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W8 bei Erreichen höherer Stufen:
