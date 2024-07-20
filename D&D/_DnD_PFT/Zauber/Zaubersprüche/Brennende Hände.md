@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 3W6
+Schadensart: "[[Feuerschaden]]"
+Ziel: AoE
 Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"

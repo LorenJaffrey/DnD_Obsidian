@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 2W8
+Schadensart: "[[Schallschaden]]"
+Ziel: AoE
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"

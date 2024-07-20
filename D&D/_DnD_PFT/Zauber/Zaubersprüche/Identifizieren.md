@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
+Schaden: W20
+Schadensart: 
+Ziel: Einzel
 Klassen:
   - "[[Barde]]"
   - "[[Magier]]"

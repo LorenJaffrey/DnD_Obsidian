@@ -15,6 +15,9 @@ Dauer: 1h
 Konzentration: false
 Ritual: false
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel:
 Klassen:
   - "[[Barde]]"
   - "[[Magier]]"

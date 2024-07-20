@@ -11,10 +11,13 @@ Verbal: true
 Geste: false
 Material: false
 Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Dauer: 10 Minuten
+Konzentration: true
 Ritual: false
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
 ---

@@ -13,6 +13,9 @@ Dauer: 1m
 Konzentration: false
 Ritual: false
 Skalierbar: false
+Schaden: W10
+Schadensart: 
+Ziel: Selbst
 Klassen:
   - "[[Druide]]"
 ---

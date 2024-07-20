@@ -15,6 +15,9 @@ Dauer: 10m
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W8
+Schadensart: "[[Feuerschaden]]" 
+Ziel: Einzel
 Klassen:
   - "[[Druide]]"
 ---

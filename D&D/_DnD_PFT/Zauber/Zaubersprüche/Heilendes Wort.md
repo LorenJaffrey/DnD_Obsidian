@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W4
+Schadensart: 
+Ziel: Einzel
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"

@@ -11,10 +11,13 @@ Verbal: true
 Geste: true
 Material: false
 Materialkosten: 
-Dauer: unmittelbar
+Dauer: 1 Runde
 Konzentration: false
 Ritual: false
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
 ---

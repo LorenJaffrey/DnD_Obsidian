@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W6
+Schadensart: "[[Schallschaden]]"
+Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
 ---

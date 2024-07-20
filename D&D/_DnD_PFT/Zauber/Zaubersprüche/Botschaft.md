@@ -15,6 +15,9 @@ Dauer: 1 Runde
 Konzentration: false
 Ritual: false
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
 ---

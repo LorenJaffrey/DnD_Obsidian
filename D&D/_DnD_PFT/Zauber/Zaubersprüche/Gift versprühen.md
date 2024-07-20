@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W12
+Schadensart: "[[Giftschaden]]"
+Ziel: Einzel
 Klassen:
   - "[[Druide]]"
   - "[[Hexenmeister]]"

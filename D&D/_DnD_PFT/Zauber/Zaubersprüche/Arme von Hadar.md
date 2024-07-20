@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: true
 Ritual: true
 Skalierbar: true
+Schaden: 2W6
+Schadensart: "[[Nekrotischer Schaden]]"
+Ziel: AoE
 Klassen: 
   - "[[Hexenmeister]]"
 ---

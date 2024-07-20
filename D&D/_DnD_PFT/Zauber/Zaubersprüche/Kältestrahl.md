@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W8
+Schadensart: "[[Kälteschaden]]"
+Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
 ---

@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel:
 Klassen:
   - "[[Magier]]"
 ---

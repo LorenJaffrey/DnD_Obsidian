@@ -15,6 +15,9 @@ Dauer: 1m
 Konzentration: false
 Ritual: false
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: Einzel
 Klassen:
   - "[[Barde]]"
   - "[[Hexenmeister]]"

@@ -15,6 +15,9 @@ Dauer: 10m
 Konzentration: true
 Ritual: true
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: AoE
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"

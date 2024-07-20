@@ -15,6 +15,9 @@ Dauer: 10 Minuten
 Konzentration: false
 Ritual: true
 Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel:
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"
