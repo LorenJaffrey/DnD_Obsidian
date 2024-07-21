@@ -1,3 +1,8 @@
+---
+aliases:
+  - Druidenzauber
+---
+
 # `=this.file.name`
 
 ```dataview

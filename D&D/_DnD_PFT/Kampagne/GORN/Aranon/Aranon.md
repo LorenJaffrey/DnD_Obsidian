@@ -87,7 +87,7 @@ Merkmale:
     - "[[Druidisch]]"
     - "[[Tiergestalt]]"
     - "[[Geistertotem]]"
-    - "[[Zauberwirken Druide]]"
+    - "[[Druidisches Zauberwirken]]"
   Talente:
     - "[[Von Feen berührt]]"
 Hintergrund:
