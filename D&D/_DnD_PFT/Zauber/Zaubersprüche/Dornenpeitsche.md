@@ -15,6 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
+Schaden: 1W6
+Schadensart: "[[Stichschaden]]"
+Ziel: AoE
 Klassen:
   - "[[Druide]]"
   - "[[Magieschmied]]"
@@ -29,7 +32,8 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Du erschaffst eine lange, rankenartige Peitsche, die mit Dornen bedeckt ist und die auf deinen Befehl hin nach einer Kreatur in Reichweite schlägt. 
-Führe einen Nahkampf-Zauberangriff gegen das Ziel durch. Wenn der Angriff trifft, erleidet die Kreatur 1W6 [[Stichschaden]] . 
+Führe einen [[Nahkampfangriff|Nahkampf]]-Zauberangriff gegen das Ziel durch. 
+Wenn der Angriff trifft, erleidet die Kreatur 1W6 [[Stichschaden]] . 
 Handelt es sich um eine Kreatur der [[Größenkategorie]] [[Groß]] oder kleiner, wird sie zusätzlich 3 m in deine Richtung gezogen.
 
 ### Auf höheren Graden

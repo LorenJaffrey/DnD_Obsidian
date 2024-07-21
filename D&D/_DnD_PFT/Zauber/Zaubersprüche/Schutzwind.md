@@ -37,7 +37,7 @@ Der Wind hat folgende Effekte:
 - Er macht dich und andere Kreaturen in seinem Bereich [[taub]]. 
 - Er löscht ungeschützte Feuer in seinem Bereich die so groß sind wie Fackeln oder kleiner. 
 - Er hält Dampfe, Gase und Nebel ab, die von starken Winden verweht werden 
-- Der Bereich ist [[Schwieriges Gelände]]für jede Kreatur außer dir. 
+- Der Bereich ist [[Schwieriges Gelände]] für jede Kreatur außer dir. 
 - Die [[Angriffswurf|Angriffswürfe]] von [[Fernkampfwaffen]] haben [[Vorteil und Nachteil|Nachteil]], wenn der Angriff in den Wind hinein oder aus ihm hinaus führt.
 
 Quelle: Xanathars Ratgeber für alles, Seite: 164
