@@ -11,7 +11,7 @@ Verbal: true
 Geste: true
 Material: false
 Materialkosten: 
-Dauer: unmittelbar
+Dauer: 1 Minute
 Konzentration: false
 Ritual: false
 Skalierbar: false
@@ -41,7 +41,7 @@ Als [[Aktion]] kannst du die illusionären Duplikate jederzeit fortschicken.
 Immer wenn du während der Wirkungsdauer Ziel eines [[Angriff|Angriffs]] wirst, würfle mit einem W20, um zu bestimmen, ob der Angriff dir gilt oder einem deiner Duplikate.
 
 Verfügst du über alle drei Duplikate, wird ein Angriff auf eines von ihnen übertragen, wenn du eine 6 oder höher würfelst. 
-Beizwei Duplikaten musst du eine 8 oder höher würfeln, bei einem Duplikat eine 11 oder höher.
+Bei zwei Duplikaten musst du eine 8 oder höher würfeln, bei einem Duplikat eine 11 oder höher.
 
 Die [[Rüstungsklasse]] eines Duplikats ist 10 + den [[Geschicklichkeit#Geschicklichkeitsmodifikator]]. 
 Wenn ein Angriff ein Duplikat trifft, wird es zerstört.
