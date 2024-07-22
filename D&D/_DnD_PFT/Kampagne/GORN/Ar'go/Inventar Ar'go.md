@@ -1,11 +1,11 @@
 ---
 Charakter: "[[Ar'go]]"
 Geld:
-  PM: 10
-  GM: 100
-  EM: 3
-  SM: 5
-  KM: 9
+  PM: 0
+  GM: 5
+  EM: 0
+  SM: 0
+  KM: 0
 ---
 # `=this.file.name`
 > [!infobox]
@@ -28,12 +28,21 @@ Geld:
 
 ## Am Körper
 | Gegenstand                   | Anzahl | Gewicht | Gesamt |
-| ---------------------------- |:------:|:-------:|:------:| 
+| ---------------------------- |:------:|:-------:|:------:|
 | [[Dolch]]                    |   2    |    1    |   2    |
-| [[Kampfstab]]                |   1    |    4    |   1    | 
+| [[Kampfstab]]                |   1    |    4    |   1    |
 | [[Arkaner Fokus]] - Kristall |   1    |    1    |   1    |
+| Gewöhnliche Kleidung         |   1    |    3    |   3    | 
 |                              |        |         |        |
 | GESAMT                       |        |         |   4    |
+<!-- TBLFM: $>=($-1*$-2) -->
+<!-- TBLFM: @>$>=sum(@I..@-1) -->
+
+## Schriftrollenbehälter
+| Gegenstand         | Anzahl | Gewicht | Gesamt |
+| ------------------ |:------:|:-------:|:------:|
+|                    |        |         |        |
+| GESAMT             |        |         |  0  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
@@ -48,6 +57,8 @@ Geld:
 | [[Ration]]         |   10   |    1    |   10   |
 | [[Trinkschlauch]]  |   1    |    -    |   -    |
 | [[Seil aus Hanf]]  | 15 (m) |   0.6   |   9    |
-| GESAMT             |        |         |  40.5  | 
+| Winterdecke        |   1    |    0    |   0    |
+|                    |        |         |        |
+| GESAMT             |        |         |  40.5  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

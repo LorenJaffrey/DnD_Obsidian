@@ -28,29 +28,31 @@ Rettungswürfe:
   Charisma: 1
 Fertigkeiten:
   Akrobatik: 0
-  Arkane_Kunde: 2
+  Arkane_Kunde: 1
   Athletik: 0
   Auftreten: 0
-  Einschüchtern: 2
+  Einschüchtern: 1
   Fingerfertigkeit: 0
   Geschichte: 0
-  Heilkunde: 0
+  Heilkunde: 1
   Heimlichkeit: 0
   Mit_Tieren_umgehen: 0
-  Motiv_erkennen: 1
+  Motiv_erkennen: 0
   Nachforschungen: 0
-  Naturkunde: 1
+  Naturkunde: 0
   Religion: 1
-  Täuschen: 1
+  Täuschen: 0
   Überlebenskunst: 0
-  Überzeugen: 1
+  Überzeugen: 0
   Wahrnehmung: 0
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
     - "[[Urtümlich]]"
     - "[[Drakonisch]]"
+    - "[[Celestisch]]"
   Werkzeuge:
+    - "[[Kräuterkunde-Ausrüstung]]"
   Rüstungen:
   Waffen:
     - "[[Dolch]]"
@@ -282,7 +284,7 @@ tags:
 >> ### Blitz-Odem
 >>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
 >>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | `=1.5*9` m |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang) |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >>    
 >>| Merkmal            | Verfügbar |
 >>| ------------------ |:---------:|
