@@ -2,6 +2,7 @@
 aliases:
 tags:
   - Merkmal/Klasse/Zauberer/Sturmzauberei
+Einsatz: Passiv
 ---
 # `=this.file.name`
 Du erhältst [[Schadensarten#Schadensimmunität]] gegen [[Blitzschaden]] und [[Schallschaden]].

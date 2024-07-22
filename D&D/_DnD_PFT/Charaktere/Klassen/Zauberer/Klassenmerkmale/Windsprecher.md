@@ -2,6 +2,7 @@
 aliases:
 tags:
   - Merkmal/Klasse/Zauberer/Sturmzauberei
+Einsatz: Passiv
 ---
 # `=this.file.name`
 *Die arkane Magie, über die du gebietest, ist von dem Element der Luft durchdrungen.*
