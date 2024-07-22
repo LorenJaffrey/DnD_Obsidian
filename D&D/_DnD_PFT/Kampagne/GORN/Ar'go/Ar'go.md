@@ -1,5 +1,5 @@
 ---
-Name: Argo
+Name: Ar'go
 Stufe: 4
 Bewegung: 6
 Rüstung: 
@@ -83,25 +83,24 @@ Hintergrund:
   Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-    - <ul><b>Respekt vor der Natur</b></ul>Argo empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
+    - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
   Ideale: 
     - <ul><b>Gleichgewicht</b></ul>Das Gleichgewicht der Natur und der Elemente ist das höchste Gut und muss um jeden Preis bewahrt werden.
   Bindungen:
     - <ul><b>Tempestus-Kristall</b></ul>Die Fragmente des Kristalls sind für ihn mehr als nur ein Ziel; sie sind heilige Objekte, die er mit größtem Respekt behandelt.
   Makel:
-    - <ul><b>Unbarmherzigkeit</b></ul>Im Kampf um das Gleichgewicht der Natur kann Argo unbarmherzig und kompromisslos sein, was ihm Feinde einbringen kann.
+    - <ul><b>Unbarmherzigkeit</b></ul>Im Kampf um das Gleichgewicht der Natur kann Ar'gonthariel Maez'ralor unbarmherzig und kompromisslos sein, was ihm Feinde einbringen kann.
 Zauber:
   - "[[Windbö]]"
   - "[[Schockgriff]]"
   - "[[Donnerschlag]]"
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
-  - "[[Schild]]"
+  - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
-  - "[[Botschaft]]"
+  - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Spiegelbilder]]"
-ExtraRüstungsklasse: 0
+  - "[[Snillocs Schneeballschwarm]]"
 tags:
   - Charakter/GORN
 ---
@@ -140,7 +139,7 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 
-#   `=this.file.name`  Sturmzorn
+#   `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | 3 ]
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
@@ -166,10 +165,10 @@ tags:
 >>
 >>>[!column | 2 ] 
 >>>>## Rüstung
->>>> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->>>> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->>>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | Magisches Schutzschild | `INPUT[number():ExtraRüstungsklasse]` | |
+>>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
+>>>> | --------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+>>>> | <input type="checkbox" checked id="067501"> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>>> | <input type="checkbox" unchecked id="067500"> |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
 >>>
 >>>>## Resistenz
 >>>> - Blitz
@@ -290,7 +289,7 @@ tags:
 >>| Blitz-Odem | <input type="checkbox" unchecked id="3db931">|
 >> 
 >> ### Metamagie
->> ![[Verlängerter Zauber]]
+>> ![[Beschleunigter Zauber]]
 >> ![[Gespiegelter Zauber]]
 > 
 >> ## Zaubertricks
@@ -428,11 +427,11 @@ tags:
 
 ## Hintergrundgeschichte
 
-**Argo Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Argo war der einzige Drachengeborene unter ihnen.
+**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
 
-Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Argo wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
 
-Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Argo in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Argos Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
 
 Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 
@@ -441,8 +440,8 @@ Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile
 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
 4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
 
-Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Argo besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
 
-Von dieser Vision tief bewegt, verließ Argo die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
 
-Argos Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Argo weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.

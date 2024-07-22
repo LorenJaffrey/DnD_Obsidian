@@ -1,5 +1,5 @@
 ---
-Charakter: "[[Argo]]"
+Charakter: "[[Ar'go]]"
 Geld:
   PM: 10
   GM: 100

@@ -1,5 +1,5 @@
 ---
-Charakter: "[[Argo]]"
+Charakter: "[[Ar'go]]"
 Zaubertricks: 4
 Bekannte_Zauber: 2
 Zauberplätze:
@@ -19,11 +19,11 @@ Zauber:
   - "[[Donnerschlag]]"
   - "[[Kältestrahl]]"
   - "[[Hexenpfeil]]"
-  - "[[Schild]]"
+  - "[[Magierrüstung]]"
   - "[[Chaospfeil]]"
-  - "[[Botschaft]]"
+  - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Spiegelbilder]]"
+  - "[[Snillocs Schneeballschwarm]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
   - "[[Zielsuchzauber]]"
@@ -79,7 +79,7 @@ Metamagie:
 
 ## Metamagie
 
-![[Verlängerter Zauber]]
+![[Beschleunigter Zauber]]
 ![[Gespiegelter Zauber]]
 
 ## Zaubertricks
