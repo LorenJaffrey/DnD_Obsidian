@@ -72,4 +72,13 @@
 >[!timeline|t-l] **Gegen Schleim-Monster gekämpft**
 >![[Ooze.jpeg]] <br /> \*Wichtig: **STICH ES AB!**
 
+> [!timeline|t-r] **Mienenarbeiter Zwerge sind vor Gier explodiert**
+> 
+
+>[!timeline|t-l] **Ork Überfall vor der Ruine**
+>
+
+> [!timeline|t-r] **Jon ist gestorben!**
+>
+
 >[!timeline|t-l] **to be continued**
