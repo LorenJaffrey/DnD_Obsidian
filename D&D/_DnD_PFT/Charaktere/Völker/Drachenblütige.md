@@ -1,15 +1,15 @@
 ---
 aliases:
-- Drachenblütiger
-- Drachenblütigen
+  - Drachenblütiger
+  - Drachenblütigen
 Bewegungsrate: 9 Meter
 Attribute:
-- +2 [[Stärke]]
-- +1 [[Charisma]]
+  - +2 [[Stärke]]
+  - +1 [[Charisma]]
 Merkmale:
-- "[[Drakonische Abstammung]]"
-- "[[Odemwaffe]]"
-- "[[Drakonische Resistenz]]"
+  - "[[Drakonische Abstammung]]"
+  - "[[Drakonische Odemwaffe]]"
+  - "[[Drakonische Resistenz]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title wfit] `= this.file.name`
