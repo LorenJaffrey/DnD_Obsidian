@@ -12,5 +12,4 @@ Bei einem kritischen Treffer wird auf der jeweiligen kritischen Schadenstabelle 
 - [[Hiebschaden#Kritischer Hiebschaden]]
 - [[Stichschaden#Kritischer Stichschaden]]
 
-
 - [ ] #task Kritische Schadenstabellen einpflegen [priority:: normal]

@@ -1,6 +1,8 @@
 ---
+aliases:
+  - Bewusstlosigkeit
 tags:
-- Zustand
+  - Zustand
 ---
 # `=this.file.name`
 

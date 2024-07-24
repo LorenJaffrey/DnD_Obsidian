@@ -1,10 +1,11 @@
 # `=this.file.name`
 
-Wenn eine Kreatur oder ein Gegenstand Schaden erleidet, wird dieser von den aktuellen [[Trefferpunkte]]n abgezogen. 
+Wenn eine Kreatur oder ein Gegenstand Schaden erleidet, wird dieser von den aktuellen [[Trefferpunkte|Trefferpunkten]] abgezogen. 
 
 ## Bewusstsein verlieren
 Wenn Schaden die [[Trefferpunkte]] einer Kreatur auf 0 reduziert aber nicht sofort tötet, verliert sie das Bewusstsein (siehe [[Bewusstlos]]).
-Die [[Bewusstlos]]igkeit endet wenn [[Trefferpunkte]] regeneriert wurden.
+Eine [[Bewusstlos|bewusstlose]] Kreatur erhält eine Stufe [[Erschöpft|Erschöpfung]]  sobald sie wieder zu Bewusstsein kommt.
+Die [[Bewusstlos|Bewusstlosigkeit]] endet wenn [[Trefferpunkte]] regeneriert wurden.
 
 ## Schaden bei 0 Trefferpunkten
 Schaden bei 0 [[Trefferpunkte]]n zählt als ein Misserfolg wie bei einem misslungenen [[Todesrettungswürfe|Todesrettungswurf]].

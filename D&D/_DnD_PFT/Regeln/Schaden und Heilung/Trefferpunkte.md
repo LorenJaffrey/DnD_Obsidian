@@ -1,5 +1,7 @@
 ---
-aliases: Trefferpunkt
+aliases: 
+  - Trefferpunkt
+  - Trefferpunkten
 ---
 # `=this.file.name`
 
