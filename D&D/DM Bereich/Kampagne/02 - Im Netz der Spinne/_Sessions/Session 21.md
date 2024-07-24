@@ -3,6 +3,9 @@
 ## Organisatorisches
 - [[Kräuterkunde]] fast fertig...
 - [[Reisen]]
+- [[Erschöpft|Erschöpfung]] bei den Charakteren
+- [[Schaden erleiden#Bewusstsein verlieren]] Änderung Erschöpfung
+- Level Up
 
 ## Recap
 - Kampf gegen die Orks
@@ -10,9 +13,8 @@
 ![[Timeline Kampagne 2#Tag 6]]
 
 ## Ablauf
-- Rückkehr nach Phandalin?
+- Rückkehr nach Phandalin
 - Jon wiederbeleben?
-
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
 
