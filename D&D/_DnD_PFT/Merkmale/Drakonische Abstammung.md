@@ -2,12 +2,16 @@
 aliases: 
 tags:
   - Merkmal
-Einsatz: "[[Passiv]]"
+Einsatz: Passiv
 ---
 # `=this.file.name`
 *Deine Vorfahren waren Drachen.*
-Wähle eine Drachenart aus der Tabelle für drakonische Abstammung, die deine [[Drakonische Odemwaffe]] und deine [[Drakonische Schadensresistenz]] festlegt. 
 
+Wähle eine Drachenart aus der untenstehenden Tabelle. 
+Du erhältst [[Schadensarten#Schadensresistenz]] gegen die angegebene [[Schadensarten|Schadensart]].
+Die gewählte Drachenart muss mit deiner [[Drakonische Odemwaffe|Drakonischen Odemwaffe]] übereinstimmen.
+
+##### Tabelle Drakonische Abstammung
 | Drache  | Schadensart      | Odemwaffe       | Rettungswurf         |
 | ------- | ---------------- | --------------- | -------------------- |
 | Schwarz | [[Säureschaden]] | 1,5m x 9m Linie | [[Geschicklichkeit]] |

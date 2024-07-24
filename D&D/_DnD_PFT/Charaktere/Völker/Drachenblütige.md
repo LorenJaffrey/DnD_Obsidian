@@ -9,7 +9,9 @@ Attribute:
 Merkmale:
   - "[[Drakonische Abstammung]]"
   - "[[Drakonische Odemwaffe]]"
-  - "[[Drakonische Resistenz]]"
+Sprachen:
+  - "[[Gemeinsprache]]"
+  - "[[Drakonisch]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title wfit] `= this.file.name`
@@ -38,12 +40,15 @@ Sie erreichen ein Alter von bis zu 80 Jahren.
 | ---------- | ----------------- | ------------ | ------------------- |
 | 165 cm     | 2W8               | 175 Pfund    | 2W6                 |
 
+| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
+| ---------- | ----------------- | ------------ | ------------------- |
+| 165 cm     | `dice-: 2d8\|avg` | 175 Pfund    | `dice-: 2d3\|none`  |
+
 Größe = Grundgröße + Größenmodifikator x 2,5 cm
 Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
 
 ## Sprachen
-- Gemeinsprache
-- Drakonisch
+`=this.Sprachen`
 
 ## Beschreibung
 Von Drachen abstammend, wie ihr Name verrät, wandeln die [[Drachenblütige|Drachenblütigen]] durch die Welt, die mit furchtsamer Verständnislosigkeit auf sie reagiert. 
