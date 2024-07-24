@@ -105,7 +105,7 @@ Zauber:
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
 tags:
-  - Charakter/GORN
+  - Charakter
 ---
 
 > [!infobox]
