@@ -9,7 +9,6 @@ Schaden: 2W5
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
-- "[[Unhandlich]]"
 - "[[Langsam]]"
 - "[[Heimtückisch]]"
 
