@@ -30,3 +30,4 @@ Ar'gonthariel ist aufgrund seines abgeschiedenen Lebens auf einer Insel, auf der
 - forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
 - da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
 - schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+- Gruppe ließ in in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten

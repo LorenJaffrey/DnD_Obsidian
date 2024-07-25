@@ -1,5 +1,5 @@
 ---
-Stufe: 4
+Stufe: 5
 Niptac:
   Anzahl_Apparaturen: 2
   Energiekerngröße: W6

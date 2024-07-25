@@ -1,5 +1,5 @@
 ---
-Stufe: 4
+Stufe: 5
 Bewegung: 6
 Rüstung: "[[Lederrüstung]]"
 Schild: "[[Holzschild]]"
@@ -8,9 +8,9 @@ Waffen:
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
-  MaxTP: 31
-  TP: 29
-  TW: 4
+  MaxTP: 38
+  TP: 38
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 8
@@ -88,6 +88,7 @@ Merkmale:
     - "[[Tiergestalt]]"
     - "[[Geistertotem]]"
     - "[[Druidisches Zauberwirken]]"
+    - "[[Verbesserte Tiergestalt]]"
   Talente:
     - "[[Von Feen berührt]]"
 Hintergrund:

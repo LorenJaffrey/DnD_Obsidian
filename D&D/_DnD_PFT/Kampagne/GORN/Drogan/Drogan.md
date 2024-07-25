@@ -1,5 +1,5 @@
 ---
-Stufe: 4
+Stufe: 5
 Bewegung: 5
 Rüstung: 
 Schild: 
@@ -9,9 +9,9 @@ Waffen:
   - "[[Axt]]"
   - "[[Wurfspeer]]"
 Gesundheit:
-  MaxTP: 39
-  TP: 20
-  TW: 3
+  MaxTP: 60
+  TP: 60
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 18
@@ -85,6 +85,8 @@ Merkmale:
     - "[[Gefahrengespür]]"
     - "[[Titanengriff]]"
     - "[[Furchtlos und Unerschütterlich]]"
+    - "[[Schnelle Bewegung]]"
+    - "[[Zusätzlicher Angriff]]"
   Talente:
     - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:

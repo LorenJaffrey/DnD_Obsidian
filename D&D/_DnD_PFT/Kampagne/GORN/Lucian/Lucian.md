@@ -1,5 +1,5 @@
 ---
-Stufe: 4
+Stufe: 5
 Bewegung: 6
 Rüstung: "[[Beschlagene Lederrüstung]]"
 Schild:
@@ -7,9 +7,9 @@ Waffen:
 - "[[Dolch]]"
 - "[[Kampfstab]]"
 Gesundheit:
-  MaxTP: 29
-  TP: 16
-  TW: 4
+  MaxTP: 38
+  TP: 38
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 10
