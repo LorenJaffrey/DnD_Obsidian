@@ -24,10 +24,9 @@ Ar'gonthariel ist aufgrund seines abgeschiedenen Lebens auf einer Insel, auf der
 ## Plot Hook
 
 ### Vergangenheit
-- kommt in Niewinter an
-- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt
-- forscht nach und findet heraus, dass der Kristall aus der Stadt geschmuggelt worden sein soll 
-- da er neu in der Gegend ist niemanden kennt schließt er sich der Abenteurergilde 
-- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach Phandalin ist
-
-- Gruppe 
+- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
