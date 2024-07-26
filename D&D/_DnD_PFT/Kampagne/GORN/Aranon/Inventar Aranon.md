@@ -1,11 +1,11 @@
 ---
-tags:
+tags: 
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0
-  GM: 152
+  GM: 234
   EM: 0
-  SM: 349
+  SM: 449
   KM: 900
 ---
 # `=this.file.name`
@@ -48,7 +48,7 @@ Geld:
 | [[Schleuder]]               |   1    |    1    |   1    |
 | [[Holzschild]]              |   1    |    6    |   6    |
 | [[Fackel]]                  |   2    |    1    |   2    |
-| [[Ration]]                  |   9    |    1    |   9    |
+| [[Ration]]                  |   7    |    1    |   9    |
 | [[Trinkschlauch]]           |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]] |   0    |    1    |   0    |
@@ -63,4 +63,4 @@ Geld:
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
-2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen, 1x Heiltrank
+2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen, 1x Heiltrank, Fellrüstung voller Orkblut, 1x Wirselkraut

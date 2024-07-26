@@ -3,9 +3,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 301
+  GM: 383
   EM: 0
-  SM: 342
+  SM: 442
   KM: 95
 ---
 # `=this.file.name`
@@ -28,18 +28,19 @@ Geld:
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 
 ## Am Körper
-| Gegenstand                           | Anzahl | Gewicht | Gesamt |
-| ------------------------------------ |:------:|:-------:|:------:|
-| [[Kurzschwert]]                      |   1    |    2    |   2    |
-| [[Dolch]]                            |   1    |    1    |   1    |
-| [[Schleuder]]                        |   1    |    0    |   0    |
-| [[Leichte Armbrust]]                 |   1    |    5    |   5    |
-| [[Stiefel der Elfen]]                |   1    |    1    |   1    |
-| [[Rucksack]]                         |   1    |    5    |   5    |
-| [[Diebeswerkzeug]]                   |   1    |    1    |   1    |
-| Freundschaftsarmband                 |   1    |  0.25   |  0.25  |
-| [[Beschlagene Lederrüstung]]         |   1    |   13    |   13   |
-| GESAMT                               |        |         | 28.25  |
+| Gegenstand                   | Anzahl | Gewicht | Gesamt |
+| ---------------------------- |:------:|:-------:|:------:|
+| [[Kurzschwert]]              |   1    |    2    |   2    |
+| [[Dolch]]                    |   1    |    1    |   1    |
+| [[Schleuder]]                |   1    |    0    |   0    |
+| [[Leichte Armbrust]]         |   1    |    5    |   5    |
+| [[Stiefel der Elfen]]        |   1    |    1    |   1    |
+| [[Rucksack]]                 |   1    |    5    |   5    |
+| [[Diebeswerkzeug]]           |   1    |    1    |   1    |
+| Freundschaftsarmband         |   1    |  0.25   |  0.25  |
+| [[Stein der Verständigung]]                             |    1    |  0       |      0  |
+| [[Beschlagene Lederrüstung]] |   1    |   13    |   13   |
+| GESAMT                       |        |         | 28.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 

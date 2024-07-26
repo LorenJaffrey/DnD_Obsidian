@@ -92,9 +92,10 @@ gantt
 		GORN verlässt verfluchten Tempel: milestone, a14, after a13, 0m
 		Ork Überfall/Angriff: milestone, a15, after a14, 15m		
 		Jon Longbow wurde getötet: milestone, a16, after a15, 10m
+		Gruppe hat sich veraztet und die Orks gelootet/verbrannt: done, a17, after a16, 30m
+		Tote Mienenarbeiter Zwerge begraben: done, a18, after a17, 2h
+		Lange Rast: done, a19, after a18, 3h
 ```
-
-> Hier befinden wir uns aktuell!
 
 ### Tag 7
 ```mermaid
@@ -104,8 +105,14 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-04-29 00:00, 
+		Lange Rast: a1, 2024-04-29 00:00, 9h 
+		Rückreise nach Phandalin: done, a2, after a1, 9h
+		Ankunft in Phandalin: done, milestone, a3, after a2, 0h
+		Belohnungen von Sildar kassiert: done, milestone, a4, after a3, 30m
+		Lucian lernt Ar'go in einer Kneipe kennen: done, milestone, a5, after a3, 30m
 ```
+
+> Hier befinden wir uns aktuell!
 
 # Woche 2
 

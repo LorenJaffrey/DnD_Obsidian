@@ -8,8 +8,8 @@ Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
 Gesundheit:
-  MaxTP: 23
-  TP: 23
+  MaxTP: 33
+  TP: 33
   TW: 4
   TempTP: 0
 Attribute:
@@ -73,6 +73,7 @@ Merkmale:
     - "[[Odemwaffe]]"
     - "[[Drakonische Resistenz]]"
   Klasse:
+    - "[[Quelle der Magie]]"
     - "[[Windsprecher]]"
     - "[[Stürmische Magie]]"
   Talente:
@@ -91,7 +92,7 @@ Persönlichkeit:
   Bindungen:
     - <ul><b>Tempestus-Kristall</b></ul>Die Fragmente des Kristalls sind für ihn mehr als nur ein Ziel; sie sind heilige Objekte, die er mit größtem Respekt behandelt.
   Makel:
-    - <ul><b>Unbarmherzigkeit</b></ul>Im Kampf um das Gleichgewicht der Natur kann Ar'gonthariel Maez'ralor unbarmherzig und kompromisslos sein, was ihm Feinde einbringen kann.
+    - <ul><b>Naivität</b></ul>Ar'gonthariel ist aufgrund seines abgeschiedenen Lebens auf einer Insel, auf der er kaum Kontakt zu Außenseitern hatte, etwas naiv und leichtgläubig. Dies kann dazu führen, dass er Menschen vertraut, die es nicht gut mit ihm meinen.
 Zauber:
   - "[[Windbö]]"
   - "[[Schockgriff]]"
@@ -426,6 +427,18 @@ tags:
 >> ```
 >> 
 >> ![[Stürmische Magie]]
+
+
+## Vergangenheit
+
+- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+- seitdem wartet er immer noch auf die Gruppe..
 
 ## Hintergrundgeschichte
 

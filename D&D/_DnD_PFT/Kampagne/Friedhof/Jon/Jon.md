@@ -124,9 +124,9 @@ tags:
 > ## Todesrettungswürfe
 > |                      ❌                       |                       ✔                       |
 > |:---------------------------------------------:|:---------------------------------------------:|
-> | <input type="checkbox" unchecked id="54dec1"> | <input type="checkbox" unchecked id="aaa2d5"> |
-> | <input type="checkbox" unchecked id="1b59d7"> | <input type="checkbox" unchecked id="d8e3f7"> |
-> | <input type="checkbox" unchecked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
+> | <input type="checkbox" checked id="54dec1"> | <input type="checkbox" checked id="aaa2d5"> |
+> | <input type="checkbox" checked id="1b59d7"> | <input type="checkbox" checked id="d8e3f7"> |
+> | <input type="checkbox" checked id="01e78d"> | <input type="checkbox" unchecked id="b533ca"> |
 > 
 > ## Aussehen
 > |  |  |

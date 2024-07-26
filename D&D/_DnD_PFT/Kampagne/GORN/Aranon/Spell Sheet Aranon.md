@@ -1,11 +1,11 @@
 ---
-tags:
+tags: 
 Charakter: "[[Aranon]]"
 Zaubertricks: 3
 Bekannte_Zauber: 4
 Zauberplätze:
   Grad_1: 4
-  Grad_2: 3
+  Grad_2: 1
   Grad_3: 0
   Grad_4: 0
   Grad_5: 0
@@ -26,6 +26,7 @@ Zauber:
   - "[[Schwache Genesung]]"
   - "[[Fallen finden]]"
   - "[[Spurloses Gehen]]"
+
 ---
 # `=this.file.name`
 

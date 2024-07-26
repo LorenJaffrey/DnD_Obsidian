@@ -65,9 +65,9 @@ todoListe: |-
 
   #### Phandalin
   - [x] Trank-Omi (Adabra Gwynn) / Alchemisten bei den Haderhügel finden und überreden nach Phandalin zu kommen (8 km entfernt) -> 25 Gold
-    - [ ] Trank-Omi gewarnt -> Lohn von **Sildar** abholen
-  - [ ] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
-    - [ ] Zwerger gewarnt -> Lohn von **Sildar** abholen
+    - [x] Trank-Omi gewarnt -> Lohn von **Sildar** abholen
+  - [x] Mienenarbeiter-Zwerge bei den Ruinen/Zwergenausgrabung finden (48 km entfernt) -> 50 Gold
+    - [x] Zwerger gewarnt -> Lohn von **Sildar** abholen
     - [x] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
@@ -90,6 +90,8 @@ sonstigeInformationen: |-
   - In Neverwinter wurden wir von einer Person verfolgt
     - Person wurde entdeckt und konnte verschwinden
     - [ ] Auflösung? (Wer war das?)
+  - die Orks beim Tempel waren verdächtig warm angezogen
+  - Butterschädel-Hof wurde überfallen
 ---
 
 > [!column | 2]
