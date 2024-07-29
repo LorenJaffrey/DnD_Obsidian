@@ -8,37 +8,58 @@ Name_Subklassen: "[[Schurkenarchetypen|Schurkenarchetyp]]"
 Trefferwürfel: W8
 Hauptattribut:
   - "[[Geschicklichkeit]]"
-Zauberwirker: 
+Zauberwirker:
+HinterhältigerAngriff:
+  Stufe1: 1
+  Stufe2: 1
+  Stufe3: 2
+  Stufe4: 2
+  Stufe5: 3
+  Stufe6: 3
+  Stufe7: 4
+  Stufe8: 4
+  Stufe9: 5
+  Stufe10: 5
+  Stufe11: 6
+  Stufe12: 6
+  Stufe13: 7
+  Stufe14: 7
+  Stufe15: 8
+  Stufe16: 8
+  Stufe17: 9
+  Stufe18: 9
+  Stufe19: 10
+  Stufe20: 10
 ---
 # `=this.file.name`
 
 ## Klassentabelle
 
-| Stufe | Hinterhältiger Angriff | Merkmale                                                     |
-|:-----:|:----------------------:| ------------------------------------------------------------ |
-|   1   |          1W6           | [[Expertise]], [[Hinterhältiger Angriff]], [[Diebessprache]] |
-|   2   |          1W6           | [[Raffinierte Aktion]]                                       |
-|   3   |          2W6           | [[Schurkenarchetypen]], [[Zielsicher]]                         |
-|   4   |          2W6           | [[Talente\|Talent]]                                          |
-|   5   |          3W6           | [[Unglaubliches Ausweichen]]                                 |
-|   6   |          3W6           | [[Expertise]]                                                |
-|   7   |          4W6           | [[Entrinnen]]                                                |
-|   8   |          4W6           | [[Talente\|Talent]]                                          |
-|   9   |          5W6           | Merkmal Schurkenarchetyp                                     |
-|  10   |          5W6           | [[Talente\|Talent]]                                          |
-|  11   |          6W6           | [[Verlässliches Talent]]                                     |
-|  12   |          6W6           | [[Talente\|Talent]]                                          |
-|  13   |          7W6           | Merkmal Schurkenarchetyp                                     |
-|  14   |          7W6           | [[Blindgespür]]                                              |
-|  15   |          8W6           | [[Entschlüpfender Geist]]                                    |
-|  16   |          8W6           | [[Talente\|Talent]]                                          |
-|  17   |          9W6           | Merkmal Schurkenarchetyp                                     |
-|  18   |          9W6           | [[Schwer zu Fassen]]                                         |
-|  19   |          10W6          | [[Talente\|Talent]]                                          |
-|  20   |          10W6          | [[Glückstreffer]]                                            |
+| Stufe |            Hinterhältiger Angriff            | Merkmale                                                     |
+|:-----:|:--------------------------------------------:| ------------------------------------------------------------ |
+|   1   | `=this.HinterhältigerAngriff.Stufe1 + "W6"`  | [[Expertise]], [[Hinterhältiger Angriff]], [[Diebessprache]] |
+|   2   | `=this.HinterhältigerAngriff.Stufe2 + "W6"`  | [[Raffinierte Aktion]]                                       |
+|   3   | `=this.HinterhältigerAngriff.Stufe3 + "W6"`  | [[Schurkenarchetypen]], [[Zielsicher]]                       |
+|   4   | `=this.HinterhältigerAngriff.Stufe4 + "W6"`  | [[Talente\|Talent]]                                          |
+|   5   | `=this.HinterhältigerAngriff.Stufe5 + "W6"`  | [[Unglaubliches Ausweichen]]                                 |
+|   6   | `=this.HinterhältigerAngriff.Stufe6 + "W6"`  | [[Expertise]]                                                |
+|   7   | `=this.HinterhältigerAngriff.Stufe7 + "W6"`  | [[Entrinnen]]                                                |
+|   8   | `=this.HinterhältigerAngriff.Stufe8 + "W6"`  | [[Talente\|Talent]]                                          |
+|   9   | `=this.HinterhältigerAngriff.Stufe9 + "W6"`  | Merkmal Schurkenarchetyp                                     |
+|  10   | `=this.HinterhältigerAngriff.Stufe10 + "W6"` | [[Talente\|Talent]]                                          |
+|  11   | `=this.HinterhältigerAngriff.Stufe11 + "W6"` | [[Verlässliches Talent]]                                     |
+|  12   | `=this.HinterhältigerAngriff.Stufe12 + "W6"` | [[Talente\|Talent]]                                          |
+|  13   | `=this.HinterhältigerAngriff.Stufe13 + "W6"` | Merkmal Schurkenarchetyp                                     |
+|  14   | `=this.HinterhältigerAngriff.Stufe14 + "W6"` | [[Blindgespür]]                                              |
+|  15   | `=this.HinterhältigerAngriff.Stufe15 + "W6"` | [[Entschlüpfender Geist]]                                    |
+|  16   | `=this.HinterhältigerAngriff.Stufe16 + "W6"` | [[Talente\|Talent]]                                          |
+|  17   | `=this.HinterhältigerAngriff.Stufe17 + "W6"` | Merkmal Schurkenarchetyp                                     |
+|  18   | `=this.HinterhältigerAngriff.Stufe18 + "W6"` | [[Schwer zu Fassen]]                                         |
+|  19   | `=this.HinterhältigerAngriff.Stufe19 + "W6"` | [[Talente\|Talent]]                                          |
+|  20   | `=this.HinterhältigerAngriff.Stufe20 + "W6"` | [[Glückstreffer]]                                            |
 
 ## Trefferpunkte
-[[Trefferwürfel]]: 1W8 pro Stufe
+[[Trefferwürfel]]: `=this.Trefferwürfel`
 [[Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
 [[Trefferpunkte]] pro Stufenaufstieg: 1W8 (min. 5) + [[Konstitution#Konstitutionsmodifikator]]
 
