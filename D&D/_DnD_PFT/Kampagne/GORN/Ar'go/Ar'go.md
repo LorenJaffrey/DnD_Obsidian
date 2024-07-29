@@ -76,8 +76,9 @@ Merkmale:
     - "[[Quelle der Magie]]"
     - "[[Windsprecher]]"
     - "[[Stürmische Magie]]"
+    - "[[Zauberwirken Zauberer]]"
   Talente:
-  - "[[Kampferprobter Zauberwirker]]"
+    - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
