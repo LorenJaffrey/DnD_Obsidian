@@ -1,13 +1,13 @@
 ---
-aliases: 
-Zauberkosten:
-	Stufe1: 2
-	Stufe2: 3
-	Stufe3: 5
-	Stufe4: 6
-	Stufe5: 7
+aliases:
 tags:
   - Merkmal/Klasse/Zauberer
+Zauberkosten:
+  Stufe1: 2
+  Stufe2: 3
+  Stufe3: 5
+  Stufe4: 6
+  Stufe5: 7
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
