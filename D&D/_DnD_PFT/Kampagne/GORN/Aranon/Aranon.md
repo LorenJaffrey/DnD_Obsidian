@@ -9,7 +9,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 10
+  TP: 38
   TW: 5
   TempTP: 0
 Attribute:
@@ -105,6 +105,41 @@ Persönlichkeit:
   Bindungen: Rache für den ausgelöschten Stamm.
   Makel:
     - Visionen, Alpträume und unkontrollierte Teleportation
+InputData:
+  GlücksPunkt1: false
+  GlücksPunkt2: false
+  GlücksPunkt3: false
+  GlücksPunkt4: false
+  GlücksPunkt5: false
+  Erschöpfung1: false
+  Erschöpfung2: false
+  Erschöpfung3: false
+  Erschöpfung4: false
+  Erschöpfung5: false
+  Erschöpfung6: false
+  Erschöpfung7: false
+  Erschöpfung8: false
+  Erschöpfung9: false
+  TiergestaltLadung1: false
+  TiergestaltLadung2: false
+  GeistertotemLadung: false
+  NebelschrittLadung: false
+  IdentifizierenLadung: false
+  Stresslevel1: false
+  Stresslevel2: false
+  Stresslevel3: false
+  Stresslevel4: false
+  Stresslevel5: false
+  Zauberplätze:
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 2
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
 tags:
   - Charakter/GORN
 ---
@@ -152,41 +187,20 @@ tags:
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-> [!checks | no-title] 
-> -  
-> 	- [[Glück|Glückspunkte]] 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> -  
-> 	- [[Erschöpft|Erschöpfung]]     
-> 	- [x] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> -
-> 	- Stresslevel 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
-> 	- [ ] %% %% 
+
+|        Eigenschaft         |                   1                    |                   2                    |                   3                    |                   4                    |                   5                    |                   6                    |                   7                    |                   8                    |                   9                    |
+|:--------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|
+|  [[Glück\|Glückspunkte]]   | `INPUT[toggle:InputData.Glückspunkt1]` | `INPUT[toggle:InputData.Glückspunkt3]` | `INPUT[toggle:InputData.Glückspunkt3]` | `INPUT[toggle:InputData.Glückspunkt4]` | `INPUT[toggle:InputData.Glückspunkt5]` |                                        |                                        |                                        |                                        |
+|      [[Stresslevel]]       | `INPUT[toggle:InputData.Stresslevel1]` | `INPUT[toggle:InputData.Stresslevel2]` | `INPUT[toggle:InputData.Stresslevel3]` | `INPUT[toggle:InputData.Stresslevel4]` | `INPUT[toggle:InputData.Stresslevel5]` |                                        |                                        |                                        |                                        |
+| [[Erschöpft\|Erschöpfung]] | `INPUT[toggle:InputData.Erschöpfung1]` | `INPUT[toggle:InputData.Erschöpfung2]` | `INPUT[toggle:InputData.Erschöpfung3]` | `INPUT[toggle:InputData.Erschöpfung4]` | `INPUT[toggle:InputData.Erschöpfung5]` | `INPUT[toggle:InputData.Erschöpfung6]` | `INPUT[toggle:InputData.Erschöpfung7]` | `INPUT[toggle:InputData.Erschöpfung8]` | `INPUT[toggle:InputData.Erschöpfung9]` | 
 
 ## Aranon
-> [!column | no-title] 
+> [!column | flex 3 ] 
 >> ## Aufladungen
 >> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
 >> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
->> | Maximal      | <input type="checkbox" unchecked id="2ab6b2">  <input type="checkbox" unchecked id="04327b"> |  <input type="checkbox" unchecked id="2f79d4"> | <input type="checkbox" unchecked id="7e2ec2">  | <input type="checkbox" unchecked id="f81e29"> |
->> | Aufladung |                 [[Lange Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
+>>| Maximal      | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` |  `INPUT[toggle:InputData.GeistertotemLadung]` | `INPUT[toggle:InputData.NebelschrittLadung]`   | `INPUT[toggle:InputData.IdentifizierenLadung]` |
+>> | Aufladung |                 [[Kurze Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >
 >> ## Tiergestalten
 >> ```dataview
@@ -197,6 +211,161 @@ tags:
 >> SORT HG DESC
 >> WHERE HG = "1/4" OR HG = "1/8" OR HG = 0
 >> ```
+>
+>> ## Rasten
+>>> [!column | flex 2 ]
+>>>> ```meta-bind-button
+>>>> label: Kurze Rast
+>>>> icon: switch
+>>>> hidden: false
+>>>> class: ""
+>>>> tooltip: ""
+>>>> id: ""
+>>>> style: primary
+>>>> actions:
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.TiergestaltLadung1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.TiergestaltLadung2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.GeistertotemLadung
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>> 
+>>>> ```
+>>>
+>>>> 
+>>>> ```meta-bind-button
+>>>> label: Lange Rast
+>>>> icon: reset
+>>>> hidden: false
+>>>> class: ""
+>>>> tooltip: ""
+>>>> id: ""
+>>>> style: destructive
+>>>> actions:
+>>>>   - type: updateMetadata
+>>>>     bindTarget: Gesundheit.TW
+>>>>     evaluate: false
+>>>>     value: "5"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung3
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung4
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung5
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung6
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung7
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung8
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Erschöpfung9
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.TiergestaltLadung1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.TiergestaltLadung2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.GeistertotemLadung
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.NebelschrittLadung
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.IdentifizierenLadung
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Stresslevel1
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Stresslevel2
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Stresslevel3
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Stresslevel4
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Stresslevel5
+>>>>     evaluate: false
+>>>>     value: "false"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_1
+>>>>     evaluate: false
+>>>>     value: "4"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_2
+>>>>     evaluate: false
+>>>>     value: "3"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_3
+>>>>     evaluate: false
+>>>>     value: "2"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_4
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_5
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_6
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_7
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_8
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>>   - type: updateMetadata
+>>>>     bindTarget: InputData.Zauberplätze.Grad_9
+>>>>     evaluate: false
+>>>>     value: "0"
+>>>> 
+>>>> ```
 
 ## Bewegung
 | Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
@@ -204,10 +373,10 @@ tags:
 | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 
 ## Verteidigung
-> [!column | no-title] 
+> [!column | flex no-title] 
 >> ## Gesundheit
 >> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
->> | ------- | ------------------------ | ------------------------ | --------------------------- |
+>> | :-------: | :------------------------: | :------------------------: | :---------------------------: |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe`  |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >
@@ -216,8 +385,36 @@ tags:
 >> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 >> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
 
+## Zauber / Magie
+> [!column | flex 2 ]
+>> ###### Zauber wirken
+>> 
+>> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> 
+>>---
+>> ###### Bekannte Zauber
+>> 
+>> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
+>> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
+>> Bekannte Zauber: `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  
+> 
+>>  ###### Zauberplätze
+>>  
+>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>> |:----:|:-------------------------------:|:-----------------------------------:|
+>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+
 ## Angriff
-> [!column | no-title]
+> [!column | flex 3]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -231,6 +428,11 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
+>> 
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >
 >> ### Schusswaffen 
 >> ```dataview
@@ -239,7 +441,7 @@ tags:
 >> Range1 AS "Min RW",
 >> Range2 AS "Gnd RW",
 >> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
+>> 2+floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
 >> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
@@ -247,7 +449,7 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
+> 
 >> ### Wurfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -263,10 +465,11 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
-
+>
 Disclaimer: Waffen haben immer Übungsbonus...
+
 ## Stats
-> [!column | no-title]
+> [!column | flex no-title]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -337,7 +540,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Merkmale
-> [!column | no-title]
+> [!column |  no-title]
 >> ## Volksmerkmale
 >> ```dataview
 >> LIST

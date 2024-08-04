@@ -32,6 +32,6 @@ Wirkungsdauer:  1 Runde
 ## Beschreibung
 *Ein Sigille des Schutzes aus magischer Energie schützt dich.*
 
-Due streckst die Hand aus und zeichnest ein Sigille des Schutzes in die Luft. Bis zum Ende deines nächsten Zuges besitzt du eine Resistenz gegen Wucht-, Hieb- und Stichschaden, der von Waffenangriffen verursacht wird.
+Du streckst die Hand aus und zeichnest ein Sigille des Schutzes in die Luft. Bis zum Ende deines nächsten Zuges besitzt du eine [[Schadensarten#Schadensresistenz|Resistenz]] gegen Wucht-, Hieb- und Stichschaden, der von Waffenangriffen verursacht wird.
 
 Quelle: Players Handbook, Seite: 243

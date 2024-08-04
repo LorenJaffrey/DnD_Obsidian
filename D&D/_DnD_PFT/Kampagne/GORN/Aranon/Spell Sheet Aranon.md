@@ -3,16 +3,6 @@ tags:
 Charakter: "[[Aranon]]"
 Zaubertricks: 3
 Bekannte_Zauber: 4
-Zauberplätze:
-  Grad_1: 4
-  Grad_2: 1
-  Grad_3: 0
-  Grad_4: 0
-  Grad_5: 0
-  Grad_6: 0
-  Grad_7: 0
-  Grad_8: 0
-  Grad_9: 0
 Zauber:
   - "[[Gift versprühen]]"
   - "[[Druidenkunst]]"
@@ -39,18 +29,7 @@ Zauber:
 > Zaubertricks: `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad0`
 > Bekannte Zauber: `$=if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.page(dv.current().Charakter).Stufe]}else{if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).file.name=="Paladin"){dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)/2}else{dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)}}` 
 >---
-> ###### Zauberplätze
-> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
-> |:----:|:-------------------------------:|:-----------------------------------:|
-> |  1   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad1` | `INPUT[number():Zauberplätze.Grad_1]` |
-> |  2   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad2` | `INPUT[number():Zauberplätze.Grad_2]` |
-> |  3   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad3` | `INPUT[number():Zauberplätze.Grad_3]` |
-> |  4   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad4` | `INPUT[number():Zauberplätze.Grad_4]` |
-> |  5   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad5` | `INPUT[number():Zauberplätze.Grad_5]` |
-> |  6   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad6` | `INPUT[number():Zauberplätze.Grad_6]` |
-> |  7   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad7` | `INPUT[number():Zauberplätze.Grad_7]` |
-> |  8   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad8` | `INPUT[number():Zauberplätze.Grad_8]` |
-> |  9   | `$=dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberplätze["Stufe"+dv.page(dv.current().Charakter).Stufe].Grad9` | `INPUT[number():Zauberplätze.Grad_9]` |
+
 
 ## Bemerkungen
 ![[Von Feen berührt#Feenmagie]]
