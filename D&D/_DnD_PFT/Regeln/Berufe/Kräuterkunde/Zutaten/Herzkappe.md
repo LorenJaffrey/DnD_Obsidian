@@ -9,8 +9,6 @@ Effekt:
   Verarbeitet: "Heilt sofort 1W6 [[Trefferpunkte]] (max. 1 pro [[kurze Rast]])." 
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
-  - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

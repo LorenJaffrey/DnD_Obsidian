@@ -10,12 +10,7 @@ Effekt:
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
   - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
-  - "[[Unterwasserpflanzen|Unterwasser]]"
-  - "[[Arktisch]]"
-  - "[[Wüstenpflanzen|Wüste]]"
-  - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`
 

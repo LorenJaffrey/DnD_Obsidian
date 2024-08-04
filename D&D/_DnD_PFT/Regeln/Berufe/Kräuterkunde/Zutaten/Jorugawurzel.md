@@ -6,14 +6,13 @@ aliases:
 Art: "[[Wurzeln]]"
 Effekt:
   Roh: "Verlangsamt Infektionen durch gewöhnliche Krankheiten für 1 Stunde."
-  Verarbeitet: Effekt Verarbeitet
+  Verarbeitet:
 Umgebungen:
   - "[[Pflanzen des Hügellands|Hügelland]]"
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
   - "[[Pflanzen des Waldlands|Waldland]]"
   - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
-  - "[[Unterwasserpflanzen|Unterwasser]]"
   - "[[Arktisch]]"
   - "[[Wüstenpflanzen|Wüste]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"

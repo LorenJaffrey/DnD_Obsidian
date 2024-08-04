@@ -9,9 +9,6 @@ Effekt:
   Verarbeitet: "Heilt gewöhnliche Krankheiten."
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
-  - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Pflanzen des Gebirgslands|Gebirge]]"
-  - "[[Unterwasserpflanzen|Unterwasser]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

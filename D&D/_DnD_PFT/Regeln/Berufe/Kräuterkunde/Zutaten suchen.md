@@ -6,11 +6,11 @@ Wenn du [[Übung|geübt]] in [[Überlebenskunst]] bist erhältst du [[Vorteil un
 Der [[Schwierigkeitsgrad|SG]] basiert auf deiner Suchmethode gemäß der untenstehenden Tabelle. 
 Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkeit von Zutaten in der Umgebung vom Spielleiter bestimmt wird.
 
-| Ort                                                      | SG  |
-| -------------------------------------------------------- | --- |
-| [[Pflanzen des Waldlands\|Waldland]], [[Pflanzen des Graslands\|Grasland]], [[Pflanzen des Hügellands]], [[Pflanzen des Sumpflands\|Sumpfland]] | 10  |
-| [[Küste]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Tiefenreich]], [[Unterwasserpflanzen\|Unterwasser]]                 | 15  |
-| [[Arktisch]], [[Wüstenpflanzen]]                                          | 20  |
+| Ort                                                                                                                                                        | SG  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| [[Pflanzen des Waldlands\|Waldland]], [[Pflanzen des Graslands\|Grasland]], [[Pflanzen des Hügellands\|Hügelland]], [[Pflanzen des Sumpflands\|Sumpfland]] | 10  |
+| [[Küste]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Pflanzen des Unterreichs\|Unterreich]]                                                                | 15  |
+| [[Arktisch]], [[Wüstenpflanzen\|Wüste]]                                                                                                                    | 20  |
 
 | SG-Mod | Suchmethode                                        |
 | ------ | -------------------------------------------------- |

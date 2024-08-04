@@ -10,7 +10,6 @@ Effekt:
 Umgebungen:
   - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
-  - "[[Unterwasserpflanzen|Unterwasser]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

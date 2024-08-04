@@ -7,8 +7,6 @@ Effekt:
   Verarbeitet: "Gewährt [[Überlegene Dunkelsicht]] für 1 Stunde."
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
-  - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

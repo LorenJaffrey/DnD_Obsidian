@@ -30,11 +30,17 @@ WHERE file.name != "Vorlage Kräuterkunde-Zutat"
 SORT Art, file.name
 ```
 
+
+
 ## Pflanzenvorkommen
-| Pflanzenart | Umgebung                  |
-| ----------- | ------------------------- |
-| Grün        | Wald, Grasland, Sumpf     |
-| Wasser      | Küste, Sumpf, Unterwasser |
-| Trocken     | Wüste, Gebirge            |
-| Kalt        | Gebirge, Arktisch         |
-| Pilz        | Wald, Sumpf, Unterreich   |
+| Umgebung    | Beeren | Blätter | Blüten | Gräser | Pilze | Rinden | Wurzeln |
+| ----------- |:------:|:-------:|:------:|:------:|:-----:|:------:|:-------:|
+| Arktisch    |        |         |        |        |       |   X    |    X    |
+| Küste       |        |    X    |        |   X    |       |        |         |
+| Gebirgsland |        |    X    |        |        |       |   X    |         |
+| Grasland    |   X    |         |   X    |        |       |        |         |
+| Hügelland   |   X    |    X    |        |        |       |        |         |
+| Sumpfland   |        |         |   X    |        |   X   |        |         |
+| Unterreich  |        |    X    |        |        |   X   |        |         |
+| Waldland    |   X    |         |        |        |       |   X    |         |
+| Wüste       |        |         |   X    |   X    |       |        |         |

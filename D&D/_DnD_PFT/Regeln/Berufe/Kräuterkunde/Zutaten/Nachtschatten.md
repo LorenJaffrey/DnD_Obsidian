@@ -7,8 +7,6 @@ Effekt:
   Verarbeitet: "Heilt [[Vergiftet|Vergiftung]]."
 Umgebungen:
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
-  - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Pflanzen des Gebirgslands|Gebirge]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

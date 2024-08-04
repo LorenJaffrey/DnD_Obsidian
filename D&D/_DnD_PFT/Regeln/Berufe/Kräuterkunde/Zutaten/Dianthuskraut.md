@@ -10,7 +10,6 @@ Umgebungen:
   - "[[Pflanzen des Waldlands|Waldland]]"
   - "[[Küste]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
-  - "[[Unterwasserpflanzen|Unterwasser]]"
 ---
 # `=this.file.name`
 
