@@ -2,7 +2,6 @@
 aliases: Rettungswürfe, Rettungswürfen
 ---
 # `=this.file.name`
-
 >[!info] Rettungswurf
 >W20 + [[Attribute#Attributsmodifikator]] +/- Bonus/Malus + [[Übung|Übungsbonus]] (falls anwendbar).
 
