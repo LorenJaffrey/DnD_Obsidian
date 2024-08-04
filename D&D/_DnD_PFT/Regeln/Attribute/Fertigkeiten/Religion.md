@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Intelligenz]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Religiöses Wissen.
 Beispiele:

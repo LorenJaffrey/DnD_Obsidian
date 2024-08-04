@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Charisma]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Jemanden täuschen oder die Wahrheit verschleiern.
 Beispiele:

@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Geschicklichkeit]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Alle Versuche in schwierigen Situationen auf den Beinen zu bleiben.
 Beispiele:

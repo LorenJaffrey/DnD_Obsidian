@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Geschicklichkeit]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Eine Aktion die Fingerspitzengefühl oder eine schnelle Hand erfordert.
 Beispiele:

@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Geschicklichkeit]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Beispiele:
 - vor Gegnern verstecken

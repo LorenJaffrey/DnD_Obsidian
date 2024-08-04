@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Intelligenz]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Nach Hinweisen suchen oder aufgrund dessen Schlussfolgerungen ziehen.
 Beispiele:

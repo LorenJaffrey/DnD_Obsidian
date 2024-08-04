@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Intelligenz]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Situationen in denen man sich an historische Ereignisse erinnern muss.
 Beispiele:

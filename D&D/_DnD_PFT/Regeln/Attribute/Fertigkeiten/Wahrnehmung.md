@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Weisheit]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Stellt die generelle Aufmerksamkeit dar und die Schärfe der Sinne. Wird verwendet um nach etwas zu suchen oder Dinge wahrzunehmen.
 Beispiele:

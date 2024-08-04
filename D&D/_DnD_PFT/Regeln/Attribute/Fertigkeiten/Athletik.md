@@ -4,6 +4,7 @@ tags:
 Attribut: "[[Stärke]]"
 ---
 # `=this.file.name`
+Abhängiges Attribut: `=this.Attribut`
 
 Schwierige Situationen in denen du [[Klettern]], [[Hochsprung|Hochspringen]], [[Weitsprung|Weitspringen]] oder [[Schwimmen]] musst.
 Beispiele:
