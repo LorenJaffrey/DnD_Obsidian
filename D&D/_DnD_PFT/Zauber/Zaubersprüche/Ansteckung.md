@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Ansteckung
+  - Contagion
 tags:
   - Zauber
 Grad: 5
@@ -29,5 +29,20 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer:  `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Deine Berührung löst Krankheiten aus. Führe einen Nahkampf-Zauberangriff gegen eine Kreatur innerhalb deiner Reichweite aus. Bei einem Treffer wird das Ziel vergiftet. Am Ende eines jeden seiner Züge muss das Ziel einen Konstitutionsrettungswurf ablegen. Gelingen drei dieser Rettungswürfe, ist das Ziel nicht länger vergiftet und der Zauber endet. Misslingen drei Würfe, ist das Ziel nicht länger vergiftet, du kannst aber eine der unten beschriebenen Krankheiten wählen. 
-Wenn die Kreatur dies getan hat, kann sie sich nicht willentlich vom Ziel entfernen. Wenn das Ziel eine beeinflusste Kreatur verletzt oder ihr anderweitig schadet, darf diese einen Weisheitsrettungswurf ablegen, um den Effekt zu beenden, wie es unten beschrieben ist. Den Effekt beenden: Wenn sich eine beeinflusste Kreatur am Ende ihres Zuges außerhalb von 18 m um das Ziel befindet und es nicht sehen kann, legt sie einen Weisheitsrettungswurf ab. Bei einem Erfolg ist die Kreatur nicht länger vom Effekt des Zaubers betroffen und begreift, dass das Gefühl der Abstoßung oder Anziehung magischer Natur ist. Außerdem darf eine Kreatur, die unter dem Einfluss dieses Zaubers steht (solange dieser wirkt), alle 24 Stunden einen weiteren Rettungswurf ablegen. Eine Kreatur, der ein Rettungswurf gegen den Effekt gelingt, ist für eine 1 Minute gegen seine Auswirkungen immun. Danach kann er wieder in Kraft treten.
+*Deine Berührung löst Krankheiten aus.*
+Führe einen Nahkampf-Zauberangriff gegen eine Kreatur innerhalb deiner Reichweite aus. 
+Bei einem Treffer verursachst du bei der Kreatur eine der unten beschriebenen [[Krankheiten]] deiner Wahl.
+
+Am Ende jedes seiner Züge muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ausführen. 
+Nach drei gescheiterten [[Rettungswurf|Rettungswürfen]] hält die Krankheit für die Wirkungsdauer an und die Kreatur führt keine [[Rettungswurf|Rettungswürfe]] mehr aus. 
+Nach drei erfolgreichen [[Rettungswurf|Rettungswürfen]] erholt sich die Kreatur von der [[Krankheiten|Krankheit]] und der Zauber endet.
+
+Da dieser Zauber beim Ziel eine natürliche [[Krankheiten|Krankheit]] verursacht, sind alle Effekte wirksam, die [[Krankheiten]] heilen oder anderweitig lindern.
+
+### Krankheiten
+- [[Blendende Krankheit]]
+- [[Fleischfäule]]
+- [[Gedankenfeuer]]
+- [[Krampfanfall]]
+- [[Schleimiges Verderben]]
+- [[Schmutzfieber]]
