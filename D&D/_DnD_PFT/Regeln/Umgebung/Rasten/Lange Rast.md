@@ -1,6 +1,9 @@
 ---
+tags:
+  - Rast
 aliases: 
-- Langen Rast
+  - Langen Rast
+Dauer: 8 Stunden
 ---
 # `=this.file.name`
 
