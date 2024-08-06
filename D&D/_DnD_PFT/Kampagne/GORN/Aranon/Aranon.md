@@ -111,7 +111,7 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  Erschöpfung1: false
+  Erschöpfung1: true
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
@@ -146,6 +146,12 @@ tags:
 # `=this.file.name`
 > [!infobox]
 > ![[Aranon.jpg]]
+> ```dataviewjs 
+> const Gesundheit = dv.current().Gesundheit; 
+> const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> dv.el('div', metaBindCode); 
+> ```
 > ## Hintergrund
 > |  |  |
 > | ---- | ---- |
@@ -253,42 +259,6 @@ tags:
 >>>>     evaluate: false
 >>>>     value: "5"
 >>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung1
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung2
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung3
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung4
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung5
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung6
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung7
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung8
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Erschöpfung9
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
 >>>>     bindTarget: InputData.TiergestaltLadung1
 >>>>     evaluate: false
 >>>>     value: "false"
@@ -387,10 +357,10 @@ tags:
 
 ## Zauber / Magie
 > [!column | flex 2 ]
->> ###### Zauber wirken
->> 
->> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> 
 >>---
 >> ###### Bekannte Zauber
@@ -428,11 +398,6 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
->> ### Zauberangriff / Zauber wirken
->> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
->> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >
 >> ### Schusswaffen 
 >> ```dataview
