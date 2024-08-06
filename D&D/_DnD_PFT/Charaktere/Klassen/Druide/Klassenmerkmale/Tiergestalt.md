@@ -6,7 +6,8 @@ tags:
 # `=this.file.name`
 
 Du kannst deine [[Aktion]] nutzen, um auf magische Weise die Gestalt jedes Tieres anzunehmen, das du schon einmal gesehen hast. 
-Du kannst diese Fähigkeit zweimal einsetzen, ohne rasten zu müssen. Nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] erhältst du alle verbrauchten Anwendungen zurück. 
+Du kannst diese Fähigkeit zweimal einsetzen, ohne [[rasten]] zu müssen. 
+Nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] erhältst du alle verbrauchten Anwendungen zurück. 
 Du kannst dich in ein Tier mit einem [[Herausforderungsgrad]] (HG) von 1/4 oder niedriger verwandeln, das weder eine Flug- noch eine Schwimmbewegungsrate aufweist.
 
 Du kannst für eine Anzahl an Stunden in Tiergestalt verbleiben, die deiner halben Stufe als Druide entspricht (abgerundet). Anschließend verwandelst du dich in deine normale Gestalt zurück, falls du nicht vorher eine weitere Anwendung der Fähigkeit benutzt. Du kannst auch früher in deine ursprüngliche Form zurückkehren, indem du dafür in deinem [[Zug]] eine [[Bonusaktion]] aufwendest. Solltest du [[Bewusstlos]] werden, auf 0 Trefferpunkte sinken oder sterben, verwandelst du dich automatisch zurück.
