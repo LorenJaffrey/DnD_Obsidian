@@ -1,8 +1,7 @@
 ---
 Schaden: 2d6
 ---
-
 Schadenswurf: 
-`$=\'"dice: " + dv.current().Schaden\''
+`$=dv.span("\`dice: " + dv.current().Schaden + "|none\`")`
 
 Schaden: `dice: 2d6|none`
