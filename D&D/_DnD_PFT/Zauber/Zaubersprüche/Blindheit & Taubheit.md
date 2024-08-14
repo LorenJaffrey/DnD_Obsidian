@@ -1,0 +1,34 @@
+---
+aliases:
+tags:
+  - Zauber
+Grad: 2
+Schule: "[[Nekromantiezauber|Nekromantie]]"
+Zeitaufwand: "[[Aktion]]"
+Reichweite: 9 Meter
+Verbal: true
+Geste: false
+Material: false
+Materialkosten: 
+Dauer: 1 Minute
+Konzentration: false
+Ritual: false
+Skalierbar: true
+Schaden: 
+Schadensart: 
+Ziel: 
+Klassen:
+---
+# `=this.file.name`
+*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
+
+Zeitaufwand: `=this.Zeitaufwand`
+Reichweite: `=this.Reichweite`
+Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
+Wirkungsdauer:  `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+
+## Beschreibung
+Du kannst einen Feind blind oder taub werden lassen. Wähle eine Kreatur in Reichweite, die du sehen kannst. Sie muss einen Konstitutionsrettungswurf ablegen. Wenn dieser misslingt, ist das Ziel für die Wirkungsdauer entweder blind oder taub (deine Wahl). Am Ende eines jeden seiner Züge kann das Ziel einen Konstitutionsrettungswurf ablegen. Bei Erfolg endet der Zauber.
+
+## Auf höheren Graden 
+Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, kannst du für jeden Grad über den 2. hinaus eine zusätzliche Kreatur als Ziel wählen.
