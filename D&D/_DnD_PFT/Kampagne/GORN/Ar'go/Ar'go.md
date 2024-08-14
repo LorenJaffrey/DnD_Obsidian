@@ -193,6 +193,7 @@ tags:
 > `=this.Persönlichkeit.Bindungen`
 > ### Makel
 > `=this.Persönlichkeit.Makel`
+> 
 
 #   `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | flex 3 ]
@@ -354,7 +355,7 @@ tags:
 >
 
 ## Aktionen
->[!column | 2 ]
+>[!column]
 >> ### Blitz-Odem
 >>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
 >>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |

@@ -1,5 +1,91 @@
 ---
 cssclass: nord
+Name: Ar'go
+Stufe: 4
+Bewegung: 6
+Rüstung: 
+Schild: 
+Waffen:
+  - "[[Kampfstab]]"
+  - "[[Dolch]]"
+Gesundheit:
+  MaxTP: 33
+  TP: 33
+  TW: 4
+  TempTP: 0
+Attribute:
+  Stärke: 8
+  Geschicklichkeit: 13
+  Konstitution: 16
+  Intelligenz: 12
+  Weisheit: 10
+  Charisma: 18
+Rettungswürfe:
+  Stärke: 0
+  Geschicklichkeit: 0
+  Konstitution: 1
+  Intelligenz: 0
+  Weisheit: 0
+  Charisma: 1
+Fertigkeiten:
+  Akrobatik: 0
+  Arkane_Kunde: 1
+  Athletik: 0
+  Auftreten: 0
+  Einschüchtern: 0
+  Fingerfertigkeit: 0
+  Geschichte: 0
+  Heilkunde: 0
+  Heimlichkeit: 0
+  Mit_Tieren_umgehen: 0
+  Motiv_erkennen: 0
+  Nachforschungen: 0
+  Naturkunde: 1
+  Religion: 1
+  Täuschen: 0
+  Überlebenskunst: 0
+  Überzeugen: 1
+  Wahrnehmung: 0
+Übung:
+  Sprachen:
+    - "[[Gemeinsprache]]"
+    - "[[Urtümlich]]"
+    - "[[Drakonisch]]"
+    - "[[Celestisch]]"
+  Werkzeuge:
+    - "[[Navigationswerkzeug]]"
+  Rüstungen: 
+  Waffen:
+    - "[[Dolch]]"
+    - "[[Wurfmesser]]"
+    - "[[Kampfstab]]"
+    - "[[Leichte Armbrust]]"
+Aussehen:
+  Geschlecht: männlich
+  Alter: 19 Jahre
+  Größenkategorie: "[[Mittelgroß]]"
+  Größe: 200 cm
+  Gewicht: 120 Kilo
+  Augenfarbe: Blau
+  Haarfarbe: Dunkel Blau
+  Hautfarbe: Blau
+Merkmale:
+  Volk:
+    - "[[Odemwaffe]]"
+    - "[[Drakonische Resistenz]]"
+  Klasse:
+    - "[[Quelle der Magie]]"
+    - "[[Windsprecher]]"
+    - "[[Stürmische Magie]]"
+    - "[[Zauberwirken Zauberer]]"
+  Talente:
+    - "[[Kampferprobter Zauberwirker]]"
+Hintergrund:
+  Volk: "[[Drachenblütige|Drachenblütiger]]"
+  Klasse: "[[Zauberer]]"
+  Subklasse: "[[Sturmzauberei]]"
+  Gesinnung: "[[Rechtschaffen Neutral]]"
+  Hintergrund: "[[Einsiedler]]"
 InputData:
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -13,8 +99,126 @@ InputData:
   Erschöpfung9: false
 random_number: 
 ---
-## Beispiele
+## Statblocks
 
+### Version 1
+
+> [!statblocks]
+> ![[Argo.jpeg|cover right circle htiny wtiny lp]]
+> 
+> # `=this.Name`
+> > Description
+> *Basics*
+> *Basics*
+> 
+> ---
+> ```dataviewjs 
+> const Gesundheit = dv.current().Gesundheit; 
+> const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> dv.el('div', metaBindCode); 
+> ```
+| LP | RK | Initiative |
+|:---:|:---:|:---:|
+| `INPUT[number():Gesundheit.TP]` |  `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)` |
+>
+> 
+| [[Attribute\|Attribut]] |           Wert            |        Mod.         |                                            RW-Mod.                                       |
+| ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
+| [[Stärke]]              |      `=this.Attribute.Stärke`      |      `=floor(((this.Attribute.Stärke)-10)/2)`      |           `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`           |
+| [[Geschicklichkeit]]    | `=this.Attribute.Geschicklichkeit` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))` |
+| [[Konstitution]]        |   `=this.Attribute.Konstitution`   |   `=floor(((this.Attribute.Konstitution)-10)/2)`   |     `=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`     |
+| [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
+| [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
+| [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
+> 
+|  |  |
+| ---:|:--- |
+| **Bewegung** | 9 Meter |
+| **Passive Wahrnehmung (WIS)** | `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`   |
+| **Übungsbonus** | `=ceil(this.Stufe/4)+1`|
+| **Dunkelsicht** |  Nein |
+>
+> ---
+>> [!checks|no-t] 
+>> - **Death Saves**
+>>	- ❌
+>>	- [ ] 
+>>	- [ ] 
+>>	- [ ] 
+>>	- ✔
+>>	- [ ] 
+>>	- [ ] 
+>>	- [ ] 
+>
+> ###### Traits
+| | |
+| --- | --- |
+| **Class** | |
+| **.** | |
+| **Racial Traits** | |
+| **Feats** | |
+
+### Version 2
+
+> [!statblocks|columns]
+> 
+>> [!blank]  
+>> ![Char Image|right cover htiny wtiny circle lp]()
+>> # Name
+>> > Description
+>> 
+>> *Basics*
+>> 
+>> ---
+| HP | AC | Initiative |
+|:---:|:---:|:---:|
+| | | |
+>>
+| STR | DEX | CON | INT | WIS | CHA |  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:--- |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  | **Mod** |
+|  |  |  |  |  |  | **Sav** |
+>>
+|  |  |
+| ---:|:--- |
+| **Speed** |  |
+| **Passive Perception (WIS)** |  |
+| **Proficiency Bonus** |  |
+| **Darkvision** |  |
+>> 
+>> ---
+>> 
+>>> [!checks|no-t] 
+>>> - 
+>>>	- **Spell Slots**
+>>>	- [ ] 
+>>>	- [ ] 
+>>> - **Death Saves**
+>>>	- ❌
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- ✔
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- [ ] 
+>> 
+> 
+> 
+>> [!blank]
+>> ## Traits
+| | |
+| --- | --- |
+>> 
+>> ## Feats
+>> 
+>> **Feat**
+>> Description
+>> 
+>> **Feat**
+>> Description
 
 ##  Dice Plugin
 
