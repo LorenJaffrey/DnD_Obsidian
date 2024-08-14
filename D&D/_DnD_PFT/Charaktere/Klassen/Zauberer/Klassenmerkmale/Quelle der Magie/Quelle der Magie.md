@@ -17,7 +17,7 @@ Diese Quelle wird durch [[Zaubereipunkte]] repräsentiert, die dir erlauben, ein
 Zu Beginn besitzt du 2 [[Zaubereipunkte]]. 
 Du erhältst weitere hinzu, je höher du in dieser Klasse aufsteigst, so wie es in der Spalte für [[Zaubereipunkte]] in der [[Zauberer#Klassentabelle]] angegeben ist. 
 
-## Flexibles Zauberwirken
+### Flexibles Zauberwirken
 Du kannst deine [[Zaubereipunkte]] einsetzen, um zusätzliche [[Zauberplätze]] zu erhalten. 
 Umgekehrt kannst du auch [[Zauberplätze]] aufgeben und sie für [[Zaubereipunkte]] eintauschen. 
 Du lernst weitere Arten, deine Zaubereipunkte zu nutzen, wenn du höhere Stufen erreichst.
