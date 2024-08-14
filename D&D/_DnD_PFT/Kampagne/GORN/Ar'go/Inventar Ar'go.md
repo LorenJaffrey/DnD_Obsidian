@@ -1,5 +1,6 @@
 ---
 Charakter: "[[Ar'go]]"
+cssclass: nord
 Geld:
   PM: 0
   GM: 5

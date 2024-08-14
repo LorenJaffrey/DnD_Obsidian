@@ -1,5 +1,6 @@
 ---
 Charakter: "[[Ar'go]]"
+cssclass: nord
 Zaubertricks: 5
 Bekannte_Zauber: 5
 Zauber:

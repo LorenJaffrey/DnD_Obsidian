@@ -1,4 +1,5 @@
 ---
+cssclass: dnd
 tags: 
 Charakter: "[[Aranon]]"
 Zaubertricks: 3

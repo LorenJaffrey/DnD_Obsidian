@@ -1,4 +1,5 @@
 ---
+cssclass: nord
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -126,6 +127,7 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
+  ErschöpfungsPunkte: 0
   Erschöpfung1: false
   Erschöpfung2: false
   Erschöpfung3: false
@@ -158,7 +160,7 @@ tags:
 > ```dataviewjs 
 > const Gesundheit = dv.current().Gesundheit; 
 > const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
+> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
 > dv.el('div', metaBindCode); 
 > ```
 > ## Hintergrund
@@ -193,7 +195,12 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 #   `=this.file.name`nthariel Maez'ralor Sturmzorn
-> [!column | 3 ]
+> [!column | flex 3 ]
+>> ## Rasten
+>> |                            |                           |
+>> | -------------------------- | ------------------------- |
+>> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
+>> 
 >>  ## Allgemeine Spiel - Parameter
 >> | Erholungs-Art | 1 | 2 |
 >> | :---: | :---: | :---: |
@@ -210,13 +217,13 @@ tags:
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 >> 
->> 
 >
 >> ## Gesundheit
 >> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | :------------------------: | :------------------------: | :---------------------------: |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
+>>
 >>
 >>>[!column | flex 2 ] 
 >>>>## Rüstung
@@ -229,119 +236,29 @@ tags:
 >>>> - Blitz
 >
 >> ## Bewegung
->> | Gehen                                              | [[Spurt]]                                          | 
->> | -------------------------------------------------- | -------------------------------------------------- |
->> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>> | Gehen                                              |
+>> | ---------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | 
 >>
->> | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             |
->> | ---------------------------------------------------- | ------------------------------------------------------ |
->> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m |
+>> | [[Spurt]]                                          |
+>> | -------------------------------------------------- |
+>> | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | 
 >>
->> | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
->> | ----------------------------------------- | ------------------------------------------- |
->> | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>> | [[Hochsprung]] mit Anlauf                            | 
+>> | ------------------------------------------------- | 
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
 >>
->> ## Rasten
->>> [!column | flex 2 ]
->>>> ```meta-bind-button
->>>> label: Kurze Rast
->>>> icon: switch
->>>> hidden: false
->>>> class: ""
->>>> tooltip: ""
->>>> id: shortBreakButton
->>>> style: primary
->>>> actions:
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.BlitzOdem
->>>>     evaluate: false
->>>>     value: "false"
->>>> ```
->>>
->>>> ```meta-bind-button
->>>> label: Lange Rast
->>>> icon: reset
->>>> hidden: false
->>>> class: ""
->>>> tooltip: ""
->>>> id: longBreakButton
->>>> style: destructive
->>>> actions:
->>>>   - type: updateMetadata
->>>>     bindTarget: Gesundheit.TW
->>>>     evaluate: false
->>>>     value: "4"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Uhrzeit1
->>>>     evaluate: false
->>>>     value: 00:00
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Uhrzeit2
->>>>     evaluate: false
->>>>     value: 00:00
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.UhrzeitToogle1
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.UhrzeitToogle2
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberpunkte
->>>>     evaluate: false
->>>>     value: "17"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_1
->>>>     evaluate: false
->>>>     value: "4"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_2
->>>>     evaluate: false
->>>>     value: "3"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_3
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_4
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_5
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_6
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_7
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_8
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.Zauberplätze.Grad_9
->>>>     evaluate: false
->>>>     value: "0"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.NormaleRüstung
->>>>     evaluate: false
->>>>     value: "true"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.MagierRüstung
->>>>     evaluate: false
->>>>     value: "false"
->>>>   - type: updateMetadata
->>>>     bindTarget: InputData.BlitzOdem
->>>>     evaluate: false
->>>>     value: "false"
->>>>  
->>>> ```
->>>
+>> | [[Hochsprung]] ohne Anlauf                                    |
+>> | ------------------------------------------------------------- |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | 
+>>
+>> | [[Weitsprung]] mit Anlauf                 | 
+>> | ------------------------------------------ | 
+>> | `=round((this.Attribute.Stärke*0.3),2)` m |
+>>
+>> | [[Weitsprung]] ohne Anlauf                  |
+>> | --------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
 >>
 >
 
@@ -556,10 +473,10 @@ tags:
 >> | Level 3     |         5         |
 >> | Level 4     |         6         |
 >> | Level 5     |         7         |
->> | Level 6     |         9         |
->> | Level 7     |        10         |
->> | Level 8     |        11         |
->> | Level 9     |        13         | 
+>> | Level 6     |          -         |
+>> | Level 7     |          -         |
+>> | Level 8     |          -         |
+>> | Level 9     |          -         | 
 
 ## Übung / Merkmale
 > [!column | 3]
@@ -608,6 +525,10 @@ tags:
 >> ```
 >> 
 >> ![[Stürmische Magie]]
+>> 
+>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>> 
+>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 
 ## Statistik
 
@@ -624,8 +545,8 @@ tags:
 >>         datasets: [{
 >>             label: 'Zauber Anwendungen',
 >>             data: data,
->>             backgroundColor: [ 'rgba(144,43,43)' ],
->>             borderColor: [ 'rgba(144,43,43)' ],
+>>             backgroundColor: [ 'rgb(136, 192, 208)' ],
+>>             borderColor: [ 'rgb(136, 192, 208)' ],
 >>             pointStyle: 'circle',
 >>             pointRadius: 10,
 >> 		    pointHoverRadius: 15
@@ -655,337 +576,19 @@ tags:
 >> window.renderChart(chartData, this.container);
 >> ```
 >
->> [!column | 4]
->>> Verwendungen: `VIEW[{ZauberStatistik.Donnerschlag}]`
->>> ```meta-bind-button
- >>> label: Donnerschlag
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Donnerschlag
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Donnerschlag
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Donnerschlag
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Kältestrahl}]`
->>> ```meta-bind-button
- >>> label: Kältestrahl
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Kältestrahl
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Kältestrahl
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Kältestrahl
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Klingenbann}]`
->>> ```meta-bind-button
- >>> label: Klingenbann
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Klingenbann
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Klingenbann
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Klingenbann
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Schockgriff}]`
->>> ```meta-bind-button
- >>> label: Schockgriff
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Schockgriff
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Schockgriff
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Schockgriff
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Windbö}]`
->>> ```meta-bind-button
- >>> label: Windbö
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Windbö
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Windbö
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Windbö
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Chaospfeil}]`
->>> ```meta-bind-button
- >>> label: Chaospfeil
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Chaospfeil
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Chaospfeil
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Chaospfeil
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Hexenpfeil}]`
->>> ```meta-bind-button
- >>> label: Hexenpfeil
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Hexenpfeil
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Hexenpfeil
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Hexenpfeil
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Magierrüstung}]`
->>> ```meta-bind-button
- >>> label: Magierrüstung
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Magierrüstung
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Magierrüstung
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Magierrüstung
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Schutzwind}]`
->>> ```meta-bind-button
- >>> label: Schutzwind
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Schutzwind
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Schutzwind
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Schutzwind
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
->>> Verwendungen: `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]`
->>> ```meta-bind-button
- >>> label: Snillocs Schneeballschwarm
- >>> icon: up-arrow-with-tail
- >>> hidden: false
- >>> class: ""
- >>> tooltip: ""
- >>> id: ""
- >>> style: primary
- >>> actions:
->>>    - type: updateMetadata
->>>      bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
->>>      evaluate: true
->>>      value: x + 1
->>> 
->>> ```
->>>
->>> ```meta-bind-button
->>> label: Snillocs Schneeballschwarm
->>> icon: down-arrow-with-tail
->>> hidden: false
->>> class: ""
->>> tooltip: ""
->>> id: ""
->>> style: primary
->>> actions:
->>>   - type: updateMetadata
->>>     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
->>>     evaluate: true
->>>     value: x - 1
->>> 
->>> ```
->>
+>> |                     Verwendungen                     | Zauber                         |             +              |              -               |
+>> |:----------------------------------------------------:|:------------------------------ |:--------------------------:|:----------------------------:|
+>> |        `VIEW[{ZauberStatistik.Donnerschlag}]`        | [[Donnerschlag]]               | `BUTTON[donnerschlag_up]`  | `BUTTON[donnerschlag_down]`  |
+>> |        `VIEW[{ZauberStatistik.Kältestrahl}]`         | [[Kältestrahl]]                |  `BUTTON[kältestrahl_up]`  |  `BUTTON[kältestrahl_down]`  |
+>> |        `VIEW[{ZauberStatistik.Klingenbann}]`         | [[Klingenbann]]                |  `BUTTON[klingenbann_up]`  |  `BUTTON[klingenbann_down]`  |
+>> |        `VIEW[{ZauberStatistik.Schockgriff}]`         | [[Schockgriff]]                |  `BUTTON[schockgriff_up]`  |  `BUTTON[schockgriff_down]`  |
+>> |           `VIEW[{ZauberStatistik.Windbö}]`           | [[Windbö]]                     |    `BUTTON[windbö_up]`     |    `BUTTON[windbö_down]`     |
+>> |         `VIEW[{ZauberStatistik.Chaospfeil}]`         | [[Chaospfeil]]                 |  `BUTTON[chaospfeil_up]`   |  `BUTTON[chaospfeil_down]`   |
+>> |         `VIEW[{ZauberStatistik.Hexenpfeil}]`         | [[Hexenpfeil]]                 |  `BUTTON[hexenpfeil_up]`   |  `BUTTON[hexenpfeil_down]`   |
+>> |       `VIEW[{ZauberStatistik.Magierrüstung}]`        | [[Magierrüstung]]              | `BUTTON[magierrüstung_up]` | `BUTTON[magierrüstung_down]` |
+>> |         `VIEW[{ZauberStatistik.Schutzwind}]`         | [[Schutzwind]]                 |  `BUTTON[schutzwind_up]`   |  `BUTTON[schutzwind_down]`   |
+>> | `VIEW[{ZauberStatistik.Snillocs_Schneeballschwarm}]` | [[Snillocs Schneeballschwarm]] |   `BUTTON[snillocs_up]`    |   `BUTTON[snillocs_down]`    | 
+>> 
 
 ## Vergangenheit
 
@@ -1018,3 +621,586 @@ Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur 
 Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
 
 Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+
+## Versteckte Logiken & Button Konfigurationen
+
+```meta-bind-button
+label: Kurze Rast
+icon: switch
+hidden: true
+class: ""
+tooltip: ""
+id: shortBreakButton
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+```
+
+```meta-bind-button
+label: Lange Rast
+icon: reset
+hidden: true
+class: ""
+tooltip: ""
+id: longBreakButton
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: Gesundheit.TW
+    evaluate: false
+    value: "4"
+  - type: updateMetadata
+    bindTarget: InputData.Uhrzeit1
+    evaluate: false
+    value: 00:00
+  - type: updateMetadata
+    bindTarget: InputData.Uhrzeit2
+    evaluate: false
+    value: 00:00
+  - type: updateMetadata
+    bindTarget: InputData.UhrzeitToogle1
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.UhrzeitToogle2
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberpunkte
+    evaluate: false
+    value: "17"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_1
+    evaluate: false
+    value: "4"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_2
+    evaluate: false
+    value: "3"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_3
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_4
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_5
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_6
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_7
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_8
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.Zauberplätze.Grad_9
+    evaluate: false
+    value: "0"
+  - type: updateMetadata
+    bindTarget: InputData.NormaleRüstung
+    evaluate: false
+    value: "true"
+  - type: updateMetadata
+    bindTarget: InputData.MagierRüstung
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.ErschöpfungsPunkte
+    evaluate: true
+    value: x - 1
+```
+
+
+```meta-bind-button
+ icon: up-arrow-with-tail
+ label: ""
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "donnerschlag_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Donnerschlag
+     evaluate: true
+     value: x + 1
+```
+
+ ```meta-bind-button
+ icon: down-arrow-with-tail
+ label: ""
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "donnerschlag_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Donnerschlag
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "kältestrahl_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Kältestrahl
+      evaluate: true
+      value: x + 1
+ 
+```
+
+ ```meta-bind-button
+ label: ""
+ icon: down-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "kältestrahl_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Kältestrahl
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "klingenbann_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Klingenbann
+      evaluate: true
+      value: x + 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: down-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "klingenbann_down"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Klingenbann
+     evaluate: true
+     value: x - 1
+ 
+ ```
+
+ ```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "schockgriff_up"
+ style: primary
+ actions:
+    - type: updateMetadata
+      bindTarget: ZauberStatistik.Schockgriff
+      evaluate: true
+      value: x + 1
+ 
+ ```
+ 
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "schockgriff_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Schockgriff
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "windbö_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Windbö
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "windbö_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Windbö
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "chaospfeil_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Chaospfeil
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "chaospfeil_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Chaospfeil
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "hexenpfeil_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Hexenpfeil
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "hexenpfeil_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Hexenpfeil
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "magierrüstung_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Magierrüstung
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "magierrüstung_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Magierrüstung
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "schutzwind_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Schutzwind
+     evaluate: true
+     value: x + 1
+
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "schutzwind_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Schutzwind
+    evaluate: true
+    value: x - 1
+
+```
+
+```meta-bind-button
+ label: ""
+ icon: up-arrow-with-tail
+ hidden: true
+ class: ""
+ tooltip: ""
+ id: "snillocs_up"
+ style: primary
+ actions:
+   - type: updateMetadata
+     bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+     evaluate: true
+     value: x + 1
+```
+
+```meta-bind-button
+label: ""
+icon: down-arrow-with-tail
+hidden: true
+class: ""
+tooltip: ""
+id: "snillocs_down"
+style: primary
+actions:
+  - type: updateMetadata
+    bindTarget: ZauberStatistik.Snillocs_Schneeballschwarm
+    evaluate: true
+    value: x - 1
+```
+ 
+ ```js-engine
+// Grab the Meta Bind API and extract metadata fields
+const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
+
+const ErschöpfungsPunkte = mb.parseBindTarget('InputData.ErschöpfungsPunkte', context.file.path);
+const reactiveErschöpfungsPunkte = engine.reactive(onErschöpfungsPunkteChange, mb.getMetadata(ErschöpfungsPunkte)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(ErschöpfungsPunkte, component, (value) => { reactiveErschöpfungsPunkte.refresh(value); }); 
+}, 50);
+
+const Erschöpfung1 = mb.parseBindTarget('InputData.Erschöpfung1', context.file.path);
+const reactiveErschöpfung1 = engine.reactive(onChange1, mb.getMetadata(Erschöpfung1)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung1, component, (value) => { reactiveErschöpfung1.refresh(value); }); 
+}, 50);
+
+const Erschöpfung2 = mb.parseBindTarget('InputData.Erschöpfung2', context.file.path);
+const reactiveErschöpfung2 = engine.reactive(onChange2, mb.getMetadata(Erschöpfung2)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung2, component, (value) => { reactiveErschöpfung2.refresh(value); }); 
+}, 50);
+
+const Erschöpfung3 = mb.parseBindTarget('InputData.Erschöpfung3', context.file.path);
+const reactiveErschöpfung3 = engine.reactive(onChange3, mb.getMetadata(Erschöpfung3)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung3, component, (value) => { reactiveErschöpfung3.refresh(value); }); 
+}, 50);
+
+const Erschöpfung4 = mb.parseBindTarget('InputData.Erschöpfung4', context.file.path);
+const reactiveErschöpfung4 = engine.reactive(onChange4, mb.getMetadata(Erschöpfung4)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung4, component, (value) => { reactiveErschöpfung4.refresh(value); }); 
+}, 50);
+
+const Erschöpfung5 = mb.parseBindTarget('InputData.Erschöpfung5', context.file.path);
+const reactiveErschöpfung5 = engine.reactive(onChange5, mb.getMetadata(Erschöpfung5)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
+}, 50);
+
+const Erschöpfung6 = mb.parseBindTarget('InputData.Erschöpfung6', context.file.path);
+const reactiveErschöpfung6 = engine.reactive(onChange6, mb.getMetadata(Erschöpfung6)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+}, 50);
+
+const Erschöpfung7 = mb.parseBindTarget('InputData.Erschöpfung7', context.file.path);
+const reactiveErschöpfung7 = engine.reactive(onChange7, mb.getMetadata(Erschöpfung7)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+}, 50);
+
+const Erschöpfung8 = mb.parseBindTarget('InputData.Erschöpfung8', context.file.path);
+const reactiveErschöpfung8 = engine.reactive(onChange8, mb.getMetadata(Erschöpfung8)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+}, 50);
+
+const Erschöpfung9 = mb.parseBindTarget('InputData.Erschöpfung9', context.file.path);
+const reactiveErschöpfung9 = engine.reactive(onChange9, mb.getMetadata(Erschöpfung9)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+}, 50);
+
+//events
+function onErschöpfungsPunkteChange(value) {
+
+	if( value < 0 ) {
+		mb.setMetadata(ErschöpfungsPunkte, 0);
+		return;
+	}
+
+	const metadataBind = {
+		'Erschöpfung1': Erschöpfung1,
+		'Erschöpfung2': Erschöpfung2,
+		'Erschöpfung3': Erschöpfung3,
+		'Erschöpfung4': Erschöpfung4,
+		'Erschöpfung5': Erschöpfung5,
+		'Erschöpfung6': Erschöpfung6,
+		'Erschöpfung7': Erschöpfung7,
+		'Erschöpfung8': Erschöpfung8,
+		'Erschöpfung9': Erschöpfung9
+	}
+
+    const oldStates = [
+        mb.getMetadata(Erschöpfung1),
+        mb.getMetadata(Erschöpfung2),
+        mb.getMetadata(Erschöpfung3),
+        mb.getMetadata(Erschöpfung4),
+        mb.getMetadata(Erschöpfung5),
+        mb.getMetadata(Erschöpfung6),
+        mb.getMetadata(Erschöpfung7),
+        mb.getMetadata(Erschöpfung8),
+        mb.getMetadata(Erschöpfung9)
+    ];
+
+    const newStates = Array(9).fill(false).map((_, index) => index < value);
+
+    newStates.forEach((newState, index) => {
+        if (oldStates[index] !== newState) {
+            mb.setMetadata(metadataBind[`Erschöpfung${index + 1}`], newState);
+        }
+    });
+}
+
+
+function onChange1(value){
+	onErschöpfungChange(1, value, Erschöpfung1);
+}
+
+function onChange2(value){
+	onErschöpfungChange(2, value, Erschöpfung2);
+}
+
+function onChange3(value){
+	onErschöpfungChange(3, value, Erschöpfung3);
+}
+
+function onChange4(value){
+	onErschöpfungChange(4, value, Erschöpfung4);
+}
+
+function onChange5(value){
+	onErschöpfungChange(5, value, Erschöpfung5);
+}
+
+function onChange6(value){
+	onErschöpfungChange(6, value, Erschöpfung6);
+}
+
+function onChange7(value){
+	onErschöpfungChange(7, value, Erschöpfung7);
+}
+
+function onChange8(value){
+	onErschöpfungChange(8, value, Erschöpfung8);
+}
+
+function onChange9(value){
+	onErschöpfungChange(9, value, Erschöpfung9);
+}
+
+function onErschöpfungChange(ErschöpfungsValue, newValue, metadataBind){	
+	const currentPoints = mb.getMetadata(ErschöpfungsPunkte);
+	const lowerValue = parseInt(ErschöpfungsValue-1);
+
+	if(currentPoints == lowerValue && !newValue){
+		return;
+	} else if (currentPoints == lowerValue && newValue) {
+		mb.setMetadata(ErschöpfungsPunkte, ErschöpfungsValue);
+	} else if (currentPoints == ErschöpfungsValue && !newValue) {
+		mb.setMetadata(ErschöpfungsPunkte, lowerValue);
+	} else if (currentPoints > ErschöpfungsValue) {
+		if(newValue == false) mb.setMetadata(metadataBind, true);
+	} else if (currentPoints < ErschöpfungsValue) {
+		if(newValue == true) mb.setMetadata(metadataBind, false);
+	}
+}
+
+```

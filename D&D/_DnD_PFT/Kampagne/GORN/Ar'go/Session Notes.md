@@ -1,4 +1,5 @@
 ---
+cssclass: nord
 wichtigePersonen: |-
   > ### Quest-Relevant:
   > - Drogans Freund: **Gudren Felssucher**
