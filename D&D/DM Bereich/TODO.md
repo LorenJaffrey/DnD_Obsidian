@@ -28,7 +28,5 @@ priority is below medium
 group by filename
 ```
 
-
-
 - [ ] #task Klassenfeatures Schurke in Charactersheet einbauen [priority:: high]
 - [ ] #task Neue Aktionen Suchen, Study, Influence [priority:: normal]

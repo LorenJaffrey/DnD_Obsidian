@@ -52,7 +52,7 @@ Intro --> a
 a --> Starterquests
 a --> Rotbrenner
 e --> Talosanhänger
-Starterquests --> Nebenquests
+Starterquests --> Cryovain
 l --> i
 g --> m
 i --> n
