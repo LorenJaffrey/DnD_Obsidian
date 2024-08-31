@@ -3,9 +3,9 @@ aliases:
   - Kräuterpaste
 ---
 # `=this.file.name`
-Die Herstellung einer [[Kräuterpasten|Kräuterpaste]] erfordert 5 Dosen einer von Zutaten und 10 Minuten Arbeit, gefolgt von einem Wurf auf [[Weisheit]].
+Die Herstellung einer [[Kräuterpasten|Kräuterpaste]] erfordert 5 Dosen einer Zutat und 10 Minuten Arbeit, gefolgt von einem Wurf auf [[Weisheit]].
 Wenn du [[Übung]] mit [[Kräuterkunde-Ausrüstung]] hast, kannst du deinen [[Übung|Übungsbonus]] zum Wurf addieren.
-Der [[Schwierigkeitsgrad|SG]], wird durch die verwendete Zutat bestimmt. 
+Der [[Schwierigkeitsgrad|SG]], wird durch die verwendete Zutat bestimmt.
 
 Bei einem erfolgreichen Wurf erstellst du eine [[Kräuterpasten|Kräuterpaste]]. 
 Bei einem Misserfolg verlieren alle Zutaten ihre Wirksamkeit. 

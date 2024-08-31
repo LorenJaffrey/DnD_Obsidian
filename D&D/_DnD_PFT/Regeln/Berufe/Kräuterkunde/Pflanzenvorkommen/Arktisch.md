@@ -4,15 +4,10 @@ tags:
 aliases:
 ---
 # `=this.file.name`
-```dataview
-TABLE WITHOUT ID
-file.name AS "W6",
-file.link AS "Pflanze",
-Art,
-Effekt.Roh AS "Effekt Roh",
-Effekt.Verarbeitet AS "Effekt Verarbeitet"
-FROM #Beruf/Kräuterkunde/Zutat
-WHERE file.name != "Vorlage Kräuterkunde-Zutat"
-AND contains(Umgebungen, this.file.link)
-SORT file.name
-```
+|  W10  | Pflanze                |
+|:-----:| ---------------------- |
+| 1 - 3 | [[Frostmantelgras]]    |
+| 4 - 6 | [[Frostwacht-Rinde]]   |
+| 7 - 8 | [[Glazis-Wurzel]]      |
+|   9   | [[Steinbrecherwurzel]] |
+|  10   | [[Eisenschildrinde]]   |

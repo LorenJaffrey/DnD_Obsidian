@@ -5,15 +5,10 @@ aliases:
   - Unterreich
 ---
 # `=this.file.name`
-```dataview
-TABLE WITHOUT ID
-file.name AS "W6",
-file.link AS "Pflanze",
-Art,
-Effekt.Roh AS "Effekt Roh",
-Effekt.Verarbeitet AS "Effekt Verarbeitet"
-FROM #Beruf/Kräuterkunde/Zutat
-WHERE file.name != "Vorlage Kräuterkunde-Zutat"
-AND contains(Umgebungen, this.file.link)
-SORT file.name
-```
+|  W10   | Zutat                 |
+|:------:| --------------------- |
+| 1 - 2  | [[Herzkappe]]         |
+| 3 - 4  | [[Dämmerborke]]       |
+| 5 - 6  | [[Morbryn-Kappe]]     |
+| 7 - 8  | [[Rubinmorchel]]      |
+| 9 - 10 | [[Umbrafelis-Wurzel]] |

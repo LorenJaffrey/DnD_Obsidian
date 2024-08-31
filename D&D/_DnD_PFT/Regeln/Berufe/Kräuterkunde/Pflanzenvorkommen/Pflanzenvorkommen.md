@@ -2,7 +2,7 @@
 
 ```dataview
 TABLE WITHOUT ID
-file.link AS "Umgebung",
+file.link AS "Umgebung"
 FROM #Beruf/Kräuterkunde/Umgebung 
 SORT file.name
 ```

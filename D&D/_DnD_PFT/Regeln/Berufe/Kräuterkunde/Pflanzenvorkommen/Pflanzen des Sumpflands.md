@@ -5,15 +5,10 @@ aliases:
   - Sumpfland
 ---
 # `=this.file.name`
-```dataview
-TABLE WITHOUT ID
-file.name AS "W6",
-file.link AS "Pflanze",
-Art,
-Effekt.Roh AS "Effekt Roh",
-Effekt.Verarbeitet AS "Effekt Verarbeitet"
-FROM #Beruf/Kräuterkunde/Zutat
-WHERE file.name != "Vorlage Kräuterkunde-Zutat"
-AND contains(Umgebungen, this.file.link)
-SORT file.name
-```
+|  W10  | Zutat               |
+|:-----:| ------------------- |
+| 1 - 3 | [[Herzblutbeere]]   |
+| 4 - 5 | [[Nachtlichtkelch]] |
+| 6 - 8 | [[Fennorblüte]]     |
+|   9   | [[Arionkelch]]      |
+|  10   | [[Rubinmorchel]]    |

@@ -3,14 +3,11 @@ tags:
   - Beruf/Kräuterkunde
 ---
 # `=this.file.name`
-
-[[Kräuterkunde]] besteht aus drei Bestandteilen:
+[[Kräuterkunde]] besteht aus drei Schritten
 - [[Zutaten suchen]]
 - [[Zutaten sammeln]]
 - [[Kräuterpasten]]
 
-Alle gesammelten [[Zutaten]] haben intrinsische Eigenschaften, die durch Einnahme oder äußerliche Anwendung aktiviert werden können.
-Darüber hinaus können mehrere dieser [[Zutaten]] zu einer [[Kräuterpasten|Kräuterpaste]] verarbeitet werden, was ihre Wirkung verstärken kann.
-
-- [ ] #task Liste Kräuter fertigstellen [priority:: high]
-- [ ] #task Liste Kräuter Fundstellen fertigstellen [priority:: high]
+Zuerst musst du nach passenden [[Zutaten suchen]]. Danach müssen die Zutaten vorsichtig geerntet werden ohne die wichtigen Bestandteile zu beschädigen.
+Die geernteten Zutaten können dann entweder direkt verwendet oder mehrere Dosen einer Zutat kombiniert und zu [[Kräuterpasten]] verarbeitet werden.
+Diese haben entweder eine verstärkte oder gar andere Wirkung als die Verwendung der unverarbeiteten Zutat.
