@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaPotion",
       "IbLightning",
       "RaMonsterSkull",
       "RaCloakAndDagger",
-      "RaFire",
-      "TiBow"
+      "RaFire"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,7 +35,7 @@
   },
   "DM Bereich/Kampagne": "CoMap",
   "DM Bereich/Bestiarium": "RaEyeMonster",
-  "DM Bereich/Homebrew": "LiCookingPot",
+  "DM Bereich/Homebrew": "RaPotion",
   "DM Bereich/Tips": "CoInfo",
   "DM Bereich/Worldbuilding": "IbGlobe"
 }
