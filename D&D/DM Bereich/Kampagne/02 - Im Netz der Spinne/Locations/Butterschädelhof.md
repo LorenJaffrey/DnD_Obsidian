@@ -22,15 +22,15 @@ Beim Versuch die Orks abzuwehren wurden die Stallburschen getötet und Big Al ge
 Nur ein Bursche konnte auf ein Pferd springen und nach [[Phandalin]] fliehen, wo er von dem Angriff berichtete.
 
 ## Ziel
-Um die Quest [[Butterschädelhof]] abzuschließen, müssen die Abenteurer [[Alfons Kalazorn]] retten und ihn entweder dazu überreden, nach Phandalin zurückzukehren, oder ihm helfen, seine Ranch von Orks zu befreien. 
+Um die Quest [[Butterschädelhof]] abzuschließen, müssen die Abenteurer [[Alfons Kalazorn]] retten und ihn entweder dazu überreden, nach [[Phandalin]] zurückzukehren, oder ihm helfen, seine Ranch von Orks zu befreien. 
 Alfons benötigt auch Hilfe bei der Suche nach seiner preisgekrönten Kuh und bietet eine prächtige Belohnung.
 
 ## Bereiche
 ### Reise zum Hof
 Der sicherste und schnellste Weg von [[Phandalin]] zum [[Butterschädelhof]] führt über den [[Dreieberpfad]] nach Nordosten. 
 Die Wegstrecke beträgt 96 Kilometer.
-Charaktere legen zu Fuß bis zu 38 Kilometer am Tag zurück. 
-Sie können also damit rechnen, auf der Reise zwei lange Rasten einzulegen.
+Charaktere legen zu Fuß bis zu 36 Kilometer am Tag zurück. 
+Sie können also damit rechnen, auf der Reise zwei [[Lange Rast|Lange Rasten]] einzulegen.
 
 ### Begegnungen auf dem Weg
 #### Die Kuh Petunia
@@ -43,88 +43,94 @@ Wird sie gut behandelt, folgt sie ihren neuen Wohltätern überallhin.
 #### Pferde in Hasenbeere
 Die verlassene Stadt [[Hasenbeere]] wirkt gespenstisch still.
 Nur das Pfeifen des Windes, der durch die verbrannten und eingestürzten Bauwerke weht, ist zu hören. 
-Auf ihrem Weg durch oder um die Ruinen erblicken die Charaktere drei ungesattelte [[Reitpferd: Reitp]] (Spielwerte unter Seite 79), die in der Nähe eines alten Brunnens grasen. Bei einem erfolgreichen Wurf auf Weisheit (Wahrnehmung) gegen SG 10 erkennen Spieler, dass die Pferde mit dem Brand-zeichen BAK (Big Al Kalazorn) gekennzeichnet sind.
 
+Auf ihrem Weg durch oder um die Ruinen erblicken die Charaktere drei ungesattelte [[Reitpferd|Reitpferde]], die in der Nähe eines alten Brunnens grasen. 
+Bei einem erfolgreichen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 10 erkennen Spieler, dass die Pferde mit dem Brandzeichen BAK (Big Al Kalazorn) gekennzeichnet sind.
 Würfelt ein Charakter erfolgreich auf  ([[Mit Tieren umgehen]]) gegen [[Schwierigkeitsgrad|SG]] 15, kann er sich den Pferden nähern, ohne dass sie scheuen, und sogar auf ihnen reiten.
 
-ANKUNFT
+## Ankunft
+Die folgenden Orte sind auf der Karte Butterschädelhof eingezeichnet. 
+Sobald die Abenteurer in Sichtweite des Hofs sind, lies ihnen den folgenden Text vor:
 
-Die folgenden Orte sind auf der Karte Butterschädelhof eingezeichnet. Sobald die Abenteurer in Sichtweite des Hofs sind, lies ihnen den folgenden Text vor:
+> [!info]
+> Eingebettet zwischen zwei Hügeln liegt der Butterschädelhof, ein weitläufiges Stück Land nördlich des Dreieberpfades. 
+> Hinter einem maroden Holzzaun sind Getreidefelder, eine Apfelwiese, Gärten und Weideflächen sichtbar. 
+> Ein schmalerer Pfad zweigt vom Weg ab und führt zu einem zweistöckigen Gutshaus neben einem Teich. 
+> Westlich des Hauses stehen die verkohlten Überreste einer Scheune und einer Schmiede, die komplett abgebrannt sind.
 
-Eingebettet zwischen zwei Hügeln liegt der Butter-schädelhof, ein weitläufiges Stück Land nördlich des Dreieberpfades. Hinter einem maroden Holzzaun sind Getreidefelder, eine Apfelwiese, Gärten und Weideflächen sichtbar. Ein schmalerer Pfad zweigt vom Weg ab und führt zu einem zweistöckigen Gutshaus neben einem Teich. Westlich des Hauses stehen die verkohlten Überreste einer Scheune und einer Schmiede, die komplett abgebrannt sind.
+## DAS GUTSHAUS ERKUNDEN
+> [!info]
+> Das zweigeschossige, solide Blockhaus besitzt ein abgeschrägtes, mit Schindeln bedecktes Dach und einem gemauerten Schornstein. 
+> Die Holztüren sind mit eisernen Griffen und Scharnieren ausgestattet.
 
-DAS GUTSHAUS ERKUNDEN
+Es gibt hölzerne Fensterläden, die von innen verriegelt werden können. 
+Wenn die Charaktere ankommen, sind alle Fensterläden geöffnet.
+Lärmende Orks haben sich im Gutshaus eingerichtet und verbrauchen Big Als Essens- und Biervorräte. 
+Es gibt dreimal so viele Orks wie Charaktere in der Abenteurergruppe. 
+Platziere die Orks nach Belieben in den Bereichen B1 bis B9. 
+Die Orks erwarten keine Schwierigkeiten, sie kämpfen aber bis zu ihrem letzten Atemzug.
 
-Das zweigeschossige, solide Blockhaus besitzt ein abgeschrägtes, mit Schindeln bedecktes Dach und einem gemauerten Schornstein. Die Holztüren sind mit eisernen Griffen und Scharnieren ausgestattet.
-
-Es gibt hölzerne Fensterläden, die von innen verriegelt werden können. Wenn die Charaktere ankommen, sind alle Fensterläden geöffnet.
-
-Lärmende Orks (Spielwerte unter Seite 77) haben sich im Gutshaus eingerichtet und verbrauchen Big Als Essens- und Biervorräte. Es gibt dreimal so viele Orks wie Charaktere in der Abenteurergruppe, ausgenommen Sidekicks. Platziere die Orks nach Belieben in den Bereichen B1 bis B9. Die Orks erwarten keine Schwierig-keiten, sie kämpfen aber bis zu ihrem letzten Atemzug.
-
-B1: KÜCHE
-
+### B1: Küche
 Die Vordertür des Hauses führt in diesen Bereich.
+Er enthält ein großes Butterfass, Arbeitsflächen, Regale mit Kochzutaten und Bier und an den Wänden hängen Töpfe und Pfannen. 
+Auf einem kleinen Tisch steht eine Gussform in Gestalt eines Schädels.
 
-Er enthält ein großes Butterfass, Arbeitsflächen, Regale mit Kochzutaten und Bier und an den Wänden hängen Töpfe und Pfannen. Auf einem kleinen Tisch steht eine Gussform in Gestalt eines Schädels.
-
-B2: LEERER VORRAUM
-
+### B2: Leerer Vorraum
 Eine knarrende Holztreppe führt nach oben in den Bereich B5.
 
-B3: ESsZIMMER
+### B3: Esszimmer
+In diesem Raum stehen zwei von Bänken eingerahmte Tapeziertische. 
+Tierschädel hängen dekorativ an den Wänden.
 
-In diesem Raum stehen zwei von Bänken eingerahmte Tapeziertische. Tierschädel hängen dekorativ an den Wänden.
+### B4: Untere Abstellkammer
+Auf den Regalen in diesem Raum stapelt sich Essgeschirr.
 
-B4: UNTERE ABSTELLKAMMER
+### B5: Gemeinschaftsraum
+Dieser Raum ist mit gepolsterten Stühlen und Spieltischen eingerichtet. 
+Über den Boden verstreut liegen Drei-Drachen-Ante-Spielkarten und hölzerne Drachenschachfiguren.
 
-Auf den Regalen in diesem Raum stapelt sich
+### B6: Big Als Schlafzimmer
+Ein großes Bett und ein wuchtiger Kleiderschrank beherrschen den Raum. 
+Zusätzlich hängen gerahmte Landschaftsbilder an den Wänden.
 
-Essgeschirr.
+#### Schätze 
+Durchsucht ein Charakter den Schrank und würfelt erfolgreich auf  [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 15, so findet er ein Geheimfach im Schrankboden, in das jemand einen [[Kettenpanzer aus Mithral]] gestopft hat. 
 
-B5: GEMEINSCHAFTSRAUM
+### B7: Schlafzimmer der Stallburschen
+In jedem dieser Räume befinden sich zwei Betten und zwei kleine Schränke. 
+In den Schränken liegen sauber zusammengefaltete Kleidung und wertlose persönliche Gegenstände.
 
-Dieser Raum ist mit gepolsterten Stühlen und Spieltischen eingerichtet. Über den Boden verstreut liegen Drei-Drachen-Ante-Spielkarten und hölzerne Drachenschachfiguren.
-
-B6: BIG ALS SCHLAFZIMMER
-
-Ein großes Bett und ein wuchtiger Kleiderschrank beherrschen den Raum. Zusätzlich hängen gerahmte Landschaftsbilder an den Wänden.
-
-Schätze: Durchsucht ein Charakter den Schrank und würfelt erfolgreich auf Weisheit (Wahrnehmung) gegen
-
-SG 15, so findet er ein Geheimfach im Schrankboden, in das jemand einen Kettenpanzer aus Mithral gestopft hat. Wenn die Charaktere diesen magischer Gegenstand finden und identifizieren, gib ihnen die Karte Ketten-panzer aus Mithral.
-
-B7: SCHLAFZIMMER DER STALLBURSCHEN
-
-In jedem dieser Räume befinden sich zwei Betten und zwei kleine Schränke. In den Schränken liegen sauber zusammengefaltete Kleidung und wertlose persönliche Gegenstände.
-
-B8: BIG ALS GESCHÄFTSZIMMER
-
+### B8: Big Als Geschäftszimmer
 Auf Big Als Schreibtisch stapeln sich Geschäftsbücher und andere Unterlagen, die die letzten zehn Jahre seines Unternehmens dokumentieren.
 
-Schätze: Charaktere, die dieses Zimmer durchsuchen, finden unter den Papieren vergraben einen kleinen Beutel.
+#### Schätze
+Charaktere, die dieses Zimmer durchsuchen, finden unter den Papieren vergraben einen kleinen Beutel.
+Er enthält Einkommen und Löhne in einer Höhe von 65 GM, 145 SM und 220 KM.
 
-Er enthält Einkommen und Löhne in einer Höhe von 65 GM,
-
-145 SM und 220 KM.
-
-B9: OBERE ABSTELLKAMMER
-
+### B9: Obere Abstellkammer
 Dieser Raum enthält einen Schrubber, einen Besen und einen Eimer.
 
-BIO: KELLER MIT KÜHLLAGERUNG
-
+### B10: Keller mit Kühllagerung
 Ein Paar hölzerne Türen an der Nordseite des Gutshauses verdecken eine Steintreppe, die in den Keller führt.
-
 Wenn die Charaktere den Keller erkunden, lies ihnen den folgenden Text vor:
 
-Der Kellerboden besteht aus Erde, die Wände aus gemörteltem Stein. Eine 2,5 Meter hohe Decke aus Holzplanken wird von hölzernen Säulen gestützt. Eine große Gestalt sitzt mit einem über den Kopf gestülpten Leinensack auf einen Stuhl gefesselt. Die Schädel in den Wandregalen sind aus Butter gefertigt und von einer dünnen Wachsschicht ummantelt.
+> [!info]
+> Der Kellerboden besteht aus Erde, die Wände aus gemörteltem Stein. 
+> Eine 2,5 Meter hohe Decke aus Holzplanken wird von hölzernen Säulen gestützt. 
+> Eine große Gestalt sitzt mit einem über den Kopf gestülpten Leinensack auf einen Stuhl gefesselt. 
+> Die Schädel in den Wandregalen sind aus Butter gefertigt und von einer dünnen Wachsschicht ummantelt.
 
-Bei der Gestalt handelt es sich um Alfons Kalazorn, einen menschlichen Veteranen (Spielwerte unter Seite 82).
+Bei der Gestalt handelt es sich um [[Alfons Kalazorn]], einen menschlichen Veteranen.
+Charaktere benötigen eine Minute, um Big Al von seinen Fesselstricken zu befreien. 
+Er wurde von den Orks übel zusammengeschlagen, hat noch neun Trefferpunkte und weiß jegliche Heilung zu schätzen, die ihm die Charaktere zugutekommen lassen. 
+Er trägt weder Waffen noch Rüstung (RK 11).
 
-Charaktere benötigen eine Minute, um Big Al von seinen Fesselstricken zu befreien. Er wurde von den Orks übel zusammengeschlagen, hat noch neun Trefferpunkte und weiß jegliche Heilung zu schätzen, die ihm die Charaktere zugutekommen lassen. Er trägt weder Waffen noch Rüstung (RK 11).
+Nachdem sie ihn befreit haben, können Charaktere Big Al überzeugen, seine Ranch zu verlassen, wenn sie einen Erfolg auf Charisma (Einschüchtern oder Überzeugen) gegen SG 10 würfeln. 
+Er zieht es allerdings vor, zu bleiben, sich eine Waffe zu leihen und alle verbliebenen Orks zu töten.
 
-Nachdem sie ihn befreit haben, können Charaktere Big Al überzeugen, seine Ranch zu verlassen, wenn sie einen Erfolg auf Charisma (Einschüchtern oder Überzeugen) gegen SG 10 würfeln. Er zieht es allerdings vor, zu bleiben, sich eine Waffe zu leihen und alle verbliebenen Orks zu
-
-töten.
-
-Ohne seine preisgekrönte Kuh kann Big Al keine Gewinne machen. Erhält er sie wohlbehalten zurück, bietet er seinen Kettenpanzer aus Mithral (in Bereich B6 versteckt) als Belohnung an. Falls die Charaktere Petunia nicht mitgebracht haben, können sie die Umgebung nach ihr absuchen. Würfle nach jeder Stunde, in der gesucht wird, mit einem W6. Ist der Wurf eine sechs, findet die Abenteurergruppe Petunia. Suchen ein oder mehrere Charaktere zu Pferde, finden sie Petunia beim Wurf einer 5 oder sechs
+Ohne seine preisgekrönte Kuh kann Big Al keine Gewinne machen. 
+Erhält er sie wohlbehalten zurück, bietet er seinen Kettenpanzer aus Mithral (in Bereich B6 versteckt) als Belohnung an. 
+Falls die Charaktere Petunia nicht mitgebracht haben, können sie die Umgebung nach ihr absuchen. 
+Würfle nach jeder Stunde, in der gesucht wird, mit einem W6. 
+Ist der Wurf eine sechs, findet die Abenteurergruppe Petunia. 
+Suchen ein oder mehrere Charaktere zu Pferde, finden sie Petunia beim Wurf einer 5 oder sechs

@@ -3,20 +3,18 @@
 ## Organisatorisches
 - [[Kräuterkunde]] fast fertig...
 - [[Reisen]]
-- [[Erschöpft|Erschöpfung]] bei den Charakteren
-- [[Schaden erleiden#Bewusstsein verlieren]] Änderung Erschöpfung
-- Level Up
 
 ## Recap
-- Level Up
+- [[Lange Rast]] und Level Up
 - Rückkehr nach Phandalin
 - Argo getroffen
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
-![[Timeline Kampagne 2#Tag 6]]
+![[Timeline Kampagne 2#Tag 7]]
 
 ## Ablauf
 - [[Szene - Besprechung mit Sildar]]
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
+- [[Das Holzfällerlager]]
 
 ### Szenen
 - [[Szene - Rückkehr der Schürfer]]
