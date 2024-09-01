@@ -1,5 +1,5 @@
 ---
-cssclass: nord
+cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -69,6 +69,17 @@ Aussehen:
   Augenfarbe: Blau
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
+Zauber:
+  - "[[Windbö]]"
+  - "[[Schockgriff]]"
+  - "[[Donnerschlag]]"
+  - "[[Kältestrahl]]"
+  - "[[Hexenpfeil]]"
+  - "[[Magierrüstung]]"
+  - "[[Chaospfeil]]"
+  - "[[Klingenbann]]"
+  - "[[Schutzwind]]"
+  - "[[Snillocs Schneeballschwarm]]"
 Merkmale:
   Volk:
     - "[[Odemwaffe]]"
@@ -97,8 +108,279 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
+  Zauberpunkte: 17
+  Zauberplätze:
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 0
+    Grad_4: 0
+    Grad_5: 0
+    Grad_6: 0
+    Grad_7: 0
+    Grad_8: 0
+    Grad_9: 0
 random_number: 
+Inventar:
+  Körper:
+    count1: 2
+    gewicht1: 1
+    count2: 1
+    gewicht2: 4
+    count3: 1
+    gewicht3: 1
+    count4: 1
+    gewicht4: 3
+    count5: 1
+    gewicht5: 0
+  Behälter:
+    count1: 1
+    gewicht1: 0
+    count2: 0
+    gewicht2: 0
+    count3: 0
+    gewicht3: 0
+    count4: 0
+    gewicht4: 0
+    count5: 0
+    gewicht5: 0
+    count6: 0
+    gewicht6: 0
+    count7: 0
+    gewicht7: 0
+    count8: 0
+    gewicht8: 0
+    count9: 0
+    gewicht9: 0
+    count10: 0
+    gewicht10: 0
+    count11: 0
+    gewicht11: 0
+    count12: 0
+    gewicht12: 0
+    count13: 0
+    gewicht13: 0
+    count14: 0
+    gewicht14: 0
+    count15: 0
+    gewicht15: 0
+  Rucksack:
+    count1: 1
+    gewicht1: 5
+    count2: 1
+    gewicht2: 3
+    count3: 10
+    gewicht3: 0.25
+    count4: 10
+    gewicht4: 1
+    count5: 1
+    gewicht5: 1
+    count6: 10
+    gewicht6: 1
+    count7: 1
+    gewicht7: 0
+    count8: 15
+    gewicht8: 0.6
+    count9: 1
+    gewicht9: 0.6
+    count10: 1
+    gewicht10: 0
+    count11: 1
+    gewicht11: 1
+    count12: 1
+    gewicht12: 0
+    count13: 0
+    gewicht13: 0
+    count14: 0
+    gewicht14: 0
+    count15: 0
+    gewicht15: 0
+LineNumber: 213
 ---
+## Inventar Test
+
+### Am Körper
+
+| Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
+| ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
+| [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1` |
+| [[Kampfstab]]                               | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2` |
+| [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3` |
+| Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4` |
+| Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5` |
+| **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
+
+
+
+
+
+```meta-bind-button
+label: This is a button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: inlineJS
+    code: |-
+      // Get the current active editor (the open note)
+          const editor = this.app.workspace.activeEditor.editor;
+          debugger;
+
+          // Assume 'lineNumber' is stored in the note's frontmatter or elsewhere in the document
+          const metadata = this.app.metadataCache.getFileCache(this.app.workspace.getActiveFile());
+          const frontmatter = metadata.frontmatter;
+
+          // Get the lineNumber from the frontmatter
+          const lineNumber = frontmatter.LineNumber || 212;  // Default to line 1 if not found
+          
+          const nextMetadataCount = (Object.keys(frontmatter.Inventar.Körper).length / 2) + 1;
+
+          // The content to insert
+          let content = "|                                    | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1` |";
+          content = content.replace(/1/g, nextMetadataCount);
+          
+          debugger;
+
+          // Insert the content at the specified line
+          // editor.replaceRange(content, { line: lineNumber, ch: 0 });
+          
+          // Get the current content of the note 
+          //const content = editor.getValue().split('\n'); 
+          
+          // Insert the new content at the specified line 
+          //content.splice(lineNumber, 0, "This text will be inserted dynamically."); 
+          
+          // Set the new content back to the editor 
+          //editor.setValue(content.join('\n')); 
+          
+          // Refresh the editor view to ensure the new line appears 
+          editor.refresh();
+
+```
+
+
+```meta-bind-button
+label: Regex Button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: regexpReplaceInNote
+    regexp: \|\s*\*\*GESAMT\*\*\s*\|\s*\|\s*\|\s*`=this\.Summen\.Körper`\s*\|
+    replacement: |-
+      | | | | |
+      | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
+
+```
+
+
+```meta-bind-button
+label: Insert into Note
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: insertIntoNote
+    line: 130
+    value: "| | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht6` |"
+
+```
+
+
+```meta-bind-button
+label: Insert into Note (JS)
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "const activeEditor = app.workspace.activeLeaf.view.sourceMode.cmEditor; const content = activeEditor.getValue(); const keywords = ['Gegenstand', 'Anzahl', 'Gewicht', 'Gesamt']; debugger;"
+
+```
+
+```meta-bind-button
+label: Insert into Note 2 (JS)
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "const nextMetadataCount = (Object.keys(context.metadata.frontmatter.Inventar.Körper).length / 2) + 1; const editor = app.workspace.activeLeaf.view.sourceMode.cmEditor; const contentToInsert = '| | /`INPUT[number:Inventar.Körper.' + nextMetadataCount ']/` | /`INPUT[number:Inventar.Körper.gewicht' + nextMetadataCount ']/` | /`=this.Inventar.Körper.count' + nextMetadataCount ' * this.Inventar.Körper.gewicht' + nextMetadataCount '/` |'; debugger;"
+
+```
+
+```meta-bind-button
+label: Insert into Note 3 (JS)
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "try{debugger; const nextMetadataCount = (Object.keys(context.metadata.frontmatter.Inventar.Körper).length / 2) + 1; contentToInsert = '|       | '; contentToInsert += '`'; contentToInsert += 'INPUT[number:Inventar.Körper.count1]'; contentToInsert += '`'; contentToInsert += ' | '; contentToInsert += '`'; contentToInsert += 'INPUT[number:Inventar.Körper.gewicht1]'; contentToInsert += '`'; contentToInsert += ' | '; contentToInsert += '`'; contentToInsert += '=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1'; contentToInsert += '` |\n';  contentToInsert = contentToInsert.replace(/1/g, nextMetadataCount); debugger;} catch (error){ debugger; }"
+
+```
+
+
+
+## Dataview
+
+```dataview
+TABLE WITHOUT ID
+file.link AS "Zauber",
+Schule,
+Zeitaufwand, 
+Schadensart,
+Schaden AS "Basis Schaden",
+SchadenLv5 AS "Schaden ab Lv. 5",
+SchadenLv11 AS "Schaden ab Lv. 11",
+SchadenLv17 AS "Schaden ab Lv. 17",
+Ziel,
+Reichweite, 
+choice(Verbal,"X","") AS "Verbal", 
+choice(Geste,"X","") AS "Geste", 
+Dauer, 
+choice(Konzentration,"X","") AS "Konzentration", 
+choice(Ritual,"X","") AS "Ritual", 
+choice(Skalierbar,"X","") AS "Skalierbar" 
+FROM #Zauber
+WHERE contains(this.Zauber, file.link) AND Grad=0
+SORT file.name
+```
+
+## meta data button logik
+
+```meta-bind-button
+label: Inline JS Button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;     const magicPointsMetadata = mb.parseBindTarget('InputData.Zauberpunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad1 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md'));     const grad2 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad3 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad4 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad5 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad6 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad7 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad8 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad9 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const calculatedMagicPoints = (grad1 * 2) + (grad2 * 3) + (grad3 * 5) + (grad4 * 6) + (grad5 * 7) + (grad6 * 9) + (grad7 * 10) + (grad8 * 11) + (grad9 * 13); mb.setMetadata(magicPointsMetadata, calculatedMagicPoints);"
+
+```
+
+
 ## Statblocks
 
 ### Version 1
@@ -246,6 +528,67 @@ random_number: ${metadata.random_number}
 
 ```
 
+## Infobox
+
+> [!infobox]
+> # Name
+> ![[Image.png|cover hsmall]]
+> ###### Stats
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+> 
+> ##### Stats 2
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+
+> [!infobox]+ Collapsible Infobox
+> # Name
+> ![[Image.png|cover hsmall]]
+> ###### Stats
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+> 
+> ###### Stats 2
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+
+> [!infobox|left]
+> # Name
+> ![[Image.png|cover hsmall]]
+> ###### Stats
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+> 
+> ###### Stats 2
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+
+> [!infobox|left wikipedia]+
+> # Heading
+> ![[Image.png]]
+> ###### Heading 6
+> | Table Header |  Table Header |
+> | ---- | --- |
+> | Test | Testing |
+> | Test | Testing |
+> 
+> # Heading 1
+> - Bullet list
+> 	- Testing
+> 	- Testing
+> - Testing
 
 ## Erschöpfungspunkte Logik
 
