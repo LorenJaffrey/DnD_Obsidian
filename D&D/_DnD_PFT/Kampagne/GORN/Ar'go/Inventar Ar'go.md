@@ -1,6 +1,105 @@
 ---
+Name: Inventar
 Charakter: "[[Ar'go]]"
-cssclass: nord
+cssclass: nord, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+Summen:
+  Rucksack: 42.1
+  Behälter: 0
+  Körper: 10
+Inventar:
+  Körper:
+    count1: 2
+    gewicht1: 1
+    count2: 1
+    gewicht2: 4
+    count3: 1
+    gewicht3: 1
+    count4: 1
+    gewicht4: 3
+    count5: 1
+    gewicht5: 0
+    count6: 0
+    gewicht6: 0
+    count7: 0
+    gewicht7: 0
+    count8: 0
+    gewicht8: 0
+    count9: 0
+    gewicht9: 0
+    count10: 0
+    gewicht10: 0
+    count11: 0
+    gewicht11: 0
+    count12: 0
+    gewicht12: 0
+    count13: 0
+    gewicht13: 0
+    count14: 0
+    gewicht14: 0
+    count15: 0
+    gewicht15: 0
+  Behälter:
+    count1: 1
+    gewicht1: 0
+    count2: 0
+    gewicht2: 0
+    count3: 0
+    gewicht3: 0
+    count4: 0
+    gewicht4: 0
+    count5: 0
+    gewicht5: 0
+    count6: 0
+    gewicht6: 0
+    count7: 0
+    gewicht7: 0
+    count8: 0
+    gewicht8: 0
+    count9: 0
+    gewicht9: 0
+    count10: 0
+    gewicht10: 0
+    count11: 0
+    gewicht11: 0
+    count12: 0
+    gewicht12: 0
+    count13: 0
+    gewicht13: 0
+    count14: 0
+    gewicht14: 0
+    count15: 0
+    gewicht15: 0
+  Rucksack:
+    count1: 1
+    gewicht1: 5
+    count2: 1
+    gewicht2: 3
+    count3: 10
+    gewicht3: 0.25
+    count4: 10
+    gewicht4: 1
+    count5: 1
+    gewicht5: 1
+    count6: 10
+    gewicht6: 1
+    count7: 1
+    gewicht7: 0
+    count8: 15
+    gewicht8: 0.6
+    count9: 1
+    gewicht9: 0.6
+    count10: 1
+    gewicht10: 0
+    count11: 1
+    gewicht11: 1
+    count12: 1
+    gewicht12: 0
+    count13: 0
+    gewicht13: 0
+    count14: 0
+    gewicht14: 0
+    count15: 0
+    gewicht15: 0
 Geld:
   PM: 0
   GM: 5
@@ -8,7 +107,8 @@ Geld:
   SM: 0
   KM: 0
 ---
-# `=this.file.name`
+
+# `=this.Name`
 > [!infobox]
 > ###### Geld
 > | Währung | Anzahl |
@@ -27,43 +127,61 @@ Geld:
 > | Maximale Traglast | `=(this.Charakter.Attribute.Stärke*15)` Pfund |
 > | Maximalbelastung | `=(this.Charakter.Attribute.Stärke*30)` Pfund |
 > 
-> ##### Aktuelle Traglast: `=10+0+42.1`
+> ##### Aktuelle Traglast: `=this.Summen.Rucksack+this.Summen.Behälter+this.Summen.Körper`
 
 ## Am Körper
-| Gegenstand                                  | Anzahl | Gewicht | Gesamt |
-| ------------------------------------------- |:------:|:-------:|:------:|
-| [[Dolch]]                                   |   2    |    1    |   2    |
-| [[Kampfstab]]                               |   1    |    4    |   4    |
-| [[Arkaner Fokus]] - Kristall                |   1    |    1    |   1    |
-| Gewöhnliche Kleidung                        |   1    |    3    |   3    |
-| Kultisten-Amulett (Symbol des Sturmdrachen) |   1    |    0    |   0    |
-| **GESAMT**                                  |        |         |   10   |
-<!-- TBLFM: $>=($-1*$-2) -->
-<!-- TBLFM: @>$>=sum(@I..@-1) -->
+| Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
+| ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
+| [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1` |
+| [[Kampfstab]]                               | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2` |
+| [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3` |
+| Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4` |
+| Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5` |
+| **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      | 
+
 
 ## Schriftrollenbehälter
-| Gegenstand                                                | Anzahl | Gewicht | Gesamt |
-| --------------------------------------------------------- |:------:|:-------:|:------:|
-| Karte der Insel (Drachenkult) und der umliegenden Gebiete |   1    |    0    |   0    |
-| **GESAMT**                                                |        |         |   0    |
-<!-- TBLFM: $>=($-1*$-2) -->
-<!-- TBLFM: @>$>=sum(@I..@-1) -->
+| Gegenstand                                                |                  Anzahl                  |                  Gewicht                   |                               Gesamt                               |
+| --------------------------------------------------------- |:----------------------------------------:|:------------------------------------------:|:------------------------------------------------------------------:|
+| Karte der Insel (Drachenkult) und der umliegenden Gebiete | `INPUT[number:Inventar.Behälter.count1]` | `INPUT[number:Inventar.Behälter.gewicht1]` | `=this.Inventar.Behälter.count1 * this.Inventar.Behälter.gewicht1` |
+| **GESAMT**                                                |                                          |                                            |                      `=this.Summen.Behälter`                       | 
 
 ## Rucksack
-| Gegenstand                                | Anzahl | Gewicht | Gesamt |
-| ----------------------------------------- |:------:|:-------:|:------:|
-| [[Brechstange]]                           |   1    |    5    |   5    |
-| [[Hammer]]                                |   1    |    3    |   3    |
-| [[Kletterhaken]]                          |   10   |  0.25   |  2.5   |
-| [[Fackel]]                                |   10   |    1    |   10   |
-| [[Zunderkästchen]]                        |   1    |    1    |   1    |
-| [[Ration]]                                |   10   |    1    |   10   |
-| [[Trinkschlauch]]                         |   1    |    0    |   0    |
-| [[Seil aus Hanf]]  (Meter)                |   15   |   0.6   |   9    |
-| Kompass                                   |   1    |   0.6   |  0.6   |
-| Winterdecke                               |   1    |    0    |   0    |
-| Ritualbuch (Drachenkult des Sturmdrachen) |   1    |    1    |   1    |
-| [[Gildenabzeichen]]                       |   1    |    0    |   0    | 
-| **GESAMT**                                |        |         |  42.1  |
-<!-- TBLFM: $>=($-1*$-2) -->
-<!-- TBLFM: @>$>=sum(@I..@-1) -->
+| Gegenstand                                |                  Anzahl                   |                   Gewicht                   |                                Gesamt                                |
+| ----------------------------------------- |:-----------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------------------:|
+| [[Brechstange]]                           | `INPUT[number:Inventar.Rucksack.count1]`  | `INPUT[number:Inventar.Rucksack.gewicht1]`  |  `=this.Inventar.Rucksack.count1 * this.Inventar.Rucksack.gewicht1`  |
+| [[Hammer]]                                | `INPUT[number:Inventar.Rucksack.count2]`  | `INPUT[number:Inventar.Rucksack.gewicht2]`  |  `=this.Inventar.Rucksack.count2 * this.Inventar.Rucksack.gewicht2`  |
+| [[Kletterhaken]]                          | `INPUT[number:Inventar.Rucksack.count3]`  | `INPUT[number:Inventar.Rucksack.gewicht3]`  |  `=this.Inventar.Rucksack.count3 * this.Inventar.Rucksack.gewicht3`  |
+| [[Fackel]]                                | `INPUT[number:Inventar.Rucksack.count4]`  | `INPUT[number:Inventar.Rucksack.gewicht4]`  |  `=this.Inventar.Rucksack.count4 * this.Inventar.Rucksack.gewicht4`  |
+| [[Zunderkästchen]]                        | `INPUT[number:Inventar.Rucksack.count5]`  | `INPUT[number:Inventar.Rucksack.gewicht5]`  |  `=this.Inventar.Rucksack.count5 * this.Inventar.Rucksack.gewicht5`  |
+| [[Ration]]                                | `INPUT[number:Inventar.Rucksack.count6]`  | `INPUT[number:Inventar.Rucksack.gewicht6]`  |  `=this.Inventar.Rucksack.count6 * this.Inventar.Rucksack.gewicht6`  |
+| [[Trinkschlauch]]                         | `INPUT[number:Inventar.Rucksack.count7]`  | `INPUT[number:Inventar.Rucksack.gewicht7]`  |  `=this.Inventar.Rucksack.count7 * this.Inventar.Rucksack.gewicht7`  |
+| [[Seil aus Hanf]]  (Meter)                | `INPUT[number:Inventar.Rucksack.count8]`  | `INPUT[number:Inventar.Rucksack.gewicht8]`  |  `=this.Inventar.Rucksack.count8 * this.Inventar.Rucksack.gewicht8`  |
+| Kompass                                   | `INPUT[number:Inventar.Rucksack.count9]`  | `INPUT[number:Inventar.Rucksack.gewicht9]`  |  `=this.Inventar.Rucksack.count9 * this.Inventar.Rucksack.gewicht9`  |
+| Winterdecke                               | `INPUT[number:Inventar.Rucksack.count10]` | `INPUT[number:Inventar.Rucksack.gewicht10]` | `=this.Inventar.Rucksack.count10 * this.Inventar.Rucksack.gewicht10` |
+| Ritualbuch (Drachenkult des Sturmdrachen) | `INPUT[number:Inventar.Rucksack.count11]` | `INPUT[number:Inventar.Rucksack.gewicht11]` | `=this.Inventar.Rucksack.count11 * this.Inventar.Rucksack.gewicht11` |
+| [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12` | 
+| **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
+
+
+```js-engine
+const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
+const groupList = ['Rucksack', 'Behälter', 'Körper'];
+const valueList = ['count', 'gewicht'];
+
+groupList.forEach((groupName) => {
+	const sumBinding = mb.parseBindTarget(`Summen.${groupName}`, context.file.path);
+	const metaDataList = context.metadata.frontmatter.Inventar[groupName];
+	const metaDataCount = Object.keys(metaDataList).length / (valueList.length)
+	let sumValue = 0;
+
+	for(let i = 0; i < metaDataCount; i++){
+		const countValue = mb.getMetadata(mb.parseBindTarget(`Inventar.${groupName}.count${i+1}`, context.file.path));
+		const gewichtValue = mb.getMetadata(mb.parseBindTarget(`Inventar.${groupName}.gewicht${i+1}`, context.file.path));
+		sumValue += (countValue * gewichtValue)
+	}
+
+	mb.setMetadata(sumBinding, sumValue);
+});
+
+```

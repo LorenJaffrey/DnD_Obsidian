@@ -1,5 +1,5 @@
 ---
-cssclass: nord
+cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -195,23 +195,25 @@ tags:
 > `=this.Persönlichkeit.Makel`
 > 
 
-#   `=this.file.name`nthariel Maez'ralor Sturmzorn
+#  `=this.file.name`nthariel Maez'ralor Sturmzorn
 > [!column | flex 3 ]
 >> ## Rasten
 >> |                            |                           |
->> | -------------------------- | ------------------------- |
+>> | :--------------------------: | :-------------------------: |
 >> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
->> 
+>>
 >>  ## Allgemeine Spiel - Parameter
->> | Erholungs-Art | 1 | 2 |
->> | :---: | :---: | :---: |
->> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
->> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
->>  
->> |  Eigenschaft  |  Wert  |  
->> | :---: | :---: | 
->> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
->> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>>> [!column | 2 flex] 
+>>>> | Erholungs-Art | 1 | 2 |
+>>>> | :---: | :---: | :---: |
+>>>> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
+>>>> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
+>>>  
+>>>> |  Eigenschaft  |  Wert  |  
+>>>> | :---: | :---: | 
+>>>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+>>>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>>>
 >> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -222,16 +224,16 @@ tags:
 >> ## Gesundheit
 >> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | :------------------------: | :------------------------: | :---------------------------: |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |             -                |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
 >>
 >>>[!column | flex 2 ] 
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->>>> | ------- | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+>>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 >>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| |
+>>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| - |
 >>>
 >>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> - Blitz
@@ -315,11 +317,6 @@ tags:
 >> WHERE contains(this.Waffen, file.link)
 >> SORT file.name
 >> ```
->> 
->> ### Zauberangriff / Zauber wirken
->> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
->> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >
 >> ### Schusswaffen 
 >> ```dataview
@@ -354,21 +351,51 @@ tags:
 >> ```
 >
 
-## Aktionen
->[!column]
->> ### Blitz-Odem
->>|  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad]]  |   [[Rettungswurf]] |  Erholung  |
->>| ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>| [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang) |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
->>    
->>| Merkmal            | Verfügbar |
->>| ------------------ |:---------:|
->>| Blitz-Odem | `INPUT[toggle:InputData.BlitzOdem]`|
+## Magie
+>[!column | 2]
+>> ### [[Odemwaffe | Blitz-Odem]] 
+>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
->> ### Metamagie
->> ![[Beschleunigter Zauber]]
->> ![[Gespiegelter Zauber]]
-> 
+>>>[!column ]   
+>>>>  ###### Zauberplätze
+>>>>  
+>>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>>>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>>>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>>>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>>>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>>>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>>>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>>>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>>>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>>>
+>>>> ###### Zauberpunkte
+>>>> 
+>>>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
+>>>> |:----:|:-------------------------------:|:-----------------------------------:|
+>>>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+>>>>
+>>>> | Zauberlevel | Umwandlungskosten |
+>>>> | ----------- |:-----------------:|
+>>>> | Level 1     |         2         |
+>>>> | Level 2     |         3         |
+>>>> | Level 3     |         5         |
+>>>> | Level 4     |         6         |
+>>>> | Level 5     |         7         |
+>>>> | Level 6     |          -         |
+>>>> | Level 7     |          -         |
+>>>> | Level 8     |          -         |
+>>>> | Level 9     |          -         | 
+>
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | :--------------------: | :---------------------------------------------------------------------------------------: |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> 
 >> ## Zaubertricks
 >> ```dataview
 >> TABLE WITHOUT ID
@@ -376,15 +403,15 @@ tags:
 >> Schule,
 >> Zeitaufwand, 
 >> Schadensart,
->> Schaden,
+>> Schaden AS "Schaden ab Lv. 1",
+>> SchadenLv5 AS "Schaden ab Lv. 5",
 >> Ziel,
 >> Reichweite, 
 >> choice(Verbal,"X","") AS "Verbal", 
 >> choice(Geste,"X","") AS "Geste", 
 >> Dauer, 
 >> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> choice(Ritual,"X","") AS "Ritual"
 >> FROM #Zauber
 >> WHERE contains(this.Zauber, file.link) AND Grad=0
 >> SORT file.name
@@ -433,54 +460,30 @@ tags:
 >> ```
 >
 
-## Zauber / Magie
-> [!column | flex 3 ]
->> ###### Zauber wirken
->> 
->> [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->> [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
->> 
->>---
->> ###### Bekannte Zauber
->> 
->> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
->> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
->> Bekannte Zauber: `$=if(dv.page(dv.current().Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.current().Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.current().Stufe]}else{if(dv.page(dv.current().Hintergrund.Klasse).file.name=="Paladin"){dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse.Zauberattribut).file.name])-10)/2)/2}else{dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.file.name])-10)/2)}}`  
-> 
->>  ###### Zauberplätze
->>  
->> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
->
->> ###### Zauberpunkte
->> 
->> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+## Fähigkeiten
+> [!column | 2]
+>> ### Merkmale
+>>> [!column | 2]
+>>>> ![[Stürmische Magie]]
+>>>
+>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>
->> | Zauberlevel | Umwandlungskosten |
->> | ----------- |:-----------------:|
->> | Level 1     |         2         |
->> | Level 2     |         3         |
->> | Level 3     |         5         |
->> | Level 4     |         6         |
->> | Level 5     |         7         |
->> | Level 6     |          -         |
->> | Level 7     |          -         |
->> | Level 8     |          -         |
->> | Level 9     |          -         | 
+>> ### Metamagie
+>>> [!column | 2]
+>>>> ![[Beschleunigter Zauber]]
+>>>
+>>>> ![[Gespiegelter Zauber]]
+> 
+>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>> [!column | 2] 
+>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>
+>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
+>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 ## Übung / Merkmale
-> [!column | 3]
+> [!column | flex]
 >> ## Rüstung
 >> 
 >> ## Waffen
@@ -515,8 +518,6 @@ tags:
 >> SORT file.name
 >> ```
 >>
->> ![[Kampferprobter Zauberwirker]]
->
 >> ## Klassenmerkmale
 >> ```dataview
 >> LIST
@@ -524,12 +525,7 @@ tags:
 >> WHERE contains(this.Merkmale.Klasse, file.link)
 >> SORT file.name
 >> ```
->> 
->> ![[Stürmische Magie]]
->> 
->> ![[Quelle der Magie#Flexibles Zauberwirken]]
->> 
->> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
+>
 
 ## Statistik
 
@@ -649,10 +645,8 @@ tooltip: ""
 id: longBreakButton
 style: primary
 actions:
-  - type: updateMetadata
-    bindTarget: Gesundheit.TW
-    evaluate: false
-    value: "4"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const tw = mb.parseBindTarget('Gesundheit.TW', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); mb.setMetadata(tw, stufe);"
   - type: updateMetadata
     bindTarget: InputData.Uhrzeit1
     evaluate: false
@@ -669,46 +663,26 @@ actions:
     bindTarget: InputData.UhrzeitToogle2
     evaluate: false
     value: "false"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberpunkte
-    evaluate: false
-    value: "17"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_1
-    evaluate: false
-    value: "4"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_2
-    evaluate: false
-    value: "3"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_3
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_4
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_5
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_6
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_7
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_8
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_9
-    evaluate: false
-    value: "0"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;     const magicPointsMetadata = mb.parseBindTarget('InputData.Zauberpunkte', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad1 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md'));     const grad2 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad3 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad4 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad5 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad6 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad7 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad8 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const grad9 = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md'));   const calculatedMagicPoints = (grad1 * 2) + (grad2 * 3) + (grad3 * 5) + (grad4 * 6) + (grad5 * 7) + (grad6 * 9) + (grad7 * 10) + (grad8 * 11) + (grad9 * 13); mb.setMetadata(magicPointsMetadata, calculatedMagicPoints);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_1', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_2', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_3', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_4', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_5', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_6', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_7', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_8', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const magicMetadata = mb.parseBindTarget('InputData.Zauberplätze.Grad_9', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const grad = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Zauberer/Zauberer.md')); mb.setMetadata(magicMetadata, grad);"
   - type: updateMetadata
     bindTarget: InputData.NormaleRüstung
     evaluate: false
@@ -725,6 +699,8 @@ actions:
     bindTarget: InputData.ErschöpfungsPunkte
     evaluate: true
     value: x - 1
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
 
 

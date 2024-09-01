@@ -106,6 +106,19 @@ Persönlichkeit:
   Bindungen: Rache für den ausgelöschten Stamm.
   Makel:
     - Visionen, Alpträume und unkontrollierte Teleportation
+Zauber:
+  - "[[Gift versprühen]]"
+  - "[[Druidenkunst]]"
+  - "[[Shillelagh]]"
+  - "[[Donnerwoge]]"
+  - "[[Wunden heilen]]"
+  - "[[Mit Tieren sprechen]]"
+  - "[[Nebelschritt]]"
+  - "[[Identifizieren]]"
+  - "[[Heilendes Wort]]"
+  - "[[Schwache Genesung]]"
+  - "[[Fallen finden]]"
+  - "[[Spurloses Gehen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -192,85 +205,101 @@ tags:
 > ### Makel
 > `=this.Persönlichkeit.Makel`
 
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
-[[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
-
-
-|        Eigenschaft         |                   1                    |                   2                    |                   3                    |                   4                    |                   5                    |                   6                    |                   7                    |                   8                    |                   9                    |
-|:--------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-|  [[Glück\|Glückspunkte]]   | `INPUT[toggle:InputData.Glückspunkt1]` | `INPUT[toggle:InputData.Glückspunkt3]` | `INPUT[toggle:InputData.Glückspunkt3]` | `INPUT[toggle:InputData.Glückspunkt4]` | `INPUT[toggle:InputData.Glückspunkt5]` |                                        |                                        |                                        |                                        |
-|      [[Stresslevel]]       | `INPUT[toggle:InputData.Stresslevel1]` | `INPUT[toggle:InputData.Stresslevel2]` | `INPUT[toggle:InputData.Stresslevel3]` | `INPUT[toggle:InputData.Stresslevel4]` | `INPUT[toggle:InputData.Stresslevel5]` |                                        |                                        |                                        |                                        |
-| [[Erschöpft\|Erschöpfung]] | `INPUT[toggle:InputData.Erschöpfung1]` | `INPUT[toggle:InputData.Erschöpfung2]` | `INPUT[toggle:InputData.Erschöpfung3]` | `INPUT[toggle:InputData.Erschöpfung4]` | `INPUT[toggle:InputData.Erschöpfung5]` | `INPUT[toggle:InputData.Erschöpfung6]` | `INPUT[toggle:InputData.Erschöpfung7]` | `INPUT[toggle:InputData.Erschöpfung8]` | `INPUT[toggle:InputData.Erschöpfung9]` | 
-
-## Aranon
-> [!column | flex 3 ] 
->> ## Aufladungen
->> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
->> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
->>| Maximal      | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` |  `INPUT[toggle:InputData.GeistertotemLadung]` | `INPUT[toggle:InputData.NebelschrittLadung]`   | `INPUT[toggle:InputData.IdentifizierenLadung]` |
->> | Aufladung |                 [[Kurze Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
->
->> ## Tiergestalten
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Tier",
->> HG
->> FROM #Kreatur/Tier 
->> SORT HG DESC
->> WHERE HG = "1/4" OR HG = "1/8" OR HG = 0
->> ```
->
+> [!column | flex 3 ]
 >> ## Rasten
->> |                     |                     |
->> | ------------------- | ------------------- |
+>> |                            |                           |
+>> | -------------------------- | ------------------------- |
 >> | `BUTTON[kurzeRast]` | `BUTTON[langeRast]` | 
+>> 
+>>  ## Allgemeine Spiel - Parameter
+>> |  Eigenschaft  |  Wert  |  
+>> | :---: | :---: | 
+>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+>>
+>> 
+>> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+>> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+>> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
+>> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
+>> 
 >
-
-## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
-
-## Verteidigung
-> [!column | flex no-title] 
 >> ## Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
->> | :-------: | :------------------------: | :------------------------: | :---------------------------: |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe`  |                             |
->> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
->
+>> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
+>> | ------- | :------------------------: | :------------------------: | :---------------------------: |
+>> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
+>> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
+>>
+>>
 >>## Rüstung
 >> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->> | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>> | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+>> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>
+>
+>> ## Bewegung
+>> | Gehen                                              |
+>> | ---------------------------------- |
+>> | `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | 
+>>
+>> | [[Spurt]]                                          |
+>> | -------------------------------------------------- |
+>> | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | 
+>>
+>> | [[Hochsprung]] mit Anlauf                            | 
+>> | ------------------------------------------------- | 
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | 
+>>
+>> | [[Hochsprung]] ohne Anlauf                                    |
+>> | ------------------------------------------------------------- |
+>> | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | 
+>>
+>> | [[Weitsprung]] mit Anlauf                 | 
+>> | ------------------------------------------ | 
+>> | `=round((this.Attribute.Stärke*0.3),2)` m |
+>>
+>> | [[Weitsprung]] ohne Anlauf                  |
+>> | --------------------------------------------- |
+>> | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+>>
+>
 
-## Zauber / Magie
-> [!column | flex 2 ]
->> ### Zauberangriff / Zauber wirken
->> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
->> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
->> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
->> 
->>---
->> ###### Bekannte Zauber
->> 
->> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
->> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
->> Bekannte Zauber: `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  
-> 
->>  ###### Zauberplätze
->>  
->> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+## Stats
+> [!column | flex no-title]
+>> ## Attribute
+>> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
+>> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
+>> | [[Stärke]]              |      `=this.Attribute.Stärke`      |      `=floor(((this.Attribute.Stärke)-10)/2)`      |           `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`           |
+>> | [[Geschicklichkeit]]    | `=this.Attribute.Geschicklichkeit` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))` |
+>> | [[Konstitution]]        |   `=this.Attribute.Konstitution`   |   `=floor(((this.Attribute.Konstitution)-10)/2)`   |     `=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`     |
+>> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
+>> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
+>> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
+>
+>> ## Fertigkeiten
+>> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |
+>> | ---------------------------- | ------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------- |
+>> | [[Akrobatik]]                | [[Geschicklichkeit]]      |                                                 `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Akrobatik=2, "Expertise", choice(this.Fertigkeiten.Akrobatik=1, "Übung", ""))`                   |
+>> | [[Arkane Kunde]]             | [[Intelligenz]]           |                                                  `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`                                                  | `=choice(this.Fertigkeiten.Arkane_Kunde=2, "Expertise", choice(this.Fertigkeiten.Arkane_Kunde=1, "Übung", ""))`             |
+>> | [[Athletik]]                 | [[Stärke]]                |                                                      `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`                                                       | `=choice(this.Fertigkeiten.Athletik=2, "Expertise", choice(this.Fertigkeiten.Athletik=1, "Übung", ""))`                     |
+>> | [[Auftreten]]                | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Auftreten=2, "Expertise", choice(this.Fertigkeiten.Auftreten=1, "Übung", ""))`                   |
+>> | [[Einschüchtern]]            | [[Charisma]] / [[Stärke]] | `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` | `=choice(this.Fertigkeiten.Einschüchtern=2, "Expertise", choice(this.Fertigkeiten.Einschüchtern=1, "Übung", ""))`           |
+>> | [[Fingerfertigkeit]]         | [[Geschicklichkeit]]      |                                             `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`                                              | `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "Expertise", choice(this.Fertigkeiten.Fingerfertigkeit=1, "Übung", ""))`     |
+>> | [[Geschichte]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Geschichte=2, "Expertise", choice(this.Fertigkeiten.Geschichte=1, "Übung", ""))`                 |
+>> | [[Heilkunde]]                | [[Weisheit]]              |                                                     `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Heilkunde=2, "Expertise", choice(this.Fertigkeiten.Heilkunde=1, "Übung", ""))`                   |
+>> | [[Heimlichkeit]]             | [[Geschicklichkeit]]      |                                               `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`                                                | `=choice(this.Fertigkeiten.Heimlichkeit=2, "Expertise", choice(this.Fertigkeiten.Heimlichkeit=1, "Übung", ""))`             |
+>> | [[Mit Tieren umgehen]]       | [[Weisheit]]              |                                                `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "Expertise", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "Übung", ""))` |
+>> | [[Motiv erkennen]]           | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Motiv_erkennen=2, "Expertise", choice(this.Fertigkeiten.Motiv_erkennen=1, "Übung", ""))`         |
+>> | [[Nachforschungen]]          | [[Intelligenz]]           |                                                `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Nachforschungen*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Nachforschungen=2, "Expertise", choice(this.Fertigkeiten.Nachforschungen=1, "Übung", ""))`       |
+>> | [[Naturkunde]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Naturkunde=2, "Expertise", choice(this.Fertigkeiten.Naturkunde=1, "Übung", ""))`                 |
+>> | [[Religion]]                 | [[Intelligenz]]           |                                                    `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`                                                    | `=choice(this.Fertigkeiten.Religion=2, "Expertise", choice(this.Fertigkeiten.Religion=1, "Übung", ""))`                     |
+>> | [[Täuschen]]                 | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`                                                      | `=choice(this.Fertigkeiten.Täuschen=2, "Expertise", choice(this.Fertigkeiten.Täuschen=1, "Übung", ""))`                     |
+>> | [[Überlebenskunst]]          | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`                                                  | `=choice(this.Fertigkeiten.Überlebenskunst=2, "Expertise", choice(this.Fertigkeiten.Überlebenskunst=1, "Übung", ""))`       |
+>> | [[Überzeugen]]               | [[Charisma]]              |                                                    `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Überzeugen=2, "Expertise", choice(this.Fertigkeiten.Überzeugen=1, "Übung", ""))`                 |
+>> | [[Wahrnehmung]]              | [[Weisheit]]              |                                                    `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`                                                    | `=choice(this.Fertigkeiten.Wahrnehmung=2, "Expertise", choice(this.Fertigkeiten.Wahrnehmung=1, "Übung", ""))`               |
+>>
+>>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
+
 
 ## Angriff
 > [!column | flex 3]
@@ -320,43 +349,120 @@ tags:
 >> SORT file.name
 >> ```
 >
+
 Disclaimer: Waffen haben immer Übungsbonus...
 
-## Stats
-> [!column | flex no-title]
->> ## Attribute
->> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
->> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
->> | [[Stärke]]              |      `=this.Attribute.Stärke`      |      `=floor(((this.Attribute.Stärke)-10)/2)`      |           `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`           |
->> | [[Geschicklichkeit]]    | `=this.Attribute.Geschicklichkeit` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)` | `=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))` |
->> | [[Konstitution]]        |   `=this.Attribute.Konstitution`   |   `=floor(((this.Attribute.Konstitution)-10)/2)`   |     `=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`     |
->> | [[Intelligenz]]         |   `=this.Attribute.Intelligenz`    |   `=floor(((this.Attribute.Intelligenz)-10)/2)`    |      `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`      |
->> | [[Weisheit]]            |     `=this.Attribute.Weisheit`     |     `=floor(((this.Attribute.Weisheit)-10)/2)`     |         `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))`         |
->> | [[Charisma]]            |     `=this.Attribute.Charisma`     |     `=floor(((this.Attribute.Charisma)-10)/2)`     |         `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`         |
->
->> ## Fertigkeiten
->> | [[Fertigkeiten\|Fertigkeit]] | Attribut                  |                                                                                       Fertigkeitswurfmodifikator                                                                                        | Übung                                                                                                                       |
->> | ---------------------------- | ------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------- |
->> | [[Akrobatik]]                | [[Geschicklichkeit]]      |                                                 `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Akrobatik=2, "Expertise", choice(this.Fertigkeiten.Akrobatik=1, "Übung", ""))`                   |
->> | [[Arkane Kunde]]             | [[Intelligenz]]           |                                                  `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`                                                  | `=choice(this.Fertigkeiten.Arkane_Kunde=2, "Expertise", choice(this.Fertigkeiten.Arkane_Kunde=1, "Übung", ""))`             |
->> | [[Athletik]]                 | [[Stärke]]                |                                                      `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`                                                       | `=choice(this.Fertigkeiten.Athletik=2, "Expertise", choice(this.Fertigkeiten.Athletik=1, "Übung", ""))`                     |
->> | [[Auftreten]]                | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Auftreten=2, "Expertise", choice(this.Fertigkeiten.Auftreten=1, "Übung", ""))`                   |
->> | [[Einschüchtern]]            | [[Charisma]] / [[Stärke]] | `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` | `=choice(this.Fertigkeiten.Einschüchtern=2, "Expertise", choice(this.Fertigkeiten.Einschüchtern=1, "Übung", ""))`           |
->> | [[Fingerfertigkeit]]         | [[Geschicklichkeit]]      |                                             `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`                                              | `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "Expertise", choice(this.Fertigkeiten.Fingerfertigkeit=1, "Übung", ""))`     |
->> | [[Geschichte]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Geschichte=2, "Expertise", choice(this.Fertigkeiten.Geschichte=1, "Übung", ""))`                 |
->> | [[Heilkunde]]                | [[Weisheit]]              |                                                     `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Heilkunde=2, "Expertise", choice(this.Fertigkeiten.Heilkunde=1, "Übung", ""))`                   |
->> | [[Heimlichkeit]]             | [[Geschicklichkeit]]      |                                               `=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`                                                | `=choice(this.Fertigkeiten.Heimlichkeit=2, "Expertise", choice(this.Fertigkeiten.Heimlichkeit=1, "Übung", ""))`             |
->> | [[Mit Tieren umgehen]]       | [[Weisheit]]              |                                                `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "Expertise", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "Übung", ""))` |
->> | [[Motiv erkennen]]           | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Motiv_erkennen=2, "Expertise", choice(this.Fertigkeiten.Motiv_erkennen=1, "Übung", ""))`         |
->> | [[Nachforschungen]]          | [[Intelligenz]]           |                                                `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Nachforschungen*(ceil(this.Stufe/4)+1))`                                                 | `=choice(this.Fertigkeiten.Nachforschungen=2, "Expertise", choice(this.Fertigkeiten.Nachforschungen=1, "Übung", ""))`       |
->> | [[Naturkunde]]               | [[Intelligenz]]           |                                                   `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`                                                   | `=choice(this.Fertigkeiten.Naturkunde=2, "Expertise", choice(this.Fertigkeiten.Naturkunde=1, "Übung", ""))`                 |
->> | [[Religion]]                 | [[Intelligenz]]           |                                                    `=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`                                                    | `=choice(this.Fertigkeiten.Religion=2, "Expertise", choice(this.Fertigkeiten.Religion=1, "Übung", ""))`                     |
->> | [[Täuschen]]                 | [[Charisma]]              |                                                     `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`                                                      | `=choice(this.Fertigkeiten.Täuschen=2, "Expertise", choice(this.Fertigkeiten.Täuschen=1, "Übung", ""))`                     |
->> | [[Überlebenskunst]]          | [[Weisheit]]              |                                                  `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`                                                  | `=choice(this.Fertigkeiten.Überlebenskunst=2, "Expertise", choice(this.Fertigkeiten.Überlebenskunst=1, "Übung", ""))`       |
->> | [[Überzeugen]]               | [[Charisma]]              |                                                    `=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`                                                     | `=choice(this.Fertigkeiten.Überzeugen=2, "Expertise", choice(this.Fertigkeiten.Überzeugen=1, "Übung", ""))`                 |
->> | [[Wahrnehmung]]              | [[Weisheit]]              |                                                    `=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`                                                    | `=choice(this.Fertigkeiten.Wahrnehmung=2, "Expertise", choice(this.Fertigkeiten.Wahrnehmung=1, "Übung", ""))`               |
+## Magie
+>[!column | 2 flex]
+>>> [!column | 2]
+>>>> ###### Bekannte Zauber
+>>>> 
+>>>> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
+>>>> Zaubertricks: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0`
+>>>> Bekannte Zauber: `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  
+>>>
+>>>> ###### Tiergestalten
+>>>> 
+>>>> ```dataview
+>>>> TABLE WITHOUT ID
+>>>> file.link AS "Tier",
+>>>> HG
+>>>> FROM #Kreatur/Tier 
+>>>> SORT HG DESC
+>>>> WHERE HG = "1/4" OR HG = "1/8" OR HG = 0
+>>>> ```
+>>>
+>> 
+>> ###### Aufladungen
+>> |                          |                          [[Tiergestalt]]             |                   [[Geistertotem]]                  |             [[Nebelschritt]]                          |                       [[Identifizieren]]                  |
+>> | -------------- |:--------------------------------------:|:----------------------------------------:|:----------------------------------------:|:-------------------------------------------:|
+>>| Maximal      | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` |  `INPUT[toggle:InputData.GeistertotemLadung]` | `INPUT[toggle:InputData.NebelschrittLadung]`   | `INPUT[toggle:InputData.IdentifizierenLadung]` |
+>> | Aufladung |                 [[Kurze Rast]]                      |                     [[Kurze Rast]]                      |                       [[Lange Rast]]                   |                          [[Lange Rast]]                      |
 >>
->>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
+>> 
+>>  ###### Zauberplätze
+>>  
+>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+>> |:----:|:-------------------------------:|:-----------------------------------:|
+>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>>
+>
+>> ### Zauberangriff / Zauber wirken
+>> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
+>> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+>> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> 
+>> ## Zaubertricks
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Schadensart,
+>> Schaden AS "Schaden ab Lv. 1",
+>> SchadenLv5 AS "Schaden ab Lv. 5",
+>> Ziel,
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual"
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=0
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 1
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=1
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 2
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=2
+>> SORT file.name
+>> ```
+>
 
 ## Übung
 
@@ -468,10 +574,8 @@ tooltip: ""
 id: "langeRast"
 style: primary
 actions:
-  - type: updateMetadata
-    bindTarget: Gesundheit.TW
-    evaluate: false
-    value: "5"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const tw = mb.parseBindTarget('Gesundheit.TW', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); mb.setMetadata(tw, stufe);"
   - type: updateMetadata
     bindTarget: InputData.TiergestaltLadung1
     evaluate: false
@@ -512,46 +616,30 @@ actions:
     bindTarget: InputData.Stresslevel5
     evaluate: false
     value: "false"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_1
-    evaluate: false
-    value: "4"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_2
-    evaluate: false
-    value: "3"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_3
-    evaluate: false
-    value: "2"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_4
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_5
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_6
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_7
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_8
-    evaluate: false
-    value: "0"
-  - type: updateMetadata
-    bindTarget: InputData.Zauberplätze.Grad_9
-    evaluate: false
-    value: "0"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_1', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad1', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_2', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad2', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_3', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad3', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_4', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad4', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_5', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad5', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_6', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad6', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_7', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad7', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_8', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad8', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const grad = mb.parseBindTarget('InputData.Zauberplätze.Grad_9', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const value = mb.getMetadata(mb.parseBindTarget('Zauberplätze.Stufe' + stufe + '.Grad9', 'Charaktere/Klassen/Druide/Druide.md'));  mb.setMetadata(grad, value);"
   - type: updateMetadata
     bindTarget: InputData.ErschöpfungsPunkte
     evaluate: true
     value: x - 1
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
 
 ```js-engine

@@ -1,16 +1,17 @@
 ---
 Stufe: 5
-Bewegung: 5
+Bewegung: 7
 Rüstung: 
 Schild: 
 Waffen:
-  - "[[Streitaxt]]"
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
   - "[[Wurfspeer]]"
+  - "[[Leichte Armbrust]]"
+  - "[[Streitaxt]]"
 Gesundheit:
-  MaxTP: 60
-  TP: 60
+  MaxTP: 59
+  TP: 59
   TW: 5
   TempTP: 0
 Attribute:
@@ -30,7 +31,7 @@ Rettungswürfe:
 Fertigkeiten:
   Akrobatik: 0
   Arkane_Kunde: 0
-  Athletik: 0
+  Athletik: 1
   Auftreten: 0
   Einschüchtern: 1
   Fingerfertigkeit: 0
@@ -43,7 +44,7 @@ Fertigkeiten:
   Naturkunde: 0
   Religion: 0
   Täuschen: 0
-  Überlebenskunst: 1
+  Überlebenskunst: 0
   Überzeugen: 0
   Wahrnehmung: 1
 Übung:
