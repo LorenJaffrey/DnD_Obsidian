@@ -16,6 +16,9 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 1W12
+SchadenLv5: 2W12
+SchadenLv11: 3W12
+SchadenLv17: 4W12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
 Klassen:

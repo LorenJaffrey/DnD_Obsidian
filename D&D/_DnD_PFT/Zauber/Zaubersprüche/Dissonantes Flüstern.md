@@ -1,28 +1,23 @@
 ---
 aliases: 
-  - Produce Flame
 tags: 
-  - Zauber/Offensiv
-Grad: 0
-Schule: "[[Beschwörungszauber|Beschwörung]]"
+  - Zauber
+Grad: 1
+Schule: "[[Verzauberungen|Verzauberung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: 18 Meter
 Verbal: true
-Geste: true
+Geste: false
 Material: false
 Materialkosten: 
-Dauer: 10m
-Konzentration: false
+Dauer: unmittelbar
+Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 1W8
-SchadenLv5: 2W8
-SchadenLv11: 3W8
-SchadenLv17: 4W8
-Schadensart: "[[Feuerschaden]]" 
-Ziel: Einzel
+Schaden: 3W6
+Schadensart: "[[Psychischer Schaden]]"
+Ziel:
 Klassen:
-  - "[[Druide]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -33,19 +28,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-*Eine flackernde Flamme erscheint in deiner Hand.*
+Du stimmst flüsternd eine missklingende Melodie an, die nur eine Kreatur deiner Wahl in Reichweite hören kann. Die Kreatur wird daraufhin von schrecklichen Schmerzen erfüllt. Das Ziel muss einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg erleidet es 3W6 psychischen Schaden
+und muss sofort seine Reaktion verwenden (falls sie noch verfügbar ist), um sich so weit von dir zu entfernen, wie es seine Bewegungsrate erlaubt. Die Kreatur bewegt sich nicht in offensichtlich gefährliches Gelände, wie Feuer oder eine Grube. Bei einem erfolgreichen Rettungswurf erleidet das Ziel nur den halben Schaden und muss sich nicht wegbewegen. Eine taube Kreatur ist bei ihrem Rettungswurf automatisch erfolgreich.
 
-Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. 
-Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. 
-Der Zauber endet, wenn du ihn als [[Aktion]] aufhebst oder noch einmal wirkst.
-
-Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. 
-Beim Wirken des Zaubers oder als [[Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. 
-Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff aus. 
-Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
-
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt auf höheren Stufen:
-- Stufe 5: 2W8
-- Stufe 11: 3W8
-- Stufe 17: 4W8
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W6.

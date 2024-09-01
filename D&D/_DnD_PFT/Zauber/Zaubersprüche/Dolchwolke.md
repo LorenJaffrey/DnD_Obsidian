@@ -1,25 +1,23 @@
 ---
 aliases:
-  - Gust
 tags:
-  - Zauber
-Grad: 0
-Schule: "[[Verwandlungszauber|Verwandlung]]"
+  - Zauber/Offensiv
+Grad: 2
+Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: Selbst
 Verbal: true
 Geste: true
-Material: false
-Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Material: true
+Materialkosten: eine Glasscherbe
+Dauer: 1 Minute
+Konzentration: true
 Ritual: false
-Skalierbar: false
-Schaden: 
-Schadensart: 
+Skalierbar: true
+Schaden: 4W4
+Schadensart: "[[Hiebschaden]]" 
 Ziel: AoE
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -30,11 +28,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du ermächtigst dich der Luft und zwingst sie, einen der folgenden Effekte an einem Punkt zu erzeugen, den du innerhalb der Reichweite sehen kannst: 
-- Eine mittelgroße oder kleinere Kreatur muss einen [[Rettungswurf]] auf [[Stärke]] bestehen oder wird bis zu 1,50 m von dir weggedrückt. 
-- Du erzeugst einen kleinen Windstoß, der fähig ist, ein Objekt, das weder in der Hand gehalten noch getragen wird und das nicht mehr als 5 Pfund wiegt, zu bewegen. 
-   Das Objekt wird bis zu 3 m von dir weggedrückt. 
-   Es wird nicht mit genug Kraft weggedrückt, um Schaden zu verursachen 
-- Du erzeugst einen harmlosen wahrnehmbaren Effekt unter Verwendung von Luft, wie zum Beispiel das Rascheln von Blättern, Wind, der Fensterläden zuschlägt, oder Kleidung die sich in einer Brise bewegt
+Du füllst die Luft in einem Würfel mit 1,50 m Kantenlänge, der um einen Punkt deiner Wahl in Reichweite zentriert ist, mit wirbelnden Dolchen. Eine Kreatur erleidet 4W4 Hiebschaden, wenn sie den Bereich das erste Mal in einem Zug betritt oder ihren Zug dort beginnt.
 
-Quelle: Xanathars Ratgeber für alles, Seite: 170
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 2. hinaus um 2W4.

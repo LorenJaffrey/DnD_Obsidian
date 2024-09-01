@@ -1,25 +1,24 @@
 ---
 aliases:
-  - Gust
+  - 
 tags:
-  - Zauber
-Grad: 0
+  - Zauber/Offensiv
+Grad: 2
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: 45 Meter
 Verbal: true
 Geste: true
-Material: false
-Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Material: true
+Materialkosten: sieben scharfe Dornen oder sieben angespitze kleine Zweige
+Dauer: 10 Minuten
+Konzentration: true
 Ritual: false
 Skalierbar: false
 Schaden: 
 Schadensart: 
-Ziel: AoE
+Ziel: 
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -30,11 +29,4 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du ermächtigst dich der Luft und zwingst sie, einen der folgenden Effekte an einem Punkt zu erzeugen, den du innerhalb der Reichweite sehen kannst: 
-- Eine mittelgroße oder kleinere Kreatur muss einen [[Rettungswurf]] auf [[Stärke]] bestehen oder wird bis zu 1,50 m von dir weggedrückt. 
-- Du erzeugst einen kleinen Windstoß, der fähig ist, ein Objekt, das weder in der Hand gehalten noch getragen wird und das nicht mehr als 5 Pfund wiegt, zu bewegen. 
-   Das Objekt wird bis zu 3 m von dir weggedrückt. 
-   Es wird nicht mit genug Kraft weggedrückt, um Schaden zu verursachen 
-- Du erzeugst einen harmlosen wahrnehmbaren Effekt unter Verwendung von Luft, wie zum Beispiel das Rascheln von Blättern, Wind, der Fensterläden zuschlägt, oder Kleidung die sich in einer Brise bewegt
-
-Quelle: Xanathars Ratgeber für alles, Seite: 170
+Der Boden in einem Radius von 6 m, zentriert um einen Punkt in Reichweite, wird von harten Stacheln und Dornen überwuchert. Für die Wirkungsdauer gilt der Bereich als schwieriges Gelände. Bewegt sich eine Kreatur in das Gebiet hinein oder innerhalb dessen, erleidet sie 2W4 Stichschaden für jeweils 1,50 m, die sie zurücklegt. Die Verwandlung des Bodens ist so getarnt, dass dieser nicht gefährlich wirkt. Jede Kreatur, die den Bereich nicht sehen kann, wenn der Zauber gewirkt wird, muss bei dessen Betreten einen Wurf auf Weisheit (Wahrnehmung) gegen den SG zum Widerstehen deiner Zauber ablegen. Misslingt er, erkennt sie nicht, welche Gefahr von dem Gelände ausgeht.

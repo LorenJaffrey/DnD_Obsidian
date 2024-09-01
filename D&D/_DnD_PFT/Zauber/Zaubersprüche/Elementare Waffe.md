@@ -1,28 +1,27 @@
 ---
-aliases:
-  - Gust
-tags:
+aliases: 
+tags: 
   - Zauber
-Grad: 0
+Grad: 3
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: Berührung
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Materialkosten:
+Dauer: 1 Stunde
+Konzentration: true
 Ritual: false
-Skalierbar: false
-Schaden: 
+Skalierbar: true
+Schaden: + 1W4
 Schadensart: 
-Ziel: AoE
+Ziel:
 Klassen:
   - "[[Zauberer]]"
 ---
 # `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
+*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
 
 Zeitaufwand: `=this.Zeitaufwand`
 Reichweite: `=this.Reichweite`
@@ -30,11 +29,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du ermächtigst dich der Luft und zwingst sie, einen der folgenden Effekte an einem Punkt zu erzeugen, den du innerhalb der Reichweite sehen kannst: 
-- Eine mittelgroße oder kleinere Kreatur muss einen [[Rettungswurf]] auf [[Stärke]] bestehen oder wird bis zu 1,50 m von dir weggedrückt. 
-- Du erzeugst einen kleinen Windstoß, der fähig ist, ein Objekt, das weder in der Hand gehalten noch getragen wird und das nicht mehr als 5 Pfund wiegt, zu bewegen. 
-   Das Objekt wird bis zu 3 m von dir weggedrückt. 
-   Es wird nicht mit genug Kraft weggedrückt, um Schaden zu verursachen 
-- Du erzeugst einen harmlosen wahrnehmbaren Effekt unter Verwendung von Luft, wie zum Beispiel das Rascheln von Blättern, Wind, der Fensterläden zuschlägt, oder Kleidung die sich in einer Brise bewegt
+Eine nicht-magische Waffe, die du berührst, wird zu einer magischen Waffe. Wähle eine der folgenden Schadensarten: Blitz, Feuer, Kälte, Säure oder Schall. Für die Wirkungsdauer erhält die Waffe einen Bonus von +1 auf Angriffswürfe und fügt bei einem Treffer zusätzlich 1W4 Punkte Schaden des gewählten Typs zu.
 
-Quelle: Xanathars Ratgeber für alles, Seite: 170
+
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz eines höheren Grades wirkst, steigen der Angriffsbonus und der Zusatzschaden: bei einem Zauberplatz des 5. oder 6. Grades auf +2 und 2W4, bei einem des 7. oder eines höheren Grades auf +3 und 3W4.

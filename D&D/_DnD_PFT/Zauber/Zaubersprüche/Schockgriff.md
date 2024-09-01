@@ -16,6 +16,9 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 1W8
+SchadenLv5: 2W8
+SchadenLv11: 3W8
+SchadenLv17: 4W8
 Schadensart: "[[Blitzschaden]]"
 Ziel: Einzel
 Klassen:

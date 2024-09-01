@@ -30,7 +30,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Ein Hagel magischer Schneebelle bricht von einem Punkt hervor, den du innerhalb der Reichweite wählst. Jede Kreatur in einer Kugel mit 1,50 Meter Radius, deren Zentrum an diesem Punkt liegt, muss einen [[Geschicklichkeit]]-[[Rettungswurf]] durchführen. Eine Kreatur erleidet 3W6 [[Kälteschaden]] bei einem Fehlschlag, die Hälfte davon bei einem Erfolg.
+Ein Hagel magischer Schneebelle bricht von einem Punkt hervor, den du innerhalb der Reichweite wählst. Jede Kreatur in einer Kugel mit 1,50 Meter  (1 Kästchen) Radius, deren Zentrum an diesem Punkt liegt, muss einen [[Geschicklichkeit]]-[[Rettungswurf]] durchführen. Eine Kreatur erleidet 3W6 [[Kälteschaden]] bei einem Fehlschlag, die Hälfte davon bei einem Erfolg.
 
 ## Auf  höheren Graden
 Wenn du diesen Zauber unter Verwendung eines [[Zauberplätze|Zauberplatz]] des 3. Grades oder höher verwendest, so erhöht sich der Schaden um 1W6 für jeden Zauberplatz-Grad über dem zweiten.

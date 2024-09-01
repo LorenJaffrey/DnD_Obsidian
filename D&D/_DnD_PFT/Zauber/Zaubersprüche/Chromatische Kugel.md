@@ -1,31 +1,26 @@
 ---
-aliases:
-  - Thunderclap
+aliases: 
 tags:
   - Zauber/Offensiv
-Grad: 0
+Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 1,50 Meter
-Verbal: false
+Reichweite: 27 Meter
+Verbal: true
 Geste: true
-Material: false
-Materialkosten: 
-Dauer: unmittelbar
+Material: true
+Materialkosten: ein Diamant im Wert von mindestens 50 GM
+Dauer: unmitttelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W6
-SchadenLv5: 2W6
-SchadenLv11: 3W6
-SchadenLv17: 4W6
-Schadensart: "[[Schallschaden]]"
-Ziel: AoE
+Schaden: 3W8
+Schadensart:
+Ziel: Einzel
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
+*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
 
 Zeitaufwand: `=this.Zeitaufwand`
 Reichweite: `=this.Reichweite`
@@ -33,13 +28,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du erzeugst einen Ausbruch donnernden Klangs, den man bis zu 30 m weit hören kann. 
-Jede andere Kreatur innerhalb der Reichweite außer dir muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen oder 1W6 [[Schallschaden]] erleiden. 
+Du schleuderst eine Sphäre aus Energie mit 10 cm Durchmesser auf eine Kreatur in Reichweite, die du sehen kannst. Beim Wirken des Zaubers wählst du Blitz, Feuer, Gift, Kälte, Säure oder Schall aus, um die Art der Kugel zu bestimmen, und führst dann einen Fernkampf-Zauberangriff gegen das Ziel aus. Trifft der Angriff, erleidet das Ziel 3W8 Schaden des gewählten Typs.
 
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
-- Stufe 5 (2W6)
-- Stufe 11 (3W6) 
-- Stufe 17 (4W6)
-
-Quelle: Xanathars Ratgeber für alles, Seite: 152
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W8.

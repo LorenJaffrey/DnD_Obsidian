@@ -1,28 +1,24 @@
 ---
 aliases: 
-  - Produce Flame
+  - Mage Hand
 tags: 
-  - Zauber/Offensiv
-Grad: 0
+  - Zauber
+Grad: 4
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: 150 Meter
 Verbal: true
-Geste: true
+Geste: false
 Material: false
 Materialkosten: 
-Dauer: 10m
+Dauer: unmittelbar
 Konzentration: false
 Ritual: false
-Skalierbar: true
-Schaden: 1W8
-SchadenLv5: 2W8
-SchadenLv11: 3W8
-SchadenLv17: 4W8
-Schadensart: "[[Feuerschaden]]" 
-Ziel: Einzel
+Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: 
 Klassen:
-  - "[[Druide]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -33,19 +29,4 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-*Eine flackernde Flamme erscheint in deiner Hand.*
-
-Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. 
-Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. 
-Der Zauber endet, wenn du ihn als [[Aktion]] aufhebst oder noch einmal wirkst.
-
-Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. 
-Beim Wirken des Zaubers oder als [[Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. 
-Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff aus. 
-Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
-
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt auf höheren Stufen:
-- Stufe 5: 2W8
-- Stufe 11: 3W8
-- Stufe 17: 4W8
+Du teleportierst dich von deiner aktuellen Position zu einem beliebigen anderen Punkt in Reichweite. Du triffst genau an dem gewünschten Punkt ein. Dies kann ein Ort sein, den du sehen oder aus der Erinnerung abrufen kannst oder den du beschreibst, indem du Reichweite und Richtung angibst, wie „60 Meter direkt nach unten“ oder „nordöstlich in einem Winkel von 45 Grad nach oben, und zwar 90 Meter“. Du darfst Gegenstände mitnehmen, solange ihr Gewicht deine Traglast nicht übersteigt, sowie eine bereitwillige Kreatur deiner Größe oder kleiner, die ebenfalls Ausrüstung bis zu ihrer Traglast mit sich führen kann. Die Kreatur muss sich innerhalb von 1,50 m befinden, wenn du den Zauber wirkst. Würdest du an einem Ort ankommen, an dem sich bereits ein Gegenstand oder eine Kreatur befindet, erleiden du und dein Mitreisender 4W6 Energieschaden und ihr werdet nicht teleportiert.

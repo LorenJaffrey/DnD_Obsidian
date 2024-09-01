@@ -11,7 +11,11 @@ TABLE WITHOUT ID
 
 file.link AS "Zauber",
 Schule, 
-Zeitaufwand, 
+Zeitaufwand,
+Schaden AS "Schaden ab Lv. 1",
+SchadenLv5 AS "Schaden ab Lv. 5",
+SchadenLv11 AS "Schaden ab Lv. 11",
+SchadenLv17 AS "Schaden ab Lv. 17",
 Reichweite, 
 choice(Verbal,"X","") AS "Verbal", 
 choice(Geste,"X","") AS "Geste", 

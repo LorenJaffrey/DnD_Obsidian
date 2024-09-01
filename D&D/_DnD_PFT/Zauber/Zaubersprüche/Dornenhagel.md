@@ -1,25 +1,23 @@
 ---
 aliases:
-  - Gust
 tags:
-  - Zauber
-Grad: 0
-Schule: "[[Verwandlungszauber|Verwandlung]]"
-Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+  - Zauber/Offensiv
+Grad: 1
+Schule: "[[Beschwörungszauber|Beschwörung]]"
+Zeitaufwand: "[[Bonusaktion]]"
+Reichweite: Selbst
 Verbal: true
-Geste: true
+Geste: false
 Material: false
 Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Dauer: 1 Minute
+Konzentration: true
 Ritual: false
-Skalierbar: false
-Schaden: 
-Schadensart: 
+Skalierbar: true
+Schaden: 1W10
+Schadensart: "[[Stichschaden]]" 
 Ziel: AoE
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -30,11 +28,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du ermächtigst dich der Luft und zwingst sie, einen der folgenden Effekte an einem Punkt zu erzeugen, den du innerhalb der Reichweite sehen kannst: 
-- Eine mittelgroße oder kleinere Kreatur muss einen [[Rettungswurf]] auf [[Stärke]] bestehen oder wird bis zu 1,50 m von dir weggedrückt. 
-- Du erzeugst einen kleinen Windstoß, der fähig ist, ein Objekt, das weder in der Hand gehalten noch getragen wird und das nicht mehr als 5 Pfund wiegt, zu bewegen. 
-   Das Objekt wird bis zu 3 m von dir weggedrückt. 
-   Es wird nicht mit genug Kraft weggedrückt, um Schaden zu verursachen 
-- Du erzeugst einen harmlosen wahrnehmbaren Effekt unter Verwendung von Luft, wie zum Beispiel das Rascheln von Blättern, Wind, der Fensterläden zuschlägt, oder Kleidung die sich in einer Brise bewegt
+Das nächste Mal, wenn du innerhalb der Wirkungsdauer des Zaubers eine Kreatur mit einer Fernkampfwaffe triffst, verwandelt sich das Geschoss oder die Waffe selbst (im Falle einer Wurfwaffe) in cinen Hagel aus Dornen. Neben dem normalen Effekt des Angriffs müssen das Ziel und alle Kreaturen innerhalb von 1,50 m um dieses einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet eine Kreatur 1W10 Stichschaden oder halb so viel Schaden bei einem erfolgreichen Rettungswurf.
 
-Quelle: Xanathars Ratgeber für alles, Seite: 170
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W10 (maximal 6W10).

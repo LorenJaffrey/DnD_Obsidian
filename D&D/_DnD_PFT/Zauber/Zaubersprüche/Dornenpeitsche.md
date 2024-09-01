@@ -16,6 +16,9 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 1W6
+SchadenLv5: 2W6
+SchadenLv11: 3W6
+SchadenLv17: 4W6
 Schadensart: "[[Stichschaden]]"
 Ziel: AoE
 Klassen:

@@ -1,31 +1,26 @@
 ---
-aliases:
-  - Thunderclap
+aliases: 
 tags:
   - Zauber/Offensiv
-Grad: 0
+Grad: 2
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
-Reichweite: 1,50 Meter
-Verbal: false
-Geste: true
+Zeitaufwand: "[[Bonusaktion]]"
+Reichweite: selbst
+Verbal: true
+Geste: false
 Material: false
 Materialkosten: 
-Dauer: unmittelbar
-Konzentration: false
+Dauer: 1 Minute
+Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 1W6
-SchadenLv5: 2W6
-SchadenLv11: 3W6
-SchadenLv17: 4W6
-Schadensart: "[[Schallschaden]]"
-Ziel: AoE
+Schaden: 2W6
+Schadensart: "[[Gleißender Schaden]]"
+Ziel: Einzel
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
+*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
 
 Zeitaufwand: `=this.Zeitaufwand`
 Reichweite: `=this.Reichweite`
@@ -33,13 +28,8 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du erzeugst einen Ausbruch donnernden Klangs, den man bis zu 30 m weit hören kann. 
-Jede andere Kreatur innerhalb der Reichweite außer dir muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen oder 1W6 [[Schallschaden]] erleiden. 
+Das nächste Mal, wenn du innerhalb der Wirkungsdauer des Zaubers eine Kreatur mit einer Nahkampfwaffe triffst, leuchtet deine Waffe mit astralem Schein auf und verursacht beim Ziel zusätzlich 2W6 gleißenden Schaden. Das Ziel wird sichtbar, wenn es zuvor unsichtbar war, und
+gibt in einem Radius von 1,50 m dämmriges Licht ab. Es kann nicht unsichtbar werden, bis der Zauber endet.
 
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
-- Stufe 5 (2W6)
-- Stufe 11 (3W6) 
-- Stufe 17 (4W6)
-
-Quelle: Xanathars Ratgeber für alles, Seite: 152
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 2. hinaus um 1W6.

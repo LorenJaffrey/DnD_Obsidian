@@ -1,25 +1,23 @@
 ---
 aliases:
-  - Gust
 tags:
-  - Zauber
-Grad: 0
-Schule: "[[Verwandlungszauber|Verwandlung]]"
+  - Zauber/Offensiv
+Grad: 4
+Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: 90 mr
 Verbal: true
 Geste: true
-Material: false
-Materialkosten: 
+Material: true
+Materialkosten: einige Tropfen Wasser und eine Prise Staub
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
-Skalierbar: false
-Schaden: 
-Schadensart: 
+Skalierbar: true
+Schaden: 4W6 + 2W8
+Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:
-  - "[[Zauberer]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
@@ -30,11 +28,7 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-Du ermächtigst dich der Luft und zwingst sie, einen der folgenden Effekte an einem Punkt zu erzeugen, den du innerhalb der Reichweite sehen kannst: 
-- Eine mittelgroße oder kleinere Kreatur muss einen [[Rettungswurf]] auf [[Stärke]] bestehen oder wird bis zu 1,50 m von dir weggedrückt. 
-- Du erzeugst einen kleinen Windstoß, der fähig ist, ein Objekt, das weder in der Hand gehalten noch getragen wird und das nicht mehr als 5 Pfund wiegt, zu bewegen. 
-   Das Objekt wird bis zu 3 m von dir weggedrückt. 
-   Es wird nicht mit genug Kraft weggedrückt, um Schaden zu verursachen 
-- Du erzeugst einen harmlosen wahrnehmbaren Effekt unter Verwendung von Luft, wie zum Beispiel das Rascheln von Blättern, Wind, der Fensterläden zuschlägt, oder Kleidung die sich in einer Brise bewegt
+Ein Hagel aus felsharten Eisbrocken regnet in einem Zylinder mit 6 m Radius und 12 m Höhe auf die Erde. Der Zylinder ist um einen Punkt in Reichweite zentriert. Jede Kreatur innerhalb des Zylinders muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet das Ziel 2W8 [[Wuchtschaden]] und 4W6 [[Kälteschaden]] oder halb so viel Schaden bei einem erfolgreichen Rettungswurf. Durch den Sturm gilt der Bereich des Zaubers bis zum Ende deines nächsten Zuges als schwieriges Gelände.
 
-Quelle: Xanathars Ratgeber für alles, Seite: 170
+## Auf höheren Graden
+Wenn du diesen Spruch mit einem Zauberplatz des 5. oder eines höheren Grades wirkst, steigt der Wuchtschaden für jeden Grad über den 4. hinaus um 1W8.

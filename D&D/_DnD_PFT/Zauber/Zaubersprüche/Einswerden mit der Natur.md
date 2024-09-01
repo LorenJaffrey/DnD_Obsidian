@@ -1,28 +1,23 @@
 ---
 aliases: 
-  - Produce Flame
 tags: 
-  - Zauber/Offensiv
-Grad: 0
-Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+  - Zauber
+Grad: 5
+Schule: "[[Erkenntniszauber|Erkenntnis]]"
+Zeitaufwand: 1 Minute
+Reichweite: selbst
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
-Dauer: 10m
+Materialkosten:
+Dauer: unmittelbar
 Konzentration: false
 Ritual: false
-Skalierbar: true
-Schaden: 1W8
-SchadenLv5: 2W8
-SchadenLv11: 3W8
-SchadenLv17: 4W8
-Schadensart: "[[Feuerschaden]]" 
-Ziel: Einzel
+Skalierbar: false
+Schaden: 
+Schadensart: 
+Ziel: 
 Klassen:
-  - "[[Druide]]"
 ---
 # `=this.file.name`
 *Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"(Ritual)", "")`*
@@ -33,19 +28,13 @@ Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[V
 Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
 
 ## Beschreibung
-*Eine flackernde Flamme erscheint in deiner Hand.*
+Du wirst für einen Augenblick eins mit der Natur und erlangst Wissen über die Umgebung. Im Freien wirkt der Zauber auf das Land, das dich innerhalb von 4,5 km umgibt. In Höhlen und an anderen unterirdischen Plätzen sinkt der Radius auf 90 m. Der Zauber funktioniert nur an natürlichen Orten, nicht in Gebieten, die vollständig durch Bebauung entstanden sind, wie Kerker oder Städte.
 
-Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. 
-Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. 
-Der Zauber endet, wenn du ihn als [[Aktion]] aufhebst oder noch einmal wirkst.
+Du erlangst sofort Wissen über bis zu drei Fakten deiner Wahl zu einem der folgenden Themen bezüglich der Umgebung:
 
-Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. 
-Beim Wirken des Zaubers oder als [[Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. 
-Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff aus. 
-Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
+- Gelände und Gewässer,
+- vorherrschende Pflanzen, Mineralien, Tiere oder Bewohner,
+- mächtige celestische Wesen, Feen, Unholde, Elementare oder Untote, · Einflussnahmen von anderen Existenzebenen,
+- Bauwerke.
 
-### Auf höheren Graden
-Der Schaden dieses Zaubers steigt auf höheren Stufen:
-- Stufe 5: 2W8
-- Stufe 11: 3W8
-- Stufe 17: 4W8
+Beispielsweise könntest du herausfinden, wo sich in dieser Gegend ein mächtiger Untoter aufhält, sich wichtige Quellen von Trinkwasser befinden und nahe Städte liegen.
