@@ -7,7 +7,7 @@ Immer noch keine anderen Hinweise zum Verbleib von [[Gundren Felssucher|Gundren]
 ## Butterschädelhof
 "Wir müssen mehr über diese Orks herausfinden."
 "Irgendetwas treibt sie aus ihren Stammesgebieten im Gebirge und in unsere Gegend."
-"Nach euren Erzählungen und meinen Erfahrungen mit den Orks seid ihr auf einen ihrer Kriegstrupps gestoßen der auf der Suche nach einem neuen Unterschlupf."
+"Nach euren Erzählungen und meinen Erfahrungen mit den Orks seid ihr auf einen ihrer Kriegstrupps gestoßen der auf der Suche nach einem neuen Unterschlupf war."
 "Der Stallbursche konnte entkommen und hat einige wertvolle Informationen."
 
 "Big Al wurde gefesselt und im Keller eingesperrt, während sich die Orks an den Vorräten des Hofes vergreifen."
@@ -20,4 +20,4 @@ Er schickt die Gruppe mit Vorräten dorthin um die zusätzlichen Steuern von Nie
 [[Sildar Hallwinter|Sildar]] ist erst nachdenklich, stimmt dann aber zu und meint sie müssten die Leute in der Region unterstützen und beschützen.
 
 ## Bergzeh Goldmine
-[[Don-Jon Raskin]] kommt zum [[Rathaus von Phandalin]] und verlangt nach einer Eskorte zur [[Bergzeh-Goldmine]].
+[[Don-Jon Raskin]] kommt zum [[Rathaus von Phandalin]] und drängt, dass er nun endlich zur [[Bergzeh-Goldmine]] eskortiert wird.

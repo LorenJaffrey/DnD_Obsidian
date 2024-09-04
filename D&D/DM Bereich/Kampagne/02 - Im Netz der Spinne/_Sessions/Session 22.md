@@ -13,6 +13,7 @@
 
 ## Ablauf
 - [[Szene - Besprechung mit Sildar]]
+- [[Szene - Exempel an Iarno Albrek]]
 - [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
 - [[Das Holzfällerlager]]
 

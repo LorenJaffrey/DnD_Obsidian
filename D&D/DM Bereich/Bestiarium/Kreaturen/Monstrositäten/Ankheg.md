@@ -66,12 +66,13 @@ Fertigkeiten:
 Sprachen:
 Merkmale:
   - "[[Säure versprühen]]"
+  - "[[Umschlingender Angriff]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[orc_archer.png | 350]]
+>> ![[ankheg.avif]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -303,48 +304,15 @@ Legendäre_Aktionen:
 >> ```
 >
 >> ## Angriff
->> #### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
->> file.link AS "Waffe",
+>> file.link AS "Angriff",
 >> Reichweite,
 >> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> Schadensart,
+>> (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+>> Schadensarten,
 >> Eigenschaften
->> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
->> WHERE contains(this.Angriff.Waffen, file.link)
->> SORT file.name
->> ```
->> 
->> #### Schusswaffen 
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
->> WHERE contains(this.Angriff.Waffen, file.link)
->> SORT file.name
->> ```
->> 
->> #### Wurfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> FROM #Angriff
 >> WHERE contains(this.Angriff.Waffen, file.link)
 >> SORT file.name
 >> ```
