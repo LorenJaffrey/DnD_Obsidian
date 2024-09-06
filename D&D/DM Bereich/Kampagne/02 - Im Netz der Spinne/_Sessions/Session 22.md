@@ -1,12 +1,12 @@
 # `=this.file.name`
 
 ## Organisatorisches
-- [[Kräuterkunde]] fast fertig...
+- [[Kräuterkunde]] fertig
 - [[Reisen]]
 
 ## Recap
 - [[Lange Rast]] und Level Up
-- Rückkehr nach Phandalin
+- Rückkehr nach [[Phandalin]]
 - Argo getroffen
 - Reiter erscheint und berichtet, dass Orks den Butterschädelhof angreifen
 ![[Timeline Kampagne 2#Tag 7]]

@@ -10,8 +10,8 @@ Immer noch keine anderen Hinweise zum Verbleib von [[Gundren Felssucher|Gundren]
 "Nach euren Erzählungen und meinen Erfahrungen mit den Orks seid ihr auf einen ihrer Kriegstrupps gestoßen der auf der Suche nach einem neuen Unterschlupf."
 "Der Stallbursche konnte entkommen und hat einige wertvolle Informationen."
 
-"Big Al wurde gefesselt und im Keller eingesperrt, während sich die Orks an den Vorräten des Hofes vergreifen."
-"Es gibt eine Versorgungsluke die ihr nutzen könntet um in den Keller zu gelangen und ihn zu befreien."
+"Big Al wurde gefesselt und im Keller eingesperrt, während sich die Orks an den Vorräten des Hofes vergreifen. Als ich geflohen bin war er noch am Leben."
+"Es gibt eine Versorgungsluke an der Seite des Hauses die ihr nutzen könntet um in den Keller zu gelangen."
 
 ## Holzfällerlager
 [[Harbin Wester]] wirft noch den Versorgungsauftrag für das [[Das Holzfällerlager]] ein und drängt die Gruppe diesen Auftrag zuerst anzunehmen.
