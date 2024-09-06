@@ -6,14 +6,10 @@ Schadensarten:
   - "1W6 [[Säureschaden]]"
 Eigenschaften:
 - "[[Umschlingender Angriff]]"
+Reichweite: 1,5 Meter (1 Kästchen)
 ---
 ## `=this.file.name`
 
-| Waffe             | Schaden         | Art                                  | Eigenschaften         |
-| ----------------- | --------------- | ------------------------------------ | --------------------- |
-| `=this.file.name` | `=this.Schaden` | `=this.Schadensarten[0]` | `=this.Eigenschaften` |
- 
-
-`=this.Schadensarten`
-
-`$=`
+| Angriff           | Schaden               | Eigenschaften         |
+| ----------------- | --------------------- | --------------------- |
+| `=this.file.name` | `=this.Schadensarten` | `=this.Eigenschaften` |

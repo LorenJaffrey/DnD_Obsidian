@@ -49,11 +49,11 @@ Bei einem erfolgreichen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]]
 Würfelt ein Charakter erfolgreich auf  ([[Mit Tieren umgehen]]) gegen [[Schwierigkeitsgrad|SG]] 15, kann er sich den Pferden nähern, ohne dass sie scheuen, und sogar auf ihnen reiten.
 
 ## Ankunft
-Die folgenden Orte sind auf der Karte Butterschädelhof eingezeichnet. 
+Die folgenden Orte sind auf der Karte [[Butterschädelhof]] eingezeichnet. 
 Sobald die Abenteurer in Sichtweite des Hofs sind, lies ihnen den folgenden Text vor:
 
 > [!info]
-> Eingebettet zwischen zwei Hügeln liegt der Butterschädelhof, ein weitläufiges Stück Land nördlich des Dreieberpfades. 
+> Eingebettet zwischen zwei Hügeln liegt der [[Butterschädelhof]], ein weitläufiges Stück Land nördlich des Dreieberpfades. 
 > Hinter einem maroden Holzzaun sind Getreidefelder, eine Apfelwiese, Gärten und Weideflächen sichtbar. 
 > Ein schmalerer Pfad zweigt vom Weg ab und führt zu einem zweistöckigen Gutshaus neben einem Teich. 
 > Westlich des Hauses stehen die verkohlten Überreste einer Scheune und einer Schmiede, die komplett abgebrannt sind.
