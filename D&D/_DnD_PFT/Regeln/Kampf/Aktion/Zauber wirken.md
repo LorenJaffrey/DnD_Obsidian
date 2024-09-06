@@ -10,7 +10,7 @@ tags:
 *Wirke einen Zauberspruch*
 
 ## Zauberplätze
-![[Zauberplätze]]
+![[Zauberplätze | no-title]]
 
 ## Zeitaufwand
 Zum Wirken der meisten Zauber ist eine [[Aktion]] notwendig, es gibt jedoch auch Zauber die als [[Bonusaktion]] oder [[Reaktion]] gewirkt werden.
@@ -22,7 +22,7 @@ Zaubersprüche mit einer Zauberzeit von mehr als 1 [[Aktion]] (z.B. [[Rituale]])
 Das Ziel eines Zauberspruchs muss innerhalb der Reichweite des Zauberspruchs sein. Um zu zielen muss der Pfad zwischen dir und dem Ziel frei sein, d.h. das Ziel darf nicht hinter [[Deckung#Vollständige Deckung]] sein.
 
 ## Komponenten
-![[Zauberkomponenten]]
+![[Zauberkomponenten | no-title]]
 
 ## Wirkungsdauer
 Gibt an wie lange der Effekt dauert. Dies kann unmittelbar erfolgen oder Runden, Minuten, Stunden oder sogar Jahre betragen. 
@@ -30,22 +30,22 @@ Manche Zauber sind aktiv bis sie gebannt oder zerstört werden.
 Tritt ein Effekt unmittelbar ein, kann er nicht gebannt werden, da die Magie nur einen Augenblick lang existiert.
 
 ## Wirkungsbereich
-![[Wirkungsbereich]]
+![[Wirkungsbereich | no-title]]
 
 ## Konzentration
-![[Konzentration]]
+![[Konzentration | no-title]]
 
 ## Rituale
-![[Rituale]]
+![[Rituale | no-title]]
 
 ## Zauberattribut
-![[Zauberattribut]]
+![[Zauberattribut | no-title]]
 
 ## Zauberangriffswurf
-![[Zauberangriffswürfe|Zauberangriffswurf]]
+![[Zauberangriffswürfe|Zauberangriffswurf | no-title]]
 
 ## Zauberrettungswurf-Schwierigkeitsgrad
-![[Zauberrettungswurf-Schwierigkeitsgrad]]
+![[Zauberrettungswurf-Schwierigkeitsgrad | no-title]]
 
 ## In Rüstung zaubern
 Zauber wirken in [[Rüstungen|Rüstung]] ist nur möglich wenn man in der getragenen [[Rüstungen|Rüstung]] geübt ist.
