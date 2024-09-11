@@ -78,6 +78,8 @@ Merkmale:
 Anzahl_Legendäre_Aktionen: 3
 Legendäre_Aktionen:
   - "[[Aufspüren]]"
+  - "[[Schwanzhieb]]"
+  - "[[Flügelschlag]]"
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
