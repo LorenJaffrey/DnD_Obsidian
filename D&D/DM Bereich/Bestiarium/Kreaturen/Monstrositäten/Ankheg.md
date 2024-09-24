@@ -9,7 +9,7 @@ Subtyp: "[[Ankhegs|Ankheg]]"
 Gesinnung: Gesinnungslos
 Herausforderungsgrad: 2
 Stufe: 6
-Trefferwürfel: W10
+Trefferwurfel: W10
 Bewegung:
   Boden: 9
   Fliegen:
@@ -23,13 +23,14 @@ Verteidigung:
   Rüstung:
   Schild:
   Natürliche_Rüstung: 13
+  Natürliche_SR: 1
   Resistenzen:
     Schadensresistenz:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
   Waffen:
-    - "[[Ankheg-Biss]]"
+    - "[[Klauenhieb]]"
 Attribute:
   Stärke: 17
   Geschicklichkeit: 11
@@ -67,6 +68,7 @@ Sprachen:
 Merkmale:
   - "[[Säure versprühen]]"
   - "[[Umschlingender Angriff]]"
+  - "[[Säureangriff]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
@@ -114,13 +116,13 @@ Legendäre_Aktionen:
 >>
 >> ## Verteidigung
 >>  
->> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwürfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
+>> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwurfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
 >> 
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
->> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+ceil(floor(((this.Attribute.Konstitution)-10)/2)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
->> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
+>> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
+>> | [[Schadensreduktion]] | `=this.Verteidigung.Natürliche_SR+choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`          
 >>
 >> ``` dataviewjs
 >> var schadensresistenzen = dv.current().Verteidigung.Resistenzen.Schadensresistenz;
