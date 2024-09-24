@@ -80,7 +80,7 @@ Diese Schildzwerge sind Gemeine (Spielwerte auf Seite 72), sprechen [[Gemeinspra
 Sie streiten sich wie ein altes Ehepaar.
 
 Jeder Zwerg hat zehn Tage [[Rationen]], einen [[Trinkschläuche|Trinkschlauch]], Bergbauwerkzeuge und einen der beiden [[Steine der Verständigung]] dabei. 
-Die Zwerge bieten diese magischen Gegenstände jedem an, der bereit ist, die [[Ockergallerte|Ockergallerten]] in Bereich Z5 zu töten, den Tempel nach anderen offensichtlichen Bedrohungen abzusuchen und ihn sicher zu machen. 
+Die Zwerge bieten diese magischen Gegenstände jedem an, der bereit ist, die [[Ockergallerte (old)|Ockergallerten]] in Bereich Z5 zu töten, den Tempel nach anderen offensichtlichen Bedrohungen abzusuchen und ihn sicher zu machen. 
 Die Zwerge wollen ihre Ausgrabungen sobald wie möglich fortsetzen und bieten an, etwaige Beute mit Charakteren zu teilen, die ihnen helfen.
 
 ### Z4: Staubiger Eingangsbereich
@@ -91,7 +91,7 @@ Eine einst geheime Tür nach Norden steht offen, aber der Raum dahinter enthält
 Dieser Bereich enthält fünf Geheimtüren, darunter eine in einer der Steinsäulen. 
 Auf der gegenüberliegenden Seite des Raumes steht ein blutbefleckter Kalksteinaltar.
 
-[[Dazlin Grausplitter|Dazlin]]  und [[Norbus Eisenrune|Norbus]] kamen so weit in den Tempel, bis eine [[Ockergallerte]] sie davonscheuchte. 
+[[Dazlin Grausplitter|Dazlin]]  und [[Norbus Eisenrune|Norbus]] kamen so weit in den Tempel, bis eine [[Ockergallerte (old)]] sie davonscheuchte. 
 Sie klebt an der Decke über dem Altar.
 An der Südwand klebt eine zweite Ockergallerte.
 
@@ -104,7 +104,7 @@ Ein Teil dieses Raumes stürzte nach einem Erdbeben ein. Er enthält nichts Wert
 
 ### Z7: Geheimer Korridor
 Geheimtüren führen in diesen Korridor. 
-Im Schutt im südlichen Teil lauert eine [[Ockergallerte]].
+Im Schutt im südlichen Teil lauert eine [[Ockergallerte (old)]].
 
 ### Z8: Schlafzimmer der Priester
 An der Ostwand stehen drei Bettrahmen aus Stein.

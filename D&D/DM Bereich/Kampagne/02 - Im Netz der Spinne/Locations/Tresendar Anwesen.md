@@ -195,18 +195,18 @@ Der Durchgang ist eine hervorragende Möglichkeit, Personen und Waren nach [[Pha
 > Zwei bogenförmige hölzerne Brücken überqueren den Spalt.
 
 ### Nothic
-Der Wächter dieser Höhle ist ein [[Alter Nothic]] – ein wahnsinniges unterirdisches Monster, das nach Fleisch giert. 
+Der Wächter dieser Höhle ist ein [[Alter Nothic (old)]] – ein wahnsinniges unterirdisches Monster, das nach Fleisch giert. 
 Die Kreatur wurde von einem schwachen magischen Effekt angelockt, der von dem Spalt ausgeht, und hatte den Bereich schon für sich beansprucht, als die Rotbrenner einzogen. 
 [[Iarno Albrek|Iarno]] schaffte es, sich mit dem Monster zu einigen und überzeugte es, beim Bewachen der Festung zu helfen, wenn es dafür Schätze und gelegentlich frisches Fleisch bekommen würde. 
-Der [[Alter Nothic|Nothic]] ist dennoch nicht vertrauenswürdig. 
+Der [[Alter Nothic (old)|Nothic]] ist dennoch nicht vertrauenswürdig. 
 Er lauert am westlichen Ende der beiden Brücken herum.
 Wenn er bemerkt, dass Eindringlinge die Höhle betreten, versteckt er sich hinter einer der großen Steinsäulen und beobachtet sie. 
 Er versucht seine Seltsame Einsicht (siehe die Spielwerte der Kreatur) zu nutzen, um die Geheimnisse der Charaktere in Erfahrung zu bringen.
-Der [[Alter Nothic|Nothic]] kommuniziert telepathisch. 
+Der [[Alter Nothic (old)|Nothic]] kommuniziert telepathisch. 
 Wenn er bemerkt wird, zieht er es vor, zu verhandeln und er ist nicht grundsätzlich abgeneigt, die Rotbrenner zu verraten, wenn er die richtige Motivation hat, zum Beispiel wenn ihm Nahrung versprochen wird. 
-Wenn du den [[Alter Nothic|Nothic]] darstellst, könntest du flüstern und ab und zu wahnsinnig kichern und Kauderwelsch von dir geben. 
+Wenn du den [[Alter Nothic (old)|Nothic]] darstellst, könntest du flüstern und ab und zu wahnsinnig kichern und Kauderwelsch von dir geben. 
 Erwähne auch auf jeden Fall, dass die Kreatur nicht wirklich redet, sondern die Köpfe der Charaktere mit verdorbenem Gemurmel und Forderungen nach Essen füllt. 
-Der [[Alter Nothic|Nothic]] weiß alles, was die Rotbrenner wissen; siehe den Kasten „Was die Rotbrenner wissen“ auf Seite 20.
+Der [[Alter Nothic (old)|Nothic]] weiß alles, was die Rotbrenner wissen; siehe den Kasten „Was die Rotbrenner wissen“ auf Seite 20.
 
 ### Brücken
 Die Brücken bestehen aus hölzernen Planken und haben kein Geländer. 
@@ -223,10 +223,10 @@ Wenn ein [[Magie entdecken]] auf diesen Bereich gewirkt wird, strahlt er eine sc
 Die Magie lässt jegliche organische Materie im Spalt mit der halben normalen Geschwindigkeit altern und verrotten.
 Im Augenblick liegt zwischen den zerbrochenen, völlig abgenagten Knochen der halb gefressene Leichnam von Thel Dendrar, dem Schnitzer aus Phandalin, 
 der von den Rotbrennern ermordet wurde. 
-Die Gesetzlosen haben die Leiche hier gelassen, damit der [[Alter Nothic]] sie fressen kann.
+Die Gesetzlosen haben die Leiche hier gelassen, damit der [[Alter Nothic (old)]] sie fressen kann.
 
 ### Schätze
-Der [[Alter Nothic]] bewahrt seinen Hort in einer verbeulten Holzkiste auf, die in einer kleinen Kammer unten im Spalt versteckt ist, unter der nördlichen Brücke. 
+Der [[Alter Nothic (old)]] bewahrt seinen Hort in einer verbeulten Holzkiste auf, die in einer kleinen Kammer unten im Spalt versteckt ist, unter der nördlichen Brücke. 
 Die Truhe kann vom Rand des Spalts aus nicht gesehen werden, ist aber offensichtlich für jeden Charakter, der sich unten im Spalt befindet. 
 Die Truhe beinhaltet:
 - 160 SM
@@ -239,7 +239,7 @@ Der Name „Klaue“ ist in das Schwert graviert, und das Heft ist als Raubvogel
 Es gehörte einst einem großen Ritter namens Aldith Tresandar, bekannt als der Schwarze Falke. 
 Ein Charakter, der einen Wurf auf  [[Geschichte]] gegen [[Schwierigkeitsgrad|SG]] 15 schafft, erkennt das Schwert und erinnert sich an seine Geschichte.
 Sir Aldeth starb, als er die Orks abwehrte, die durch die verborgenen Kavernen unter seiner Höhle angriffen. 
-Klaue ging dabei verloren, bis der [[Alter Nothic]] das Schwert fand.
+Klaue ging dabei verloren, bis der [[Alter Nothic (old)]] das Schwert fand.
 
 ## 9. Wachkaserne
 Ein Charakter, der mit einem erfolgreichen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 10 an der Tür lauscht, hört mehrere raue Stimmen, die in der Goblinsprache Befehle geben.

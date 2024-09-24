@@ -7,7 +7,7 @@ Nur die Steingräber der Gefallenen zeugen von der Schlacht.
 Die steinerne Windmühle auf dem Hügel wurde später gebaut, ist aber trotzdem über hundert Jahre alt.
 
 Hier wohnt [[Adabra Gwynn]], eine Hebamme und Apothekerin, die [[Chauntea]] (Göttin der Landwirtschaft) anbetet. 
-Zwei [[Mantikor|Mantikore]], die von [[Cryovain]] dem weißen Drachen aus den Bergen vertrieben wurde, greifen die Windmühle kurz vor Ankunft der Abenteurer an. 
+Zwei [[Mantikor (old))|Mantikore]], die von [[Cryovain]] dem weißen Drachen aus den Bergen vertrieben wurde, greifen die Windmühle kurz vor Ankunft der Abenteurer an. 
 Lies zuerst den folgenden Text im Kasten laut vor:
 
 > [!info]
@@ -16,12 +16,12 @@ Lies zuerst den folgenden Text im Kasten laut vor:
 > Eine Frau lehnt sich aus einem Fenster im 1. Stock, winkt euch zu und ruft um Hilfe.
 
 [[Adabra Gwynn]] hat die Spielwerte einer [[Gemeinen]]. 
-Charaktere können die [[Mantikor|Mantikore]] bekämpfen oder mit ihnen verhandeln. 
+Charaktere können die [[Mantikor (old))|Mantikore]] bekämpfen oder mit ihnen verhandeln. 
 Sie brechen ihren Angriff ab und fliegen davon, wenn sie Schätze im Wert von mindestens 50 GM oder ein paar Pfund Fleisch erhalten.
 
 ## Ziel
 [[Adabra Gwynn|Adabra]] will zwar nicht nach [[Phandalin]] zurückzukehren, aber die Charaktere können [[Quest - Warnung an Adabra]] abschließen, indem sie sie bitten, eine Nachricht an Harbin Wester zu schreiben, in der sie bestätigt, dass sie in Sicherheit ist. 
-[[Adabra Gwynn|Adabra]] gibt ihren Rettern auch einen Heiltrank, wenn sie den [[Mantikor]] unschädlich machen.
+[[Adabra Gwynn|Adabra]] gibt ihren Rettern auch einen Heiltrank, wenn sie den [[Mantikor (old))]] unschädlich machen.
 
 ## Bereiche
 ### H1: Zwergische Steingräber

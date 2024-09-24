@@ -15,7 +15,7 @@ Sobald ihre Freude endet, erfreuen sich [[Goblins]] daran, andere Kreaturen zu q
 ## Anführer und Gefolgsleute
 [[Goblins]] werde von den Stärksten oder Schlausten unter ihnen beherrscht. 
 Ein [[Goblin-Boss]] könnte einen einzelnen Bau beherrschen, während ein Goblinkönig oder eine Goblinkönigin (was nicht mehr ist als ein glorifizierter [[Goblin-Boss]]) Hunderte von [[Goblins]] regieren könnte, die auf mehrere Bauten verteilt sind, um das Überleben des Stammes zu garantieren. 
-[[Goblin-Boss|Goblin-Bosse]] sind schnell gestürzt, und viele Goblinstämme werden von [[Hobgoblin Kriegsherr|Hobgoblin Kriegsherren]] oder [[Grottenschrat Häuptling|Grottenschrat-Häuptlingen]] übernommen.
+[[Goblin-Boss|Goblin-Bosse]] sind schnell gestürzt, und viele Goblinstämme werden von [[Hobgoblin Kriegsherr (old)|Hobgoblin Kriegsherren]] oder [[Grottenschrat Häuptling|Grottenschrat-Häuptlingen]] übernommen.
 
 ## Herausfordernde Behausungen
 [[Goblins]] sichern ihre Behausungen mit Alarmsystemen, die vor der Ankunft von Eindringlingen warnen sollen. 
