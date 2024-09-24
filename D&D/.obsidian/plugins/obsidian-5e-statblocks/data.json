@@ -412,8 +412,8 @@
   "showAdvanced": false,
   "version": {
     "major": 4,
-    "minor": 6,
-    "patch": 0
+    "minor": 7,
+    "patch": 8
   },
   "paths": [
     "Monster Manual/Kreaturen"
