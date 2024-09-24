@@ -321,8 +321,8 @@ Legendäre_Aktionen:
 >> file.link AS "Angriff",
 >> Reichweite,
 >> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> Schadensarten,
+>> "`dice:" + Schaden + "+"+floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
+>> Schadensart,
 >> Eigenschaften
 >> FROM #Angriff
 >> WHERE contains(this.Angriff.Waffen, file.link)

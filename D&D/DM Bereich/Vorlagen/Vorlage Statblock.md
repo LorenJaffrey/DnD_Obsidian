@@ -23,6 +23,7 @@ Verteidigung:
   Rüstung: "[[Lederrüstung]]"
   Schild: "[[Holzschild]]"
   Natürliche_Rüstung: 10
+  Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
       - "[[Hiebschaden]]"
@@ -133,7 +134,7 @@ Legendäre_Aktionen:
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 >> | Rüstung               | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`                                                                           |
 >> | [[Rüstungsklasse]]    | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` |
->> | [[Schadensreduktion]] | `=choice(this.Verteidigung.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
+>> | [[Schadensreduktion]] | `=this.Verteidigung.Natürliche_SR+choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Verteidigung.Schild.SR, this.Verteidigung.Schild.SR, 0)`       
 >>
 >> ``` dataviewjs
 >> var schadensresistenzen = dv.current().Verteidigung.Resistenzen.Schadensresistenz;

@@ -1,7 +1,7 @@
 ---
 tags:
 - Merkmal
-Einsatz: "Passiv"
+Einsatz: Passiv
 ---
 # `=this.file.name`
-Deine Attacken verursachen zusätzlich `dice:1d6` [[Säureschaden]].
+Die Attacken der Kreatur verursachen zusätzlich `dice:1d6` [[Säureschaden]].

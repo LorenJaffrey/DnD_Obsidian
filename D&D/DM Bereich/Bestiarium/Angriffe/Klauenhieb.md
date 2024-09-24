@@ -1,13 +1,12 @@
 ---
 tags:
   - Angriff
-Schadensarten:
-  - "2W6 [[Hiebschaden]]"
+Schaden: 2d6
+Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
 Reichweite: 1,5 Meter (1 Kästchen)
 ---
 ## `=this.file.name`
-
-| Angriff           | Schaden               | Eigenschaften         |
-| ----------------- | --------------------- | --------------------- |
-| `=this.file.name` | `=this.Schadensarten` | `=this.Eigenschaften` |
+| Angriff           | Reichweite         | Schaden                       | Schadensart         | Eigenschaften         |
+| ----------------- | ------------------ | ----------------------------- | ------------------- | --------------------- |
+| `=this.file.name` | `=this.Reichweite` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Eigenschaften` |

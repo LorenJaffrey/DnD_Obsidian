@@ -1,13 +1,12 @@
 ---
 tags:
   - Angriff
-Schadensarten:
-  - "2W10 [[Stichschaden]]"
+Schaden: 2d10
+Schadensart: "[[Stichschaden]]"
 Eigenschaften:
 Reichweite: 3 Meter (2 Kästchen)
 ---
 ## `=this.file.name`
-
-| Angriff           | Schaden               | Eigenschaften         |
-| ----------------- | --------------------- | --------------------- |
-| `=this.file.name` | `=this.Schadensarten` | `=this.Eigenschaften` |
+| Angriff           | Reichweite         | Schaden                       | Schadensart         | Eigenschaften         |
+| ----------------- | ------------------ | ----------------------------- | ------------------- | --------------------- |
+| `=this.file.name` | `=this.Reichweite` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Eigenschaften` |

@@ -4,5 +4,5 @@ tags:
 Einsatz: "Passiv"
 ---
 # `=this.file.name`
-Wenn du einen [[Rettungswurf]] nicht bestehst, kannst du stattdessen entscheiden ihn automatisch zu bestehen.
-Du kannst dieses Merkmal dreimal pro Tag einsetzen.
+Wenn die Kreatur einen [[Rettungswurf]] nicht besteht, kann sie stattdessen entscheiden ihn automatisch zu bestehen.
+Dieses Merkmal kann dreimal pro Tag eingesetzt werden.
