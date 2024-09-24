@@ -97,6 +97,8 @@ gantt
 		Lange Rast: done, a19, after a18, 3h
 ```
 
+>
+
 ### Tag 7
 ```mermaid
 gantt
@@ -111,9 +113,10 @@ gantt
 		Belohnungen von Sildar kassiert: done, milestone, a4, after a3, 30m
 		Lucian lernt Ar'go in einer Kneipe kennen & tritt G.O.R.N bei: done, milestone, a5, after a3, 30m
 		Ein Bote/Späher erreicht Phandalin: done, milestone, a6, after a5, 20m
+		Gruppe stockt Vorräte auf: done, a7, after a6, 1h
+		Jon bekommt ein Feuerbegräbnis: done, milestone, a8, after a7, 1h
+		After-Party: done, a9, after a8, 190m
 ```
-
-> Hier befinden wir uns aktuell!
 
 # Woche 2
 
@@ -125,7 +128,13 @@ gantt
 	tickinterval 1hour
 	weekday tuesday
 	section G.O.R.N
-		-: a1, 2024-04-30 00:00, 
+		After-Party: a1, 2024-04-30 00:00, 4h
+		Schlafen (Kurze/Lange Rast): done, a2, after a1, 3h
+		Reise zur Herberge: done, a3, after a2, 4h
+		Herberge nochmal untersuchen: done, milestone, a4, after a3, 30m
+		Weiterreise (Richtung "Hasenbeere"): done, a5, after a4, 10h
+		Gekreuzigten und gefolteter Mensch an Weggabelung gefunden (Böser Magier "Glasstab"): done, milestone, a6, after a5, 30m
+		Schlafen (Lange Rast): done, a7, after a6, 2h
 ```
 
 >
@@ -137,7 +146,9 @@ gantt
 	tickinterval 1hour
 	weekday wednesday
 	section G.O.R.N
-		-: a1, 2024-05-01 00:00, 
+		Schlafen (Lange Rast): a1, 2024-05-01 00:00, 7h
+		Weiterreise (Richtung "Hasenbeere"): done, a2, after a1, 12h
+		Schlafen (Lange Rast): done, a3, after a2, 5h
 ```
 
 >
@@ -150,10 +161,15 @@ gantt
 	tickinterval 1hour
 	weekday thursday
 	section G.O.R.N
-		-: a1, 2024-05-02 00:00, 
+		Schlafen (Lange Rast): a1, 2024-05-02 00:00, 7h
+		Weiterreise (Richtung "Hasenbeere"): done, a2, after a1, 4h
+		Ankunft "Hasenbeere": done, milestone, a3, after a2, 0m
+		Unterhaltung mit 3 markierten Pferde: done, a4, after a3, 15m
+		Weiterreise (Richtung "Butterschädelhof"): done, a5, after a4, 3h
+		Ankunft "Butterschädelhof": done, milestone, a6, after a5, 0m
 ```
 
->
+> Hier befinden wir uns aktuell!
 
 ### Tag 11
 ```mermaid

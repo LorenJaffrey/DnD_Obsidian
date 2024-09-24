@@ -123,8 +123,8 @@ InputData:
   Erschöpfung9: false
   Energiekern1: true
   Energiekern2: true
-  Energiekern3: false
-  Energiekern4: false
+  Energiekern3: true
+  Energiekern4: true
   Fähigkeiten:
     Verschwinden: false
 tags:

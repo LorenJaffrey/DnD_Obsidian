@@ -3,9 +3,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 383
+  GM: 333
   EM: 0
-  SM: 442
+  SM: 417
   KM: 95
 ---
 # `=this.file.name`
@@ -50,19 +50,18 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   7    |    1    |   9    |
+| [[Ration]]                                                      |   10   |    1    |   9    |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
 | Armbrust Bolzen                                                 |   28   |  0.075  |  2.1   |
 | [[Obsidianscherben]]                                            |   5    |  0.25   |  1.25  |
 | [[Gildenabzeichen]]                                             |   1    |    0    |   0    |
-| Baumels ekliger Eintopf (in Flasche)                            |   1    |   0.5   |  0.5   |
 | Edelsteine (durchsichtig, grün)                                 |   2    |    0    |   0    |
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
+| [[Heiltrank]]                                                   |   2    |   0.5   |  0.5   |
 | GESAMT                                                          |        |         | 39.35  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

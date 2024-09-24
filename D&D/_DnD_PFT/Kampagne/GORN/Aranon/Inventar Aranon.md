@@ -4,9 +4,9 @@ tags:
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0
-  GM: 234
+  GM: 224
   EM: 0
-  SM: 449
+  SM: 424
   KM: 900
 ---
 # `=this.file.name`
@@ -41,27 +41,26 @@ Geld:
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
 
 ## Rucksack
-| Gegenstand                  | Anzahl | Gewicht | Gesamt |
-| --------------------------- |:------:|:-------:|:------:|
-| [[Schlafsack]]              |   1    |    7    |   7    |
-| [[Zunderkästchen]]          |   1    |    1    |   1    |
-| [[Reisegeschirr]]           |   1    |    1    |   1    |
-| [[Schleuder]]               |   1    |    1    |   1    |
-| [[Holzschild]]              |   1    |    6    |   6    |
-| [[Fackel]]                  |   2    |    1    |   2    |
-| [[Ration]]                  |   7    |    1    |   9    |
-| [[Trinkschlauch]]           |   1    |    4    |   4    |
-| [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
-| [[Einfacher Rum (Flasche)]] |   0    |    1    |   0    |
-| [[Schriftrollenbehälter]]   |   1    |    1    |   1    |
-| [[Lederrüstung]]            |   2    |   10    |   20   |
-| Flüssigkeit (silbrig)       |   1    |    0    |   0    |
-| Pulver (schwarz)            |   1    |    0    |   0    |
-| Flüssigkeit (zäh, braun)    |   1    |    0    |   0    |
-| [[Kurzschwert]]             |   1    |    2    |   2    |
-| [[Gildenabzeichen]]         |   1    |    0    |   0    |
-| GESAMT                      |        |         |  61.8  |
+| Gegenstand                        | Anzahl | Gewicht | Gesamt |
+| --------------------------------- |:------:|:-------:|:------:|
+| [[Schlafsack]]                    |   1    |    7    |   7    |
+| [[Zunderkästchen]]                |   1    |    1    |   1    |
+| [[Reisegeschirr]]                 |   1    |    1    |   1    |
+| [[Schleuder]]                     |   1    |    1    |   1    |
+| [[Holzschild]]                    |   1    |    6    |   6    |
+| [[Fackel]]                        |   2    |    1    |   2    |
+| [[Ration]]                        |   10   |    1    |   10   |
+| [[Trinkschlauch]]                 |   1    |    4    |   4    |
+| [[Seil aus Hanf]] in Metern       |   13   |   0.6   |  7.8   |
+| [[Einfacher Rum (Flasche)]]       |   0    |    1    |   0    |
+| [[Schriftrollenbehälter]]         |   1    |    1    |   1    |
+| Flüssigkeit (silbrig)             |   1    |    0    |   0    |
+| Pulver (schwarz)                  |   1    |    0    |   0    |
+| Flüssigkeit (zäh, braun)          |   1    |    0    |   0    |
+| [[Gildenabzeichen]]               |   1    |    0    |   0    |
+| [[Einfacher Rum]](Flasche)        |   5    |   0.5   |  2.5   |
+| [[Bergsilberkraut]]               |   1    |         |        |
+| [[Fellrüstung]]  (voller Orkblut) |   1    |   20    |   20   |
+| GESAMT                            |        |         |  64.3  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->
-
-2x Lederrüstung, 1x Kurzschwert, 1x Leichte Armbrust, 1x Köcher mit Bolzen, 1x Heiltrank, Fellrüstung voller Orkblut, 1x Wirselkraut
