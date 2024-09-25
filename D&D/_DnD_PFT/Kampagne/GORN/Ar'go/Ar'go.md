@@ -255,14 +255,14 @@ tags:
 > 
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
-> [!column | flex 3 no-title ]
+> [!column | flex 3 no-title]
 >> ## Rasten
 >> |                            |                           |
 >> | :--------------------------: | :-------------------------: |
 >> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
 >>
 >>  ## Allgemeine Spiel - Parameter
->>> [!column | 2 flex] 
+>>> [!column | 2 flex no-title] 
 >>>> | Erholungs-Art | 1 | 2 |
 >>>> | :---: | :---: | :---: |
 >>>> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
@@ -287,7 +287,7 @@ tags:
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
 >>
->>>[!column | flex 2 ] 
+>>>[!column | flex 2 no-title ] 
 >>>>## Rüstung
 >>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
 >>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
@@ -325,7 +325,7 @@ tags:
 >
 
 ## Stats & Quests
-> [!column | flex ]
+> [!column | flex no-title ]
 >> ## Attribute
 >> | [[Attribute\|Attribut]] |           Attributswert            |         [[Attribute#Attributsmodifikator]]         |                                            Rettungswurfmodifikator                                             |
 >> | ----------------------- |:----------------------------------:|:--------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
@@ -366,7 +366,7 @@ tags:
 >>[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 
 ## Angriff
-> [!column | flex 3]
+> [!column | flex 3 no-title]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
@@ -415,13 +415,13 @@ tags:
 >
 
 ## Magie
->[!column | 2]
+>[!column | 2 no-title]
 >> ### [[Odemwaffe | Blitz-Odem]] 
 >>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
 >>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
->>>[!column ]   
+>>>[!column | no-title]   
 >>>>  ###### Zauberplätze
 >>>>  
 >>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
@@ -525,29 +525,29 @@ tags:
 >
 
 ## Fähigkeiten
-> [!column | 2]
+> [!column | 2 no-title]
 >> ### Merkmale
->>> [!column | 2]
+>>> [!column | 2 no-title]
 >>>> ![[Stürmische Magie]]
 >>>
 >>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
 >>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>
 >> ### Metamagie
->>> [!column | 2]
+>>> [!column | 2 no-title]
 >>>> ![[Beschleunigter Zauber]]
 >>>
 >>>> ![[Gespiegelter Zauber]]
 > 
 >> ### Talente ([[Kampferprobter Zauberwirker]])
->>> [!column | 2] 
+>>> [!column | 2 no-title] 
 >>>> ![[Kampferprobter Zauberwirker#Konzentration]]
 >>>
 >>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 ## Übung / Merkmale
-> [!column]
+> [!column | no-title]
 >> ## Waffen
 >> ```dataview
 >> LIST

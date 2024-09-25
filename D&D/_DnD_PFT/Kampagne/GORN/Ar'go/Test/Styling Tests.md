@@ -151,26 +151,26 @@ random_number:
 |   {WERT}  |  
 >
 
-> [!statblocks|columns | 2 flex]
->>> [!columns]
+> [!statblocks|columns | 2 flex no-title]
+>>> [!columns | no-title]
 >>>> Name:
->>>>> [!columns]
+>>>>> [!columns | no-title]
 >>>>>> Class & Level:
 >>>>>> Race:
->>>>>>> [!columns]
+>>>>>>> [!columns | no-title]
 >>>>>>>> Age:
 >>>>>>> 
 >>>>>>>> Height:
 >>>>>
 >>>>>> Background:
 >>>>>> Alignment:
->>>>>>> [!columns]
+>>>>>>> [!columns | no-title]
 >>>>>>>> Weight:
 >>>>>>> 
 >>>>>>>> Eyes:
 >>>
 >>>> Player Name:
->>>>> [!columns]
+>>>>> [!columns | no-title]
 >>>>>> Experience: 
 >>>>>> <br/>
 >>>>>> Hair:
@@ -179,7 +179,7 @@ random_number:
 >>>>>> <br/>
 >>>>>> Skin:
 > 
->>> [!columns] 
+>>> [!columns | no-title] 
 >>>> Armor Class:
 >>>>  Total: 
 >>>>  Hit Dice:

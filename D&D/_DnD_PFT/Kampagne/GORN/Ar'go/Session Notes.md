@@ -125,7 +125,7 @@ sonstigeInformationen: |-
   - Butterschädel-Hof wurde überfallen
 ---
 
-> [!column | 2]
+> [!column | 2 no-title]
 >>  ## Wichtige Personen
 >>  ```meta-bind
 >>  INPUT[editor(class(dndLargeHeight)):wichtigePersonen]
