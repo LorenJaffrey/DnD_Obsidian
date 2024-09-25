@@ -4,6 +4,12 @@ tags:
 # `=this.file.name`
 
 ```dataview
-TABLE Schaden, Schadensart, Hände, Größe, Eigenschaften
+TABLE WITHOUT ID
+file.link AS "Waffe",
+"`dice:" + Schaden + "\|none\|noform`"  AS "Schaden",
+Schadensart, 
+Hände, 
+Größe, 
+Eigenschaften
 FROM #Gegenstand/Waffe/Gruppe/Stangenwaffe
 ```

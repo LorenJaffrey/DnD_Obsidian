@@ -5,7 +5,7 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Einhandwaffe
-Schaden: 1W6
+Schaden: 1d6
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
@@ -24,9 +24,9 @@ Verfügbarkeit: häufig
 ---
 ## `=this.file.name`
 
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
+| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 

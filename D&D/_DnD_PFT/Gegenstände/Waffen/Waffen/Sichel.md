@@ -5,7 +5,7 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Kleine_Waffe
-Schaden: 1W4
+Schaden: 1d4
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
@@ -26,9 +26,9 @@ Verfügbarkeit: gewöhnlich
 ---
 ## `=this.file.name`
 
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
+| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 

@@ -225,8 +225,8 @@ SORT SG, file.link
 TABLE WITHOUT ID 
 file.link AS "Waffe",
 Reichweite,
-floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
-Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:" + Schaden + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "|none|noform`"  AS "Schaden",
 Schadensart,
 Eigenschaften
 FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe
@@ -241,8 +241,8 @@ file.link AS "Waffe",
 Range1 AS "Min RW",
 Range2 AS "Gnd RW",
 Range3 AS "Max RW",
-floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
-SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
+"`dice:1d20+" + (floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:" + SchadenFern + "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2) + "|none|noform`"  AS "Schaden",
 SchadensartFern AS "Schadensart",
 EigenschaftenFern AS "Eigenschaften"
 FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
@@ -257,8 +257,8 @@ file.link AS "Waffe",
 Range1 AS "Min RW",
 Range2 AS "Gnd RW",
 Range3 AS "Max RW",
-floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
-SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+"`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "|none|noform`" AS "Angriff",
+"`dice:" + SchadenFern + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "|none|noform`"  AS "Schaden",
 SchadensartFern AS "Schadensart",
 EigenschaftenFern AS "Eigenschaften"
 FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe 

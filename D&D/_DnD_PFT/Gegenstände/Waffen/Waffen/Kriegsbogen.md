@@ -9,7 +9,7 @@ Schaden:
 Schadensart: 
 Eigenschaften: []
 
-SchadenFern: 1W10
+SchadenFern: 1d10
 SchadensartFern: "[[Stichschaden]]"
 Range1: 6(4)
 Range2: 75(50)
@@ -26,24 +26,11 @@ Gewicht: 4 Pfund
 Kosten: 75 GM
 Verfügbarkeit: selten
 ---
-## Kriegsbogen
-
-| Waffe       | Schaden | Art   | Hände | Größe | Min RW | Gnd RW | Max RW   | Eigenschaften                                                     |
-| ----------- | ------- | ----- |:-----:|:-----:| ------ | ------ | -------- | ----------------------------------------------------------------- |
-| Kriegsbogen | 1W10    | Stich |   2   |   4   | 6(4)   | 75(50) | 180(120) | [[Geschosse]] (Pfeile), [[Schwer]] (14), [[Rüstungsbrechend]] (1) |
-
-## Handel
-
-| Waffe       | Gewicht | Kosten | Kategorie   | Verfügbarkeit         |
-| ----------- | -------:| ------:| ----------- | --------------------- |
-| Kriegsbogen |       4 |  75 GM | Kriegswaffe | #Verfügbarkeit/selten |
-
-
 ## `=this.file.name` (Fernkampf)
 
-| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
-| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
-| `=this.file.name` | `=this.SchadenFern` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
+| Waffe             | Schaden                           | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
+| ----------------- | --------------------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
+| `=this.file.name` | `dice: SchadenFern\|none\|noform` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
 
 ## Handel
 

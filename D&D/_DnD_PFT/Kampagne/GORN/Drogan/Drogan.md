@@ -175,20 +175,20 @@ tags:
 > `=this.Persönlichkeit.Makel`
 
 
-## Rasten
+[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
+[[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
+
+## Tracker
 |                           | 
 |:-------------------------:|
 | `BUTTON[longBreakButton]` |
-
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
-[[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
 | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 
-## Drogan
+### Klasse
 | Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`)              | Bonuschaden [[Kampfrausch]]                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | `INPUT[toggle:InputData.Rage1]` `INPUT[toggle:InputData.Rage2]` `INPUT[toggle:InputData.Rage3]` | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
@@ -218,8 +218,8 @@ tags:
 >> TABLE WITHOUT ID 
 >> file.link AS "Waffe",
 >> Reichweite,
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+>> "`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "\|none\|noform`" AS "Angriff",
+>> "`dice:" + Schaden + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
 >> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
@@ -234,8 +234,8 @@ tags:
 >> Range1 AS "Min RW",
 >> Range2 AS "Gnd RW",
 >> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
+>> "`dice:1d20+" + (floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1) + "\|none\|noform`" AS "Angriff",
+>> "`dice:" + SchadenFern + "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2) + "\|none\|noform`"  AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
 >> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
@@ -250,8 +250,8 @@ tags:
 >> Range1 AS "Min RW",
 >> Range2 AS "Gnd RW",
 >> Range3 AS "Max RW",
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1 AS "Bonus",
->> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+>> "`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + "\|none\|noform`" AS "Angriff",
+>> "`dice:" + SchadenFern + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
 >> SchadensartFern AS "Schadensart",
 >> EigenschaftenFern AS "Eigenschaften"
 >> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  

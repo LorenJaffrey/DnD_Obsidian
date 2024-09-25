@@ -6,7 +6,7 @@ tags:
 - Gegenstand/Waffe/Klasse/Nahkampfwaffe
 - Gegenstand/Waffe/Kategorie/Kriegswaffe
 - Gegenstand/Waffe/Größe/Langwaffe
-Schaden: 1W10
+Schaden: 1d10
 Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
 - "[[Weitreichend]]"
@@ -33,9 +33,9 @@ Verfügbarkeit: selten
 
 ## `=this.file.name`
 
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
+| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 

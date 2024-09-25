@@ -5,7 +5,7 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Einhandwaffe
-Schaden: 1W6
+Schaden: 1d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
   - "[[Finesse]]"
@@ -26,9 +26,9 @@ Verfügbarkeit: selten
 ---
 ## `=this.file.name`
 
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `=this.Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
+| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
+| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
+| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
 
 ## Handel
 
