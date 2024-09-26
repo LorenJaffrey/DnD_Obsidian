@@ -13,11 +13,11 @@
   "defaultRoll": 1,
   "defaultFace": 100,
   "renderer": true,
-  "renderAllDice": true,
+  "renderAllDice": false,
   "addToView": false,
   "renderTime": 2000,
-  "colorfulDice": false,
-  "scaler": 1,
+  "colorfulDice": true,
+  "scaler": 1.2,
   "diceColor": "#202020",
   "textColor": "#ffffff",
   "textFont": "Arial Rounded MT",
@@ -25,7 +25,7 @@
   "showDice": true,
   "displayAsEmbed": true,
   "round": "None",
-  "initialDisplay": "Roll",
+  "initialDisplay": "None",
   "icons": [
     {
       "id": "dice-roller-d4",

@@ -5,6 +5,7 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
+Reichweite:
 Schaden: 
 Schadensart: 
 Eigenschaften: 

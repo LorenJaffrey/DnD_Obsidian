@@ -5,6 +5,7 @@ tags:
 - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Gegenstand/Waffe/Kategorie/Kriegswaffe
 - Gegenstand/Waffe/Größe/Großwaffe
+Reichweite:
 Schaden: 
 Schadensart: 
 Eigenschaften: []

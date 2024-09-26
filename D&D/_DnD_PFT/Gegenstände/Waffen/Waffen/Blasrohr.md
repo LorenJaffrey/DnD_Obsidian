@@ -5,6 +5,7 @@ tags:
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Gruppe/Blasrohr
   - Gegenstand/Waffe/Größe/Einhandwaffe
+Reichweite:
 Schaden: 
 Schadensart: 
 Eigenschaften: []

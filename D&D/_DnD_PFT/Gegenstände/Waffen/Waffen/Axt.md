@@ -6,7 +6,7 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Einhandwaffe
-Reichweite: 1,5 m (1 Kästchen)
+Reichweite: 1,5(1)
 Schaden: 1d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
