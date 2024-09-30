@@ -12,6 +12,6 @@ aliases:
 | 7-8        | [[Glazis-Wurzel]]      |
 | 9          | [[Steinbrecherwurzel]] |
 | 10         | [[Eisenschildrinde]]   |
-^ced292
+^ArktischePflanzen
 
-`dice: [[Arktisch#^ced292]]|norender|none|noform`
+`dice: [[Arktisch#^ArktischePflanzen]]|norender|none|noform`
