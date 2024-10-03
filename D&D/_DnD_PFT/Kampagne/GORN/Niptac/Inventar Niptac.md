@@ -3,9 +3,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 333
+  GM: 353
   EM: 0
-  SM: 417
+  SM: 372
   KM: 95
 ---
 # `=this.file.name`

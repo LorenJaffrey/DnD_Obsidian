@@ -1,7 +1,13 @@
 # `=this.file.name`
 
 ## Organisatorisches
-
+- [[Schutzring]]
+- Nahrung und Wasser
+- Plan
+	- Hasenbeere
+	- Jagdhaus des Falken
+	- Holzfällerlager
+	- 
 
 ## Recap
 - Besprechung mit Sildar

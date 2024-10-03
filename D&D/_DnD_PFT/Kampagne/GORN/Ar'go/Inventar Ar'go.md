@@ -80,7 +80,7 @@ Inventar:
     gewicht4: 1
     count5: 1
     gewicht5: 1
-    count6: 6
+    count6: 14
     gewicht6: 1
     count7: 1
     gewicht7: 0
@@ -102,10 +102,10 @@ Inventar:
     gewicht15: 0
 Geld:
   PM: 0
-  GM: 6
+  GM: 35
   EM: 0
-  SM: 3
-  KM: 0
+  SM: 8
+  KM: 23
 ---
 
 # `=this.Name`
@@ -113,11 +113,11 @@ Geld:
 > ###### Geld
 > | Währung | Anzahl |
 > | ---- | ---- |
-> | PM (10 GM)| `=this.Geld.PM` |
-> | GM  (10 SM)| `=this.Geld.GM` |
-> | EM  (5 SM) | `=this.Geld.EM` |
-> | SM (10 KM) | `=this.Geld.SM` |
-> | KM | `=this.Geld.KM` |
+> | PM (10 GM)| `INPUT[number:Geld.PM]` |
+> | GM  (10 SM)| `INPUT[number:Geld.GM]`  |
+> | EM  (5 SM) | `INPUT[number:Geld.EM]`  |
+> | SM (10 KM) | `INPUT[number:Geld.SM]`  |
+> | KM | `INPUT[number:Geld.KM]` |
 > 
 > ##### Last
 > | Type | Stat |

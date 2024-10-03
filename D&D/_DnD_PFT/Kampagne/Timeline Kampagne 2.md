@@ -167,9 +167,16 @@ gantt
 		Unterhaltung mit 3 markierten Pferde: done, a4, after a3, 15m
 		Weiterreise (Richtung "Butterschädelhof"): done, a5, after a4, 3h
 		Ankunft "Butterschädelhof": done, milestone, a6, after a5, 0m
+		Erkundung & Schleichen: done, a7, after a6, 30m
+		Niptac befreit "Big Al": done, a8, after a7, 45m
+		Weißer erwachsener Drache überfällt den "Butterschädelhof": done, milestone, a9, after a8, 30m
+		Weißer erwachsener Drache tötet alle Orks und fliegt mit 2 Kühen weg: done, a10, after a9, 30m
+		GORN untersucht die toten Orks & stimmen sich ab: done, milestone, a11, after a10, 1h
+		GORN bringt die Kuh "Betunia" zurück: done, a12, after a11, 2h
+		GORN reist wieder nach Phandalin zurück: done, a13, after a12, 270m
 ```
 
-> Hier befinden wir uns aktuell!
+>
 
 ### Tag 11
 ```mermaid
@@ -179,7 +186,7 @@ gantt
 	tickinterval 1hour
 	weekday friday
 	section G.O.R.N
-		-: a1, 2024-05-03 00:00, 
+		Reisen - Schlafen (Lange Rast): done a1, 2024-05-03 00:00, 24h
 ```
 
 >
@@ -192,7 +199,7 @@ gantt
 	tickinterval 1hour
 	weekday saturday
 	section G.O.R.N
-		-: a1, 2024-05-04 00:00, 
+		Reisen - Schlafen (Lange Rast): done a1, 2024-05-04 00:00, 24h
 ```
 
 >
@@ -205,7 +212,10 @@ gantt
 	tickinterval 1hour
 	weekday sunday
 	section G.O.R.N
-		-: a1, 2024-05-05 00:00, 
+		Ankunft in Phandalin: a1, 2024-05-05 00:00, 15h
+		Zildar über den Butterschädelhof und den Weißen Drachen berichtet: done, milestone, a2, after a1, 30m
+		GORN geht mit Zildar saufen: done, a3, after a2, 2h
+		GORN bricht zur Hasenbeere mit der Holzlieferung auf: done, a4, after a3, 7h
 ```
 
 >
@@ -218,8 +228,99 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-06 00:00, 
+		Reisen - Schlafen (Lange Rast): a1, 2024-05-06 00:00, 24h
 ```
 
 
 # Woche 3
+
+### Tag 15
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		Reisen - Schlafen (Lange Rast): a1, 2024-05-07 00:00, 24h
+```
+
+>
+
+### Tag 16
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		Ankunft in Hasenbeere mit der Holzlieferung: done, milestone, a1, 2024-05-08 00:00, 9h
+```
+
+> Hier befinden wir uns aktuell!
+
+### Tag 17
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-09 00:00, 
+```
+
+>
+
+### Tag 18
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-10 00:00, 
+```
+
+>
+
+### Tag 19
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-11 00:00, 
+```
+
+>
+
+### Tag 20
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-12 00:00, 
+```
+
+>
+
+### Tag 21
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 
+```
+
+>

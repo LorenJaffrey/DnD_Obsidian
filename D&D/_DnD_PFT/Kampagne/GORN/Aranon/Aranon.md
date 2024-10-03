@@ -295,7 +295,7 @@ tags:
 >>
 
 ## Attribute und Fertigkeiten
-> [!column  | 6 no-title]
+> [!column  | 3 no-title]
 >> ## Stärke
 >> | [[Stärke]]                                                                                                                 |                                                                                  Attributswert                                                                                  |
 >> | -------------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -321,7 +321,8 @@ tags:
 >> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Konstitution`  (`=choice(floor(((this.Attribute.Konstitution)-10)/2)>0, "+" + floor(((this.Attribute.Konstitution)-10)/2), floor(((this.Attribute.Konstitution)-10)/2))`)                                                                            |
 >> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Konstitution)-10)/2) + "\|none\|noform\```"`                                         |
 >> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "⭐⭐", choice(this.Rettungswürfe.Konstitution=1, "⭐",""))`          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->
+
+> [!column  | 3 no-title]
 >> ## Intelligenz
 >> | [[Intelligenz]]                  |                                                                                  Attributswert                                                                                  |
 >> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
