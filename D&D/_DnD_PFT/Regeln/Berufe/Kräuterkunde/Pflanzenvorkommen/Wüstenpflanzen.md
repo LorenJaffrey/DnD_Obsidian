@@ -12,3 +12,6 @@ aliases:
 | 7 - 8 | [[Mirazorn-Gras]]      |
 |   9   | [[Steinbrecherwurzel]] |
 |  10   | [[Tharavim-Wurzel]]    |
+^Wuestenpflanzen
+
+`dice: [[Wüstenpflanzen#^Wuestenpflanzen]]|norender|none|noform`

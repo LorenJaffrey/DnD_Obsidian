@@ -32,10 +32,6 @@ In den arktischen Tundren findet man sie oft tief unter der Permafrostschicht, w
 In Wüstenregionen wächst die Wurzel in den tieferen Schichten unter trockenen Flussbetten oder felsigen Ebenen, wo sie das wenige Wasser aufnimmt, das durch die seltenen Regenfälle in den Boden sickert. 
 Die [[Steinbrecherwurzel]] ist schwer zu finden und zu ernten, aber aufgrund ihrer wertvollen Eigenschaften wird sie von erfahrenen Sammlern und Heilern hoch geschätzt.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

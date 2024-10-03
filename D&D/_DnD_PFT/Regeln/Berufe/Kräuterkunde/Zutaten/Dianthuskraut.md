@@ -21,10 +21,6 @@ Es ist häufig in seichten, klaren Gewässern zu finden, wo es in langen Bahnen 
 Die Pflanze bevorzugt küstennahe Gewässer, insbesondere Bereiche, in denen die Strömungen sanft und das Sonnenlicht ausreichend ist, um ihr Wachstum zu fördern. 
 Dianthuskraut ist ein wertvolles Kraut für Seefahrer und Abenteurer, die sich unter Wasser sicher und effizient bewegen möchten.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

@@ -30,10 +30,6 @@ In Wäldern findet man sie häufig in der Nähe von verrottendem Holz oder an de
 Im Unterreich gedeiht sie an den Wänden von Höhlen oder entlang unterirdischer Wasserläufe, wo sie von der feuchten, dunklen Umgebung profitiert. 
 Der Pilz ist aufgrund seiner seltenen und heilenden Natur sehr begehrt und wird oft von erfahrenen Sammlern gesucht, die wissen, wo und wann man ihn sicher ernten kann.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

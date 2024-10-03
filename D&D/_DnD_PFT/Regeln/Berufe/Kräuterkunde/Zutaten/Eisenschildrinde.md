@@ -28,10 +28,6 @@ In Waldregionen wachsen sie an abgelegenen, windgeschützten Orten, oft in der N
 In arktischen Regionen findet man sie auf eisigen Ebenen oder in den Ausläufern von Gletschern, wo sie den extremen Temperaturen und rauen Winden trotzen. 
 Diese Bäume sind selten und schwer zu finden, aber ihre Rinde ist wegen ihrer schützenden Eigenschaften sehr begehrt.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

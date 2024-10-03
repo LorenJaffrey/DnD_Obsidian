@@ -32,10 +32,6 @@ Sie bevorzugt windgeschützte Stellen, nahe bei höheren Gräsern oder Felsen, d
 In den Sumpfgebieten findet man sie häufig in den feuchten, moorigen Bereichen, wo der Boden gut durchlässig ist und die Pflanze ausreichend Wasser erhält. 
 Die Herzblutbeere ist in diesen Regionen ein wertvolles Gut für jene, die ihre heilenden Kräfte nutzen können.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

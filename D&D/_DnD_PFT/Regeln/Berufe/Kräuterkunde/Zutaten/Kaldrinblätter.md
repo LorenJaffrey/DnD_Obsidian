@@ -26,10 +26,6 @@ Im Hügelland findet man die Sträucher häufig auf abgelegenen, felsigen Anhöh
 An den Küsten gedeihen sie auf Klippen und in den nährstoffreichen Böden nahe der Meeresbrisen, wo sie den salzigen Winden trotzen. 
 Die Pflanze ist für ihre widerstandsfähige Natur und ihre mental schützenden Eigenschaften bekannt und wird in diesen Regionen sorgfältig gehütet.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

@@ -28,10 +28,6 @@ Im Hügelland findet man sie häufig in der Nähe von Quellen oder kleinen Bäch
 In Sumpfgebieten gedeiht sie an den Rändern von Tümpeln oder in flachen Gewässern, wo die Erde sumpfig und nährstoffreich ist. 
 Die Fennorblüte ist in diesen Regionen bekannt und geschätzt für ihre nützlichen Eigenschaften und ihre leuchtende Schönheit.
 
-| Zutat             | Art         |
-| ----------------- | ----------- |
-| `=this.file.name` | `=this.Art` |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

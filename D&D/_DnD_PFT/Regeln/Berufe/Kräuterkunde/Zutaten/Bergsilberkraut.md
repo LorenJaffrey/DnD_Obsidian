@@ -31,11 +31,6 @@ In den abgelegenen Gebieten der Berge, wo die Luft klar und rein ist, gedeiht da
 Es wird oft als wertvolles Fundstück angesehen und ist in den ländlichen Gemeinden der Hügel- und Bergregionen hoch geschätzt. 
 Wer es finden will, muss sich oft in schwer zugängliche Gebiete wagen, aber die Belohnung kann in Form von lebensrettenden Heilkräften unschätzbar sein.
 
-
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

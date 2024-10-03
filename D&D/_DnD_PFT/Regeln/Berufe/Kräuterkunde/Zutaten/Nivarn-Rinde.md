@@ -28,10 +28,6 @@ Die [[Nivarn-Rinde]] wächst in den hohen und unzugänglichen Gebirgsregionen de
 Sie gedeiht in den schattigen, feuchten Bereichen der Bergwälder, oft in der Nähe von klaren Bergbächen oder unter dichten Baumkronen, die Schutz vor extremen Wetterbedingungen bieten. 
 Die Bäume, von denen diese Rinde stammt, sind selten und ihre Ernte erfordert Erfahrung und Geduld, was die [[Nivarn-Rinde]] zu einer wertvollen und begehrten Ressource macht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

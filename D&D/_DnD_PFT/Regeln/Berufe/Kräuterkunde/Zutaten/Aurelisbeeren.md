@@ -31,10 +31,6 @@ Im Grasland finden sich die Sträucher oft in der Nähe von Flussufern oder an W
 In Wäldern wachsen sie bevorzugt an sonnigen Lichtungen oder unter Bäumen mit lockerem Blätterdach, das ihnen genügend Licht zum Gedeihen bietet. 
 Sie sind relativ häufig, aber ihre Wirkung ist so geschätzt, dass sie oft schnell geerntet werden, sobald sie entdeckt werden.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

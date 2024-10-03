@@ -30,10 +30,6 @@ Die Sträucher bevorzugen gut durchlässige, steinige Böden und werden häufig 
 Widerstandsfähig gegen Wind und Wetter, sind die Sträucher oft in den abgelegenen, weniger befahrenen Gegenden des Hügellandes anzutreffen. 
 Die Ernte ist eine besondere Herausforderung, da die Sträucher in schwer zugänglichen Bereichen wachsen, was die Beeren zu einer wertvollen Ressource für die Einheimischen macht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

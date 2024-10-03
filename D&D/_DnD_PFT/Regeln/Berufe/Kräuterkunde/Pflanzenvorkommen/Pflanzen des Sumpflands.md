@@ -12,3 +12,6 @@ aliases:
 | 6 - 8 | [[Fennorblüte]]     |
 |   9   | [[Arionkelch]]      |
 |  10   | [[Rubinmorchel]]    |
+^Sumpfpflanzen
+
+`dice: [[Pflanzen des Sumpflands#^Sumpfpflanzen]]|norender|none|noform`

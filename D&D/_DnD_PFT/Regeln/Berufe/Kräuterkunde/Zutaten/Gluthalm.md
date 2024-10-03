@@ -29,10 +29,6 @@ In Wüsten wächst es oft in kleinen, verstreuten Büscheln, die sich an windges
 An den Küsten findet man [[Gluthalm]] oft in den trockenen Dünen oder auf felsigen Küstenstreifen, wo es den salzigen Wind und die sengende Sonne gut verträgt. 
 Aufgrund seiner wertvollen Eigenschaften wird [[Gluthalm]] häufig von erfahrenen Sammlern gesucht, die es für seine hitzeresistente Wirkung schätzen.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

@@ -30,10 +30,6 @@ Die [[Herzkappe]] wächst bevorzugt in den dunklen, feuchten Umgebungen des Unte
 Sie wächst er oft in den feuchten, erdigen Ecken von Höhlen oder an den Wänden von unterirdischen Wasserläufen. 
 Der Pilz ist für seine heilenden Eigenschaften geschätzt und wird oft von Heiler- und Alchemiekreisen gesucht, die seine seltene, aber wertvolle Wirkung nutzen.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

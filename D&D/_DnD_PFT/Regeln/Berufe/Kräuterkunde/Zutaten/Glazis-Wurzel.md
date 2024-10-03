@@ -28,11 +28,6 @@ Sie gedeiht in den tief gefrorenen Böden, oft in der Nähe von schneebedeckten 
 Diese Wurzel ist selten und schwer zu finden, da sie tief im Boden verankert ist und nur von erfahrenen Sammlern geerntet werden kann. 
 In den kalten Weiten der Arktis gilt die [[Glazis-Wurzel]] als ein wertvolles und lebensrettendes Gut.
 
-
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

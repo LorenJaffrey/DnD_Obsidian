@@ -5,7 +5,7 @@ aliases:
 Art: "[[Blüten]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Charisma]] für eine Stunde."
-  Verarbeitet: "Vorteil auf Überzeugen, Täuschen, Motiv erkennen für 1 Stunde."
+  Verarbeitet: "Vorteil auf [[Überzeugen]], [[Täuschen]], [[Motiv erkennen]] für 1 Stunde."
 Umgebungen:
   - "[[Pflanzen des Graslands|Grasland]]"
   - "[[Pflanzen des Sumpflands|Sumpfland]]"
@@ -30,10 +30,6 @@ Der [[Nachtlichtkelch]] wächst bevorzugt in den feuchten Graslandschaften und S
 Im Grasland findet man ihn in der Nähe von Flussufern, Tümpeln oder seichten Seen, wo das Wasser ruhig und der Boden nährstoffreich ist. 
 In Sumpfgebieten gedeiht er in den tieferen, ruhigeren Bereichen, wo das Wasser langsam fließt und die Luft feucht und schwer ist. 
 Aufgrund seines besonderen Vorkommens und seiner seltenen, kraftvollen Wirkung wird der [[Nachtlichtkelch]] von vielen als eine heilige und mächtige Pflanze angesehen.
-
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
 
 ## Effekt Roh
 `=this.Effekt.Roh`

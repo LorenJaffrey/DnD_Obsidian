@@ -29,10 +29,6 @@ Er findet sich häufig in der Nähe von verrottendem Holz oder an den Rändern v
 Die Pflanze gedeiht in den wenig beleuchteten, schattigen Bereichen, in denen nur spärliches Sonnenlicht eindringt. 
 Der [[Arionkelch]] ist aufgrund seiner seltenen und wertvollen Eigenschaften begehrt und wird oft von erfahrenen Sammlern gesucht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

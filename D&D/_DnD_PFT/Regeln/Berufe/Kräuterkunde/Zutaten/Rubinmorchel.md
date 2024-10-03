@@ -31,10 +31,6 @@ Im Unterreich wächst sie bevorzugt in den feuchten, dunklen Höhlen und Gängen
 In Sumpfgebieten findet man sie häufig an den Rändern von stehenden Gewässern oder in den verwilderten Bereichen, wo der Boden durchgehend feucht und nährstoffreich ist. 
 Aufgrund ihrer einzigartigen Umgebung und ihres Potenzials zur Erholung wird die [[Rubinmorchel]] von Heilern und Kräutersammlern gleichermaßen geschätzt, obwohl sie oft schwer zu finden und zu ernten ist.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

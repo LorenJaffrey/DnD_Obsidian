@@ -31,10 +31,6 @@ Im Grasland gedeiht sie in trockenen, sonnigen Gebieten, wo der Boden eher sandi
 In Wüstenregionen findet man sie oft an den Rändern von Oasen oder in den Spalten von Felsformationen, wo sie das lebensnotwendige Wasser speichern kann. 
 Die Blume ist für ihre Fähigkeit bekannt, in den extremsten Umgebungen zu überleben, und wird von den Bewohnern dieser Regionen wegen ihrer heilenden Kräfte hoch geschätzt.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

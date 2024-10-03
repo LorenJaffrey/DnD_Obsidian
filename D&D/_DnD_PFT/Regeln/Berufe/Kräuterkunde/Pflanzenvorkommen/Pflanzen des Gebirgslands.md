@@ -12,3 +12,6 @@ aliases:
 | 5 - 6  | [[Frostmantelgras]]  |
 | 7 - 8  | [[Frostwacht-Rinde]] |
 | 9 - 10 | [[Mirazorn-Gras]]    |
+^Gebirgspflanzen
+
+`dice: [[Pflanzen des Gebirgslands#^Gebirgspflanzen]]|norender|none|noform`

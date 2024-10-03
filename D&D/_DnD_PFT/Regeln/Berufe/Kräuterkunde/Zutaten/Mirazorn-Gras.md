@@ -30,10 +30,6 @@ Es wurzelt tief im kargen Boden und überlebt in extremen Bedingungen, wo nur we
 In den Bergen findet man es oft in Felsspalten oder auf hochgelegenen Plateaus, während es in Wüstenregionen in Oasen oder an den Rändern von Sanddünen wächst. 
 Das Gras ist schwer zu finden, aber für diejenigen, die seine heilenden Kräfte kennen, ist es ein wahres Geschenk der Natur.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

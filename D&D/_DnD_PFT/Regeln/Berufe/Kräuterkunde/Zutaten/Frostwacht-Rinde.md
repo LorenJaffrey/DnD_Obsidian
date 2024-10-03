@@ -26,10 +26,6 @@ In arktischen Regionen wachsen sie auf abgelegenen, eisbedeckten Ebenen oder in 
 Im Gebirge sind sie an steilen, schattigen Hängen oder in frostigen Tälern zu finden, wo sie den harschen Bedingungen trotzen. 
 Diese Rinde ist selten und geschätzt für ihre außergewöhnliche Fähigkeit, unter extremen Bedingungen zu gedeihen und Schutz gegen eine Vielzahl von schädlichen Zuständen zu bieten.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

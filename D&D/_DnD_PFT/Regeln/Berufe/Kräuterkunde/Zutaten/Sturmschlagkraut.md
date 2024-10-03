@@ -31,10 +31,6 @@ Im Grasland findet man es oft in windigen, offenen Ebenen, wo der Boden gut durc
 In Küstenregionen gedeiht es besonders gut auf Klippen und felsigen Ufern, wo es den harschen Bedingungen trotzt. 
 Die Kombination aus salziger Luft und starkem Wind scheint das Kraut noch widerstandsfähiger und kraftvoller zu machen, was es zu einem beliebten und begehrten Gewächs unter den Bewohnern dieser Regionen macht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

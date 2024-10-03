@@ -11,3 +11,6 @@ aliases:
 | 6 - 7 | [[Kaldrinblätter]]    |
 | 8 - 9 | [[Umbrafelis-Wurzel]] |
 |  10   | [[Sturmschlagkraut]]  |
+^Kuestenpflanzen
+
+`dice: [[Küste#^Kuestenpflanzen]]|norender|none|noform`

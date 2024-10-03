@@ -29,10 +29,6 @@ Dieser Schutz hält für eine Dauer von 1 Stunde an und ist besonders wertvoll i
 Die [[Umbrafelis-Wurzel]] wächst bevorzugt in felsigen Küstenregionen und den tiefen, dunklen Höhlen des Unterreichs. 
 An den Küsten findet man sie oft in Meeresgrotten oder unter steilen Klippen, während sie im Unterreich in den mineralreichen Böden der dunklen Tunnel und Höhlen gedeiht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

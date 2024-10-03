@@ -32,10 +32,6 @@ Es ist oft in der Nähe von Gletschern, auf schneebedeckten Hochebenen und an de
 Das Gras ist darauf spezialisiert, in dünner, gefrorener Erde zu wachsen und die rauen Bedingungen zu überstehen. 
 Wegen seiner nützlichen Eigenschaften und seiner Seltenheit wird es von den Einwohnern dieser kalten Regionen hoch geschätzt.
 
-| Zutat             | Art         |
-| ----------------- | ----------- |
-| `=this.file.name` | `=this.Art` |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

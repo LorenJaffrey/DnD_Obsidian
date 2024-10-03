@@ -29,10 +29,6 @@ Die [[Tharavim-Wurzel]] wächst in den trockenen Wüstenregionen der Vergessenen
 Sie gedeiht tief unter dem sandigen Boden, oft in der Nähe von felsigen Hügeln oder ausgetrockneten Flussbetten, wo sie vor den härtesten Winden und der extremen Hitze geschützt ist. 
 Wegen der schwierigen Bedingungen, unter denen sie wächst, ist die [[Tharavim-Wurzel]] eine wertvolle und schwer zugängliche Ressource, die nur von erfahrenen Sammlern geerntet werden kann.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

@@ -29,10 +29,6 @@ In den Wäldern wachsen sie oft in schattigen, abgeschiedenen Bereichen, wo das 
 Im Unterreich sind sie entlang unterirdischer Flüsse oder in feuchten Höhlen zu finden, wo die Dunkelheit allgegenwärtig ist. 
 Die Bäume sind selten und oft schwer zu finden, was die Dämmerborke zu einem kostbaren Gut macht.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

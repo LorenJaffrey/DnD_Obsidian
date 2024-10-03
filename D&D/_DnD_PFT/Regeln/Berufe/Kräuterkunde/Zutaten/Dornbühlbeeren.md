@@ -29,10 +29,6 @@ Im Hügelland wachsen sie häufig an sonnigen Hängen und in geschützten Senken
 In Waldgebieten sind sie vor allem am Waldrand oder in Lichtungen zu finden, wo sie genügend Licht erhalten, um ihre kräftigen Beeren auszubilden. 
 Die Sträucher sind für ihre dornige Natur und die heilenden Eigenschaften ihrer Beeren bekannt und werden oft von Einheimischen geerntet und gepflegt.
 
-| Zutat             | Art         |       Dosen für Verarbeitung       | [[Schwierigkeitsgrad\|SG]] für Verarbeitung |
-| ----------------- | ----------- |:----------------------------------:|:-------------------------------------------:|
-| `=this.file.name` | `=this.Art` | `=this.AnzahlDosenFürVerarbeitung` |           `=this.VerarbeitungsSG`           |
-
 ## Effekt Roh
 `=this.Effekt.Roh`
 

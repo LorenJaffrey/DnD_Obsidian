@@ -12,3 +12,6 @@ aliases:
 | 7 - 8 | [[Kaldrinblätter]]   |
 |   9   | [[Fennorblüte]]      |
 |  10   | [[Nylandris-Beeren]] |
+^Huegellandpflanzen
+
+`dice: [[Pflanzen des Hügellands#^Huegellandpflanzen]]|norender|none|noform`
