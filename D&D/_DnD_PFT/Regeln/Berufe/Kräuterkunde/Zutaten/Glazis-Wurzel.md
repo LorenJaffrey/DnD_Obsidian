@@ -4,9 +4,9 @@ tags:
 Art: "[[Wurzeln]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf]] gegen Gifte für 1 Stunde."
-  Verarbeitet: "Heilt [[Vergiftet|Vergiftung]]."
+  Verarbeitet: Heilt [[Vergiftet|Vergiftung]].
 Umgebungen:
-  - "[[Arktisch]]"
+  - "[[Pflanzen der Arktischen Regionen]]"
 ---
 # `=this.file.name`
 ## Aussehen

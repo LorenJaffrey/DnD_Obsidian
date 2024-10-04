@@ -6,9 +6,9 @@ aliases:
 Art: "[[Wurzeln]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf|Rettungswürfe]] auf [[Intelligenz]] für eine Stunde."
-  Verarbeitet: "Immun gegen [[Bezaubert]] und [[Verängstigt]] für 1 Stunde."
+  Verarbeitet: Immun gegen [[Bezaubert]] und [[Verängstigt]] für 1 Stunde.
 Umgebungen:
-  - "[[Küste]]"
+  - "[[Pflanzen der Küstenregion]]"
   - "[[Pflanzen des Unterreichs|Unterreich]]"
 ---
 # `=this.file.name`

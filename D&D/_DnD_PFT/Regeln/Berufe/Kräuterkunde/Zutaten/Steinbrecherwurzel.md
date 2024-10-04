@@ -5,11 +5,11 @@ aliases:
   - Alraunen
 Art: "[[Wurzeln]]"
 Effekt:
-  Roh: "Stoppt [[Versteinert|Versteinerung]]."
-  Verarbeitet: "Heilt [[Versteinert|Versteinerung]]"
+  Roh: Stoppt [[Versteinert|Versteinerung]].
+  Verarbeitet: Heilt [[Versteinert|Versteinerung]]
 Umgebungen:
   - "[[Wüstenpflanzen|Wüste]]"
-  - "[[Arktisch]]"
+  - "[[Pflanzen der Arktischen Regionen]]"
 ---
 # `=this.file.name`
 ## Aussehen

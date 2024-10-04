@@ -1,13 +1,13 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
+aliases: 
 Art: "[[Gräser]]"
 Effekt:
-  Roh: "Keine [[Erschöpft|Erschöpfung]] durch Kälte für einen Tag."
+  Roh: Keine [[Erschöpft|Erschöpfung]] durch Kälte für einen Tag.
   Verarbeitet: "[[Schadensarten#Schadensresistenz]] gegen [[Kälteschaden]] für eine Stunde."
 Umgebungen:
-  - "[[Arktisch]]"
+  - "[[Pflanzen der Arktischen Regionen]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
 ---
 # `=this.file.name`

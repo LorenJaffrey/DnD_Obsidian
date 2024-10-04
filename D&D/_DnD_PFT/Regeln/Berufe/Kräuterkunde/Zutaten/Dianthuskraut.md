@@ -3,10 +3,10 @@ tags:
   - Beruf/Kräuterkunde/Zutat
 Art: "[[Blätter]]"
 Effekt:
-  Roh: "Maximale Atemanhaltezeit verdoppelt für 1 Stunde."
-  Verarbeitet: "Erhält Schwimmbewegung gleich normaler Bewegung für 1 Stunde."
+  Roh: Maximale Atemanhaltezeit verdoppelt für 1 Stunde.
+  Verarbeitet: Erhält Schwimmbewegung gleich normaler Bewegung für 1 Stunde.
 Umgebungen:
-  - "[[Küste]]"
+  - "[[Pflanzen der Küstenregion]]"
 ---
 # `=this.file.name`
 ## Aussehen

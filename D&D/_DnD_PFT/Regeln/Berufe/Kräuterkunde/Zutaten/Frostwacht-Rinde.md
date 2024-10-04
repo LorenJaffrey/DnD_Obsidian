@@ -4,9 +4,9 @@ tags:
 Art: "[[Rinden]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] für eine Stunde."
-  Verarbeitet: "Besteht automatisch den ersten [[Todesrettungswürfe|Todesrettungswurf]] innerhalb der nächsten Stunde."
+  Verarbeitet: Besteht automatisch den ersten [[Todesrettungswürfe|Todesrettungswurf]] innerhalb der nächsten Stunde.
 Umgebungen:
-  - "[[Arktisch]]"
+  - "[[Pflanzen der Arktischen Regionen]]"
   - "[[Pflanzen des Gebirgslands|Gebirge]]"
 ---
 # `=this.file.name`

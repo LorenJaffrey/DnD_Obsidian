@@ -10,8 +10,8 @@ Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkei
 | Ort                                                                                                                                                        | SG  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | [[Pflanzen des Waldlands\|Waldland]], [[Pflanzen des Graslands\|Grasland]], [[Pflanzen des Hügellands\|Hügelland]], [[Pflanzen des Sumpflands\|Sumpfland]] | 15  |
-| [[Küste]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Pflanzen des Unterreichs\|Unterreich]]                                                                | 20  |
-| [[Arktisch]], [[Wüstenpflanzen\|Wüste]]                                                                                                                    | 25  |
+| [[Pflanzen der Küstenregion]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Pflanzen des Unterreichs\|Unterreich]]                                                                | 20  |
+| [[Pflanzen der Arktischen Regionen]], [[Wüstenpflanzen\|Wüste]]                                                                                                                    | 25  |
 
 Bei einem [[Erfolg]] findest du eine Zutat aus der jeweiligen Ortstabelle.
 Bei einem [[Misserfolg]] findest du nichts. 

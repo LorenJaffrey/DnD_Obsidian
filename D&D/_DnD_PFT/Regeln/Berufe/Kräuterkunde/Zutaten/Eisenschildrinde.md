@@ -1,14 +1,14 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
+aliases: 
 Art: "[[Rinden]]"
 Effekt:
-  Roh: "Gewährt 3 [[Temporäre Trefferpunkte]] für eine Stunde (max 1 pro [[Lange Rast|Langer Rast]])."
-  Verarbeitet: "Gewährt 10 [[Temporäre Trefferpunkte]] für eine Stunde (max 1 pro [[Lange Rast|Langer Rast]])."
+  Roh: Gewährt 3 [[Temporäre Trefferpunkte]] für eine Stunde (max 1 pro [[Lange Rast|Langer Rast]]).
+  Verarbeitet: Gewährt 10 [[Temporäre Trefferpunkte]] für eine Stunde (max 1 pro [[Lange Rast|Langer Rast]]).
 Umgebungen:
   - "[[Pflanzen des Waldlands|Waldland]]"
-  - "[[Arktisch]]"
+  - "[[Pflanzen der Arktischen Regionen]]"
 ---
 # `=this.file.name`
 ## Aussehen

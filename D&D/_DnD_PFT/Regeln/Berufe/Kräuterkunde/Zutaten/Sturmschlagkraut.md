@@ -1,14 +1,14 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
+aliases: 
 Art: "[[Blätter]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] auf [[Athletik]]-Würfe für 1 Stunde."
-  Verarbeitet: "+1 auf [[Schadenswurf|Schadenswürfe]] für 1 Stunde."
+  Verarbeitet: +1 auf [[Schadenswurf|Schadenswürfe]] für 1 Stunde.
 Umgebungen:
   - "[[Pflanzen des Graslands|Grasland]]"
-  - "[[Küste]]"
+  - "[[Pflanzen der Küstenregion]]"
 ---
 # `=this.file.name`
 ## Aussehen

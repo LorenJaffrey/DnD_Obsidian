@@ -1,14 +1,14 @@
 ---
 tags:
   - Beruf/Kräuterkunde/Zutat
-aliases:
+aliases: 
 Art: "[[Blätter]]"
 Effekt:
   Roh: "[[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Weisheit]] für eine Stunde."
-  Verarbeitet: "Immun gegen [[Verängstigt]] und [[Bezaubert]] für eine Stunde."
+  Verarbeitet: Immun gegen [[Verängstigt]] und [[Bezaubert]] für eine Stunde.
 Umgebungen:
   - "[[Pflanzen des Hügellands|Hügelland]]"
-  - "[[Küste]]"
+  - "[[Pflanzen der Küstenregion]]"
 ---
 # `=this.file.name`
 ## Aussehen
