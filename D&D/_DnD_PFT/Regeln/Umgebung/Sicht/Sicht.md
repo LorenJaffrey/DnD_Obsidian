@@ -1,9 +1,8 @@
 # `=this.file.name`
 
-Die Lichtverhältnisse einer Umgebung werden in drei Stufen unterteilt:
+## Sichtweite
 
-![[Helles Licht]]
-
-![[Dämmriges Licht]]
-
-![[Dunkelheit]]
+| Klares Wetter | Sichtweite |
+| ------------- | ----------:|
+| Klares Wetter |     3,0 km |
+| Regen         |     1,5 km |

@@ -7,11 +7,24 @@ Wenn du [[Übung|geübt]] in [[Überlebenskunst]] bist erhältst du [[Vorteil un
 Der [[Schwierigkeitsgrad|SG]] basiert auf der Umgebung gemäß der untenstehenden Tabelle. 
 Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkeit von Zutaten in der Umgebung anhand der jeweiligen Tabelle bestimmt wird.
 
-| Ort                                                                                                                                                        | SG  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| [[Pflanzen des Waldlands\|Waldland]], [[Pflanzen des Graslands\|Grasland]], [[Pflanzen des Hügellands\|Hügelland]], [[Pflanzen des Sumpflands\|Sumpfland]] | 15  |
-| [[Pflanzen der Küstenregion]], [[Pflanzen des Gebirgslands\|Gebirge]], [[Pflanzen des Unterreichs\|Unterreich]]                                                                | 20  |
-| [[Pflanzen der Arktischen Regionen]], [[Wüstenpflanzen\|Wüste]]                                                                                                                    | 25  |
+```dataview
+TABLE WITHOUT ID
+file.link AS "Umgebung",
+Such-DC AS "Schwierigkeitsgrad"
+FROM #Umgebung
+SORT Such-DC, file.name
+```
+
+## Such-Modifikatoren
+| Typ                            |          Such-Modifikator          |
+| ------------------------------ |:----------------------------------:|
+| Schnelles Tempo                |           nicht möglich            |
+| Langsames Tempo                |                 +5                 |
+| Extremes Wetter                |                 -5                 |
+| Befestigte Wege                |                 -5                 |
+| einem Fluss/Strom folgend      |                 +5                 | 
+| Arktische Bedingungen / Winter | [[Vorteil und Nachteil\|Nachteil]] |
+| Nacht                          | [[Vorteil und Nachteil\|Nachteil]] |
 
 Bei einem [[Erfolg]] findest du eine Zutat aus der jeweiligen Ortstabelle.
 Bei einem [[Misserfolg]] findest du nichts. 

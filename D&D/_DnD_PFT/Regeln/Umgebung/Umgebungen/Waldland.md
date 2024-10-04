@@ -1,7 +1,7 @@
 ---
 tags:
   - Umgebung
-Typ: "[[Normales Gelände]]"
+Typ: "[[Schwieriges Gelände]]"
 Such-DC: 10
 Navigation-DC: 15
 ---
@@ -11,3 +11,8 @@ Man sieht wahrscheinlich nicht den Horizont.
 Es könnte sogar schwer sein, den Himmel zu erkennen. 
 Allerdings ist das Sammeln von Nahrung einfach. 
 Es gibt reichlich Wildtiere und Pflanzen, die man sammeln und essen kann.
+
+## Pflanzenvorkommen
+**Such-SG:** `=this.Such-DC`
+
+![[Pflanzen des Waldlands| no-title]]
