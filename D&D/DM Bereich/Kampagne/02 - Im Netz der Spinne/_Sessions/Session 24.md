@@ -1,8 +1,8 @@
 # `=this.file.name`
 
 ## Organisatorisches
+- Persönlichkeit der Charaktere besser einbauen
 - [[Schutzring]]
-- Nahrung und Wasser
 - zusätzlicher Encounter auf dem Weg zum Holzfällerlager
 - Jagdhaus des Falken ausdefinieren
 
