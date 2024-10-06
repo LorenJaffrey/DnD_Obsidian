@@ -1,6 +1,7 @@
 # `=this.file.name`
 Im Zuge einer [[Lange Rast|Langen Rast]] kann ein Gruppenmitglied auf Nahrungssuche gehen.
 Der [[Schwierigkeitsgrad]] richtet sich dabei nach der Umgebung in der gesucht wird, sowie den Umständen der Suche anhand der untenstehenden Tabellen.
+Bei Erfolg findet das Gruppenmitglied genügend Nahrung und Wasser um eine [[lange Rast]] durchzuführen und die Wasservorräte aufzufüllen
 
 ```dataview
 TABLE WITHOUT ID
@@ -22,5 +23,4 @@ Wende diese Modifikatoren nach Bedarf an, wann immer die Gruppe eine DC-Weisheit
 | Extremes Wetter                |                 -5                 |
 | Befestigte Wege                |                 -5                 |
 | einem Fluss/Strom folgend      |                 +5                 |
-| Arktische Bedingungen / Winter | [[Vorteil und Nachteil\|Nachteil]] |
 | Nacht                          | [[Vorteil und Nachteil\|Nachteil]] |

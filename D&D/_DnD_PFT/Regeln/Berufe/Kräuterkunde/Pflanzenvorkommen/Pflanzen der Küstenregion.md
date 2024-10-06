@@ -13,4 +13,4 @@ aliases:
 |  10   | [[Sturmschlagkraut]]  |
 ^Kuestenpflanzen
 
-`dice: [[Küste#^Kuestenpflanzen]]|norender|none|noform`
+`dice: [[Pflanzen der Küstenregion#^Kuestenpflanzen]]|norender|none|noform`

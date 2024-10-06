@@ -14,4 +14,4 @@ aliases:
 | 10         | [[Eisenschildrinde]]   |
 ^ArktischePflanzen
 
-`dice: [[Arktisch#^ArktischePflanzen]]|norender|none|noform`
+`dice: [[Pflanzen der Arktischen Regionen#^ArktischePflanzen]]|norender|none|noform`
