@@ -104,7 +104,6 @@ KurzeRast:
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
 tags:
-  - Charakter/GORN
 ---
 
 > [!infobox]

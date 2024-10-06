@@ -2,8 +2,11 @@
 cssclass: dnd
 Stufe: 5
 Bewegung: 6
-Rüstung: "[[Fellrüstung]]"
-Schild: "[[Holzschild]]"
+Verteidigung:
+  Natürliche_Rüstung: 10
+  Zusätzliche_Rüstung: 1
+  Rüstung: "[[Fellrüstung]]"
+  Schild: "[[Holzschild]]"
 Waffen:
   - "[[Kampfstab]]"
   - "[[Krummsäbel]]"
@@ -236,7 +239,7 @@ tags:
 > ### Makel
 > `=this.Persönlichkeit.Makel`
 
-> [!column | flex 3 ]
+> [!column | flex 3 no-title]
 >> ## Rasten
 >> |                            |                           |
 >> | -------------------------- | ------------------------- |
@@ -255,17 +258,18 @@ tags:
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 >> 
 >
->> ## Gesundheit
+>> ## Verteidigung
+>> ### Gesundheit
 >> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | :------------------------: | :------------------------: | :---------------------------: |
 >> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe` |                             |
 >> | Aktuell | `INPUT[number():Gesundheit.TP]`   |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
 >>
 >>
->>## Rüstung
->> | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->> | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
->> | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+>>### Rüstung
+>>|                                                                   Rüstung                                                                    |                                                                                        [[Rüstungsklasse]]                                                                                         |                                                        [[Schadensreduktion]]                                                         |
+>>|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
+>>| `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
 >>
 >
 >> ## Bewegung
@@ -411,8 +415,8 @@ tags:
 Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Magie
->[!column | 2 flex]
->>> [!column | 2]
+>[!column | 2 flex no-title]
+>>> [!column | 2 no-title]
 >>>> ###### Bekannte Zauber
 >>>> 
 >>>> Zauberattribut: `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut`
@@ -453,12 +457,12 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
 >>
 >
->> ### Zauberangriff / Zauber wirken
+>> ## Zauberangriff / Zauber wirken
 >> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
 >> | ---------------------- | -------------------- | --------------------------------------------------------------------------------------- |
 >> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> 
->> ## Zaubertricks
+>> ### Zaubertricks
 >> ```dataview
 >> TABLE WITHOUT ID
 >> file.link AS "Zauber",
@@ -479,7 +483,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 >> 
->> ## Grad 1
+>> ### Grad 1
 >> ```dataview
 >> TABLE WITHOUT ID
 >> file.link AS "Zauber",
@@ -500,7 +504,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> SORT file.name
 >> ```
 >> 
->> ## Grad 2
+>> ### Grad 2
 >> ```dataview
 >> TABLE WITHOUT ID
 >> file.link AS "Zauber",

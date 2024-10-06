@@ -3,8 +3,11 @@ cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, t
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
-Rüstung: 
-Schild: 
+Verteidigung:
+  Natürliche_Rüstung: 10
+  Zusätzliche_Rüstung: 0
+  Rüstung: 
+  Schild: 
 Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
@@ -171,7 +174,7 @@ InputData:
     Skills: false
     Features: false
     Statistic: false
-    Personality: true
+    Personality: false
     Past: false
     BackgroundStory: false
 tags:

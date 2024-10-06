@@ -7,8 +7,11 @@ Niptac:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Kobold Blitzwerfer]]"
 Bewegung: 5
-Rüstung: "[[Beschlagene Lederrüstung]]"
-Schild: 
+Verteidigung:
+  Natürliche_Rüstung: 10
+  Zusätzliche_Rüstung: 0
+  Rüstung: "[[Beschlagene Lederrüstung]]"
+  Schild: 
 Waffen:
   - "[[Kurzschwert]]"
   - "[[Dolch]]"
@@ -214,9 +217,9 @@ SORT SG, file.link
 
 
 ### Rüstung
-| Rüstung                                                                                  | [[Rüstungsklasse]]                                                                                                                            | [[Schadensreduktion]]                                                                         |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")` | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)` | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
+|                                                                   Rüstung                                                                    |                                                                                        [[Rüstungsklasse]]                                                                                         |                                                        [[Schadensreduktion]]                                                         |
+|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
+| `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
 
 ## Angriff
 
