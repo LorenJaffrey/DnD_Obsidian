@@ -1,11 +1,11 @@
 ---
 tags:
-  - Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Stiefel
+  - Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand/Ring
 Art: "[[Wundersamer Gegenstand]]"
-Seltenheit: ungewöhnlich
-Einstimmung: false
-Kosten: 500 GM
-Voraussetzung:
+Seltenheit: selten
+Einstimmung: true
+Kosten: 
+Voraussetzung: 
 Verflucht: false
 ---
 # `=this.file.name`
@@ -20,5 +20,4 @@ Verflucht: false
 > | Voraussetzung | `=this.Voraussetzung` |
 > | Kosten | `=this.Kosten` |
 
-Während du diese Stiefel trägst, machen deine Schritte kein Geräusch, unabhängig von der Oberfläche, über die du dich bewegst. 
-Du hast außerdem [[Vorteil und Nachteil|Vorteil]] bei Würfen auf [[Heimlichkeit]], bei denen es darauf ankommt, sich lautlos zu bewegen.
+Während du diesen Ring trägst und auf ihn eingestimmt bist, erhältst du [[Rüstungsbonus]] (+1) sowie [[Rettungsbonus]] (+1).

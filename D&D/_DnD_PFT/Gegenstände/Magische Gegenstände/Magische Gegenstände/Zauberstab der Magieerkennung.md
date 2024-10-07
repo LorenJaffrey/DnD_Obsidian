@@ -1,7 +1,7 @@
 ---
 tags:
   - Gegenstand/Magischer_Gegenstand/Wundersamer_Gegenstand
-Art: Wundersamer Gegenstand
+Art: "[[Wundersamer Gegenstand]]"
 Seltenheit: "[[ungewöhnlich]]"
 Einstimmung: false
 Kosten:

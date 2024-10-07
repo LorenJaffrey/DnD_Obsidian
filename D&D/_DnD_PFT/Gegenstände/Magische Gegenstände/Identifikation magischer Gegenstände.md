@@ -7,11 +7,11 @@ Alle magischen Gegenstände haben einen [[Schwierigkeitsgrad]] der beschreibt wi
 
 | Seltenheit   |        SG         |
 | ------------ |:-----------------:|
-| Gewöhnlich   |        10         |
-| Ungewöhnlich |        14         |
-| Selten       |        18         |
-| Sehr selten  |        22         |
-| Legendär     |        26         |
+| Gewöhnlich   |         5         |
+| Ungewöhnlich |        10         |
+| Selten       |        12         |
+| Sehr selten  |        15         |
+| Legendär     |        20         |
 | Artefakt     | Nur natürliche 20 |
  
 ## Identifikation

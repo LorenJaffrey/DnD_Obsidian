@@ -3,12 +3,11 @@
 ```dataview
 TABLE WITHOUT ID
 file.link AS "Megischer Gegenstand", 
-Art, 
+Seltenheit, 
 choice(Einstimmung,"X","") AS "Einstimmung", 
 choice(Verflucht,"X","") AS "Verflucht", 
 Kosten, 
 Voraussetzung
-FROM #Gegenstand/Magischer_Gegenstand
-WHERE contains(Seltenheit, "gewöhnlich")
-SORT file.name
+FROM #Gegenstand/Magischer_Gegenstand/Trank/Heiltrank
+SORT Seltenheit
 ```

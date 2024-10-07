@@ -6,7 +6,7 @@ Seltenheit: Erbstück
 Einstimmung: true
 Kosten: 
 Voraussetzung:
-- [[Barbar]]
+  - "[[Barbar]]"
 Verflucht: true
 ---
 # `=this.file.name`
