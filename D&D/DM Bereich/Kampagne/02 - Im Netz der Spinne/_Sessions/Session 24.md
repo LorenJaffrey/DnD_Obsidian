@@ -2,19 +2,33 @@
 
 ## Organisatorisches
 - Persönlichkeit der Charaktere besser einbauen
-- [[Schutzring]]
-- zusätzlicher Encounter auf dem Weg zum Holzfällerlager
-- Jagdhaus des Falken ausdefinieren
+	- Drogan
+	- Aranon
+	- Niptac
+	- Argo
+	- Lucian
+
+## TODO
+- [ ] #task zusätzlicher Encounter auf dem Weg im Niewinterwald [priority:: highest]
+- [x] #task Jagdhaus des Falken ausdefinieren  [priority:: highest]
+- [ ] #task NPC Falke der Jäger ausdefinieren [priority:: highest]
+- [ ] #task nächtlicher Überfall im Wald [priority:: highest]
+- [ ] #task [[Das Holzfällerlager]] fertig machen [priority:: highest]
 
 ## Recap
-- [[Quest - Überfall auf den Butterschädelhof]] --> [[Butterschädelhof]]
-
 ![[Timeline Kampagne 2#Tag 10]]
+![[Timeline Kampagne 2#Tag 11]]
+![[Timeline Kampagne 2#Tag 12]]
+![[Timeline Kampagne 2#Tag 13]]
+![[Timeline Kampagne 2#Tag 14]]
+![[Timeline Kampagne 2#Tag 15]]
+![[Timeline Kampagne 2#Tag 16]]
 
 ## Ablauf
-- Quest [[Jagdhaus des Falken]]
-- Quest [[Das Holzfällerlager]]
+- Start in Hasenbeere
+- Zwischenhalt beim [[Jagdhaus des Falken]]
+- [[Szene - Reise zum Holzfällerlager]]
+- [[Das Holzfällerlager]]
 
-### Szenen
-
+## Background
 [[Hintergrundinfos]]

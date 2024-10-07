@@ -172,7 +172,7 @@ gantt
 		Weißer erwachsener Drache überfällt den "Butterschädelhof": done, milestone, a9, after a8, 30m
 		Weißer erwachsener Drache tötet alle Orks und fliegt mit 2 Kühen weg: done, a10, after a9, 30m
 		GORN untersucht die toten Orks & stimmen sich ab: done, milestone, a11, after a10, 1h
-		GORN bringt die Kuh "Betunia" zurück: done, a12, after a11, 2h
+		GORN bringt die Kuh "Petunia" zurück: done, a12, after a11, 2h
 		GORN reist wieder nach Phandalin zurück: done, a13, after a12, 270m
 ```
 
@@ -214,8 +214,8 @@ gantt
 	section G.O.R.N
 		Ankunft in Phandalin: a1, 2024-05-05 00:00, 15h
 		Zildar über den Butterschädelhof und den Weißen Drachen berichtet: done, milestone, a2, after a1, 30m
-		GORN geht mit Zildar saufen: done, a3, after a2, 2h
-		GORN bricht zur Hasenbeere mit der Holzlieferung auf: done, a4, after a3, 7h
+		GORN geht mit Sildar saufen: done, a3, after a2, 2h
+		GORN bricht nach Hasenbeere mit der Holzlieferung auf: done, a4, after a3, 7h
 ```
 
 >
@@ -255,7 +255,7 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		Ankunft in Hasenbeere mit der Holzlieferung: done, milestone, a1, 2024-05-08 00:00, 9h
+		Ankunft in Hasenbeere mit der Vorratslieferung: done, milestone, a1, 2024-05-08 00:00, 9h
 ```
 
 > Hier befinden wir uns aktuell!

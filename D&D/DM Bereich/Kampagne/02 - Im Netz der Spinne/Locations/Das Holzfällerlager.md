@@ -33,31 +33,7 @@ Wenn die Charaktere die Vorräte abholen kommen, lies den Text im Kasten laut vo
 
 Der [[Kuh|Ochse]] ist ein zuverlässiges Zugtier. 
 Jede Kiste enthält genug Vorrate, um zwölf Menschen einen Monat lang zu ernähren, solange die Lagerbewohner auch Fische fangen und frisches Wasser holen.
-Wenn die Charaktere [[Barthens Vorräte#Elmar Barthen|Barthen]] mitteilen, dass sie auf dem Weg das [[Jagdhaus des Falken]] aufsuchen möchten, schlägt  [[Barthens Vorräte#Elmar Barthen|Barthen]] vor, eine Flasche guten Weins (10 GM) als Mitbringsel für Falke zu kaufen.
-
-## Die Reise zum Lager
-Die Charaktere können an einem Tag 24 km zurücklegen, und das Holzfällerlager liegt ungefähr 50 km nördlich von [[Phandalin]]. 
-Die Charaktere müssen ungefähr auf halbem Wege eine[[ lange Rast]] einlegen. 
-Sie können im Wald ein Lager aufschlagen oder nach Osten abbiegen und die [[lange Rast]] im [[Jagdhaus des Falken]] verbringen.
-
-Das Gruppenmitglied mit dem höchsten Wert in [[Überlebenskunst]] ist am besten für das Lesen der Karte des Niewinterwalds qualifiziert. 
-Auf der Karte der Schwertküste kannst du den Weg der Charaktere durch den Wald verfolgen. 
-Wenn die Charaktere ein neues Hexfeld auf der Karte erreichen, muss der Kartenleser auf  [[Überlebenskunst]] gegen [[Schwierigkeitsgrad|SG]] 10 würfeln. 
-Wenn dies erfolgreich ist, hält die Gruppe den richtigen Weg ein. 
-Wenn der Wurf fehlschlägt, macht die Gruppe einen Umweg von 1W4 Meilen.
-
-### Schwein gehabt
-Kurz nach dem Betreten des Waldes haben die Charaktere eine Begegnung, die nicht so ist, wie sie scheint. 
-Lies den Text im Kasten laut vor:
-
->[!info]
->Etwa 18 Meter vor euch steht ein [[Wildschwein]] auf einer kleinen Lichtung. 
->Es starrt euch misstrauisch an.
-
-Das [[Wildschwein]] ist eigentlich eine Akolythin von Talos (Spielwerte auf Seite 69), die sich verwandelt hat. 
-Drethna greift nur an, wenn sie sich verteidigen muss. 
-Wenn die Charaktere einen Bogen um das Wildschwein machen oder auf andere Weise eine Konfrontation vermeiden, können sie ihren Weg fortsetzen.
-Wenn sie das Wildschwein verschonen, rennt es davon, um die Akolythen im [[Altes Haus im Wald|Alten Haus im Wald]] zu warnen, dass Fremde den Wald betreten haben.
+Wenn die Charaktere [[Barthens Vorräte#Elmar Barthen|Barthen]] mitteilen, dass sie auf dem Weg das [[Jagdhaus des Falken]] aufsuchen möchten, schlägt  [[Barthens Vorräte#Elmar Barthen|Barthen]] vor, eine [[Guter Wein]]Flasche guten Weins (10 GM) als Mitbringsel für Falke zu kaufen.
 
 ## Ankunft
 Wenn die Charaktere dem Fluss vom [[Jagdhaus des Falken]] folgen, kommen sie aus östlicher Richtung. 
