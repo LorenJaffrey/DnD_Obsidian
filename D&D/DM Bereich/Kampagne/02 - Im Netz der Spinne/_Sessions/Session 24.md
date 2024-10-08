@@ -26,6 +26,7 @@
 
 ## Ablauf
 - Start in Hasenbeere
+- [[Szene - Überfall der Schattenwölfe]]
 - Zwischenhalt beim [[Jagdhaus des Falken]]
 - [[Szene - Reise zum Holzfällerlager]]
 - [[Das Holzfällerlager]]

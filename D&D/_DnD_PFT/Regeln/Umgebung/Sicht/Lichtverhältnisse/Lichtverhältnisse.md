@@ -9,4 +9,4 @@ Die Lichtverhältnisse einer Umgebung werden in drei Stufen unterteilt:
 
 ![[Dämmriges Licht | no-title]]
 
-![[Dunkelheit | no-title]]
+![[Finsternis| no-title]]
