@@ -1,5 +1,5 @@
 ---
-cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: drwn, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 wichtigePersonen: |-
   > ### Quest-Relevant
   > - Drogans Freund: **Gudren Felssucher**
@@ -38,12 +38,13 @@ wichtigeOrte: |
   - Butterschädelhof
     - [x] Ort erreicht
     - Es gibt eine Lucke am Gebäude in der man in den Keller kann
-    - [ ] Personen befreit 
-    - [ ] Orks beseitigt
+    - [x] Personen befreit 
+    - [x] Orks beseitigt (durch den weißen Drachen)
   - [x] Herberge
     - keine Eiseskälte mehr 
       - die Leichen sind aufgetaut
       - finden nichts mehr
+      - wurde sehr wahrscheinlich durch den weißen Drachen verursacht
   - Zwergenausgrabung (von Haderhügel -> 20 km)
     - [x] Ort erreicht
     - [x] Tempel (böser Zwergen-Gott) erkunden
@@ -67,10 +68,13 @@ wichtigeOrte: |
   >   (dorthin ist Gudren anscheinend verschleppt worden)
   >   - [ ] Ort gefunden/ausgemacht
   >   - [ ] Ort erreicht
+  > - Tempestus Kristall Splitter finden
+  >   - [ ] Hinweise deuten auf den Niewinter-Wald
+  >   - [ ] Talos-Anhänger gefunden
 todoListe: |
   > #### Aktive Quests
   > - [ ] Burg Cragmaw finden
-  > - [ ] Butterschädelhof (Ork Überfall - sehr viele Orks)
+  > - [x] Butterschädelhof (Ork Überfall - sehr viele Orks)
 
   > #### Allgemein
   > - [ ] Burg Cragmaw finden
@@ -94,7 +98,7 @@ todoListe: |
   #### Schwertküste in der nähe von Neverwinter
   - [ ] Holzfällerlager (Versorgungs-Quest) - 100 Gold
   - [ ] Jagdhaus des Falken (Person heißt Falke - kann man übernachten)
-  - [ ] Butterschädelhof (Ork Überfall - sehr viele Orks)
+  - [x] Butterschädelhof (Ork Überfall - sehr viele Orks)
   - [ ] Bergzeh Goldmiene (Long Jon Reskin Eskurtieren) - 100 Gold
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
@@ -113,6 +117,7 @@ wichtigeHintergrundInformationen: |-
     - [x] wurde aufgeklärt
       - die Kälte ist verschwunden
       - es konnte nichts festgestellt werden
+      - ein weißer Drache hat das verursacht
   - Im Unterschlupf der Rotbrenner **lebt** ein mysteriöses Wesen, was magische Gegenstände will (in der Höhle für uns nicht sichtbar)
     - [ ]  wurde aufgeklärt
 sonstigeInformationen: |-
@@ -123,17 +128,18 @@ sonstigeInformationen: |-
     - Person wurde entdeckt und konnte verschwinden
     - [ ] Auflösung? (Wer war das?)
   - Butterschädel-Hof wurde überfallen
+    - [x] Auflösung
 ---
 
 > [!column | 2 no-title]
 >>  ## Wichtige Personen
 >>  ```meta-bind
->>  INPUT[editor(class(dndLargeHeight)):wichtigePersonen]
+>>  INPUT[editor(class(dndLargerHeight)):wichtigePersonen]
 >>  ```
 >
 >> ## Wichtige Orte
 >> ```meta-bind
->> INPUT[editor(class(dndMiddleHeight)):wichtigeOrte]
+>> INPUT[editor(class(dndLargerHeight)):wichtigeOrte]
 >> ```
 >
 >> ## TO-DO/Quest Liste
@@ -148,5 +154,5 @@ sonstigeInformationen: |-
 >
 >> ## Sontige Informationen 
 >> ```meta-bind
->> INPUT[editor(class(dndSmallHeight)):sonstigeInformationen]
+>> INPUT[editor(class(dndDefaultHeight)):sonstigeInformationen]
 >> ```

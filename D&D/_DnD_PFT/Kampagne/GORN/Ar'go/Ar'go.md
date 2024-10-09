@@ -1,5 +1,5 @@
 ---
-cssclass: nord, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: drwn, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -174,7 +174,7 @@ InputData:
     Skills: false
     Features: false
     Statistic: false
-    Personality: false
+    Personality: true
     Past: false
     BackgroundStory: false
 tags:
@@ -231,7 +231,7 @@ tags:
 > const currentSpellPoints = dv.current().InputData.Zauberpunkte;
 > const percentValue2 =  Math.round(currentSpellPoints / (maxSpellPoints / 100));
 >  
->  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(136, 192, 208) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
+>  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(57, 159, 148) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
 > 
@@ -254,9 +254,9 @@ tags:
 > | -------------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]]  (`=choice(floor(((this.Attribute.Stärke)-10)/2)>0, "+" + floor(((this.Attribute.Stärke)-10)/2), floor(((this.Attribute.Stärke)-10)/2))`)                                                                                              |                                                                            `=this.Attribute.Stärke`                                                                           |
 > | [[Attribute#Attributswurf]]                                                                                                |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Stärke)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Stärke=2, "⚡⚡", choice(this.Rettungswürfe.Stärke=1, "⚡",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`)             |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Rettungswürfe.Stärke*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Athletik]] `=choice(this.Fertigkeiten.Athletik=2, "⚡⚡", choice(this.Fertigkeiten.Athletik=1, "⚡",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Athletik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⚡⚡", choice(this.Fertigkeiten.Einschüchtern=1, "⚡",""))` | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Stärke=2, "🔱🔱", choice(this.Rettungswürfe.Stärke=1, "🔱",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Rettungswürfe.Stärke*(ceil(this.Stufe/4)+1))`)             |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Rettungswürfe.Stärke*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Athletik]] `=choice(this.Fertigkeiten.Athletik=2, "🔱🔱", choice(this.Fertigkeiten.Athletik=1, "🔱",""))` ( `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Athletik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Athletik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "🔱🔱", choice(this.Fertigkeiten.Einschüchtern=1, "🔱",""))` | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Geschicklichkeit</h2>`); 
@@ -265,10 +265,10 @@ tags:
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Geschicklichkeit)-10)/2)>0, "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2), floor(((this.Attribute.Geschicklichkeit)-10)/2))`)               |                                                                            `=this.Attribute.Geschicklichkeit`                                                                                |
 > | [[Attribute#Attributswurf]]  |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Geschicklichkeit=2, "⚡⚡", choice(this.Rettungswürfe.Geschicklichkeit=1, "⚡",""))`  (`=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Rettungswürfe.Geschicklichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Akrobatik]] `=choice(this.Fertigkeiten.Akrobatik=2, "⚡⚡", choice(this.Fertigkeiten.Akrobatik=1, "⚡",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Akrobatik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Fingerfertigkeit]] `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "⚡⚡", choice(this.Fertigkeiten.Fingerfertigkeit=1, "⚡",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Fingerfertigkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Heimlichkeit]] `=choice(this.Fertigkeiten.Heimlichkeit=2, "⚡⚡", choice(this.Fertigkeiten.Heimlichkeit=1, "⚡",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Heimlichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Geschicklichkeit=2, "🔱🔱", choice(this.Rettungswürfe.Geschicklichkeit=1, "🔱",""))`  (`=min(floor(((this.Attribute.Geschicklichkeit)-10)/2),this.Rüstung.Dex_cap)+(this.Rettungswürfe.Geschicklichkeit*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Rettungswürfe.Geschicklichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Akrobatik]] `=choice(this.Fertigkeiten.Akrobatik=2, "🔱🔱", choice(this.Fertigkeiten.Akrobatik=1, "🔱",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Akrobatik*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Akrobatik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Fingerfertigkeit]] `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "🔱🔱", choice(this.Fertigkeiten.Fingerfertigkeit=1, "🔱",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Fingerfertigkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Fingerfertigkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Heimlichkeit]] `=choice(this.Fertigkeiten.Heimlichkeit=2, "🔱🔱", choice(this.Fertigkeiten.Heimlichkeit=1, "🔱",""))` (`=floor(((this.Attribute.Geschicklichkeit)-10)/2)+(this.Fertigkeiten.Heimlichkeit*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Heimlichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Konstitution</h2>`); 
@@ -277,7 +277,7 @@ tags:
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Konstitution)-10)/2)>0, "+" + floor(((this.Attribute.Konstitution)-10)/2), floor(((this.Attribute.Konstitution)-10)/2))`)               |                                                                            `=this.Attribute.Konstitution`                                                                              |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Konstitution)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "⚡⚡", choice(this.Rettungswürfe.Konstitution=1, "⚡",""))`  (`=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "🔱🔱", choice(this.Rettungswürfe.Konstitution=1, "🔱",""))`  (`=floor(((this.Attribute.Konstitution)-10)/2)+(this.Rettungswürfe.Konstitution*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Intelligenz</h2>`); 
@@ -286,12 +286,12 @@ tags:
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Intelligenz)-10)/2)>0, "+" + floor(((this.Attribute.Intelligenz)-10)/2), floor(((this.Attribute.Intelligenz)-10)/2))`)               |                                                                            `=this.Attribute.Intelligenz`                                                                                |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Intelligenz)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Intelligenz=2, "⚡⚡", choice(this.Rettungswürfe.Intelligenz=1, "⚡",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Rettungswürfe.Intelligenz*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Arkane Kunde]] `=choice(this.Fertigkeiten.Arkane_Kunde=2, "⚡⚡", choice(this.Fertigkeiten.Arkane_Kunde=1, "⚡",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`)               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Arkane_Kunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Geschichte]] `=choice(this.Fertigkeiten.Geschichte=2, "⚡⚡", choice(this.Fertigkeiten.Geschichte=1, "⚡",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Geschichte*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Nachforschungen]] `=choice(this.Fertigkeiten.Nachforschungen=2, "⚡⚡", choice(this.Fertigkeiten.Nachforschungen=1, "⚡",""))`          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Nachforschungen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Naturkunde]] `=choice(this.Fertigkeiten.Naturkunde=2, "⚡⚡", choice(this.Fertigkeiten.Naturkunde=1, "⚡",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`)         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Naturkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Religion]] `=choice(this.Fertigkeiten.Religion=2, "⚡⚡", choice(this.Fertigkeiten.Religion=1, "⚡",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`)       | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Religion*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Intelligenz=2, "🔱🔱", choice(this.Rettungswürfe.Intelligenz=1, "🔱",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Rettungswürfe.Intelligenz*(ceil(this.Stufe/4)+1))`)        |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Rettungswürfe.Intelligenz*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Arkane Kunde]] `=choice(this.Fertigkeiten.Arkane_Kunde=2, "🔱🔱", choice(this.Fertigkeiten.Arkane_Kunde=1, "🔱",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Arkane_Kunde*(ceil(this.Stufe/4)+1))`)               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Arkane_Kunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Geschichte]] `=choice(this.Fertigkeiten.Geschichte=2, "🔱🔱", choice(this.Fertigkeiten.Geschichte=1, "🔱",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Geschichte*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Geschichte*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Nachforschungen]] `=choice(this.Fertigkeiten.Nachforschungen=2, "🔱🔱", choice(this.Fertigkeiten.Nachforschungen=1, "🔱",""))`          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Nachforschungen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Naturkunde]] `=choice(this.Fertigkeiten.Naturkunde=2, "🔱🔱", choice(this.Fertigkeiten.Naturkunde=1, "🔱",""))` (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Naturkunde*(ceil(this.Stufe/4)+1))`)         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Naturkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Religion]] `=choice(this.Fertigkeiten.Religion=2, "🔱🔱", choice(this.Fertigkeiten.Religion=1, "🔱",""))`  (`=floor(((this.Attribute.Intelligenz)-10)/2)+(this.Fertigkeiten.Religion*(ceil(this.Stufe/4)+1))`)       | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Religion*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 >
 > ```dataviewjs 
 > dv.el('h2', `<h2>Weisheit</h2>`); 
@@ -300,12 +300,12 @@ tags:
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Weisheit)-10)/2)>0, "+" + floor(((this.Attribute.Weisheit)-10)/2), floor(((this.Attribute.Weisheit)-10)/2))`)               |                                                                            `=this.Attribute.Weisheit`                                                                                |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Weisheit)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Weisheit=2, "⚡⚡", choice(this.Rettungswürfe.Weisheit=1, "⚡",""))`  (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))` )         |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Rettungswürfe.Weisheit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Heilkunde]] `=choice(this.Fertigkeiten.Heilkunde=2, "⚡⚡", choice(this.Fertigkeiten.Heilkunde=1, "⚡",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Heilkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Mit Tieren umgehen]] `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "⚡⚡", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "⚡",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`)          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Mit_Tieren_umgehen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "⚡⚡", choice(this.Fertigkeiten.Motiv_erkennen=1, "⚡",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "⚡⚡", choice(this.Fertigkeiten.Überlebenskunst=1, "⚡",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`)             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "⚡⚡", choice(this.Fertigkeiten.Wahrnehmung=1, "⚡",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Weisheit=2, "🔱🔱", choice(this.Rettungswürfe.Weisheit=1, "🔱",""))`  (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))` )         |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Rettungswürfe.Weisheit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Heilkunde]] `=choice(this.Fertigkeiten.Heilkunde=2, "🔱🔱", choice(this.Fertigkeiten.Heilkunde=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Heilkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Mit Tieren umgehen]] `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "🔱🔱", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`)          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Mit_Tieren_umgehen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "🔱🔱", choice(this.Fertigkeiten.Motiv_erkennen=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "🔱🔱", choice(this.Fertigkeiten.Überlebenskunst=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`)             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "🔱🔱", choice(this.Fertigkeiten.Wahrnehmung=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
 >
 > ```dataviewjs 
@@ -315,11 +315,11 @@ tags:
 > | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Charisma)-10)/2)>0, "+" + floor(((this.Attribute.Charisma)-10)/2), floor(((this.Attribute.Charisma)-10)/2))`)               |                                                                            `=this.Attribute.Charisma`                                                                              |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Charisma)-10)/2) + "\|none\|noform\```"`                                         |
-> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Charisma=2, "⚡⚡", choice(this.Rettungswürfe.Charisma=1, "⚡",""))` ( `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`)          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Rettungswürfe.Charisma*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "⚡⚡", choice(this.Fertigkeiten.Auftreten=1, "⚡",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⚡⚡", choice(this.Fertigkeiten.Einschüchtern=1, "⚡",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "⚡⚡", choice(this.Fertigkeiten.Täuschen=1, "⚡",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "⚡⚡", choice(this.Fertigkeiten.Überzeugen=1, "⚡",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Charisma=2, "🔱🔱", choice(this.Rettungswürfe.Charisma=1, "🔱",""))` ( `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`)          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Rettungswürfe.Charisma*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "🔱🔱", choice(this.Fertigkeiten.Auftreten=1, "🔱",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "🔱🔱", choice(this.Fertigkeiten.Einschüchtern=1, "🔱",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))` / `=floor(((this.Attribute.Stärke)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "🔱🔱", choice(this.Fertigkeiten.Täuschen=1, "🔱",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "🔱🔱", choice(this.Fertigkeiten.Überzeugen=1, "🔱",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
@@ -360,11 +360,15 @@ tags:
 >>
 >>
 >>>[!column | flex 2 no-title ] 
->>>>## Rüstung
->>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         |
->>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
->>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Rüstung` `=choice(this.Schild, ", ", "")` `=choice(this.Schild, this.Schild, "")`  | `=10+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Rüstung.RP, this.Rüstung.RP, 0)` + `=choice(this.Schild, this.Schild.RP, 0)`  | `=choice(this.Rüstung.SR, this.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Schild.SR, 0)` |
->>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| - |
+>>>>## Verteidigung
+>>>> | Aktiv | Rüstung         | [[Rüstungsklasse]]                                                                                             | [[Schadensreduktion]]                                                                                         | 
+>>>> | :-------: | :--------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | 
+>>>> | `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")`  | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)`  | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` | 
+>>>> | `INPUT[toggle:InputData.MagierRüstung]` |  [[Magierrüstung]]  |  `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`| - | 
+>>>> 
+>>>> | Beschreibung | Bonus (bereits eingerechnet) |
+>>>> | :---: | :---:  |
+>>>> | Zusätzliche Rüstung | `INPUT[number:Verteidigung.Zusätzliche_Rüstung]` |
 >>>
 >>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> - Blitz
@@ -644,6 +648,15 @@ tags:
 >> | Bindungen | `=this.Persönlichkeit.Bindungen` |
 >> | Makel |  `=this.Persönlichkeit.Makel` |
 >> 
+>> ## Verhaltens-Kodex
+>> |  |  |
+>> | ---- | ---- |
+>> | 💵  | Ihm ist Geld egal  |
+>> | 🌠  | Er schläft gerne im Freien |
+>> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
+>> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
+>> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
+>> 
 >> ## Aussehen
 >> |  |  |
 >> | ---- | ---- |
@@ -720,35 +733,37 @@ tags:
 
 ## Vergangenheit
 
->- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
->- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
->- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
->- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
->- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
->- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
->- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
->- seitdem wartet er immer noch auf die Gruppe..
+> [!column | no-title flex]
+>>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
+>>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
+>>- hört Gerüchte über einen Kristall auf den die Beschreibung eines Splitters des [[Tempestus Kristall|Tempestus Kristalls]] passt und der bei einem örtlichen Händler aufgetaucht ist
+>>- forscht nach und findet heraus, dass der Kristall vor einigen Tagen aus der Stadt geschmuggelt worden sein soll
+>>- da er neu in der Gegend ist und niemanden kennt schließt er sich der [[Abenteurergilde]] an
+>>- schließt sich einer dubiosen Gruppe an, die auf dem Weg nach [[Phandalin]] ist um den geheimnisvollen Geschehnissen dort auf den Grund zu gehen...
+>>- Gruppe ließ ihn in [[Phandalin]] zurück als sie vom [[Tempestus Kristall]] gehört hatten
+>>- seitdem wartet er immer noch auf die Gruppe..
 
 ## Hintergrundgeschichte
 
->**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
->
->Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
->
->Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
->
->Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
->
->1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
->2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
->3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
->4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
->
->Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
->
->Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
->
->Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
+> [!column | no-title flex]
+>>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
+>>
+>>Seine Eltern, Mitglieder des Kultes, hatten ihn als besonderes Geschenk des Sturmgottes betrachtet, ein lebendiges Bindeglied zwischen den Drachen und den Sterblichen. Ar'gonthariel Maez'ralor wuchs in einer Umgebung auf, die von tiefem mystischen Wissen und strengen, archaischen Traditionen geprägt war. Er lernte die alte Magie der Sturmrituale und verbrachte viele Stunden damit, das Verhalten der Winde und das Flüstern des Donners zu studieren.
+>>
+>>Während eines besonders mächtigen Sturms, bei dem die Insel beinahe zerstört wurde, erschien Ar'gonthariel Maez'ralor in einer Vision der uralte Sturmdrache, den der Kult verehrte. Der Drache offenbarte ihm, dass das Gleichgewicht der Welt in Gefahr war und dass es Ar'gonthariel Maez'ralor's Schicksal sei, hinaus in die Welt zu gehen und die Fragmente eines uralten Artefakts zu sammeln, das die Macht besaß, die Elemente zu harmonisieren.
+>>
+>>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
+>>
+>>1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>>2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>>3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>>4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>>
+>>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
+>>
+>>Von dieser Vision tief bewegt, verließ Ar'gonthariel Maez'ralor die Insel und machte sich auf den Weg, die Fragmente des Tempestus-Kristalls zu finden. Seine Abenteuer führten ihn durch uralte Wälder, über weite Wüsten und in die tiefsten Tiefen vergessener Ruinen. Jedes Fragment, das er fand, stärkte seine Verbindung zur Sturmmagie und enthüllte neue Geheimnisse der Elementarkräfte.
+>>
+>>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
 
 ## Versteckte Logiken & Button Konfigurationen

@@ -271,6 +271,10 @@ tags:
 >>|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
 >>| `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
 >>
+>>| Beschreibung | Bonus (bereits eingerechnet) |
+>>| :---: |  :---: |
+>>| Zusätzliche Rüstung | `INPUT[number:Verteidigung.Zusätzliche_Rüstung]` |
+>>
 >
 >> ## Bewegung
 >> | Gehen                                              |
@@ -364,7 +368,7 @@ tags:
 >> | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "⭐⭐", choice(this.Fertigkeiten.Überzeugen=1, "⭐",""))`        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
 
 ## Angriff
-> [!column | flex 3]
+> [!column | no-title flex 3]
 >> ### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 

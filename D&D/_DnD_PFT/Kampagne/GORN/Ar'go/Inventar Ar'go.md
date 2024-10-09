@@ -1,9 +1,9 @@
 ---
 Name: Inventar
 Charakter: "[[Ar'go]]"
-cssclass: nord, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: drwn, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
-  Rucksack: 38.6
+  Rucksack: 46.6
   Behälter: 0
   Körper: 11.6
 Inventar:
@@ -129,42 +129,42 @@ Geld:
 > 
 > ##### Aktuelle Traglast: `=round(this.Summen.Rucksack+this.Summen.Behälter+this.Summen.Körper, 2)`
 
-## Am Körper
-| Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
-| ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
-| [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=round(this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1, 2)` |
-| [[Kampfstab]]                               | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
-| [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=round(this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3, 2)` |
-| Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=round(this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4, 2)` |
-| Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
-| [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
-| Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
-| **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
-
-
-## Schriftrollenbehälter
-| Gegenstand                                                |                  Anzahl                  |                  Gewicht                   |                               Gesamt                               |
-| --------------------------------------------------------- |:----------------------------------------:|:------------------------------------------:|:------------------------------------------------------------------:|
-| Karte der Insel (Drachenkult) und der umliegenden Gebiete | `INPUT[number:Inventar.Behälter.count1]` | `INPUT[number:Inventar.Behälter.gewicht1]` | `=round(this.Inventar.Behälter.count1 * this.Inventar.Behälter.gewicht1, 2)` |
-| **GESAMT**                                                |                                          |                                            |                      `=this.Summen.Behälter`                       | 
-
-## Rucksack
-| Gegenstand                                |                  Anzahl                   |                   Gewicht                   |                                Gesamt                                |
-| ----------------------------------------- |:-----------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------------------:|
-| [[Brechstange]]                           | `INPUT[number:Inventar.Rucksack.count1]`  | `INPUT[number:Inventar.Rucksack.gewicht1]`  |  `=round(this.Inventar.Rucksack.count1 * this.Inventar.Rucksack.gewicht1, 2)`  |
-| [[Hammer]]                                | `INPUT[number:Inventar.Rucksack.count2]`  | `INPUT[number:Inventar.Rucksack.gewicht2]`  |  `=round(this.Inventar.Rucksack.count2 * this.Inventar.Rucksack.gewicht2, 2)`  |
-| [[Kletterhaken]]                          | `INPUT[number:Inventar.Rucksack.count3]`  | `INPUT[number:Inventar.Rucksack.gewicht3]`  |  `=round(this.Inventar.Rucksack.count3 * this.Inventar.Rucksack.gewicht3, 2)`  |
-| [[Fackel]]                                | `INPUT[number:Inventar.Rucksack.count4]`  | `INPUT[number:Inventar.Rucksack.gewicht4]`  |  `=round(this.Inventar.Rucksack.count4 * this.Inventar.Rucksack.gewicht4, 2)`  |
-| [[Zunderkästchen]]                        | `INPUT[number:Inventar.Rucksack.count5]`  | `INPUT[number:Inventar.Rucksack.gewicht5]`  |  `=round(this.Inventar.Rucksack.count5 * this.Inventar.Rucksack.gewicht5, 2)`  |
-| [[Ration]]                                | `INPUT[number:Inventar.Rucksack.count6]`  | `INPUT[number:Inventar.Rucksack.gewicht6]`  |  `=round(this.Inventar.Rucksack.count6 * this.Inventar.Rucksack.gewicht6, 2)`  |
-| [[Trinkschlauch]]                         | `INPUT[number:Inventar.Rucksack.count7]`  | `INPUT[number:Inventar.Rucksack.gewicht7]`  |  `=round(this.Inventar.Rucksack.count7 * this.Inventar.Rucksack.gewicht7, 2)`  |
-| [[Seil aus Hanf]]  (Meter)                | `INPUT[number:Inventar.Rucksack.count8]`  | `INPUT[number:Inventar.Rucksack.gewicht8]`  |  `=round(this.Inventar.Rucksack.count8 * this.Inventar.Rucksack.gewicht8, 2)`  |
-| Kompass                                   | `INPUT[number:Inventar.Rucksack.count9]`  | `INPUT[number:Inventar.Rucksack.gewicht9]`  |  `=round(this.Inventar.Rucksack.count9 * this.Inventar.Rucksack.gewicht9, 2)`  |
-| Winterdecke                               | `INPUT[number:Inventar.Rucksack.count10]` | `INPUT[number:Inventar.Rucksack.gewicht10]` | `=round(this.Inventar.Rucksack.count10 * this.Inventar.Rucksack.gewicht10, 2)` |
-| Ritualbuch (Drachenkult des Sturmdrachen) | `INPUT[number:Inventar.Rucksack.count11]` | `INPUT[number:Inventar.Rucksack.gewicht11]` | `=round(this.Inventar.Rucksack.count11 * this.Inventar.Rucksack.gewicht11, 2)` |
-| [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=round(this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12, 2)` |
-| Spule Draht (Meter)                       | `INPUT[number:Inventar.Rucksack.count13]` | `INPUT[number:Inventar.Rucksack.gewicht13]` | `=round(this.Inventar.Rucksack.count13 * this.Inventar.Rucksack.gewicht13, 2)` |
-| **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
+> [!column | 3 flex no-title]
+>> ## Am Körper
+>> | Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
+>> | ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
+>> | [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=round(this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1, 2)` |
+>> | [[Kampfstab]]                               | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
+>> | [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=round(this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3, 2)` |
+>> | Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=round(this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4, 2)` |
+>> | Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
+>> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
+>> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
+>> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
+>
+>> ## Schriftrollenbehälter
+>> | Gegenstand                                                |                  Anzahl                  |                  Gewicht                   |                               Gesamt                               |
+>> | --------------------------------------------------------- |:----------------------------------------:|:------------------------------------------:|:------------------------------------------------------------------:|
+>> | Karte der Insel (Drachenkult) und der umliegenden Gebiete | `INPUT[number:Inventar.Behälter.count1]` | `INPUT[number:Inventar.Behälter.gewicht1]` | `=round(this.Inventar.Behälter.count1 * this.Inventar.Behälter.gewicht1, 2)` |
+>> | **GESAMT**                                                |                                          |                                            |                      `=this.Summen.Behälter`                       | 
+>
+>> ## Rucksack
+>> | Gegenstand                                |                  Anzahl                   |                   Gewicht                   |                                Gesamt                                |
+>> | ----------------------------------------- |:-----------------------------------------:|:-------------------------------------------:|:--------------------------------------------------------------------:|
+>> | [[Brechstange]]                           | `INPUT[number:Inventar.Rucksack.count1]`  | `INPUT[number:Inventar.Rucksack.gewicht1]`  |  `=round(this.Inventar.Rucksack.count1 * this.Inventar.Rucksack.gewicht1, 2)`  |
+>> | [[Hammer]]                                | `INPUT[number:Inventar.Rucksack.count2]`  | `INPUT[number:Inventar.Rucksack.gewicht2]`  |  `=round(this.Inventar.Rucksack.count2 * this.Inventar.Rucksack.gewicht2, 2)`  |
+>> | [[Kletterhaken]]                          | `INPUT[number:Inventar.Rucksack.count3]`  | `INPUT[number:Inventar.Rucksack.gewicht3]`  |  `=round(this.Inventar.Rucksack.count3 * this.Inventar.Rucksack.gewicht3, 2)`  |
+>> | [[Fackel]]                                | `INPUT[number:Inventar.Rucksack.count4]`  | `INPUT[number:Inventar.Rucksack.gewicht4]`  |  `=round(this.Inventar.Rucksack.count4 * this.Inventar.Rucksack.gewicht4, 2)`  |
+>> | [[Zunderkästchen]]                        | `INPUT[number:Inventar.Rucksack.count5]`  | `INPUT[number:Inventar.Rucksack.gewicht5]`  |  `=round(this.Inventar.Rucksack.count5 * this.Inventar.Rucksack.gewicht5, 2)`  |
+>> | [[Ration]]                                | `INPUT[number:Inventar.Rucksack.count6]`  | `INPUT[number:Inventar.Rucksack.gewicht6]`  |  `=round(this.Inventar.Rucksack.count6 * this.Inventar.Rucksack.gewicht6, 2)`  |
+>> | [[Trinkschlauch]]                         | `INPUT[number:Inventar.Rucksack.count7]`  | `INPUT[number:Inventar.Rucksack.gewicht7]`  |  `=round(this.Inventar.Rucksack.count7 * this.Inventar.Rucksack.gewicht7, 2)`  |
+>> | [[Seil aus Hanf]]  (Meter)                | `INPUT[number:Inventar.Rucksack.count8]`  | `INPUT[number:Inventar.Rucksack.gewicht8]`  |  `=round(this.Inventar.Rucksack.count8 * this.Inventar.Rucksack.gewicht8, 2)`  |
+>> | Kompass                                   | `INPUT[number:Inventar.Rucksack.count9]`  | `INPUT[number:Inventar.Rucksack.gewicht9]`  |  `=round(this.Inventar.Rucksack.count9 * this.Inventar.Rucksack.gewicht9, 2)`  |
+>> | Winterdecke                               | `INPUT[number:Inventar.Rucksack.count10]` | `INPUT[number:Inventar.Rucksack.gewicht10]` | `=round(this.Inventar.Rucksack.count10 * this.Inventar.Rucksack.gewicht10, 2)` |
+>> | Ritualbuch (Drachenkult des Sturmdrachen) | `INPUT[number:Inventar.Rucksack.count11]` | `INPUT[number:Inventar.Rucksack.gewicht11]` | `=round(this.Inventar.Rucksack.count11 * this.Inventar.Rucksack.gewicht11, 2)` |
+>> | [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=round(this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12, 2)` |
+>> | Spule Draht (Meter)                       | `INPUT[number:Inventar.Rucksack.count13]` | `INPUT[number:Inventar.Rucksack.gewicht13]` | `=round(this.Inventar.Rucksack.count13 * this.Inventar.Rucksack.gewicht13, 2)` |
+>> | **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
 
 
 ```js-engine
@@ -187,4 +187,19 @@ groupList.forEach((groupName) => {
 	mb.setMetadata(sumBinding, sumValue);
 });
 
+```
+
+```js-engine
+if(document.head) {
+	const style = document.createElement('style');
+	style.type = 'text/css';
+	
+	style.innerHTML = `
+		.callout-content {
+			justify-content: Center;
+		}
+	`;
+	
+	document.head.appendChild(style);
+}
 ```

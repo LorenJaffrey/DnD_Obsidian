@@ -221,6 +221,10 @@ SORT SG, file.link
 |:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
 | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
 
+|    Beschreibung     |           Bonus (bereits eingerechnet)           |
+|:-------------------:|:------------------------------------------------:|
+| Zusätzliche Rüstung | `INPUT[number:Verteidigung.Zusätzliche_Rüstung]` | 
+
 ## Angriff
 
 ### Nahkampfwaffen
