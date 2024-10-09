@@ -9,11 +9,11 @@
 	- Lucian
 
 ## TODO
-- [ ] #task zusätzlicher Encounter auf dem Weg im Niewinterwald [priority:: highest]
+- [x] #task zusätzlicher Encounter auf dem Weg im Niewinterwald  [priority:: highest]
 - [x] #task Jagdhaus des Falken ausdefinieren  [priority:: highest]
 - [ ] #task NPC Falke der Jäger ausdefinieren [priority:: highest]
-- [ ] #task nächtlicher Überfall im Wald [priority:: highest]
-- [ ] #task [[Das Holzfällerlager]] fertig machen [priority:: highest]
+- [x] #task nächtlicher Überfall im Wald  [priority:: highest]
+- [x] #task [[Das Holzfällerlager]] fertig machen  [priority:: highest]
 
 ## Recap
 ![[Timeline Kampagne 2#Tag 10]]
