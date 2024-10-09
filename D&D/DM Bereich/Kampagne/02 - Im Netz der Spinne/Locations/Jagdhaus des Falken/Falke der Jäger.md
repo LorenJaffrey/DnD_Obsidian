@@ -70,7 +70,8 @@ Fertigkeiten:
 Sprachen:
   - "[[Gemeinsprache]]"
 Merkmale:
-
+  - "[[Meisterschütze]]"
+  - "[[Deckung umgehen]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
