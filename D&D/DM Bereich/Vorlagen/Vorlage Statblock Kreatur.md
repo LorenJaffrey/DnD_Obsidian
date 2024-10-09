@@ -1,50 +1,55 @@
 ---
 tags:
-  - Kreatur/Monstrosität
+  - Kreatur
 aliases:
 Größenkategorie: "[[Mittelgroß]]"
-Typ: "[[Monstrositäten|Monstrosität]]"
-Subtyp:
+Typ: "[[Humanoide]]"
+Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
-Herausforderungsgrad: 2
-Stufe: 5
-Trefferwürfel: d8
+Herausforderungsgrad: 20
+Stufe: 3
+Trefferwürfel: d10
 Bewegung:
-  Boden: 12
-  Fliegen:
-  Schwimmen:
+  Boden: 9
+  Fliegen: 3
+  Schwimmen: 6
   Klettern: 
-  Graben:
+  Graben: 6
 Sinne:
-  - "[[Dunkelsicht]] 18m (12 Kästchen)"
+  - "[[Blindsicht]] 18m (12 Kästchen)"
+  - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
-  Rüstung:
-  Schild: 
-  Natürliche_Rüstung: 12
+  Rüstung: "[[Lederrüstung]]"
+  Schild: "[[Holzschild]]"
+  Natürliche_Rüstung: 10
   Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
-    Schadensimmunität:
-      - "[[Nekrotischer Schaden]]"
+      - "[[Hiebschaden]]"
+      - "[[Stichschaden]]"
+      - "[[Wuchtschaden]]"
+    Schadensimmunität: 
     Zustandsimmunität:
-      - "[[Verängstigt]]"
+      - "[[Blind]]"
+      - "[[Gepackt]]"
 Angriff:
   Waffen:
-  Angriffe:
-    - "[[Biss]]"
+    - "[[Kurzschwert]]"
+    - "[[Kurzbogen]]"
+  Angriffe: "Die Kreatur führt drei Angriffe aus: Zwei mit ihrem [[Langschwert]] und eine mit ihrem [[Biss]] oder zwei Angriffe mit ihrem [[Kurzbogen]]."
 Attribute:
-  Stärke: 15
-  Geschicklichkeit: 15
-  Konstitution: 12
-  Intelligenz: 3
-  Weisheit: 12
-  Charisma: 6
+  Stärke: 12
+  Geschicklichkeit: 10
+  Konstitution: 14
+  Intelligenz: 8
+  Weisheit: 13
+  Charisma: 10
 Rettungswürfe:
-  Stärke: 0
+  Stärke: 1
   Geschicklichkeit: 0
-  Konstitution: 0
+  Konstitution: 1
   Intelligenz: 0
-  Weisheit: 0
+  Weisheit: 2
   Charisma: 0
 Fertigkeiten:
   Akrobatik: 0
@@ -62,22 +67,25 @@ Fertigkeiten:
   Naturkunde: 0
   Religion: 0
   Täuschen: 0
-  Überlebenskunst: 0
+  Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 1
 Sprachen:
+  - "[[Gemeinsprache]]"
+  - "[[Orkisch]]"
 Merkmale:
-  - "[[Rudeltaktik]]"
-  - "[[Scharfes Gehör]]"
-  - "[[Scharfer Geruchssinn]]"
-  - "[[Umwerfen]]"
-  - "[[Schattenversteck]]"
-Anzahl_Legendäre_Aktionen:
+  - "[[Aggressiv]]"
+  - "[[Unbeugsamkeit]]"
+  - "[[Amorph]]"
+  - "[[Behändes Entkommen]]"
+  - "[[Drakonische Abstammung]]"
+Anzahl_Legendäre_Aktionen: 3
 Legendäre_Aktionen:
+  - "[[Augenstrahlen]]"
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[direwolf.webp |350]]
+>> ![[orc.jpg | 350]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |
@@ -309,15 +317,50 @@ Legendäre_Aktionen:
 >> ```
 >
 >> ## Angriff
+>> #### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
->> file.link AS "Angriff",
+>> file.link AS "Waffe",
 >> Reichweite,
 >> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> "`dice:" + Schaden + "+"+floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
+>> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Angriff
->> WHERE contains(this.Angriff.Angriffe, file.link)
+>> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
+>> WHERE contains(this.Angriff.Waffen, file.link)
 >> SORT file.name
 >> ```
+>> 
+>> #### Schusswaffen 
+>> ```dataview
+>> TABLE WITHOUT ID 
+>> file.link AS "Waffe",
+>> Range1 AS "Min RW",
+>> Range2 AS "Gnd RW",
+>> Range3 AS "Max RW",
+>> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
+>> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
+>> SchadensartFern AS "Schadensart",
+>> EigenschaftenFern AS "Eigenschaften"
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
+>> WHERE contains(this.Angriff.Waffen, file.link)
+>> SORT file.name
+>> ```
+>> 
+>> #### Wurfwaffen
+>> ```dataview
+>> TABLE WITHOUT ID 
+>> file.link AS "Waffe",
+>> Range1 AS "Min RW",
+>> Range2 AS "Gnd RW",
+>> Range3 AS "Max RW",
+>> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
+>> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+>> SchadensartFern AS "Schadensart",
+>> EigenschaftenFern AS "Eigenschaften"
+>> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
+>> WHERE contains(this.Angriff.Waffen, file.link)
+>> SORT file.name
+>> ```
+
+- [ ] #task Hortaktionen [priority:: normal]

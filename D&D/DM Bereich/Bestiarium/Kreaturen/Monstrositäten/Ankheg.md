@@ -9,7 +9,7 @@ Subtyp: "[[Ankhegs|Ankheg]]"
 Gesinnung: Gesinnungslos
 Herausforderungsgrad: 2
 Stufe: 6
-Trefferwurfel: W10
+Trefferwürfel: d10
 Bewegung:
   Boden: 9
   Fliegen:
@@ -116,7 +116,7 @@ Legendäre_Aktionen:
 >>
 >> ## Verteidigung
 >>  
->> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwurfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
+>> [[Trefferpunkte]]: `$="```dice:" + dv.current().Stufe + dv.current().Trefferwürfel + "+" + dv.current().Stufe*Math.floor((dv.current().Attribute.Konstitution-10)/2) + "|none|noform```"`
 >> 
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

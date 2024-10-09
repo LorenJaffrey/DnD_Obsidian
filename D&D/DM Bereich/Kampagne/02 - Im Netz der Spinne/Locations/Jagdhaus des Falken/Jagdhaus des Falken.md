@@ -1,9 +1,12 @@
 # `=this.file.name`
 Das Jagdhaus des Falken ist eine Zuflucht im Herzen des [[Niewinterwald|Niewinterwaldes]]. 
+[[Falke der Jäger]] unterhält dieses Jagdhaus für Adlige aus [[Niewinter]]. 
+Er bietet ihnen seine Dienste als Führer an, da sie in diesem Wald ohne seinen Schutz und seine Überlebenskünste nicht lange durchhalten könnten.
+Falke verabscheut das Leben in der Stadt. 
+Er zieht ein schlichtes Dasein und einfache Freuden vor. 
+Sein Jagdhaus ist nur auf die grundlegenden Bedürfnisse ausgerichtet.
+Allerdings schlägt der Falke keine Flasche Wein aus, auch keine schlechte.
 
-## Überblick
-
-### Das Jagdhaus
 Falke hat zwei Angestellte, den etwas älteren, der Welt überdrüssigen Koch Corwin und einen zwölfjährigen stummen Stallburschen namens Pell. 
 Sie sind beide keine Kämpfer.
 
@@ -15,22 +18,24 @@ Corwin hat ihm aus Furcht vor Vergeltung davon abgeraten, doch Falke tötet scho
 Besucher dürfen gratis im Gästehaus nächtigen und mit Falke essen. 
 Hochstehenden Gästen bietet Falke ein komfortables Privatzimmer im Haupthaus (Bereich J12) für 10 GM die Nacht an.
 
-#### Decken
+## Überblick
+
+### Decken
 Die Decken der Innenräume sind knapp drei Meter hoch und flach.
 
-#### Licht
+### Licht
 Bei Sonnenuntergang zündet Corwin in allen Innenräumen Öllaternen an Wandhaken an.
 
-#### Palisade
+### Palisade
 Die Holzpalisade ist drei Meter hoch und dient dazu, Tiere des Waldes abzuhalten, keine Armeen.
 Ein Charakter kann die Palisade mit einem erfolgreichen Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 15 erklettern.
 
-#### Tierställe
+### Tierställe
 Die Ställe schließen östlich an den südlichen Hof an und sind mit Holzzäunen unterteilt. 
 Zwei Dutzend Hühner mit Hahn, sechs Schweine und vier Ziegen leben dort. 
 Die Tiere sind gut gepflegt und nicht gefährlich.
 
-#### Türen
+### Türen
 Die Türen bestehen aus stabilem Eichenholz, die Klinken und Scharniere aus Eisen. 
 Die Außentüren sind von innen verriegelt. 
 Eine Kreatur kann eine [[Aktion]] darauf verwenden, eine solche Tür mit einem erfolgreichen Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 25 aufzubrechen.

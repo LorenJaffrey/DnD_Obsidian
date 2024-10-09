@@ -2,7 +2,6 @@
 tags:
   - Kreatur
 aliases:
-  - Monster Statblock Vorlage
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
@@ -118,7 +117,7 @@ Zauber:
 >> | Graben       | `=choice(this.Bewegung.Graben>0, this.Bewegung.Graben + " m", "")` `=choice(this.Bewegung.Graben>0, ("(" + this.Bewegung.Graben/1.5) + " Kästche)", "--")`              |
 >>
 >>## Verteidigung
->> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwürfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
+>> [[Trefferpunkte]]: `$="```dice:" + dv.current().Stufe + dv.current().Trefferwürfel + "+" + dv.current().Stufe*Math.floor((dv.current().Attribute.Konstitution-10)/2) + "|none|noform```"`
 >>
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

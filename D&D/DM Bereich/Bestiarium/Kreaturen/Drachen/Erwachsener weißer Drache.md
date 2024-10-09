@@ -8,7 +8,7 @@ Subtyp: "[[Chromatische Drachen]]"
 Gesinnung: "[[Chaotisch Böse]]"
 Herausforderungsgrad: 13
 Stufe: 16
-Trefferwürfel: W12
+Trefferwürfel: d12
 Bewegung:
   Boden: 12
   Fliegen: 24
@@ -127,7 +127,7 @@ Legendäre_Aktionen:
 >>
 >> ## Verteidigung
 >>  
->> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwürfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
+>> [[Trefferpunkte]]: `$="```dice:" + dv.current().Stufe + dv.current().Trefferwürfel + "+" + dv.current().Stufe*Math.floor((dv.current().Attribute.Konstitution-10)/2) + "|none|noform```"`
 >> 
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

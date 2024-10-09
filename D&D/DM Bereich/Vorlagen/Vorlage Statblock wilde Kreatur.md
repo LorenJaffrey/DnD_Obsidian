@@ -2,7 +2,6 @@
 tags:
   - Kreatur
 aliases:
-  - Monster Statblock Vorlage
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
@@ -20,8 +19,8 @@ Sinne:
   - "[[Blindsicht]] 18m (12 Kästchen)"
   - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
-  Rüstung: "[[Lederrüstung]]"
-  Schild: "[[Holzschild]]"
+  Rüstung:
+  Schild:
   Natürliche_Rüstung: 10
   Natürliche_SR: 0
   Resistenzen:
@@ -35,9 +34,8 @@ Verteidigung:
       - "[[Gepackt]]"
 Angriff:
   Waffen:
-    - "[[Kurzschwert]]"
-    - "[[Kurzbogen]]"
-  Angriffe: "Die Kreatur führt drei Angriffe aus: Zwei mit ihrem [[Langschwert]] und eine mit ihrem [[Biss]] oder zwei Angriffe mit ihrem [[Kurzbogen]]."
+  Angriffe: 
+    - "[[Mächtiger Biss]]"
 Attribute:
   Stärke: 12
   Geschicklichkeit: 10
@@ -80,6 +78,7 @@ Merkmale:
   - "[[Amorph]]"
   - "[[Behändes Entkommen]]"
   - "[[Drakonische Abstammung]]"
+  - "[[Kriegsschrei]]"
 Anzahl_Legendäre_Aktionen: 3
 Legendäre_Aktionen:
   - "[[Augenstrahlen]]"
@@ -128,7 +127,7 @@ Legendäre_Aktionen:
 >>
 >> ## Verteidigung
 >>  
->> [[Trefferpunkte]]: `=this.Stufe + "" + this.Trefferwürfel + choice(floor(((this.Attribute.Konstitution)-10)/2)!=0, (" + " + this.Stufe*floor(((this.Attribute.Konstitution)-10)/2)), "")`
+>> [[Trefferpunkte]]: `$="```dice:" + dv.current().Stufe + dv.current().Trefferwürfel + "+" + dv.current().Stufe*Math.floor((dv.current().Attribute.Konstitution-10)/2) + "|none|noform```"`
 >> 
 >> |                |                                                                                                                                                 |
 >> | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -318,49 +317,16 @@ Legendäre_Aktionen:
 >> ```
 >
 >> ## Angriff
->> #### Nahkampfwaffen
 >> ```dataview
 >> TABLE WITHOUT ID 
->> file.link AS "Waffe",
+>> file.link AS "Angriff",
 >> Reichweite,
 >> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> Schaden+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
+>> "`dice:" + Schaden + "+"+floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
 >> Schadensart,
 >> Eigenschaften
->> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
->> WHERE contains(this.Angriff.Waffen, file.link)
->> SORT file.name
->> ```
->> 
->> #### Schusswaffen 
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> SchadenFern+"+"+floor((((this.Attribute.Geschicklichkeit)-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
->> WHERE contains(this.Angriff.Waffen, file.link)
->> SORT file.name
->> ```
->> 
->> #### Wurfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Herausforderungsgrad/4)+1 AS "Bonus",
->> SchadenFern+"+"+(floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)) AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
->> WHERE contains(this.Angriff.Waffen, file.link)
+>> FROM #Angriff
+>> WHERE contains(this.Angriff.Angriffe, file.link)
 >> SORT file.name
 >> ```
 

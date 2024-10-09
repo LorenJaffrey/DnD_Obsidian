@@ -11,7 +11,7 @@
 ## TODO
 - [x] #task zusätzlicher Encounter auf dem Weg im Niewinterwald  [priority:: highest]
 - [x] #task Jagdhaus des Falken ausdefinieren  [priority:: highest]
-- [ ] #task NPC Falke der Jäger ausdefinieren [priority:: highest]
+- [x] #task NPC Falke der Jäger ausdefinieren  [priority:: highest]
 - [x] #task nächtlicher Überfall im Wald  [priority:: highest]
 - [x] #task [[Das Holzfällerlager]] fertig machen  [priority:: highest]
 
