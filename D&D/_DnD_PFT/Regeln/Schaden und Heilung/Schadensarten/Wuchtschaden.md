@@ -1,3 +1,7 @@
+---
+tags:
+  - Schadensart
+---
 # `=this.file.name`
 [[Wuchtschaden]] wird meist durch stumpfe Gewalteinwirkung erzeugt.
 
