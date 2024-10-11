@@ -23,7 +23,7 @@ Ein geheimnisvoller Bösewicht, der als die [[Schwarze Spinne]] bekannt ist, kon
 Jetzt will die [[Schwarze Spinne]] die [[Wellenhallhöhle]] für sich und dabei sicherstellen, dass niemand sonst weiß, wo sie zu finden ist.
 
 ## Cryovain
-Ein [[Junger weißer Drache]] namens [[Cryovain]] wurde von mächtigeren Drachen aus seiner Heimat im Norden vertrieben und beansprucht nun die schneebedeckten [[Schwertberge]] als neues Revier. 
+Ein [[Erwachsener weißer Drache]] namens [[Cryovain]] wurde von mächtigeren Drachen aus seiner Heimat im Norden vertrieben und beansprucht nun die schneebedeckten [[Schwertberge]] als neues Revier. 
 Die [[Schwarze Spinne]] war in der Lage [[Cryovain]] mit einem magischen Halsband zu versklaven und ihn für ihre Zwecke einzusetzen.
 Er patrouilliert in den Lüften um den [[Eisnadelgipfel]] und  jagt Beute und Schätze.
 Die [[Schwarze Spinne]] benutzt ihn neben den [[Rotbrenner | Rotbrennern]] und den [[Cragmaw Goblins]] um weiteres Chaos in der Gegens zu verursachen und von ihren Plänen abzulenken.
