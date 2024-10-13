@@ -33,7 +33,7 @@ Wird die Macht eines ausgewachsenen oder uralten [[Drachen]] auf diese Art absor
 
 ### Weiß
 Der Bogen kann von nun an [[Eispfeile]] verschießen welche zusätzlich 1W6 [[Kälteschaden]] verursachen. 
-Das Ziel muss außerdem einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder zählt für W3 Runden als [[Gefroren]].
+Das Ziel muss außerdem einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder zählt für W3 Runden als [[Verlangsamt]].
 
 ### Schwarz
 Der Bogen kann von nun an [[Säurepfeile]] verschießen welche zusätzlich 1W6 [[Säureschaden]] verursachen. 

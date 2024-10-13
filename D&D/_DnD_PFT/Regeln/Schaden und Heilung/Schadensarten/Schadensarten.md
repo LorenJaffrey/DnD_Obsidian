@@ -4,21 +4,21 @@ aliases:
 ---
 # `=this.file.name`
 
-| Schadensart              | Zustand ?          | Effekt                                         | Dauer | Beenden |
-| ------------------------ | ------------------ | ---------------------------------------------- | ----- | ------- |
-| [[Wuchtschaden]]         | [[Benommen]]       | Benommenheit                                   |       | KO RW   |
-| [[Hiebschaden]]          | [[Bluten]]         | geringer Zusatzschaden, schwerer abzuschütteln |       | KO RW   |
-| [[Stichschaden]]         | [[Erschöpft]]      | Erschöpfung                                    |       | -       |
-| [[Energieschaden]]       | [[Liegend]]        | Umwerfen                                       |       | -       |
-| [[Feuerschaden]]         | [[Brennend]]       | hoher Zusatzschaden, leicht abzuschütteln      |       | -       |
-| [[Kälteschaden]]         | [[Gefroren]]       | Verlangsamend                                  |       | KO RW   |
-| [[Blitzschaden]]         | [[Elektrifiziert]] | keine Reaktion                                 |       | KO RW   |
-| [[Schallschaden]]        | [[Taub]]           | Taub + ?                                       |       | KO RW   |
-| [[Giftschaden]]          | [[Vergiftet]]      | Nachteil auf Attributs- und Angriffswürfe      |       | KO RW   |
-| [[Säureschaden]]         | [[Säurebespritzt]] | Schlechtere Rüstung                            |       | -       |
-| [[Psychischer Schaden]]  | [[Verängstigt]]    | Angst                                          |       | WE RW   |
-| [[Nekrotischer Schaden]] |                    | Keine Heilung                                  |       | KO RW   |
-| [[Gleißender Schaden]]   |                    | Blind                                          |       | KO RW   |
+| Schadensart              | Zustand ?          | Effekt                                         | Dauer | Beenden                     |
+| ------------------------ | ------------------ | ---------------------------------------------- | ----- | --------------------------- |
+| [[Wuchtschaden]]         | [[Benommen]]       | Geschicklichkeit, Rüstung                      |       | KO RW                       |
+| [[Hiebschaden]]          | [[Bluten]]         | geringer Zusatzschaden, schwerer abzuschütteln |       | Heilung oder schwerer KO-RW |
+| [[Stichschaden]]         | [[Erschöpft]]      | Erschöpfung                                    |       | Lange Rast                  |
+| [[Energieschaden]]       | [[Liegend]]        | Umwerfen                                       |       | Aufstehen                   |
+| [[Feuerschaden]]         | [[Brennend]]       | hoher Zusatzschaden, leicht abzuschütteln      |       | 1W4 Runden oder Aktion      |
+| [[Kälteschaden]]         | [[Verlangsamt]]    | Geschicklichkeit, Verlangsamend                |       | KO RW                       |
+| [[Blitzschaden]]         | [[Elektrifiziert]] | keine Reaktion                                 |       | KO RW                       |
+| [[Schallschaden]]        | [[Taub]]           | Taub + ?                                       |       | KO RW                       |
+| [[Giftschaden]]          | [[Vergiftet]]      | Konstitution                                   |       | KO RW                       |
+| [[Säureschaden]]         | [[Säurebespritzt]] | Schlechtere Rüstung                            |       | -                           |
+| [[Psychischer Schaden]]  | [[Verängstigt]]    | Angst                                          |       | WE RW                       |
+| [[Nekrotischer Schaden]] |                    | Keine Heilung                                  |       | KO RW                       |
+| [[Gleißender Schaden]]   |                    | Blind                                          |       | KO RW                       |
 
 ```dataview
 TABLE WITHOUT ID
