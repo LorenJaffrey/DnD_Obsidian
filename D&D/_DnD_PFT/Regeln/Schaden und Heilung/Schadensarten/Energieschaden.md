@@ -1,8 +1,12 @@
 ---
 tags:
   - Schadensart
+Zustand: "[[Liegend]]"
+Dauer: Dauerhaft
 ---
 # `=this.file.name`
-[[Energieschaden]] wird meist durch Magie oder Explosionen ohne bestimmtes Element erzeugt.
+[[Energieschaden]] wird meist durch Explosionen oder magische Druckwellen erzeugt.
 
 ## Kritischer Energieschaden
+Ein [[Kritische Treffer|Kritischer Treffer]] der [[Energieschaden]] wirft das Ziel zu Boden.
+Das Ziel er hält den Zustand [[Liegend]].
