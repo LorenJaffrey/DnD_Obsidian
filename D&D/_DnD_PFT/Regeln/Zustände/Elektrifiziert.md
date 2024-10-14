@@ -4,6 +4,4 @@ tags:
 ---
 # `=this.file.name`
 
-Eine elektrifizierte Kreatur:
-- kann keine [[Reaktion]] nutzen
-- hat [[Vorteil und Nachteil|Nachteil]] bei [[Attribute|Attributswürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Geschicklichkeit]]
+Eine elektrifizierte Kreatur verursacht `dice:1d6|noform|none` [[Blitzschaden]] an den nächsten beiden Kreaturen in 3 Meter Umkreis.

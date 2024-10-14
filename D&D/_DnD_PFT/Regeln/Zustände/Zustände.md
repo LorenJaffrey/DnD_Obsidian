@@ -8,7 +8,8 @@ Zustände ändern die Fähigkeiten einer Kreatur auf verschiedene Arten und kön
 Wenn mehrere Effekte einer Kreatur den gleichen Zustand auferlegen, besitzt jede Version des Zustands ihre eigene Wirkungsdauer, doch werden die Auswirkungen des Zustands nicht schlimmer. Eine Kreatur hat einen Zustand entweder oder hat ihn nicht. Die folgenden Beschreibungen legen fest, was passiert, wenn eine Kreatur einen Zustand erhält.
 
 ```dataview
-TABLE
+TABLE WITHOUT ID
+file.link AS "Zustand"
 FROM #Zustand
 SORT file.name
 ```

@@ -37,7 +37,7 @@ Das Ziel muss außerdem einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schw
 
 ### Schwarz
 Der Bogen kann von nun an [[Säurepfeile]] verschießen welche zusätzlich 1W6 [[Säureschaden]] verursachen. 
-Das Ziel muss außerdem einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder zählt für W3 Runden als [[Säurebespritzt]].
+Das Ziel muss außerdem einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen oder zählt für W3 Runden als [[Verätzt]].
 
 ### Grün
 Der Bogen kann von nun an [[Giftpfeile]] verschießen welche zusätzlich 1W6 [[Giftschaden]] verursachen. 

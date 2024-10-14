@@ -4,9 +4,7 @@ tags:
 ---
 # `=this.file.name`
 
-Eine benommene Kreatur:
-- hat [[Vorteil und Nachteil|Nachteil]] bei [[Attribute|Attributswürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Geschicklichkeit]].
-- hat [[Vorteil und Nachteil|Nachteil]] auf jeden [[Fertigkeiten#Fertigkeitswurf]] der [[Geschicklichkeit]] als Basis hat. 
-- ﻿﻿verliert den [[Geschicklichkeit#Geschicklichkeitsmodifikator]] auf ihre [[Rüstungsklasse]].
+Eine benommene Kreatur hat [[Vorteil und Nachteil|Nachteil]] bei [[Attribute|Attributswürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Geschicklichkeit]].
+Sie ﻿﻿verliert außerdem den [[Geschicklichkeit#Geschicklichkeitsmodifikator]] auf ihre [[Rüstungsklasse]].
 
 Eine benommene Kreatur kann ihre [[Aktion]] aufwenden und einen [[Rettungswurf]] auf [[Konstitution]] mit [[Schwierigkeitsgrad|SG]] 10 ablegen um die Benommenheit abzuschütteln.
