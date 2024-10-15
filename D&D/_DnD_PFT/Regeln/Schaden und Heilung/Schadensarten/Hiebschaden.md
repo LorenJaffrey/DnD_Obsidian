@@ -10,4 +10,4 @@ Dauer: Dauerhaft
 ## Kritischer Hiebschaden
 Kritischer [[Hiebschaden]] verursacht klaffende Wunden, die das Ziel mit der Zeit ausbluten.
 Das Ziel erhält den Zustand [[Bluten]].
-Es darf zu Beginn seines [[Zug|Zuges]] einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 15 ablegen um den Zustand zu beenden.
+Dieser Zustand kann durch Heilung (magisch oder Wurf auf [[Heilkunde]] gegen [[Schwierigkeitsgrad|SG]] 15) entfernt werden.

@@ -31,9 +31,10 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 
 ## Beschreibung
 Du schleuderst eine wogende Masse chaotischer Energie auf eine Kreatur in Reichweite. 
-Führe einen Fernkampf-Zauberangriff gegen das Ziel durch. 
-Bei einem Treffer erleidet das Ziel 2W8 + 1W6 Schaden. 
-Wähle einen der beiden W8 aus. Die gewürfelte Zahl bestimmt die Schadensart wie unten aufgeführt.
+Führe einen Fernkampf-[[Zauberangriffswürfe|Zauberangriffswurf]] gegen das Ziel durch. 
+Bei einem Treffer erleidet das Ziel `dice:2d8+1d6` Schaden. 
+Wähle einen der beiden W8 aus. 
+Die gewürfelte Zahl bestimmt die Schadensart wie unten aufgeführt.
 
 | W8  | Schadensart             |
 |:---:| ----------------------- |
