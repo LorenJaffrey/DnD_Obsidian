@@ -1,3 +1,4 @@
+# `=this.file.name`
 Die Gesinnungsachse der Ordnung, stellt vereinfacht gesagt den Konflikt zwischen Prinzipien und Freiheitsliebe dar. 
 Je eher ein Charakter sich an feste Normen hält, vorausplant und eine gewisse Ordnung der Dinge anstrebt, desto rechtschaffener ist er.
 Je mehr ein Charakter die persönliche Individualität hoch hält und bis auf grundlegende oder moralische Fragen nach dem Laissez-faire-Prinzip handelt, desto chaotischer ist er gesinnt.

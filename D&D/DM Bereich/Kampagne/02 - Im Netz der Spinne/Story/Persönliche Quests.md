@@ -6,7 +6,7 @@
 | [[Drogan]] | [[Gundren Felssucher\|Gundren]] retten |                                             |
 | [[Lucian]] |                                        |                                             |
 | [[Niptac]] | [[Gnomengard]]                         | Neue Erfindungen um den Drachen zu besiegen |
-| [[Argo]]   | [[Turm der Stürme]]                    | Zweites Kristallfragment                    |
+| [[Ar'go]]   | [[Turm der Stürme]]                    | Zweites Kristallfragment                    |
 
 ## TODO
 - [ ] Background in Story einfließen lassen[priority:: low]

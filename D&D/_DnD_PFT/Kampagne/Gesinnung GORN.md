@@ -2,7 +2,7 @@
 
 ``` dataview
 TABLE Ordnung, Moral
-FROM #Charakter/PFT 
+FROM #Charakter/GORN 
 SORT file.name
 ```
 
@@ -12,9 +12,9 @@ SORT file.name
 | --------- |:-------:|:-----:|:-------:|:-----:|
 | Aranon    |    3    |   3   |   0.8   |  0.8  |
 | Drogan    |    2    |   4   |   0.7   |  0.9  |
-| Jon       |    4    |   1   |   0.9   |  0.6  |
 | Lucian    |   -3    |  -1   |   0.2   |  0.4  |
 | Niptac    |   -2    |   1   |   0.3   |  0.6  |
+| Ar'go     |    1    |   2   |   0.6   |  0.7  |
 <!-- TBLFM: $4=(($-2+5)/10) -->
 <!-- TBLFM: $5=(($-2+5)/10) -->
 
@@ -24,8 +24,8 @@ SORT file.name
 |:----------:|:------------:|:------------:|:------------:|:----------:|:---------:|:---------:|:---------------:|:---------------:|:---------------:|
 |   4 Gut    |              |              |              |            |           |           |     Drogan      |                 |                 |
 |   3 Gut    |              |              |              |            |           |           |                 |     Aranon      |                 |
-|   2 Gut    |              |              |              |            |           |           |                 |                 |                 |
-| 1 Neutral  |              |              |    Niptac    |            |           |           |                 |                 |       Jon       |
+|   2 Gut    |              |              |              |            |           |   Argo    |                 |                 |                 |
+| 1 Neutral  |              |              |    Niptac    |            |           |           |                 |                 |              |
 | 0 Neutral  |              |              |              |            |           |           |                 |                 |                 |
 | -1 Neutral |              |    Lucian    |              |            |           |           |                 |                 |                 |
 |  -2 Böse   |              |              |              |            |           |           |                 |                 |                 |
@@ -46,7 +46,7 @@ quadrantChart
     quadrant-4 Rechtschaffen Boese
     Aranon: [0.8, 0.8]
     Drogan: [0.7, 1]
-    Jon: [0.9, 0.6]
+    Argo: [0.6, 0.7]
     Lucian: [0.2, 0.4]
     Niptac: [0.3, 0.6]
 ```
