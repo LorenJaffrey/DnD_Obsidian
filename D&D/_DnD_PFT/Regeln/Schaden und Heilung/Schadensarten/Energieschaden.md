@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Liegend]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Energieschaden]] wird meist durch Explosionen oder magische Druckwellen erzeugt.

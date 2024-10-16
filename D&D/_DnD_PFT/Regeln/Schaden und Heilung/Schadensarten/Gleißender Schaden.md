@@ -1,8 +1,7 @@
 ---
 tags:
   - Schadensart
-Zustand: "[[Nekrotisiert]]"
-Dauer: dauerhaft
+Zustand: "[[Blind]]"
 ---
 # `=this.file.name`
 [[Gleißender Schaden]] wird meist durch natürliches oder magisches gleißendes Licht hervorgerufen.

@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Verlangsamt]]"
-Dauer: 3 Runden
 ---
 # `=this.file.name`
 [[Kälteschaden]] wird meist durch magische Effekte, Odemwaffen oder andere Effekte verursacht die extreme Kälte nutzen. 

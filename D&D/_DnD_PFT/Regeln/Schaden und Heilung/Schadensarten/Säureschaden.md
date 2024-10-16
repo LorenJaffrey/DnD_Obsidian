@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Verätzt]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Säureschaden]] wird meist durch Säure oder andere ätzende Substanzen oder Magie verursacht. 

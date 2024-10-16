@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Verängstigt]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Psychischer Schaden]] wird meist durch Magie oder Fertigkeiten verursacht die den Geist angreifen.

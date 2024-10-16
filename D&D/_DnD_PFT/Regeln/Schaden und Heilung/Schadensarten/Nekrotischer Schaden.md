@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Nekrotisiert]]"
-Dauer: dauerhaft
 ---
 # `=this.file.name`
 [[Nekrotischer Schaden]] wird meist durch Todesmagie hervorgerufen.

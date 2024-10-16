@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Taub]]"
-Dauer: 3 Runden
 ---
 # `=this.file.name`
 [[Schallschaden]] wird meist durch natürliche oder magische Schallwellen erzeugt.

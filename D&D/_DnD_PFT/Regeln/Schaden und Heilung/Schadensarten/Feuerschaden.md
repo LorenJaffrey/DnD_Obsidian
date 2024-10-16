@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Brennend]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Feuerschaden]] wird meist durch natürliches oder magisches Feuer erzeugt.

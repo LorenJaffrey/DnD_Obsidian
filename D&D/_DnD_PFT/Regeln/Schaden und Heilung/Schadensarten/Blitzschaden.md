@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Elektrifiziert]]"
-Dauer: 3 Runden
 ---
 # `=this.file.name`
 [[Blitzschaden]] wird meist durch natürliche oder magische Blitze erzeugt.

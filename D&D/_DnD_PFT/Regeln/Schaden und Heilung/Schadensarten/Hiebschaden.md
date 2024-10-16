@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Bluten]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Hiebschaden]] wird meist durch Klingenwaffen wie Schwerter, Äxte oder ähnliches erzeugt, aber auch durch klingenähnliche natürliche Waffen wie Scheren oder Klauen.

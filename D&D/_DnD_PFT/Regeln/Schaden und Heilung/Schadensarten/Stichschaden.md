@@ -2,7 +2,6 @@
 tags:
   - Schadensart
 Zustand: "[[Erschöpft]]"
-Dauer: Dauerhaft
 ---
 # `=this.file.name`
 [[Stichschaden]] wird meist durch [[Stichwaffen]] wie [[Dolch|Dolche]], bestimmte [[Schwerter]] oder [[Speere]] erzeugt.
