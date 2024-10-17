@@ -1,19 +1,22 @@
 # `=this.file.name`
 
 ## Organisatorisches
+- [[Kritische Treffer]]
+	- [[Schadensarten]]
+	- [[Zustände]]
+- [[Initiative#Heroische Initiative]]
+	- Nur ein Wurf pro Seite
+	- W10 statt W20
+	- Durchschnittlicher Initiativebonus pro Seite
+	- abwechselnde Züge pro Seite
+	- freie Wahl wer dran kommt
+## TODO
 - Persönlichkeit der Charaktere besser einbauen
 	- Drogan
 	- Aranon
 	- Niptac
 	- Argo
 	- Lucian
-
-## TODO
-- [x] #task zusätzlicher Encounter auf dem Weg im Niewinterwald  [priority:: highest]
-- [x] #task Jagdhaus des Falken ausdefinieren  [priority:: highest]
-- [x] #task NPC Falke der Jäger ausdefinieren  [priority:: highest]
-- [x] #task nächtlicher Überfall im Wald  [priority:: highest]
-- [x] #task [[Das Holzfällerlager]] fertig machen  [priority:: highest]
 
 ## Recap
 ![[Timeline Kampagne 2#Tag 10]]

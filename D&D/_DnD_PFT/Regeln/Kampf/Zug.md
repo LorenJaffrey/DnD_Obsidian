@@ -1,14 +1,15 @@
 ---
-aliases: Zuges
+aliases: 
+  - Zuges
 ---
 # `=this.file.name`
-
 In einem Zug kann eine Kreatur jeweils eine der folgenden Aktivitäten ausführen:
+
 ## Bewegung
 Eine Kreatur kann sich in ihrem Zug entsprechend ihrer [[Bewegungsrate]] bewegen.
 
 ## Aktion
-![[Aktion]]
+![[Aktion | no-title]]
 
 ## Kostenlose Aktion
 - einfache Gesten
@@ -17,9 +18,9 @@ Eine Kreatur kann sich in ihrem Zug entsprechend ihrer [[Bewegungsrate]] bewegen
 - Tür öffnen
 
 ## Bonusaktion
-![[Bonusaktion]]
+![[Bonusaktion | no-title]]
 
 ## Reaktion
 Bestimmte Spezialfähigkeiten, Zauber und Situationen ermöglichen eine besondere Reaktion.
 Wenn der Zug durch eine Reaktion unterbrochen wird, darf er danach fortgesetzt werden.
-![[Reaktion]]
+![[Reaktion | no-title]]
