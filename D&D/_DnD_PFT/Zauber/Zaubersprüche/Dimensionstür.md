@@ -1,6 +1,6 @@
 ---
 aliases: 
-  - Mage Hand
+  - Dimension Door
 tags: 
   - Zauber
 Grad: 4

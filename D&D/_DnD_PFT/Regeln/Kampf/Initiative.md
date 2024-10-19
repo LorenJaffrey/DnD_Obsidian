@@ -24,6 +24,6 @@ Dabei gelten die normalen mathematischen Rundungsregeln.
 
 ### Ungleiche Anzahl an Kampfteilnehmern
 Wenn eine Seite mehr Kampfteilnehmer als die andere hat dürfen mehrere Kampfteilnehmer der gleichen Seite direkt nacheinander ihre [[Zug|Züge]] abhandeln.
-Bestimme nach jeder Runde der zahlenmäßig unterlegenen Seite wie viele Kampfteilnehmer mit ihrem [[Zug]] der anderen Seite an der Reihe sind.
+Bestimme nach jeder Runde der zahlenmäßig unterlegenen Seite wie viele Kampfteilnehmer der anderen Seite mit ihrem [[Zug]]an der Reihe sind.
 Teile dafür die Anzahl der Kampfteilnehmer der zahlenmäßig überlegenen Seite durch die Anzahl der Kampfteilnehmer der zahlenmäßig unterlegenen Seite (aufgerundet).
 Dies entspricht der Anzahl der Kampfteilnehmer der zahlenmäßig überlegenen Seite die ihren [[Zug]] durchführen dürfen, bevor der nächste Kampfteilnehmer der zahlenmäßig unterlegenen Seite an der Reihe ist.

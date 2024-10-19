@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Arkanes Auge
+  - Arcane Eye
 tags:
   - Zauber
 Grad: 4
