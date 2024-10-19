@@ -86,6 +86,14 @@
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
   "version": "11.3.2",
-  "viewResults": [],
+  "viewResults": [
+    {
+      "result": 3,
+      "original": "2d3kh",
+      "resultText": "[3, 2d]",
+      "timestamp": 1729380295543,
+      "id": "HKb0tvesyCpK"
+    }
+  ],
   "showDice": true
 }
