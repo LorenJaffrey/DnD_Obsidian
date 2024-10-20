@@ -88,7 +88,7 @@ Hintergrund:
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
-  Gesinnung: "[[Rechtschaffen Neutral]]"
+  Gesinnung: "[[Neutral Gut]]"
   Hintergrund: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
