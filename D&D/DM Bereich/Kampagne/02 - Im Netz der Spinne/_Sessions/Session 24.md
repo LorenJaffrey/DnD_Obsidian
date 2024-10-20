@@ -1,6 +1,9 @@
 # `=this.file.name`
 
 ## Organisatorisches
+- [[Reisen]]
+	- [[Navigieren]]
+	- [[Nahrungssuche]]
 - [[Kritische Treffer]]
 	- [[Schadensarten]]
 	- [[Zustände]]
