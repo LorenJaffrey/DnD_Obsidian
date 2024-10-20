@@ -1,8 +1,6 @@
 ---
 Stufe: 5
 Niptac:
-  Anzahl_Apparaturen: 2
-  Energiekerngröße: W6
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Kobold Blitzwerfer]]"
@@ -90,7 +88,7 @@ Merkmale:
     - "[[Tüftler]]"
   Klasse:
     - "[[Hinterhältiger Angriff]]"
-    - "[[Durchdachte Vorbereitung]]"
+    - "[[Mechanische Apparaturen]]"
     - "[[Raffinierte Aktion]]"
     - "[[Zielsicher]]"
     - "[[Unglaubliches Ausweichen]]"
@@ -129,9 +127,10 @@ InputData:
   Energiekern3: true
   Energiekern4: true
   Fähigkeiten:
-    Verschwinden: false
+    Verschwinden: true
 tags:
   - Charakter/GORN
+aliases: []
 ---
 # `=this.file.name`
 > [!infobox]
@@ -173,7 +172,6 @@ tags:
 > ### Makel
 > `=this.Persönlichkeit.Makel`
 
-
 ## Rasten
 |                           | 
 |:-------------------------:|
@@ -188,15 +186,16 @@ tags:
 | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 
 ## Aufladungen 
-| [[Durchdachte Vorbereitung#Engergiekerne]] | Anzahl [[Durchdachte Vorbereitung#Engergiekerne]]                                                                                                           |           [[Verschwinden#Verschwinden]]            |
-|:------------------------------------------:| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------:|
-|      `=this.Niptac.Energiekerngröße`       | `INPUT[toggle:InputData.Energiekern1]` `INPUT[toggle:InputData.Energiekern2]` `INPUT[toggle:InputData.Energiekern3]` `INPUT[toggle:InputData.Energiekern4]` | `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]` |
+|           [[Verschwinden#Verschwinden]]            |
+|:--------------------------------------------------:|
+| `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]` |
 
-### Apparaturen (max `=this.Niptac.Anzahl_Apparaturen`)
+### Apparaturen (max `=ceil(this.Stufe/2)`)
 ```dataview
 TABLE WITHOUT ID
 file.link AS "Apparaturen", 
-SG AS "Schwierigkeitsgrad"
+SG,
+Einsatz
 FROM #Merkmal/Klasse/Schurke/Meistertüftler/Apparatur 
 WHERE contains(this.Niptac.Apparaturen, file.link)
 SORT SG, file.link
@@ -427,22 +426,6 @@ style: primary
 actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const tw = mb.parseBindTarget('Gesundheit.TW', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); mb.setMetadata(tw, stufe);"
-  - type: updateMetadata
-    bindTarget: InputData.Energiekern1
-    evaluate: false
-    value: "true"
-  - type: updateMetadata
-    bindTarget: InputData.Energiekern2
-    evaluate: false
-    value: "true"
-  - type: updateMetadata
-    bindTarget: InputData.Energiekern3
-    evaluate: false
-    value: "true"
-  - type: updateMetadata
-    bindTarget: InputData.Energiekern4
-    evaluate: false
-    value: "true"
   - type: updateMetadata
     bindTarget: InputData.Fähigkeiten.Verschwinden
     evaluate: false

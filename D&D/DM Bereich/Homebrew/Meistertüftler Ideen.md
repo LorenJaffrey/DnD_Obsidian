@@ -15,7 +15,7 @@ Eyes These special goggles, made with a light refracting substance, grant the we
 These effects last for a number of minutes equal to one roll of your preparation die, which is expended when the goggles are activated.
 
 ### Apothecary's Needle
-Apothecary's This small syringe carries a single dose of an alchemical healing agent that invigorates anyone injected with it. Using a bonus action, you can inject a target within 5 feet of you with the agent. The creature regains hit points equal to twice your Intelligence modifier + 1 roll of your preparation die, which is expended.
+This small syringe carries a single dose of an alchemical healing agent that invigorates anyone injected with it. Using a bonus action, you can inject a target within 5 feet of you with the agent. The creature regains hit points equal to twice your Intelligence modifier + 1 roll of your preparation die, which is expended.
 
 ### ALARMING TRAP
 Level: 1
@@ -33,7 +33,8 @@ Range: Touch
 Components: Coil Springs, Wire
 Duration: 1 minute
 Based on: Jump spell
-You apply this invention to a willing creature. The creature’s jump distance is tripled until the duration ends. See PHB, page 182, for details on jump limitations.
+You apply this invention to a willing creature. 
+The creature’s jump distance is tripled until the duration ends. See PHB, page 182, for details on jump limitations.
 
 ### FLAME THROWER
 Level: 4
