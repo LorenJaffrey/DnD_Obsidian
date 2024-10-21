@@ -88,7 +88,7 @@ Merkmale:
     - "[[Rücksichtsloser Angriff]]"
     - "[[Gefahrengespür]]"
     - "[[Titanengriff]]"
-    - "[[Furchtlos und Unerschütterlich]]"
+    - "[[Furchtlos]]"
     - "[[Schnelle Bewegung]]"
     - "[[Zusätzlicher Angriff]]"
   Talente:

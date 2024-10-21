@@ -4,20 +4,20 @@
 
 ## Merkmale
 
-| Stufe | Merkmal                                                                      |
-|:-----:| ---------------------------------------------------------------------------- |
-|   3   | [[Titanengriff]] oder [[Tödlicher Stoß]], [[Furchtlos und Unerschütterlich]] | 
-|   6   | [[Ruhm oder Tod]]                                                            |
-|  10   | [[Des Slayers Beute]]                                                        |
-|  14   | [[Bestienslayer]]                                                            |
+| Stufe | Merkmal                                             |
+|:-----:| --------------------------------------------------- |
+|   3   | [[Titanengriff]], [[Tödlicher Stoß]], [[Furchtlos]] |
+|   6   | [[Slayerzorn]], [[Unerschütterlich]]                |
+|  10   | [[Des Slayers Beute]]                               |
+|  14   | [[Bestienslayer]]                                   |
 
 ![[Titanengriff]]
 
 ![[Tödlicher Stoß]]
 
-![[Furchtlos und Unerschütterlich]]
+![[Furchtlos]]
 
-![[Ruhm oder Tod]]
+![[Slayerzorn]]
 
 ![[Des Slayers Beute]]
 
