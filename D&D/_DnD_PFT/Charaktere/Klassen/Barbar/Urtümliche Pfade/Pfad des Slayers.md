@@ -6,19 +6,7 @@
 
 | Stufe | Merkmal                                             |
 |:-----:| --------------------------------------------------- |
-|   3   | [[Titanengriff]], [[Tödlicher Stoß]], [[Furchtlos]] |
+|   3   | [[Titanengriff]], [[Tödlicher Hieb]], [[Furchtlos]] |
 |   6   | [[Slayerzorn]], [[Unerschütterlich]]                |
-|  10   | [[Des Slayers Beute]]                               |
+|  10   | [[Verzweifelter Ansturm]]                           |
 |  14   | [[Bestienslayer]]                                   |
-
-![[Titanengriff]]
-
-![[Tödlicher Stoß]]
-
-![[Furchtlos]]
-
-![[Slayerzorn]]
-
-![[Des Slayers Beute]]
-
-![[Bestienslayer]]

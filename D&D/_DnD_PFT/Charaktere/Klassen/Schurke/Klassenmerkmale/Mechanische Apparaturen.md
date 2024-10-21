@@ -6,7 +6,7 @@ tags:
 # `=this.file.name`
 Als gnomischer Tüftler stellst du hochspezialisierte Apparaturen her, die mächtige Effekte erzielen können, aber nicht immer zuverlässig funktionieren. 
 Du kannst eine Anzahl von [[Apparaturen]] herstellen, die der Hälfte deiner Stufe als [[Schurke]] entspricht (aufgerundet).
-Jede [[Apparaturen|Apparatur]] kann einmal pro[[Lange Rast|Langer Rast]] verwendet werden.
+Jede [[Apparaturen|Apparatur]] kann einmal pro [[Lange Rast|Langer Rast]] verwendet werden.
 Zu Beginn jeder [[Lange Rast|Langen Rast]] kannst du [[Apparaturen]] herstellen. 
 Diese [[Apparaturen]] halten bis zur nächsten [[Lange Rast|Langen Rast]] und werden dann unbrauchbar.
 

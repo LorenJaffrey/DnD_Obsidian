@@ -13,6 +13,22 @@
 	- Durchschnittlicher Initiativebonus pro Seite
 	- abwechselnde Züge pro Seite
 	- freie Wahl wer dran kommt
+- [[Barbar]]
+	- [[Rücksichtsloser Angriff]]
+	- [[Wilder Instinkt]]
+	- [[Pfad des Slayers]]
+		- [[Titanengriff]] UND [[Tödlicher Hieb]]
+		- [[Furchtlos]] und [[Unerschütterlich]] getrennt und geändert
+		- [[Slayerzorn]]
+		- [[Verzweifelter Ansturm]]
+- [[Schurke]]
+	- [[Meistertüftler]]
+		- [[Mechanische Apparaturen]]
+		- [[Verbesserte Mechanik]]
+		- [[Mechanische Meisterwerke]]
+		- [[Perfektionierter Tüftler]]
+
+
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen
 	- Drogan
