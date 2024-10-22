@@ -31,11 +31,11 @@
 
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen
-	- Drogan
-	- Aranon
-	- Niptac
-	- Argo
-	- Lucian
+	- [ ] #task Hintergrund Drogan [priority:: high]
+	- [ ] #task Hintergrund Aranon [priority:: high]
+	- [ ] #task Hintergrund Niptac [priority:: high]
+	- [ ] #task Hintergrund Argo [priority:: high]
+	- [ ] #task Hintergrund Lucian [priority:: high]
 
 ## Recap
 ![[Timeline Kampagne 2#Tag 10]]

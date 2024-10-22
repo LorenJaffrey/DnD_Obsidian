@@ -3,10 +3,10 @@ tags:
   - Gegenstand/Waffe/Art/Stichwaffe
   - Gegenstand/Waffe/Gruppe/Armbrust
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-  - Gegenstand/Waffe/Kategorie/Einfache_Waffe
+  - Gegenstand/Waffe/Kategorie/Exotische_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
   - Gegenstand/Magischer_Gegenstand/Waffe/Armbrust
-Reichweite:
+Reichweite: 
 Schaden: 
 Schadensart: 
 Eigenschaften: 
@@ -22,15 +22,19 @@ EigenschaftenFern:
   - "[[Repetiermechanismus]]"
   - "[[Angriffsbonus|Zielvorrichtung]] (1) (bereits eingerechnet)"
   - "[[Schadensbonus|Verstärkte Sehne]] (1) (bereits eingerechnet)"
-Kategorie: "[[Einfache Waffen]]"
+Kategorie: "[[Exotische Waffen]]"
 Hände: 2
 Größe: 3
-Gewicht: 5 Pfund
+Gewicht: 10 Pfund
 Kosten: 25 GM
 Verfügbarkeit: gewöhnlich
 ---
 ## `=this.file.name` (Fernkampf)
-Der Bolzen-Initiator mit Automatischer Nachlade-Kampf-Automatik, kurz B.I.A.N.K.A., ist bereits auf den ersten Blick eine beeindruckende technische Apparatur, die das Resultat gnomischer Ingenieurskunst verkörpert. 
+> [!infobox]
+> # `=this.file.name`
+> ![[BIANKA.webp]]
+
+Der "Ballistische Initiator mit Automatischer Nachlade Kampf Automatik", kurz B.I.A.N.K.A., ist bereits auf den ersten Blick eine beeindruckende technische Apparatur, die das Resultat gnomischer Ingenieurskunst verkörpert. 
 Ihr Körper besteht aus seltenem Holz und leichtem, aber robustem Metall.
 Die gesamte Konstruktion wirkt durchdacht und funktional, mit sichtbaren Zahnrädern und mechanischen Komponenten, die in einem harmonischen Design miteinander verbunden sind.
 

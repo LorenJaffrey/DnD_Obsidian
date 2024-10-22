@@ -122,6 +122,7 @@ Zauber:
   - "[[Schwache Genesung]]"
   - "[[Fallen finden]]"
   - "[[Spurloses Gehen]]"
+  - "[[Tiere beschwören]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
