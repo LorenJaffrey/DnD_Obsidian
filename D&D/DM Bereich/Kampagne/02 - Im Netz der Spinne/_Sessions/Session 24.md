@@ -7,6 +7,7 @@
 - [[Kritische Treffer]]
 	- [[Schadensarten]]
 	- [[Zustände]]
+	- [[Tödlich]]
 - [[Initiative#Heroische Initiative]]
 	- Nur ein Wurf pro Seite
 	- W10 statt W20
@@ -27,7 +28,6 @@
 		- [[Verbesserte Mechanik]]
 		- [[Mechanische Meisterwerke]]
 		- [[Perfektionierter Tüftler]]
-
 
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen

@@ -1,11 +1,13 @@
 ---
-Schaden: 2d6
-Bonus: 5
+Schaden: 2d6+1d4+5
+Bonus: 1
 ---
 ```dataviewjs
-dv.span("`dice:" + dv.current().Schaden + "+" + dv.current().Bonus + "|none|norender|noform`")
+dv.span("`dice:" + dv.current().Schaden + "+" + dv.current().Bonus + "|none`")
 ```
 
-`$="```dice:" + dv.current().Schaden + "+" + dv.current().Bonus + "|none```"`
+`$="```dice:" + dv.current().Schaden + "+" + dv.current().Bonus + "```"`
 
-`dice:2d6+5|none`
+`dice:2d6+1d4+5`
+
+`dice: Schaden`
