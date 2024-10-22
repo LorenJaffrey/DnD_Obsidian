@@ -11,6 +11,6 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Art/Hiebwaffe 
+FROM #Gegenstand/Waffe/Art/Hiebwaffe AND !#Gegenstand/Magischer_Gegenstand 
 SORT größe, file.name
 ```

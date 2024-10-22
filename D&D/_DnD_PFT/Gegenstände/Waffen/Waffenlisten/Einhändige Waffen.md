@@ -11,7 +11,7 @@ file.link AS "Waffe",
 Schadensart, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
+FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND !#Gegenstand/Magischer_Gegenstand 
 WHERE Hände < 2
 SORT file.name
 ```

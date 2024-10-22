@@ -14,5 +14,5 @@ Range3 AS "Maximalreichweite",
 Hände, 
 Gewicht, 
 Kosten
-FROM #Gegenstand/Waffe/Klasse/Feuerwaffe
+FROM #Gegenstand/Waffe/Klasse/Feuerwaffe AND !#Gegenstand/Magischer_Gegenstand
 ```

@@ -32,7 +32,7 @@ Er kann auf verschiedene Arten geheilt werden und erhält dadurch zusätzliche M
 Der [[Zauberstecken]] besitzt eine schwache magische Aura.
 
 ### Stufe 1
-Der [[Zauberstecken]] gewährt [[Angriffsbonus]] (+1) für alle Angriffe die du mit ihm ausführst.
+Der [[Zauberstecken]] gewährt [[Angriffsbonus]] (+1)  und [[Schadensbonus]] (+1) für alle Angriffe die du mit ihm ausführst.
 Wenn du ihn führst, erhältst du außerdem [[Zauberpräzision]] (+1).
 
 ### Stufe 2
@@ -41,7 +41,7 @@ Er erhält zu jeder Morgendämmerung 1W4 + 1 der verbrauchten Ladungen zurück.
 Wenn du die letzte Ladung verbrauchst, wirf einen W20. Bei einer 1 verliert der [[Zauberstecken]] seine Eigenschaften und wird zu einem nicht-magischen [[Kampfstab]].
 
 ### Stufe 3
-Der [[Zauberstecken]] gewährt [[Angriffsbonus]] (+2) für alle Angriffe die du mit ihm ausführst.
+Der [[Zauberstecken]] gewährt [[Angriffsbonus]] (+2) und [[Schadensbonus]] (+2) für alle Angriffe die du mit ihm ausführst.
 Wenn du ihn führst, erhältst du außerdem [[Zauberpräzision]] (+2).
 
 ### Stufe 4

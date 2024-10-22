@@ -14,5 +14,5 @@ Range3 AS "Maximalreichweite",
 Hände AS "Hände", 
 Gewicht, 
 Kosten
-FROM #Gegenstand/Waffe/Gruppe/Bogen 
+FROM #Gegenstand/Waffe/Gruppe/Bogen AND !#Gegenstand/Magischer_Gegenstand
 ```

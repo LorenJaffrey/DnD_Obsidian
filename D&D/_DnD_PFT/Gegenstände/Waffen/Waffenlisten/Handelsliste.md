@@ -7,5 +7,5 @@ Kategorie,
 Gewicht, 
 Kosten, 
 Verfügbarkeit
-FROM #Gegenstand/Waffe
+FROM #Gegenstand/Waffe AND !#Gegenstand/Magischer_Gegenstand
 ```

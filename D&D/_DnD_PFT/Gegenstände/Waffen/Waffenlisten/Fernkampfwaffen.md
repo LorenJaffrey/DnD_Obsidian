@@ -15,6 +15,6 @@ Range3 AS "Maximalreichweite",
 Hände,
 Gewicht, 
 Kosten
-FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe 
+FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe AND !#Gegenstand/Magischer_Gegenstand 
 SORT file.name ASC
 ```

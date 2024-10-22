@@ -17,6 +17,6 @@ Range3 AS "Maximalreichweite",
 Hände AS "Hände", 
 Gewicht, 
 Kosten
-FROM #Gegenstand/Waffe/Gruppe/Armbrust
+FROM #Gegenstand/Waffe/Gruppe/Armbrust AND !#Gegenstand/Magischer_Gegenstand
 SORT file.name
 ```

@@ -12,5 +12,5 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Kategorie/Einfache_Waffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe
+FROM #Gegenstand/Waffe/Kategorie/Einfache_Waffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND !#Gegenstand/Magischer_Gegenstand
 ```

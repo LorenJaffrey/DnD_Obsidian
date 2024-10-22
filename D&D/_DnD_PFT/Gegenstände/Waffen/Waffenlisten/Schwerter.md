@@ -11,5 +11,5 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Gruppe/Schwert 
+FROM #Gegenstand/Waffe/Gruppe/Schwert AND !#Gegenstand/Magischer_Gegenstand 
 ```

@@ -11,5 +11,5 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Gruppe/Stangenwaffe
+FROM #Gegenstand/Waffe/Gruppe/Stangenwaffe AND !#Gegenstand/Magischer_Gegenstand
 ```

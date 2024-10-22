@@ -11,6 +11,6 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Art/Wuchtwaffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
+FROM #Gegenstand/Waffe/Art/Wuchtwaffe AND #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND !#Gegenstand/Magischer_Gegenstand 
 SORT größe, file.name
 ```

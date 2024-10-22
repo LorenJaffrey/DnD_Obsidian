@@ -12,5 +12,5 @@ Schadensart,
 Hände, 
 Größe, 
 Eigenschaften
-FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND [[Finesse]]
+FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe AND [[Finesse]] AND !#Gegenstand/Magischer_Gegenstand
 ```

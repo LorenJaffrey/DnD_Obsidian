@@ -14,5 +14,5 @@ Range3 AS "Maximalreichweite",
 Hände, 
 Gewicht, 
 Kosten
-FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe 
+FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe AND !#Gegenstand/Magischer_Gegenstand 
 ```
