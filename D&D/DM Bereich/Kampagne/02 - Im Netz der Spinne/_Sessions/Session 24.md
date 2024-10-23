@@ -1,35 +1,16 @@
 # `=this.file.name`
 
-## Organisatorisches
+## Reminder
+- [[Glück|Glückspunkte]]
 - [[Reisen]]
 	- [[Navigieren]]
 	- [[Nahrungssuche]]
-- [[Kritische Treffer]]
-	- [[Schadensarten]]
-	- [[Zustände]]
-	- [[Tödlich]]
-- [[Initiative#Heroische Initiative]]
-	- Nur ein Wurf pro Seite
-	- W10 statt W20
-	- Durchschnittlicher Initiativebonus pro Seite
-	- abwechselnde Züge pro Seite
-	- freie Wahl wer dran kommt
-- [[Barbar]]
-	- [[Rücksichtsloser Angriff]]
-	- [[Wilder Instinkt]]
-	- [[Pfad des Slayers]]
-		- [[Titanengriff]] UND [[Tödlicher Hieb]]
-		- [[Furchtlos]] und [[Unerschütterlich]] getrennt und geändert
-		- [[Slayerzorn]]
-		- [[Verzweifelter Ansturm]]
-- [[Schurke]]
-	- [[Meistertüftler]]
-		- [[Mechanische Apparaturen]]
-		- [[Verbesserte Mechanik]]
-		- [[Mechanische Meisterwerke]]
-		- [[Perfektionierter Tüftler]]
+
+## Organisatorisches
 
 ## TODO
+- Ochsenkarren wiederfinden?
+	- [[Spuren lesen]]
 - Persönlichkeit der Charaktere besser einbauen
 	- [ ] #task Hintergrund Drogan [priority:: high]
 	- [ ] #task Hintergrund Aranon [priority:: high]
@@ -47,8 +28,7 @@
 ![[Timeline Kampagne 2#Tag 16]]
 
 ## Ablauf
-- Start in Hasenbeere
-- [[Szene - Überfall der Schattenwölfe]]
+- [[Szene - Überfall der Schattenwölfe]] Nachwehen
 - Zwischenhalt beim [[Jagdhaus des Falken]]
 - [[Szene - Reise zum Holzfällerlager]]
 - [[Das Holzfällerlager]]
