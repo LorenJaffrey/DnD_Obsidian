@@ -10,4 +10,5 @@ Wenn du die [[Konzentration]] verlierst, endet ein solcher Zauberspruch. [[Konze
 Du verlierst die [[Konzentration]], wenn du:
 - einen anderen Spruch wirkst, der ebenfalls [[Konzentration]] erfordert
 - wenn du [[Kampfunfähig]] wirst
-- jedes Mal, wenn du Schaden nimmst, musst du eine Probe auf [[Konstitution]] werfen. Der Herausforderungsgrad entspricht 10 oder der Hälfte des Schadens, den du nimmst, je nachdem was höher ist.
+- jedes Mal, wenn du Schaden nimmst, musst du eine Probe auf [[Konstitution]] werfen. 
+  Der Herausforderungsgrad entspricht 10 oder der Hälfte des Schadens, den du nimmst, je nachdem was höher ist.

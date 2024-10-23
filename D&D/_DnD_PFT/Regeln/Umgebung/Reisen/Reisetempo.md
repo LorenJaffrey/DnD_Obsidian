@@ -35,3 +35,11 @@ Die in der Tabelle angegebenen Distanzen setzen relativ einfaches Terrain voraus
 Doch Abenteurer sehen sich oft dichten Wäldern, endlosen Sümpfen, schuttübersäten Ruinen, steilen Bergketten oder vereisten Steppen gegenüber, die alle als schwieriges Gelände angesehen werden.
 Durch schwieriges Gelände bewegt man sich mit halber Bewegungsrate. Um also 1 Meter in schwierigem Gelände zu bewältigen, muss man 2 Meter der Bewegungsrate aufwenden.
 Dadurch legt eine Kreatur nur die Hälfte der normalen Entfernung pro Minute, Stunde oder Tag zurück.
+
+```dataview
+TABLE WITHOUT ID
+file.link AS "Umgebung",
+Typ
+FROM #Umgebung
+SORT Typ, file.name
+```
