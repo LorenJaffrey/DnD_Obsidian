@@ -90,23 +90,11 @@ Du kannst eine Nebelbombe werfen, die einen Bereich von 3 Metern in Dunkelheit h
 
 **Fehlzündung**: Die Nebelbombe explodiert direkt in deinen Händen und hüllt nur dich in Rauch ein. Du bist bis zum Ende deines nächsten Zuges blind.
 
-### **Gnomischer Lärmblaster**  
-Diese Apparatur erzeugt eine überwältigende Schallwelle in einem 4,5-Meter-Radius um dich herum. Alle Kreaturen im Wirkungsbereich müssen einen Konstitutions-Rettungswurf ablegen. Bei einem Fehlschlag sind sie für 1 Runde betäubt.
-
-**Schwierigkeit des Tüftlerwurfs**: 12
-**Fehlzündung**: Die Schallwelle trifft dich selbst und du bist für 1 Runde taub.
-
 ### **Gnomisches Rauchmodul**  
 Diese Apparatur setzt eine dichte Rauchwolke in einem 6-Meter-Radius frei, die den Bereich für 1 Minute oder bis ein starker Wind weht in völlige Dunkelheit hüllt (wie der Zauber _Dunkelheit_).
 
 **Schwierigkeit des Tüftlerwurfs**: 10
 **Fehlzündung**: Der Rauch umhüllt nur dich, und deine Sicht ist für 1 Runde blockiert.
-
-### **Gnomischer Sprungverstärker**  
-Diese Apparatur kann an den Beinen eines Verbündeten (oder dir selbst) angebracht werden und verdreifacht für 1 Minute die Sprungweite. Dies funktioniert ähnlich wie der Zauber _Sprung_, erlaubt aber auch, dass der Benutzer durch den Sprung Angriffen entkommt (Geschicklichkeits-Rettungswürfe mit Vorteil, um bestimmte Flächenangriffe zu vermeiden).
-
-**Schwierigkeit des Tüftlerwurfs**: 11
-**Fehlzündung**: Der Verstärker wird unkontrollierbar und schleudert den Benutzer 3 Meter weit in eine zufällige Richtung.
 
 ## Stufe 9
 
@@ -116,13 +104,6 @@ Eine Bombe, die auf Oberflächen haftet und beim Aufprall explodiert. Sie verurs
 **Schwierigkeit des Tüftlerwurfs**: 14
 Der Schaden erhöht sich auf 5W6 bei Stufe 13 und 6W6 bei Stufe 17.
 **Fehlzündung**: Die Bombe explodiert sofort und du erhältst 2W6 Feuerschaden.
-
-### **Taschen-Turm**  
-Du kannst als Aktion einen kleinen, mechanischen Turm erschaffen, der Feinde in einem Radius von 9 Metern mit Armbrustbolzen angreift. Der Turm hat 10 Trefferpunkte und kann für bis zu 1 Minute verwendet werden. Er führt einen Angriff mit deinem Angriffsmodifikator durch, der 1W8 + 2 Schaden verursacht.
-
-**Schwierigkeit des Tüftlerwurfs**: 12
-Der Schaden des Turms erhöht sich auf 2W8 bei Stufe 13 und 3W8 bei Stufe 17.
-**Fehlzündung**: Der Turm stürzt sofort ein oder feuert willkürlich in eine zufällige Richtung.
 
 ### **Gnomischer Magnetischer Schild**  
 Du erschaffst einen schwebenden, unsichtbaren Schild aus magnetischer Energie, der für 1 Minute eine Kreatur deiner Wahl innerhalb von 18 Metern schützt. Der Schild verleiht einen Bonus von +2 auf die Rüstungsklasse und lenkt metallische Geschosse (wie Pfeile oder Bolzen) ab, die dich verfehlen und in zufällige Richtungen abgelenkt werden.
