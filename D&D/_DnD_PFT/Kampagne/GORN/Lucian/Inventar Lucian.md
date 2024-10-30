@@ -55,7 +55,7 @@ Geld:
 | Fackel                                                              |   3    |    1    |   3    |
 | [[Trinkschlauch]]                                                   |   1    |    4    |   4    |
 | Schreibfeder                                                        |   1    |    0    |   0    |
-| [[Windsporen-Pilz]]                                                 |   1    |    0    |   0    |
+| [[Dianthuskraut]]                                                   |   1    |    0    |   0    |
 | [[Einfacher Wein (Flasche)]]                                        |   3    |   1.5   |  4.5   |
 | Brief eines verstorbenen Freundes mit Frage                         |   1    |   0.1   |  0.1   |
 | [[Heiltrank]]                                                       |   1    |   0.5   |  0.5   |

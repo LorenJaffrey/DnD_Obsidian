@@ -50,7 +50,7 @@ Geld:
 | [[Trinkschlauch]]            |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern  |   15   |   0.6   |   9    |
 | [[Einfacher Wein (Flasche)]] |   1    |   1.5   |  1.5   |
-| [[Windsporen-Pilz]]          |   1    |    0    |   0    |
+| [[Dianthuskraut]]            |   1    |    0    |   0    |
 | [[Obsidianscherben]]         |   5    |    1    |   5    |
 | [[Tigerauge]]                |   2    |    0    |   0    |
 | Sack mit Nelken              |   1    |   20    |   20   |
