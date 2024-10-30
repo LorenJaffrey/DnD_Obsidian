@@ -8,7 +8,7 @@ Verteidigung:
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
 Waffen:
-  - "[[Kampfstab]]"
+  - "[[Stab des Sommerwalds]]"
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
