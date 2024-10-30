@@ -17,7 +17,8 @@ Zauber:
   - "[[Schwache Genesung]]"
   - "[[Fallen finden]]"
   - "[[Spurloses Gehen]]"
-
+  - "[[Tiere beschwören]]"
+  - "[[Mit Pflanzen sprechen]]"
 ---
 # `=this.file.name`
 

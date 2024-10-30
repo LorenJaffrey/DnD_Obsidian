@@ -32,7 +32,7 @@ Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `
 ## Beschreibung
 Du schleuderst eine wogende Masse chaotischer Energie auf eine Kreatur in Reichweite. 
 Führe einen Fernkampf-[[Zauberangriffswürfe|Zauberangriffswurf]] gegen das Ziel durch. 
-Bei einem Treffer erleidet das Ziel `dice:2d8+1d6` Schaden. 
+Bei einem Treffer erleidet das Ziel 2x W8 + 1x W6 Schaden. 
 Wähle einen der beiden W8 aus. 
 Die gewürfelte Zahl bestimmt die Schadensart wie unten aufgeführt.
 
@@ -47,7 +47,7 @@ Die gewürfelte Zahl bestimmt die Schadensart wie unten aufgeführt.
 |  7  | [[Psychischer Schaden]] |
 |  8  | [[Schallschaden]]       |
 
-Wenn du auf beiden Würfeln dieselbe Zahl erzielst, springt die chaotische Energie vom Ziel bis zu 9 m weit zu einer anderen Kreatur deiner Wahl. 
+Wenn du auf beiden (W8) Würfeln dieselbe Zahl erzielst, springt die chaotische Energie vom Ziel bis zu 9 m weit zu einer anderen Kreatur deiner Wahl. 
 Führe gegen das neue Ziel einen neuen [[Angriffswurf]] durch, und führe auch einen neuen [[Schadenswurf]] durch. 
 Dieser könnte die Energie erneut überspringen lassen. 
 Eine Kreatur kann bei jedem Wirken dieses Zaubers nur einmal zu dessen Ziel werden.

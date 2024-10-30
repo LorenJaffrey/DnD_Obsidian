@@ -1,5 +1,5 @@
 ---
-cssclass: drwn, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 wichtigePersonen: |-
   > ### Quest-Relevant
   > - Drogans Freund: **Gudren Felssucher**
@@ -29,11 +29,10 @@ wichtigePersonen: |-
   - Norbus Eisenrune (Zwerg #2) >> Tod
 
   > #### Momentane Begleitung
-  >  - **Baumel** (Goblin)
-  >  - 3 Pferde von **Big Al Karazorn**
+  >  - **Baumel** (Goblin) >> TOD
 
   #### Butterschädelhof
-  - **Big Al Karazorn**
+  - **Big Al Karazorn** (gerettet)
 wichtigeOrte: |
   - Butterschädelhof
     - [x] Ort erreicht

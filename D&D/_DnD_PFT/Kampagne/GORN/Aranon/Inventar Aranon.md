@@ -4,9 +4,9 @@ tags:
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0
-  GM: 224
+  GM: 324
   EM: 0
-  SM: 424
+  SM: 384
   KM: 900
 ---
 # `=this.file.name`
@@ -49,7 +49,7 @@ Geld:
 | [[Schleuder]]                     |   1    |    1    |   1    |
 | [[Holzschild]]                    |   1    |    6    |   6    |
 | [[Fackel]]                        |   2    |    1    |   2    |
-| [[Ration]]                        |   10   |    1    |   10   |
+| [[Ration]]                        |   4    |    1    |   4    |
 | [[Trinkschlauch]]                 |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern       |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]]       |   0    |    1    |   0    |
@@ -61,6 +61,10 @@ Geld:
 | [[Einfacher Rum]](Flasche)        |   5    |   0.5   |  2.5   |
 | [[Bergsilberkraut]]               |   1    |         |        |
 | [[Fellrüstung]]  (voller Orkblut) |   1    |   20    |   20   |
-| GESAMT                            |        |         |  64.3  |
+| Wein (Flasche)                    |   2    |    1    |   2    |
+| [[Schutzring]]                    |   1    |    0    |   0    |
+| [[Aurelisbeeren]]                 |   2    |    0    |   0    |
+| [[Nachtlichtkelch]]               |   2    |    0    |   0    |
+|                                   |        |         |        |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

@@ -256,9 +256,14 @@ gantt
 	weekday monday
 	section G.O.R.N
 		Ankunft in Hasenbeere mit der Vorratslieferung: done, milestone, a1, 2024-05-08 00:00, 9h
+		GORN bertitt den Wald Richtung Jagdhaus des Falken: done, a2, after a1, 8h
+		Lange Rast (versuch): done, a3, after a2, 3h
+		Wolfangriff: done, milestone, a4, after a3, 30m
+		Baumel gestorben: done, milestone, a5, after a3, 1h
+		Lange Rast: done, a6, after a4, 4h
 ```
 
-> Hier befinden wir uns aktuell!
+>
 
 ### Tag 17
 ```mermaid
@@ -268,10 +273,10 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-09 00:00, 
+		Lange Rast: a1, 2024-05-09 00:00, 8h
 ```
 
->
+>  Hier befinden wir uns aktuell!
 
 ### Tag 18
 ```mermaid

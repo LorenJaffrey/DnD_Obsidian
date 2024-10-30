@@ -1,5 +1,5 @@
 ---
-cssclass: drwn, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Name: Ar'go
 Stufe: 4
 Bewegung: 6
@@ -111,14 +111,14 @@ Zauber:
   - "[[Schutzwind]]"
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
-  Donnerschlag: 1
+  Donnerschlag: 2
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 1
+  Schockgriff: 2
   Windbö: 0
   Chaospfeil: 0
-  Hexenpfeil: 0
-  Magierrüstung: 1
+  Hexenpfeil: 3
+  Magierrüstung: 2
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
@@ -170,11 +170,10 @@ InputData:
   toogleView: false
   ShowHideSection:
     WeaponAttack: false
-    MagicAttack: false
+    MagicAttack: true
     Skills: false
-    Features: false
     Statistic: false
-    Personality: true
+    Personality: false
     Past: false
     BackgroundStory: false
 tags:
@@ -235,16 +234,112 @@ tags:
 > dv.el('div', metaBindCode); 
 > ```
 > 
-> ## Hintergrund
+> ```dataviewjs 
+> dv.el('h2', `<h2>Hintergrund</h2>`); 
+> ```
+> 
 > |  |  |
 > | ---- | ---- |
-> | Stufe | `=this.Stufe` |
+> | Stufe | `INPUT[number:Stufe]`|
 > | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
 > 
+> ```dataviewjs 
+> dv.el('h2', `<h2>Navigation</h2>`); 
+> ```
+> 
+> | Tab                   |                      Ein-/Ausblenden                      |
+> | --------------------- |:---------------------------------------------------------:|
+> | Waffen Angriff        |  `INPUT[toggle:InputData.ShowHideSection.WeaponAttack]`   |
+> | Magischer Angriff     |   `INPUT[toggle:InputData.ShowHideSection.MagicAttack]`   |
+> | Fähigkeiten           |     `INPUT[toggle:InputData.ShowHideSection.Skills]`      |
+> | Persönlichkeit        |   `INPUT[toggle:InputData.ShowHideSection.Personality]`   |
+> | Statistik             |    `INPUT[toggle:InputData.ShowHideSection.Statistic]`    |
+> | Vergangenheit         |      `INPUT[toggle:InputData.ShowHideSection.Past]`       |
+> | Hintergrundgeschichte | `INPUT[toggle:InputData.ShowHideSection.BackgroundStory]` |
+>
+> ```dataviewjs 
+> dv.el('h2', `<h2>Zauberplätze</h2>`); 
+> ```
+>  
+> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
+> |:----:|:-------------------------------:|:-----------------------------------:|
+> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
+> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
+> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
+> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
+> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
+> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
+> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
+> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
+> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>
+> ```dataviewjs 
+> dv.el('h2', `<h2>Zauberpunkte</h2>`); 
+> ```
+> 
+> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
+> |:----:|:-------------------------------:|:-----------------------------------:|
+> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
+>
+> | Zauberlevel | Umwandlungskosten |
+> | ----------- |:-----------------:|
+> | Level 1     |         2         |
+> | Level 2     |         3         |
+> | Level 3     |         5         |
+> | Level 4     |         6         |
+> | Level 5     |         7         |
+> | Level 6     |          -         |
+> | Level 7     |          -         |
+> | Level 8     |          -         |
+> | Level 9     |          -         | 
+>
+> ```dataviewjs 
+> dv.el('h2', `<h2>Übung</h2>`); 
+> ```
+> ## Waffen
+> ```dataview
+> LIST
+> FROM #Gegenstand/Waffe 
+> WHERE contains(this.Übung.Waffen, file.link) 
+> SORT file.name
+> ```
+>
+> ## Sprachen
+> ```dataview
+> LIST
+> FROM #Sprache
+> WHERE contains(this.Übung.Sprachen, file.link)
+> SORT file.name
+> ```
+> 
+> ## Werkzeuge
+> ```dataview
+> LIST
+> FROM #Gegenstand/Werkzeug 
+> WHERE contains(this.Übung.Werkzeuge, file.link)
+> SORT file.name
+> ```
+>
+> ## Talente
+> ```dataview
+> LIST
+> FROM #Talent
+> WHERE contains(this.Merkmale.Talente, file.link)
+> SORT file.name
+> ```
+>
+> ## Klassenmerkmale
+> ```dataview
+> LIST
+> FROM #Merkmal
+> WHERE contains(this.Merkmale.Klasse, file.link)
+> SORT file.name
+> ```
+>
 
 > [!infobox|left]
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
@@ -305,7 +400,7 @@ tags:
 > | [[Rettungswurf]] `=choice(this.Rettungswürfe.Weisheit=2, "🔱🔱", choice(this.Rettungswürfe.Weisheit=1, "🔱",""))`  (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Rettungswürfe.Weisheit*(ceil(this.Stufe/4)+1))` )         |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Rettungswürfe.Weisheit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Heilkunde]] `=choice(this.Fertigkeiten.Heilkunde=2, "🔱🔱", choice(this.Fertigkeiten.Heilkunde=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Heilkunde*(ceil(this.Stufe/4)+1))`)              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Heilkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Mit Tieren umgehen]] `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "🔱🔱", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Mit_Tieren_umgehen*(ceil(this.Stufe/4)+1))`)          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Mit_Tieren_umgehen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "🔱🔱", choice(this.Fertigkeiten.Motiv_erkennen=1, "🔱",""))` (`=floor((((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))-4)`) (🍄)             |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
+> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "🔱🔱", choice(this.Fertigkeiten.Motiv_erkennen=1, "🔱",""))` (`=floor((((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Motiv_erkennen*(ceil(this.Stufe/4)+1))-4)`) (🪫)             |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
 > | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "🔱🔱", choice(this.Fertigkeiten.Überlebenskunst=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Überlebenskunst*(ceil(this.Stufe/4)+1))`)             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "🔱🔱", choice(this.Fertigkeiten.Wahrnehmung=1, "🔱",""))` (`=floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`)            |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
 > [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
@@ -318,16 +413,13 @@ tags:
 > | [[Attribute\|Attributswert]] (`=choice(floor(((this.Attribute.Charisma)-10)/2)>0, "+" + floor(((this.Attribute.Charisma)-10)/2), floor(((this.Attribute.Charisma)-10)/2))`)               |                                                                            `=this.Attribute.Charisma`                                                                              |
 > | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Charisma)-10)/2) + "\|none\|noform\```"`                                         |
 > | [[Rettungswurf]] `=choice(this.Rettungswürfe.Charisma=2, "🔱🔱", choice(this.Rettungswürfe.Charisma=1, "🔱",""))` ( `=floor(((this.Attribute.Charisma)-10)/2)+(this.Rettungswürfe.Charisma*(ceil(this.Stufe/4)+1))`)          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Rettungswürfe.Charisma*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
-> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "🔱🔱", choice(this.Fertigkeiten.Auftreten=1, "🔱",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))-4)`) (🍄)          |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
+> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "🔱🔱", choice(this.Fertigkeiten.Auftreten=1, "🔱",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Auftreten*(ceil(this.Stufe/4)+1))-4)`) (🪫)          |   `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"`    |
 > | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "🔱🔱", choice(this.Fertigkeiten.Einschüchtern=1, "🔱",""))` (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Einschüchtern*(ceil(this.Stufe/4)+1))`)        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
-> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "🔱🔱", choice(this.Fertigkeiten.Täuschen=1, "🔱",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))-4)`) (🍄)      | `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"` |
+> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "🔱🔱", choice(this.Fertigkeiten.Täuschen=1, "🔱",""))` (`=floor((((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Täuschen*(ceil(this.Stufe/4)+1))-4)`) (🪫)      | `$="```dice:1d20+" + (Math.floor((((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))-4)) + "\|none\|noform\```"` |
 > | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "🔱🔱", choice(this.Fertigkeiten.Überzeugen=1, "🔱",""))`  (`=floor(((this.Attribute.Charisma)-10)/2)+(this.Fertigkeiten.Überzeugen*(ceil(this.Stufe/4)+1))`)      | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+> 
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
-
-|                     Waffen Angriff                     |                   Magischer Angriff                   |                   Fähigkeiten                    |                      Merkmale                      |                      Statistik                      |                    Persönlichkeit                     |                 Vergangenheit                  |                   Hintergrundgeschichte                   |
-|:------------------------------------------------------:|:-----------------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------:|:----------------------------------------------:|:---------------------------------------------------------:|
-| `INPUT[toggle:InputData.ShowHideSection.WeaponAttack]` | `INPUT[toggle:InputData.ShowHideSection.MagicAttack]` | `INPUT[toggle:InputData.ShowHideSection.Skills]` | `INPUT[toggle:InputData.ShowHideSection.Features]` | `INPUT[toggle:InputData.ShowHideSection.Statistic]` | `INPUT[toggle:InputData.ShowHideSection.Personality]` | `INPUT[toggle:InputData.ShowHideSection.Past]` | `INPUT[toggle:InputData.ShowHideSection.BackgroundStory]` |
 
 > [!column | flex 3 no-title]
 >> ## Rasten
@@ -458,50 +550,16 @@ tags:
 
 ## Magie
 
->[!column | 2 no-title]
->> ### [[Odemwaffe | Blitz-Odem]] 
->>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
->>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
->> 
->>>[!column | no-title]   
->>>>  ###### Zauberplätze
->>>>  
->>>> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->>>> |:----:|:-------------------------------:|:-----------------------------------:|
->>>> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->>>> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->>>> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->>>> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->>>> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->>>> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->>>> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->>>> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->>>> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
->>>
->>>> ###### Zauberpunkte
->>>> 
->>>> | Stufe |    [[Zauberpunkte]] Maximal     |      [[Zauberpunkte]] aktuell       |
->>>> |:----:|:-------------------------------:|:-----------------------------------:|
->>>> |  `$=dv.current().Stufe`  | `$=(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1*2)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2*3)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3*5)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4*6)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5*7)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6*9)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7*10)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8*11)+(dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9*13)` | `INPUT[number():InputData.Zauberpunkte]` |
->>>>
->>>> | Zauberlevel | Umwandlungskosten |
->>>> | ----------- |:-----------------:|
->>>> | Level 1     |         2         |
->>>> | Level 2     |         3         |
->>>> | Level 3     |         5         |
->>>> | Level 4     |         6         |
->>>> | Level 5     |         7         |
->>>> | Level 6     |          -         |
->>>> | Level 7     |          -         |
->>>> | Level 8     |          -         |
->>>> | Level 9     |          -         | 
->>
->
+>[!column | 2 flex no-title]
 >> ### Zauberangriff / Zauber wirken
 >> | [[Zauberattribut]] | Zauberangriffsbonus | Zauberrettungswurf-SG |
 >> | ---------------------- | :--------------------: | :---------------------------------------------------------------------------------------: |
 >> | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> 
+>> ### [[Odemwaffe | Blitz-Odem]] 
+>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
 >> ## Zaubertricks
 >> ```dataview
@@ -568,7 +626,7 @@ tags:
 >
 
 ## Fähigkeiten
-> [!column | 2 no-title]
+> [!column | 2  no-title]
 >> ### Merkmale
 >>> [!column | 2 no-title]
 >>>> ![[Stürmische Magie]]
@@ -588,51 +646,6 @@ tags:
 >>>
 >>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
-
-## Übung / Merkmale
-
-> [!column | flex no-title]
->> ## Waffen
->> ```dataview
->> LIST
->> FROM #Gegenstand/Waffe 
->> WHERE contains(this.Übung.Waffen, file.link) 
->> SORT file.name
->> ```
->>
->> ## Sprachen
->> ```dataview
->> LIST
->> FROM #Sprache
->> WHERE contains(this.Übung.Sprachen, file.link)
->> SORT file.name
->> ```
->> 
->> ## Werkzeuge
->> ```dataview
->> LIST
->> FROM #Gegenstand/Werkzeug 
->> WHERE contains(this.Übung.Werkzeuge, file.link)
->> SORT file.name
->> ```
->
->> ## Talente
->> ```dataview
->> LIST
->> FROM #Talent
->> WHERE contains(this.Merkmale.Talente, file.link)
->> SORT file.name
->> ```
->>
->> ## Klassenmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Klasse, file.link)
->> SORT file.name
->> ```
->
-
 
 ## Persönlichkeit
 
@@ -664,7 +677,7 @@ tags:
 >> |--------------------|--------------------------------|:-------------------------------------------------------------------------------:|:----------------------------------------------:|
 >> | Herkunft / Lebensweise |    Einsiedler / Naturverbunden     |                 Argo verliert die [[Übung]] von [[Überzeugen]]                  | Argo erhält [[Übung]] auf [[Überlebenskunst]]  |
 >> |         [[Völker\|Volk]]         |         [[Drachenblütige\|Drachengeborener]]         |                         siehe Spalte [[Makel]] Naivität                         |  [[Stärke]] wird von (Basis) 8 auf 10 erhöht   |
->> |       [[Makel]] (🍄)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
+>> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
 >>  
 >> ## Aussehen
 >> |  |  |
@@ -708,15 +721,6 @@ tags:
 >> 		  max: 100,		  
 >> 	      x: {
 >> 	        beginAtZero: true
->> 	      }
->> 	    },
->> 	    animations: {
->> 	      tension: {
->> 	        duration: 1000,
->> 	        easing: 'linear',
->> 	        from: 1,
->> 	        to: 0,
->> 	        loop: true
 >> 	      }
 >> 	    }
 >> 	}
@@ -937,8 +941,6 @@ const toggleViewMagicAttackMetaData = mb.parseBindTarget('InputData.ShowHideSect
 const changeEventPointerMagicAttack = engine.reactive((value) => {onToogleChange(value, 'Magie')}, mb.getMetadata(toggleViewMagicAttackMetaData));
 const toggleViewSkillsMetaData = mb.parseBindTarget('InputData.ShowHideSection.Skills', context.file.path);
 const changeEventPointerSkills = engine.reactive((value) => {onToogleChange(value, 'Fähigkeiten')}, mb.getMetadata(toggleViewSkillsMetaData));
-const toggleViewFeaturesMetaData = mb.parseBindTarget('InputData.ShowHideSection.Features', context.file.path);
-const changeEventPointerFeatures = engine.reactive((value) => {onToogleChange(value, 'Übung / Merkmale')}, mb.getMetadata(toggleViewFeaturesMetaData));
 const toggleViewPersonalityMetaData = mb.parseBindTarget('InputData.ShowHideSection.Personality', context.file.path);
 const changeEventPointerPersonality = engine.reactive((value) => {onToogleChange(value, 'Persönlichkeit')}, mb.getMetadata(toggleViewPersonalityMetaData));
 const toggleViewPastMetaData = mb.parseBindTarget('InputData.ShowHideSection.Past', context.file.path);
@@ -979,7 +981,6 @@ setTimeout(()=>{
 	mb.subscribeToMetadata(toggleViewWeaponAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerWeaponAttack.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewMagicAttackMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerMagicAttack.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewSkillsMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerSkills.refresh(value); }); 
-	mb.subscribeToMetadata(toggleViewFeaturesMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerFeatures.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewPersonalityMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPersonality.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewPastMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerPast.refresh(value); }); 
 	mb.subscribeToMetadata(toggleViewBackgroundStoryMetaData, component, (value) => { eventIsTriggered = true; changeEventPointerBackgroundStory.refresh(value); }); 
@@ -1003,7 +1004,6 @@ function initMetaBindings(){
 	changeEventPointerWeaponAttack.refresh(showHideSectionMetadata.WeaponAttack);
 	changeEventPointerMagicAttack.refresh(showHideSectionMetadata.MagicAttack);
 	changeEventPointerSkills.refresh(showHideSectionMetadata.Skills);
-	changeEventPointerFeatures.refresh(showHideSectionMetadata.Features);
 	changeEventPointerPersonality.refresh(showHideSectionMetadata.Personality);
 	changeEventPointerPast.refresh(showHideSectionMetadata.Past);
 	changeEventPointerBackgroundStory.refresh(showHideSectionMetadata.BackgroundStory);

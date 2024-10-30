@@ -67,7 +67,7 @@
 >> <h2>Drogan</h2>
 >> <canvas id="radarChartDrogan" width="400" height="400"  style="border: none;"></canvas>
 >
->> <h2>Jon</h2>
+>> <h2>Jon (☠)</h2>
 >> <canvas id="radarChartJon" width="400" height="400"  style="border: none;"></canvas>
 >
 >> <h2>Lucian</h2>
@@ -76,7 +76,7 @@
 >> <h2>Niptac</h2>
 >> <canvas id="radarChartNiptac" width="400" height="400"  style="border: none;"></canvas>
 >
->> <h2>Baumel</h2>
+>> <h2>Baumel (☠)</h2>
 >> <canvas id="radarChartBaumel" width="400" height="400"  style="border: none;"></canvas>
 >
 
