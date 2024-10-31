@@ -15,7 +15,7 @@ Angesichts der langen, einsamen Winter hält Falke stets Vorräte für eine Jahr
 Außerdem hat er damit begonnen, Orks zu jagen und ihre Köpfe in sein Trophäenzimmer zu hängen. 
 Corwin hat ihm aus Furcht vor Vergeltung davon abgeraten, doch Falke tötet schon lange Orks und duldet sie nicht als Nachbarn.
 
-Besucher dürfen gratis im Gästehaus nächtigen und mit Falke essen. 
+Besucher dürfen gratis im Gästehaus nächtigen und mit Falke essen.
 Hochstehenden Gästen bietet Falke ein komfortables Privatzimmer im Haupthaus (Bereich J12) für 10 GM die Nacht an.
 
 ## Überblick

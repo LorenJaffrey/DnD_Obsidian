@@ -383,7 +383,6 @@ Wenn er die Gelegenheit bekommt, teilt er den Charakteren folgende nützliche In
 - "Ich sehe immer mehr Orks in den Wäldern. 
    Hässliche Bastarde."
 - ﻿﻿"Die Orks scheinen sich mit den bösen Halborks verbündet zu haben, die südöstlich von hier hausen. 
-   Diese Halborks sind häufig mit kleinen Waldkreaturen unterwegs, die wie Stöcke aussehen.
-   Grässliche  Biester allesamt."
-- "Die Halborks hausen in einem verfallenen, überwucherten Steinbau etwa zehn Meilen von hier. 
+   Diese Halborks beten irgendeine böse Sturmgottheit an"
+- "Ich beobachtete einige dieser Kreaturen bei einem verfallenen, überwucherten Steinbau etwa zehn Meilen von hier. 
    Das Haus wurde angeblich von einem Gelehrten errichtet, der die Elfenruinen in diesen Wäldern studiert hat."
