@@ -29,7 +29,7 @@ Gewicht: 10 Pfund
 Kosten: 25 GM
 Verfügbarkeit: gewöhnlich
 ---
-## `=this.file.name` (Fernkampf)
+## `=this.file.name`
 > [!infobox]
 > # `=this.file.name`
 > ![[BIANKA.webp]]
@@ -54,6 +54,6 @@ Jeder, der sie in die Hand nimmt, spürt sofort die durchdachte Konstruktion und
 
 ## Handel
 
-| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+| Waffe             |         Gewicht | Kategorie         |
+| ----------------- | ---------------:| ----------------- |
+| `=this.file.name` | `=this.Gewicht` | `=this.Kategorie` |
