@@ -1,10 +1,11 @@
 ---
 tags:
   - Angriff/Nahkampf
-Schaden: 2d10
+Schaden: 1d4
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
-Reichweite: 3 Meter (2 Kästchen)
+  - "[[Finesse]]"
+Reichweite: 1,5 Meter (1 Kästchen)
 ---
 ## `=this.file.name`
 | Angriff           | Reichweite         | Schaden                       | Schadensart         | Eigenschaften         |

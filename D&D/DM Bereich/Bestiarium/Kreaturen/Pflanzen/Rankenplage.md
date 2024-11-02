@@ -1,51 +1,50 @@
 ---
 tags:
-  - Kreatur/Monstrosität
-aliases:
+  - Kreatur/Pflanze
+aliases: 
 Größenkategorie: "[[Mittelgroß]]"
-Typ: "[[Monstrositäten|Monstrosität]]"
-Subtyp:
-Gesinnung: "[[Chaotisch Böse]]"
-Herausforderungsgrad: 4
-Stufe: 8
-Trefferwürfel: d10
+Typ: "[[Pflanzen|Pflanze]]"
+Subtyp: "[[Plagen|Plage]]"
+Gesinnung: "[[Neutral Böse]]"
+Herausforderungsgrad: 0.5
+Stufe: 4
+Trefferwürfel: d8
 Bewegung:
-  Boden: 12
-  Fliegen:
-  Schwimmen:
-  Klettern: 
-  Graben:
+  Boden: 3
+  Fliegen: 0
+  Schwimmen: 0
+  Klettern: 0
+  Graben: 0
 Sinne:
-  - "[[Dunkelsicht]] 18m (12 Kästchen)"
+  - "[[Blindsicht]] 18m (12 Kästchen)"
 Verteidigung:
-  Rüstung:
+  Rüstung: 
   Schild: 
-  Natürliche_Rüstung: 12
+  Natürliche_Rüstung: 13
   Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
-      - "[[Nichtmagische Angriffe]]"
-    Schadensimmunität:
-      - "[[Nekrotischer Schaden]]"
+    Schadensimmunität: 
     Zustandsimmunität:
-      - "[[Verängstigt]]"
+      - "[[Blind]]"
+      - "[[Taub]]"
 Angriff:
-  Waffen:
+  Waffen: 
   Angriffe:
-    - "[[Biss]]"
+    - "[[Rankenhieb]]"
 Attribute:
-  Stärke: 18
-  Geschicklichkeit: 16
-  Konstitution: 16
-  Intelligenz: 6
-  Weisheit: 14
-  Charisma: 10
+  Stärke: 15
+  Geschicklichkeit: 8
+  Konstitution: 14
+  Intelligenz: 5
+  Weisheit: 10
+  Charisma: 3
 Rettungswürfe:
-  Stärke: 1
-  Geschicklichkeit: 1
+  Stärke: 0
+  Geschicklichkeit: 0
   Konstitution: 0
   Intelligenz: 0
-  Weisheit: 1
+  Weisheit: 0
   Charisma: 0
 Fertigkeiten:
   Akrobatik: 0
@@ -56,7 +55,7 @@ Fertigkeiten:
   Fingerfertigkeit: 0
   Geschichte: 0
   Heilkunde: 0
-  Heimlichkeit: 2
+  Heimlichkeit: 1
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
   Nachforschungen: 0
@@ -65,22 +64,19 @@ Fertigkeiten:
   Täuschen: 0
   Überlebenskunst: 0
   Überzeugen: 0
-  Wahrnehmung: 1
+  Wahrnehmung: 0
 Sprachen:
+  - "versteht [[Gemeinsprache]]"
 Merkmale:
-  - "[[Rudeltaktik]]"
-  - "[[Scharfes Gehör]]"
-  - "[[Scharfer Geruchssinn]]"
-  - "[[Umwerfen]]"
-  - "[[Schattenversteck]]"
-  - "[[Schattenschritt]]"
-  - "[[Schreckliches Heulen]]"
+  - "[[Falsches Erscheinungsbild]]"
+  - "[[Umschlingender Angriff]]"
+  - "[[Umschlingende Pflanzen]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 # `=this.file.name`
 > [!column | 2 flex | no-title]
->> ![[direwolf.webp |350]]
+>> ![[vine_blight.jpg | 250]]
 >> ## `=this.file.name`
 >> |  |  |
 >> | ---- | ---- |

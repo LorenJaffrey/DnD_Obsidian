@@ -1,6 +1,6 @@
 ---
 tags:
-  - Angriff
+  - Angriff/Nahkampf
 Schaden: 2d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Angriff
+  - Angriff/Nahkampf
 Schaden: 2d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
