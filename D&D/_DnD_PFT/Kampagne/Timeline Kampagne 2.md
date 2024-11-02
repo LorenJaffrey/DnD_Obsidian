@@ -1,3 +1,8 @@
+## Aktueller Zeitpunkt
+
+-> Woche 3: Tag 18
+
+
 # Woche 1
 
 ### Tag 1 + 2
@@ -274,9 +279,16 @@ gantt
 	weekday monday
 	section G.O.R.N
 		Lange Rast: a1, 2024-05-09 00:00, 8h
+		Ochsenkarren gefunden: done, a2, after a1, 1h
+		Verlaufen: done, a3, after a2, 2h
+		Weg wieder gefunden: done, a4, after a3, 2h
+		Verlaufen: done, a5, after a4, 2h
+		Weg wieder gefunden: done, a6, after a5, 2h
+		Jagdhaus des Falken erreicht: done, a7, after a6, 2h	
+		Essen und Übernachtung im Jagdhaus: done, a8, after a7, 5h	
 ```
 
->  Hier befinden wir uns aktuell!
+>
 
 ### Tag 18
 ```mermaid
@@ -286,10 +298,14 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-10 00:00, 
+		Lange Rast: a1, 2024-05-10 00:00, 8h
+		Reise weiter Richtung Holzfällerlager: done, a2, after a1, 6h
+		Ankunft im Holzfällerlager: done, a3, after a2, 2.5h
+		Überfall durch "Ankheg" Monster: done, milestone, a4, after a3, 0.25h
 ```
 
->
+
+>  Hier befinden wir uns aktuell!
 
 ### Tag 19
 ```mermaid

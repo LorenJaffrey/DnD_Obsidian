@@ -14,7 +14,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 33
+  TP: 8
   TW: 4
   TempTP: 0
 Attribute:
@@ -114,18 +114,14 @@ ZauberStatistik:
   Donnerschlag: 2
   Kältestrahl: 2
   Klingenbann: 0
-  Schockgriff: 2
+  Schockgriff: 4
   Windbö: 0
-  Chaospfeil: 0
+  Chaospfeil: 1
   Hexenpfeil: 3
   Magierrüstung: 2
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 0
 InputData:
-  Uhrzeit1: 00:00
-  Uhrzeit2: 00:00
-  UhrzeitToogle1: false
-  UhrzeitToogle2: false
   GlücksPunkt1: false
   GlücksPunkt2: false
   GlücksPunkt3: false
@@ -144,10 +140,10 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 17
+  Zauberpunkte: 15
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 3
+    Grad_2: 2
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -233,11 +229,7 @@ tags:
 >  const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="spellpoints" max="${maxSpellPoints}" value="${currentSpellPoints}" style="width: 100%; height: 20px; --progress: rgb(57, 159, 148) !important;"></progress><span id="percentage3" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Zauberpunkte</span></div><div style="width: 60px; text-align: center;">${percentValue2}%</div></div>`; 
 > dv.el('div', metaBindCode); 
 > ```
-> 
-> ```dataviewjs 
-> dv.el('h2', `<h2>Hintergrund</h2>`); 
-> ```
-> 
+>
 > |  |  |
 > | ---- | ---- |
 > | Stufe | `INPUT[number:Stufe]`|
@@ -246,6 +238,11 @@ tags:
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
 > | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> 
+> |                            |  
+> | :--------------------------: | 
+> | `BUTTON[shortBreakButton]` |
+> | `BUTTON[longBreakButton]`|  
 > 
 > ```dataviewjs 
 > dv.el('h2', `<h2>Navigation</h2>`); 
@@ -345,6 +342,14 @@ tags:
 > <canvas id="radarChart" width="288" height="288" style="border: none;"></canvas>
 > 
 > ```dataviewjs 
+> dv.el('h2', `<h2>Übung</h2>`); 
+> ```
+> |  Eigenschaft  |  Wert  |  
+> | :---: | :---: | 
+> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
+> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
+> 
+> ```dataviewjs 
 > dv.el('h2', `<h2>Stärke</h2>`); 
 > ```
 > | [[Stärke]]                                                                                                                 |                                                                                  Attributswert                                                                                  |
@@ -421,31 +426,13 @@ tags:
 
 #  `=this.file.name`nthariel Maez'ralor Sturmzorn
 
-> [!column | flex 3 no-title]
->> ## Rasten
->> |                            |                           |
->> | :--------------------------: | :-------------------------: |
->> | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` | 
->>
+> [!column | flex 2 no-title]
 >>  ## Allgemeine Spiel - Parameter
->>> [!column | 2 flex no-title] 
->>>> | Erholungs-Art | 1 | 2 |
->>>> | :---: | :---: | :---: |
->>>> | [[Kurze Rast]]| `INPUT[toggle:InputData.UhrzeitToogle1]`| `INPUT[toggle:InputData.UhrzeitToogle2]` |
->>>> | Uhrzeit            | `INPUT[time():InputData.Uhrzeit1]` | `INPUT[time():InputData.Uhrzeit2]` |
->>>  
->>>> |  Eigenschaft  |  Wert  |  
->>>> | :---: | :---: | 
->>>> | [[Übung\|Übungsbonus]]  |   `=ceil(this.Stufe/4)+1`  |
->>>> | [[Initiative\|Initiativebonus]]  |  `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`  | 
->>>
->> 
 >> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 >> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 >> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
 >> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
 >> 
->
 >> ## Gesundheit
 >> |         |  [[Trefferpunkte]]       | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)       | [[Temporäre Trefferpunkte]] |
 >> | ------- | :------------------------: | :------------------------: | :---------------------------: |
@@ -621,6 +608,27 @@ tags:
 >> choice(Skalierbar,"X","") AS "Skalierbar" 
 >> FROM #Zauber
 >> WHERE contains(this.Zauber, file.link) AND Grad=2
+>> SORT file.name
+>> ```
+>> 
+>> ## Grad 3
+>> ```dataview
+>> TABLE WITHOUT ID
+>> file.link AS "Zauber",
+>> Schule,
+>> Zeitaufwand, 
+>> Schadensart,
+>> Schaden,
+>> Ziel,
+>> Reichweite, 
+>> choice(Verbal,"X","") AS "Verbal", 
+>> choice(Geste,"X","") AS "Geste", 
+>> Dauer, 
+>> choice(Konzentration,"X","") AS "Konzentration", 
+>> choice(Ritual,"X","") AS "Ritual", 
+>> choice(Skalierbar,"X","") AS "Skalierbar" 
+>> FROM #Zauber
+>> WHERE contains(this.Zauber, file.link) AND Grad=3
 >> SORT file.name
 >> ```
 >
