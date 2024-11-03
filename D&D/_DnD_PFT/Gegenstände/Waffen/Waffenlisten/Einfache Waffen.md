@@ -1,6 +1,7 @@
 ---
 aliases: Einfache Waffe, Einfachen Waffe, Einfachen Waffen
 tags:
+  - Liste/Waffen
 ---
 # `=this.file.name`
 

@@ -167,7 +167,7 @@ InputData:
   ShowHideSection:
     WeaponAttack: false
     MagicAttack: true
-    Skills: false
+    Skills: true
     Statistic: false
     Personality: false
     Past: false

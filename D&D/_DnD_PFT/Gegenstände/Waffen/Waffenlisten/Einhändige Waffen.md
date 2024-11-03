@@ -1,5 +1,6 @@
 ---
 tags:
+  - Liste/Waffen
 ---
 
 # `=this.file.name`

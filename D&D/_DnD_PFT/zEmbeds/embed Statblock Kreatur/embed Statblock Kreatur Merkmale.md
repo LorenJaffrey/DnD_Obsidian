@@ -31,35 +31,35 @@ if (merkmale) {
 			passiv.push(merkmale[i]);
 		}
 	}
-
+	
 	if (aktionen.length > 0) {
 		aktionenString += "#### Aktionen";
 		for (var i = 0, j = aktionen.length; i<j; i++) {
 			aktionenString += "\n - " + aktionen[i];
 		}
 	}
-
+	
 	if (bonusaktionen.length > 0) {
 		bonusaktionenString += "#### Bonusaktionen";
 		for (var i = 0, j = bonusaktionen.length; i<j; i++) {
 			bonusaktionenString +=  "\n - " + bonusaktionen[i];
 		}
 	}
-
+	
 	if (reaktionen.length > 0) {
 		reaktionenString += "#### Reaktionen";
 		for (var i = 0, j = reaktionen.length; i<j; i++) {
 			reaktionenString +=  "\n - " + reaktionen[i];
 		}
 	}
-
+	
 	if (passiv.length > 0) {
 		passivString += "#### Passive Merkmale";
 		for (var i = 0, j = passiv.length; i<j; i++) {
 			passivString +=  "\n - " + passiv[i];
 		}
 	}
-
+	
 	if (aktionenString) {
 		merkmaleString += aktionenString;
 	}

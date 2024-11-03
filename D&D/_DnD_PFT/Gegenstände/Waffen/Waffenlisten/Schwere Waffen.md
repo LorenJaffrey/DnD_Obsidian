@@ -1,6 +1,7 @@
 ---
 aliases: Schweren Waffen
 tags:
+  - Liste/Waffen
 ---
 # `=this.file.name`
 

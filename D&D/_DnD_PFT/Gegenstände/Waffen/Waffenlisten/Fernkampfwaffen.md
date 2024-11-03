@@ -1,6 +1,7 @@
 ---
 aliases: Fernkampfwaffe
 tags:
+  - Liste/Waffen
 ---
 # `=this.file.name`
 

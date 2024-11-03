@@ -75,25 +75,20 @@ Aussehen:
   Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
-  Volk:
-    - "[[Dunkelsicht]]"
-    - "[[Unempfindlichkeit]]"
-    - "[[Handwerkliches Geschick]]"
-    - "[[Steingespür]]"
-    - "[[Zwergisches Kampftraining]]"
-    - "[[Zwergische Rüstungsvertrautheit]]"
-  Klasse:
-    - "[[Kampfrausch]]"
-    - "[[Ungerüstete Verteidigung]]"
-    - "[[Rücksichtsloser Angriff]]"
-    - "[[Gefahrengespür]]"
-    - "[[Titanengriff]]"
-    - "[[Tödlicher Hieb]]"
-    - "[[Furchtlos]]"
-    - "[[Schnelle Bewegung]]"
-    - "[[Zusätzlicher Angriff]]"
-  Talente:
-    - "[[Meisterschaft Kampf mit zwei Waffen]]"
+  - "[[Dunkelsicht]]"
+  - "[[Unempfindlichkeit]]"
+  - "[[Steingespür]]"
+  - "[[Kampfrausch]]"
+  - "[[Ungerüstete Verteidigung]]"
+  - "[[Rücksichtsloser Angriff]]"
+  - "[[Gefahrengespür]]"
+  - "[[Titanengriff]]"
+  - "[[Tödlicher Hieb]]"
+  - "[[Furchtlos]]"
+  - "[[Schnelle Bewegung]]"
+  - "[[Zusätzlicher Angriff]]"
+Talente:
+  - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
   Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
   Klasse: "[[Barbar]]"
@@ -134,11 +129,8 @@ tags:
 
 > [!infobox]
 >  ![[Drogan.jpeg]]
-> ```dataviewjs 
-> const Gesundheit = dv.current().Gesundheit; 
-> const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet Healthbar]]
 > ```
 > ## Hintergrund
 > |  |  |
@@ -162,8 +154,6 @@ tags:
 > | Haarfarbe | `=this.Aussehen.Haarfarbe` |
 > | Hautfarbe | `=this.Aussehen.Hautfarbe` |
 >
-> ## Persönlichkeit
-> ---
 > ### Persönlichkeitsmerkmale 
 > `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
 > `=this.Persönlichkeit.Persönlichkeitsmerkmale[1]`
@@ -182,89 +172,55 @@ tags:
 [[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
-## Tracker
-|                           | 
-|:-------------------------:|
-| `BUTTON[longBreakButton]` |
-
-| Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
-| [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
-
-### Klasse
-| Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`)              | Bonuschaden [[Kampfrausch]]                                                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `INPUT[toggle:InputData.Rage1]` `INPUT[toggle:InputData.Rage2]` `INPUT[toggle:InputData.Rage3]` | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
-
-## Bewegung
-| Gehen                                              | [[Spurt]]                                          | [[Hochsprung]] mit Anlauf                            | [[Hochsprung]] ohne Anlauf                             | [[Weitsprung]] mit Anlauf                 | [[Weitsprung]] ohne Anlauf                  |
-| -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ------------------------------------------- |
-| `=this.Bewegung*1.5` m (`=this.Bewegung` Kästchen) | `=this.Bewegung*3` m (`=this.Bewegung*2` Kästchen) | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m | `=round((this.Attribute.Stärke*0.3),2)` m | `=round((this.Attribute.Stärke*0.3)/2,2)` m |
+> [!column | 3 no-title] 
+>> ## Tracker
+>> |                           | 
+>> |:-------------------------:|
+>> | `BUTTON[longBreakButton]` |
+>> 
+>> | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+>> | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+>> | [[Glück\|Glückspunkte]]  | `INPUT[toggle:InputData.GlücksPunkt1]` |  `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |  -  |  -  |  -  |  -  |
+>> | [[Erschöpft\|Erschöpfung]]       |  `INPUT[toggle:InputData.Erschöpfung1]`  | `INPUT[toggle:InputData.Erschöpfung2]` |  `INPUT[toggle:InputData.Erschöpfung3]`  |  `INPUT[toggle:InputData.Erschöpfung4]`  | `INPUT[toggle:InputData.Erschöpfung5]`  |  `INPUT[toggle:InputData.Erschöpfung6]`  |  `INPUT[toggle:InputData.Erschöpfung7]`  |  `INPUT[toggle:InputData.Erschöpfung8]`  |  `INPUT[toggle:InputData.Erschöpfung9]`  |
+>
+>> ## Klasse
+>> |                                                                                                                              |                                                                                                    |
+>> | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+>> | Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`) | `INPUT[toggle:InputData.Rage1]` `INPUT[toggle:InputData.Rage2]` `INPUT[toggle:InputData.Rage3]`    |
+>> | Bonuschaden [[Kampfrausch]]                                                                                                  | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
+>
+>> ## Bewegung
+>> ```dynamic-embed
+>> [[embed Character Sheet Bewegung]]
+>> ```
 
 ## Verteidigung
 > [!column | no-title] 
 >> ### Gesundheit
->> |         | [[Trefferpunkte]]        | [[Trefferwürfel]] (`=this.Hintergrund.Klasse.Trefferwürfel`)        | [[Temporäre Trefferpunkte]] |
->> | ------- | ------------------------ | ------------------------ | --------------------------- |
->> | Maximal | `=this.Gesundheit.MaxTP` | `=this.Stufe`  |                             |
->> | Aktuell | `INPUT[number():Gesundheit.TP]`    |`INPUT[number():Gesundheit.TW]` | `INPUT[number():Gesundheit.TempTP]`   |
+>> ```dynamic-embed
+>> [[embed Character Sheet Gesundheit]]
+>> ```
 >
->>### Rüstung
->>|                                                                   Rüstung                                                                    |                                                                                        [[Rüstungsklasse]]                                                                                         |                                                        [[Schadensreduktion]]                                                         |
->>|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
->>| `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung+floor(((this.Attribute.Konstitution)-10)/2)` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
->>
->>| Beschreibung | Bonus (bereits eingerechnet) |
->>| :---: |  :---: |
->>| Zusätzliche Rüstung | `INPUT[number:Verteidigung.Zusätzliche_Rüstung]` |
+>> ### Rüstung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung]]
+>> ```
 
 ## Angriff
 > [!column | no-title]
 >> ### Nahkampfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Reichweite,
->> "`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + choice(Angriffsbonus,("+" + Angriffsbonus),"") + "|none|noform`" AS "Angriff",
->> "`dice:" + Schaden + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
->> Schadensart,
->> Eigenschaften
->> FROM #Gegenstand/Waffe/Klasse/Nahkampfwaffe 
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
 >
 >> ### Schusswaffen 
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> "`dice:1d20+" + (floor(((this.Attribute.Geschicklichkeit)-10)/2)+ceil(this.Stufe/4)+1) + choice(AngriffsbonusFern,("+" + AngriffsbonusFern),"") +"|none|noform`" AS "Angriff",
->> "`dice:" + SchadenFern + "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2) + "\|none\|noform`"  AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe 
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Waffen Fernkampf]]
 >> ```
 >> 
 >> ### Wurfwaffen
->> ```dataview
->> TABLE WITHOUT ID 
->> file.link AS "Waffe",
->> Range1 AS "Min RW",
->> Range2 AS "Gnd RW",
->> Range3 AS "Max RW",
->> "`dice:1d20+" + (floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2)+ceil(this.Stufe/4)+1) + choice(AngriffsbonusFern,("+" + AngriffsbonusFern),"") + "|none|noform`" AS "Angriff",
->> "`dice:" + SchadenFern + "+" + floor(((choice(contains(Eigenschaften, [[Finesse]]), this.Attribute.Geschicklichkeit, this.Attribute.Stärke))-10)/2) + "\|none\|noform`"  AS "Schaden",
->> SchadensartFern AS "Schadensart",
->> EigenschaftenFern AS "Eigenschaften"
->> FROM #Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe  
->> WHERE contains(this.Waffen, file.link)
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Waffen Wurf]]
 >> ```
 
 Disclaimer: Waffen haben immer Übungsbonus...
@@ -272,70 +228,38 @@ Disclaimer: Waffen haben immer Übungsbonus...
 ## Attribute und Fertigkeiten
 > [!column  | 6 no-title]
 >> ## Stärke
->> |                                                                                                                  |                                                                                                                                                                    |
->> | -------------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                                                                                               |                                                                            `=this.Attribute.Stärke`   (`=choice(floor(((this.Attribute.Stärke)-10)/2)>0, "+" + floor(((this.Attribute.Stärke)-10)/2), floor(((this.Attribute.Stärke)-10)/2))`)                                                                          |
->> | [[Attribute#Attributswurf]]                                                                                                |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Stärke)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Stärke=2, "⭐⭐", choice(this.Rettungswürfe.Stärke=1, "⭐",""))`              |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Rettungswürfe.Stärke*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Athletik]] `=choice(this.Fertigkeiten.Athletik=2, "⭐⭐", choice(this.Fertigkeiten.Athletik=1, "⭐",""))`               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Athletik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))` | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Stärke)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Stärke]]
+>> ```
 >
 >> ## Geschicklichkeit
->> |                   |                                                                                                                                                                    |
->> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Geschicklichkeit`    (`=choice(floor(((this.Attribute.Geschicklichkeit)-10)/2)>0, "+" + floor(((this.Attribute.Geschicklichkeit)-10)/2), floor(((this.Attribute.Geschicklichkeit)-10)/2))`)                                                                            |
->> | [[Attribute#Attributswurf]]  |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Geschicklichkeit=2, "⭐⭐", choice(this.Rettungswürfe.Geschicklichkeit=1, "⭐",""))`          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Rettungswürfe.Geschicklichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Akrobatik]] `=choice(this.Fertigkeiten.Akrobatik=2, "⭐⭐", choice(this.Fertigkeiten.Akrobatik=1, "⭐",""))`               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Akrobatik*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Fingerfertigkeit]] `=choice(this.Fertigkeiten.Fingerfertigkeit=2, "⭐⭐", choice(this.Fertigkeiten.Fingerfertigkeit=1, "⭐",""))`          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Fingerfertigkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Heimlichkeit]] `=choice(this.Fertigkeiten.Heimlichkeit=2, "⭐⭐", choice(this.Fertigkeiten.Heimlichkeit=1, "⭐",""))`         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Geschicklichkeit)-10)/2)+(dv.current().Fertigkeiten.Heimlichkeit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Geschicklichkeit]]
+>> ```
 >
 >> ## Konstitution
->> |                   |                                                                                                                                                                    |
->> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Konstitution`  (`=choice(floor(((this.Attribute.Konstitution)-10)/2)>0, "+" + floor(((this.Attribute.Konstitution)-10)/2), floor(((this.Attribute.Konstitution)-10)/2))`)                                                                            |
->> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Konstitution)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Konstitution=2, "⭐⭐", choice(this.Rettungswürfe.Konstitution=1, "⭐",""))`          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Konstitution)-10)/2)+(dv.current().Rettungswürfe.Konstitution*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Konstitution]]
+>> ```
 >
 >> ## Intelligenz
->> |                   |                                                                                                                                                                    |
->> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Intelligenz`   (`=choice(floor(((this.Attribute.Intelligenz)-10)/2)>0, "+" + floor(((this.Attribute.Intelligenz)-10)/2), floor(((this.Attribute.Intelligenz)-10)/2))`)                                                                             |
->> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Intelligenz)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Intelligenz=2, "⭐⭐", choice(this.Rettungswürfe.Intelligenz=1, "⭐",""))`          |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Rettungswürfe.Intelligenz*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Arkane Kunde]] `=choice(this.Fertigkeiten.Arkane_Kunde=2, "⭐⭐", choice(this.Fertigkeiten.Arkane_Kunde=1, "⭐",""))`               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Arkane_Kunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Geschichte]] `=choice(this.Fertigkeiten.Geschichte=2, "⭐⭐", choice(this.Fertigkeiten.Geschichte=1, "⭐",""))`         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Geschichte*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Nachforschungen]] `=choice(this.Fertigkeiten.Nachforschungen=2, "⭐⭐", choice(this.Fertigkeiten.Nachforschungen=1, "⭐",""))`          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Nachforschungen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Naturkunde]] `=choice(this.Fertigkeiten.Naturkunde=2, "⭐⭐", choice(this.Fertigkeiten.Naturkunde=1, "⭐",""))`         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Naturkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Religion]] `=choice(this.Fertigkeiten.Religion=2, "⭐⭐", choice(this.Fertigkeiten.Religion=1, "⭐",""))`         | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Intelligenz)-10)/2)+(dv.current().Fertigkeiten.Religion*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Intelligenz]]
+>> ```
 >
 >> ## Weisheit
->> |                   |                                                                                                                                                                    |
->> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Weisheit`   (`=choice(floor(((this.Attribute.Weisheit)-10)/2)>0, "+" + floor(((this.Attribute.Weisheit)-10)/2), floor(((this.Attribute.Weisheit)-10)/2))`)                                                                             |
->> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Weisheit)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Weisheit=2, "⭐⭐", choice(this.Rettungswürfe.Weisheit=1, "⭐",""))`           |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Rettungswürfe.Weisheit*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Heilkunde]] `=choice(this.Fertigkeiten.Heilkunde=2, "⭐⭐", choice(this.Fertigkeiten.Heilkunde=1, "⭐",""))`               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Heilkunde*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Mit Tieren umgehen]] `=choice(this.Fertigkeiten.Mit_Tieren_umgehen=2, "⭐⭐", choice(this.Fertigkeiten.Mit_Tieren_umgehen=1, "⭐",""))`          | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Mit_Tieren_umgehen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Motiv erkennen]] `=choice(this.Fertigkeiten.Motiv_erkennen=2, "⭐⭐", choice(this.Fertigkeiten.Motiv_erkennen=1, "⭐",""))`               |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Motiv_erkennen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Überlebenskunst]] `=choice(this.Fertigkeiten.Überlebenskunst=2, "⭐⭐", choice(this.Fertigkeiten.Überlebenskunst=1, "⭐",""))`              |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Überlebenskunst*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Wahrnehmung]] `=choice(this.Fertigkeiten.Wahrnehmung=2, "⭐⭐", choice(this.Fertigkeiten.Wahrnehmung=1, "⭐",""))`             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Weisheit)-10)/2)+(dv.current().Fertigkeiten.Wahrnehmung*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Stufe/4)+1))`
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Weisheit]]
+>> ```
 >
 >> ## Charisma
->> |                   |                                                                                                                                                                    |
->> | --------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
->> | [[Attribute\|Attributswert]]                |                                                                            `=this.Attribute.Charisma`  (`=choice(floor(((this.Attribute.Charisma)-10)/2)>0, "+" + floor(((this.Attribute.Charisma)-10)/2), floor(((this.Attribute.Charisma)-10)/2))`)                                                                            |
->> | [[Attribute#Attributswurf]] |                                         `$="```dice:1d20+" + Math.floor(((dv.current().Attribute.Charisma)-10)/2) + "\|none\|noform\```"`                                         |
->> | [[Rettungswurf]] `=choice(this.Rettungswürfe.Charisma=2, "⭐⭐", choice(this.Rettungswürfe.Charisma=1, "⭐",""))`           |    `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Rettungswürfe.Charisma*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Auftreten]] `=choice(this.Fertigkeiten.Auftreten=2, "⭐⭐", choice(this.Fertigkeiten.Auftreten=1, "⭐",""))`             |   `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Auftreten*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"`    |
->> | [[Einschüchtern]] `=choice(this.Fertigkeiten.Einschüchtern=2, "⭐⭐", choice(this.Fertigkeiten.Einschüchtern=1, "⭐",""))`        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Einschüchtern*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Täuschen]] `=choice(this.Fertigkeiten.Täuschen=2, "⭐⭐", choice(this.Fertigkeiten.Täuschen=1, "⭐",""))`       | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Täuschen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
->> | [[Überzeugen]] `=choice(this.Fertigkeiten.Überzeugen=2, "⭐⭐", choice(this.Fertigkeiten.Überzeugen=1, "⭐",""))`        | `$="```dice:1d20+" + (Math.floor(((dv.current().Attribute.Charisma)-10)/2)+(dv.current().Fertigkeiten.Überzeugen*(Math.ceil(dv.current().Stufe/4)+1))) + "\|none\|noform\```"` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Attribute Charisma]]
+>> ```
 
 ## Übung
 
-> [!column | flex | no-title]
+> [!column | 4 no-title]
 >> ## Rüstung
 >> ```dataview
 >> LIST
@@ -348,6 +272,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```dataview
 >> LIST
 >> FROM #Gegenstand/Waffe 
+>> OR #Liste/Waffen 
 >> WHERE contains(this.Übung.Waffen, file.link) 
 >> SORT file.name
 >> ```
@@ -369,29 +294,21 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```
 
 ## Merkmale
-> [!column | flex | no-title]
->> ## Volksmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Volk, file.link)
->> SORT file.name
+> [!column | 4 no-title]
+>> ```dynamic-embed
+>> [[embed Character Sheet Merkmale Aktionen]]
 >> ```
 >
->> ## Talente
->> ```dataview
->> LIST
->> FROM #Talent
->> WHERE contains(this.Merkmale.Talente, file.link)
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Merkmale Bonusaktionen]]
 >> ```
 >
->> ## Klassenmerkmale
->> ```dataview
->> LIST
->> FROM #Merkmal
->> WHERE contains(this.Merkmale.Klasse, file.link)
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Merkmale  Reaktionen]]
+>> ```
+>
+>> ```dynamic-embed
+>> [[embed Character Sheet Merkmale Passiv]]
 >> ```
 
 ## Hintergrundgeschichte

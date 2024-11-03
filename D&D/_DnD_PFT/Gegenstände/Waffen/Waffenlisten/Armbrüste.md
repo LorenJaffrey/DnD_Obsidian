@@ -3,6 +3,7 @@ aliases:
   - Armbrust
   - Armbrüsten
 tags:
+  - Liste/Waffen
 ---
 # `=this.file.name`
 
