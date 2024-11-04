@@ -2,6 +2,7 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
+Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`
 

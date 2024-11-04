@@ -2,10 +2,10 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide/Zirkel_des_Hirten
+Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
-
-Du kannst Naturgeister heraufbeschwören, um die Welt um dich herum zu beeinflussen. 
+*Du kannst Naturgeister heraufbeschwören, um die Welt um dich herum zu beeinflussen.*
 Als eine [[Bonusaktion]] kannst du auf magische Weise einen körperlosen Geist beschwören, der in einem Bereich erscheint, den du innerhalb von 18 m um dich herum sehen kannst. 
 Der Geist erschafft um diesen Bereich eine Aura mit einem Radius von 9 m. 
 Er zählt weder als eine Kreatur noch als ein Objekt, auch wenn er wie die geisterhafte Erscheinung der Kreatur aussieht, die er darstellen soll.

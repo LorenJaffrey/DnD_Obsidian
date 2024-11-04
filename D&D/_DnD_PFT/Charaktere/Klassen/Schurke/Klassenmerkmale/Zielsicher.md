@@ -2,6 +2,7 @@
 aliases:
 tags:
 - Merkmal/Klasse/Schurke
+Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
 

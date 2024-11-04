@@ -2,9 +2,9 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
+Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`
-
 Du kannst deine [[Aktion]] nutzen, um auf magische Weise die Gestalt jedes Tieres anzunehmen, das du schon einmal gesehen hast. 
 Du kannst diese Fähigkeit zweimal einsetzen, ohne [[rasten]] zu müssen. 
 Nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] erhältst du alle verbrauchten Anwendungen zurück. 

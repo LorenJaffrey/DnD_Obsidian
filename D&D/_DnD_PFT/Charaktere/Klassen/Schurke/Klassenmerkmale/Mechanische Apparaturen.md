@@ -1,7 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Schurke/Meistertüftler
+  - Merkmal/Klasse/Schurke/Meistertüftler
+Einsatz: Passiv
 ---
 # `=this.file.name`
 Als gnomischer Tüftler stellst du hochspezialisierte Apparaturen her, die mächtige Effekte erzielen können, aber nicht immer zuverlässig funktionieren. 

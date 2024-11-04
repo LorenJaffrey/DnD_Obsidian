@@ -1,10 +1,11 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
-[[Vorteil und Nachteil|Vorteil]] auf [[Rettungswurf|Rettungswürfe]] gegen Zauber wenn basierend auf
+# `=this.file.name`
+Du  bist im [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] gegen Zauber wenn diese auf einem der folgenden [[Attribute]] basieren:
 - [[Intelligenz]]
 - [[Weisheit]]
 - [[Charisma]]

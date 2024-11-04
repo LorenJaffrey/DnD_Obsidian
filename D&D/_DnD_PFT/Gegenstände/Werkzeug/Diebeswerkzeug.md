@@ -1,9 +1,10 @@
 ---
 tags:
-- Gegenstand/Werkzeug
+  - Gegenstand/Werkzeug
 kosten: 25 GM
 gewicht: 1
 ---
+# `=this.file.name`
 *Das Diebeswerkzeug ist das Werkzeug, das wohl am häufigsten von Abenteurern genutzt wird. Es ist dazu gedacht, Schlösser zu knacken und Fallen zu entschärfen.* 
 
 Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit dem Entschärfen von Fallen oder dem Öffnen von Schlössern in Verbindung steht. Deine [[Übung]] im Umgang mit diesem Werkzeug vermittelt dir auch grundlegendes Wissen über Fallen und Schlösser.

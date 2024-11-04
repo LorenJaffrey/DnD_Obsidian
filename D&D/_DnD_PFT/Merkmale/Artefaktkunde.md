@@ -1,10 +1,8 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal
+  - Merkmal
 Einsatz: Passiv
 ---
-doppelter [[Übung|Übungsbonus]] auf [[Intelligenz|Intelligenzwürfe]] für
-- Umgang mit Magischer Gegenstand
-- alchemistischen Objekten
-- technischen Gerätschaften
+# `=this.file.name`
+Immer wenn du einen Wurf auf [[Geschichte]] ablegst der mit magischen Gegenständen, alchemistischen Objekten oder technischen Gerätschaften zu tun hat, darfst du deinen doppelten [[Übung|Übungsbonus]] anstatt des einfachen zum Wurf addieren.
