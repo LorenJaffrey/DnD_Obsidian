@@ -13,7 +13,7 @@ Lies bei ihrer Ankunft den Text im Kasten laut vor:
 >Im Lager herrscht eine unwirkliche Stille, und ihr seht niemanden.
 
 Die [[Ankheg|Ankhegs]] haben sich eingegraben und wittern mit ihrem Erschütterungssinn Beute. 
-Sie brechen in den Quadraten, die im Lageplan als „Ankhegbau" gekennzeichnet sind, aus dem Boden, wenn bestimmte Bedingungen erfüllt sind, die in Bereich H3 und H6 beschrieben werden. 
+Sie brechen in den Quadraten, die im Lageplan als „Ankhegbau" gekennzeichnet sind, aus dem Boden, wenn bestimmte Bedingungen erfüllt sind, die in Bereich [[Das Holzfällerlager#H3 Büro und Werkzeuglager]] und [[Das Holzfällerlager#H6 Südliches Lager]] beschrieben werden. 
 Wenn du dieses Szenario für einen Charakter leitest, greift immer nur ein [[Ankheg]] an.
 
 ## Bereiche des Lagers
@@ -25,19 +25,30 @@ Von diesen Hütten stehen nur noch Ruinen auf einem drei Meter hohen Felsen, dur
 ### H2: Alte Hütte und Kamin
 Von dieser Hütte sind nur noch die Trümmer eines Kamins und das Steinfundament übrig, durch das die [[Ankheg|Ankhegs]] sich nicht graben können.
 
-Totem: Ein Charakter, der die Trümmer des Kamins durchsucht, findet ein Totem: dreizehn winzige Puppen, die aus mit Haaren zusammengebundenen Zweigen gefertigt wurden. In die Zweige sind Blitze geschnitzt.
-Anschließend wurden die Püppchen in Schweineblut getaucht. Ein Charakter, der erfolgreich auf  [[Religion]] gegen [[Schwierigkeitsgrad|SG]] 15 würfelt, erkennt, dass das Totem Kreaturen in der Nähe Unglück bringen soll. 
+**Totem**
+Ein Charakter, der die Trümmer des Kamins durchsucht, findet ein Totem: dreizehn winzige Puppen, die aus mit Haaren zusammengebundenen Zweigen gefertigt wurden. 
+In die Zweige sind Blitze geschnitzt.
+Anschließend wurden die Püppchen in Schweineblut getaucht. 
+Ein Charakter, der erfolgreich auf  [[Religion]] gegen [[Schwierigkeitsgrad|SG]] 15 würfelt, erkennt, dass das Totem Kreaturen in der Nähe Unglück bringen soll. 
 Wenn das Totem zerstört wird, verlieren alle [[Ankheg|Ankhegs]], die noch nicht angegriffen haben, das Interesse am Lager und verlassen die Gegend unterirdisch.
 
-### H3: Büro und Werkzauglager
+### H3: Büro und Werkzeuglager
 Diese Hütte hat einen Holzboden und ist in zwei Räume unterteilt. 
 Im größeren Raum sind Holzfällergerätschaften verstreut - Sägen, Klettergeschirre aus Leder und so weiter. 
 Ein [[Ankheg]] versteckt sich unter dem Fußboden. 
 Wenn ein Charakter zum ersten Mal den Raum durchquert, bricht der [[Ankheg]] im mit „Ankhegbau" markierten Quadrat durch die Dielen und greift an.
 
+### Tibor Wester
 [[Tibor Wester]], ein Mensch (Gemeiner), hat sich im Büro im Norden verbarrikadiert.
 Er hat seinen Schreibtisch gegen die Tür geschoben und sich darauf hingekauert. 
 Wenn Tibor vor einer Entscheidung steht, trifft er die feigste und eigennützigste Möglichkeit.
+
+- ein seltsamer Händler kam vor einigen Tagen ins Lager
+	- er verkaufte "Glücksbringer"
+- kurz darauf griffen diese widerlichen Ungetüme uns an
+	- sie verschleppten meine Arbeiter unter die Erde
+	- ich konnte mich gerade noch in meinem Büro verbarrikadieren
+	- ich bin bereits halb verhungert und verdurstet
 
 ### H4: Steg
 Hier können Ruderboote und Flusskähne festgemacht werden, aber bei Ankunft der Charaktere ist der Steg leer.
