@@ -141,7 +141,7 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 17
+  Zauberpunkte: 4
   Zauberplätze:
     Grad_1: 4
     Grad_2: 3
