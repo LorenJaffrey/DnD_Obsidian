@@ -91,7 +91,8 @@ Merkmale:
 Talente:
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
-  Name: "Drogan"
+  Bild: "[[Drogan.jpeg]]"
+  Name: Drogan
   Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
   Klasse: "[[Barbar]]"
   Subklasse: "[[Pfad des Slayers]]"
@@ -130,46 +131,9 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ## `=this.Hintergrund.Name`
->  ![[Drogan.jpeg]]
 > ```dynamic-embed
-> [[embed Character Sheet Healthbar]]
+> [[embed Character Sheet Background]]
 > ```
-> ## Hintergrund
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `=this.Stufe` |
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
-> 
-> ## Aussehen
-> |  |  |
-> | ---- | ---- |
-> | Geschlecht | `=this.Aussehen.Geschlecht` |
-> | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
-> | Größe | `=this.Aussehen.Größe` |
-> | Gewicht | `=this.Aussehen.Gewicht` |
-> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
->
-> ### Persönlichkeitsmerkmale 
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[1]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[2]`
->
-> ### Ideale
-> `=this.Persönlichkeit.Ideale`
-> 
-> ### Bindungen
-> `=this.Persönlichkeit.Bindungen`
-> 
-> ### Makel
-> `=this.Persönlichkeit.Makel`
 
 ## Allgemein
 > [!column | 3 no-title] 

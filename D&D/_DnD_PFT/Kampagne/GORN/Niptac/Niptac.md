@@ -95,6 +95,7 @@ Merkmale:
 Talente:
   - "[[Verschwinden]]"
 Hintergrund:
+  Bild: "[[Niptac.jpeg]]"
   Name: Niptac
   Volk: "[[Gnome|Gnom]]"
   Klasse: "[[Schurke]]"
@@ -135,44 +136,9 @@ aliases:
 ---
 # `=this.file.name`
 > [!infobox]
-> ## `=this.Hintergrund.Name`
-> ![[Niptac.jpeg]]
-> ```dataviewjs 
-> const Gesundheit = dv.current().Gesundheit; 
-> const percentage = Math.round((Gesundheit.TP / Gesundheit.MaxTP) * 100);
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;">        <div style="width: 30px; text-align: center;">0</div>        <div style="flex: 1; position: relative;">            <progress id="health" max="${Gesundheit.MaxTP}" value="${Gesundheit.TP}" style="width: 100%; height: 20px;"></progress>            <span id="percentage" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">${percentage}%</span>        </div>        <div style="width: 30px; text-align: center;">${Gesundheit.MaxTP}</div>    </div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet Background]]
 > ```
-> ## Hintergrund
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `=this.Stufe` |
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
-> 
-> ## Aussehen
-> |  |  |
-> | ---- | ---- |
-> | Geschlecht | `=this.Aussehen.Geschlecht` |
-> | Alter | `=this.Aussehen.Alter` |
-> | Größenkategorie | `=this.Aussehen.Größenkategorie` |
-> | Größe | `=this.Aussehen.Größe` |
-> | Gewicht | `=this.Aussehen.Gewicht` |
-> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
->
-> ### Persönlichkeitsmerkmale 
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
-> ### Ideale
-> `=this.Persönlichkeit.Ideale`
-> ### Bindungen
-> `=this.Persönlichkeit.Bindungen`
-> ### Makel
-> `=this.Persönlichkeit.Makel`
 
 ## Allgemein
 ```dynamic-embed
@@ -180,9 +146,10 @@ aliases:
 ```
 
 ### Cooldowns
-|                               |                                                    | 
-| ----------------------------- | -------------------------------------------------- |
-| [[Verschwinden#Verschwinden]] | `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]` |
+|                               |                                                                                                                       |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [[Verschwinden#Verschwinden]] | `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]`                                                                    |
+| [[Hinterhältiger Angriff]]    | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
 
 ### Apparaturen (max `=ceil(this.Stufe/2)`)
 | Apparatur 1                                   | Apparatur 2                                   | Apparatur 3                                   |
