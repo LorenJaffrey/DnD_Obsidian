@@ -2,6 +2,7 @@
 tags:
   - Kreatur
 aliases:
+Bild: "[[orc.jpg | 350]]"
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
@@ -80,65 +81,8 @@ Anzahl_Legendäre_Aktionen: 3
 Legendäre_Aktionen:
   - "[[Augenstrahlen]]"
 ---
-# `=this.file.name`
-> [!column | 2 flex | no-title]
->> ![[orc.jpg | 350]]
->> ## `=this.file.name`
->> |  |  |
->> | ---- | ---- |
->> | [[Größenkategorie]] | `=this.Größenkategorie` |
->> | Typ | `=this.Typ` |
->> | Subtyp | `=this.Subtyp` |
->> | [[Gesinnung]] | `=this.Gesinnung` |
->> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
->> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
->> | [[Sprachen]] | `=this.Sprachen` |
->
->> ## Bewegung
->> ```dynamic-embed
->> [[embed Statblock Kreatur Bewegung]]
->> ```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Sinne]]
->>```
->>
->> ## Verteidigung
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Verteidigung]]
->>```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Resistenzen]]
->> ```
->
->> ## Attribute
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Attribute]]]
->> ```
->>
->> ## Fertigkeiten
->> ```dynamic-embed
->> [[embed Statblock Kreatur Fertigkeiten]]
->> ```
->> 
->> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Herausforderungsgrad/4)+1))`
->>
->>```dynamic-embed
->>[[embed Statblock Kreatur Merkmale]]
->>```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Legendäre Aktionen]]]
->> ```
->
->> ## Angriff
->> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Nahkampf]]
->> ```
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Fernkampf]]
->> ```
+```dynamic-embed
+[[embed Statblock Wilde Kreatur]]
+```
 
 - [ ] #task Hortaktionen [priority:: normal]

@@ -12,7 +12,7 @@ Wenn die Charaktere es schaffen, [[Rotbrenner]] zu bezaubern oder erfolgreich zu
 - Die [[Rotbrenner]] haben einige Gefangene in einem Zellenbereich „nahe der alten Gruft“ untergebracht, wo sie von Skeletten bewacht werden (siehe Bereich 4 und 5).
 
 ## Handlung
-- flüchtender [[Rotbrenner Schläger]] flüchtet zum [[Tresendar Anwesen]]
+- flüchtender [[Rotbrenner Schläger (old)]] flüchtet zum [[Tresendar Anwesen]]
 - Wenn Charaktere direkt zum [[Tresendar Anwesen]] wollen kommt [[Sildar Hallwinter]] dazu
 	- er rügt sie für ihr forsches Vorgehen
 	- möchte mit ihnen zusammen zum Bürgermeister [[Rathaus von Phandalin#Harbin Wester]]

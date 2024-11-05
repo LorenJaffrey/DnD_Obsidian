@@ -2,6 +2,7 @@
 tags:
   - Kreatur/Monstrosität
 aliases:
+Bild: "[[direwolf.webp |350]]"
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Monstrositäten|Monstrosität]]"
 Subtyp:
@@ -75,54 +76,6 @@ Merkmale:
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
-# `=this.file.name`
-> [!column | 2 flex | no-title]
->> ![[direwolf.webp |350]]
->> ```dynamic-embed
->> [[Statblock Kreatur Übersicht]]
->> ```
->
->> ## Bewegung
->> ```dynamic-embed
->> [[embed Statblock Kreatur Bewegung]]
->> ```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Sinne]]
->>```
->>
->> ## Verteidigung
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Verteidigung]]
->>```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Resistenzen]]
->> ```
->
->> ## Attribute
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Attribute]]]
->> ```
->>
->> ## Fertigkeiten
->> ```dynamic-embed
->> [[embed Statblock Kreatur Fertigkeiten]]
->> ```
->>
->>```dynamic-embed
->>[[embed Statblock Kreatur Merkmale]]
->>```
->>
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Legendäre Aktionen]]]
->> ```
->
->> ## Angriff
->> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Nahkampf]]
->> ```
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Fernkampf]]
->> ```
+```dynamic-embed
+[[embed Statblock Wilde Kreatur]]
+```

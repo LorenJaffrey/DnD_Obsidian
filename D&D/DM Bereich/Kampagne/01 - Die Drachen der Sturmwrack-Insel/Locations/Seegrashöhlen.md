@@ -88,7 +88,7 @@ Bei Niedrigwasser:
 	- 1 Sporendiener Oktopus
 	- 2 Blutmücken
 
-![[Sporendiener Oktopus]]
+![[Sporendiener Oktopus (old)]]
 
 
 ## B2: Pilzzucht

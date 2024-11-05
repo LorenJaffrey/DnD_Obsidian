@@ -15,7 +15,7 @@ Sobald ihre Freude endet, erfreuen sich [[Goblins]] daran, andere Kreaturen zu q
 ## Anführer und Gefolgsleute
 [[Goblins]] werde von den Stärksten oder Schlausten unter ihnen beherrscht. 
 Ein [[Goblin-Boss]] könnte einen einzelnen Bau beherrschen, während ein Goblinkönig oder eine Goblinkönigin (was nicht mehr ist als ein glorifizierter [[Goblin-Boss]]) Hunderte von [[Goblins]] regieren könnte, die auf mehrere Bauten verteilt sind, um das Überleben des Stammes zu garantieren. 
-[[Goblin-Boss|Goblin-Bosse]] sind schnell gestürzt, und viele Goblinstämme werden von [[Hobgoblin Kriegsherr (old)|Hobgoblin Kriegsherren]] oder [[Grottenschrat Häuptling|Grottenschrat-Häuptlingen]] übernommen.
+[[Goblin-Boss|Goblin-Bosse]] sind schnell gestürzt, und viele Goblinstämme werden von [[Hobgoblin Kriegsherr (old)|Hobgoblin Kriegsherren]] oder [[Grottenschrat Häuptling (old)|Grottenschrat-Häuptlingen]] übernommen.
 
 ## Herausfordernde Behausungen
 [[Goblins]] sichern ihre Behausungen mit Alarmsystemen, die vor der Ankunft von Eindringlingen warnen sollen. 
@@ -28,7 +28,7 @@ Wie Wölfe sind sie Rudeljäger, die durch Überzahl mutiger werden. Wenn sie vo
 
 ## Anhänger von Maglubiyet
 [[Maglubiyet]], der Mächtige, der Fürst der Tiefe und Dunkelheit, ist der höchste Gott der [[Goblinoiden]]. 
-Die meisten [[Goblins]] stellen ihn sich als fast vier Meter großen, von Kampfnarben bedeckten [[Goblin]] mit schwarzer Haut vor, aus dessen Augen Flammen lodern. 
+Die meisten [[Goblins]] stellen ihn sich als fast vier Meter großen, von Kampfnarben bedeckten [[Goblin (old)]] mit schwarzer Haut vor, aus dessen Augen Flammen lodern. 
 Er wird nicht aus Respekt angebetet, sondern aus Furcht. [[Goblins]] glauben, dass ihre Seelen, wenn sie im Kampf sterben, sich den Reihen von [[Maglubiyet|Maglubiyets]] Armee auf der Ebene Acheron anschließen. 
 Dies ist ein „Privileg", das die meisten [[Goblins]] fürchten, da sie die ewige Tyrannei des Mächtigen sogar noch mehr fürchten als den Tod.
 

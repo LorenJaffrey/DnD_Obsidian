@@ -3,13 +3,14 @@ aliases:
 - Orks
 tags:
 - Kreatur/Humanoide/Ork
+Bild: "[[orc_archer.png | 350]]"
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
 Subtyp: "[[Orks|Ork]]"
 Gesinnung: "[[Chaotisch Böse]]"
 Herausforderungsgrad: 0.5
 Stufe: 3
-Trefferwürfel: W8
+Trefferwürfel: d8
 Bewegung:
   Boden: 9
   Fliegen:
@@ -73,70 +74,6 @@ Merkmale:
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
-# `=this.file.name`
-> [!column | 2 flex | no-title]
->> ![[orc_archer.png | 350]]
->> ## `=this.file.name`
->> |  |  |
->> | ---- | ---- |
->> | [[Größenkategorie]] | `=this.Größenkategorie` |
->> | Typ | `=this.Typ` |
->> | Subtyp | `=this.Subtyp` |
->> | [[Gesinnung]] | `=this.Gesinnung` |
->> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
->> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
->> | [[Sprachen]] | `=this.Sprachen` |
->
->> ## Bewegung
->> ```dynamic-embed
->> [[embed Statblock Kreatur Bewegung]]
->> ```
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Sinne]]
->>```
->>
->> ## Verteidigung
->> ```dynamic-embed
->> [[embed Statblock Kreatur Verteidigung]]
->>```
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Resistenzen]]
->> ```
->
->> ## Attribute
->> ```dynamic-embed
->> [[embed Statblock Kreatur Attribute]]
->> ```
->>
->> ## Fertigkeiten
->> ```dynamic-embed
->> [[embed Statblock Kreatur Fertigkeiten]]
->> ```
->> 
->> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Herausforderungsgrad/4)+1))`
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Merkmale]]
->> ```
->>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Legendäre Aktionen]]
->> ```
->
->> ## Angriff
->> #### Nahkampfwaffen
->> ```dynamic-embed
->> [[embed Statblock Kreatur Waffen Nahkampf]]
->> ```
->> 
->> #### Schusswaffen 
->> ```dynamic-embed
->> [[embed Statblock Kreatur Waffen Fernkampf]]
->> ```
->> 
->> #### Wurfwaffen
->> ```dynamic-embed
->> [[embed Statblock Kreatur Waffen Wurf]]
->> ```
+```dynamic-embed
+[[embed Statblock Kreatur]]
+```

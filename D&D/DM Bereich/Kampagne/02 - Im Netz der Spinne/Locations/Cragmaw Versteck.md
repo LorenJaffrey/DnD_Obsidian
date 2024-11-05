@@ -42,7 +42,7 @@ Wenn die Charaktere zur östlichen Seite des Bachs wechseln, können sie um das 
 Die Dickichte um die Lichtung sind [[Schwieriges Gelände]], aber sie sind nicht gefährlich – nur lästig. Sie bieten Charakteren, die sich hinter ihnen befinden, [[Deckung#Halbe Deckung]].
 
 ### Kampf
-- 4 [[Goblin|Goblins]] (dreimal 8TP, einmal 9 TP)
+- 4 [[Goblin (old)|Goblins]] (dreimal 8TP, einmal 9 TP)
  
 Wenn die Goblins Eindringlinge in Bereich 1 bemerken, eröffnen sie das Feuer mit ihren Bögen. 
 Sie schießen durch das Dickicht und werden die Charaktere vermutlich [[Überraschung|überraschen]]überraschen. 
@@ -70,7 +70,7 @@ Wenn die [[Wolf|Wölfe]] von Gegnern außerhalb ihrer Reichweite gereizt werden,
 In jeder Runde, in der ein Charakter in Sicht bleibt, versuchen die Wölfe einen einzelnen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 15. 
 Beim ersten Versuch lockern sie den Stab, und der [[Schwierigkeitsgrad|SG]] sinkt auf 10. 
 Beim zweiten Erfolg reißen sie den Stab los oder verbiegen ihn, sodass ihre Ketten nicht mehr festgehalten werden.
-Ein [[Goblin]] oder [[Grottenschrat]] kann seine Aktion verwenden, um einen [[Wolf]] von seiner Kette zu befreien.
+Ein [[Goblin (old)]] oder [[Grottenschrat (old)]] kann seine Aktion verwenden, um einen [[Wolf]] von seiner Kette zu befreien.
 
 ### Spalte
 Eine schmale Öffnung in der Ostwand führt zu einem natürlichen Schacht, der 9 Meter nach oben in Bereich 8 führt.
@@ -96,10 +96,10 @@ Ergänze dann:
 >Ein weiterer Durchgang kreuzt diesen, ungefähr sechs Meter über dem Boden.
 
 ### Brücke im Norden
-Jeder Charakter, der die Brücke in Bereich 5 sehen kann, könnte auch den [[Goblin]] bemerken, der die Brücke bewacht. 
-Dazu ist ein vergleichender Wurf auf [[Wahrnehmung]] gegen die [[Heimlichkeit]] des [[Goblin|Goblins]] notwendig.
-Der [[Goblin]] bemerkt die Charaktere, wenn sie ein Licht bei sich führen oder sich der Brücke nicht heimlich nähern. 
-Der [[Goblin]] greift nicht an. Vielmehr versucht er, nach Osten wegzuschleichen, um seine Gefährten in Bereich 7 zu informieren, damit sie eine Überflutung auslösen (siehe den Abschnitt „Überflutung!“ in Bereich 5). 
+Jeder Charakter, der die Brücke in Bereich 5 sehen kann, könnte auch den [[Goblin (old)]] bemerken, der die Brücke bewacht. 
+Dazu ist ein vergleichender Wurf auf [[Wahrnehmung]] gegen die [[Heimlichkeit]] des [[Goblin (old)|Goblins]] notwendig.
+Der [[Goblin (old)]] bemerkt die Charaktere, wenn sie ein Licht bei sich führen oder sich der Brücke nicht heimlich nähern. 
+Der [[Goblin (old)]] greift nicht an. Vielmehr versucht er, nach Osten wegzuschleichen, um seine Gefährten in Bereich 7 zu informieren, damit sie eine Überflutung auslösen (siehe den Abschnitt „Überflutung!“ in Bereich 5). 
 Der Goblin bewegt sich unbemerkt, wenn sein Wurf auf  [[Heimlichkeit]] höher ausfällt als der passive Wert in [[Wahrnehmung]] aller Charaktere, die seine Bewegungen bemerken könnten.
 
 ### Westlicher Durchgang
@@ -123,11 +123,11 @@ Ergänze dann:
 >[!info] Beschreibung
 >Eine wacklige Brücke überquert den Durchgang und verbindet zwei Tunnel, die 6 Meter über dem Bachlauf liegen.
 
-Ein [[Goblin]] bewacht die Brücke. 
+Ein [[Goblin (old)]] bewacht die Brücke. 
 Er versteckt sich, aber die Charaktere können ihn bemerken, indem sie ihn in einem vergleichenden Wurf auf [[Wahrnehmung]] gegen [[Heimlichkeit]] des [[Goblins]] besiegen. 
 Die Wache ist faul und unaufmerksam. 
-Wenn kein Charakter eine Lichtquelle verwendet, können alle Charaktere einen Wurf auf [[Heimlichkeit]] gegen die passive [[Wahrnehmung]] des [[Goblin|Goblins]] versuchen, um an ihn heran zu kommen ohne bemerkt zu werden.
-Wenn der [[Goblin]] die Abenteurer bemerkt, gibt er den Goblins in Bereich 7 das Signal, eine Überflutung auszulösen und dann Pfeile auf die Charaktere
+Wenn kein Charakter eine Lichtquelle verwendet, können alle Charaktere einen Wurf auf [[Heimlichkeit]] gegen die passive [[Wahrnehmung]] des [[Goblin (old)|Goblins]] versuchen, um an ihn heran zu kommen ohne bemerkt zu werden.
+Wenn der [[Goblin (old)]] die Abenteurer bemerkt, gibt er den Goblins in Bereich 7 das Signal, eine Überflutung auszulösen und dann Pfeile auf die Charaktere
 abzufeuern.
 
 ### Brücke
@@ -142,8 +142,8 @@ Wer erfolgreich ist, kann sich an der Brücke festhalten und muss in Sicherheit 
 
 ### Überflutung!
 Die großen Becken in Bereich 7 haben zerstörbare Wände, die entfernt werden können, um einen Sturzbach von Wasser in den Hauptdurchgang des Unterschlupfs schwappen zu lassen. 
-In der Runde, nachdem die [[Goblin|Goblins]] in Bereich 7 ein Signal vom Kundschafter in Bereich 4 erhalten, beginnen sie die Stützpfeiler zu zerschlagen. 
-In der folgenden Runde fließt in der Initiative der [[Goblin|Goblins]] eine Flutwelle aus Wasser von Bereich 7 in den Bereich 1.
+In der Runde, nachdem die [[Goblin (old)|Goblins]] in Bereich 7 ein Signal vom Kundschafter in Bereich 4 erhalten, beginnen sie die Stützpfeiler zu zerschlagen. 
+In der folgenden Runde fließt in der Initiative der [[Goblin (old)|Goblins]] eine Flutwelle aus Wasser von Bereich 7 in den Bereich 1.
 
 >[!info] Beschreibung 
 >Der Durchgang wird plötzlich von einem mächtigen Brüllen erfüllt, als eine gewaltige Flutwelle von oben hereinbricht!
@@ -165,15 +165,15 @@ Die Cragmaw-Plünderer, die in der Festung stationiert sind, verwenden diesen Be
 >Die Luft ist trüb vom Rauch der Kochfeuer und stinkt nach schlecht gegerbtem Leder und ungewaschenen Goblins.
 
 ### Kampf
-- 4 [[Goblin|Goblins]] je 15 TP
-- 1 [[Goblin Boss|Fetter Goblin]] 26 TP
+- 4 [[Goblin (old)|Goblins]] je 15 TP
+- 1 [[Goblin Boss (old)|Fetter Goblin]] 26 TP
 
 Die gewöhnlichen Goblins kümmern sich um das Kochfeuer im unteren (nördlichen) Teil der Höhle in der Nähe des Eingangstunnels, während sich der Anführer im oberen (südlichen) Teil der Höhle ausruht.
 
 [[Sildar Hallwinter]], ein menschlicher Krieger, und [[Don-Jon Raskin]] werden in dieser Kammer gefangen gehalten. Sie sind sicher am südlichen Felsvorsprung der Kante angebunden. 
 Die Goblins haben sie verprügelt und gequält, sodass sie geschwächt sind und nur 1 Trefferpunkt übrig haben.
 
-Der [[Goblin Boss|Goblin-Anführer Yeemik]] ist der stellvertretende Anführer des ganzen Verstecks. 
+Der [[Goblin Boss (old)|Goblin-Anführer Yeemik]] ist der stellvertretende Anführer des ganzen Verstecks. 
 Wenn er sieht, dass die Charaktere die Oberhand gewinnen, schnappt er sich [[Sildar Hallwinter|Sildar]] und zieht ihn über den Vorsprung in den oberen Bereich und ruft: 
 „Waffen runter, oder dieser Mensch stirbt!“
 
@@ -205,10 +205,10 @@ Wenn die Goblins eines oder beide Becken abgelassen haben, um den Durchgang zu �
 >Die Geräusche des Wasserfalls hallen durch die Kaverne, sodass es schwer ist, etwas zu hören.
 
 ### Kampf
-- 3 [[Goblin|Goblins]]  
+- 3 [[Goblin (old)|Goblins]]  
 Wenn der Goblin in Bereich 5 die Charaktere bemerkt und die Goblins hier gewarnt hat, sind sie bereit für Ärger. 
 Der Lärm des Wasserfalls bedeutet, dass die Kreaturen in Bereich 8 die Kämpfe hier nicht hören können und andersherum. 
-Deshalb flüchtet ein [[Goblin]] sobald der Kampf beginnt in Bereich 8, um Klarg zu warnen.
+Deshalb flüchtet ein [[Goblin (old)]] sobald der Kampf beginnt in Bereich 8, um Klarg zu warnen.
 
 ### Felsendämme
 Die Goblins haben einfache Dämme gebaut, um den Wasserfluss durch das Herz des Komplexes zu leiten.
@@ -226,10 +226,10 @@ Die Beute, die die Cragmaws im letzten Monat bei Plünderungen und Angriffen auf
 >In der Mitte der Kaverne lodern die Kohlen eines großen Feuers.
 
 ### Kampf
-- Klarg, der [[Grottenschrat]] (33 TP)
+- Klarg, der [[Grottenschrat (old)]] (33 TP)
 - sein räudiger [[Wolf]] Reißer (14 TP)
 - 3 [[Goblins]] (10 TP) 
-Der [[Grottenschrat]] ist größenwahnsinnig und sieht sich als mächtigen Kriegsherren, der seine Laufbahn der Eroberungen gerade erst begonnen hat. 
+Der [[Grottenschrat (old)]] ist größenwahnsinnig und sieht sich als mächtigen Kriegsherren, der seine Laufbahn der Eroberungen gerade erst begonnen hat. 
 Er ist nicht ganz bei klarem Verstand und spricht von sich in der dritten Person („Wer wagt es, sich Klarg zu widersetzen?“ oder „Klarg wird einen Thron aus euren Knochen errichten, ihr Schwächlinge!“). 
 Die Goblins, die unter seinem Befehl stehen, verabscheuen seine Schikanen.
 

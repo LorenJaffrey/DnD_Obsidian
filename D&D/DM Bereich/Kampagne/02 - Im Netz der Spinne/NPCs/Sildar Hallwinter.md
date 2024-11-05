@@ -72,6 +72,6 @@ Er ist ein Agent und loyales Mitglied des [[Rat der Grafen|Rats der Grafen]].
 Besitzt folgende Informationen für die Gruppe:
 - traf [[Gundren Felssucher]] in [[Niewinter]] und erklärte sich bereit, ihn zurück nach [[Phandalin]] zu begleiten. 
 - Die drei Felssucher-Brüder ([[Gundren Felssucher|Gundren]], Tharden und Nundro) haben vor Kurzem den Eingang zur lange verschollen geglaubten [[Wellenhallhöhle]] gefunden, in der sich die Minen von Phandelvers Pakt befinden.
-- [[Klarg]], der [[Grottenschrat]], der die [[Cragmaw Goblins]] anführt, hatte Befehle, [[Gundren Felssucher|Gundren]] zu überfallen. 
+- [[Klarg]], der [[Grottenschrat (old)]], der die [[Cragmaw Goblins]] anführt, hatte Befehle, [[Gundren Felssucher|Gundren]] zu überfallen. 
 - [[Gundren Felssucher|Gundren]] hatte eine Karte, die den geheimen Standort der [[Wellenhallhöhle]] zeigte, doch die Goblins nahmen sie an sich, als sie ihn gefangen nahmen. [[Sildar Hallwinter|Sildar]] glaubt, dass [[Klarg]] die Karte und den Zwerg zum [[König Grol|Häuptling der Cragmaws]] geschickt hat, der sich an einem Ort namens [[Burg  Cragmaw]] aufhält. 
 - [[Sildar Hallwinter|Sildar]] weiß nicht, wo dieser Ort sein könnte, aber er denkt, dass jemand in [[Phandalin]] es wissen könnte.

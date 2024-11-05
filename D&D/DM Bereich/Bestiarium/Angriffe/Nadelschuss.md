@@ -4,9 +4,9 @@ tags:
 Schaden: 2d6
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
-Range1: 1,5m (1 Kästchen)
-Range2: 9m (6 Kästchen)
-Range3: 18m (12 Kästchen)
+Range1: 1,5(1)
+Range2: 9(6)
+Range3: 18(12)
 ---
 ## `=this.file.name`
 | Angriff           | Reichweite         | Schaden                       | Schadensart         | Eigenschaften         |

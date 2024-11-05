@@ -4,7 +4,7 @@ Wenn die Charaktere die Rotbrenner im Schlafenden Riesen stellen, lies folgendes
 
 >[!info] Beschreibung
 >Der Schlafende Riese ist eine heruntergekommene Bierhalle am Ostende der Stadt. 
->Sieben menschliche [[Rotbrenner Schläger]] lungern auf der überdachten Veranda auf leeren Bierfässern herum oder lehnen sich an die Wände. 
+>Sieben menschliche [[Rotbrenner Schläger (old)]] lungern auf der überdachten Veranda auf leeren Bierfässern herum oder lehnen sich an die Wände. 
 >Sie alle tragen dreckige scharlachrote Umhänge und starren euch missmutig an, als ihr näherkommt.
 >
 >Einer der Schläger spuckt auf den Boden. "So, so", grollt er. 
@@ -20,4 +20,4 @@ Wenn die Rotbrenner die Charaktere auf offener Straße konfrontieren, lies folge
 >„Zeit für euch weiterzuziehen, Fremde. Gebt uns euer Zeug und macht euch auf den Weg.“
 
 ## Kampf
-- 7 [[Rotbrenner Schläger]]
+- 7 [[Rotbrenner Schläger (old)]]

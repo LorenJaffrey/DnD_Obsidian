@@ -16,7 +16,7 @@ Tunnel und Räume sind 3 Meter hoch, wenn es nicht anders angegeben ist.
 ### Türen
 Alle Türen bestehen aus Holz mit eisernen Klinken, Scharnieren und eingebauten Schlössern.
 Sie sind nicht verschlossen, es sei denn, der Text gibt anderes an. 
-[[Iarno Albrek]] ([[Tresendar Anwesen#12. Glasstabs Quartier]]) und ein [[Grottenschrate|Grottenschrat]] namens [[Grottenschrat Häuptling|Mosk]] (Bereich 9) tragen jeweils einen Eisenschlüssel, der jede Tür in dem Komplex aufsperren und verriegeln kann. 
+[[Iarno Albrek]] ([[Tresendar Anwesen#12. Glasstabs Quartier]]) und ein [[Grottenschrate|Grottenschrat]] namens [[Grottenschrat Häuptling (old)|Mosk]] (Bereich 9) tragen jeweils einen Eisenschlüssel, der jede Tür in dem Komplex aufsperren und verriegeln kann. 
 Eine verschlossene Tür kann mit [[Diebeswerkzeug]] und einem erfolgreichen Wurf auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 10 geknackt werden. 
 Es ist auch möglich, die Tür mit einem erfolgreichen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 20 aufzubrechen.
 
@@ -77,7 +77,7 @@ Die Kaserne ist ein guter Ort, um sich zu verstecken, nachdem sie die örtlichen
 >Dies scheint ein Lagerraum zu sein, der zum Wohnquartier umgebaut wurde. 
 >Zwei Doppelstockbetten stehen an der Wand in der Nähe der Tür, während Fässer und Kisten die südliche Hälfte des Raums einnehmen.
 
-Zwei [[Rotbrenner Schläger]] und ein [[Rotbrenner Schurke]] ruhen sich in diesem Raum aus.
+Zwei [[Rotbrenner Schläger (old)]] und ein [[Rotbrenner Schurke (old)]] ruhen sich in diesem Raum aus.
 Wenn sie in Bereich 1 eine Menge Lärm hören (wie laute Stimme oder Fässer, die herumgerollt werden), machen sie sich kampfbereit und versuchen Eindringlinge zu überraschen.
 
 Die Fässer hier sind mit ähnlichen Vorräten wie in Bereich 1 gefüllt.
@@ -136,7 +136,7 @@ Seit zwei Monaten fangen die Rotbrenner Reisende in der Gegend und sperren sie i
 >Alle tragen schlichte, graue Tuniken und haben Eisenkrägen um den Hals.
 >Ein Haufen weggeworfener Kleidung ist achtlos vor der gegenüberliegenden Wand aufgetürmt.
 
-Zwei [[Rotbrenner Schurke|Rotbrenner Schurken]] in scharlachroten Umhängen stehen hier Wache, doch verbringen sie den Großteil ihrer Zeit damit, die hilflosen Gefangenen zu verspotten. 
+Zwei [[Rotbrenner Schurke (old)|Rotbrenner Schurken]] in scharlachroten Umhängen stehen hier Wache, doch verbringen sie den Großteil ihrer Zeit damit, die hilflosen Gefangenen zu verspotten. 
 Wenn die Wachen einen Kampf in Bereich 5 hören, nehmen sie Position an der Wand nahe der Tür ein und versuchen Eindringlinge zu überraschen. 
 Die Gefangenen sind zu eingeschüchtert, um Warnungen zu rufen oder um Hilfe zu rufen.
 Der Haufen Kleidung gehört den verschiedenen Gefangenen, die hier in den letzten zwei Monaten untergebracht wurden – mindestens ein Dutzend Leute, wenn man von der Größe des Haufens ausgeht.
@@ -152,7 +152,7 @@ In dieser Nacht kehrte die Bande zurück und entführte die Familie aus ihrem Zu
 Die Bande plant, die Familie in die Sklaverei zu verkaufen.
 Die Dendrars sind den Charakteren dankbar, dass sie sie gerettet haben, können aber nicht viele Informationen über das Rotbrenner-Versteck liefern. 
 Sie wissen nur, dass der Boss ein Magier ist (auch wenn sie ihn nicht getroffen haben und seinen Namen nicht kennen) 
-und dass er „große, pelzige Monster mit großen Ohren“ ([[Grottenschrat|Grottenschrate]]) hat, die für ihn arbeiten.
+und dass er „große, pelzige Monster mit großen Ohren“ ([[Grottenschrat (old)|Grottenschrate]]) hat, die für ihn arbeiten.
 
 ## 6. Rüstkammer
 Die Tür zu diesem Raum ist von außen verschlossen. 
@@ -252,28 +252,28 @@ Der starke Geruch von ungewaschenen Körpern und fauligem Fleisch liegt in der L
 >Drei große, pelzige Humanoide hängen in dem Chaos herum und brüllen einem traurigen kleinen Goblin, der sich zu ihrer Unterhaltung erniedrigt, Befehle zu. 
 >Euer plötzliches Auftauchen lässt den Goblin bewusstlos werden.
 
-Zwei [[Grottenschrat|Grottenschrate]], ein [[Grottenschrat Häuptling]] und ein [[Goblin]] sind anwesend. 
+Zwei [[Grottenschrat (old)|Grottenschrate]], ein [[Grottenschrat Häuptling (old)]] und ein [[Goblin (old)]] sind anwesend. 
 
-Die [[Grottenschrat|Grottenschrate]] arbeiten für die [[Schwarze Spinne]] und wurden geschickt, um [[Iarno Albrek|Iarno]] dabei zu helfen, die [[Rotbrenner]] und die Bürger von Phandalin unter Kontrolle zu halten. 
-Ihr Anführer heißt [[Grottenschrat Häuptling|Mosk]]. 
+Die [[Grottenschrat (old)|Grottenschrate]] arbeiten für die [[Schwarze Spinne]] und wurden geschickt, um [[Iarno Albrek|Iarno]] dabei zu helfen, die [[Rotbrenner]] und die Bürger von Phandalin unter Kontrolle zu halten. 
+Ihr Anführer heißt [[Grottenschrat Häuptling (old)|Mosk]]. 
 Er trägt eine juwelenbesetzte Augenklappe, obwohl er noch beide Augen hat. 
-[[Grottenschrat Häuptling|Mosk]] trägt die Augenklappe, weil er sie für schick hält.
+[[Grottenschrat Häuptling (old)|Mosk]] trägt die Augenklappe, weil er sie für schick hält.
 
-Die [[Grottenschrat|Grottenschrate]] meiden die menschlichen Mitglieder der [[Rotbrenner]]. 
-Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen die [[Grottenschrat|Grottenschrate]] davon aus, dass sie [[Iarno Albrek|Iarno]] dienen. 
+Die [[Grottenschrat (old)|Grottenschrate]] meiden die menschlichen Mitglieder der [[Rotbrenner]]. 
+Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen die [[Grottenschrat (old)|Grottenschrate]] davon aus, dass sie [[Iarno Albrek|Iarno]] dienen. 
 Schlaue Charaktere könnten die Grottenschrate vielleicht sogar davon überzeugen, sich um „Verräter“ oder „Hochstapler“ anderswo im Kerker zu kümmern. 
 Wenn du nicht der Meinung bist, dass sie die Täuschung gut ausspielen, kannst du den Charakter, der am meisten redet, einen Wurf auf  [[Täuschen]] gegen [[Schwierigkeitsgrad|SG]] 15 machen lassen, um die Grottenschrate davon zu überzeugen, das zu tun, was die Gruppe möchte.
 
-Der [[Goblin]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine Aktion verwenden, um ihn zu wecken. 
+Der [[Goblin (old)]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine Aktion verwenden, um ihn zu wecken. 
 Ansonsten bleibt Baumel für 1W10 Minuten bewusstlos.
-Der [[Goblin]] Baumel ist keine Bedrohung für die Gruppe. 
+Der [[Goblin (old)]] Baumel ist keine Bedrohung für die Gruppe. 
 Er wurde von den Grottenschraten eingeschüchtert und folgt ihren Befehlen, bis jemand Stärkeres kommt.
 Wenn er während des Kampfes wieder zu Bewusstsein kommt, versteckt sich Baumel, um dem Kampf aus dem Weg zu gehen.
 Er ist ein solcher Feigling, dass er mit Nachteil kämpft, wenn er dazu gezwungen wird, sich am Kampf zu beteiligen.
 Baumel kennt den grundsätzlichen Aufbau des Rotbrenner-Verstecks, sowie die Positionen sämtlicher Geheimtüren und Fallen.
 Er denkt nicht von selbst daran, diese Informationen zu teilen, wenn er aber gedrängt wird, verrät er so viel wie ihm einfällt, um der Gruppe nützlich zu sein. 
 Einige der Details könnten verwirrend oder durcheinander sein. 
-Er ist schließlich „nur“ ein [[Goblin]].
+Er ist schließlich „nur“ ein [[Goblin (old)]].
 Wenn die Grottenschrate besiegt werden, versucht sich Baumel bei der Gruppe einzuschmeicheln. 
 Er erinnert sich nicht an den Weg nach [[Burg Cragmaw]], aber er weiß, dass sie im Norden im Wald liegt. 
 Er weiß auch, dass [[Cragmaw-Goblins]] in der Umgebung von [[Phandalin]] patrouillieren, und er schlägt vor, dass die Charaktere vielleicht eine Patrouille fangen könnten, um mehr über die Burg zu erfahren.
@@ -288,7 +288,7 @@ Die Grottenschrate wissen auch, wo Burg Cragmaw liegt, aber auch diese Informati
 Ein Charakter, der einen gefangenen Grottenschrat verhört, kann die Informationen mit einem erfolgreichen Wurf auf [[Einschüchtern]] gegen [[Schwierigkeitsgrad|SG]] 15 herauskitzeln.
 
 ### Schätze
-[[Grottenschrat Häuptling|Mosk]] hat einen Beutel am Gürtel, in dem sich 33 SM befinden, und trägt eine Augenklappe aus schwarzem Leder, die mit Halbedelsteinen besetzt ist (50 GM). 
+[[Grottenschrat Häuptling (old)|Mosk]] hat einen Beutel am Gürtel, in dem sich 33 SM befinden, und trägt eine Augenklappe aus schwarzem Leder, die mit Halbedelsteinen besetzt ist (50 GM). 
 Er hat auch einen Eisenschlüssel, der alle Türen im Rotbrenner-Versteck verschließen oder öffnen kann.
 
 ## 10. Aufenthaltsraum
@@ -304,7 +304,7 @@ Wenn die Charaktere in den Raum brechen, überraschen sie ihre Gegner automatisc
 >Vier hart aussehende menschliche Krieger in roten Umhängen sitzen um einen der Tische. 
 >Ein Haufen Münzen und Schmuckstücke ist auf der Tischplatte zwischen ihnen aufgehäuft.
 
-Zwei [[Rotbrenner Schläger]] und zwei [[Rotbrenner Schurke|Rotbrenner Schurken]] trinken hier und spielen Würfel, als die Charaktere eintreten. 
+Zwei [[Rotbrenner Schläger (old)]] und zwei [[Rotbrenner Schurke (old)|Rotbrenner Schurken]] trinken hier und spielen Würfel, als die Charaktere eintreten. 
 Das Spiel ist nicht weit davon entfernt, sich zu einem Streit zu entwickeln, wie es oft geschieht.
 Die Würfel sind gezinkt, und der Schläger, dem sie gehören, gewinnt natürlich. 
 Alle vier haben sehr viel getrunken und sind vergiftet (siehe den Anhang im Regelbuch für die Auswirkungen des Zustands vergiftet).
