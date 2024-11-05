@@ -164,7 +164,11 @@ InputData:
 tags:
   - Charakter/GORN
 ---
-# `=this.Hintergrund.Name`
+
+```dynamic-embed
+[[embed Überschrift 1]]
+```
+
 > [!infobox]
 > ## `=this.Hintergrund.Name`
 > ![[Aranon.jpg]]
@@ -172,45 +176,14 @@ tags:
 > [[embed Character Sheet Healthbar]]
 > ```
 > 
-> ```dataviewjs 
-> const maxGrad1 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1;
-> const maxGrad2 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2;
-> const maxGrad3 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3;
-> const maxGrad4 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4;
-> const maxGrad5 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5;
-> const maxGrad6 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6;
-> const maxGrad7 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7;
-> const maxGrad8 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8;
-> const maxGrad9 = dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9;
-> 
-> const maxSpellSlots =  (maxGrad1*1)+(maxGrad2*4)+(maxGrad3*9)+(maxGrad4*16)+(maxGrad5*25)+(maxGrad6*36)+(maxGrad7*49)+(maxGrad8*64)+(maxGrad9*81);
->  
-> const grad1 = dv.current().InputData.Zauberplätze.Grad_1;
-> const grad2 = dv.current().InputData.Zauberplätze.Grad_2;
-> const grad3 = dv.current().InputData.Zauberplätze.Grad_3;
-> const grad4 = dv.current().InputData.Zauberplätze.Grad_4;
-> const grad5 = dv.current().InputData.Zauberplätze.Grad_5;
-> const grad6 = dv.current().InputData.Zauberplätze.Grad_6;
-> const grad7 = dv.current().InputData.Zauberplätze.Grad_7;
-> const grad8 = dv.current().InputData.Zauberplätze.Grad_8;
-> const grad9 = dv.current().InputData.Zauberplätze.Grad_9;
->  
-> const currentSpellSlots = (grad1*1)+(grad2*4)+(grad3*9)+(grad4*16)+(grad5*25)+(grad6*36)+(grad7*49)+(grad8*64)+(grad9*81);
-> const percentValue = Math.round(currentSpellSlots / (maxSpellSlots / 100));
-> 
-> const metaBindCode = `<div style="display: flex; align-items: center; width: 100%; position: relative;"><div style="flex: 1; position: relative;"><progress id="magic" max="${maxSpellSlots}" value="${currentSpellSlots}" style="width: 100%; height: 20px; --progress: #45b480 !important;"></progress><span id="percentage2" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -70%); color: white; font-weight: bold;">Magie</span></div><div style="width: 60px; text-align: center;">${percentValue}%</div></div>`; 
-> dv.el('div', metaBindCode); 
+> ```dynamic-embed
+> [[embed Character Sheet Magicbar]]
 > ```
 > 
 > ## Hintergrund
-> |  |  |
-> | ---- | ---- |
-> | Stufe | `=this.Stufe` |
-> | [[Völker\|Volk]] | `=this.Hintergrund.Volk` |
-> | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
-> |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
-> | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[_Übersicht Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> ```dynamic-embed
+> [[embed Character Sheet Level Abschnitt]]
+> ```
 > 
 > ## Aussehen
 > |  |  |
@@ -283,36 +256,9 @@ tags:
 >> ```
 
 ## Attribute und Fertigkeiten
-> [!column  | 3 no-title]
->> ### Stärke
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Stärke]]
->> ```
->
->> ### Geschicklichkeit
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Geschicklichkeit]]
->> ```
->
->> ### Konstitution
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Konstitution]]
->> ```
->
->> ### Intelligenz
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Intelligenz]]
->> ```
->
->> ### Weisheit
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Weisheit]]
->> ```
->
->> ### Charisma
->> ```dynamic-embed
->> [[embed Character Sheet Attribute Charisma]]
->> ```
+``` dynamic-embed
+[[embed Character Sheet Attribute Übersicht]]
+```
 
 ## Angriff
 > [!column | 2 no-title]
@@ -339,106 +285,17 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| | |
 >>| --- | --- |
 >> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
->> | Zauberangriffsbonus   | `$=Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`   |
+>> | Zauberangriffsbonus   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
 >> | Zauberrettungswurf-SG | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> | Zaubertricks | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
 >> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
 >>
->>  #### Zauberplätze
->> | Grad |    [[Zauberplätze]] Maximal     |      [[Zauberplätze]] aktuell       |
->> |:----:|:-------------------------------:|:-----------------------------------:|
->> |  1   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad1` | `INPUT[number():InputData.Zauberplätze.Grad_1]` |
->> |  2   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad2` | `INPUT[number():InputData.Zauberplätze.Grad_2]` |
->> |  3   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad3` | `INPUT[number():InputData.Zauberplätze.Grad_3]` |
->> |  4   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad4` | `INPUT[number():InputData.Zauberplätze.Grad_4]` |
->> |  5   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad5` | `INPUT[number():InputData.Zauberplätze.Grad_5]` |
->> |  6   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad6` | `INPUT[number():InputData.Zauberplätze.Grad_6]` |
->> |  7   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad7` | `INPUT[number():InputData.Zauberplätze.Grad_7]` |
->> |  8   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad8` | `INPUT[number():InputData.Zauberplätze.Grad_8]` |
->> |  9   | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad9` | `INPUT[number():InputData.Zauberplätze.Grad_9]` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberplätze]]
+>> ```
 >
->> #### Zaubertricks
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden AS "Schaden ab Lv. 1",
->> SchadenLv5 AS "Schaden ab Lv. 5",
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual"
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=0
->> SORT file.name
->> ```
->> 
->> #### Grad 1
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=1
->> SORT file.name
->> ```
->> 
->> #### Grad 2
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=2
->> SORT file.name
->> ```
->> 
->> #### Grad 3
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Zauber",
->> Schule,
->> Zeitaufwand, 
->> Schadensart,
->> Schaden,
->> Ziel,
->> Reichweite, 
->> choice(Verbal,"X","") AS "Verbal", 
->> choice(Geste,"X","") AS "Geste", 
->> Dauer, 
->> choice(Konzentration,"X","") AS "Konzentration", 
->> choice(Ritual,"X","") AS "Ritual", 
->> choice(Skalierbar,"X","") AS "Skalierbar" 
->> FROM #Zauber
->> WHERE contains(this.Zauber, file.link) AND Grad=3
->> SORT file.name
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberspruch Übersicht]]
 >> ```
 >
 
