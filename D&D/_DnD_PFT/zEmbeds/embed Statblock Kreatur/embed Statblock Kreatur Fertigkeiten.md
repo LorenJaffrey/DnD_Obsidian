@@ -11,3 +11,5 @@ for (var key in skills) {
 }
 dv.paragraph(string);
 ```
+
+[[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Herausforderungsgrad/4)+1))`

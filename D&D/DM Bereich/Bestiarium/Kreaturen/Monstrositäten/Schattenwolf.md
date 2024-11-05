@@ -78,16 +78,9 @@ Legendäre_Aktionen:
 # `=this.file.name`
 > [!column | 2 flex | no-title]
 >> ![[direwolf.webp |350]]
->> ## `=this.file.name`
->> |  |  |
->> | ---- | ---- |
->> | [[Größenkategorie]] | `=this.Größenkategorie` |
->> | Typ | `=this.Typ` |
->> | Subtyp | `=this.Subtyp` |
->> | [[Gesinnung]] | `=this.Gesinnung` |
->> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
->> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
->> | [[Sprachen]] | `=this.Sprachen` |
+>> ```dynamic-embed
+>> [[Statblock Kreatur Übersicht]]
+>> ```
 >
 >> ## Bewegung
 >> ```dynamic-embed
@@ -116,8 +109,6 @@ Legendäre_Aktionen:
 >> ```dynamic-embed
 >> [[embed Statblock Kreatur Fertigkeiten]]
 >> ```
->> 
->> [[Wahrnehmung#Passive Wahrnehmung]]: `=10+floor(((this.Attribute.Weisheit)-10)/2)+(this.Fertigkeiten.Wahrnehmung*(ceil(this.Herausforderungsgrad/4)+1))`
 >>
 >>```dynamic-embed
 >>[[embed Statblock Kreatur Merkmale]]
