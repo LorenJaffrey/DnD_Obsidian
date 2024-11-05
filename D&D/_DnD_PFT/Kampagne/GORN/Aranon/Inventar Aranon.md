@@ -50,16 +50,15 @@ Geld:
 | [[Schleuder]]               |   1    |    1    |   1    |
 | [[Holzschild]]              |   1    |    6    |   6    |
 | [[Fackel]]                  |   2    |    1    |   2    |
-| [[Ration]]                  |   4    |    1    |   4    |
+| [[Ration]]                  |   14   |    1    |   14   | 
 | [[Trinkschlauch]]           |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
-| [[Einfacher Rum (Flasche)]] |   0    |    1    |   0    |
+| [[Einfacher Rum (Flasche)]] |   5    |   0.5   |  2.5   |
 | [[Schriftrollenbehälter]]   |   1    |    1    |   1    |
 | Flüssigkeit (silbrig)       |   1    |    0    |   0    |
 | Pulver (schwarz)            |   1    |    0    |   0    |
 | Flüssigkeit (zäh, braun)    |   1    |    0    |   0    |
 | [[Gildenabzeichen]]         |   1    |    0    |   0    |
-| [[Einfacher Rum]](Flasche)  |   5    |   0.5   |  2.5   |
 | [[Bergsilberkraut]]         |   1    |    0    |   0    |
 | Wein (Flasche)              |   2    |    1    |   2    |
 | [[Ring des Schutzes]]       |   1    |    0    |   0    |

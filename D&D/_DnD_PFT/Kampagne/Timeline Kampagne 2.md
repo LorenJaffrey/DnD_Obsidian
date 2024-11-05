@@ -302,10 +302,17 @@ gantt
 		Reise weiter Richtung Holzfällerlager: done, a2, after a1, 6h
 		Ankunft im Holzfällerlager: done, a3, after a2, 2.5h
 		Überfall durch "Ankheg" Monster: done, milestone, a4, after a3, 0.25h
+		6 Ankheg Monster besiegt: done, a5, after a4, 0.5h
+		Hütte im Holzfällerlager untersucht: done, a6, after a5, 0.25h
+		Weiterer Überfall: done, milestone, a7, after a6, 0.25h
+		2 Ankheg Monster besiegt: done, a8, after a7, 0.25h
+		Tibor Wester gerettet & unterhalten: done, a9, after a8, 0.5h
+		Lager durchsuchen nach Hinweisen: done, a10, after a9, 2h
+		Kurze Rast: done, a11, after a10, 1h
+		Lange Rast: done, a12, after a11, 2.5h
 ```
 
-
->  Hier befinden wir uns aktuell!
+>  
 
 ### Tag 19
 ```mermaid
@@ -315,10 +322,10 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-11 00:00, 
+		Lange Rast: a1, 2024-05-11 00:00, 8h
 ```
 
->
+> Hier befinden wir uns aktuell!
 
 ### Tag 20
 ```mermaid
@@ -328,7 +335,7 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-12 00:00, 
+		-t: a1, 2024-05-12 00:00, 
 ```
 
 >
