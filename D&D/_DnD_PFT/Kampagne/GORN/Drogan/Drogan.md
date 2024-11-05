@@ -197,7 +197,7 @@ tags:
 >
 >> ### Rüstung
 >> ```dynamic-embed
->> [[embed Character Sheet Rüstung]]
+>> [[embed Character Sheet Rüstung Barbar]]
 >> ```
 
 ## Angriff
