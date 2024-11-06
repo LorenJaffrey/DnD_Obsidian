@@ -171,13 +171,13 @@ InputData:
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
   ShowHideSection:
-    WeaponAttack: true
+    WeaponAttack: false
     MagicAttack: true
-    Skills: true
-    Statistic: true
-    Personality: true
-    Past: true
-    BackgroundStory: true
+    Skills: false
+    Statistic: false
+    Personality: false
+    Past: false
+    BackgroundStory: false
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
@@ -321,7 +321,7 @@ tags:
 >> ### [[Odemwaffe | Blitz-Odem]] 
 >>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]| `=choice(this.Stufe<6,"2W6", choice(this.Stufe<11,"3W6", choice(this.Stufe<16,"4W6","5W6")))` | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
 >> 
 >> ```dynamic-embed
 >> [[embed Character Sheet Zauberspruch Übersicht]]
