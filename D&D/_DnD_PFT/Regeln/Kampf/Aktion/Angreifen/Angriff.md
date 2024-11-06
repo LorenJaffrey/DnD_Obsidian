@@ -1,5 +1,7 @@
 ---
 aliases: Angreifen, Angriffe
+tags: 
+  - Zug/Aktion/Angriff
 ---
 # `=this.file.name`
 

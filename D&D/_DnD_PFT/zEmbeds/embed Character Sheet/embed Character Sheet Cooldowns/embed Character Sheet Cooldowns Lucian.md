@@ -1,9 +1,9 @@
 #### Infernalisches Erbe
-| [[Infernalisches Erbe]] |                       Verbraucht                       | Aufladung bei               |
-| ----------------------- |:------------------------------------------------------:| --------------------------- |
-| [[Thaumaturgie]]        |   `INPUT[toggle:InputData.Fähigkeiten.Thaumaturgie]`   | [[Lange Rast\|Langer Rast]] |
-| [[Höllischer Tadel]]    | `INPUT[toggle:InputData.Fähigkeiten.Höllischer_Tadel]` | [[Lange Rast\|Langer Rast]] |
-| [[Dunkelheit]]          |    `INPUT[toggle:InputData.Fähigkeiten.Dunkelheit]`    | [[Lange Rast\|Langer Rast]] |
+| [[Infernalisches Erbe]]       |                       Verbraucht                       | Aufladung bei               |
+| ----------------------------- |:------------------------------------------------------:| --------------------------- |
+| [[Thaumaturgie]]              |   `INPUT[toggle:InputData.Fähigkeiten.Thaumaturgie]`   | [[Lange Rast\|Langer Rast]] |
+| [[Höllischer Tadel]] (2.Grad) | `INPUT[toggle:InputData.Fähigkeiten.Höllischer_Tadel]` | [[Lange Rast\|Langer Rast]] |
+| [[Dunkelheit]]                |    `INPUT[toggle:InputData.Fähigkeiten.Dunkelheit]`    | [[Lange Rast\|Langer Rast]] |
 
 #### [[Stecken der Verteidigung]]
 | Zauber            | Kosten |

@@ -1,11 +1,9 @@
 ---
 aliases: 
-tags: Zug/Aktion/Angriff
+tags: 
+  - Zug/Bonusaktion/Angriff
 ---
 # `=this.file.name`
-
-Wenn eine Kreatur mit einer Waffe mit der Eigenschaft [[Leicht]] angreift, kann sie einen weiteren Angriff mit einer Waffe mit der Eigenschaft [[Leicht]] in der anderen Hand ausführen.
+Wenn eine Kreatur einen [[Angriff]] als [[Aktion]] ausführt und dabei eine Waffe mit der Eigenschaft [[Leicht]] verwendet, kann sie ihre [[Bonusaktion]] aufwenden und einen weiteren Angriff mit einer Waffe mit der Eigenschaft [[Leicht]] in der anderen Hand ausführen.
 Der zweite Angriff erhält keinen positiven [[Attribute#Attributsmodifikator]] auf den [[Angriffswurf]] und den [[Schadenswurf]].
-Einer der Angriffe kann auch mit einer [[Fernkampfwaffen|Fernkampfwaffe]] durchgeführt werden.
-
-![[Angriff]]
+Einer der Angriffe kann auch mit einer [[Fernkampfwaffen|Fernkampfwaffe]] durchgeführt werden, solange diese ebenfalls die Eigenschaft [[Leicht]] aufweist.

@@ -2,30 +2,10 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
-- Kampfrollen
-	- Drogan (Tank und DD)
-		- schnellstmöglich Rage um Schaden zu verringern
-	- Niptac (tanky DD)
-		- [[Verstecken]]
-		- [[Unglaubliches Ausweichen]]
-		- [[Zielsicher]] oder [[Raffinierte Aktion]]
-		- [[Hinterhältiger Angriff]]
-	- Argo (Glaskanone)
-		- Verteidigung stärken
-		- von Gegnern entfernen
-	- Aranon (Supporter)
-		- muss beschützt werden
-		- [[Tiere beschwören]]
-		- [[Tiergestalt]]
-		- [[Geistertotem]]
-	- Lucian (tanky DD)
-		- temporäre Trefferpunkte und gute Rüstung
-		- bräuchte noch mehr Schaden im Nahkampf
 
 ## Organisatorisches
-- Charakter Sheets leicht umstrukturiert und vereinfacht mit embeds
-- Einige Merkmale genauer ausdefiniert
-- Statblock auch mit DiceRoller und embeds erweitert
+- [[Angriff mit zwei Waffen]] wieder mit Bonusaktion
+- [[Aktion]], [[Bonusaktion]], [[Reaktion]]
 
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen
