@@ -8,6 +8,10 @@ Verteidigung:
   Zusätzliche_SR: 0
   Rüstung: 
   Schild: 
+  Resistenzen:
+    Schadensresistenz: 
+    Schadensimmunität: 
+    Zustandsimmunität: 
 Waffen:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
@@ -15,7 +19,7 @@ Waffen:
 Gesundheit:
   MaxTP: 33
   TP: 33
-  TW: 3
+  TW: 4
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -85,6 +89,7 @@ Merkmale:
   Talente:
     - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
+  Bild: "[[Argo.jpeg]]"
   Name: Ar'gonthariel Maez'ralor Sturmzorn
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
@@ -141,7 +146,7 @@ InputData:
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
-  Zauberpunkte: 4
+  Zaubereipunkte: 4
   Zauberplätze:
     Grad_1: 4
     Grad_2: 3
@@ -182,7 +187,7 @@ tags:
 ---
 
 > [!infobox]
-> ![[Argo.jpeg]]
+>  `="!" + this.Hintergrund.Bild`
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
 > ```
@@ -221,11 +226,11 @@ tags:
 > ```
 >
 > ```dataviewjs 
-> dv.el('h2', `<h2>Zauberpunkte</h2>`); 
+> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
 > ```
 > 
 > ```dynamic-embed
-> [[embed Character Sheet Zauberpunkte]]
+> [[embed Character Sheet Zaubereipunkte]]
 > ```
 >
 > ```dataviewjs 

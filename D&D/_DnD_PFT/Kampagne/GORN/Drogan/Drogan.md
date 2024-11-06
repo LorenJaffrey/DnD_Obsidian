@@ -7,6 +7,10 @@ Verteidigung:
   Zusätzliche_SR: 0
   Rüstung: 
   Schild: 
+  Resistenzen:
+    Schadensresistenz:
+    Schadensimmunität: 
+    Zustandsimmunität:
 Waffen:
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
@@ -142,10 +146,9 @@ tags:
 >> ```
 >
 >> ### Cooldowns
->> |                                                                                                                              |                                                                                                    |
->> | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
->> | Nutzungen [[Kampfrausch]] (max. `$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Anzahl`) | `INPUT[toggle:InputData.Rage1]` `INPUT[toggle:InputData.Rage2]` `INPUT[toggle:InputData.Rage3]`    |
->> | Bonuschaden [[Kampfrausch]]                                                                                                  | +`$=dv.page(dv.current().Hintergrund.Klasse).Kampfrausch["Stufe"+dv.current().Stufe].Bonusschaden` |
+>> ```dynamic-embed
+>> [[embed Character Sheet Cooldowns Drogan]]
+>> ```
 >
 >> ### Bewegung
 >> ```dynamic-embed

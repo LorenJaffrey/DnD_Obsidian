@@ -8,6 +8,10 @@ Verteidigung:
   Zusätzliche_SR: 1
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
+  Resistenzen:
+    Schadensresistenz:
+    Schadensimmunität: 
+    Zustandsimmunität:
 Waffen:
   - "[[Stab des Sommerwalds]]"
   - "[[Krummsäbel]]"
@@ -95,6 +99,7 @@ Merkmale:
 Talente:
   - "[[Von Feen berührt]]"
 Hintergrund:
+  Bild: "[[Aranon.jpg]]"
   Name: Aranon Grauwald
   Volk: "[[Halbelfen|Halbelf]]"
   Klasse: "[[Druide]]"
@@ -170,48 +175,9 @@ tags:
 ```
 
 > [!infobox]
-> ## `=this.Hintergrund.Name`
-> ![[Aranon.jpg]]
 > ```dynamic-embed
-> [[embed Character Sheet Healthbar]]
+> [[embed Character Sheet Background]]
 > ```
-> 
-> ```dynamic-embed
-> [[embed Character Sheet Magicbar]]
-> ```
-> 
-> ## Hintergrund
-> ```dynamic-embed
-> [[embed Character Sheet Level Abschnitt]]
-> ```
-> 
-> ## Aussehen
-> |  |  |
-> | ---- | ---- |
-> | Geschlecht | `=this.Aussehen.Geschlecht` |
-> | Alter | `=this.Aussehen.Alter` |
-> | [[Größenkategorie]] | `=this.Aussehen.Größenkategorie` |
-> | Größe | `=this.Aussehen.Größe` |
-> | Gewicht | `=this.Aussehen.Gewicht` |
-> | Augenfarbe | `=this.Aussehen.Augenfarbe` |
-> | Haarfarbe | `=this.Aussehen.Haarfarbe` |
-> | Hautfarbe | `=this.Aussehen.Hautfarbe` |
->
-> ## Persönlichkeit
-> ---
-> ### Persönlichkeitsmerkmale 
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[0]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[1]`
-> `=this.Persönlichkeit.Persönlichkeitsmerkmale[2]`
->
-> ### Ideale
-> `=this.Persönlichkeit.Ideale`
-> 
-> ### Bindungen
-> `=this.Persönlichkeit.Bindungen`
-> 
-> ### Makel
-> `=this.Persönlichkeit.Makel`
 
 ## Allgemein
 > [!column | 3 no-title]
@@ -220,22 +186,8 @@ tags:
 >> ```
 >
 >> ### Cooldowns
->> |                    | Maximal                                                                                   | Aufladung      |
->> | ------------------ | ----------------------------------------------------------------------------------------- | -------------- |
->> | [[Tiergestalt]]    | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` | [[Kurze Rast]] |
->> | [[Geistertotem]]   | `INPUT[toggle:InputData.GeistertotemLadung]`                                              | [[Kurze Rast]] |
->> | [[Nebelschritt]]   | `INPUT[toggle:InputData.NebelschrittLadung]`                                              | [[Lange Rast]] |
->> | [[Identifizieren]] | `INPUT[toggle:InputData.IdentifizierenLadung]`                                            | [[Lange Rast]] |
->>
->> ### Tiergestalten
->> 
->> ```dataview
->> TABLE WITHOUT ID
->> file.link AS "Tier",
->> HG
->> FROM #Kreatur/Tier 
->> SORT HG DESC
->> WHERE HG = "1/4" OR HG = "1/8" OR HG = 0
+>> ```dynamic-embed
+>> [[embed Character Sheet Cooldowns Aranon]]
 >> ```
 >
 >> ### Bewegung
@@ -285,7 +237,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>| | |
 >>| --- | --- |
 >> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
->> | Zauberangriffsbonus   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
+>> | Zauberangriff   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
 >> | Zauberrettungswurf-SG | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
 >> | Zaubertricks | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
 >> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
@@ -297,7 +249,6 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >> ```dynamic-embed
 >> [[embed Character Sheet Zauberspruch Übersicht]]
 >> ```
->
 
 ## Merkmale
 > [!column | 4 no-title]

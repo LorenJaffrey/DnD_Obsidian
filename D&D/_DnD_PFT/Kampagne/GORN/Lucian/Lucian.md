@@ -7,9 +7,16 @@ Verteidigung:
   Zusätzliche_SR: 1
   Rüstung: "[[Beschlagene Lederrüstung]]"
   Schild: 
+  Resistenzen:
+    Schadensresistenz:
+      - "[[Feuerschaden]]"
+      - "[[Kälteschaden]]"
+      - "[[Giftschaden]]"
+    Schadensimmunität: 
+    Zustandsimmunität:
 Waffen:
   - "[[Dolch]]"
-  - "[[Kampfstab]]"
+  - "[[Stecken der Verteidigung]]"
 Gesundheit:
   MaxTP: 38
   TP: 38
@@ -70,7 +77,6 @@ Aussehen:
   Hautfarbe: Menschlich
 Merkmale:
   - "[[Dunkelsicht]]"
-  - "[[Höllische Resistenz]]"
   - "[[Infernalisches Erbe]]"
   - "[[Paktmagie]]"
   - "[[Pakt des Buches]]"
@@ -117,6 +123,7 @@ InputData:
     Thaumaturgie: false
     Höllischer_Tadel: false
     Verschwinden: false
+    Dunkelheit: false
   Stecken_der_Verteidigung:
     Ladung1: true
     Ladung2: true
@@ -152,7 +159,6 @@ InputData:
 >> [[embed Character Sheet Bewegung]]
 >> ```
 
-
 > [!column | 2 no-title]
 >> ## Angriff
 >> ### Nahkampfwaffen
@@ -181,6 +187,10 @@ InputData:
 >> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Rüstung]]
+>> ```
+>>
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Resistenzen]]
 >> ```
 
 ## Attribute und Fertigkeiten
