@@ -5,7 +5,7 @@
 > dv.el('h2', `<h2>Übung</h2>`); 
 > ```
 > ```dynamic-embed
-> [[embed Character Sheet Übung]]
+> [[embed Character Sheet Parameter]]
 > ```
 > 
 > ```dataviewjs 
