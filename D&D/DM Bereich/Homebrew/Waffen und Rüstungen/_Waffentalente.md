@@ -14,7 +14,7 @@
 
 ![[Messerstecher]]
 
-![[Hauer]]
+![[_DnD_PFT/Charaktere/Talente/Talentliste/Hauer]]
 
 ![[Zermalmer]]
 

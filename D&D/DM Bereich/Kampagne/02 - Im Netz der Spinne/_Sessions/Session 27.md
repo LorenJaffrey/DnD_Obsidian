@@ -36,10 +36,10 @@
 	- [ ] #task Hintergrund Lucian [priority:: high]
 
 ## Recap
-![[Timeline Kampagne 2#Tag 16]]
+![[Timeline Kampagne 2#Tag 18]]
+![[Timeline Kampagne 2#Tag 19]]
 
 ## Ablauf
-- [[Das Holzfällerlager]]
 - [[Szene - Rückreise vom Holzfällerlager]]
 
 ## Background

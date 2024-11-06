@@ -7,6 +7,6 @@ Eigenschaften:
 Reichweite: 1,5 Meter (1 Kästchen)
 ---
 ## `=this.file.name`
-| Angriff           | Reichweite         | Schaden                       | Schadensart         | Eigenschaften         |
-| ----------------- | ------------------ | ----------------------------- | ------------------- | --------------------- |
-| `=this.file.name` | `=this.Reichweite` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Eigenschaften` |
+| Angriff           | Reichweite         | Schaden         | Schadensart         | Eigenschaften         |
+| ----------------- | ------------------ | --------------- | ------------------- | --------------------- |
+| `=this.file.name` | `=this.Reichweite` | `dice: Schaden` | `=this.Schadensart` | `=this.Eigenschaften` |
