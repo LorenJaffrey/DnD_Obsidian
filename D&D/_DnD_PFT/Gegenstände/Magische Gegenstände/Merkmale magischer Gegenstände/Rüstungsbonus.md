@@ -6,4 +6,4 @@ Ladungen:
 Regeneration:
 ---
 # `=this.file.name`
-Du erhältst den in Klammern angegebenen Bonus auf deine [[Rüstungsklasse]].
+Du erhältst den in Klammern angegebenen Bonus auf deine [[Rüstungsklasse]] und [[Schadensreduktion]].
