@@ -69,6 +69,13 @@ Sprachen:
   - "[[Gemeinsprache]]"
   - "[[Orkisch]]"
 Merkmale:
+  - "[[Angeborenes Zauberwirken (Weisheit)]]"
+  - "[[Wildschweingestalt]]"
+Zauber:
+  - "[[Vorahnung]] (1 pro Tag)"
+  - "[[Segnen]] (1 pro Tag)"
+  - "[[Blitz]] (1 pro Tag)"
+  - "[[Donnerwoge]] (3 pro Tag)"
 Anzahl_Legendäre_Aktionen: 0
 Legendäre_Aktionen:
 ---

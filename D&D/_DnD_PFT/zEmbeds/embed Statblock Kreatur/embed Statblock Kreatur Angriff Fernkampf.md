@@ -12,3 +12,5 @@ FROM #Angriff/Fernkampf
 WHERE contains(this.Angriff.Angriffe, file.link)
 SORT file.name
 ```
+
+- [ ] #task Umbau konditional [priority:: high]
