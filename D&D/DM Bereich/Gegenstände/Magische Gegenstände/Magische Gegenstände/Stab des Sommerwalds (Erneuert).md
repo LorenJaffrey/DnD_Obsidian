@@ -42,9 +42,22 @@ Gewicht: 3 Pfund
 Dieser [[Zauberstecken]] gehörte einst dem Erzdruiden [[Lirian Grauwald]].
 Er kann als magischer [[Kampfstab]] eingesetzt werden.
 Außerdem kann er als [[Druidischer Fokus]] genutzt werden und besitzt eine schwache magische Aura der Natur.
+Nachdem der Stab durch die Vernichtung des Gulthiasbaums im [[Niewinterwald]] erneuert wurde erhielt er zusätzliche Eigenschaften.
 
 ## Kampf
 | Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         | Gewicht         | Kategorie         |
 | ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- | --------------- | ----------------- |
 | `=this.file.name` | `dice: Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` | `=this.Gewicht` | `=this.Kategorie` |
 
+##  Baumhirtengestalt
+[[Aranon]] ist nun in der Lage seine [[Tiergestalt]] zu nutzen um eine [[Geringe Baumhirtengestalt]] anzunehmen.
+
+## Pflanzenflüstern
+Der Träger kann den Zauber [[Mit Pflanzen sprechen]] einmal pro [[Lange Rast]] ohne [[Zauberplätze|Zauberplatz]] wirken.
+
+## Natürliche Aura
+Der Träger und Verbündete im Umkreis von 3 Metern erhalten +1 auf Würfe auf [[Überlebenskunst]] und [[Wahrnehmung]] in Waldgebieten.
+
+## Segen des Einhorns
+Der Träger kann diese Fähigkeit einmal pro [[Lange Rast|langer Rast]]aktivieren.
+Alle Verbündeten im Umkreis von 6 Metern (20 Fuß) erhalten 5 [[Trefferpunkte]] Heilung.
