@@ -174,7 +174,7 @@ Zauber:
 >> [[embed Statblock Kreatur Waffen Wurf]]]
 >> ```
 
-- [ ] #task Template finalisieren [priority:: highest]
+- [x] #task Template finalisieren  [priority:: highest]
 
 > [!column | 2 flex ]
 >> ## Zauberplätze

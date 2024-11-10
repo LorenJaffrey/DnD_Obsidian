@@ -30,6 +30,7 @@ Verteidigung:
       - "[[Stichschaden]]"
       - "[[Wuchtschaden]]"
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität:
       - "[[Blind]]"
       - "[[Gepackt]]"

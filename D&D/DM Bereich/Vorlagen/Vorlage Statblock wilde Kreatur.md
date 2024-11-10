@@ -26,6 +26,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz:
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität:
       - "[[Blind]]"
       - "[[Taub]]"

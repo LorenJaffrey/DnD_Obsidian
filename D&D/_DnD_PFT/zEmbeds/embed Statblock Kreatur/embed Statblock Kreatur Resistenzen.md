@@ -49,3 +49,5 @@ if (resistenzenString) {
 	dv.span(resistenzenString);
 }
 ```
+
+- [ ] #task Schadensanfälligkeit ergänzen [priority:: high]

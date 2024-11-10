@@ -28,6 +28,6 @@ priority is below medium
 group by filename
 ```
 
-- [ ] #task Klassenfeatures Schurke in Charactersheet einbauen [priority:: high]
+- [x] #task Klassenfeatures Schurke in Charactersheet einbauen  [priority:: high]
 - [ ] #task Neue Aktionen Suchen, Study, Influence [priority:: high]
-- [ ] #task Zauber Tiere beschwören [priority:: highest]
+- [x] #task Zauber Tiere beschwören  [priority:: highest]
