@@ -1,6 +1,8 @@
 ---
 tags:
   - Schadensart
+aliases:
+  - Nekrotischen Schaden
 Zustand: "[[Nekrotisiert]]"
 ---
 # `=this.file.name`
