@@ -9,16 +9,16 @@ Verteidigung:
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
-    Zustandsimmunität:
+    Zustandsimmunität: 
 Waffen:
   - "[[Stab des Sommerwalds]]"
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 38
+  TP: 35
   TW: 5
   TempTP: 0
 Attribute:

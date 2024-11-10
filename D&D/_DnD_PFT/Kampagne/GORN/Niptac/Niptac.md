@@ -13,9 +13,9 @@ Verteidigung:
   Rüstung: "[[Beschlagene Lederrüstung]]"
   Schild: 
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
-    Zustandsimmunität:
+    Zustandsimmunität: 
 Waffen:
   - "[[Kurzschwert]]"
   - "[[Dolch]]"
@@ -24,8 +24,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 32
-  TW: 2
+  TP: 36
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 8

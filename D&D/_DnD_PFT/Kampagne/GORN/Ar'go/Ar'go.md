@@ -143,12 +143,12 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  NormaleRüstung: true
-  MagierRüstung: false
-  BlitzOdem: false
+  NormaleRüstung: false
+  MagierRüstung: true
+  BlitzOdem: true
   Zaubereipunkte: 4
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 3
     Grad_2: 3
     Grad_3: 0
     Grad_4: 0
@@ -174,7 +174,7 @@ InputData:
     WeaponAttack: false
     MagicAttack: true
     Skills: false
-    Statistic: false
+    Statistic: true
     Personality: false
     Past: false
     BackgroundStory: false

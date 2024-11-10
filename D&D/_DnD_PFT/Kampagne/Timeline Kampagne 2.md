@@ -323,9 +323,10 @@ gantt
 	weekday monday
 	section G.O.R.N
 		Lange Rast: a1, 2024-05-11 00:00, 8h
+		Reise zum Jagdhaus des Falken: done, a2, after a1, 16h
 ```
 
-> Hier befinden wir uns aktuell!
+> 
 
 ### Tag 20
 ```mermaid
@@ -335,7 +336,9 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-t: a1, 2024-05-12 00:00, 
+		Reise zum Jagdhaus des Falken: a1, 2024-05-12 06:00, 
+		Tibor Wester im Jagdhaus abgeliefert: done, a2, after a1, 2h
+		Im Jagdhaus des Falken rasten: done, a2, after a2, 16h
 ```
 
 >
@@ -348,7 +351,141 @@ gantt
 	tickinterval 1hour
 	weekday monday
 	section G.O.R.N
-		-: a1, 2024-05-13 00:00, 
+		Lange Rast: a1, 2024-05-13 00:00, 8h
+		Weiterreise Richtung "Altes Haus im Wald" (16 km): done, a2, after a1, 8h
+		Ankunft beim Alten Haus im Wald: done, milestone, a3, after a2, 0h
+		Kampf gegen Mini-GORN Figuren: done, a4, after a3, 0.25h
+		Kampf gegen Blutmücke: done, a5, after a4, 0.25h
+		Kampf gegen Pflanzenwesen im Innenhof: done, a6, after a4, 0.25h
+		
+```
+
+> Hier befinden wir uns aktuell!
+
+# Woche 4
+
+### Tag 22
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 23
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 24
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 25
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 26
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 27
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 28
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+# Woche 5
+
+### Tag 29
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
+```
+
+>
+
+### Tag 30
+```mermaid
+gantt
+	dateFormat HH:mm
+	axisFormat %e.%m. %H:%M
+	tickinterval 1hour
+	weekday monday
+	section G.O.R.N
+		-: a1, 2024-05-13 00:00, 0h
+		
 ```
 
 >
