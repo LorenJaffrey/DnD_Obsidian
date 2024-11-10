@@ -15,7 +15,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 2W8 + 1W6
+Schaden: 2d8 + 1d6
 Schadensart: "[[Zufallsschaden]]"
 Ziel: Einzel
 Klassen:

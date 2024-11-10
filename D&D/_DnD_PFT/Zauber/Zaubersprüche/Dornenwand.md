@@ -14,7 +14,7 @@ Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 7W8
+Schaden: 7d8
 Schadensart: "[[Hiebschaden]]" 
 Ziel: AoE
 Klassen:

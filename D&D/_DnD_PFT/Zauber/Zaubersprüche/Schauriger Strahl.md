@@ -15,7 +15,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W10
+Schaden: 1d10
 Schadensart: "[[Energieschaden]]"
 Ziel: Einzel
 Klassen:

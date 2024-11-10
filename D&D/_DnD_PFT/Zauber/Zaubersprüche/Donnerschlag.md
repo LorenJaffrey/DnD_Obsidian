@@ -15,10 +15,10 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W6
-SchadenLv5: 2W6
-SchadenLv11: 3W6
-SchadenLv17: 4W6
+Schaden: 1d6
+SchadenLv5: 2d6
+SchadenLv11: 3d6
+SchadenLv17: 4d6
 Schadensart: "[[Schallschaden]]"
 Ziel: AoE
 Klassen:

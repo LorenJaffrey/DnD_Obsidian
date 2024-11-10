@@ -15,10 +15,10 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W10
-SchadenLv5: 2W10
-SchadenLv11: 3W10
-SchadenLv17: 4W10
+Schaden: 1d10
+SchadenLv5: 2d10
+SchadenLv11: 3d10
+SchadenLv17: 4d10
 Schadensart: "[[Feuerschaden]]"
 Ziel: AoE
 Klassen:

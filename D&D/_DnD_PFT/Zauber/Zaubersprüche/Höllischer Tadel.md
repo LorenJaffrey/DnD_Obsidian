@@ -15,7 +15,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 2W8
+Schaden: 2d8
 Schadensart: "[[Feuerschaden]]"
 Ziel: Einzel
 Klassen:

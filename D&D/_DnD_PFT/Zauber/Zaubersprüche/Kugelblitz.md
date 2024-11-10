@@ -14,7 +14,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 10W8
+Schaden: 10d8
 Schadensart: [[Blitzschaden]]
 Ziel: 
 Klassen:

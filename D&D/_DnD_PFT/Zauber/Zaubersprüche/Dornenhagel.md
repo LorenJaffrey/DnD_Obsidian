@@ -14,7 +14,7 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 1W10
+Schaden: 1d10
 Schadensart: "[[Stichschaden]]" 
 Ziel: AoE
 Klassen:

@@ -14,7 +14,7 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 2W6
+Schaden: 2d6
 Schadensart: "[[Gleißender Schaden]]"
 Ziel: Einzel
 Klassen:

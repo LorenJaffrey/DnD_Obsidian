@@ -14,7 +14,7 @@ Dauer: unmittelbar
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 8W8
+Schaden: 8d8
 Schadensart: "[[Nekrotischer Schaden]]"
 Ziel: 
 Klassen:

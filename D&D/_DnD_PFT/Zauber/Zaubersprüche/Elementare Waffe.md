@@ -14,7 +14,7 @@ Dauer: 1 Stunde
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: + 1W4
+Schaden: 1d4
 Schadensart: 
 Ziel:
 Klassen:

@@ -14,7 +14,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 4W6 + 2W8
+Schaden: 4d6 + 2d8
 Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:

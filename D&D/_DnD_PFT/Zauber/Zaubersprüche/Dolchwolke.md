@@ -14,7 +14,7 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 4W4
+Schaden: 4d4
 Schadensart: "[[Hiebschaden]]" 
 Ziel: AoE
 Klassen:

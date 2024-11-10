@@ -14,7 +14,7 @@ Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 10W6
+Schaden: 10d6
 Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:

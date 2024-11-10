@@ -13,7 +13,7 @@ Dauer: 1m
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: W10
+Schaden: 1d10
 Schadensart: 
 Ziel: Selbst
 Klassen:

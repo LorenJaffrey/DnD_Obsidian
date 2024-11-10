@@ -14,7 +14,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 8W6
+Schaden: 8d6
 Schadensart: [[Blitzschaden]]
 Ziel: Linie
 Klassen:

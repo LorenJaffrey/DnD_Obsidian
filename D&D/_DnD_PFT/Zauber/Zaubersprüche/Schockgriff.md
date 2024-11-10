@@ -15,10 +15,10 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W8
-SchadenLv5: 2W8
-SchadenLv11: 3W8
-SchadenLv17: 4W8
+Schaden: 1d8
+SchadenLv5: 2d8
+SchadenLv11: 3d8
+SchadenLv17: 4d8
 Schadensart: "[[Blitzschaden]]"
 Ziel: Einzel
 Klassen:

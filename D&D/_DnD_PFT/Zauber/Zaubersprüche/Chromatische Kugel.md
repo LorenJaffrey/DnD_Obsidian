@@ -14,7 +14,7 @@ Dauer: unmitttelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 3W8
+Schaden: 3d8
 Schadensart:
 Ziel: Einzel
 Klassen:

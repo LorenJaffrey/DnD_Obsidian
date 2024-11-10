@@ -14,7 +14,7 @@ Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 3W10
+Schaden: 3d10
 Schadensart: "[[Blitzschaden]]" 
 Ziel: AoE
 Klassen:

@@ -14,7 +14,7 @@ Dauer: unmittelbar
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 3W6
+Schaden: 3d6
 Schadensart: "[[Psychischer Schaden]]"
 Ziel:
 Klassen:

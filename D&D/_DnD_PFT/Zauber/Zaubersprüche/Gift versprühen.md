@@ -15,10 +15,10 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 1W12
-SchadenLv5: 2W12
-SchadenLv11: 3W12
-SchadenLv17: 4W12
+Schaden: 1d12
+SchadenLv5: 2d12
+SchadenLv11: 3d12
+SchadenLv17: 4d12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
 Klassen:

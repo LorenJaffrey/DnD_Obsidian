@@ -15,7 +15,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 3W6
+Schaden: 3d6
 Schadensart: 
 Ziel: AoE
 Klassen:

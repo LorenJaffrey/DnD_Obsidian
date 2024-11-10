@@ -15,7 +15,7 @@ Dauer: unmittelbar
 Konzentration: true
 Ritual: true
 Skalierbar: true
-Schaden: 2W6
+Schaden: 2d6
 Schadensart: "[[Nekrotischer Schaden]]"
 Ziel: AoE
 Klassen: 
