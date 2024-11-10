@@ -6,7 +6,7 @@
 ## Hintergrund
 |                                                              |                                 |
 | ------------------------------------------------------------ | ------------------------------- |
-| Stufe                                                        | `=this.Stufe`                   | 
+| Stufe                                                        | `INPUT[number:Stufe]`           | 
 | [[Völker\|Volk]]                                             | `=this.Hintergrund.Volk`        |
 | [[Klassen\|Klasse]]                                          | `=this.Hintergrund.Klasse`      |
 | `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse`   |
