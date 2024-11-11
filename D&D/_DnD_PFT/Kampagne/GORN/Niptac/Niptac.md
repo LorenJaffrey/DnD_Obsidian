@@ -100,6 +100,7 @@ Talente:
   - "[[Verschwinden]]"
 Hintergrund:
   Bild: "[[Niptac.jpeg]]"
+  Video: "[[Niptac.mp4]]"
   Name: Niptac
   Volk: "[[Gnome|Gnom]]"
   Klasse: "[[Schurke]]"
@@ -140,6 +141,8 @@ aliases:
 ---
 # `=this.file.name`
 > [!infobox]
+> `="!" + this.Hintergrund.Bild`
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]
 > ```
@@ -172,17 +175,14 @@ aliases:
 
 ## Angriff
 
-### Nahkampfwaffen
 ```dynamic-embed
 [[embed Character Sheet Waffen Nahkampf]]
 ```
 
-### Schusswaffen 
 ```dynamic-embed
 [[embed Character Sheet Waffen Fernkampf]]
 ```
 
-### Wurfwaffen
 ```dynamic-embed
 [[embed Character Sheet Waffen Wurf]]
 ```
@@ -241,22 +241,18 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 > [!column | 2 no-title]
->> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
 > 
->> ### Waffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Waffen]]
 >> ```
 >
->> ### Sprachen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Sprachen]]
 >> ```
 >
->> ### Werkzeuge
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```

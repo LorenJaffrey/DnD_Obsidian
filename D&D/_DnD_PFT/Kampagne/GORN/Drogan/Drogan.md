@@ -96,6 +96,7 @@ Talente:
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
   Bild: "[[Drogan.jpeg]]"
+  Video: "[[Drogan.mp4]]"
   Name: Drogan
   Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
   Klasse: "[[Barbar]]"
@@ -135,6 +136,8 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
+> `="!" + this.Hintergrund.Bild`
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]
 > ```
@@ -169,17 +172,14 @@ tags:
 
 ## Angriff
 > [!column | 2 no-title]
->> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
->
->> ### Schusswaffen 
+>>
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
 >> ```
 >> 
->> ### Wurfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
@@ -238,22 +238,18 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 > [!column | 4 no-title]
->> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
 > 
->> ### Waffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Waffen]]
 >> ```
 >
->> ### Sprachen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Sprachen]]
 >> ```
 >
->> ### Werkzeuge
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```

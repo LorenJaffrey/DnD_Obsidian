@@ -100,6 +100,7 @@ Talente:
   - "[[Von Feen berührt]]"
 Hintergrund:
   Bild: "[[Aranon.jpg]]"
+  Video: "[[Aranon.mp4]]"
   Name: Aranon Grauwald
   Volk: "[[Halbelfen|Halbelf]]"
   Klasse: "[[Druide]]"
@@ -170,13 +171,17 @@ tags:
   - Charakter/GORN
 ---
 
-```dynamic-embed
-[[embed Überschrift 1]]
-```
+# `=this.Hintergrund.Name`
 
 > [!infobox]
+> ![[Aranon.jpg | 0]]
+> 
 > ```dynamic-embed
-> [[embed Character Sheet Background]]
+> [[embed Character Sheet Video]]
+> ```
+> 
+> ```dynamic-embed
+> [[embed Character Sheet Background 2]]
 > ```
 
 ## Allgemein
@@ -214,17 +219,14 @@ tags:
 
 ## Angriff
 > [!column | 2 no-title]
->> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
->
->> ### Schusswaffen 
+>>
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
 >> ```
 >> 
->> ### Wurfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
@@ -270,22 +272,18 @@ Disclaimer: Waffen haben immer Übungsbonus...
 
 ## Übung
 > [!column | 4 no-title]
->> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
 > 
->> ### Waffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Waffen]]
 >> ```
 >
->> ### Sprachen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Sprachen]]
 >> ```
 >
->> ### Werkzeuge
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```
