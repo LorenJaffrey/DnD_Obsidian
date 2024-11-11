@@ -49,6 +49,10 @@
 >> ```dynamic-embed
 >> [[embed Statblock Kreatur Angriff Fernkampf]]
 >> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Angriff Wurf]]
+>> ```
 >>
 >>```dynamic-embed
 >> [[embed Statblock Kreatur Zauber]]

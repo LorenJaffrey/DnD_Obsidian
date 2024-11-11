@@ -32,14 +32,6 @@ Verfügbarkeit: selten
 ---
 *Die Hellebarde oder auch Helmbarte ist eine Mischform von Hieb- und Stichwaffe, die die Mannstoppwirkung eines Spießes mit der panzerbrechenden Wirkung der Axt kombinierte.*
 
-## `=this.file.name`
-
-| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-## Handel
-
-| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```

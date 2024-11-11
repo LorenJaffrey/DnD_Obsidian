@@ -24,14 +24,6 @@ Gewicht: 3 Pfund
 Kosten: 5 SM
 Verfügbarkeit: häufig
 ---
-## `=this.file.name`
-
-| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-## Handel
-
-| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```

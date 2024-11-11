@@ -55,11 +55,6 @@ Der Stecken erhält immer zur Morgendämmerung 1W6+4 verbrauchte Ladungen zurüc
 Wenn du die letzte Ladung des Steckens verbrauchst, wirf einen W20. 
 Bei einer 1 zerbricht der Stecken und wird zerstört.
 
-## Kampf
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-| Waffe             |         Gewicht | Kategorie         |
-| ----------------- | ---------------:| ----------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kategorie` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```

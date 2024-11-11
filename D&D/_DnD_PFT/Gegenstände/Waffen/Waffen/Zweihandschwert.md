@@ -26,14 +26,6 @@ Gewicht: 7 Pfund
 Kosten: 50 GM
 Verfügbarkeit: selten
 ---
-## `=this.file.name`
-
-| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-## Handel
-
-| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```

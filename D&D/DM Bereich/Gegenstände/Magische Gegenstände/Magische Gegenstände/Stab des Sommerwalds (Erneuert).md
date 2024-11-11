@@ -44,10 +44,9 @@ Er kann als magischer [[Kampfstab]] eingesetzt werden.
 Außerdem kann er als [[Druidischer Fokus]] genutzt werden und besitzt eine schwache magische Aura der Natur.
 Nachdem der Stab durch die Vernichtung des Gulthiasbaums im [[Niewinterwald]] erneuert wurde erhielt er zusätzliche Eigenschaften.
 
-## Kampf
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         | Gewicht         | Kategorie         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- | --------------- | ----------------- |
-| `=this.file.name` | `dice: Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` | `=this.Gewicht` | `=this.Kategorie` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```
 
 ##  Baumhirtengestalt
 [[Aranon]] ist nun in der Lage seine [[Tiergestalt]] zu nutzen um eine [[Geringe Baumhirtengestalt]] anzunehmen.

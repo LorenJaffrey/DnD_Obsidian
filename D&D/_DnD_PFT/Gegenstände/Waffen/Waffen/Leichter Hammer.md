@@ -29,20 +29,6 @@ Gewicht: 2 Pfund
 Kosten: 2 GM
 Verfügbarkeit: häufig
 ---
-## `=this.file.name`
-
-| Waffe             | Schaden                       | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | ----------------------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden\|none\|noform` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-## `=this.file.name` (Wurf)
-
-| Waffe             | Schaden                           | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
-| ----------------- | --------------------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
-| `=this.file.name` | `dice: SchadenFern\|none\|noform` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
-
-## Handel
-
-| Waffe             |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+```dynamic-embed
+[[embed Waffe Wurf]]
+```

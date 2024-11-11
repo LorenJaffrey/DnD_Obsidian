@@ -48,12 +48,6 @@ Sie ist mechanisch verstellbar und passt sich den unterschiedlichen Bedingungen 
 Die **B.I.A.N.K.A.** ist nicht nur eine Waffe, sondern auch ein Kunstwerk, das in jedem Detail das Streben nach technischer Perfektion widerspiegelt. 
 Jeder, der sie in die Hand nimmt, spürt sofort die durchdachte Konstruktion und die Möglichkeit, mit dieser Apparatur das Blatt im Kampf zu wenden.
 
-| Waffe             | Schaden             | Art                     |     Hände     |     Größe     | Min RW         | Gnd RW         | Max RW         | Eigenschaften             |
-| ----------------- | ------------------- | ----------------------- |:-------------:|:-------------:| -------------- | -------------- | -------------- | ------------------------- |
-| `=this.file.name` | `$="```dice:" + dv.current().SchadenFern + "```"` | `=this.SchadensartFern` | `=this.Hände` | `=this.Größe` | `=this.Range1` | `=this.Range2` | `=this.Range3` | `=this.EigenschaftenFern` |
-
-## Handel
-
-| Waffe             |         Gewicht | Kategorie         |
-| ----------------- | ---------------:| ----------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kategorie` |
+```dynamic-embed
+[[embed Waffe Fernkampf]]
+```

@@ -43,11 +43,6 @@ Dieser [[Zauberstecken]] gehörte einst dem Erzdruiden [[Lirian Grauwald]].
 Er kann als magischer [[Kampfstab]] eingesetzt werden.
 Außerdem kann er als [[Druidischer Fokus]] genutzt werden und besitzt eine schwache magische Aura der Natur.
 
-## Kampf
-| Waffe             | Schaden         | Art                 |     Hände     |     Größe     | Eigenschaften         |
-| ----------------- | --------------- | ------------------- |:-------------:|:-------------:| --------------------- |
-| `=this.file.name` | `dice: Schaden` | `=this.Schadensart` | `=this.Hände` | `=this.Größe` | `=this.Eigenschaften` |
-
-| Waffe             |         Gewicht | Kategorie         |
-| ----------------- | ---------------:| ----------------- |
-| `=this.file.name` | `=this.Gewicht` | `=this.Kategorie` |
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```

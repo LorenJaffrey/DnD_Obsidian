@@ -32,6 +32,8 @@ Angriff:
   Angriffe: 
     - "[[Winziger Klauenhieb]]"
     - "[[Hauerangriff]]"
+    - "[[Kurzbogen]]"
+    - "[[Dolch]]"
 Attribute:
   Stärke: 16
   Geschicklichkeit: 13
