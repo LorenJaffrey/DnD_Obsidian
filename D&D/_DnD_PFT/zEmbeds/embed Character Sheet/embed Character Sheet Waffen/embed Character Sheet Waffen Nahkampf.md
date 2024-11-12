@@ -12,16 +12,20 @@ try {
                 .sort(page => page.file.name)
                 .map(page => {
                     // Calculate Angriff
-                    let attackStat = page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Finesse.md"))
-                        ? dv.current().Attribute.Geschicklichkeit
-                        : dv.current().Attribute.Stärke;
-
+                    let magicStat = dv.page(dv.current().Hintergrund.Klasse).Zauberattribut ? dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.fileName() : null;
+                    let attackStat = dv.current().Attribute.Stärke;
+                    if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Finesse.md"))){
+	                    attackStat = Math.max(attackStat, dv.current().Attribute.Geschicklichkeit);
+                    }
+                    if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Magische Präzision.md"))){
+	                    attackStat = Math.max(attackStat, dv.current().Attribute[magicStat]);
+					}
                     let attackModifier = Math.floor((attackStat - 10) / 2);
-                    let attackRoll = `\`dice:1d20+${attackModifier + Math.ceil(dv.current().Stufe / 4) + 1 + (page?.Angriffsbonus ?? 0)}|none|noform\``;
+                    let proficiencyBonus = Math.ceil(dv.current().Stufe / 4) + 1;
+                    let attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0)}\``;
 
                     // Calculate Schaden
-                    let damageModifier = Math.floor((attackStat - 10) / 2);
-                    let damageRoll = `\`dice:${page.Schaden}+${damageModifier}|none|noform\``;
+                    let damageRoll = `\`dice:${page.Schaden}+${attackModifier}\``;
 
                     return [
                         page.file.link,

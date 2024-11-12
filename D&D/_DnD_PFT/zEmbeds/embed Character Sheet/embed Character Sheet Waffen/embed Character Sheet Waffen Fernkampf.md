@@ -12,14 +12,19 @@ try {
                 .sort(page => page.file.name)
                 .map(page => {
                     // Calculate attack roll
-                    const attackModifier = Math.floor((dv.current().Attribute.Geschicklichkeit - 10) / 2);
-                    const levelBonus = Math.ceil(dv.current().Stufe / 4) + 1;
+					let magicStat = dv.page(dv.current().Hintergrund.Klasse).Zauberattribut ? dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.fileName() : null;
+                    let attackStat = dv.current().Attribute.Geschicklichkeit;
+                    if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Magische Präzision.md"))){
+	                    attackStat = Math.max(attackStat, dv.current().Attribute[magicStat]);
+					}
+
+                    const attackModifier = Math.floor((attackStat - 10) / 2);
+                    const proficiencyBonus = Math.ceil(dv.current().Stufe / 4) + 1;
                     const rangedAttackBonus = dv.current().AngriffsbonusFern || 0;
-                    const attackRoll = `\`dice:1d20+${attackModifier + levelBonus + rangedAttackBonus}|none|noform\``;
+                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + rangedAttackBonus}\``;
 
                     // Calculate damage roll
-                    const damageModifier = Math.floor((dv.current().Attribute.Geschicklichkeit - 10) / 2);
-                    const damageRoll = `\`dice:${page.SchadenFern}+${damageModifier}|none|noform\``;
+                    const damageRoll = `\`dice:${page.SchadenFern}+${attackModifier}\``;
 
                     return [
                         page.file.link,
