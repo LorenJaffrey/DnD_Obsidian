@@ -1,6 +1,5 @@
 ---
 Charakter: "[[Ar'go]]"
-Stufe: 4
 cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Zaubertricks: 5
 Bekannte_Zauber: 5
@@ -22,8 +21,6 @@ Metamagie:
 # `=this.file.name`
 
 > [!infobox]
-> Aktuelle Stufe: `INPUT[number:Stufe]`
-> 
 > ###### Zauber wirken
 > 
 > [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=Math.ceil((dv.page(dv.current().Charakter).Stufe/4)+1)+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`

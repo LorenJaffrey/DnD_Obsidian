@@ -2,7 +2,6 @@
 cssclass: dnd
 tags: 
 Charakter: "[[Aranon]]"
-Stufe: 5
 Zaubertricks: 3
 Bekannte_Zauber: 4
 Zauber:
@@ -24,8 +23,6 @@ Zauber:
 # `=this.file.name`
 
 > [!infobox]
-> Aktuelle Stufe: `INPUT[number:Stufe]`
-> 
 > ###### Zauber wirken
 > [[Zauberangriffswürfe|Zauberangriffsbonus]]: `$=Math.ceil((dv.page(dv.current().Charakter).Stufe/4)+1)+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
 > [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]]: `$=8+Math.ceil((dv.page(dv.current().Charakter).Stufe/4)+1)+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`
