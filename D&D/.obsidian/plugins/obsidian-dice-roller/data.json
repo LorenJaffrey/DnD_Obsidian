@@ -23,6 +23,8 @@
   "textColor": "#ffffff",
   "textFont": "Arial Rounded MT",
   "showLeafOnStartup": true,
+  "narrativeSymbolSet": "Genesys",
+  "displayAsSymbols": false,
   "displayAsEmbed": true,
   "round": "None",
   "initialDisplay": "None",
@@ -85,7 +87,7 @@
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
-  "version": "11.3.2",
+  "version": "11.4.0",
   "viewResults": [
     {
       "result": 3,
