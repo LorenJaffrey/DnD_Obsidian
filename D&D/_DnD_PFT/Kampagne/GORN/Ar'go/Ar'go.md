@@ -297,15 +297,15 @@ tags:
 ## Angriff
 > [!column | 3 flex  no-title]
 >> ```dynamic-embed
->> [[embed Character Sheet Waffen Nahkampf]]
+>> [[embed Character Sheet Angriff Nahkampf]]
 >> ```
 >>
 >> ```dynamic-embed
->> [[embed Character Sheet Waffen Fernkampf]]
+>> [[embed Character Sheet Angriff Fernkampf]]
 >> ```
 >> 
 >> ```dynamic-embed
->> [[embed Character Sheet Waffen Wurf]]
+>> [[embed Character Sheet Angriff Wurf]]
 >> ```
 
 ## Magie

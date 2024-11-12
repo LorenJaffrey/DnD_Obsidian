@@ -43,15 +43,15 @@
 >
 >> ## Angriff
 >> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Nahkampf]]
+>> [[embed Character Sheet Angriff Nahkampf]]
 >> ```
 >>
 >> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Fernkampf]]
+>> [[embed Character Sheet Angriff Fernkampf]]
 >> ```
 >> 
 >> ```dynamic-embed
->> [[embed Statblock Kreatur Angriff Wurf]]
+>> [[embed Character Sheet Angriff Wurf]]
 >> ```
 >>
 >>```dynamic-embed

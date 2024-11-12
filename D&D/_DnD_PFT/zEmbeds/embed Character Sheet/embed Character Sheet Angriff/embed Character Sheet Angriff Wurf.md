@@ -1,30 +1,32 @@
 ```dataviewjs
 try {
-    // Check if the "Waffen" metadata includes ranged throwable weapons
-    if (dv.current().Waffen && isThrowableWeapon(dv.current().Waffen)) {
+	const attacks = getAttacks();
+    const attributes = dv.current().Attribute
 
-        dv.header(3, "Wurfwaffen");
+    if (attacks && hasThrowingAttack()) {
+
+        dv.header(3, "Wurf");
 
         // Create table with headers
         dv.table(
             ["Waffe", "Min RW", "Gnd RW", "Max RW", "Angriff", "Schaden", "Schadensart", "Eigenschaften"],
             dv.pages("#Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe")
-                .where(page => dv.current().Waffen && dv.current().Waffen.some(link => link.path === page.file.path))
+                .where(p => attacks && attacks.some(link => link.path === p.file.path)) 
                 .sort(page => page.file.name)
                 .map(page => {
                     // Determine the attribute modifier based on Finesse property
-				    let magicStat = dv.page(dv.current().Hintergrund.Klasse).Zauberattribut ? dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.fileName() : null;
-                    let attackStat = dv.current().Attribute.Stärke;
+                    let magicStat = getMagicStat();
+                    let attackStat = attributes.Stärke;
                     if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Finesse.md"))){
-	                    attackStat = Math.max(attackStat, dv.current().Attribute.Geschicklichkeit);
+	                    attackStat = Math.max(attackStat, attributes.Geschicklichkeit);
                     }
                     if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Magische Präzision.md"))){
-	                    attackStat = Math.max(attackStat, dv.current().Attribute[magicStat]);
+	                    attackStat = Math.max(attackStat, attributes[magicStat]);
 					}
 
                     // Calculate attack roll
                     const attackModifier = Math.floor((attackStat - 10) / 2);
-                    const proficiencyBonus = Math.ceil(dv.current().Stufe / 4) + 1;
+                    const proficiencyBonus = Math.ceil(getLevelStat() / 4) + 1;
                     const rangedAttackBonus = dv.current().AngriffsbonusFern || 0;
                     const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + rangedAttackBonus}\``;
 
@@ -45,15 +47,27 @@ try {
         );
     }
 
-    // Helper function to check if the weapon is a throwable ranged weapon
-    function isThrowableWeapon(weaponList) {
+	function getAttacks() {
+		if(dv.current().Waffen) {
+			return dv.current().Waffen;
+		} 
+		else if (dv.current().Angriff)
+			return dv.current().Angriff;
+	}
+
+    function hasTag(page, targetTag) {
+        return page?.tags && page?.tags?.some(tag => tag === targetTag);
+    }
+
+	// Helper function to check if the weapon is a throwable ranged weapon
+    function hasThrowingAttack() {
         let isThrowable = false;
 
-        for (let item of weaponList) {
+        for (let item of attacks) {
             let page = dv.page(item.path);
             let targetTag = "Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe";
 
-            isThrowable = page?.tags && page?.tags?.some(tag => tag === targetTag);
+            isThrowable = hasTag(page, targetTag);
 
             if (isThrowable) {
                 break;
@@ -62,6 +76,26 @@ try {
 
         return isThrowable;
     }
+
+	function getMagicStat() {
+		let magicStat
+		if (dv.current().Hintergrund) {
+			magicStat = dv.page(dv.current().Hintergrund.Klasse).Zauberattribut ? dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.fileName() : null;
+		}
+		else {
+			magicStat = dv.page(dv.current().Zauberwirken.Zauberattribut) ? dv.page(dv.current().Zauberwirken.Zauberattribut).file.name : null;
+		}
+	}
+
+	function getLevelStat() {
+		if (dv.current().Herausforderungsgrad) {
+			return dv.current().Herausforderungsgrad;
+		}
+		else {
+			return dv.current().Stufe;
+		}
+	}
+
 
 } catch (error) {
     console.error("An error occurred in DataviewJS:", error);
