@@ -7,6 +7,13 @@
 > ```dynamic-embed
 > [[embed Character Sheet Parameter]]
 > ```
+>
+> ```dataviewjs 
+> dv.el('h2', `<h2>Bewegung</h2>`); 
+> ```
+> ```dynamic-embed
+> [[embed Character Sheet Bewegung]]
+> ```
 > 
 > ```dataviewjs 
 > dv.el('h2', `<h2>Stärke</h2>`); 

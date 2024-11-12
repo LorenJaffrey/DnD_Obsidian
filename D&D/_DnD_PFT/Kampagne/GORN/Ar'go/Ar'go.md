@@ -90,6 +90,7 @@ Merkmale:
     - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Bild: "[[Argo.jpeg]]"
+  Video: "[[Argo.mp4]]"
   Name: Ar'gonthariel Maez'ralor Sturmzorn
   Volk: "[[Drachenblütige|Drachenblütiger]]"
   Klasse: "[[Zauberer]]"
@@ -173,7 +174,7 @@ InputData:
   ShowHideSection:
     WeaponAttack: false
     MagicAttack: true
-    Skills: false
+    Skills: true
     Statistic: true
     Personality: false
     Past: false
@@ -186,8 +187,15 @@ tags:
   - Charakter/GORN
 ---
 
+
+
 > [!infobox]
->  `="!" + this.Hintergrund.Bild`
+> ![[Argo.jpeg | 0]]
+>  
+> ```dynamic-embed
+> [[embed Character Sheet Video]]
+> ```
+>  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
 > ```
@@ -203,6 +211,8 @@ tags:
 > ```dynamic-embed
 > [[embed Character Sheet Level Abschnitt]]
 > ```
+> 
+> <br />
 > 
 > |                            |  
 > | :--------------------------: | 
@@ -233,25 +243,22 @@ tags:
 > [[embed Character Sheet Zaubereipunkte]]
 > ```
 >
-> ```dataviewjs 
-> dv.el('h2', `<h2>Übung</h2>`); 
-> ```
-> ## Rüstung
+>---
+>
+> ## Übung
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Übung Rüstung]]
 > ```
 > 
-> ## Waffen
 > ```dynamic-embed
 > [[embed Character Sheet Übung Waffen]]
 > ```
 >
-> ## Sprachen
 > ```dynamic-embed
 > [[embed Character Sheet Übung Sprachen]]
 > ```
 >
-> ## Werkzeuge
 > ```dynamic-embed
 > [[embed Character Sheet Übung Werkzeuge]]
 > ```
@@ -270,42 +277,33 @@ tags:
 >> ```dynamic-embed
 >> [[embed Erschöpfung]]
 >> ```
->> 
+>>
+>> ## Verteidigung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung Zauberer]]
+>> ```
+>>
+>
 >> ## Gesundheit
 >> ```dynamic-embed
 >> [[embed Character Sheet Gesundheit]]
 >> ```
->>
->>
->>>[!column | flex 2 no-title ] 
->>>>## Verteidigung
->>>> ```dynamic-embed
->>>> [[embed Character Sheet Rüstung Zauberer]]
->>>> ```
->>>
->>>>## [[Schadensarten#Schadensresistenz|Resistenz]]
->>>> - Blitz
->
->> ## Bewegung
->> ```dynamic-embed
->> [[embed Character Sheet Bewegung]]
->> ```
+>> 
+>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
+>>> [!info] Blitz
 >>
 >
 
 ## Angriff
 > [!column | 3 flex  no-title]
->> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
->
->> ### Schusswaffen 
+>>
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
 >> ```
 >> 
->> ### Wurfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
@@ -415,10 +413,11 @@ tags:
 >>
 >>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 >>
->>1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
->>2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
->>3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
->>4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
+>>> [!IMPORTANT]
+>>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
+>>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
+>>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
+>>> 4. **Fragment des Regens**: Ein Teil, der die Kräfte des Wassers und des Regens birgt.
 >>
 >>Der Kult hatte über die Jahre von der Existenz des Kristalls gewusst, aber nur Ar'gonthariel Maez'ralor besaß die einzigartige Fähigkeit, seine Fragmente zu erspüren und zu vereinen.
 >>

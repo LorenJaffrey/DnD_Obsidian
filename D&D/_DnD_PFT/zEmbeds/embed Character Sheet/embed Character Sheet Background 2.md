@@ -4,6 +4,9 @@
 [[embed Character Sheet Healthbar]]
 ```
 
+```dynamic-embed
+[[embed Character Sheet Magicbar]]
+```
 ## Hintergrund
 |                                                              |                                 |
 | ------------------------------------------------------------ | ------------------------------- |

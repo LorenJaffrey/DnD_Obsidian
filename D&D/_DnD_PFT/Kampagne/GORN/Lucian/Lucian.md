@@ -87,6 +87,7 @@ Talente:
   - "[[Infernalische Konstitution]]"
 Hintergrund:
   Bild: "[[Lucian.jpg]]"
+  Video: "[[Lucian.mp4]]"
   Name: Lucian Blackthorn
   Volk: "[[Tieflinge|Tiefling]]"
   Klasse: "[[Hexenmeister]]"
@@ -139,6 +140,12 @@ InputData:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
+> ![[Lucian.jpg| 0]]
+>  
+> ```dynamic-embed
+> [[embed Character Sheet Video]]
+> ```
+> 
 > ```dynamic-embed
 > [[embed Character Sheet Background]]
 > ```
@@ -161,17 +168,14 @@ InputData:
 
 > [!column | 2 no-title]
 >> ## Angriff
->> ### Nahkampfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
 >>
->> ### Schusswaffen 
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Fernkampf]]
 >> ```
 >> 
->> ### Wurfwaffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
@@ -245,22 +249,18 @@ InputData:
 
 ## Übung
 > [!column | 4 no-title]
->> ### Rüstung
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
 > 
->> ### Waffen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Waffen]]
 >> ```
 >
->> ### Sprachen
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Sprachen]]
 >> ```
 >
->> ### Werkzeuge
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```
