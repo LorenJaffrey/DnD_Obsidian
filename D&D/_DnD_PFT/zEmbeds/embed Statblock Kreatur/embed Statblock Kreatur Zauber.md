@@ -1,5 +1,5 @@
 ``` dataviewjs
-var zauber = dv.current().Zauberwirken.Zauber;
+var zauber = dv.current().Zauberwirken ? dv.current().Zauberwirken.Zauber : null;
 var zauberString = "#### Zauber";
 var aktuellerZauber;
 

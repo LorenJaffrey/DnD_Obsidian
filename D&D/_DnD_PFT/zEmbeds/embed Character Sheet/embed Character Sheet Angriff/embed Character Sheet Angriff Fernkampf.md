@@ -72,13 +72,14 @@ try {
     }
 
 	function getMagicStat() {
-		let magicStat
+		let magicStat = null;
 		if (dv.current().Hintergrund) {
 			magicStat = dv.page(dv.current().Hintergrund.Klasse).Zauberattribut ? dv.page(dv.current().Hintergrund.Klasse).Zauberattribut.fileName() : null;
 		}
-		else {
+		else if (dv.current().Zauberwirken) {
 			magicStat = dv.page(dv.current().Zauberwirken.Zauberattribut) ? dv.page(dv.current().Zauberwirken.Zauberattribut).file.name : null;
 		}
+		return magicStat;
 	}
 
 	function getLevelStat() {
