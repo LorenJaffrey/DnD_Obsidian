@@ -11,6 +11,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität: 
 Waffen:
   - "[[Stab des Sommerwalds]]"
@@ -200,25 +201,8 @@ tags:
 >> [[embed Character Sheet Bewegung]]
 >> ```
 
-## Verteidigung
-> [!column | 2 no-title] 
->> ### Gesundheit
->> ```dynamic-embed
->> [[embed Character Sheet Gesundheit]]
->> ```
->
->> ### Rüstung
->> ```dynamic-embed
->> [[embed Character Sheet Rüstung]]
->> ```
-
-## Attribute und Fertigkeiten
-``` dynamic-embed
-[[embed Character Sheet Attribute Übersicht]]
-```
-
-## Angriff
 > [!column | 2 no-title]
+>> ## Angriff
 >> ```dynamic-embed
 >> [[embed Character Sheet Angriff Nahkampf]]
 >> ```
@@ -230,8 +214,28 @@ tags:
 >> ```dynamic-embed
 >> [[embed Character Sheet Angriff Wurf]]
 >> ```
+>>
+>> Disclaimer: Waffen haben immer Übungsbonus...
+>
+>> ## Verteidigung
+>> ### Gesundheit
+>> ```dynamic-embed
+>> [[embed Character Sheet Gesundheit]]
+>> ```
+>>
+>> ### Rüstung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung Barbar]]
+>> ```
+>>
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Resistenzen]]
+>> ```
 
-Disclaimer: Waffen haben immer Übungsbonus...
+## Attribute und Fertigkeiten
+``` dynamic-embed
+[[embed Character Sheet Attribute Übersicht]]
+```
 
 ## Magie
 >[!column | 2 no-title]

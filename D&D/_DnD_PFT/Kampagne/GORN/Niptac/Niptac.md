@@ -15,6 +15,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität: 
 Waffen:
   - "[[Kurzschwert]]"
@@ -171,6 +172,10 @@ aliases:
 ### Rüstung
 ```dynamic-embed
 [[embed Character Sheet Rüstung]]
+```
+
+```dynamic-embed
+[[embed Statblock Kreatur Resistenzen]]
 ```
 
 ## Angriff

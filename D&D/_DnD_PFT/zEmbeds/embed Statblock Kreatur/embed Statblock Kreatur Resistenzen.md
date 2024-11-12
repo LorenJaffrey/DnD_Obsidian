@@ -1,10 +1,13 @@
 ``` dataviewjs
 var schadensresistenzen = dv.current().Verteidigung.Resistenzen.Schadensresistenz;
 var schadensimmunitäten = dv.current().Verteidigung.Resistenzen.Schadensimmunität;
+var schadensanfälligkeiten = dv.current().Verteidigung.Resistenzen.Schadensanfälligkeit;
 var zustandsimmunitäten = dv.current().Verteidigung.Resistenzen.Zustandsimmunität;
+
 
 var schadensresistenzenString = "";
 var schadensimmunitätenString = "";
+var schadensanfälligkeitenString = "";
 var zustandsimmunitätenString = "";
 var resistenzenString = "";
 
@@ -19,6 +22,13 @@ if (schadensimmunitäten) {
 	schadensimmunitätenString += "#### Schadensimmunitäten";
 	for (var i = 0, j = schadensimmunitäten.length; i<j; i++) {
 		schadensimmunitätenString +=  "\n - " + schadensimmunitäten[i];
+	}
+}
+
+if (schadensanfälligkeiten) {
+	schadensanfälligkeitenString += "#### Schadensanfälligkeiten";
+	for (var i = 0, j = schadensanfälligkeiten.length; i<j; i++) {
+		schadensanfälligkeitenString +=  "\n - " + schadensanfälligkeiten[i];
 	}
 }
 
@@ -38,6 +48,12 @@ if (schadensimmunitätenString) {
 	}
 	resistenzenString += schadensimmunitätenString;
 }
+if (schadensanfälligkeitenString) {
+	if (resistenzenString) {
+		resistenzenString += "\n"
+	}
+	resistenzenString += schadensanfälligkeitenString;
+}
 if (zustandsimmunitätenString) {
 	if (resistenzenString) {
 		resistenzenString += "\n"
@@ -49,5 +65,3 @@ if (resistenzenString) {
 	dv.span(resistenzenString);
 }
 ```
-
-- [ ] #task Schadensanfälligkeit ergänzen [priority:: high]

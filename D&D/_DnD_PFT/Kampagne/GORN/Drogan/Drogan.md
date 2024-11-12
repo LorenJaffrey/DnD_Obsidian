@@ -10,6 +10,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität: 
 Waffen:
   - "[[Zweihandaxt]]"

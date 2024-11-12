@@ -13,6 +13,7 @@ Verteidigung:
       - "[[Kälteschaden]]"
       - "[[Giftschaden]]"
     Schadensimmunität: 
+    Schadensanfälligkeit:
     Zustandsimmunität:
 Waffen:
   - "[[Dolch]]"
