@@ -32,9 +32,7 @@ Verteidigung:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  Waffen: 
-  Angriffe:
-    - "[[Wurzelangriff]]"
+  - "[[Wurzelangriff]]"
 Attribute:
   Stärke: 20
   Geschicklichkeit: 6
@@ -81,5 +79,5 @@ Legendäre_Aktionen:
   - "[[Wurzelangriff]]"
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

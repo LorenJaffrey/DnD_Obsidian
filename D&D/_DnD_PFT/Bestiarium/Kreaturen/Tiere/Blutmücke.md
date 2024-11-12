@@ -28,9 +28,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Waffen: 
-  Angriffe:
-    - "[[Saugrüssel]]"
+  - "[[Saugrüssel]]"
 Attribute:
   Stärke: 4
   Geschicklichkeit: 16
@@ -71,5 +69,5 @@ Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

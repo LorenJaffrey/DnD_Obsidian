@@ -29,8 +29,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Waffen:
-    - "[[Zweihandaxt]]"
+  - "[[Zweihandaxt]]"
 Attribute:
   Stärke: 17
   Geschicklichkeit: 13

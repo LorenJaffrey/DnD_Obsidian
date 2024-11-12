@@ -30,11 +30,9 @@ Verteidigung:
       - "[[Kälteschaden]]"
     Zustandsimmunität: 
 Angriff:
-  Waffen:
-  Angriffe:
-    - "[[Mächtiger Biss]]"
-    - "[[Klauenhieb]]"
-    - "[[Schwanzhieb]]"
+  - "[[Mächtiger Biss]]"
+  - "[[Klauenhieb]]"
+  - "[[Schwanzhieb]]"
 Attribute:
   Stärke: 22
   Geschicklichkeit: 10
@@ -85,5 +83,5 @@ Legendäre_Aktionen:
   - "[[Flügelschlag]]"
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

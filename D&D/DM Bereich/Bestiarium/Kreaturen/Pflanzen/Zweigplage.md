@@ -30,9 +30,7 @@ Verteidigung:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  Waffen: 
-  Angriffe:
-    - "[[Winziger Klauenhieb]]"
+  - "[[Winziger Klauenhieb]]"
 Attribute:
   Stärke: 6
   Geschicklichkeit: 13
@@ -74,5 +72,5 @@ Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

@@ -29,8 +29,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Waffen:
-    - "[[Streitaxt]]"
+  - "[[Streitaxt]]"
 Attribute:
   Stärke: 17
   Geschicklichkeit: 13

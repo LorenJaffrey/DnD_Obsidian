@@ -30,10 +30,8 @@ Verteidigung:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  Waffen: 
-  Angriffe:
-    - "[[Schwacher Klauenhieb]]"
-    - "[[Nadelschuss]]"
+  - "[[Schwacher Klauenhieb]]"
+  - "[[Nadelschuss]]"
 Attribute:
   Stärke: 12
   Geschicklichkeit: 12
@@ -74,5 +72,5 @@ Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

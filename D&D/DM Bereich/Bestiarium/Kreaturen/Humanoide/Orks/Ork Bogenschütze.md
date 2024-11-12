@@ -29,9 +29,8 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Waffen:
-    - "[[Kurzschwert]]"
-    - "[[Kurzbogen]]"
+  - "[[Kurzschwert]]"
+  - "[[Kurzbogen]]"
 Attribute:
   Stärke: 14
   Geschicklichkeit: 16

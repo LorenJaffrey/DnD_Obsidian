@@ -29,8 +29,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität: 
 Angriff:
-  Waffen:
-    - "[[Kriegsflegel]]"
+  - "[[Kriegsflegel]]"
 Attribute:
   Stärke: 17
   Geschicklichkeit: 12

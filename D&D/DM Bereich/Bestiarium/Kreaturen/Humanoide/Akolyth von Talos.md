@@ -28,10 +28,8 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Waffen:
-  Angriffe: 
-    - "[[Winziger Klauenhieb]]"
-    - "[[Hauerangriff]]"
+  - "[[Winziger Klauenhieb]]"
+  - "[[Hauerangriff]]"
 Attribute:
   Stärke: 16
   Geschicklichkeit: 13
@@ -71,14 +69,16 @@ Sprachen:
 Merkmale:
   - "[[Angeborenes Zauberwirken (Weisheit)]]"
   - "[[Wildschweingestalt]]"
-Zauber:
-  - "[[Vorahnung]] (1 pro Tag)"
-  - "[[Segnen]] (1 pro Tag)"
-  - "[[Blitz]] (1 pro Tag)"
-  - "[[Donnerwoge]] (3 pro Tag)"
+Zauberwirken:
+  Zauberattribut: "[[Weisheit]]"
+  Zauber:
+    - "[[Vorahnung]] (1 pro Tag)"
+    - "[[Segnen]] (1 pro Tag)"
+    - "[[Blitz]] (1 pro Tag)"
+    - "[[Donnerwoge]] (3 pro Tag)"
 Anzahl_Legendäre_Aktionen: 0
 Legendäre_Aktionen:
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

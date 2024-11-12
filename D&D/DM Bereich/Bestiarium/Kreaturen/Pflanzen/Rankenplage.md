@@ -30,9 +30,7 @@ Verteidigung:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  Waffen: 
-  Angriffe:
-    - "[[Rankenhieb]]"
+  - "[[Rankenhieb]]"
 Attribute:
   Stärke: 15
   Geschicklichkeit: 8
@@ -76,5 +74,5 @@ Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---
 ```dynamic-embed
-[[embed Statblock Wilde Kreatur]]
+[[embed Statblock Kreatur]]
 ```

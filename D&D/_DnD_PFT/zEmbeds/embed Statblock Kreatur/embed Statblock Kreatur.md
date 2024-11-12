@@ -42,17 +42,18 @@
 >> ```
 >
 >> ## Angriff
->> #### Nahkampfwaffen
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Waffen Nahkampf]]]
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Angriff Nahkampf]]
+>> ```
+>>
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Angriff Fernkampf]]
 >> ```
 >> 
->> #### Schusswaffen 
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Waffen Fernkampf]]]
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Angriff Wurf]]
 >> ```
->> 
->> #### Wurfwaffen
->> ``` dynamic-embed
->> [[embed Statblock Kreatur Waffen Wurf]]]
+>>
+>>```dynamic-embed
+>> [[embed Statblock Kreatur Zauber]]
 >> ```

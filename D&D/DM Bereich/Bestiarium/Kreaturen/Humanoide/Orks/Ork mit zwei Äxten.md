@@ -29,8 +29,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität: 
 Angriff:
-  Waffen:
-    - "[[Axt]]"
+  - "[[Axt]]"
 Attribute:
   Stärke: 16
   Geschicklichkeit: 12
