@@ -158,20 +158,8 @@ tags:
 >> [[embed Character Sheet Bewegung]]
 >> ```
 
-## Verteidigung
-> [!column | 2 no-title] 
->> ### Gesundheit
->> ```dynamic-embed
->> [[embed Character Sheet Gesundheit]]
->> ```
->
->> ### Rüstung
->> ```dynamic-embed
->> [[embed Character Sheet Rüstung Barbar]]
->> ```
-
-## Angriff
 > [!column | 2 no-title]
+>> ## Angriff
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Nahkampf]]
 >> ```
@@ -183,8 +171,23 @@ tags:
 >> ```dynamic-embed
 >> [[embed Character Sheet Waffen Wurf]]
 >> ```
-
-Disclaimer: Waffen haben immer Übungsbonus...
+>>
+>> Disclaimer: Waffen haben immer Übungsbonus...
+>
+>> ## Verteidigung
+>> ### Gesundheit
+>> ```dynamic-embed
+>> [[embed Character Sheet Gesundheit]]
+>> ```
+>>
+>> ### Rüstung
+>> ```dynamic-embed
+>> [[embed Character Sheet Rüstung Barbar]]
+>> ```
+>>
+>> ```dynamic-embed
+>> [[embed Statblock Kreatur Resistenzen]]
+>> ```
 
 ## Attribute und Fertigkeiten
 > [!column  | 6 no-title]
