@@ -28,6 +28,7 @@ priority is below medium
 group by filename
 ```
 
-- [x] #task Klassenfeatures Schurke in Charactersheet einbauen  [priority:: high]
-- [ ] #task Neue Aktionen Suchen, Study, Influence [priority:: high]
-- [x] #task Zauber Tiere beschwören  [priority:: highest]
+- [ ] #task Zauber [[Fallen finden]]  [priority:: highest]
+- [ ] #task Zauber [[Spurloses Gehen]]  [priority:: highest]
+- [ ] #task Zauber [[Vorahnung]]  [priority:: highest]
+- [ ] #task Zauber [[Segnen]]  [priority:: highest]
