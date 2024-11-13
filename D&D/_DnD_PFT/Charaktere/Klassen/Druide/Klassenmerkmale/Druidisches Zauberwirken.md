@@ -2,7 +2,7 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
-Einsatz: "[[Aktion]]"
+Einsatz: "Passiv"
 ---
 # `=this.file.name`
 *Indem du dich der göttlichen Essenz der Natur bedienst, kannst du [[Zauber wirken]] und diese Essenz nach deinem Willen formen.*
