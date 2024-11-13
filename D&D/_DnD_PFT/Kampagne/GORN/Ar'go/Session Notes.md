@@ -33,6 +33,9 @@ wichtigePersonen: |-
 
   #### Butterschädelhof
   - **Big Al Karazorn** (gerettet)
+
+  #### Holzfällerlager
+  - Tibor Wester (Bruder vom Bürgermeister von Phandalin)
 wichtigeOrte: |
   - Butterschädelhof
     - [x] Ort erreicht
@@ -68,9 +71,9 @@ wichtigeOrte: |
   >   - [ ] Ort gefunden/ausgemacht
   >   - [ ] Ort erreicht
   > - Tempestus Kristall Splitter finden
-  >   - [ ] Hinweise deuten auf den Niewinter-Wald
+  >   - [x] Hinweise deuten auf den Niewinter-Wald
   >   - [ ] Talos-Anhänger gefunden
-todoListe: |
+todoListe: |-
   > #### Aktive Quests
   > - [ ] Burg Cragmaw finden
   > - [x] Butterschädelhof (Ork Überfall - sehr viele Orks)
@@ -95,10 +98,14 @@ todoListe: |
     - [x] Tempel erkunden -> von den Zwergen als Lohn **Steine der Verständigung** bekommen
 
   #### Schwertküste in der nähe von Neverwinter
-  - [ ] Holzfällerlager (Versorgungs-Quest) - 100 Gold
-  - [ ] Jagdhaus des Falken (Person heißt Falke - kann man übernachten)
   - [x] Butterschädelhof (Ork Überfall - sehr viele Orks)
   - [ ] Bergzeh Goldmiene (Long Jon Reskin Eskurtieren) - 100 Gold
+
+  #### Niewinter Wald
+  - [x] Holzfällerlager (Versorgungs-Quest) - 100 Gold
+    - [ ] Belohnung abholen
+  - [x] Jagdhaus des Falken (Person heißt Falke - kann man übernachten)
+  - [ ] Altes merkwürdigen Haus untersuchen
 wichtigeHintergrundInformationen: |-
   #### Neverwinter
   - #1 Mondsteinmaske -> berühmte Taverne
@@ -127,7 +134,7 @@ sonstigeInformationen: |-
     - Person wurde entdeckt und konnte verschwinden
     - [ ] Auflösung? (Wer war das?)
   - Butterschädel-Hof wurde überfallen
-    - [x] Auflösung
+    - [x] Auflösung -> großer Weißer Drache & Orks
 ---
 
 > [!column | 2 no-title]
@@ -151,7 +158,7 @@ sonstigeInformationen: |-
 >> INPUT[editor(class(dndMiddleHeight)):wichtigeHintergrundInformationen]
 >> ```
 >
->> ## Sontige Informationen 
+>> ## Sonstige Informationen 
 >> ```meta-bind
 >> INPUT[editor(class(dndDefaultHeight)):sonstigeInformationen]
 >> ```

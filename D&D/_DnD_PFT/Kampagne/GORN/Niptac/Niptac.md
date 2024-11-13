@@ -192,8 +192,6 @@ aliases:
 [[embed Character Sheet Angriff Wurf]]
 ```
 
-Disclaimer: Waffen haben immer Übungsbonus...
-
 ## Attribute und Fertigkeiten
 > [!column  | 2 no-title]
 >> ## Stärke

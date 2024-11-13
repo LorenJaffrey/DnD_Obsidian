@@ -23,7 +23,7 @@ try {
 	                    attackStat = Math.max(attackStat, attributes[magicStat]);
 					}
                     const attackModifier = Math.floor((attackStat - 10) / 2);
-                    const proficiencyBonus = Math.ceil(getLevelStat() / 4) + 1;
+                    const proficiencyBonus = getProficiencyBonus(page);
                     const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0)}\``;
 
                     // Calculate Schaden
@@ -40,6 +40,13 @@ try {
                 })
         );
     }
+
+	function getProficiencyBonus(page) {
+		const hasDirectProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.file.path).length === 1;
+		const hasGlobalProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.Kategorie.path).length === 1;
+		return (hasDirectProficiency || hasGlobalProficiency) ? (Math.ceil(getLevelStat() / 4) + 1) : 0;		 
+	}
+
 
 	function getAttacks() {
 		if(dv.current().Waffen) {

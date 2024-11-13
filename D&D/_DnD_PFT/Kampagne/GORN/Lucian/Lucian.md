@@ -180,8 +180,6 @@ InputData:
 >> ```dynamic-embed
 >> [[embed Character Sheet Angriff Wurf]]
 >> ```
->>
->> Disclaimer: Waffen haben immer Übungsbonus...
 >
 >> ## Verteidigung
 >> ### Gesundheit
