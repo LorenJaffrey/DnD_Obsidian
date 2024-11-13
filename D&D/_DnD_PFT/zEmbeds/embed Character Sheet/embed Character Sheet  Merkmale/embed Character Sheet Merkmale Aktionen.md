@@ -1,24 +1,34 @@
 ``` dataviewjs
-var merkmale = dv.current().Merkmale;
-var aktionen = [];
-var aktionenString = "#### Aktionen";
-var aktuellesMerkmal;
+let merkmale = dv.current().Merkmale;
+let aktionen = [];
+let aktionenString = '';
+let aktuellesMerkmal;
+
+dv.span('#### Aktionen');
 
 if (merkmale) {
-	for (var i = 0, j = merkmale.length; i<j; i++) {
-		aktuellesMerkmal = dv.page(merkmale[i]);
-		if (typeof(aktuellesMerkmal.Einsatz) == "object") {
-			if (dv.page(aktuellesMerkmal.Einsatz).file.name == dv.parse("[[Aktion]]").path)  {
-				aktionen.push(merkmale[i]);
+	for (let aktuellesMerkmal of merkmale) {
+		if (typeof(dv.page(aktuellesMerkmal).Einsatz) == 'object') {
+			if (dv.page(dv.page(aktuellesMerkmal).Einsatz).file.name == 'Aktion')  {
+				aktionen.push(aktuellesMerkmal);
 			}
 		}
 	}
 	
 	if (aktionen.length > 0) {
 		for (var i = 0, j = aktionen.length; i<j; i++) {
-			aktionenString += "\n - " + aktionen[i];
+			aktionenString += '\n - ' + aktionen[i];
 		}
+		aktionenString += '\n'
+		dv.span(aktionenString);
 	}
-	dv.span(aktionenString);
 }
+
+let standardAktionen = dv.pages('#Zug/Aktion').sort(page => page.file.name);
+let standardAktionenString = '';
+for (let aktion of standardAktionen) {
+	standardAktionenString += '\n - [[' + aktion.file.name + ']]';
+}
+
+dv.span(standardAktionenString);
 ```

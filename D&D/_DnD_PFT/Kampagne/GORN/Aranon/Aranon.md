@@ -267,7 +267,7 @@ tags:
 >> ```
 >
 >> ```dynamic-embed
->> [[embed Character Sheet Merkmale  Reaktionen]]
+>> [[embed Character Sheet Merkmale Reaktionen]]
 >> ```
 >
 >> ```dynamic-embed

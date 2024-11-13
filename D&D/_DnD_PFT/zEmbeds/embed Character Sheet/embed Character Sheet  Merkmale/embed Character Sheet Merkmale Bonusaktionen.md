@@ -1,24 +1,34 @@
 ``` dataviewjs
-var merkmale = dv.current().Merkmale;
-var bonusaktionen = [];
-var bonusaktionenString = "#### Bonusaktionen";
-var aktuellesMerkmal;
+let merkmale = dv.current().Merkmale;
+let bonusaktionen = [];
+let bonusaktionenString = '';
+let aktuellesMerkmal;
+
+dv.span('#### Bonusaktionen');
 
 if (merkmale) {
-	for (var i = 0, j = merkmale.length; i<j; i++) {
-		aktuellesMerkmal = dv.page(merkmale[i]);
-		if (typeof(aktuellesMerkmal.Einsatz) == "object") {
-			if (dv.page(aktuellesMerkmal.Einsatz).file.name == dv.parse("[[Bonusaktion]]").path)  {
-				bonusaktionen.push(merkmale[i]);
+	for (let aktuellesMerkmal of merkmale) {
+		if (typeof(dv.page(aktuellesMerkmal).Einsatz) == 'object') {
+			if (dv.page(dv.page(aktuellesMerkmal).Einsatz).file.name == 'Bonusaktion')  {
+				bonusaktionen.push(aktuellesMerkmal);
 			}
 		}
 	}
-	
+
 	if (bonusaktionen.length > 0) {
 		for (var i = 0, j = bonusaktionen.length; i<j; i++) {
-			bonusaktionenString +=  "\n - " + bonusaktionen[i];
+			bonusaktionenString += '\n - ' + bonusaktionen[i];
 		}
+		bonusaktionenString += '\n'
+		dv.span(bonusaktionenString);
 	}
-	dv.span(bonusaktionenString);
 }
+
+let standardBonusaktionen = dv.pages('#Zug/Bonusaktion').sort(page => page.file.name);
+let standardBonusaktionenString = '';
+for (let bonusaktion of standardBonusaktionen) {
+	standardBonusaktionenString += '\n - [[' + bonusaktion.file.name + ']]';
+}
+
+dv.span(standardBonusaktionenString);
 ```
