@@ -32,3 +32,8 @@ group by filename
 - [ ] #task Zauber [[Spurloses Gehen]]  [priority:: highest]
 - [ ] #task Zauber [[Vorahnung]]  [priority:: highest]
 - [ ] #task Zauber [[Segnen]]  [priority:: highest]
+
+## Hintergründe
+- [ ] #task Hintergrund [[Einsiedler]]  [priority:: highest]
+- [ ] #task Hintergrund [[Weiser]]  [priority:: highest]
+- [ ] #task Hintergrund [[Scharlatan]]  [priority:: highest]
