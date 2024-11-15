@@ -1,0 +1,8 @@
+- Name
+- Spezies
+- grobe Herkunft
+- Beruf/Klasse
+- Funktion in der Gruppe
+- Motivation
+- Schwächen
+- Kurioser Spleen?
