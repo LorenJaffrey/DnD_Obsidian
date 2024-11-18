@@ -39,9 +39,9 @@ Metamagie:
 > [!INFO] 
 > Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (1 kann gewählt werden):
 
-> [!IMPORTANT] [[Blitz]]
+> [!check] [[Blitz]]
 
-> [!IMPORTANT] [[Blitze herbeirufen]]
+> [!check] [[Blitze herbeirufen]]
 
 > [!IMPORTANT] [[Wasser atmen]]
 
@@ -57,7 +57,7 @@ Metamagie:
 
 > [!IMPORTANT]  [[Gegenzauber]]
 
-> [!IMPORTANT]  [[Feuerball]]
+> [!fail]  [[Feuerball]] (steht nicht mehr zur Auswahl -> dafür aber [[Blitze herbeirufen]] )
 
 
 > [!column | 2  no-title]

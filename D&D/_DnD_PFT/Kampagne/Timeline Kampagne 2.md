@@ -1,5 +1,10 @@
 > [!INFO]
-> -> Woche 3: Tag 21
+> Aktuelle Kampagne -> Woche 3: Tag 21
+> - [Absprung zu Woche 1](#Woche%201)
+> - [Absprung zu Woche 2](#Woche%202)
+> - [Absprung zu Woche 3](#Woche%203)
+> - [Absprung zu Woche 4](#Woche%204)
+> - [Absprung zu Woche 5](#Woche%205)
 
 # Woche 1
 >
@@ -14,7 +19,7 @@
 >		Reise auf der Hohen Straße: done, a2, after a1, 2d
 >```
 >
->## Tag 3
+>## 🗺️ Tag 3: Abenteuerreise auf dem Dreieberpfad: Vom Goblinüberfall bis Phandalin 
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -30,7 +35,31 @@
 >		Weiterreise nach Phandalin: done, a6, after a5, 2h
 >```
 >
->## Tag 4
+>
+> ```leaflet
+> id: northern_swordcoast_map
+> lock: true
+> recenter: true
+> noScrollZoom: false
+> image: [[ice-map-sword-coast-pc.jpg]]
+> bounds: [[0,0], [249.2248, 178.816]]
+> height: 600px
+> width: 50%
+> lat: 100
+> long: 89.408
+> minZoom: 2.5
+> maxZoom: 5
+> defaultZoom: 2
+> zoomDelta: 0.1
+> unit: km
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Schwertküste
+> ```
+>
+>
+>## ⚔️ Tag 4: Abenteuer in Phandalin: Ankunft, Geschäfte und Konfrontation
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -45,7 +74,31 @@
 >		Lange Rast: done, a5, after a4, 8h
 >```
 >
->## Tag 5
+>
+> ```leaflet
+> id: phandalin_map_1
+> lock: false
+> recenter: true
+> noScrollZoom: false
+> image: [[phandalin-isometric.jpg]]
+> bounds: [[0,0], [131.625, 185.625]]
+> height: 800px
+> width: 56%
+> lat: 100
+> long: 89.408
+> minZoom: 2.6
+> maxZoom: 5
+> defaultZoom: 2.6
+> zoomDelta: 0.2
+> unit: Meter
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Ort/Phandalin
+> ```
+>
+>
+>## 🏰 Tag 5: Aufbruch ins Ungewisse: Vom Gasthaus bis zur Zwergenausgrabung
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -63,7 +116,7 @@
 >		Reise zur Zwergenausgrabung (halber Weg): done, a8, after a7, 4h
 >```
 >
->## Tag 6
+>## 🩸 Tag 6:  Das verfluchte Zwergenheiligtum: Kämpfe, Fallen und Verluste
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -92,7 +145,31 @@
 >		Lange Rast: done, a19, after a18, 3h
 >```
 >
->## Tag 7
+>
+> ```leaflet
+> id: northern_swordcoast_map_2
+> lock: false
+> recenter: true
+> noScrollZoom: false
+> image: [[ice-map-sword-coast-pc.jpg]]
+> bounds: [[0,0], [249.2248, 178.816]]
+> height: 600px
+> width: 50%
+> lat: 45
+> long: 100
+> minZoom: 2.5
+> maxZoom: 5
+> defaultZoom: 4
+> zoomDelta: 0.1
+> unit: km
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Schwertküste
+> ```
+>
+>
+>## 🍻 Tag 7: Rückkehr nach Phandalin: Belohnungen, Abschiede und neue Bündnisse
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -113,7 +190,7 @@
 
 # Woche 2
 >
->## Tag 8
+>## 🕯️ Tag 8: Dunkle Wege: Nachfeier, Entdeckungen und ein grausames Zeichen
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -129,7 +206,7 @@
 >		Gekreuzigten und gefolteter Mensch an Weggabelung gefunden (Böser Magier "Glasstab"): done, milestone, a6, after a5, 30m
 >		Schlafen (Lange Rast): done, a7, after a6, 2h
 >```
->### Tag 9
+>## 🛤️ Tag 9: Auf dem Weg nach Hasenbeere: Ruhe und Ausdauer
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -142,7 +219,7 @@
 >		Schlafen (Lange Rast): done, a3, after a2, 5h
 >```
 >
->## Tag 10
+>## 🐉 Tag 10: Von Hasenbeere zum Butterschädelhof: Drachenangriff und Befreiung
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -165,7 +242,31 @@
 >		GORN reist wieder nach Phandalin zurück: done, a13, after a12, 270m
 >```
 >
->## Tag 11
+>
+> ```leaflet
+> id: northern_swordcoast_map_3
+> lock: false
+> recenter: true
+> noScrollZoom: false
+> image: [[ice-map-sword-coast-pc.jpg]]
+> bounds: [[0,0], [249.2248, 178.816]]
+> height: 600px
+> width: 50%
+> lat: 90
+> long: 120
+> minZoom: 2.5
+> maxZoom: 5
+> defaultZoom: 3
+> zoomDelta: 0.1
+> unit: km
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Schwertküste
+> ```
+>
+>
+>## 🛏️ Tag 11: Reisen & Schlafen
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -176,7 +277,7 @@
 >		Reisen - Schlafen (Lange Rast): done a1, 2024-05-03 00:00, 24h
 >```
 >
->## Tag 12
+>## 🛏️ Tag 12: Reisen & Schlafen
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -187,7 +288,7 @@
 >		Reisen - Schlafen (Lange Rast): done a1, 2024-05-04 00:00, 24h
 >```
 >
->## Tag 13
+>## 🏙️ Tag 13: Ankunft & Abenteuer in Phandalin
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -201,7 +302,7 @@
 >		GORN bricht nach Hasenbeere mit der Holzlieferung auf: done, a4, after a3, 7h
 >```
 >
->## Tag 14
+>## 🛏️ Tag 14: Reisen & Schlafen
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -215,7 +316,7 @@
 
 # Woche 3
 >
->## Tag 15
+>## 🛏️ Tag 15: Reisen & Schlafen
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -226,7 +327,7 @@
 >		Reisen - Schlafen (Lange Rast): a1, 2024-05-07 00:00, 24h
 >```
 >
->## Tag 16
+>## 🐺 Tag 16: Ankunft & Abenteuer in Hasenbeere
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -242,7 +343,7 @@
 >		Lange Rast: done, a6, after a4, 4h
 >```
 >
->## Tag 17
+>## 🌲 Tag 17: Rast, Irrwege & Jagdhaus-Abenteuer
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -260,7 +361,7 @@
 >		Essen und Übernachtung im Jagdhaus: done, a8, after a7, 5h	
 >```
 >
->## Tag 18
+>## 🪓 Tag 18: Abenteuer im Holzfällerlager
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -282,7 +383,7 @@
 >		Lange Rast: done, a12, after a11, 2.5h
 >```
 >
->## Tag 19
+>## 🦅 Tag 19: Reise zum Jagdhaus des Falken
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -294,7 +395,31 @@
 >		Reise zum Jagdhaus des Falken: done, a2, after a1, 16h
 >```
 >
->## Tag 20
+>
+> ```leaflet
+> id: northern_swordcoast_map_4
+> lock: false
+> recenter: true
+> noScrollZoom: false
+> image: [[ice-map-sword-coast-pc.jpg]]
+> bounds: [[0,0], [249.2248, 178.816]]
+> height: 600px
+> width: 50%
+> lat: 100
+> long: 89.408
+> minZoom: 2.5
+> maxZoom: 5
+> defaultZoom: 2
+> zoomDelta: 0.1
+> unit: km
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Schwertküste
+> ```
+>
+>
+>## 🦅 Tag 20: Ankunft & Rast im Jagdhaus des Falken
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -307,7 +432,7 @@
 >		Im Jagdhaus des Falken rasten: done, a3, after a2, 16h
 >```
 >
->## Tag 21
+>## ⚔️ Tag 21: Abenteuer im Alten Haus im Wald
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -323,8 +448,32 @@
 >		Kampf gegen Pflanzenwesen im Innenhof: done, a6, after a4, 0.25h
 >		
 >```
+>
+>
+> ```leaflet
+> id: northern_swordcoast_map_5
+> lock: false
+> recenter: true
+> noScrollZoom: false
+> image: [[ice-map-sword-coast-pc.jpg]]
+> bounds: [[0,0], [249.2248, 178.816]]
+> height: 600px
+> width: 50%
+> lat: 135
+> long: 120
+> minZoom: 4
+> maxZoom: 5
+> defaultZoom: 2
+> zoomDelta: 0.1
+> unit: km
+> scale: 1
+> darkMode: false
+> markerTag: 
+> - Location/Schwertküste
+> ```
+>
 
-> [!INFO]
+> [!INFO] 
 > Hier befinden wir uns aktuell!
 
 # Woche 4
