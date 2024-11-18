@@ -6,6 +6,10 @@ Seltenheit: Selten
 Einstimmung: false
 Kosten: 400 GM
 ---
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
+
 *Dieses Amulett besteht aus einem großen, durchsichtigen, farblosen Kristall der kunstvoll mit Gold eingefasst wurde.*
 
 Einmal pro [[Lange Rast|Langer Rast]] kannst du eine [[Aktion]] aufwenden um das Amulett zu aktivieren.

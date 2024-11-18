@@ -8,19 +8,9 @@ Kosten:
 Voraussetzung:
 Verflucht: false
 ---
-# `=this.file.name`
-> [!infobox]
-> # `=this.file.name`
-> ![[dragonslayer_bow.png|cover hsmall]]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Dieser magische [[Kriegsbogen]] wurde erschaffen um der Bedrohung durch den mächtigen [[Grüner Drache|Grünen Drachen]] [[Azdraka]] zu begegnen, der die [[Hohe Straße]] jahrelang terrorisiert hatte. 
 Er wurde geführt von Lady [[Tanamere Alagondar]], einem Spross der Herrscherfamilie von [[Niewinter]]. Zusammen mit zwei Gruppen von Abenteurern kämpfte und tötete sie [[Azdraka]]. Sie fiel jedoch in der Schlacht und wurde in der Nähe der Stelle an der der Drache besiegt wurde, in einem Hügelgrab ([[Drachengrab]]) beigesetzt. 
