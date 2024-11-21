@@ -2,6 +2,7 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
+- [[Zauberplätze#Zauber ohne Zauberplätze wirken]]
 
 ## Organisatorisches
 
