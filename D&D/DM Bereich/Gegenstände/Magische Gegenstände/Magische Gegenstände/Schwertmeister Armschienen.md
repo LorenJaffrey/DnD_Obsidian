@@ -8,17 +8,9 @@ Kosten: 450 GM
 Voraussetzung:
 Verflucht: true
 ---
-# `=this.file.name`
-> [!infobox]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 *Diese verzierten Armschienen haben die Macht die Angriffe ihres Trägers präzise zu leiten. Doch diese Eigenschaft kostet den Träger Lebenkraft...*
 

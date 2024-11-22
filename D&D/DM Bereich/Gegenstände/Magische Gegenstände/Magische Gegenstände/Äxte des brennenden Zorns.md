@@ -9,19 +9,9 @@ Voraussetzung:
   - "[[Barbar]]"
 Verflucht: true
 ---
-# `=this.file.name`
-
-> [!infobox]
-> # `=this.file.name`
-> ![[dragonslayer_bow.png|cover hsmall]]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Diese beiden zwergischen [[Streitaxt|Streitäxte]] enthalten jeweils ein Feuergefäß. 
 

@@ -8,16 +8,8 @@ Kosten: 250 GM
 Voraussetzung:
 Verflucht: false
 ---
-# `=this.file.name`
-> [!infobox]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Einmal pro Tag kann der Träger seine [[Reaktion]] einsetzen, um für 30 Sekunden +1 [[Rüstungsklasse]] und +1 Schaden zu erhalten.

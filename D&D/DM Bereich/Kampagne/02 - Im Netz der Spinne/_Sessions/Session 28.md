@@ -2,6 +2,7 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
+- [[Zauberplätze#Zauber ohne Zauberplätze wirken]]
 
 ## Organisatorisches
 
@@ -16,8 +17,6 @@
 
 - [ ] #task Bosskampf [[Kreis der Stürme]] [priority:: high]
 	- [ ] #task [[Gorthok der Donnerkeiler]] [priority:: high]
-- [ ] #task [[Aktion]], [[Bonusaktion]], [[Reaktion]] in Character Sheet einbauen [priority:: normal]
-- [ ] #task Einzelsession mit TObi planen [priority:: highest]
 
 ## Recap
 - [[Altes Haus im Wald]]
@@ -30,6 +29,9 @@
 
 ## Ablauf
 - [[Altes Haus im Wald]] KAMPF!!!
+
+## Solo-Session mit Tobi
+- [[Szene - Konfrontation mit Halia]]
 
 ## Background
 [[Hintergrundinfos]]

@@ -8,17 +8,9 @@ Kosten:
 Voraussetzung: 
 Verflucht: false
 ---
-# `=this.file.name`
-> [!infobox]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 
 Steine der Verständigung kommen in Paaren von zwei glatten Steinen vor, die so geformt wurden, dass sie einander gleichen.

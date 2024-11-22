@@ -9,20 +9,9 @@ Voraussetzung:
   - "[[Druide]]"
 Verflucht: false
 ---
-# `=this.file.name`
-
-> [!infobox]
-> # `=this.file.name`
-> ![[summerwood_staff.png]]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Dieser [[Zauberstecken]] kann als magischer [[Kampfstab]] eingesetzt werden.
 Er kann auf verschiedene Arten geheilt werden und erhält dadurch zusätzliche Merkmale.

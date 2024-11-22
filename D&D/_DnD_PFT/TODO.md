@@ -34,6 +34,6 @@ group by filename
 - [ ] #task Zauber [[Segnen]]  [priority:: highest]
 
 ## Hintergründe
-- [ ] #task Hintergrund [[Einsiedler]]  [priority:: highest]
-- [ ] #task Hintergrund [[Weiser]]  [priority:: highest]
-- [ ] #task Hintergrund [[Scharlatan]]  [priority:: highest]
+- [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
+- [ ] #task Hintergrund [[Weiser]]  [priority:: low]
+- [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]

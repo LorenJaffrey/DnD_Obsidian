@@ -24,20 +24,9 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
-# `=this.file.name`
-
-> [!infobox]
-> # `=this.file.name`
-> ![[summerwood_staff.png]]
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Dieser [[Zauberstecken]] gehörte einst dem Erzdruiden [[Lirian Grauwald]].
 Er kann als magischer [[Kampfstab]] eingesetzt werden.
@@ -58,5 +47,5 @@ Der Träger kann den Zauber [[Mit Pflanzen sprechen]] einmal pro [[Lange Rast]] 
 Der Träger und Verbündete im Umkreis von 3 Metern erhalten +1 auf Würfe auf [[Überlebenskunst]] und [[Wahrnehmung]] in Waldgebieten.
 
 ## Segen des Einhorns
-Der Träger kann diese Fähigkeit einmal pro [[Lange Rast|langer Rast]]aktivieren.
+Der Träger kann diese Fähigkeit einmal pro [[Lange Rast|langer Rast]] aktivieren.
 Alle Verbündeten im Umkreis von 6 Metern (20 Fuß) erhalten 5 [[Trefferpunkte]] Heilung.

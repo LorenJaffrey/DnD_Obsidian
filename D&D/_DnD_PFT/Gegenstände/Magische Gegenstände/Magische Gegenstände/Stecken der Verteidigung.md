@@ -23,19 +23,9 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
-# `=this.file.name`
-
-> [!infobox]
-> # `=this.file.name`
-> ###### Eigenschaften
-> | Eigenschaft |  |
-> | ---- | ---- |
-> | Art | `=this.Art` |
-> | Seltenheit | `=this.Seltenheit` |
-> | Einstimmung | `=choice(this.Einstimmung, "Ja", "Nein")` |
-> | Verflucht | `=choice(this.Verflucht, "Ja", "Nein")` |
-> | Voraussetzung | `=this.Voraussetzung` |
-> | Kosten | `=this.Kosten` |
+```dynamic-embed
+[[embed Magische Gegenstände Infobox]]
+```
 
 Der schlanke, hohle [[Zauberstecken]] besteht aus Glas, ist aber so robust wie Eichenholz. 
 Du musst auf den Stecken [[Einstimmung magischer Gegenstände|eingestimmt]] sein, um seine Vorteile zu nutzen und seine Zauber zu wirken.
