@@ -20,13 +20,9 @@ Schadensart:
 Ziel: 
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer:  1 Runde
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du erschaffst eine magische Fessel, die eine Kreatur in Reichweite festhält, welche du sehen kannst. Dem Ziel muss ein Weisheitsrettungswurf gelingen, um nicht von dem Zauber betroffen zu werden. Bei einem Erfolg ist es immun, wenn du den Spruch erneut gegen es wirkst. Solange die Kreatur durch diesen Zauber gefesselt ist, muss sie nicht atmen, essen, trinken und altert nicht. Erkenntniszauber können das Ziel nicht ausfindig machen oder wahrnehmen. Wenn du den Zauber wirkst, wählst du eine der folgenden Formen der Einkerkerung.

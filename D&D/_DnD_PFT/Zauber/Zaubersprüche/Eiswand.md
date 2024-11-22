@@ -19,13 +19,9 @@ Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du erschaffst eine Barriere aus Eis auf einem festen Untergrund in Reichweite. Du kannst sie zu einer halbkugelförmigen Kuppel oder einer Sphäre mit einem Radius von 3 m formen, oder du kannst eine flache Oberfläche aus zehn Platten erschaffen, die jeweils 3 x 3 m groß sind. Jede Platte muss an eine andere angrenzen. In jeder Gestalt ist die Eiswand 30 cm dick und bleibt für die Wirkungsdauer bestehen. Erschaffst du die Barriere, wird jede Kreatur in ihrem Bereich auf eine Seite der Wand gestoßen und muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet eine Kreatur 10W6 Kälteschaden oder halb so viel Schaden bei einem gelungenen Rettungswurf. 

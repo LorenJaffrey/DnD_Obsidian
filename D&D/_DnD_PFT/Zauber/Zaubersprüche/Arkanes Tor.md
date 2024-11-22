@@ -20,13 +20,9 @@ Schadensart:
 Ziel:
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du erschaffst miteinander verbundene Teleportationsportale, die für die Wirkungsdauer geöffnet bleiben. Wähle zwei Punkte auf dem Boden, die du sehen kannst: einen innerhalb von 3 m und einen innerhalb von 150 m. Über jedem Punkt öffnet sich ein kreisförmiges Portal mit 3 m Durchmesser. Wenn sich das Portal in einem Bereich öffnen würde, in dem sich eine Kreatur aufhält, scheitert der Zauber und das Wirken war vergeblich. Bei den Portalen handelt es sich um zweidimensionale, leuchtende Ringe, die mit Nebel gefüllt sind und die nur wenige Zentimeter über dem Boden schweben, lotrecht zum Punkt, den du ausgewählt hast. Die Ringe sind nur von einer Seite aus sichtbar (deine Wahl), dies ist die Seite, die als Portal fungiert. Kreaturen oder Gegenstände, die das Portal betreten, verlassen das andere, als würden beide aneinander angrenzen. Von der Rückseite durch ein Portal zu treten, hat keinerlei

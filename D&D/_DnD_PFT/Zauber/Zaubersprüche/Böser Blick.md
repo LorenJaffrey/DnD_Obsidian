@@ -19,13 +19,9 @@ Schadensart:
 Ziel: 
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer:  `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Für die Wirkungsdauer des Zaubers werden deine Augen zu einer tintenschwarzen Leere, die von grauenhafter Macht erfüllt ist. Eine Kreatur deiner Wahl innerhalb von 18 m, die du sehen kannst, muss einen erfolgreichen Weisheitsrettungswurf ablegen, um nicht für die Wirkungsdauer einen der folgenden Effekte deiner Wahl zu erleiden. In jedem deiner Züge, bis der Zauber endet, kannst du deine Aktion verwenden, um eine weitere Kreatur als Ziel zu wählen. Dabei kannst du jedoch keine Kreatur bestimmen, deren Rettungswurf gegen diese Verwendung von Böser Blick bereits erfolgreich war.

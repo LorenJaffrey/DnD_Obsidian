@@ -19,13 +19,9 @@ Schadensart:
 Ziel: 
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du und bis zu acht bereitwillige Kreaturen, die sich in einem Kreis an den Händen halten, werden auf eine andere Existenzebene transportiert. Bestimme einen allgemeinen Zielort, wie die Messingstadt auf der Elementarebene des Feuers oder den Palast von Dispater auf der zweiten Ebene der Neun Höllen, und ihr erscheint in oder nahe diesem Ziel (nach Wahl des SL). Versucht ihr beispielsweise, die Messingstadt zu erreichen, könntet ihr dort in der Straße des Stahls eintreffen, vor dem Tor der Asche oder an einem Ort, von dem aus ihr über das Feuermeer auf die Stadt blickt.

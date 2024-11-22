@@ -11,8 +11,8 @@ Verbal: true
 Geste: true
 Material: false
 Materialkosten: 
-Dauer: 1 Runde
-Konzentration: false
+Dauer: 1 Minute
+Konzentration: true
 Ritual: false
 Skalierbar: false
 Schaden: 
@@ -21,17 +21,14 @@ Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer:  1 Runde
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 *Ein Sigille des Schutzes aus magischer Energie schützt dich.*
 
-Du streckst die Hand aus und zeichnest ein Sigille des Schutzes in die Luft. Bis zum Ende deines nächsten Zuges besitzt du eine [[Schadensarten#Schadensresistenz|Resistenz]] gegen Wucht-, Hieb- und Stichschaden, der von Waffenangriffen verursacht wird.
+Du streckst die Hand aus und zeichnest ein Sigille des Schutzes in die Luft. 
+Wenn eine Kreatur einen [[Angriffswurf]] gegen dich ausführt bevor der Zauber endet, subtrahiert der Angreifer `dice:1d4` von seinem [[Angriffswurf]].
 
 Quelle: Players Handbook, Seite: 243

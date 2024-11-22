@@ -20,13 +20,9 @@ Schadensart:
 Ziel: 
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du gibst einer Kreatur in Reichweite, die du sehen kannst, einen Befehl, bei dem es sich nur um ein einzelnes Wort handeln darf. Dem Ziel muss ein Weisheitsrettungswurf gelingen, sonst muss es den Befehl in seinem nächsten Zug befolgen. Der Zauber hat keine Auswirkungen, wenn das Ziel untot ist, es deine Sprache nicht versteht oder das Ausführen deines Befehls ihm unmittelbar schaden würde. Es folgen einige typische Befehle und ihre Auswirkungen. Entscheidest du dich für einen anderen Befehl als die hier beschriebenen, bestimmt der SL, wie sich das Ziel verhält. Wenn das Ziel deinem Befehl nicht folgen kann, endet der Zauber. 

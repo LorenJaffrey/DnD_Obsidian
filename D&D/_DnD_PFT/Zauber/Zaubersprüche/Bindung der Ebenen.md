@@ -20,13 +20,9 @@ Schadensart:
 Ziel: 
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer:  `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Mit diesem Zauber versuchst du, ein celestisches Wesen, ein Elementar, eine Fee oder einen Unhold für einen Dienst zu binden. Die Kreatur muss für die gesamte Wirkungsdauer des Zaubers in Reichweite sein. (Für gewöhnlich wird die Kreatur erst in die Mitte eines umgekehrten Schutzkreises beschworen, damit sie gefangen ist, während dieser Zauber gewirkt wird.) Ist der Zauber vollendet, muss das Ziel einen Charismarettungswurf ablegen. Bei einem Misserfolg wird die Kreatur für die Wirkungsdauer an dich gebunden. Wurde die Kreatur durch einen anderen Zauber beschworen, verlängert sich dessen Wirkungsdauer auf die Wirkungsdauer von Bindung der Ebenen. Eine gebundene Kreatur muss nach bestem Können deine Anweisungen erfüllen. Du könntest ihr etwa befehlen, dich auf ein Abenteuer zu begleiten, einen Ort zu beschützen oder eine Botschaft zu übermitteln. Die Kreatur befolgt den Wortlaut deiner Anweisungen. Sollte sie dir gegenüber jedoch feindlich eingestellt sein, versucht sie, deine Worte zu verdrehen, damit sie ihre eigenen Ziele verfolgen kann. Führt die Kreatur deine Anweisungen vollständig aus, ehe der Zauber endet, kehrt sie zu dir zurück, um dies zu berichten, wenn du dich auf derselben Existenzebene befindest. Andernfalls kehrt sie an den Ort zurück, wo du sie gebunden hast, und wartet dort, bis der Zauber endet.

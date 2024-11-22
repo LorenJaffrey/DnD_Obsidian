@@ -16,13 +16,9 @@ Ritual: false
 Skalierbar: true
 Klassen:
 ---
-# `=this.file.name`
-*Zauber des `=this.Grad`. Grades der `=this.Schule` `=choice(this.Ritual,"([[Ritual]])", "")`*
-
-Zeitaufwand: `=this.Zeitaufwand`
-Reichweite: `=this.Reichweite`
-Komponenten: `=choice(this.Verbal, choice(this.Geste, choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]], [[Zaubergesten|Geste (G)]]"), choice(this.Material, "[[Verbale Zauberkomponenten|Verbal (V)]], [[Materialkomponenten|Material (M)]]", "[[Verbale Zauberkomponenten|Verbal (V)]]")), choice(this.Geste, choice(this.Material, "[[Zaubergesten|Geste (G)]], [[Materialkomponenten|Material (M)]]", "[[Zaubergesten|Geste (G)]]"),	choice(this.Material, "[[Materialkomponenten|Material (M)]]", "")))` `=choice(this.Materialkosten, "(", "")` `=this.Materialkosten` `=choice(this.Materialkosten, ")", "")`
-Wirkungsdauer: `=choice(this.Konzentration, "[[Konzentration]], bis zu ", "")` `=this.Dauer`
+``` dynamic-embed
+[[embed Zauber]]
+```
 
 ## Beschreibung
 Du erschaffst eine große Hand aus schimmernder, durchsichtiger Energie in einem freien Bereich, der sich in Reichweite befindet und den du sehen kannst. Die Hand bleibt für die Wirkungsdauer des Zaubers bestehen und bewegt sich auf deinen Befehl hin. Sie ahmt die Bewegungen deiner eigenen Hand nach. Die Hand ist ein Gegenstand mit RK 20 und Trefferpunkten in Höhe deiner maximalen Trefferpunkte. Wird sie auf 0 Trefferpunkte reduziert, endet der Zauber. Sie besitzt eine Stärke von 26 (+8) und eine Geschicklichkeit von 10 (+0). Der Bereich, in dem sich die Hand befindet, gilt nicht als von ihr besetzt. In deinen folgenden Zügen kannst du die Hand als Bonusaktion bis zu 18 m weit bewegen und dann einen der folgenden Effekte auslösen.
