@@ -3,7 +3,7 @@ Name: Inventar
 Charakter: "[[Ar'go]]"
 cssclass: dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
-  Rucksack: 55.6
+  Rucksack: 55.1
   Behälter: 0
   Körper: 11.6
 Inventar:
@@ -91,7 +91,7 @@ Inventar:
     count10: 1
     gewicht10: 0
     count11: 1
-    gewicht11: 1
+    gewicht11: 0.5
     count12: 1
     gewicht12: 0
     count13: 50
@@ -100,6 +100,10 @@ Inventar:
     gewicht14: 0
     count15: 0
     gewicht15: 0
+    count16: 0
+    gewicht16: 0
+    count17: 0
+    gewicht17: 0
 Geld:
   PM: 0
   GM: 35
@@ -137,15 +141,23 @@ Geld:
 >> | [[Kampfstab]]                               | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
 >> | [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=round(this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3, 2)` |
 >> | Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=round(this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4, 2)` |
->> | Kultisten-Amulett (Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
+>> | Kultisten-Amulett <br/>(Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
 >> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
+>> |                                                                    | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
+>> |                                                                    | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
+>> |                                                                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
+>> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
 >
 >> ## Schriftrollenbehälter
 >> | Gegenstand                                                |                  Anzahl                  |                  Gewicht                   |                               Gesamt                               |
 >> | --------------------------------------------------------- |:----------------------------------------:|:------------------------------------------:|:------------------------------------------------------------------:|
->> | Karte der Insel (Drachenkult) und der umliegenden Gebiete | `INPUT[number:Inventar.Behälter.count1]` | `INPUT[number:Inventar.Behälter.gewicht1]` | `=round(this.Inventar.Behälter.count1 * this.Inventar.Behälter.gewicht1, 2)` |
+>> | Karte der Insel (Drachenkult) <br/>und der umliegenden Gebiete | `INPUT[number:Inventar.Behälter.count1]` | `INPUT[number:Inventar.Behälter.gewicht1]` | `=round(this.Inventar.Behälter.count1 * this.Inventar.Behälter.gewicht1, 2)` |
+>> |                                                                             | `INPUT[number:Inventar.Behälter.count2]` | `INPUT[number:Inventar.Behälter.gewicht2]` | `=round(this.Inventar.Behälter.count2 * this.Inventar.Behälter.gewicht2, 2)` |
+>> |                                                                             | `INPUT[number:Inventar.Behälter.count3]` | `INPUT[number:Inventar.Behälter.gewicht3]` | `=round(this.Inventar.Behälter.count3 * this.Inventar.Behälter.gewicht3, 2)` |
+>> |                                                                             | `INPUT[number:Inventar.Behälter.count4]` | `INPUT[number:Inventar.Behälter.gewicht4]` | `=round(this.Inventar.Behälter.count4 * this.Inventar.Behälter.gewicht4, 2)` |
+>> |                                                                             | `INPUT[number:Inventar.Behälter.count5]` | `INPUT[number:Inventar.Behälter.gewicht5]` | `=round(this.Inventar.Behälter.count5 * this.Inventar.Behälter.gewicht5, 2)` |
 >> | **GESAMT**                                                |                                          |                                            |                      `=this.Summen.Behälter`                       | 
 >
 >> ## Rucksack
@@ -161,9 +173,13 @@ Geld:
 >> | [[Seil aus Hanf]]  (Meter)                | `INPUT[number:Inventar.Rucksack.count8]`  | `INPUT[number:Inventar.Rucksack.gewicht8]`  |  `=round(this.Inventar.Rucksack.count8 * this.Inventar.Rucksack.gewicht8, 2)`  |
 >> | Kompass                                   | `INPUT[number:Inventar.Rucksack.count9]`  | `INPUT[number:Inventar.Rucksack.gewicht9]`  |  `=round(this.Inventar.Rucksack.count9 * this.Inventar.Rucksack.gewicht9, 2)`  |
 >> | Winterdecke                               | `INPUT[number:Inventar.Rucksack.count10]` | `INPUT[number:Inventar.Rucksack.gewicht10]` | `=round(this.Inventar.Rucksack.count10 * this.Inventar.Rucksack.gewicht10, 2)` |
->> | Ritualbuch (Drachenkult des Sturmdrachen) | `INPUT[number:Inventar.Rucksack.count11]` | `INPUT[number:Inventar.Rucksack.gewicht11]` | `=round(this.Inventar.Rucksack.count11 * this.Inventar.Rucksack.gewicht11, 2)` |
+>> | Ritualbuch <br/>(Drachenkult des Sturmdrachen) | `INPUT[number:Inventar.Rucksack.count11]` | `INPUT[number:Inventar.Rucksack.gewicht11]` | `=round(this.Inventar.Rucksack.count11 * this.Inventar.Rucksack.gewicht11, 2)` |
 >> | [[Gildenabzeichen]]                       | `INPUT[number:Inventar.Rucksack.count12]` | `INPUT[number:Inventar.Rucksack.gewicht12]` | `=round(this.Inventar.Rucksack.count12 * this.Inventar.Rucksack.gewicht12, 2)` |
 >> | Spule Draht (Meter)                       | `INPUT[number:Inventar.Rucksack.count13]` | `INPUT[number:Inventar.Rucksack.gewicht13]` | `=round(this.Inventar.Rucksack.count13 * this.Inventar.Rucksack.gewicht13, 2)` |
+>> |                                                                   | `INPUT[number:Inventar.Rucksack.count14]` | `INPUT[number:Inventar.Rucksack.gewicht14]` | `=round(this.Inventar.Rucksack.count14 * this.Inventar.Rucksack.gewicht14, 2)` |
+>> |                                                                   | `INPUT[number:Inventar.Rucksack.count15]` | `INPUT[number:Inventar.Rucksack.gewicht15]` | `=round(this.Inventar.Rucksack.count15 * this.Inventar.Rucksack.gewicht15, 2)` |
+>> |                                                                   | `INPUT[number:Inventar.Rucksack.count16]` | `INPUT[number:Inventar.Rucksack.gewicht16]` | `=round(this.Inventar.Rucksack.count16 * this.Inventar.Rucksack.gewicht16, 2)` |
+>> |                                                                   | `INPUT[number:Inventar.Rucksack.count17]` | `INPUT[number:Inventar.Rucksack.gewicht17]` | `=round(this.Inventar.Rucksack.count17 * this.Inventar.Rucksack.gewicht17, 2)` |
 >> | **GESAMT**                                |                                           |                                             |                       `=this.Summen.Rucksack`                        |
 
 

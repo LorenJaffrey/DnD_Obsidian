@@ -11,7 +11,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
-    Schadensanfälligkeit:
+    Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
   - "[[Stab des Sommerwalds]]"
@@ -19,7 +19,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 35
+  TP: 30
   TW: 5
   TempTP: 0
 Attribute:
@@ -161,7 +161,7 @@ InputData:
   Zauberplätze:
     Grad_1: 4
     Grad_2: 3
-    Grad_3: 2
+    Grad_3: 1
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0

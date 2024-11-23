@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 33
+  TP: 23
   TW: 4
   TempTP: 0
 Attribute:
@@ -266,9 +266,7 @@ tags:
 [[embed Infobox Left Attribute Übersicht (Makel)]]
 ```
 
-```dynamic-embed
-[[embed Überschrift 1]]
-```
+# `=this.Hintergrund.Name`
 
 > [!info]+ ALLGEMEIN
 >> [!column | flex 2 no-title]
