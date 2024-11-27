@@ -3,6 +3,8 @@
 ## Reminder
 - [[Glück|Glückspunkte]]
 - [[Zauberplätze#Zauber ohne Zauberplätze wirken]]
+- [[Aktion|Aktionen]] in Charakter Sheets eingefügt
+- Identifizieren von Monstern / Pflanzen
 
 ## Organisatorisches
 

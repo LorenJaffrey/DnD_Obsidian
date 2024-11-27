@@ -13,8 +13,8 @@ Verteidigung:
       - "[[Kälteschaden]]"
       - "[[Giftschaden]]"
     Schadensimmunität: 
-    Schadensanfälligkeit:
-    Zustandsimmunität:
+    Schadensanfälligkeit: 
+    Zustandsimmunität: 
 Waffen:
   - "[[Dolch]]"
   - "[[Stecken der Verteidigung]]"
@@ -133,10 +133,10 @@ InputData:
     Ladung4: true
     Ladung5: true
     Ladung6: true
-    Ladung7: true
-    Ladung8: true
-    Ladung9: true
-    Ladung10: true
+    Ladung7: false
+    Ladung8: false
+    Ladung9: false
+    Ladung10: false
 ---
 # `=this.Hintergrund.Name`
 

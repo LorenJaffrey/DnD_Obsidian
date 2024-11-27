@@ -174,7 +174,7 @@ Abenteurer können ein großes Möbelstück unter das Loch schieben und in das [
 
 ### A10: Labor der Magierin
 Die Tür in der Ostseite dieses Raumes wurde zwar eingeschlagen, aber das Licht aus dem Innenhof reicht nicht aus, um den Raum zu beleuchten. 
-Charaktere mit Dunkelsicht oder einer Lichtquelle sehen Folgendes:
+Charaktere mit [[Dunkelsicht]] oder einer Lichtquelle sehen Folgendes:
 
 >[!info]
 >Die Trümmer der Einrichtung dieses einstigen Labors wurden an die Wände geschoben. 
