@@ -2,9 +2,7 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
-- [[Zauberplätze#Zauber ohne Zauberplätze wirken]]
-- [[Aktion|Aktionen]] in Charakter Sheets eingefügt
-- Identifizieren von Monstern / Pflanzen
+- [[Kreaturen identifizieren]]
 
 ## Organisatorisches
 
@@ -21,16 +19,17 @@
 	- [ ] #task [[Gorthok der Donnerkeiler]] [priority:: high]
 
 ## Recap
-- [[Altes Haus im Wald]]
-	- [[Zweigplage|Zweigplagen]] besiegt
-	- [[Blutmücke|Blutmücken]] besiegt
-	- [[Gulthias Baum (Phase 1)]] angegriffen und damit alle Feinde getriggert
+- [[Altes Haus im Wald]] KAMPF!!!
 
 ![[Timeline Kampagne 2#Tag 18]]
 ![[Timeline Kampagne 2#Tag 19]]
 
 ## Ablauf
-- [[Altes Haus im Wald]] KAMPF!!!
+- [[Altes Haus im Wald]]
+	- [[Szene - Aranon und der Gulthias-Baum]]
+	- erkunden
+	- looten
+
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]
