@@ -15,7 +15,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
-    Schadensanfälligkeit:
+    Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
   - "[[Kurzschwert]]"
@@ -25,7 +25,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 36
+  TP: 9
   TW: 5
   TempTP: 0
 Attribute:
@@ -120,8 +120,8 @@ InputData:
   GlücksPunkt3: true
   GlücksPunkt4: true
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 0
-  Erschöpfung1: false
+  ErschöpfungsPunkte: 1
+  Erschöpfung1: true
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
@@ -133,8 +133,8 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: false
-    Ladung2: false
+    Ladung1: true
+    Ladung2: true
     Ladung3: false
 tags:
   - Charakter/GORN

@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 23
+  TP: 14
   TW: 4
   TempTP: 0
 Attribute:
@@ -122,14 +122,14 @@ Zauber:
 ZauberStatistik:
   Donnerschlag: 2
   Kältestrahl: 3
-  Klingenbann: 0
+  Klingenbann: 1
   Schockgriff: 4
   Windbö: 0
-  Chaospfeil: 3
-  Hexenpfeil: 3
+  Chaospfeil: 4
+  Hexenpfeil: 5
   Magierrüstung: 2
   Schutzwind: 0
-  Snillocs_Schneeballschwarm: 0
+  Snillocs_Schneeballschwarm: 1
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: false
@@ -149,10 +149,11 @@ InputData:
   NormaleRüstung: false
   MagierRüstung: true
   BlitzOdem: true
-  Zaubereipunkte: 4
+  Klingenbann: true
+  Zaubereipunkte: 
   Zauberplätze:
-    Grad_1: 3
-    Grad_2: 3
+    Grad_1: 2
+    Grad_2: 0
     Grad_3: 0
     Grad_4: 0
     Grad_5: 0
@@ -485,6 +486,10 @@ actions:
     bindTarget: InputData.BlitzOdem
     evaluate: false
     value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Klingenbann
+    evaluate: false
+    value: "false"
 ```
 
 ```meta-bind-button
@@ -544,6 +549,10 @@ actions:
     value: "false"
   - type: updateMetadata
     bindTarget: InputData.BlitzOdem
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Klingenbann
     evaluate: false
     value: "false"
   - type: updateMetadata

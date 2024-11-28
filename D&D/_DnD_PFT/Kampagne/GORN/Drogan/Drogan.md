@@ -10,7 +10,7 @@ Verteidigung:
   Resistenzen:
     Schadensresistenz: 
     Schadensimmunität: 
-    Schadensanfälligkeit:
+    Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
   - "[[Zweihandaxt]]"
@@ -20,7 +20,7 @@ Waffen:
   - "[[Streitaxt]]"
 Gesundheit:
   MaxTP: 59
-  TP: 59
+  TP: 54
   TW: 5
   TempTP: 0
 Attribute:
@@ -128,7 +128,7 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  Rage1: false
+  Rage1: true
   Rage2: false
   Rage3: false
 tags:
