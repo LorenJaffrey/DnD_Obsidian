@@ -48,16 +48,45 @@ if (results.length > 0) {
     ])
   );
 
-  // Apply CSS to center headers and column content
+  // JavaScript: Add sorting to the table
   const table = this.container.querySelector("table");
-  table.style.width = "100%";
 
-  // Center align headers and table cells
-  const headers = table.querySelectorAll("th");
-  headers.forEach(header => header.style.textAlign = "center");
+  if (table) {
+    table.style.width = "100%";
 
-  const cells = table.querySelectorAll("td");
-  cells.forEach(cell => cell.style.textAlign = "center");
+    const cells = table.querySelectorAll("td");
+    cells.forEach(cell => cell.style.textAlign = "center");
+
+    // Enable sorting by clicking on headers
+    const headers = table.querySelectorAll("th");
+    headers.forEach((header, columnIndex) => {
+      header.style.textAlign = "center";
+      header.style.cursor = "pointer"; // Indicate clickable headers
+      header.addEventListener("click", () => {
+        const rows = Array.from(table.querySelectorAll("tr")).slice(1); // Exclude header row
+        const isAscending = header.classList.contains("ascending");
+
+        rows.sort((rowA, rowB) => {
+          const cellA = rowA.children[columnIndex].textContent.trim();
+          const cellB = rowB.children[columnIndex].textContent.trim();
+
+          // Handle numeric sorting
+          const valueA = isNaN(cellA) ? cellA : parseFloat(cellA);
+          const valueB = isNaN(cellB) ? cellB : parseFloat(cellB);
+
+          return isAscending ? (valueA > valueB ? -1 : 1) : (valueA < valueB ? -1 : 1);
+        });
+
+        // Rebuild the table with sorted rows
+        rows.forEach(row => table.appendChild(row));
+
+        // Update sorting state
+        headers.forEach(h => h.classList.remove("ascending", "descending"));
+        header.classList.toggle("ascending", !isAscending);
+        header.classList.toggle("descending", isAscending);
+      });
+    });
+  }
 
 }
 ```
@@ -115,16 +144,40 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
 
           // Apply styles to the table and its contents
           if (table) {
-            // Set the table width to 100%
             table.style.width = "100%";
 
-            // Style headers
-            const headers = table.querySelectorAll("th");
-            headers.forEach(header => header.style.textAlign = "center");
-
-            // Style table cells (td)
             const cells = table.querySelectorAll("td");
             cells.forEach(cell => cell.style.textAlign = "center");
+
+            // Enable sorting by clicking on headers
+            const headers = table.querySelectorAll("th");
+            headers.forEach((header, columnIndex) => {
+              header.style.textAlign = "center";
+              header.style.cursor = "pointer"; // Indicate clickable headers
+              header.addEventListener("click", () => {
+                const rows = Array.from(table.querySelectorAll("tr")).slice(1); // Exclude header row
+                const isAscending = header.classList.contains("ascending");
+
+                rows.sort((rowA, rowB) => {
+                  const cellA = rowA.children[columnIndex].textContent.trim();
+                  const cellB = rowB.children[columnIndex].textContent.trim();
+
+                  // Handle numeric sorting
+                  const valueA = isNaN(cellA) ? cellA : parseFloat(cellA);
+                  const valueB = isNaN(cellB) ? cellB : parseFloat(cellB);
+
+                  return isAscending ? (valueA > valueB ? -1 : 1) : (valueA < valueB ? -1 : 1);
+                });
+
+                // Rebuild the table with sorted rows
+                rows.forEach(row => table.appendChild(row));
+
+                // Update sorting state
+                headers.forEach(h => h.classList.remove("ascending", "descending"));
+                header.classList.toggle("ascending", !isAscending);
+                header.classList.toggle("descending", isAscending);
+              });
+            });
           }
         }
       }

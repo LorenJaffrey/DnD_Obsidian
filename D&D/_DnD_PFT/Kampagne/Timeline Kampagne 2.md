@@ -446,7 +446,7 @@
 >		Kampf gegen Mini-GORN Figuren: done, a4, after a3, 0.25h
 >		Kampf gegen Blutmücke: done, a5, after a4, 0.25h
 >		Kampf gegen Pflanzenwesen im Innenhof: done, a6, after a4, 0.25h
->		
+>		 Kampf gegen Orks & Magischen Baum: done, milestone, a7, after a5, 0.25h
 >```
 >
 >
