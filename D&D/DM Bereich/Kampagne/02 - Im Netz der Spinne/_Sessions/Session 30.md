@@ -21,8 +21,7 @@
 ## Recap
 - [[Altes Haus im Wald]] KAMPF!!!
 
-![[Timeline Kampagne 2#Tag 18]]
-![[Timeline Kampagne 2#Tag 19]]
+![[Timeline Kampagne 2#Woche 3]]
 
 ## Ablauf
 - [[Altes Haus im Wald]]

@@ -2,6 +2,7 @@
 tags:
   - Kreatur
 aliases: 
+  - Akolythen des Talos
 Bild: "[[Anchorite_of_Talos.webp | 350]]"
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"

@@ -2,20 +2,30 @@
 
 ## Überblick
 
-Die Akolythen von Talos versammeln sich im Steinkreis auf diesem Hügel, um dem Sturmgott Opfer zu bringen.
-Bei stürmischem Wetter beschwören die Akolythen auch [[Gorthok der Donnerkeiler]], eine zerstörerische Macht, die sie auf ihre Feinde hetzen können. 
-Der Steinkreis auf dem Hügel hilft den Akolythen, ihre Magie zu fokussieren, was die Beschwörung von [[Gorthok der Donnerkeiler|Gorthog]] möglich macht.
+Die [[Akolyth von Talos|Akolythen des Talos]] versammeln sich im Steinkreis auf diesem Hügel, um dem Sturmgott Opfer zu bringen.
+Bei stürmischem Wetter beschwören die sie auch [[Gorthok der Donnerkeiler]], eine zerstörerische Macht, die sie auf ihre Feinde hetzen können. 
+Der Steinkreis auf dem Hügel hilft den ihnen, ihre Magie zu fokussieren, was die Beschwörung von [[Gorthok der Donnerkeiler|Gorthok]] möglich macht.
 
 ### Die Höhlen
-Unterhalb des Gipfels befinden sich drei Höhlen, die jeweils als Versteck eines Akolythen von Talos dienen. 
+Unterhalb des Gipfels befinden sich drei Höhlen, die jeweils als Versteck eines [[Akolyth von Talos|Akolythen des Talos]] dienen. 
 Die Höhlen wurde aus der Erde gegraben, wobei jede Höhlenmündung von zwei vertikalen Steinplatten und einem schweren Sturzstein eingefasst ist. 
 Die Decke ist zwei Meter hoch und als Türen dienen grobe Holzgatter. 
 Die Aufteilung der Höhlen ist unterschiedlich, aber die Einrichtung ist ähnlich.
 
-1. ﻿﻿﻿Eingang: In der Mitte dieser Kreuzung, gegenüber der Höhlenmündung, liegt der Schädel eines Keilers auf einem Haufen humanoider und tierischer Knochen. Ein Charakter, der einen Wurf auf Intelligenz (Religion) gegen SG 10 besteht, erkennt, dass die Knochen als Abschreckung dienen sollen.
-2. ﻿﻿﻿Keilerstall: Das Gatter zu diesem Raum ist mit einem Seil gesichert. Dahinter ist ein Keiler (Wildschwein-Spielwerte auf Seite 83) eingesperrt. Dies ist der Begleiter und Abfall-vernichter des Akolythen. Solange er eingesperrt ist, kann er niemandem Schaden zufügen. Wenn ein anderer Charakter als ein Akolyth von Talos das Gatter öffnet, versucht der Keiler, aus der Höhle zu fliehen und greift alle an, die im Weg stehen.
-3. ﻿﻿﻿Zelle: Das Gatter zu diesem Raum ist mit einem Seil gesichert. In der Zelle werden Tiere gehalten, die dazu verdammt sind, Talos in Ritualen geopfert zu werden. Es besteht eine 25-prozentige Wahrscheinlichkeit, dass darin ein harmloses Reh gefangen ist. Andernfalls ist die Zelle leer.
-4. ﻿﻿﻿Akolythenquartier: Dieser unmöblierte Raum dient als Unterkunft. Nischen in den Wänden enthalten tönernes Geschirr, Holzutensilien, Beeren, gebündelte Kräuter und gruselige Totems. In den Bereichen K2 und K3 haben die Akolythen Schätze an einer zufälligen Stelle vergraben.
+1. ﻿﻿﻿**Eingang**: In der Mitte dieser Kreuzung, gegenüber der Höhlenmündung, liegt der Schädel eines Keilers auf einem Haufen humanoider und tierischer Knochen. 
+   Ein Charakter, der einen Wurf auf  [[Religion]] gegen [[Schwierigkeitsgrad|SG]] 10 besteht, erkennt, dass die Knochen als Abschreckung dienen sollen.
+2. ﻿﻿﻿**Keilerstall**: Das Gatter zu diesem Raum ist mit einem Seil gesichert. 
+   Dahinter ist ein [[Wildschwein|Keiler]] eingesperrt. 
+   Dies ist der Begleiter und Abfallvernichter des Akolythen. 
+   Solange er eingesperrt ist, kann er niemandem Schaden zufügen. 
+   Wenn ein anderer Charakter als ein Akolyth von Talos das Gatter öffnet, versucht der Keiler, aus der Höhle zu fliehen und greift alle an, die im Weg stehen.
+3. ﻿﻿﻿**Zelle**: Das Gatter zu diesem Raum ist mit einem Seil gesichert. 
+   In der Zelle werden Tiere gehalten, die dazu verdammt sind, [[Talos]] in Ritualen geopfert zu werden. 
+   Es besteht eine 25-prozentige Wahrscheinlichkeit, dass darin ein harmloses Reh gefangen ist. 
+   Andernfalls ist die Zelle leer.
+4. ﻿﻿﻿**Akolythenquartier**: Dieser unmöblierte Raum dient als Unterkunft. 
+   Nischen in den Wänden enthalten tönernes Geschirr, Holzutensilien, Beeren, gebündelte Kräuter und gruselige Totems. 
+   In den Bereichen K2 und K3 haben die Akolythen Schätze an einer zufälligen Stelle vergraben.
 
 Diese Schätze werden unter den jeweiligen Bereichen beschrieben.
 
