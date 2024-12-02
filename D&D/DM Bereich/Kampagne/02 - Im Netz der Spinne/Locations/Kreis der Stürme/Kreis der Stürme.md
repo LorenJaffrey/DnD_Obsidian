@@ -55,30 +55,35 @@ Die folgenden Bereiche sind auf dem Lageplan Kreis des
 
 Donners verzeichnet.
 
-Kl: STEINKREIS
+## K1: Steinkreis
+Auf dem Gipfel steht ein Ring aus acht aufrechten Steinstrukturen, die jeweils aus zwei drei Meter hohen vertikalen Steinplatten in einem Abstand von 1,5 Metern voneinander und einem einen Meter starken flachen Deckstein bestehen. 
+Diese Steine können von einer Gruppe von Kreaturen mit einer kombinierten Stärke von mindestens 80 umgestoßen werden.
 
-Auf dem Gipfel steht ein Ring aus acht aufrechten Steinstrukturen, die jeweils aus zwei drei Meter hohen vertikalen Steinplatten in einem Abstand von 1,5 Metern voneinander und einem einen Meter starken flachen Deckstein bestehen. Diese Steine können von einer Gruppe von Kreaturen mit einer kombinierten Stärke von mindestens 80 umgestoßen werden.
+In der Mitte des Kreises tanzen zwei humanoide Figuren um einen Rehkadaver. 
+Die Gestalten tragen den verrottenden Kopf eines Keilers wie eine Maske.
 
-In der Mitte des Kreises tanzen zwei humanoide Figuren um einen Rehkadaver. Die Gestalten tragen den verrottenden Kopf eines Keilers wie eine Maske.
+Diese Feinde sind Flenz und Narux, zwei [[Akolyth von Talos|Akolythen des Talos]]. 
+Außerdem tollen hier zwei [[Zweigplagen]] herum, zwei pro Charakter, einschließlich Sidekicks. 
+Flenz und Narux führen ein Ritual durch, um [[Gorthok der Donnerkeiler]] zu beschwören. 
+Gorthok erscheint mit einem Donnerschlag aus dem Nichts in der Mitte des Kreises. 
+Er kämpft bis zum Tode.
 
-Diese Feinde sind Flenz und Narux, zwei Akolythen von Talos (Spielwerte auf Seite 69). Außerdem tollen hier zwei Zweigplagen (siehe Seite 79) herum, zwei pro Charakter, einschließlich Sidekicks. Flenz und Narux führen entweder ein Ritual durch, um Gorthok den Donnerkeiler (siehe Seite 73) zu beschwören, oder sie bringen ein Opfer, mit dem sie Talos bitten, einen Sturm hervorzurufen. Wenn die Charaktere Gorthok noch nicht besiegt haben und beide Akolythen tot sind, erscheint der Keiler mit einem Donnerschlag aus dem Nichts in der Mitte des Kreises. Gorthok kämpft bis zum Tode.
+**Geheime Falltüren**: 
+Ein Charakter, der den Gipfel des Hügels durchsucht und einen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 19 besteht, findet eine von drei dünnen hölzernen Falltüren, die unter Gras und Erde versteckt sind. 
+Unter diesen Falltüren führen Tunnel zu den Bereichen K2, K3 und K4.
 
-Geheime Falltüren: Ein Charakter, der den Gipfel des Hügels durchsucht und einen Wurf auf Weisheit (Wahrnehmung) gegen SG 19 besteht, findet eine von drei dünnen hölzernen Falltüren, die unter Gras und Erde versteckt sind. Unter diesen Falltüren führen Tunnel zu den Bereichen K2, K3 und K4.
-
-K2: HÖHLE IM NORDWESTEN
-
+## K2: Höhle im Nordwesten
 In den Sturzstein über der Höhlenmündung ist ein Keiler eingemeißelt, der ein Strichmännchen jagt.
 
-Schätze: Flenz hat einen Trank der Unverwundbarkeit in seinem Quartier an einer zufälligen Stelle vergraben.
+**Schätze**: 
+Flenz hat einen [[Trank der Unverwundbarkeit]] in seinem Quartier an einer zufälligen Stelle vergraben.
 
-Wenn die Charaktere den Trank finden, gib den Spielern die entsprechende Karte.
-
-K3: HÖHLE IM NORDOSTEN
-
+## K3: Höhle im Nordosten
 Der Sturzstein über der Mündung dieser Höhle ist nicht verziert.
 
-Schätze: Narux hat einen Schild +1 in seinem Quartier an einer zufälligen Stelle vergraben. Wenn die Charaktere den Schild finden und identifizieren, gib den Spielern die entsprechende Karte.
+**Schätze**: 
+Narux hat einen Schild +1 in seinem Quartier an einer zufälligen Stelle vergraben. 
 
-K4: HÖHLE IM SÜDOSTEN
-
-In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeißelt, die von einem Blitz getroffen werden. Yargath hat keine Schätze vergraben.
+## K4: Höhle im Südosten
+In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeißelt, die von einem Blitz getroffen werden. 
+Yargath hat keine Schätze vergraben.
