@@ -31,11 +31,10 @@ Diese Schätze werden unter den jeweiligen Bereichen beschrieben.
 
 E: Geheimer Ausgang: Dieser Tunnel führt zu einer geheimen Falltür, die von der Unterseite aus deutlich sichtbar ist.
 
-Drei Akolythen verteidigen den Hügel: Flenz, Narux und Yargath. Wenn sie keine Rituale im Steinkreis durchführen, patrouillieren sie die umliegenden Wälder, suchen nach Nahrung und lauern in den Höhlen im Hang des Hügels.
+Drei Akolythen verteidigen den Hügel: Flenz, Narux und Yargath. 
+Wenn sie keine Rituale im Steinkreis durchführen, patrouillieren sie die umliegenden Wälder, suchen nach Nahrung und lauern in den Höhlen im Hang des Hügels.
 
-Wenn die Charaktere ankommen, haben sich die Akolythen auf dem Gipfel des Hügels versammelt. Wenn Gorthok noch nicht besiegt wurde, sind die Einsiedler dabei, den großen Keiler zu beschwören. Andernfalls rufen sie einen Sturm herbei.
-
-
+Wenn die Charaktere ankommen, haben sich die Akolythen auf dem Gipfel des Hügels versammelt und sind dabei den großen Keiler zu beschwören.
 
 ## Ankunft
 Charaktere, die vom alten Haus im Wald kommen, erreichen den Kreis des Donners aus südlicher Richtung.
@@ -62,7 +61,6 @@ In der Mitte des Kreises tanzen zwei humanoide Figuren um einen Rehkadaver.
 Die Gestalten tragen den verrottenden Kopf eines Keilers wie eine Maske.
 
 Diese Feinde sind Flenz und Narux, zwei [[Akolyth von Talos|Akolythen des Talos]]. 
-Außerdem tollen hier zwei [[Zweigplagen]] herum, zwei pro Charakter, einschließlich Sidekicks. 
 Flenz und Narux führen ein Ritual durch, um [[Gorthok der Donnerkeiler]] zu beschwören. 
 Gorthok erscheint mit einem Donnerschlag aus dem Nichts in der Mitte des Kreises. 
 Er kämpft bis zum Tode.
@@ -86,3 +84,21 @@ Narux hat einen [[Schild +1]] in seinem Quartier an einer zufälligen Stelle ver
 ## K4: Höhle im Südosten
 In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeißelt, die von einem Blitz getroffen werden. 
 Yargath hat keine Schätze vergraben.
+
+## Kampf 
+
+Wenn die Charaktere den Gipfel erreichen geschieht folgendes:
+
+>[!info]
+>Die Charaktere erreichen den Gipfel des Hügels gerade rechtzeitig, um das Ritual zu sehen, wie es seinen Höhepunkt erreicht. Blitzende Ranken aus purem Energieblitz winden sich vom **Splitter des Tempestus Kristalls**, den die beiden Akolythen von Talos in die Mitte des Steinkreises gehoben haben. Ihre Körper zitternd vor Anstrengung, heben sie die Arme zum brodelnden Himmel, während sie in einer uralten, donnernden Sprache unverständliche Worte schreien. Die Luft ist elektrisiert, und der Boden bebt unter ihren Füßen.
+>
+>Die schweren Steine des Kreises vibrieren, während die dunklen Wolken über ihnen sich zusammenziehen, ein Auge des Sturms formend, das auf die Mitte des Kreises gerichtet ist. Plötzlich reißt ein einzelner, ohrenbetäubender Donnerschlag die Luft entzwei, und ein gleißender Blitz trifft den Kristallsplitter. Ein blendendes Licht erfüllt die Szene, gefolgt von einem gewaltigen **Knall**, der sich wie eine Druckwelle ausbreitet.
+>
+>Die beiden Akolythen schreien auf, doch ihre Rufe verstummen, als ihre Körper in einem Moment von purer Energie verbrannt und in Asche verwandelt werden. Die Druckwelle schleudert jeden, der nahe steht – Steine, Äste, und die Charaktere selbst – mit ungeheurer Kraft zurück. Für einen Augenblick ist alles still, bis ein tiefes, dröhnendes Brüllen die Stille zerreißt.
+>
+>Aus dem Zentrum des Steinkreises beginnt eine massive Gestalt zu erscheinen. Der Boden bricht auf, und ein gewaltiger Keiler von unnatürlicher Größe und schrecklicher Macht tritt hervor. Seine Klauen graben sich in den zertrümmerten Boden, und seine Augen glühen wie lodernde Gewitter. Sein massiver Körper ist durchzogen von blauen, pulsierenden Blitzen, und jede Bewegung bringt ein tiefes, resonantes Donnern mit sich.
+>
+>Die Gewitterwolken scheinen sich mit seiner Präsenz zu verbinden, und Blitze zucken unkontrolliert in alle Richtungen. Der Steinkreis selbst beginnt zu bröckeln, während Gorthok, der Donnerkeiler, seinen mächtigen Kopf schüttelt und ein weiteres ohrenbetäubendes Brüllen ausstößt, das den Boden unter den Füßen der Charaktere erzittern lässt.
+>
+>Die letzte Herausforderung hat begonnen.
+

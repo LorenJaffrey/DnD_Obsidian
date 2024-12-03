@@ -15,9 +15,6 @@
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 
-- [ ] #task Bosskampf [[Kreis des Donners]] [priority:: high]
-	- [ ] #task [[Gorthok der Donnerkeiler]] [priority:: high]
-
 ## Recap
 - [[Altes Haus im Wald]] KAMPF!!!
 
