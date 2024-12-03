@@ -28,10 +28,10 @@ priority is below medium
 group by filename
 ```
 
-- [ ] #task Zauber [[Fallen finden]]  [priority:: highest]
-- [ ] #task Zauber [[Spurloses Gehen]]  [priority:: highest]
-- [ ] #task Zauber [[Vorahnung]]  [priority:: highest]
-- [ ] #task Zauber [[Segnen]]  [priority:: highest]
+- [x] #task Zauber [[Fallen finden]]  [priority:: highest]
+- [x] #task Zauber [[Spurloses Gehen]]  [priority:: highest]
+- [x] #task Zauber [[Vorahnung]]  [priority:: highest]
+- [x] #task Zauber [[Segnen]]  [priority:: highest]
 
 ## Hintergründe
 - [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
