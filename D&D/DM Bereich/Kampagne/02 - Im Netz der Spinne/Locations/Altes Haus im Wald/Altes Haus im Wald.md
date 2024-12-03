@@ -127,7 +127,6 @@ Charaktere, die [[Orkisch]] verstehen, können die [[Orks]] belauschen und erfah
 
 #### Gulthias-Baum
 Der neun Meter tiefe Brunnen enthält einen [[Gulthias-Baum]], dessen Wurzeln tief in den Boden reichen. 
-Da der Baum nicht viel Platz hatte sich auszubreiten, wurde er zu einer Masse aus verdrehten Zweigen.
 
 Mehrere [[Rankenplage|Rankenplagen]] haben sich im Brunnenschacht versteckt. 
 Insgesamt sind es zwei  [[Rankenplage|Rankenplagen]] pro Abenteurer sowie eine weitere (fünf maximal). 
@@ -179,6 +178,7 @@ Charaktere mit [[Dunkelsicht]] oder einer Lichtquelle sehen Folgendes:
 >[!info]
 >Die Trümmer der Einrichtung dieses einstigen Labors wurden an die Wände geschoben. 
 >In der Mitte des Raumes ist ein drei Meter großes Symbol aus drei an ihren Spitzen zusammenlaufenden Blitzen mit Schlamm auf den Boden gemalt.
+>Auf dem Schreibtisch an der Wand liegen die Überreste eines frisch ausgeweideten Kleintieres und eine Art ritueller Opferdolch in Form eines Blitzes.
 
 Jeder Charakter, der erfolgreich auf Intelligenz [[Religion]] mit [[Schwierigkeitsgrad|SG]] 15 würfelt, erkennt das Symbol von [[Talos]], dem bösen Gott der Stürme. 
 [[Kleriker]] der [[Domäne des Sturms]] brauchen nicht zu würfeln.
@@ -219,6 +219,7 @@ Sie sind stark beschädigt und nichts wert.
 Unter einem Bein eines der Schreibtische liegt ein weiteres Buch, damit er nicht wackelt. 
 Das Buch trägt den Titel Elfische Redewendungen. 
 In die Seiten wurde ein Loch geschnitten, in dem ein winziger Lederbeutel versteckt ist, der[[ Staub des Verschwindens]] enthält. 
+Zwischen den Büchern findet sich außerdem eine Karte des nordöstlichen Niewinterwaldes auf der die Lage des [[Kreis des Donners]] eingezeichnet ist
 
 ### A12: Großes Schlafzimmer
 Ein Himmelbett steht zwischen zwei mit Läden verschlossenen Fenstern an der Westwand. 

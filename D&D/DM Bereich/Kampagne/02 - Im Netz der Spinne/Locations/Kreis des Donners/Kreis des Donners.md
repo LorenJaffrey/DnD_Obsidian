@@ -37,23 +37,22 @@ Wenn die Charaktere ankommen, haben sich die Akolythen auf dem Gipfel des Hügel
 
 
 
-ANKUNFT
-
+## Ankunft
 Charaktere, die vom alten Haus im Wald kommen, erreichen den Kreis des Donners aus südlicher Richtung.
 
 Beschreibe den Spielern den Ort wie folgt:
 
-Bedrohliche Gewitterwolken ziehen auf, als ihr euch einem
+>[!info]
+>Die bedrohlichen Gewitterwolken ziehen auf, als ihr euch einem 27 Meter hohen Hügel nähert, der mit Bäumen bewachsen ist. 
+>Auf dem Gipfel des Hügel befindet sich ein großer Steinkreis. 
+>Zwei grässliche Gestalten tanzen und springen zwischen den Steinen herum.
+>Am Rande des Kreises sind die Gestalten einiger Orks zu erkennen.
 
-27 Meter hohen Hügel nähert, der mit Bäumen bewachsen ist. Auf dem Gipfel des Hügel befindet sich ein großer Stein-kreis. Zwei grässliche Gestalten und mehrere kleinere Kreaturen tanzen und springen zwischen den Steinen herum.
+Wenn die Charaktere den Hügel umkreisen, bevor sie ihn besteigen, finden sie drei Höhlen (Bereiche K2, K3 und K4) in der Nähe des Gipfels.
 
-Der Steinkreis und die tanzenden Gestalten werden in Bereich K1 beschrieben. Wenn die Charaktere den Hügel umkreisen, bevor sie ihn besteigen, finden sie drei Höhlen (Bereiche K2, K3 und K4) in der Nähe des Gipfels.
+## Bereiche
 
-BEREICHE AM KREIS DES DONNERS
-
-Die folgenden Bereiche sind auf dem Lageplan Kreis des
-
-Donners verzeichnet.
+Die folgenden Bereiche sind auf dem Lageplan [[Kreis des Donners]] verzeichnet.
 
 ## K1: Steinkreis
 Auf dem Gipfel steht ein Ring aus acht aufrechten Steinstrukturen, die jeweils aus zwei drei Meter hohen vertikalen Steinplatten in einem Abstand von 1,5 Metern voneinander und einem einen Meter starken flachen Deckstein bestehen. 
@@ -82,7 +81,7 @@ Flenz hat einen [[Trank der Unverwundbarkeit]] in seinem Quartier an einer zufä
 Der Sturzstein über der Mündung dieser Höhle ist nicht verziert.
 
 **Schätze**: 
-Narux hat einen Schild +1 in seinem Quartier an einer zufälligen Stelle vergraben. 
+Narux hat einen [[Schild +1]] in seinem Quartier an einer zufälligen Stelle vergraben. 
 
 ## K4: Höhle im Südosten
 In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeißelt, die von einem Blitz getroffen werden. 

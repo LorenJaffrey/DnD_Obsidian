@@ -15,7 +15,7 @@
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 
-- [ ] #task Bosskampf [[Kreis der Stürme]] [priority:: high]
+- [ ] #task Bosskampf [[Kreis des Donners]] [priority:: high]
 	- [ ] #task [[Gorthok der Donnerkeiler]] [priority:: high]
 
 ## Recap
@@ -28,6 +28,10 @@
 	- [[Szene - Aranon und der Gulthias-Baum]]
 	- erkunden
 	- looten
+- Wetter wird immer stürmischer um die Eile zu symbolisieren
+- [[Reise zum Kreis des Donners]]
+- [[Kreis des Donners]]
+	- 
 
 
 ## Solo-Session mit Tobi
