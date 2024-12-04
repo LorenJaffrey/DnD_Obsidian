@@ -32,3 +32,5 @@ group by filename
 - [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
 - [ ] #task Hintergrund [[Weiser]]  [priority:: low]
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
+
+- [ ] #task Moralsystem Kreaturen [priority:: medium]

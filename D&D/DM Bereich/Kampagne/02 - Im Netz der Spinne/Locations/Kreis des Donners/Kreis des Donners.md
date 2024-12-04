@@ -42,10 +42,10 @@ Charaktere, die vom alten Haus im Wald kommen, erreichen den Kreis des Donners a
 Beschreibe den Spielern den Ort wie folgt:
 
 >[!info]
->Die bedrohlichen Gewitterwolken ziehen auf, als ihr euch einem 27 Meter hohen Hügel nähert, der mit Bäumen bewachsen ist. 
+>Die bedrohlichen Gewitterwolken ziehen auf, als ihr euch einem 12 Meter hohen Hügel nähert, der mit Bäumen bewachsen ist. 
 >Auf dem Gipfel des Hügel befindet sich ein großer Steinkreis. 
 >Zwei grässliche Gestalten tanzen und springen zwischen den Steinen herum.
->Am Rande des Kreises sind die Gestalten einiger Orks zu erkennen.
+>Am Fuße des Hügels sind die Gestalten einiger Orks zu erkennen.
 
 Wenn die Charaktere den Hügel umkreisen, bevor sie ihn besteigen, finden sie drei Höhlen (Bereiche K2, K3 und K4) in der Nähe des Gipfels.
 
@@ -86,6 +86,8 @@ In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeiß
 Yargath hat keine Schätze vergraben.
 
 ## Kampf 
+Die Orks am Fuße des Hügels beobachten das Ritual und sind nicht sonderlich auf der Hut.
+Sobald sie die Charaktere entdecken greifen sie an.
 
 Wenn die Charaktere den Gipfel erreichen geschieht folgendes:
 
@@ -102,3 +104,5 @@ Wenn die Charaktere den Gipfel erreichen geschieht folgendes:
 >
 >Die letzte Herausforderung hat begonnen.
 
+[[Gorthok der Donnerkeiler]] tötet bei seiner Beschwörung die beiden Akolythen die ihn beschworen haben.
+Erkämpft bis zum Tod.
