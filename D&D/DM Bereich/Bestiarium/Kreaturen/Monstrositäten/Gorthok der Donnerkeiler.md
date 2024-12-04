@@ -8,7 +8,7 @@ Typ: "[[Monstrositäten|Monstrosität]]"
 Subtyp:
 Gesinnung: "[[Chaotisch Böse]]"
 Herausforderungsgrad: 9
-Stufe: 12
+Stufe: 18
 Trefferwürfel: d12
 Bewegung:
   Boden: 15
