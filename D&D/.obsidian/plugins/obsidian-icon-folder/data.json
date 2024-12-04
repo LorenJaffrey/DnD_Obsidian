@@ -31,7 +31,8 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconInTitlePosition": "above",
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "DM Bereich/Kampagne": "CoMap",
   "DM Bereich/Bestiarium": "RaEyeMonster",
