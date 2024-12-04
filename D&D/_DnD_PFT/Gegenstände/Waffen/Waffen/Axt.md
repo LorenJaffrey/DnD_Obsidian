@@ -11,8 +11,8 @@ Reichweite: 1,5(1)
 Schaden: 1d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
-- "[[Leicht]]"
-- "[[Tödlich]]"
+  - "[[Leicht]]"
+  - "[[Tödlich]]"
 
 SchadenFern: 1d6
 SchadensartFern: "[[Hiebschaden]]"
@@ -20,8 +20,8 @@ Range1: 1,5(1)
 Range2: 6(4)
 Range3: 18(12)
 EigenschaftenFern:
-- "[[Leicht]]"
-- "[[Wurfwaffe]]"
+  - "[[Leicht]]"
+  - "[[Wurfwaffe]]"
 
 Kategorie: "[[Kriegswaffen]]"
 Hände: 1

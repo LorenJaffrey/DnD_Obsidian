@@ -1,17 +1,18 @@
 ---
 tags:
-- Gegenstand/Waffe/Art/Hiebwaffe
-- Gegenstand/Waffe/Gruppe/Axt
-- Gegenstand/Waffe/Klasse/Nahkampfwaffe
-- Gegenstand/Waffe/Kategorie/Kriegswaffe
-- Gegenstand/Waffe/Größe/Großwaffe
+  - Gegenstand/Waffe/Art/Hiebwaffe
+  - Gegenstand/Waffe/Gruppe/Axt
+  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Großwaffe
+Art: "[[Zweihandaxt]]"
 Reichweite: 1,5(1)
 Schaden: 1d12
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
-- "[[Langsam]]"
-- "[[Schwer]] (14)"
-- "[[Tödlich]]"
+  - "[[Langsam]]"
+  - "[[Schwer]] (14)"
+  - "[[Tödlich]]"
 
 SchadenFern:
 SchadensartFern:

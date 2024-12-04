@@ -5,6 +5,7 @@ tags:
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Gruppe/Blasrohr
   - Gegenstand/Waffe/Größe/Einhandwaffe
+Art: "[[Blasrohr]]"
 Reichweite:
 Schaden: 
 Schadensart: 
@@ -16,9 +17,9 @@ Range1: 1,5(1)
 Range2: 6(4)
 Range3: 30(20)
 EigenschaftenFern: 
-- "[[Leicht]]"
-- "[[Geschosse]] (Blasrohrpfeile)"
-- "[[Laden]]"
+  - "[[Leicht]]"
+  - "[[Geschosse]] (Blasrohrpfeile)"
+  - "[[Laden]]"
 
 Kategorie: "[[Kriegswaffen]]"
 Hände: 1

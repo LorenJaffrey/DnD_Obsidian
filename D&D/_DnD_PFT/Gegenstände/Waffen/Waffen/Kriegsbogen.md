@@ -1,10 +1,11 @@
 ---
 tags:
-- Gegenstand/Waffe/Art/Stichwaffe
-- Gegenstand/Waffe/Gruppe/Bogen
-- Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-- Gegenstand/Waffe/Kategorie/Kriegswaffe
-- Gegenstand/Waffe/Größe/Großwaffe
+  - Gegenstand/Waffe/Art/Stichwaffe
+  - Gegenstand/Waffe/Gruppe/Bogen
+  - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Großwaffe
+Art: "[[Kriegsbogen]]"
 Reichweite:
 Schaden: 
 Schadensart: 
@@ -16,9 +17,9 @@ Range1: 6(4)
 Range2: 75(50)
 Range3: 180(120)
 EigenschaftenFern: 
-- "[[Geschosse]] (Pfeile)"
-- "[[Schwer]] (14)"
-- "[[Rüstungsbrechend]] (1)"
+  - "[[Geschosse]] (Pfeile)"
+  - "[[Schwer]] (14)"
+  - "[[Rüstungsbrechend]] (1)"
 
 Kategorie: "[[Kriegswaffen]]"
 Hände: 2

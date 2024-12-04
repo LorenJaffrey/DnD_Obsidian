@@ -1,10 +1,11 @@
 ---
 tags:
-- Gegenstand/Waffe/Art/Stichwaffe
-- Gegenstand/Waffe/Gruppe/Armbrust
-- Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-- Gegenstand/Waffe/Kategorie/Kriegswaffe
-- Gegenstand/Waffe/Größe/Einhandwaffe
+  - Gegenstand/Waffe/Art/Stichwaffe
+  - Gegenstand/Waffe/Gruppe/Armbrust
+  - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Einhandwaffe
+Art: "[[Handarmbrust]]"
 Reichweite:
 Schaden:
 Schadensart:

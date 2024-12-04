@@ -1,16 +1,17 @@
 ---
 tags:
-- Gegenstand/Waffe/Art/Wuchtwaffe
-- Gegenstand/Waffe/Gruppe/Flegel
-- Gegenstand/Waffe/Klasse/Nahkampfwaffe
-- Gegenstand/Waffe/Kategorie/Kriegswaffe
-- Gegenstand/Waffe/Größe/Einhandwaffe
+  - Gegenstand/Waffe/Art/Wuchtwaffe
+  - Gegenstand/Waffe/Gruppe/Flegel
+  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Einhandwaffe
+Art: "[[Streitflegel]]"
 Reichweite: 1,5(1)
 Schaden: 2d3
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-- "[[Leicht]]"
-- "[[Heimtückisch]]"
+  - "[[Leicht]]"
+  - "[[Heimtückisch]]"
 
 SchadenFern:
 SchadensartFern:

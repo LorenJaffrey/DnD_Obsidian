@@ -5,18 +5,21 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Großwaffe
+Art: "[[Zweihandstreitkolben]]"
 Reichweite: 1,5(1)
 Schaden: 1d12
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Langsam]]"
   - "[[Schwer]] (12)"
+
 SchadenFern: 
 SchadensartFern: 
 Range1: 
 Range2: 
 Range3: 
 EigenschaftenFern: 
+
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
 Größe: 4

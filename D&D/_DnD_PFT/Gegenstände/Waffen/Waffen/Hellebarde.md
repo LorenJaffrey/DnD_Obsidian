@@ -1,20 +1,21 @@
 ---
 tags:
-- Gegenstand/Waffe/Art/Hiebwaffe
-- Gegenstand/Waffe/Art/Stichwaffe
-- Gegenstand/Waffe/Gruppe/Stangenwaffe
-- Gegenstand/Waffe/Klasse/Nahkampfwaffe
-- Gegenstand/Waffe/Kategorie/Kriegswaffe
-- Gegenstand/Waffe/Größe/Langwaffe
+  - Gegenstand/Waffe/Art/Hiebwaffe
+  - Gegenstand/Waffe/Art/Stichwaffe
+  - Gegenstand/Waffe/Gruppe/Stangenwaffe
+  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Langwaffe
+Art: "[[Hellebarde]]"
 Reichweite: 1,5(1)
 Schaden: 1d10
 Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
-- "[[Weitreichend]]"
-- "[[Defensiv]]"
-- "[[Unhandlich]]"
-- "[[Langsam]]"
-- "[[Rüstungsbrechend]] (1)"
+  - "[[Weitreichend]]"
+  - "[[Defensiv]]"
+  - "[[Unhandlich]]"
+  - "[[Langsam]]"
+  - "[[Rüstungsbrechend]] (1)"
 
 SchadenFern:
 SchadensartFern:
