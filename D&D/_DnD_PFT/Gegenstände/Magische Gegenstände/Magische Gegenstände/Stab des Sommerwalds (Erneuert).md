@@ -13,12 +13,21 @@ Kosten:
 Voraussetzung:
   - "[[Druide]]"
 Verflucht: false
+
 Reichweite: 1,5(1)
 Schaden: 1d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Parieren]]"
   - "[[Finesse]]"
+
+SchadenFern: 
+SchadensartFern: 
+Range1: 
+Range2: 
+Range3: 
+EigenschaftenFern: 
+
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
 Größe: 4

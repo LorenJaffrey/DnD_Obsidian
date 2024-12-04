@@ -28,10 +28,10 @@ try {
                     const attackModifier = Math.floor((attackStat - 10) / 2);
                     const proficiencyBonus = getProficiencyBonus(page);
                     const rangedAttackBonus = dv.current().AngriffsbonusFern || 0;
-                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + rangedAttackBonus}\``;
+                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + rangedAttackBonus - (dv.current().InputData.ErschöpfungsPunkte ?? 0)}\``;
 
                     // Calculate damage roll
-                    const damageRoll = `\`dice:${page.SchadenFern}+${attackModifier}\``;
+                    const damageRoll = `\`dice:${page.SchadenFern}+${attackModifier - (dv.current().InputData.ErschöpfungsPunkte ?? 0)}\``;
 
                     return [
                         page.file.link,

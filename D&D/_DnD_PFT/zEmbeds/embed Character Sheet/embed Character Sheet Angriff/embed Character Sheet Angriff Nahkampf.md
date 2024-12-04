@@ -45,7 +45,7 @@ try {
 		if (!dv.current().Übung) {
 			return (Math.ceil(getLevelStat() / 4) + 1)
 		}
-		const hasDirectProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.file.path).length === 1;
+		const hasDirectProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.Art.path).length === 1;
 		const hasGlobalProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.Kategorie.path).length === 1;
 		return (hasDirectProficiency || hasGlobalProficiency) ? (Math.ceil(getLevelStat() / 4) + 1) : 0;		 
 	}
