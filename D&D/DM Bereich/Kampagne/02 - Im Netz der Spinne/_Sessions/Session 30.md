@@ -25,11 +25,10 @@
 	- [[Szene - Aranon und der Gulthias-Baum]]
 	- erkunden
 	- looten
+	- [[Szene - Grannocs Tagebuch]]
 - Wetter wird immer stürmischer um die Eile zu symbolisieren
 - [[Reise zum Kreis des Donners]]
 - [[Kreis des Donners]]
-	- 
-
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]

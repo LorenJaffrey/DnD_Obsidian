@@ -34,3 +34,8 @@ group by filename
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
 
 - [ ] #task Moralsystem Kreaturen [priority:: medium]
+
+## Magische Gegenstände
+- [ ] #task [[Unbewegliches Zepter]] [priority:: high]
+- [ ] #task [[Umhang des Aufblähens]] [priority:: high]
+- [ ] #task [[Zauberstecken der Vogelrufe]] [priority:: high]
