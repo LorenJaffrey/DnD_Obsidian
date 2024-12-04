@@ -14,7 +14,7 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
-  - "[[Stab des Sommerwalds]]"
+  - "[[Stab des Sommerwalds (Erneuert)]]"
   - "[[Krummsäbel]]"
   - "[[Schleuder]]"
 Gesundheit:

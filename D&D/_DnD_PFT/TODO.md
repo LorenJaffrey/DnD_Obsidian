@@ -32,3 +32,8 @@ group by filename
 - [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
 - [ ] #task Hintergrund [[Weiser]]  [priority:: low]
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
+
+## Magische Gegenstände
+- [ ] #task [[Unbewegliches Zepter]] [priority:: high]
+- [ ] #task [[Umhang des Aufblähens]] [priority:: high]
+- [ ] #task [[Zauberstecken der Vogelrufe]] [priority:: high]
