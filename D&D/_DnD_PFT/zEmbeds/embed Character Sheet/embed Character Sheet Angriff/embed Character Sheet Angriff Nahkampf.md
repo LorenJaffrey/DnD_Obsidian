@@ -24,10 +24,10 @@ try {
 					}
                     const attackModifier = Math.floor((attackStat - 10) / 2);
                     const proficiencyBonus = getProficiencyBonus(page);
-                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0)}\``;
+                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0) - (dv.current().InputData.ErschöpfungsPunkte ?? 0)}\``;
 
                     // Calculate Schaden
-                    const damageRoll = `\`dice:${page.Schaden}+${attackModifier}\``;
+                    const damageRoll = `\`dice:${page.Schaden}+${attackModifier - (dv.current().InputData.ErschöpfungsPunkte ?? 0)}\``;
 
                     return [
                         page.file.link,
