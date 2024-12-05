@@ -34,6 +34,7 @@ group by filename
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
 
 - [ ] #task Moralsystem Kreaturen [priority:: medium]
+- [ ] #task Erschöpfung auf 6 reduzieren [priority:: medium]
 
 ## Magische Gegenstände
 - [ ] #task [[Unbewegliches Zepter]] [priority:: high]
