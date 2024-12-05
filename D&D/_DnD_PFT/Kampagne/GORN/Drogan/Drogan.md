@@ -20,7 +20,7 @@ Waffen:
   - "[[Streitaxt]]"
 Gesundheit:
   MaxTP: 59
-  TP: 54
+  TP: 59
   TW: 5
   TempTP: 0
 Attribute:
@@ -128,7 +128,7 @@ InputData:
   Erschöpfung7: false
   Erschöpfung8: false
   Erschöpfung9: false
-  Rage1: true
+  Rage1: false
   Rage2: false
   Rage3: false
 tags:
