@@ -1,0 +1,13 @@
+# `=this.file.name`
+>[!info]
+>Der Regen schlägt nun unbarmherzig gegen die Fensterläden des alten Hauses, während der Wind mit einer Intensität anschwillt, die die Äste der umliegenden Bäume wie knorrige Finger knacken und ächzen lässt. Über dem Wald in Richtung Norden entlädt sich ein Blitz, der für einen Herzschlag die dunklen Wolken erhellt und die Silhouette des Steinkreises auf dem Hügel preisgibt. Das Donnern, das darauf folgt, rollt wie ein fernes Kriegshorn durch den Wald.
+>
+>Argo bleibt plötzlich stehen, sein Blick zum Boden gerichtet. Eine elektrisierende Spannung breitet sich über seine Schuppen aus, als eine unbeschreibliche Präsenz durch den Sturm zu ihm spricht. Die Energie des Tempestus-Kristalls ist deutlich spürbar – ein Schimmer, der durch den tobenden Sturm dringt. Es ist kein Ruf, sondern eine pulsierende, drängende Macht, die auf seine Verbindung zu den Splittern reagiert. Sein Herz schlägt schneller, und seine Brust wird schwer, als er erkennt, wie nah der Splitter ist.
+>
+>Ein weiteres Donnergrollen, diesmal lauter und intensiver, vibriert in der Luft. Vom Norden her zerrt der Wind stärker, kälter, und es fühlt sich an, als würde der Sturm nicht einfach durch die Gegend ziehen, sondern sich um den Hügel im Zentrum sammeln. Der Boden scheint sich leicht unter den Füßen zu bewegen, als ob die Erde selbst unter der Last der herannahenden Energie stöhnen würde.
+>
+>Ein erneuter Blitz zerreißt die Dunkelheit, und kurz darauf ein gewaltiger Donnerknall, der den Wald erbeben lässt. Im Westen stürzt ein großer Baum krachend zu Boden, ein Opfer des immer stärker wütenden Sturms. Der Regen wird dichter, kühler, und es scheint, als ob der Kreis aus Gewitterwolken am Horizont enger wird, ein Zentrum bildend, das die Quelle der Gefahr erahnen lässt.
+>
+>Für Argo ist die Verbindung unmissverständlich: der Splitter wird aktiv genutzt, seine Macht entfaltet sich und verstärkt das Chaos um ihn herum. Der Druck in der Luft, der elektrische Geschmack auf der Zunge – all das ist eine Warnung. Der Kreis des Donners wird zum Katalysator, und es bleibt nicht viel Zeit, dies zu verhindern.
+>
+>Die Gruppe spürt die Dringlichkeit der Situation, als der Wind zu einem unbarmherzigen Heulen anschwillt. Der Sturm nimmt mit jeder Minute zu, das Herz des Chaos scheint näher zu rücken. Trotz der Dunkelheit, des Regens und des gefährlichen Waldes drängt jede Faser der Umgebung darauf, dass jetzt gehandelt werden muss, bevor es zu spät ist.
