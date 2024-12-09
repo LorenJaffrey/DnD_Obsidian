@@ -5,20 +5,17 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
-Art: "[[Streitkolben]]"
 Reichweite: 1,5(1)
 Schaden: 1d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Vielseitig]] (1W10)"
-
 SchadenFern: 
 SchadensartFern: 
 Range1: 
 Range2: 
 Range3: 
 EigenschaftenFern: 
-
 Kategorie: "[[Einfache Waffen]]"
 Hände: 1
 Größe: 3

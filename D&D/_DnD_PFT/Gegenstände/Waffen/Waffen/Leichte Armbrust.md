@@ -5,12 +5,10 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
-Art: "[[Leichte Armbrust]]"
 Reichweite:
 Schaden: 
 Schadensart: 
 Eigenschaften: 
-
 SchadenFern: 2d4
 SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
@@ -20,7 +18,6 @@ EigenschaftenFern:
   - "[[Laden]]"
   - "[[Geschosse]] (Bolzen)"
   - "[[Rüstungsbrechend]] (1)"
-
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
 Größe: 3

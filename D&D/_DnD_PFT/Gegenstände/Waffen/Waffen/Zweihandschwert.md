@@ -6,7 +6,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Zweihandschwert]]"
 Reichweite: 1,5(1)
 Schaden: 2d6
 Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
@@ -14,14 +13,12 @@ Eigenschaften:
   - "[[Langsam]]"
   - "[[Schwer]] (12)"
   - "[[Weitreichend]]"
-
 SchadenFern: 
 SchadensartFern: 
 Range1: 
 Range2: 
 Range3: 
 EigenschaftenFern: []
-
 Kategorie: "[[Kriegswaffen]]"
 Hände: 2
 Größe: 4

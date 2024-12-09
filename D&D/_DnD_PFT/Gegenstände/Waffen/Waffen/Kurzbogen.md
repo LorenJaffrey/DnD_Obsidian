@@ -5,7 +5,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
-Art: "[[Kurzbogen]]"
 Reichweite:
 Schaden: 
 Schadensart: 

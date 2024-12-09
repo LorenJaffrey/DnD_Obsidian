@@ -5,8 +5,6 @@ tags:
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Gruppe/Schleuder
   - Gegenstand/Waffe/Größe/Einhandwaffe
-Art: "[[Schleuder]]"
-Reichweite: 
 Schaden: 
 Schadensart: 
 Eigenschaften: []

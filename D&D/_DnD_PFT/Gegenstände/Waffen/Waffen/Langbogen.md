@@ -5,8 +5,6 @@ tags:
 - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
 - Gegenstand/Waffe/Kategorie/Kriegswaffe
 - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Langbogen]]"
-Reichweite:
 Schaden: 
 Schadensart: 
 Eigenschaften: []

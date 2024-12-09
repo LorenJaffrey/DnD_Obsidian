@@ -1,17 +1,16 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Hiebwaffe
-  - Gegenstand/Waffe/Gruppe/Peitsche
-  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Einhandwaffe
-Art: "[[Peitsche]]"
+- Gegenstand/Waffe/Art/Hiebwaffe
+- Gegenstand/Waffe/Gruppe/Peitsche
+- Gegenstand/Waffe/Klasse/Nahkampfwaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Einhandwaffe
 Reichweite: 1,5(1)
 Schaden: 1d4
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
-  - "[[Weitreichend]]"
-  - "[[Finesse]]"
+- "[[Weitreichend]]"
+- "[[Finesse]]"
 
 SchadenFern:
 SchadensartFern:

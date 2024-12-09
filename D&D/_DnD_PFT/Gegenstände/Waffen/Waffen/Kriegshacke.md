@@ -1,17 +1,16 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Stichwaffe
-  - Gegenstand/Waffe/Gruppe/Hacke
-  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Einhandwaffe
-Art: "[[Kriegshacke]]"
+- Gegenstand/Waffe/Art/Stichwaffe
+- Gegenstand/Waffe/Gruppe/Hacke
+- Gegenstand/Waffe/Klasse/Nahkampfwaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Einhandwaffe
 Reichweite: 1,5(1)
 Schaden: 1d6
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
-  - "[[Leicht]]"
-  - "[[Rüstungsbrechend]] (1)"
+- "[[Leicht]]"
+- "[[Rüstungsbrechend]] (1)"
 
 SchadenFern:
 SchadensartFern:

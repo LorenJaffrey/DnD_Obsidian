@@ -6,7 +6,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Dreizack]]"
 Reichweite: 1,5(1)
 Schaden: 1d6
 Schadensart: "[[Stichschaden]]"

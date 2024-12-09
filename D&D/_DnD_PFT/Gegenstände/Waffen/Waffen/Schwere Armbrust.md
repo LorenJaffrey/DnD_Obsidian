@@ -1,12 +1,10 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Stichwaffe
-  - Gegenstand/Waffe/Gruppe/Armbrust
-  - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Schwere Armbrust]]"
-Reichweite: 
+- Gegenstand/Waffe/Art/Stichwaffe
+- Gegenstand/Waffe/Gruppe/Armbrust
+- Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Großwaffe
 Schaden:
 Schadensart:
 Eigenschaften:

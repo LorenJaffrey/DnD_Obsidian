@@ -5,7 +5,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Kleine_Waffe
-Art: "[[Sichel]]"
 Reichweite: 1,5(1)
 Schaden: 1d4
 Schadensart: "[[Hiebschaden]]"

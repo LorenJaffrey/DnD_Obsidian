@@ -1,18 +1,17 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Wuchtwaffe
-  - Gegenstand/Waffe/Gruppe/Hammer
-  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Zweihandhammer]]"
+- Gegenstand/Waffe/Art/Wuchtwaffe
+- Gegenstand/Waffe/Gruppe/Hammer
+- Gegenstand/Waffe/Klasse/Nahkampfwaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Großwaffe
 Reichweite: 1,5(1)
 Schaden: 1d12
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-  - "[[Langsam]]"
-  - "[[Schwer]] (12)"
-  - "[[Rüstungsbrechend]] (3)"
+- "[[Langsam]]"
+- "[[Schwer]] (12)"
+- "[[Rüstungsbrechend]] (3)"
 
 SchadenFern:
 SchadensartFern:

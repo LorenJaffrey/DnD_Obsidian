@@ -1,11 +1,10 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Stichwaffe
-  - Gegenstand/Waffe/Gruppe/Bogen
-  - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Anderthalbhänder
-Art: "[[Komposit-Langbogen]]"
+- Gegenstand/Waffe/Art/Stichwaffe
+- Gegenstand/Waffe/Gruppe/Bogen
+- Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Anderthalbhänder
 Reichweite:
 Schaden: 
 Schadensart: 
@@ -17,7 +16,7 @@ Range1: 3(2)
 Range2: 48(32)
 Range3: 135(90)
 EigenschaftenFern: 
-  - "[[Geschosse]] (Pfeile)"
+- "[[Geschosse]] (Pfeile)"
 
 Kategorie: "[[Kriegswaffen]]"
 Hände: 2

@@ -5,7 +5,6 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
   - Gegenstand/Waffe/Kategorie/Einfache_Waffe
   - Gegenstand/Waffe/Größe/Einhandwaffe
-Art: "[[Komposit-Kurzbogen]]"
 Reichweite:
 Schaden: 
 Schadensart: 

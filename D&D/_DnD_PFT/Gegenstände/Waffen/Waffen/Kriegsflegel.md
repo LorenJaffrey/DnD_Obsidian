@@ -1,18 +1,17 @@
 ---
 tags:
-  - Gegenstand/Waffe/Art/Wuchtwaffe
-  - Gegenstand/Waffe/Gruppe/Flegel
-  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
-  - Gegenstand/Waffe/Kategorie/Kriegswaffe
-  - Gegenstand/Waffe/Größe/Großwaffe
-Art: "[[Kriegsflegel]]"
+- Gegenstand/Waffe/Art/Wuchtwaffe
+- Gegenstand/Waffe/Gruppe/Flegel
+- Gegenstand/Waffe/Klasse/Nahkampfwaffe
+- Gegenstand/Waffe/Kategorie/Kriegswaffe
+- Gegenstand/Waffe/Größe/Großwaffe
 Reichweite: 1,5(1)
 Schaden: 2d5
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-  - "[[Weitreichend]]"
-  - "[[Langsam]]"
-  - "[[Heimtückisch]]"
+- "[[Weitreichend]]"
+- "[[Langsam]]"
+- "[[Heimtückisch]]"
 
 SchadenFern:
 SchadensartFern:
