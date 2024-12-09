@@ -50,7 +50,7 @@ Geld:
 | [[Schleuder]]               |   1    |    1    |   1    |
 | [[Holzschild]]              |   1    |    6    |   6    |
 | [[Fackel]]                  |   2    |    1    |   2    |
-| [[Ration]]                  |   14   |    1    |   14   | 
+| [[Ration]]                  |   12   |    1    |   12   |
 | [[Trinkschlauch]]           |   1    |    4    |   4    |
 | [[Seil aus Hanf]] in Metern |   13   |   0.6   |  7.8   |
 | [[Einfacher Rum (Flasche)]] |   5    |   0.5   |  2.5   |
@@ -64,6 +64,6 @@ Geld:
 | [[Ring des Schutzes]]       |   1    |    0    |   0    |
 | [[Aurelisbeeren]]           |   2    |    0    |   0    |
 | [[Nachtlichtkelch]]         |   2    |    0    |   0    |
-|                             |        |         |  39.3  |
+| Unsichtbare Karte           |        |         |  47.3  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

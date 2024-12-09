@@ -4,7 +4,7 @@ Niptac:
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Kobold Blitzwerfer]]"
-    - "[[Gnomischer Schlossknacker]]"
+    - "[[Gnomische Nebelbombe]]"
 Bewegung: 5
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -25,7 +25,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 9
+  TP: 42
   TW: 5
   TempTP: 0
 Attribute:
@@ -120,8 +120,8 @@ InputData:
   GlücksPunkt3: true
   GlücksPunkt4: true
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 1
-  Erschöpfung1: true
+  ErschöpfungsPunkte: 0
+  Erschöpfung1: false
   Erschöpfung2: false
   Erschöpfung3: false
   Erschöpfung4: false
@@ -133,8 +133,8 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: true
-    Ladung2: true
+    Ladung1: false
+    Ladung2: false
     Ladung3: false
 tags:
   - Charakter/GORN

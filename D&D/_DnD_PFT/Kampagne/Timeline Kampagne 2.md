@@ -1,5 +1,5 @@
 > [!INFO]
-> Aktuelle Kampagne -> Woche 3: Tag 21
+> Aktuelle Kampagne -> Woche 4: Tag 22
 > - [Absprung zu Woche 1](#Woche%201)
 > - [Absprung zu Woche 2](#Woche%202)
 > - [Absprung zu Woche 3](#Woche%203)
@@ -447,6 +447,8 @@
 >		Kampf gegen Blutmücke: done, a5, after a4, 0.25h
 >		Kampf gegen Pflanzenwesen im Innenhof: done, a6, after a4, 0.25h
 >		 Kampf gegen Orks & Magischen Baum: done, milestone, a7, after a5, 0.25h
+>		 Haus Durchsuchung: done, a8, after a7, 1h
+>		 Lange Rast: done, a9, after a8, 6.25h
 >```
 >
 >
@@ -473,13 +475,6 @@
 > ```
 >
 
-> [!INFO] 
-> Hier befinden wir uns aktuell!
-> -  
-> - 
-> - 
-> - 
-
 # Woche 4
 >
 >## Tag 22
@@ -490,9 +485,17 @@
 >	tickinterval 1hour
 >	weekday monday
 >	section G.O.R.N
->		-: a1, 2024-05-14 00:00, 0h
->		
+>		Lange Rast: a1, 2024-05-14 00:00, 8h
+>		Haus Durchsuchung: done, a2, after a1, 1h
 >```
+>
+> [!INFO] 
+> Hier befinden wir uns aktuell!
+> - 
+> - 
+> -  
+> - 
+>
 >
 >## Tag 23
 >```mermaid
