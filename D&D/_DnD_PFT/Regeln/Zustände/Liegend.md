@@ -1,6 +1,8 @@
 ---
+aliases:
+  - zu Boden
 tags:
-- Zustand
+  - Zustand
 ---
 # `=this.file.name`
 Eine liegende Kreatur kann als [[Zug#Bewegung]] nur [[Kriechen]], es sei denn, sie steht auf und beendet damit den Zustand.
