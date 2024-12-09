@@ -5,7 +5,7 @@ Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 1
-  Zusätzliche_SR: 1
+  Zusätzliche_SR: 0
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
   Resistenzen:
@@ -224,7 +224,7 @@ tags:
 >>
 >> ### Rüstung
 >> ```dynamic-embed
->> [[embed Character Sheet Rüstung Barbar]]
+>> [[embed Character Sheet Rüstung]]
 >> ```
 >>
 >> ```dynamic-embed
