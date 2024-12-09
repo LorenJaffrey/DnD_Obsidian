@@ -1,7 +1,7 @@
 # `=this.file.name`
 
 ## Einstellung
-NSC können freundlich, neutral oder feindlich Gesinnt sein.
+NSC können [[freundlich]], [[gleichgültig]] oder [[feindselig]] gesinnt sein.
 Dies bestimmt den [[Schwierigkeitsgrad|SG]] der Interaktion.
 
 ## Rollenspiel
