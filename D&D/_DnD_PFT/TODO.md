@@ -37,6 +37,3 @@ group by filename
 - [ ] #task Erschöpfung auf 6 reduzieren [priority:: medium]
 
 ## Magische Gegenstände
-- [ ] #task [[Unbewegliches Zepter]] [priority:: high]
-- [ ] #task [[Umhang des Aufblähens]] [priority:: high]
-- [ ] #task [[Zauberstecken der Vogelrufe]] [priority:: high]

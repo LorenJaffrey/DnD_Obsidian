@@ -5,9 +5,9 @@
 - [[Kreaturen identifizieren]]
 
 ## Organisatorisches
+- neuer Ordner Hinweise mit [[Grannocs Tagebuch]]
 
 ## TODO
-
 - Persönlichkeit der Charaktere besser einbauen
 	- [ ] #task Hintergrund Drogan [priority:: normal]
 	- [ ] #task Hintergrund Aranon [priority:: normal]
@@ -16,17 +16,16 @@
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 
 ## Recap
-- [[Altes Haus im Wald]] KAMPF!!!
-
-![[Timeline Kampagne 2#Woche 3]]
-
-## Ablauf
 - [[Altes Haus im Wald]]
 	- [[Szene - Aranon und der Gulthias-Baum]]
 	- erkunden
 	- looten
-	- [[Szene - Grannocs Tagebuch]]
-- Wetter wird immer stürmischer um die Eile zu symbolisieren
+	- [[Grannocs Tagebuch]] und Karte gefunden
+
+![[Timeline Kampagne 2#Woche 3]]
+
+## Ablauf
+- [[Szene - Der Aufziehende Sturm]]
 - [[Reise zum Kreis des Donners]]
 - [[Kreis des Donners]]
 
