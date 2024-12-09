@@ -22,13 +22,12 @@ try {
                     if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Magische Präzision.md"))){
 	                    attackStat = Math.max(attackStat, attributes[magicStat]);
 					}
-                    const attackModifier = Math.floor((attackStat - 10) / 2) - (dv.current().InputData.ErschöpfungsPunkte ?? 0);
+                    const attackModifier = Math.floor((attackStat - 10) / 2);
                     const proficiencyBonus = getProficiencyBonus(page);
-					const attackBonus = dv.current().Angriffsbonus || 0;
-                    const attackRoll = `\`dice:1d20${(attackModifier + proficiencyBonus + attackBonus)>=0?'+':''}${attackModifier + proficiencyBonus + attackBonus}\``;
+                    const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0)}\``;
 
                     // Calculate Schaden
-                    const damageRoll = `\`dice:${page.Schaden}${attackModifier>=0?'+':''}${attackModifier}\``;
+                    const damageRoll = `\`dice:${page.Schaden}+${attackModifier}\``;
 
                     return [
                         page.file.link,
@@ -46,7 +45,7 @@ try {
 		if (!dv.current().Übung) {
 			return (Math.ceil(getLevelStat() / 4) + 1)
 		}
-		const hasDirectProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.Art.path).length === 1;
+		const hasDirectProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.file.path).length === 1;
 		const hasGlobalProficiency = dv.current().Übung.Waffen.filter(item => item.path == page.Kategorie.path).length === 1;
 		return (hasDirectProficiency || hasGlobalProficiency) ? (Math.ceil(getLevelStat() / 4) + 1) : 0;		 
 	}

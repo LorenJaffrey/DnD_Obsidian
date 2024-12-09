@@ -19,13 +19,12 @@ try {
                     if (page?.Eigenschaften?.some(link => link?.path?.includes("Gegenstände/Waffen/Waffeneigenschaften/Magische Präzision.md"))){
 	                    attackStat = Math.max(attackStat, attributes[magicStat]);
 					}
-                    const attackModifier = Math.floor((attackStat - 10) / 2) - (dv.current().InputData.ErschöpfungsPunkte ?? 0);
+                    let attackModifier = Math.floor((attackStat - 10) / 2);
                     const proficiencyBonus = getProficiencyBonus(page);
-					const rangedAttackBonus = dv.current().AngriffsbonusFern || 0;
-                    const attackRoll = `\`dice:1d20${(attackModifier + proficiencyBonus + rangedAttackBonus)>=0?'+':''}${attackModifier + proficiencyBonus + rangedAttackBonus}\``;
+                    let attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.AngriffsbonusFern ?? 0)}\``;
 
                     // Calculate Schaden
-                    const damageRoll = `\`dice:${page.SchadenFern}${attackModifier>=0?'+':''}${attackModifier}\``;
+                    let damageRoll = `\`dice:${page.SchadenFern}+${attackModifier}\``;
 
                     return [
                         page.file.link,

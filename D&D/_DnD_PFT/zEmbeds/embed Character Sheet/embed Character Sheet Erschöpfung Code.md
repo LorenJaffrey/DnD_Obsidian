@@ -38,6 +38,30 @@ setTimeout(() => {
 	mb.subscribeToMetadata(Erschöpfung5, component, (value) => { reactiveErschöpfung5.refresh(value); }); 
 }, 50);
 
+const Erschöpfung6 = mb.parseBindTarget('InputData.Erschöpfung6', context.file.path);
+const reactiveErschöpfung6 = engine.reactive(onChange6, mb.getMetadata(Erschöpfung6)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung6, component, (value) => { reactiveErschöpfung6.refresh(value); }); 
+}, 50);
+
+const Erschöpfung7 = mb.parseBindTarget('InputData.Erschöpfung7', context.file.path);
+const reactiveErschöpfung7 = engine.reactive(onChange7, mb.getMetadata(Erschöpfung7)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung7, component, (value) => { reactiveErschöpfung7.refresh(value); }); 
+}, 50);
+
+const Erschöpfung8 = mb.parseBindTarget('InputData.Erschöpfung8', context.file.path);
+const reactiveErschöpfung8 = engine.reactive(onChange8, mb.getMetadata(Erschöpfung8)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung8, component, (value) => { reactiveErschöpfung8.refresh(value); }); 
+}, 50);
+
+const Erschöpfung9 = mb.parseBindTarget('InputData.Erschöpfung9', context.file.path);
+const reactiveErschöpfung9 = engine.reactive(onChange9, mb.getMetadata(Erschöpfung9)); 
+setTimeout(() => {
+	mb.subscribeToMetadata(Erschöpfung9, component, (value) => { reactiveErschöpfung9.refresh(value); }); 
+}, 50);
+
 //events
 function onErschöpfungsPunkteChange(value) {
 
@@ -51,7 +75,11 @@ function onErschöpfungsPunkteChange(value) {
 		'Erschöpfung2': Erschöpfung2,
 		'Erschöpfung3': Erschöpfung3,
 		'Erschöpfung4': Erschöpfung4,
-		'Erschöpfung5': Erschöpfung5
+		'Erschöpfung5': Erschöpfung5,
+		'Erschöpfung6': Erschöpfung6,
+		'Erschöpfung7': Erschöpfung7,
+		'Erschöpfung8': Erschöpfung8,
+		'Erschöpfung9': Erschöpfung9
 	}
 
     const oldStates = [
@@ -59,10 +87,14 @@ function onErschöpfungsPunkteChange(value) {
         mb.getMetadata(Erschöpfung2),
         mb.getMetadata(Erschöpfung3),
         mb.getMetadata(Erschöpfung4),
-        mb.getMetadata(Erschöpfung5)
+        mb.getMetadata(Erschöpfung5),
+        mb.getMetadata(Erschöpfung6),
+        mb.getMetadata(Erschöpfung7),
+        mb.getMetadata(Erschöpfung8),
+        mb.getMetadata(Erschöpfung9)
     ];
 
-    const newStates = Array(5).fill(false).map((_, index) => index < value);
+    const newStates = Array(9).fill(false).map((_, index) => index < value);
 
     newStates.forEach((newState, index) => {
         if (oldStates[index] !== newState) {
@@ -90,6 +122,22 @@ function onChange4(value){
 
 function onChange5(value){
 	onErschöpfungChange(5, value, Erschöpfung5);
+}
+
+function onChange6(value){
+	onErschöpfungChange(6, value, Erschöpfung6);
+}
+
+function onChange7(value){
+	onErschöpfungChange(7, value, Erschöpfung7);
+}
+
+function onChange8(value){
+	onErschöpfungChange(8, value, Erschöpfung8);
+}
+
+function onChange9(value){
+	onErschöpfungChange(9, value, Erschöpfung9);
 }
 
 function onErschöpfungChange(ErschöpfungsValue, newValue, metadataBind){	
