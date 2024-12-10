@@ -22,12 +22,6 @@
 ## Kompass der Begierde
 - zeigt die Richtung der größten Begierde des Charakters
 
-## Glücksmünze
-- Münze werfen
-	- Kopf -> Vorteil auf nächsten Attributswurf
-	- Zahl -> Nachteil auf nächsten Attributswurf
-- [ ] #task Gegenstand ausdefinieren [priority:: highest]
-
 ## Boom Hammer
 - selten
 - +1 auf Angriffswürfe
