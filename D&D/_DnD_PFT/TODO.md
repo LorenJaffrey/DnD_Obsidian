@@ -33,7 +33,6 @@ group by filename
 - [ ] #task Hintergrund [[Weiser]]  [priority:: low]
 - [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
 
+- [ ] #task Erkundung besser strukturieren [priority:: high]
 - [ ] #task Moralsystem Kreaturen [priority:: medium]
-- [ ] #task Erschöpfung auf 6 reduzieren [priority:: medium]
-
-## Magische Gegenstände
+- [ ] #task Inventarsysteme evaluieren [priority:: medium]
