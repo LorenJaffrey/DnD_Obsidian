@@ -3,14 +3,14 @@
 ## Phasen der Erkundung
 Jeder Zyklus besteht aus drei Phasen:
 
-1. **Beschreibung**: Der DM beschreibt den Raum und seine auffälligen Merkmale.
+1. **Beschreibung**: Der DM beschreibt den Raum und seine [[Auffällige Merkmale|auffälligen Merkmale]].
 2. **Planung**: Die Spieler beschreiben, was ihre Charaktere tun möchten.
 3. **Aktionen ausführen**: Würfelproben werden durchgeführt und Konsequenzen festgelegt.
 4. **Ergebnisse & Fortschritt**: Neue Informationen und Ressourcen werden präsentiert.
 
 #### **1. Beschreibung des Raums**
 
-Beginne damit, den Raum und seine auffälligen Merkmale zu beschreiben. 
+Beginne damit, den Raum und seine [[Auffällige Merkmale|auffälligen Merkmale]] zu beschreiben. 
 Fokussiere dich auf Dinge, die ins Auge fallen, aber halte wichtige Details verborgen, bis die Spieler gezielt danach suchen.
 
 >[!example]
@@ -43,20 +43,22 @@ Je nach Erfolg der Spieler würfelst du auf einer Tabelle oder hast bereits vorb
     - Teilweise erfolgreich: „Du findest eine zerbrochene Klinge in der Truhe, aber die restlichen Inhalte sind schwer zugänglich.“
     - Misslungener Wurf: „Beim Durchsuchen des Regals stößt du ein Buch um. Ein Mechanismus wird aktiviert, und eine versteckte Falle schnappt zu.“
 
-
-## Schwierigkeit
+## Schwierigkeit und Zeit
 
 ### Modifikatoren
-|                                 | Modifikator | Zeit   | Zeitmodifikator |
-| ------------------------------- | -----------:| ------ | ---------------:|
-| Schnelle Suche                  |          -5 | Gering |              x1 |
-| Gründliche Suche                |           0 | Mittel |              x3 |
-| Erschöpfende Suche              |          +5 | Lang   |             x10 |
-| Suchbereich groß (Raum)         |          -5 | Lang   |             x10 |
-| Suchbereich mittel (Bereich)    |           0 | mittel |              x3 |
-| Suchbereich klein (Möbelstück)  |          +5 | kurz   |              x1 |
-| Suchmethode ungenau beschrieben |           0 | kurz   |              x1 |
-| Suchmethode genau beschrieben   |          +5 | lang   |             x10 |
+|                                 | Mod | Zeit |
+| ------------------------------- | ---:| ----:|
+| **Gründlichkeit**               |     |      |
+| Schnelle Suche                  |  -5 |   x1 |
+| Gründliche Suche                |   0 |   x3 |
+| Erschöpfende Suche              |  +5 |  x10 |
+| **Suchbereich**                 |     |      |
+| Suchbereich groß (Raum)         |  -5 |  x10 |
+| Suchbereich mittel (Bereich)    |   0 |   x3 |
+| Suchbereich klein (Möbelstück)  |  +5 |   x1 |
+| **Suchmethode**                 |     |      |
+| Suchmethode ungenau beschrieben |   0 |      |
+| Suchmethode genau beschrieben   |  +5 |      |
 
 | Würfelergebnis | Art der Entdeckung                                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -97,3 +99,5 @@ Drei Arten von Information:
 - [[Umgebungsinformation]]
 - [[Versteckte Information]]
 - [[Geheime Information]]
+
+Ok gefällt mir gut. Ich hätte gerne noch eine Tabelle die beschreibt welche Auswirkungen verschiedene Faktoren wie die Gründlichkeit der Suche, die Größe des Suchbereichs und vielleicht auch noch die Art der Suche auf das Würfelergebnis der Spieler und den benötigten Zeitaufwand hat.
