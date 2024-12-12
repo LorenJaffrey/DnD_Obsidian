@@ -15,15 +15,9 @@ Verflucht: false
 *Diese exotisch wirkende Münze kann dem Benutzer Glück oder auch Pech bescheren.*
 
 Der Besitzer der Münze kann unmittelbar bevor er einen [[Attribute|Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]] ausführt erklären, dass er die Münze einsetzt.
-Er wirf die Münze in die Luft und fänt sie wieder auf. Würfle auf der folgenden Tabelle
+Er wirf die Münze in die Luft und fängt sie wieder auf. Würfle auf der folgenden Tabelle
 
-| dice: 1d2 | Ergebnis |
-| --------- | -------- |
-| 1         | Kopf     |
-| 2         | Zahl     |
-^Muenzwurf
-
-`dice: [[Glücksmünze#^Muenzwurf]]`
+**Münzwurf**: `dice: [[Lookup Tabellen#^Muenzwurf]]`
 
 Ist das Ergebnis Kopf erhält der Benutzer [[Vorteil und Nachteil|Vorteil]] auf den folgenden Wurf.
 Bei einem Ergebnis von Zahl erhält er stattdessen [[Vorteil und Nachteil|Nachteil]] auf den Wurf.
