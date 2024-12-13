@@ -3,6 +3,7 @@
 ## Reminder
 - [[Glück|Glückspunkte]]
 - [[Kreaturen identifizieren]]
+- [[Erkundung]]
 
 ## Organisatorisches
 - neuer Ordner Hinweise mit [[Grannocs Tagebuch]]
