@@ -30,12 +30,12 @@ Klassen:
 
 ## Beschreibung
 Du erzeugst einen Ausbruch donnernden Klangs, den man bis zu 30 m weit hören kann. 
-Jede andere Kreatur innerhalb der Reichweite außer dir muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen oder 1W6 [[Schallschaden]] erleiden. 
+Jede andere Kreatur innerhalb der Reichweite außer dir muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen oder `dice:Schaden` [[Schallschaden]] erleiden. 
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W6 bei Erreichen höherer Stufen:
-- Stufe 5 (2W6)
-- Stufe 11 (3W6) 
-- Stufe 17 (4W6)
+- Stufe 5 (`dice:SchadenLv5`)
+- Stufe 11 (`dice:SchadenLv11`) 
+- Stufe 17 (`dice:SchadenLv17`)
 
 Quelle: Xanathars Ratgeber für alles, Seite: 152
