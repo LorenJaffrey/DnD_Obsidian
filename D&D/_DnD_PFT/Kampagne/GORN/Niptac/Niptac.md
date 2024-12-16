@@ -126,10 +126,6 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Erschöpfung6: false
-  Erschöpfung7: false
-  Erschöpfung8: false
-  Erschöpfung9: false
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
@@ -312,8 +308,4 @@ actions:
     value: x - 1
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
-```
-
- ```dynamic-embed
-[[embed Character Sheet Erschöpfung Code]]
 ```

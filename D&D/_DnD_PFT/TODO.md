@@ -35,4 +35,3 @@ group by filename
 
 - [ ] #task Moralsystem Kreaturen [priority:: medium]
 - [ ] #task Inventarsysteme evaluieren [priority:: medium]
-- [ ] #task Erschöpfung in Character Sheets reduzieren auf 5 [priority:: high]

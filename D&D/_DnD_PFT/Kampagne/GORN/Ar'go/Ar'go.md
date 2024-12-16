@@ -80,16 +80,14 @@ Aussehen:
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
 Merkmale:
-  Volk:
-    - "[[Odemwaffe]]"
-    - "[[Drakonische Resistenz]]"
-  Klasse:
-    - "[[Quelle der Magie]]"
-    - "[[Windsprecher]]"
-    - "[[Stürmische Magie]]"
-    - "[[Zauberwirken Zauberer]]"
-  Talente:
-    - "[[Kampferprobter Zauberwirker]]"
+  - "[[Odemwaffe]]"
+  - "[[Drakonische Resistenz]]"
+  - "[[Quelle der Magie]]"
+  - "[[Windsprecher]]"
+  - "[[Stürmische Magie]]"
+  - "[[Zauberwirken Zauberer]]"
+Talente:
+  - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Bild: "[[Argo.jpeg]]"
   Video: "[[Argo.mp4]]"
@@ -142,10 +140,6 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Erschöpfung6: false
-  Erschöpfung7: false
-  Erschöpfung8: false
-  Erschöpfung9: false
   NormaleRüstung: true
   MagierRüstung: false
   BlitzOdem: false
@@ -166,7 +160,12 @@ InputData:
        - [x] ein Splitter wurde aus Niewinter herausgeschmuggelt
          (angeblich auf einem Versorgungskonvoi nach Phandalin vor ca. einer Woche)
        -  Kult von Anhängern des Talos sind hinter den Splittern her (böse)
-          - diese sind im **Niewienterwald** ansässig und sehr aktiv (Holzfällerlager)
+          - diese sind im **Niewinterwald** ansässig und sehr aktiv (Holzfällerlager)
+          - [x] dort war ein Talos-Anhänger der mit Voodoo-Puppen Pflanzenmonster anlockte
+          - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf ein Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
+          - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
+          - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
+          - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
@@ -191,7 +190,6 @@ tags:
 ---
 
 
-
 > [!infobox]
 > ![[Argo.jpeg | 0]]
 >  
@@ -212,40 +210,25 @@ tags:
 > ```
 >
 > ---
->
-> ```dynamic-embed
-> [[embed Character Sheet Level Abschnitt]]
-> ```
 > 
-> ---
-> 
-> |                            |  
-> | :--------------------------: | 
-> | `BUTTON[shortBreakButton]` |
-> | `BUTTON[longBreakButton]`|  
->
-> ---
->
->> [!important]- MAGIE
->> ```dataviewjs 
->> dv.el('h2', `<h2>Zauberplätze</h2>`); 
->> ```
->>  
->> ```dynamic-embed
->> [[embed Character Sheet Zauberplätze]]
->> ```
->>
->> ```dataviewjs 
->> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
->> ```
+>> [!info | bg-c-plain c-custom-gray]+ RASTEN-BUTTONS
 >> 
+>> |                            |  
+>> | :--------------------------: | 
+>> | `BUTTON[shortBreakButton]` |
+>> | `BUTTON[longBreakButton]`|  
+>
+> ---
+> 
+>> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-LEVEL
+>>
 >> ```dynamic-embed
->> [[embed Character Sheet Zaubereipunkte]]
+>> [[embed Character Sheet Level Abschnitt]]
 >> ```
+> 
+> ---
 >
->---
->
->> [!info]- ÜBUNG
+>> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-ÜBUNG
 >> ```dynamic-embed
 >> [[embed Character Sheet Übung Rüstung]]
 >> ```
@@ -262,16 +245,17 @@ tags:
 >> [[embed Character Sheet Übung Werkzeuge]]
 >> ```
 >> 
+>---
 
 ```dynamic-embed
-[[embed Infobox Left Attribute Übersicht (Makel)]]
+[[embed Infobox Left Zauberer]]
 ```
 
 # `=this.Hintergrund.Name`
 
-> [!info]+ ALLGEMEIN
+> [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | flex 2 no-title]
->>>  ## Allgemeine Spiel - Parameter
+>>>  ## Zustand
 >>> ```dynamic-embed
 >>> [[embed Erschöpfung]]
 >>> ```
@@ -292,7 +276,8 @@ tags:
 >>>
 >>
 
->[!caution]- ATTRIBUTE
+
+>[!caution | bg-c-plain c-custom-lightblue]- ATTRIBUTE
 >> [!column | flex  no-title]
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Stärke</h2>`); 
@@ -338,7 +323,26 @@ tags:
 >>> 
 
 
-> [!important]- WAFFEN
+> [!caution | bg-c-plain c-custom-lightblue]- AKTIONSHILFE
+>> [!column | 4 no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Aktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Bonusaktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Reaktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Passiv]]
+>>> ```
+
+
+> [!important | bg-c-plain c-custom-red ]- WAFFEN
 >> [!column | 3 flex  no-title]
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Angriff Nahkampf]]
@@ -352,7 +356,8 @@ tags:
 >>> [[embed Character Sheet Angriff Wurf]]
 >>> ```
 
-> [!important]- MAGIE
+
+> [!important | bg-c-plain c-custom-red ]- MAGIE
 >>[!column | 2 flex no-title]
 >>> ### Zauberangriff / Zauber wirken
 >>> ```dynamic-embed
@@ -369,7 +374,8 @@ tags:
 >>> ```
 >>
 
-> [!important]- FÄHIGKEITEN
+
+> [!important | bg-c-plain c-custom-red ]- FÄHIGKEITEN
 >> [!column | 2  no-title]
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
@@ -392,13 +398,13 @@ tags:
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 
 
-> [!important]- STATISTIK
+> [!info | bg-c-plain ]- STATISTIK
 > ```dynamic-embed
 > [[embed Zauberspruch Statistik]]
 > ```
 
 
-> [!info]- PERSÖNLICHKEIT
+> [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
 >> [!column | no-title ]
 >>> ## Main-Quest
 >>>  ```meta-bind
@@ -433,7 +439,7 @@ tags:
 >>>
 
 
-> [!info]- VERGANGENHEIT
+> [!info | bg-c-plain]- VERGANGENHEIT
 >> [!column | no-title flex]
 >>>- kommt in Niewinter an um dort seine Suche nach den Splittern des [[Tempestus Kristall|Tempestus Kristalls]] zu starten
 >>>- die Anhänger des bösen Sturmgottes [[Talos]] sind ebenfalls hinter den Splittern und dem [[Tempestus Kristall]] her
@@ -445,7 +451,7 @@ tags:
 >>>- seitdem wartet er immer noch auf die Gruppe..
 
 
-> [!info]- HINTERGRUNDGESCHICHTE
+> [!info | bg-c-plain]- HINTERGRUNDGESCHICHTE
 >> [!column | no-title flex]
 >>>**Ar'gonthariel Maez'ralor Sturmzorn** wurde nicht in einer Gemeinschaft von Drachengeborenen geboren, sondern in einer isolierten Inselkolonie, die von einem uralten, fast vergessenen Drachenkult bewohnt wurde. Der Kult verehrte den Sturm als göttliche Manifestation und sah es als seine heilige Pflicht an, das Gleichgewicht der Natur durch rituelle Praktiken und magische Rituale zu wahren. Die Mitglieder dieses Kultes waren hauptsächlich Menschen und Halbelfen, und Ar'gonthariel Maez'ralor war der einzige Drachengeborene unter ihnen.
 >>>
@@ -467,7 +473,9 @@ tags:
 >>>
 >>>Ar'gonthariel Maez'ralor's Motivation ist nicht Ruhm oder Reichtum, sondern die tiefe Überzeugung, dass das Schicksal der Welt und das Gleichgewicht der Natur auf dem Spiel stehen. Er ist getrieben von der Verantwortung, die ihm vom Sturmdrachen übertragen wurde, und der tiefen Liebe zu der Welt, die er schützen muss. Sein Weg ist gefährlich und voller Herausforderungen, aber Ar'gonthariel Maez'ralor weiß, dass er der einzige ist, der diese Aufgabe erfüllen kann.
 
+
 ---
+
 
 ```dynamic-embed
 [[embed Justify-Content Center]]
