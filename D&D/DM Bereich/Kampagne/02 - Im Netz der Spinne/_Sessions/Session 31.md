@@ -26,7 +26,7 @@
 ![[Timeline Kampagne 2#Woche 3]]
 
 ## Ablauf
-- [[Szene - Der Aufziehende Sturm]]
+- [[Szene - Der Aufziehende Sturm]] ODER [[Szene - Angriff auf das Jagdhaus]]
 - [[Reise zum Kreis des Donners]]
 - [[Kreis des Donners]]
 
