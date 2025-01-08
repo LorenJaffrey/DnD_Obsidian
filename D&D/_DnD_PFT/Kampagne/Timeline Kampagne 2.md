@@ -1,14 +1,15 @@
+---
+sessionNotes: |
+  - Reise nach "Kreis des Donners" (2h)
+  - nach einer Stunde von der Reise wurde ein verkohlter Baum gefunden, der 10 Voodoo Puppen hatte
+  - Ankunft & Kampf gegen Orks
+  -
+---
 > [!INFO]
 > Aktuelle Kampagne -> Woche 4: Tag 22
-> - [Absprung zu Woche 1](#Woche%201)
-> - [Absprung zu Woche 2](#Woche%202)
-> - [Absprung zu Woche 3](#Woche%203)
-> - [Absprung zu Woche 4](#Woche%204)
-> - [Absprung zu Woche 5](#Woche%205)
 
-# Woche 1
->
->## 🛣️ Tag 1 + 2: Abreise Richtung Phandalin 
+> [!info | bg-c-plain]-  Woche 1
+> ## 🛣️ Tag 1 + 2: Abreise Richtung Phandalin 
 >```mermaid
 >gantt
 >	dateFormat HH:mm
@@ -188,8 +189,7 @@
 >		After-Party: done, a9, after a8, 190m
 >```
 
-# Woche 2
->
+> [!info | bg-c-plain]-  Woche 2
 >## 🕯️ Tag 8: Dunkle Wege: Nachfeier, Entdeckungen und ein grausames Zeichen
 >```mermaid
 >gantt
@@ -314,8 +314,7 @@
 >```
 
 
-# Woche 3
->
+> [!info | bg-c-plain]-  Woche 3
 >## 🛏️ Tag 15: Reisen & Schlafen
 >```mermaid
 >gantt
@@ -475,8 +474,7 @@
 > ```
 >
 
-# Woche 4
->
+> [!info | bg-c-plain]+ Woche 4
 >## Tag 22
 >```mermaid
 >gantt
@@ -489,12 +487,11 @@
 >		Haus Durchsuchung: done, a2, after a1, 1h
 >```
 >
-> [!INFO] 
-> Hier befinden wir uns aktuell!
-> - 
-> - 
-> -  
-> - 
+>> [!INFO] 
+>> Hier befinden wir uns aktuell! -> Session Notizen:
+>>  ```meta-bind
+>>  INPUT[editor(class(dndSmallHeight)):sessionNotes]
+>>  ```
 >
 >
 >## Tag 23
@@ -569,8 +566,7 @@
 >		
 >```
 
-# Woche 5
->
+> [!info | bg-c-plain]-  Woche 5
 >## Tag 29
 >```mermaid
 >gantt

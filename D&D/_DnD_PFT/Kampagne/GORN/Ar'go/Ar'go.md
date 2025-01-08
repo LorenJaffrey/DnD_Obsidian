@@ -1,5 +1,5 @@
 ---
-cssclass: dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Stufe: 4
 Bewegung: 6
 Verteidigung:
@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 33
-  TP: 33
+  TP: 25
   TW: 4
   TempTP: 0
 Attribute:
@@ -119,17 +119,17 @@ Zauber:
   - "[[Snillocs Schneeballschwarm]]"
 ZauberStatistik:
   Donnerschlag: 2
-  Kältestrahl: 3
-  Klingenbann: 1
+  Kältestrahl: 4
+  Klingenbann: 2
   Schockgriff: 4
   Windbö: 0
-  Chaospfeil: 4
+  Chaospfeil: 5
   Hexenpfeil: 5
-  Magierrüstung: 2
+  Magierrüstung: 4
   Schutzwind: 0
   Snillocs_Schneeballschwarm: 1
 InputData:
-  GlücksPunkt1: true
+  GlücksPunkt1: false
   GlücksPunkt2: false
   GlücksPunkt3: false
   GlücksPunkt4: false
@@ -140,13 +140,13 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: true
-  MagierRüstung: false
-  BlitzOdem: false
-  Klingenbann: false
+  NormaleRüstung: false
+  MagierRüstung: true
+  BlitzOdem: true
+  Klingenbann: true
   Zaubereipunkte: 4
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 2
     Grad_2: 3
     Grad_3: 0
     Grad_4: 0
@@ -272,8 +272,8 @@ tags:
 >>> ```
 >>> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
->>>> [!info] Blitz
->>>
+>>>> [!success]  **Blitz**  
+>>>>    - erlittener Schaden halbieren (abrunden)
 >>
 
 
@@ -461,7 +461,7 @@ tags:
 >>>
 >>>Dieses Artefakt, der **Tempestus-Kristall**, war vor Jahrhunderten in vier Teile zerbrochen und über die Verlorenen Reiche verstreut worden. Jedes Fragment beherbergte die Essenz eines Aspekts der Sturmkraft:
 >>>
->>>> [!IMPORTANT]
+>>>> [!IMPORTANT] WICHTIG!
 >>>> 1. **Fragment des Windes**: Ein Teil, der die Kontrolle über die Luftströme und Winde verleiht.
 >>>> 2. **Fragment des Blitzes**: Ein Teil, der die Macht des Blitzes und der Elektrizität kanalisiert.
 >>>> 3. **Fragment des Donners**: Ein Teil, der die Gewalt des Donners und Schalls entfesselt.
