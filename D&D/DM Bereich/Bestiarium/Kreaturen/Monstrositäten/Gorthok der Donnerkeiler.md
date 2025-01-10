@@ -5,7 +5,7 @@ aliases:
 Bild: "[[Gorthok_the_Thunder_Boar.webp | 350]]"
 Größenkategorie: "[[Groß]]"
 Typ: "[[Monstrositäten|Monstrosität]]"
-Subtyp:
+Subtyp: 
 Gesinnung: "[[Chaotisch Böse]]"
 Herausforderungsgrad: 9
 Stufe: 18
@@ -15,7 +15,7 @@ Bewegung:
   Fliegen: 0
   Schwimmen: 0
   Klettern: 0
-  Graben: 6
+  Graben: 0
 Sinne:
   - "[[Dunkelsicht]] 18m (12 Kästchen)"
 Verteidigung:
@@ -27,10 +27,10 @@ Verteidigung:
     Schadensresistenz:
       - "[[Blitzschaden]]"
     Schadensimmunität:
-      - "[[Schallschaden]]" 
+      - "[[Schallschaden]]"
     Schadensanfälligkeit: 
     Zustandsimmunität:
-      - "[[Verängstigt]]]"
+      - "[[Verängstigt]]"
       - "[[Betäubt]]"
 Angriff:
   - "[[Mächtiger Huftritt]]"
@@ -72,7 +72,6 @@ Sprachen:
   - "[[Gemeinsprache]]"
   - "[[Orkisch]]"
 Merkmale:
-  - "[[Donneraura]]"
   - "[[Donnernde Angriffe]]"
   - "[[Unaufhaltsam]]"
   - "[[Legendäre Resistenz]]"
