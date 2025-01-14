@@ -72,17 +72,17 @@ Cryovain --> SchwarzeSpinne
 | [[Cragmaw Versteck]]                       |  1   |   3   | Rettung                    | Entführte NPCs gerettet                                    |
 | [[Konfrontation mit den Rotbrennern]]      |  2   |   4   | Informationen              | [[Rotbrenner-Versteck]] finden                             |
 | [[Tresendar Anwesen\|Rotbrenner Versteck]] |  3   |   4   | Informationen              | [[Iarno Albrek]] finden, Exposition [[Schwarze Spinne]]    |
-| [[Haderhügel]]                         |  3   |   4   | Warnung                    | Zugriff auf Heiltränke                                     |
-| [[Zwergenausgrabung]]                  |  3   |   4   | Warnung                    | Warnung an Ausgräber                                       |
-| [[Butterschädelhof]]                   |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]          |
+| [[Haderhügel]]                             |  3   |   4   | Warnung                    | Zugriff auf Heiltränke                                     |
+| [[Zwergenausgrabung]]                      |  3   |   4   | Warnung                    | Warnung an Ausgräber                                       |
+| [[Butterschädelhof]]                       |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]          |
 | [[Bergzeh-Goldmine]]                       |  4   |   5   | Lieferung                  | Exposition [[Schrein von Savras]]                          |
 | [[Das Holzfällerlager]]                    |  4   |   5   | Lieferung/Rettung          | Exposition Talosanhänger                                   |
 | [[Gnomengard]]                             |  5   |   5   | Unterstützung holen        | Unterstützung für Kampf gegen [[Cryovain]]                 |
-| [[Das Alte Haus im Wald]]                  |  5   |   5   | Angriff                    | Talosanhänger aufhalten, Exposition [[Kreis des Donners]]  |
+| [[Altes Haus im Wald]]                     |  5   |   5   | Angriff                    | Talosanhänger aufhalten, Exposition [[Kreis des Donners]]  |
 | [[Axtholm]]                                |  5   |   5   | Sichern                    | Unterschlupf für Bewohner von [[Phandalin]]                |
 | [[Das Drachengrab]]                        |  5   |   5   | Unterstützung holen        | Drachentöter Schwert für Kampf gegen [[Cryovain]]          |
 | [[Der Schrein von Savras]]                 |  5   |   6   | Angriff                    | Vision von [[Eisnadelfestung]] oder [[Burg Cragmaw]]       |
 | [[Der Turm der Stürme]]                    |  5   |   6   | Angriff                    | Information über [[Eisnadelfestung]] oder [[Burg Cragmaw]] |
-| [[Der Kreis des Donners]]                  |  6   |   6   | Finale Talosanhänger       | [[Gorthok der Donnerkeiler]] vernichten                    |
+| [[Kreis des Donners]]                      |  6   |   6   | Finale Talosanhänger       | [[Gorthok der Donnerkeiler]] vernichten                    |
 | [[Die Eisnadelfestung]]                    |  6   |   6   | Finale Cryovain            | [[Cryovain]] vernichten                                    |
 | [[Die Wellenhallhöhle]]                    |  7   |   6   | Finale [[Schwarze Spinne]] | [[Schwarze Spinne]] aufhalten                              |

@@ -2,7 +2,6 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
-- [[Kreaturen identifizieren]]
 - [[Erkundung]]
 
 ## Organisatorisches
@@ -17,18 +16,12 @@
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 
 ## Recap
-- [[Altes Haus im Wald]]
-	- [[Szene - Aranon und der Gulthias-Baum]]
-	- erkunden
-	- looten
-	- [[Grannocs Tagebuch]] und Karte gefunden
-
-![[Timeline Kampagne 2#Woche 3]]
-
-## Ablauf
 - [[Szene - Der Aufziehende Sturm]] ODER [[Szene - Angriff auf das Jagdhaus]]
 - [[Reise zum Kreis des Donners]]
 - [[Kreis des Donners]]
+
+## Ablauf
+
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]
