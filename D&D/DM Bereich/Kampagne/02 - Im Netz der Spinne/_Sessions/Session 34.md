@@ -5,7 +5,8 @@
 - [[Erkundung]]
 
 ## Organisatorisches
-- neuer Ordner Hinweise mit [[Grannocs Tagebuch]]
+- [[Gorthok der Donnerkeiler]] ist [[Riesig]] und nicht nur [[Groß]]
+- [[Donnerndes Brüllen]]: Betäubung gilt bis Ende des Zuges
 
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen
@@ -14,14 +15,15 @@
 	- [ ] #task Hintergrund Niptac [priority:: normal]
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
+- [ ] #task Beute Orks [priority:: highest]
 
 ## Recap
-- [[Szene - Der Aufziehende Sturm]] ODER [[Szene - Angriff auf das Jagdhaus]]
-- [[Reise zum Kreis des Donners]]
 - [[Kreis des Donners]]
+	- Kampf mit den Orks
+	- [[Gorthok der Donnerkeiler]] wurde beschworen
 
 ## Ablauf
-
+Kampf gegen [[Gorthok der Donnerkeiler]]
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]
