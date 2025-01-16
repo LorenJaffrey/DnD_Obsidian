@@ -3,7 +3,7 @@ tags:
   - Kreatur/Monstrosität
 aliases: 
 Bild: "[[Gorthok_the_Thunder_Boar.webp | 350]]"
-Größenkategorie: "[[Groß]]"
+Größenkategorie: "[[Riesig]]"
 Typ: "[[Monstrositäten|Monstrosität]]"
 Subtyp: 
 Gesinnung: "[[Chaotisch Böse]]"

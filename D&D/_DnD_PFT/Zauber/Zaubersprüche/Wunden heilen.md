@@ -31,7 +31,7 @@ Klassen:
 ```
 
 ## Beschreibung
-Eine Kreatur, die du berührst, gewinnt [[Trefferpunkte]] in Höhe von 1W8 + deinem [[Zauberattribut]]-Modifikator zurück. 
+Eine Kreatur, die du berührst, gewinnt [[Trefferpunkte]] in Höhe von `dice:2d8` + deinem [[Zauberattribut]]-Modifikator zurück. 
 Dieser Zauber wirkt nicht auf [[Untote]] oder [[Konstrukte]].
 
 ### Auf höheren Graden

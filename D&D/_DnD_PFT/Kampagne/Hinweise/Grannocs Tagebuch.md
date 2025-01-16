@@ -1,7 +1,7 @@
 # `=this.file.name`
 Dieses stark beschädigte Tagebuch wurde bei den sterblichen Überresten des Talos-Akolythen Grannoc im [[Altes Haus im Wald|Alten Haus im Wald]] gefunden.
 
-## EInträge
+## Einträge
 > [!quote] _Seite 5 – Verschmiert, aber lesbar_
 > "…endlich ist der Samen in der Erde. Der Brunnen ist die perfekte Wiege für den Baum. 
 > Talos selbst wird durch seine Wurzeln sprechen und den Niewinterwald beugen. 

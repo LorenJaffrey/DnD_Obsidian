@@ -38,7 +38,7 @@ Sobald sie die Charaktere entdecken greifen sie an.
 Wenn die Charaktere den Gipfel erreichen geschieht folgendes:
 
 >[!info]
->Die Charaktere erreichen den Gipfel des Hügels gerade rechtzeitig, um das Ritual zu sehen, wie es seinen Höhepunkt erreicht. Blitzende Ranken aus purem Energieblitz winden sich vom **Splitter des Tempestus Kristalls**, den die beiden Akolythen von Talos in die Mitte des Steinkreises gehoben haben. Ihre Körper zitternd vor Anstrengung, heben sie die Arme zum brodelnden Himmel, während sie in einer uralten, donnernden Sprache unverständliche Worte schreien. Die Luft ist elektrisiert, und der Boden bebt unter ihren Füßen.
+>Die Charaktere erreichen den Gipfel des Hügels gerade rechtzeitig, um das Ritual zu sehen, wie es seinen Höhepunkt erreicht. Blitzende Ranken aus purer Energie winden sich um einen Kristallsplitter, den die beiden Akolythen in die Mitte des Steinkreises gehoben haben. Ihre Körper zitternd vor Anstrengung, heben sie die Arme zum brodelnden Himmel, während sie in einer uralten, donnernden Sprache unverständliche Worte schreien. Die Luft ist elektrisiert, und der Boden bebt unter ihren Füßen.
 >
 >Die schweren Steine des Kreises vibrieren, während die dunklen Wolken über ihnen sich zusammenziehen, ein Auge des Sturms formend, das auf die Mitte des Kreises gerichtet ist. Plötzlich reißt ein einzelner, ohrenbetäubender Donnerschlag die Luft entzwei, und ein gleißender Blitz trifft den Kristallsplitter. Ein blendendes Licht erfüllt die Szene, gefolgt von einem gewaltigen **Knall**, der sich wie eine Druckwelle ausbreitet.
 >
