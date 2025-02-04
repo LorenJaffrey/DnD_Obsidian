@@ -53,6 +53,33 @@ Wenn die Charaktere den Gipfel erreichen geschieht folgendes:
 [[Gorthok der Donnerkeiler]] tötet bei seiner Beschwörung die beiden Akolythen die ihn beschworen haben.
 Erkämpft bis zum Tod.
 
+### Gorthoks Ende
+>[!info]
+> Der Sturm ist noch nicht vollständig abgeklungen, als Argo sich über den massigen Kadaver des Donnerkeilers stellt. 
+> Blitze zucken weiter über den Himmel, als würden sie Gorthoks Tod betrauern oder seinen Geist in die tosenden Winde der Sturmherren zurückrufen. 
+> Der Boden unter den Füßen der Gruppe ist aufgewühlt, von Blut und Regen durchtränkt.
+>
+> Argo schließt die Augen und erhebt seine Hände. 
+> Ein tiefer Donner grollt in der Ferne, als ob die Natur selbst auf seine Beschwörung reagieren würde. 
+> Er beginnt die uralten Worte seines Kultes zu murmeln, eine Sprache, die wie rauschender Wind und brechende Wellen klingt. 
+> Die Luft um ihn herum flimmert vor aufgeladener Energie.
+> 
+> Dann legt er eine Hand auf die Brust des gefallenen Gorthok. 
+> Unter seiner Berührung beginnt das Fleisch des Bestienkörpers zu zucken, als würde ein inneres Gewitter in den Überresten des Donnerkeilers wüten. 
+> Die Haut reißt an mehreren Stellen auf, und schwache, zuckende Blitze kriechen über die tiefen Wunden, als würde die Kreatur sich gegen das Ende sträuben.
+> 
+> Mit einem finalen Wort schlägt Argo den Stab seines Kultes tief in das Herz des Ungeheuers. 
+> Ein gleißendes Licht bricht aus der Wunde hervor, während sich der Kadaver zusammenzieht und der Sturm für einen Moment innezuhalten scheint. 
+> Dann – mit einem krachenden Donnerschlag – explodiert das Fleisch an der Stelle, und ein schimmernder Kristallsplitter steigt langsam in die Luft.
+> 
+> Er ist in ein elektrisches Leuchten gehüllt, zuckt und pulsiert wie ein lebendiges Herz aus reiner Sturmmagie. 
+> Die Energie im Splitter ruft nach Argo, eine vertraute, aber zugleich unergründliche Macht. 
+> Als er die Hand ausstreckt, um ihn zu berühren, durchzuckt ein Blitz den Himmel und schlägt direkt in den Splitter ein. 
+> Ein Funke schießt Argo durch den Arm, doch er widersteht der Kraft – und schließt die Finger darum.
+> 
+> Ein letztes Echo von Gorthoks Donner grollt in den Wolken, bevor sich die Winde langsam legen. 
+> Der Splitter des Tempestuskristalls gehört nun ihm.
+
 **Geheime Falltüren**: 
 Ein Charakter, der den Gipfel des Hügels durchsucht und einen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 19 besteht, findet eine von drei dünnen hölzernen Falltüren, die unter Gras und Erde versteckt sind. 
 Unter diesen Falltüren führen Tunnel zu den Bereichen K2, K3 und K4.
