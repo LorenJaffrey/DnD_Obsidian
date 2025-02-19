@@ -2,11 +2,8 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
-- [[Erkundung]]
 
 ## Organisatorisches
-- [[Gorthok der Donnerkeiler]] ist [[Riesig]] und nicht nur [[Groß]]
-- [[Donnerndes Brüllen]]: Betäubung gilt bis Ende des Zuges
 
 ## TODO
 - Persönlichkeit der Charaktere besser einbauen
@@ -15,15 +12,14 @@
 	- [ ] #task Hintergrund Niptac [priority:: normal]
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
-- [ ] #task Beute Orks [priority:: highest]
+- [ ] #task Tempestus Kristall Fragment verschieben  [priority:: highest]
 
 ## Recap
 - [[Kreis des Donners]]
-	- Kampf mit den Orks
-	- [[Gorthok der Donnerkeiler]] wurde beschworen
+	- [[Gorthok der Donnerkeiler]] wurde besiegt
+	- [[Ar'go]] hat Ritual durchgeführt um [[Tempestuskristall - Fragment des Donners]] zu extrahieren
 
 ## Ablauf
-Kampf gegen [[Gorthok der Donnerkeiler]]
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]
