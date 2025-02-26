@@ -20,6 +20,7 @@
 	- [[Ar'go]] hat Ritual durchgeführt um [[Tempestuskristall - Fragment des Donners]] zu extrahieren
 
 ## Ablauf
+- [[Szene - Rückkehr nach Phandalin]]
 
 ## Solo-Session mit Tobi
 - [[Szene - Konfrontation mit Halia]]
