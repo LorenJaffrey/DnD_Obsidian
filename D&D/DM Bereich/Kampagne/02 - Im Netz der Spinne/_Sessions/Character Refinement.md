@@ -6,7 +6,6 @@
 ## Argo
 - mehr Kommunikation/Anrufung des Sturmdrachen
 
-
 ## Lucian
 - Background
 	- Aranons Stamm

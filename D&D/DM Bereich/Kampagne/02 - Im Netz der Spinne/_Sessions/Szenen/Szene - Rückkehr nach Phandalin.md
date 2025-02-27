@@ -1,12 +1,23 @@
-### Ankunft in Phandalin und die Gefangennahme von Grobblix
-Als die Gruppe nach [[Phandalin]] zurückkehrt, wirkt das Dorf angespannt. 
-Der Regen prasselt auf die Dächer, und die Straßen sind leer, während finstere Wolken über den Himmel ziehen. 
-Eine provisorische Miliz patrouilliert durch die Gassen, und die Dorfleute werfen ihnen bewundernde Blicke zu.
+### Ankunft der Charaktere in Phandalin nach dem Goblinüberfall
+Als die Gruppe [[Phandalin]] erreicht, ist die Atmosphäre im Dorf angespannt. 
+Der Überfall der Goblins liegt nur wenige Stunden zurück, doch die Spuren der Schlacht sind noch deutlich sichtbar.
 
-[[Sildar Hallwinter]] begrüßt die Gruppe mit erschöpftem Gesichtsausdruck. 
-Er berichtet, dass es kurz vor ihrer Ankunft einen Angriff der [[Cragmaw Goblins]] gegeben hat. 
-Dank der neuen Miliz, die er mit [[Halia Dornklafter]] Unterstützung aufstellen konnte, wurde der Überfall abgewehrt.
-- „Halia hat geholfen, das Dorf zu organisieren. Ohne sie wären wir verloren gewesen.“
+**Der erste Eindruck:**
+- **Zerstörung & Chaos:** Zerbrochene Karren, ausgebrannte Hütten und Blutlachen auf dem schlammigen Hauptweg zeugen von der Härte des Angriffs. Einige Dorfbewohner sind dabei, Schäden zu begutachten oder notdürftig zu reparieren.
+- **Angst & Erleichterung:** Viele Menschen wirken erschöpft, ihre Gesichter sind gezeichnet von Angst und Anspannung. Doch als sie die Gruppe erkennen, geht ein **Raunen** durch die Straßen – gemischt aus Erleichterung, Bewunderung und Unsicherheit.
+- **Das Wetter:** Ein schwerer, grauer Himmel hängt über Phandalin, und ein kalter Wind treibt den Geruch von verbranntem Holz und Blut durch die Straßen.
+
+**Die Miliz:**
+- [[Sildar Hallwinter|Sildar]] hat mit [[Halia Dornklafter|Halia Dornklafters]] Unterstützung eine **behelfsmäßige Miliz** aufgestellt. 
+   Eine Handvoll **bewaffneter Dorfbewohner**, manche mit rostigen Klingen, andere mit improvisierten Waffen, patrouilliert durch das Dorf. Ihre Bewegungen sind angespannt und **unkoordiniert**, aber sie sind entschlossen, sich nicht noch einmal überraschen zu lassen.
+- Ein paar **frisch errichtete Barrikaden** aus Kisten und Wagenrädern blockieren die Hauptstraße, während Milizionäre dort postiert stehen.
+- Einige von ihnen mustern die Neuankömmlinge misstrauisch, bevor sie [[Sildar Hallwinter|Sildar]] benachrichtigen.
+
+**Begegnung mit Sildar:**
+- Sildar Hallwinter tritt mit schnellen Schritten auf die Gruppe zu. Er wirkt **erschöpft**, sein Mantel ist an mehreren Stellen eingerissen, und ein Verband um seinen linken Arm deutet auf eine Verletzung hin.
+- Er begrüßt die Gruppe mit einer Mischung aus **Erleichterung und Sorge**, lässt seinen Blick kurz über die Verwüstung schweifen und atmet tief durch.
+- Ohne große Umschweife erklärt er, was passiert ist: **Ein Goblintrupp hat das Dorf angegriffen, doch die Miliz konnte sie zurückschlagen.**
+- Der Anführer der Goblins, ein alter Bekannter der Gruppe wurde **lebend gefangen genommen**.  Er sitzt derzeit **unter Bewachung** und könnte wertvolle Informationen haben.
 
 Der Anführer des Überfalls, ein besonders fetter und großmäuliger Goblin namens Grobblix, wurde gefangen genommen, als er versuchte, ein Huhn zu stehlen und dabei in einen Misthaufen fiel. 
 Er sitzt nun im [[Rathaus von Phandalin]] in einer provisorischen Zelle, murrend und zerrend an seinen Fesseln:

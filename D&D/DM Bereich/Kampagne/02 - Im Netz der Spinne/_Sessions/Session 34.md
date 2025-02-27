@@ -12,7 +12,6 @@
 	- [ ] #task Hintergrund Niptac [priority:: normal]
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
-- [ ] #task Tempestus Kristall Fragment verschieben  [priority:: highest]
 
 ## Recap
 - [[Kreis des Donners]]
