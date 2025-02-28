@@ -130,4 +130,3 @@ Narux hat einen [[Schild +1]] in seinem Quartier an einer zufälligen Stelle ver
 ### K4: Höhle im Südosten
 In den Sturzstein über der Höhlenmündung sind drei Strichmännchen eingemeißelt, die von einem Blitz getroffen werden. 
 Yargath hat keine Schätze vergraben.
-
