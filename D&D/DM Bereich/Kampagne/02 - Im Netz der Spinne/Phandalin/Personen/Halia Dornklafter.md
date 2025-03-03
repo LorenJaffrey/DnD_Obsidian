@@ -11,7 +11,7 @@ Halia arbeitet daran, [[Phandalin]] langsam unter ihre Kontrolle zu bringen, und
 
 ### Informationen
 - [[Burg Cragmaw]]
-	- weiß nicht, wo [[Burg Cragmaw]] liegt, aber sie hat gehört, dass die [[Rotbrenner]] einen [[Goblin (old)]] haben, der ihnen dient
+	- weiß nicht, wo [[Burg Cragmaw]] liegt, aber sie hat gehört, dass die [[Rotbrenner]] einen [[Hügelgoblin]] haben, der ihnen dient
 	- schlägt vor, dass der Goblin den Standort kennen könnte
 	- setzt diese Information als Druckmittel ein, um die Charaktere zu überzeugen, ihr dabei zu helfen, sich um die [[Rotbrenner]] zu kümmern.
 - [[Minenbörse Phandalin]]

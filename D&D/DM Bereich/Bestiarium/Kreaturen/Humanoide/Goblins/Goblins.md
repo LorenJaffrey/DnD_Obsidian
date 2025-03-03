@@ -28,7 +28,7 @@ Wie Wölfe sind sie Rudeljäger, die durch Überzahl mutiger werden. Wenn sie vo
 
 ## Anhänger von Maglubiyet
 [[Maglubiyet]], der Mächtige, der Fürst der Tiefe und Dunkelheit, ist der höchste Gott der [[Goblinoiden]]. 
-Die meisten [[Goblins]] stellen ihn sich als fast vier Meter großen, von Kampfnarben bedeckten [[Goblin (old)]] mit schwarzer Haut vor, aus dessen Augen Flammen lodern. 
+Die meisten [[Goblins]] stellen ihn sich als fast vier Meter großen, von Kampfnarben bedeckten [[Hügelgoblin]] mit schwarzer Haut vor, aus dessen Augen Flammen lodern. 
 Er wird nicht aus Respekt angebetet, sondern aus Furcht. [[Goblins]] glauben, dass ihre Seelen, wenn sie im Kampf sterben, sich den Reihen von [[Maglubiyet|Maglubiyets]] Armee auf der Ebene Acheron anschließen. 
 Dies ist ein „Privileg", das die meisten [[Goblins]] fürchten, da sie die ewige Tyrannei des Mächtigen sogar noch mehr fürchten als den Tod.
 

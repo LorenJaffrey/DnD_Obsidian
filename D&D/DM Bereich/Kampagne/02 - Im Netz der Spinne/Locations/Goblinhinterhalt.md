@@ -17,7 +17,7 @@
 
 ## Kampf
 - 1 [[Goblin Boss (old)]]
-- 9 [[Goblin (old)|Goblins]] 
+- 9 [[Hügelgoblin|Goblins]] 
 
 Die  Goblins verstecken sich in den Wäldern und warten, bis sich jemand den Leichen nähert, um dann anzugreifen.
 - Finde heraus, ob jemand überrascht wird. [[Heimlichkeit]] vs [[Wahrnehmung]]

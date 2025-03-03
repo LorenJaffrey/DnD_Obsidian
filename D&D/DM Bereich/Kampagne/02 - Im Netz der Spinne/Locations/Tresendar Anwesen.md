@@ -252,7 +252,7 @@ Der starke Geruch von ungewaschenen Körpern und fauligem Fleisch liegt in der L
 >Drei große, pelzige Humanoide hängen in dem Chaos herum und brüllen einem traurigen kleinen Goblin, der sich zu ihrer Unterhaltung erniedrigt, Befehle zu. 
 >Euer plötzliches Auftauchen lässt den Goblin bewusstlos werden.
 
-Zwei [[Grottenschrat (old)|Grottenschrate]], ein [[Grottenschrat Häuptling (old)]] und ein [[Goblin (old)]] sind anwesend. 
+Zwei [[Grottenschrat (old)|Grottenschrate]], ein [[Grottenschrat Häuptling (old)]] und ein [[Hügelgoblin]] sind anwesend. 
 
 Die [[Grottenschrat (old)|Grottenschrate]] arbeiten für die [[Schwarze Spinne]] und wurden geschickt, um [[Iarno Albrek|Iarno]] dabei zu helfen, die [[Rotbrenner]] und die Bürger von Phandalin unter Kontrolle zu halten. 
 Ihr Anführer heißt [[Grottenschrat Häuptling (old)|Mosk]]. 
@@ -264,16 +264,16 @@ Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen
 Schlaue Charaktere könnten die Grottenschrate vielleicht sogar davon überzeugen, sich um „Verräter“ oder „Hochstapler“ anderswo im Kerker zu kümmern. 
 Wenn du nicht der Meinung bist, dass sie die Täuschung gut ausspielen, kannst du den Charakter, der am meisten redet, einen Wurf auf  [[Täuschen]] gegen [[Schwierigkeitsgrad|SG]] 15 machen lassen, um die Grottenschrate davon zu überzeugen, das zu tun, was die Gruppe möchte.
 
-Der [[Goblin (old)]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine Aktion verwenden, um ihn zu wecken. 
+Der [[Hügelgoblin]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine Aktion verwenden, um ihn zu wecken. 
 Ansonsten bleibt Baumel für 1W10 Minuten bewusstlos.
-Der [[Goblin (old)]] Baumel ist keine Bedrohung für die Gruppe. 
+Der [[Hügelgoblin]] Baumel ist keine Bedrohung für die Gruppe. 
 Er wurde von den Grottenschraten eingeschüchtert und folgt ihren Befehlen, bis jemand Stärkeres kommt.
 Wenn er während des Kampfes wieder zu Bewusstsein kommt, versteckt sich Baumel, um dem Kampf aus dem Weg zu gehen.
 Er ist ein solcher Feigling, dass er mit Nachteil kämpft, wenn er dazu gezwungen wird, sich am Kampf zu beteiligen.
 Baumel kennt den grundsätzlichen Aufbau des Rotbrenner-Verstecks, sowie die Positionen sämtlicher Geheimtüren und Fallen.
 Er denkt nicht von selbst daran, diese Informationen zu teilen, wenn er aber gedrängt wird, verrät er so viel wie ihm einfällt, um der Gruppe nützlich zu sein. 
 Einige der Details könnten verwirrend oder durcheinander sein. 
-Er ist schließlich „nur“ ein [[Goblin (old)]].
+Er ist schließlich „nur“ ein [[Hügelgoblin]].
 Wenn die Grottenschrate besiegt werden, versucht sich Baumel bei der Gruppe einzuschmeicheln. 
 Er erinnert sich nicht an den Weg nach [[Burg Cragmaw]], aber er weiß, dass sie im Norden im Wald liegt. 
 Er weiß auch, dass [[Cragmaw-Goblins]] in der Umgebung von [[Phandalin]] patrouillieren, und er schlägt vor, dass die Charaktere vielleicht eine Patrouille fangen könnten, um mehr über die Burg zu erfahren.
