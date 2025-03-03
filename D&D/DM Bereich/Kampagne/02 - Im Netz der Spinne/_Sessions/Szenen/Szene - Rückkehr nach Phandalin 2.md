@@ -16,7 +16,6 @@ Doch als die Gruppe nach der genauen Lage von [[Burg Cragmaw]] fragt, verschlie�
 ### Der Plan des Doppelgängers
 Der Doppelgänger versucht [[Grobblix]] in der Nacht zu töten.
 
-
 #### **Intentionen der Beteiligten:**
 
 🔹 **Bürgermeister (Doppelgänger in Verkleidung):**
