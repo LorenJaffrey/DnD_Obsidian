@@ -6,7 +6,7 @@ for (var key in skills) {
 		if (string.length > 0) {
 			string += "\n";
 		}
-		string += "- [[" + key + "]]: +" + (skills[key]*(Math.ceil(dv.current().Herausforderungsgrad/4)+1) + Math.floor((dv.current().Attribute[dv.page(dv.page(key).Attribut).file.name]-10)/2));
+		string += "- [[" + key.replaceAll("_"," ") + "]]: +" + (skills[key]*(Math.ceil(dv.current().Herausforderungsgrad/4)+1) + Math.floor((dv.current().Attribute[dv.page(dv.page(key.replaceAll("_"," ")).Attribut).file.name]-10)/2));
 	}
 }
 dv.paragraph(string);

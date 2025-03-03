@@ -166,14 +166,14 @@ Die Cragmaw-Plünderer, die in der Festung stationiert sind, verwenden diesen Be
 
 ### Kampf
 - 4 [[Hügelgoblin|Goblins]] je 15 TP
-- 1 [[Goblin Boss (old)|Fetter Goblin]] 26 TP
+- 1 [[Hügelgoblin Boss|Fetter Goblin]] 26 TP
 
 Die gewöhnlichen Goblins kümmern sich um das Kochfeuer im unteren (nördlichen) Teil der Höhle in der Nähe des Eingangstunnels, während sich der Anführer im oberen (südlichen) Teil der Höhle ausruht.
 
 [[Sildar Hallwinter]], ein menschlicher Krieger, und [[Don-Jon Raskin]] werden in dieser Kammer gefangen gehalten. Sie sind sicher am südlichen Felsvorsprung der Kante angebunden. 
 Die Goblins haben sie verprügelt und gequält, sodass sie geschwächt sind und nur 1 Trefferpunkt übrig haben.
 
-Der [[Goblin Boss (old)|Goblin-Anführer Yeemik]] ist der stellvertretende Anführer des ganzen Verstecks. 
+Der [[Hügelgoblin Boss|Goblin-Anführer Yeemik]] ist der stellvertretende Anführer des ganzen Verstecks. 
 Wenn er sieht, dass die Charaktere die Oberhand gewinnen, schnappt er sich [[Sildar Hallwinter|Sildar]] und zieht ihn über den Vorsprung in den oberen Bereich und ruft: 
 „Waffen runter, oder dieser Mensch stirbt!“
 

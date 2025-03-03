@@ -16,7 +16,7 @@
 >Die Satteltaschen wurden geplündert. In der Nähe findet ihr eine leere lederne Kartenhülle.
 
 ## Kampf
-- 1 [[Goblin Boss (old)]]
+- 1 [[Hügelgoblin Boss]]
 - 9 [[Hügelgoblin|Goblins]] 
 
 Die  Goblins verstecken sich in den Wäldern und warten, bis sich jemand den Leichen nähert, um dann anzugreifen.
