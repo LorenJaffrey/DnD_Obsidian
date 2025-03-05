@@ -2,7 +2,7 @@
 tags:
   - Angriff/Nahkampf
 Reichweite: 1,5(1)
-Schaden: 2d6
+Schaden: 2d8
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
 SchadenFern: 

@@ -30,7 +30,7 @@ Verteidigung:
       - "[[Kälteschaden]]"
     Zustandsimmunität: 
 Angriff:
-  - "[[Mächtiger Biss]]"
+  - "[[Biss Mächtig]]"
   - "[[Klauenhieb]]"
   - "[[Schwanzhieb]]"
 Attribute:

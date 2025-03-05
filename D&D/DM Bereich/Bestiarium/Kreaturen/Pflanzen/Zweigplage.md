@@ -24,13 +24,13 @@ Verteidigung:
   Natürliche_Rüstung: 12
   Natürliche_SR: 0
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
     Zustandsimmunität:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  - "[[Winziger Klauenhieb]]"
+  - "[[Klauenhieb winzig]]"
 Attribute:
   Stärke: 6
   Geschicklichkeit: 13
@@ -65,11 +65,11 @@ Fertigkeiten:
   Überzeugen: 0
   Wahrnehmung: 0
 Sprachen:
-  - "versteht [[Gemeinsprache]]"
+  - versteht [[Gemeinsprache]]
 Merkmale:
   - "[[Falsches Erscheinungsbild]]"
-Anzahl_Legendäre_Aktionen:
-Legendäre_Aktionen:
+Anzahl_Legendäre_Aktionen: 
+Legendäre_Aktionen: 
 ---
 ```dynamic-embed
 [[embed Statblock Kreatur]]

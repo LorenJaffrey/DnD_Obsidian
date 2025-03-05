@@ -5,4 +5,4 @@ Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`
 Gorthok führt zwei [[Angriff|Angriffe]] aus.
-Einen [[Mächtiger Hauerangriff|mächtigen Hauerangriff]] und einen [[Mächtiger Huftritt|mächtigen Huftritt]].
+Einen [[Hauerangriff Mächtig|mächtigen Hauerangriff]] und einen [[Huftritt Mächtig|mächtigen Huftritt]].

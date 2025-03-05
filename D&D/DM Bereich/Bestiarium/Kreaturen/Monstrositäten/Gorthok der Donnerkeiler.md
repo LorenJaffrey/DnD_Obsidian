@@ -33,8 +33,8 @@ Verteidigung:
       - "[[Verängstigt]]"
       - "[[Betäubt]]"
 Angriff:
-  - "[[Mächtiger Huftritt]]"
-  - "[[Mächtiger Hauerangriff]]"
+  - "[[Huftritt Mächtig]]"
+  - "[[Hauerangriff Mächtig]]"
 Attribute:
   Stärke: 22
   Geschicklichkeit: 10

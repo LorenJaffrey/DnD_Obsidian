@@ -24,13 +24,13 @@ Verteidigung:
   Natürliche_Rüstung: 12
   Natürliche_SR: 0
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
     Zustandsimmunität:
       - "[[Blind]]"
       - "[[Taub]]"
 Angriff:
-  - "[[Schwacher Klauenhieb]]"
+  - "[[Klauenhieb schwach]]"
   - "[[Nadelschuss]]"
 Attribute:
   Stärke: 12
@@ -66,10 +66,10 @@ Fertigkeiten:
   Überzeugen: 0
   Wahrnehmung: 0
 Sprachen:
-  - "versteht [[Gemeinsprache]]"
-Merkmale:
-Anzahl_Legendäre_Aktionen:
-Legendäre_Aktionen:
+  - versteht [[Gemeinsprache]]
+Merkmale: 
+Anzahl_Legendäre_Aktionen: 
+Legendäre_Aktionen: 
 ---
 ```dynamic-embed
 [[embed Statblock Kreatur]]

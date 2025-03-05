@@ -1,12 +1,12 @@
 ---
 tags:
   - Kreatur
-aliases: 
+aliases:
   - Akolythen des Talos
 Bild: "[[Anchorite_of_Talos.webp | 350]]"
 Größenkategorie: "[[Mittelgroß]]"
 Typ: "[[Humanoide]]"
-Subtyp:
+Subtyp: 
 Gesinnung: "[[Neutral Böse]]"
 Herausforderungsgrad: 3
 Stufe: 9
@@ -21,15 +21,15 @@ Sinne:
   - "[[Dunkelsicht]] 36m (24 Kästchen)"
 Verteidigung:
   Rüstung: "[[Fellrüstung]]"
-  Schild:
+  Schild: 
   Natürliche_Rüstung: 10
   Natürliche_SR: 0
   Resistenzen:
-    Schadensresistenz:
+    Schadensresistenz: 
     Schadensimmunität: 
-    Zustandsimmunität:
+    Zustandsimmunität: 
 Angriff:
-  - "[[Winziger Klauenhieb]]"
+  - "[[Klauenhieb winzig]]"
   - "[[Hauerangriff]]"
 Attribute:
   Stärke: 16
@@ -78,7 +78,7 @@ Zauberwirken:
     - "[[Blitz]] (1 pro Tag)"
     - "[[Donnerwoge]] (3 pro Tag)"
 Anzahl_Legendäre_Aktionen: 0
-Legendäre_Aktionen:
+Legendäre_Aktionen: 
 ---
 ```dynamic-embed
 [[embed Statblock Kreatur]]
