@@ -7,9 +7,9 @@ Größenkategorie: "[[Groß]]"
 Typ: "[[Monstrositäten|Monstrosität]]"
 Subtyp: "[[Gricks]]"
 Gesinnung: Gesinnungslos
-Herausforderungsgrad: 7
-Stufe: 10
-Trefferwürfel: d10
+Herausforderungsgrad: 2
+Stufe: 6
+Trefferwürfel: d8
 Bewegung:
   Boden: 9
   Fliegen: 
@@ -21,7 +21,7 @@ Sinne:
 Verteidigung:
   Rüstung: 
   Schild: 
-  Natürliche_Rüstung: 15
+  Natürliche_Rüstung: 12
   Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
@@ -31,16 +31,15 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität: 
 Angriff:
-    - "[[Schwanzhieb Leicht]]"
-    - "[[Tentakelangriff Mächtig]]"
-    - "[[Biss Stark]]"
+    - "[[Tentakelangriff]]"
+    - "[[Biss Schwach]]"
 Attribute:
-  Stärke: 18
-  Geschicklichkeit: 16
-  Konstitution: 15
-  Intelligenz: 4
+  Stärke: 14
+  Geschicklichkeit: 14
+  Konstitution: 11
+  Intelligenz: 3
   Weisheit: 14
-  Charisma: 9
+  Charisma: 5
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -70,7 +69,7 @@ Fertigkeiten:
 Sprachen: 
 Merkmale:
   - "[[Steintarnung]]"
-  - "[[Mehrfachangriff Grick Alpha]]"
+  - "[[Mehrfachangriff Grick]]"
 Anzahl_Legendäre_Aktionen: 
 Legendäre_Aktionen: 
 ---
