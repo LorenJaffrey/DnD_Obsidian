@@ -16,7 +16,7 @@ Tunnel und Räume sind 3 Meter hoch, wenn es nicht anders angegeben ist.
 ### Türen
 Alle Türen bestehen aus Holz mit eisernen Klinken, Scharnieren und eingebauten Schlössern.
 Sie sind nicht verschlossen, es sei denn, der Text gibt anderes an. 
-[[Iarno Albrek]] ([[Tresendar Anwesen#12. Glasstabs Quartier]]) und ein [[Grottenschrate|Grottenschrat]] namens [[Grottenschrat Häuptling (old)|Mosk]] (Bereich 9) tragen jeweils einen Eisenschlüssel, der jede Tür in dem Komplex aufsperren und verriegeln kann. 
+[[Iarno Albrek]] ([[Tresendar Anwesen#12. Glasstabs Quartier]]) und ein [[Grottenschrate|Grottenschrat]] namens [[Grottenschrat Häuptling|Mosk]] (Bereich 9) tragen jeweils einen Eisenschlüssel, der jede Tür in dem Komplex aufsperren und verriegeln kann. 
 Eine verschlossene Tür kann mit [[Diebeswerkzeug]] und einem erfolgreichen Wurf auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 10 geknackt werden. 
 Es ist auch möglich, die Tür mit einem erfolgreichen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 20 aufzubrechen.
 
@@ -152,7 +152,7 @@ In dieser Nacht kehrte die Bande zurück und entführte die Familie aus ihrem Zu
 Die Bande plant, die Familie in die Sklaverei zu verkaufen.
 Die Dendrars sind den Charakteren dankbar, dass sie sie gerettet haben, können aber nicht viele Informationen über das Rotbrenner-Versteck liefern. 
 Sie wissen nur, dass der Boss ein Magier ist (auch wenn sie ihn nicht getroffen haben und seinen Namen nicht kennen) 
-und dass er „große, pelzige Monster mit großen Ohren“ ([[Grottenschrat (old)|Grottenschrate]]) hat, die für ihn arbeiten.
+und dass er „große, pelzige Monster mit großen Ohren“ ([[Grottenschrat Wüstling|Grottenschrate]]) hat, die für ihn arbeiten.
 
 ## 6. Rüstkammer
 Die Tür zu diesem Raum ist von außen verschlossen. 
@@ -252,15 +252,15 @@ Der starke Geruch von ungewaschenen Körpern und fauligem Fleisch liegt in der L
 >Drei große, pelzige Humanoide hängen in dem Chaos herum und brüllen einem traurigen kleinen Goblin, der sich zu ihrer Unterhaltung erniedrigt, Befehle zu. 
 >Euer plötzliches Auftauchen lässt den Goblin bewusstlos werden.
 
-Zwei [[Grottenschrat (old)|Grottenschrate]], ein [[Grottenschrat Häuptling (old)]] und ein [[Hügelgoblin]] sind anwesend. 
+Zwei [[Grottenschrat Wüstling|Grottenschrate]], ein [[Grottenschrat Häuptling]] und ein [[Hügelgoblin]] sind anwesend. 
 
-Die [[Grottenschrat (old)|Grottenschrate]] arbeiten für die [[Schwarze Spinne]] und wurden geschickt, um [[Iarno Albrek|Iarno]] dabei zu helfen, die [[Rotbrenner]] und die Bürger von Phandalin unter Kontrolle zu halten. 
-Ihr Anführer heißt [[Grottenschrat Häuptling (old)|Mosk]]. 
+Die [[Grottenschrat Wüstling|Grottenschrate]] arbeiten für die [[Schwarze Spinne]] und wurden geschickt, um [[Iarno Albrek|Iarno]] dabei zu helfen, die [[Rotbrenner]] und die Bürger von Phandalin unter Kontrolle zu halten. 
+Ihr Anführer heißt [[Grottenschrat Häuptling|Mosk]]. 
 Er trägt eine juwelenbesetzte Augenklappe, obwohl er noch beide Augen hat. 
-[[Grottenschrat Häuptling (old)|Mosk]] trägt die Augenklappe, weil er sie für schick hält.
+[[Grottenschrat Häuptling|Mosk]] trägt die Augenklappe, weil er sie für schick hält.
 
-Die [[Grottenschrat (old)|Grottenschrate]] meiden die menschlichen Mitglieder der [[Rotbrenner]]. 
-Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen die [[Grottenschrat (old)|Grottenschrate]] davon aus, dass sie [[Iarno Albrek|Iarno]] dienen. 
+Die [[Grottenschrat Wüstling|Grottenschrate]] meiden die menschlichen Mitglieder der [[Rotbrenner]]. 
+Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen die [[Grottenschrat Wüstling|Grottenschrate]] davon aus, dass sie [[Iarno Albrek|Iarno]] dienen. 
 Schlaue Charaktere könnten die Grottenschrate vielleicht sogar davon überzeugen, sich um „Verräter“ oder „Hochstapler“ anderswo im Kerker zu kümmern. 
 Wenn du nicht der Meinung bist, dass sie die Täuschung gut ausspielen, kannst du den Charakter, der am meisten redet, einen Wurf auf  [[Täuschen]] gegen [[Schwierigkeitsgrad|SG]] 15 machen lassen, um die Grottenschrate davon zu überzeugen, das zu tun, was die Gruppe möchte.
 
@@ -288,7 +288,7 @@ Die Grottenschrate wissen auch, wo Burg Cragmaw liegt, aber auch diese Informati
 Ein Charakter, der einen gefangenen Grottenschrat verhört, kann die Informationen mit einem erfolgreichen Wurf auf [[Einschüchtern]] gegen [[Schwierigkeitsgrad|SG]] 15 herauskitzeln.
 
 ### Schätze
-[[Grottenschrat Häuptling (old)|Mosk]] hat einen Beutel am Gürtel, in dem sich 33 SM befinden, und trägt eine Augenklappe aus schwarzem Leder, die mit Halbedelsteinen besetzt ist (50 GM). 
+[[Grottenschrat Häuptling|Mosk]] hat einen Beutel am Gürtel, in dem sich 33 SM befinden, und trägt eine Augenklappe aus schwarzem Leder, die mit Halbedelsteinen besetzt ist (50 GM). 
 Er hat auch einen Eisenschlüssel, der alle Türen im Rotbrenner-Versteck verschließen oder öffnen kann.
 
 ## 10. Aufenthaltsraum

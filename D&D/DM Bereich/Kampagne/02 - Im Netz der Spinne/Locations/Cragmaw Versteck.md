@@ -70,7 +70,7 @@ Wenn die [[Wolf (old)|Wölfe]] von Gegnern außerhalb ihrer Reichweite gereizt w
 In jeder Runde, in der ein Charakter in Sicht bleibt, versuchen die Wölfe einen einzelnen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 15. 
 Beim ersten Versuch lockern sie den Stab, und der [[Schwierigkeitsgrad|SG]] sinkt auf 10. 
 Beim zweiten Erfolg reißen sie den Stab los oder verbiegen ihn, sodass ihre Ketten nicht mehr festgehalten werden.
-Ein [[Hügelgoblin]] oder [[Grottenschrat (old)]] kann seine Aktion verwenden, um einen [[Wolf (old)]] von seiner Kette zu befreien.
+Ein [[Hügelgoblin]] oder [[Grottenschrat Wüstling]] kann seine Aktion verwenden, um einen [[Wolf (old)]] von seiner Kette zu befreien.
 
 ### Spalte
 Eine schmale Öffnung in der Ostwand führt zu einem natürlichen Schacht, der 9 Meter nach oben in Bereich 8 führt.
@@ -226,10 +226,10 @@ Die Beute, die die Cragmaws im letzten Monat bei Plünderungen und Angriffen auf
 >In der Mitte der Kaverne lodern die Kohlen eines großen Feuers.
 
 ### Kampf
-- Klarg, der [[Grottenschrat (old)]] (33 TP)
+- Klarg, der [[Grottenschrat Wüstling]] (33 TP)
 - sein räudiger [[Wolf (old)]] Reißer (14 TP)
 - 3 [[Goblins]] (10 TP) 
-Der [[Grottenschrat (old)]] ist größenwahnsinnig und sieht sich als mächtigen Kriegsherren, der seine Laufbahn der Eroberungen gerade erst begonnen hat. 
+Der [[Grottenschrat Wüstling]] ist größenwahnsinnig und sieht sich als mächtigen Kriegsherren, der seine Laufbahn der Eroberungen gerade erst begonnen hat. 
 Er ist nicht ganz bei klarem Verstand und spricht von sich in der dritten Person („Wer wagt es, sich Klarg zu widersetzen?“ oder „Klarg wird einen Thron aus euren Knochen errichten, ihr Schwächlinge!“). 
 Die Goblins, die unter seinem Befehl stehen, verabscheuen seine Schikanen.
 

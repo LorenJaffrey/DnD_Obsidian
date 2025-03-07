@@ -13,3 +13,13 @@ Selbst wenn sie bezahlt werden, sind [[Grottenschrate]] bestenfalls unzuverläss
 Trotz ihrer einschüchternden Statur bewegen sich [[Grottenschrate]] mit überraschender Heimlichkeit.
 Sie legen gerne Hinterhalte und flüchten, wenn sie unterlegen sind. Sie sind verlässliche Söldner, solange man ihnen Nahrung, Waser und Schätze zur Verfügung stellt, doch vergisst ein [[Grottenschrate|Grottenschrat]] jedes Bündnis, wenn sein Leben auf dem Spiel steht. Ein verwundetes Mitglied einer Grottenschratbande wird oft zurückgelassen, damit die anderen entkommen können.
 Danach könnte dieser [[Grottenschrate|Grottenschrat]] dabei helfen, seine ehemaligen Gefährten zu verfolgen, wenn das sein Leben rettet.
+
+```dataview
+TABLE WITHOUT ID
+
+file.link AS "Kreatur"
+
+FROM #Kreatur/Humanoide/Goblinoide/Grottenschrat
+
+SORT file.name
+```

@@ -2,7 +2,7 @@
 
 ### Überfall auf das Gasthaus
 - [[Don-Jon Raskin]] war in der [[Bierhalle Schlafender Riese]] während dem Überfall auf das Gasthaus
-- [[Sildar Hallwinter]] hat noch drei [[Rotbrenner]]  getötet bevor er von den [[Grottenschrat (old)|Grottenschraten]] überwältigt wurde
+- [[Sildar Hallwinter]] hat noch drei [[Rotbrenner]]  getötet bevor er von den [[Grottenschrat Wüstling|Grottenschraten]] überwältigt wurde
 - [[Gasthaus Steinhügel#Toblen Steinhügel]] und Familie wurden entführt und werden im [[Tresendar Anwesen]] festgehalten
 
 ### Gundren Felssucher
