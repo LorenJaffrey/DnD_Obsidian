@@ -14,6 +14,7 @@
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 - [ ] #task Burg Cragmaw  [priority:: highest]
+- [ ] #task Moralsystem  [priority:: high]
 
 ## Recap
 - [[Kreis des Donners]]

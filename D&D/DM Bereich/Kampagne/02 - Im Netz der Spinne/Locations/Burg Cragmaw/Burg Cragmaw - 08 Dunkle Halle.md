@@ -9,11 +9,11 @@ Die folgenden Textkästen gehen davon aus, dass die Charaktere [[Dunkelsicht]] o
 >Im Norden versperren schwere Vorhänge ein paar identischer Bogengänge. 
 >Zwischen den Bogengängen steht eine gesprungene, aber fein gravierte Feuerschale aus Stein.
 
-In der Kammer befindet sich ein [[Grick]] — das besondere Haustier des Goblins Lhupo (Bereich 9). 
-Der [[Grick]] klettert gerne zu einem Sims, der in den Schatten der Statue in den höheren Bereichen des Raums verborgen ist. 
+In der Kammer befindet sich ein [[Grick-Alpha]] — das besondere Haustier des Goblins Lhupo (Bereich 9). 
+Der [[Grick-Alpha]] klettert gerne zu einem Sims, der in den Schatten der Statue in den höheren Bereichen des Raums verborgen ist. 
 Er beobachtet Eindringlinge im Raum heimlich, ehe er sich fallenlässt um anzugreifen. 
-Vergleiche die [[Heimlichkeit]] des Gricks mit dem Wurf auf  [[Wahrnehmung]] der Charaktere (oder ihrem passiven Wert), um zu bestimmen, wer von ihnen überrascht ist. 
-Der [[Grick]] weiß, dass er die Goblins nur essen darf, wenn Lhupo es erlaubt.
+Vergleiche die [[Heimlichkeit]] des [[Grick-Alpha]] mit dem Wurf auf  [[Wahrnehmung]] der Charaktere (oder ihrem passiven Wert), um zu bestimmen, wer von ihnen überrascht ist. 
+Der [[Grick-Alpha]] weiß, dass er die Goblins nur essen darf, wenn Lhupo es erlaubt.
 
 Der Rest der Cragmaws hat große Angst vor Lhupos Haustier und bewegt sich so schnell wie möglich, bevorzugt in Zweier- oder Dreierreihen, durch den Raum. 
 Jeder Kleriker, der die Kapelle untersucht, kann einen Wurf auf Intelligenz [[Religion]] gegen [[Schwierigkeitsgrad|SG]] 10 ablegen, um die Gottheiten zu bestimmen, die einst hier verehrt worden sind: 

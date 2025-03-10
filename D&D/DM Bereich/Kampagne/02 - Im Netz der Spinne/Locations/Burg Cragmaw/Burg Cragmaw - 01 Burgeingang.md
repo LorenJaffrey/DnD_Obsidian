@@ -15,4 +15,4 @@ Der niedrigste Wurf ist der [[Schwierigkeitsgrad|SG]] für die [[Wahrnehmung]]-W
 ## Entwicklungen
 Wenn die Goblins die Charaktere bemerken (oder wenn die Charaktere sich offen nähern) schießen sie Pfeile von ihrer Position hinter den Schießscharten ab. 
 Sie können aber nicht direkt auf Gegner feuern, die sich am oder hinter dem zerstörten Tor befinden. 
-Die Goblins rufen außerdem laut genug, dass sie ihre Gefährten in [[Burg Cragmaw - 04 Zerstörte Kaserne|Bereich 4]] und [[Burg Cragmaw - 06 Hobgoblin Kaserne|Bereich 6]] warnen, dass die Burg angegriffen wird.
+Die Goblins rufen außerdem laut genug, dass sie ihre Gefährten in [[Burg Cragmaw - 04 Zerstörte Kaserne|Bereich 4]] und [[Burg Cragmaw - 06 Goblin Kaserne|Bereich 6]] warnen, dass die Burg angegriffen wird.

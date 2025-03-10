@@ -7,7 +7,7 @@ Dieser breite Korridor war früher die Empfangshalle der Burg und ergibt heute e
 > Im Osten endet ein breiter Korridor an zwei weiteren Türen, die nach Süden und Osten führen. 
 > Dieser Korridor ist voll von staubigem Geröll und abgebröckeltem Putz, da die Decke zum Teil eingestürzt ist.
 
-Wenn die Goblinwachen in [[Burg Cragmaw - 03 Bogenschützenposten|Bereich 3]] Alarm geschlagen haben, kommen die Goblins und Hobgoblins in den Bereichen 4 und 6 gleichzeitig durch die Türen im Norden und Süden. 
+Wenn die Goblinwachen in [[Burg Cragmaw - 03 Bogenschützenposten|Bereich 3]] Alarm geschlagen haben, kommen die Goblins in den Bereichen 4 und 6 gleichzeitig durch die Türen im Norden und Süden. 
 Sie greifen aus beiden Richtungen an und versuchen die Abenteurer zu überwältigen und aus der Burg zu vertreiben.
 
 ## Falle

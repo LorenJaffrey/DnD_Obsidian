@@ -8,9 +8,8 @@
 >Goldene Ritualgegenstände – ein Pokal, ein Messer und ein Weihrauchgefäß – sind sorgfältig auf dem Altar angeordnet. 
 >Zwei Bogengänge nach Süden sind von schweren Vorhängen verdeckt.
 
-Der Schrein ist das Zuhause von Lhupo (ein Goblin mit 12 Trefferpunkten) und zwei gewöhnlichen Goblins, die ihn als seine „Messdiener“ unterstützen. 
-Sie alle tragen dreckige Roben über ihrer Rüstung, aber keiner von ihnen hat göttliche Kräfte (auch wenn Lhupo behauptet, [[Maglubiyet]] mit sich reden zu hören). 
-Wenn die Goblins gehört haben, wie die Charaktere den [[Grick]] in Bereich 8 besiegt haben, verstecken sie sich hinter dem Altar und versuchen die Charaktere zu überraschen. 
+Der Schrein ist das Zuhause von Lhupo, einem [[Hügelgoblin Bestienmeister]] und zwei gewöhnlichen Goblins, die ihn als seine „Assistenten“ unterstützen. 
+Wenn die Goblins gehört haben, wie die Charaktere den [[Grick-Alpha]] in Bereich 8 besiegt haben, verstecken sie sich hinter dem Altar und versuchen die Charaktere zu überraschen. 
 Ansonsten knien die drei Goblins vor dem Altar und beten zu ihrem bösen Gott.
 
 Das blutbefleckte Tuch verdeckt den Steinaltar vollständig. 
