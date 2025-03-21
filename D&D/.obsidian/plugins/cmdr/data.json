@@ -1,49 +1,47 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [
     {
       "id": "insert-template",
       "icon": "lucide-copy",
-      "name": "Templates: Insert template",
-      "mode": "any"
-    },
-    {
-      "id": "obsidian-charts:creation-helper",
-      "icon": "bar-chart-2",
-      "name": "Obsidian Charts: Insert new Chart",
+      "name": "Insert template",
       "mode": "any"
     }
   ],
   "fileMenu": [],
-  "leftRibbon": [
-    {
-      "id": "quickadd:choice:9d568959-d7da-41a7-9f7f-da484ffe54c5",
-      "icon": "gem",
-      "name": "QuickAdd: Edelstein",
-      "mode": "any"
-    },
-    {
-      "id": "quickadd:choice:05a84bdd-ad88-4c6e-bcde-90d4991ba8a2",
-      "icon": "wand",
-      "name": "QuickAdd: Zauber",
-      "mode": "any"
-    }
-  ],
+  "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Toggle pin",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "Reveal file in navigation",
+      "mode": "any"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
     "statusbar": [],
     "leftRibbon": [
-      "Templater",
+      "Create new canvas",
       "Advanced Tables Toolbar",
-      "Insert template",
-      "Create new canvas"
+      "Open quick switcher",
+      "ListAliasesView",
+      "Open format converter",
+      "Open Leaflet Map",
+      "Open Creature pane",
+      "DuplicateAliasesView"
     ]
   },
   "spacing": 8,

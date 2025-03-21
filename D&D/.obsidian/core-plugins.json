@@ -10,12 +10,12 @@
   "page-preview": true,
   "daily-notes": false,
   "templates": true,
-  "note-composer": true,
+  "note-composer": false,
   "command-palette": true,
   "slash-command": true,
   "editor-status": true,
   "starred": false,
-  "markdown-importer": true,
+  "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
@@ -28,5 +28,5 @@
   "sync": false,
   "bookmarks": false,
   "properties": true,
-  "webviewer": false
+  "webviewer": true
 }
