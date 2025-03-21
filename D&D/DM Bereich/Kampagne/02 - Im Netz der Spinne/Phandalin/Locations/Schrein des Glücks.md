@@ -23,4 +23,4 @@ Sie helfen den Armen, den Schwachen und den Unterdrückten.
 Schwester Garaele erstattet regelmäßig ihren Vorgesetzten Bericht über die Ereignisse in und um [[Phandalin]].
 
 ## Quests
-- [ ] #task Quest Todesfee einbauen?  [priority:: medium]
+- [x] #task Quest Todesfee einbauen?  [priority:: medium]

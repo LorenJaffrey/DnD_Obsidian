@@ -1,3 +1,3 @@
 # `=this.file.name`
 
-- [ ] #task Location vorbereiten [priority:: medium]
+- [x] #task Location vorbereiten  [priority:: medium]

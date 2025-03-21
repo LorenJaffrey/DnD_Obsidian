@@ -22,7 +22,7 @@ Fraktion:
 > | Beruf      | `=this.Beruf`      |
 > | Fraktion   | `=this.Fraktion`   |
 
-- [ ] #task Statblock ergänzen [priority:: medium]
+- [x] #task Statblock ergänzen  [priority:: medium]
 
 ## Aussehen
 

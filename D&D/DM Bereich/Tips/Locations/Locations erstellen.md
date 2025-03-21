@@ -21,7 +21,6 @@
 - Umwelt kann schädlich sein
 	- Kälte, Hitze, giftige Dämpfe/Pfützen
 
-
 ## Geschichte erzählen
 - Gegenstände (Tagebücher, etc.)
 - Umgebung
