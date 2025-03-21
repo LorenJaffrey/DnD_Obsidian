@@ -96,8 +96,8 @@ Merkmale:
 Talente:
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
-  Bild: "[[Drogan.jpeg]]"
-  Video: "[[Drogan.mp4]]"
+  Bild: "[[Drogan_portrait.jpeg]]"
+  Video: "[[Drogan_animated.mp4]]"
   Name: Drogan
   Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
   Klasse: "[[Barbar]]"

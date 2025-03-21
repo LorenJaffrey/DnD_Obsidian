@@ -6,7 +6,7 @@ Dafür wird dieses Tool verwendet:
 ## Initiative Tool
 
 [//]: # (needed to get cached path)
-![[Argo.jpeg | 1 ]]
+![[Argo_portrait.jpeg| 1 ]]
 
 > [!column | 2  no-title]
 >> <div style="font-family: Arial, sans-serif; background-color: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 30vh;">

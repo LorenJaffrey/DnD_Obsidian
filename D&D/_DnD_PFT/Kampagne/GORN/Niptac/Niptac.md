@@ -100,8 +100,8 @@ Merkmale:
 Talente:
   - "[[Verschwinden]]"
 Hintergrund:
-  Bild: "[[Niptac.jpeg]]"
-  Video: "[[Niptac.mp4]]"
+  Bild: "[[Niptac_portrait.jpeg]]"
+  Video: "[[Niptac_animated.mp4]]"
   Name: Niptac
   Volk: "[[Gnome|Gnom]]"
   Klasse: "[[Schurke]]"

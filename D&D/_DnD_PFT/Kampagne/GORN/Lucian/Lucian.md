@@ -87,8 +87,8 @@ Merkmale:
 Talente:
   - "[[Infernalische Konstitution]]"
 Hintergrund:
-  Bild: "[[Lucian.jpg]]"
-  Video: "[[Lucian.mp4]]"
+  Bild: "[[Lucian_portrait.jpg]]"
+  Video: "[[Lucian_animated.mp4]]"
   Name: Lucian Blackthorn
   Volk: "[[Tieflinge|Tiefling]]"
   Klasse: "[[Hexenmeister]]"
@@ -137,7 +137,7 @@ InputData:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Lucian.jpg| 0]]
+> ![[Lucian_portrait.jpg| 0]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Video]]
