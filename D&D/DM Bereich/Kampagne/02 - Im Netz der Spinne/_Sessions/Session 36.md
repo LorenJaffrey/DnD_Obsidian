@@ -2,6 +2,7 @@
 
 ## Reminder
 - [[Glück|Glückspunkte]]
+- [[Erschöpft|Erschöpfung]]
 
 ## Organisatorisches
 
@@ -12,17 +13,13 @@
 	- [ ] #task Hintergrund Niptac [priority:: normal]
 	- [ ] #task Hintergrund Argo [priority:: normal]
 	- [ ] #task Hintergrund Lucian [priority:: normal]
+- [ ] #task Moralsystem  [priority:: high]
 
 ## Recap
-- [[Kreis des Donners]]
-	- [[Gorthok der Donnerkeiler]] wurde besiegt
-	- [[Ar'go]] hat Ritual durchgeführt um [[Tempestuskristall - Fragment des Donners]] zu extrahieren
-
-## Ablauf
 - [[Szene - Rückkehr nach Phandalin]]
 
-## Solo-Session mit Tobi
-- [[Szene - Konfrontation mit Halia]]
+## Ablauf
+- [[Szene - Rückkehr nach Phandalin 2]]
 
 ## Background
 [[Hintergrundinfos]]
