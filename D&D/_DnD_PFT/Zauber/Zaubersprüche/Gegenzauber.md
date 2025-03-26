@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Lesser Restoration
+  - Counterspell
 tags:
   - Zauber
 Grad: 3

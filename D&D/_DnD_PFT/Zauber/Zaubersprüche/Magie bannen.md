@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Lesser Restoration
+  - Dispel Magic
 tags:
   - Zauber
 Grad: 3

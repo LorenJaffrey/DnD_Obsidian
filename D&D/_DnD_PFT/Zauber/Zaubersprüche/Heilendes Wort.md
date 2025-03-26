@@ -28,7 +28,7 @@ Klassen:
 ```
 
 ## Beschreibung
-Eine Kreatur deiner Wahl, die sich in Reichweite befindet und die du sehen kannst, erhält [[Trefferpunkte]] zurück in Höhe von `dice:2d4` + den Modifikator deines zum Zaubern relevanten Attributs. 
+Eine Kreatur deiner Wahl, die sich in Reichweite befindet und die du sehen kannst, erhält [[Trefferpunkte]] zurück in Höhe von `dice:1d4` + den Modifikator deines zum Zaubern relevanten Attributs. 
 Der Zauber hat keine Auswirkungen auf [[Untote]] oder [[Konstrukte]].
 
 ### Auf höheren Graden
