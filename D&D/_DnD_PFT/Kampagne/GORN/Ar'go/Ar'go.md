@@ -1,6 +1,6 @@
 ---
 cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
-Stufe: 4
+Stufe: 5
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
@@ -18,9 +18,9 @@ Waffen:
   - "[[Dolch]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
-  MaxTP: 33
-  TP: 25
-  TW: 4
+  MaxTP: 39
+  TP: 39
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -86,6 +86,7 @@ Merkmale:
   - "[[Windsprecher]]"
   - "[[Stürmische Magie]]"
   - "[[Zauberwirken Zauberer]]"
+  - "[[Magische Führung]]"
 Talente:
   - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
@@ -116,18 +117,8 @@ Zauber:
   - "[[Chaospfeil]]"
   - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Snillocs Schneeballschwarm]]"
-ZauberStatistik:
-  Donnerschlag: 2
-  Kältestrahl: 4
-  Klingenbann: 2
-  Schockgriff: 4
-  Windbö: 0
-  Chaospfeil: 5
-  Hexenpfeil: 5
-  Magierrüstung: 4
-  Schutzwind: 0
-  Snillocs_Schneeballschwarm: 1
+  - "[[Blitz]]"
+  - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -140,15 +131,15 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: false
-  MagierRüstung: true
-  BlitzOdem: true
-  Klingenbann: true
-  Zaubereipunkte: 4
+  NormaleRüstung: true
+  MagierRüstung: false
+  BlitzOdem: false
+  Klingenbann: false
+  Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 2
+    Grad_1: 4
     Grad_2: 3
-    Grad_3: 0
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -165,26 +156,19 @@ InputData:
           - im Niewinterwald gab es ein altes Anwesen, dort sind wir auf ein Talos-Anhänger gestoßen, die ein Ritual durchgeführt hatten
           - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
           - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
-          - [ ] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
+          - [x] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
     - [ ] **Fragment des Blitzes** gefunden
-    - [ ] **Fragment des Donners** gefunden
+    - [x] **Fragment des Donners** gefunden
     - [ ] **Fragment des Regens** gefunden
   toogleView: false
-  ShowHideSection:
-    WeaponAttack: false
-    MagicAttack: true
-    Skills: true
-    Statistic: true
-    Personality: false
-    Past: false
-    BackgroundStory: false
   Uhrzeit1: 00:00
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
+  Druckwelle: false
 tags:
   - Charakter/GORN
 ---
@@ -274,6 +258,11 @@ tags:
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> [!success]  **Blitz**  
 >>>>    - erlittener Schaden halbieren (abrunden)
+>>> 
+>>> ## Bonus
+>>>> [!success]  **Fragment des Donners**  
+>>>>    - +1 auf [[Angriffswurf|Angriffswürfe]] und [[Schadenswurf|Schadenswürfe]] für [[Schallschaden]]
+>>>>      (dieser Bonus erhöht sich um +1 für jedes weitere Fragment des Tempestus Kristalls im Besitz des Trägers)
 >>
 
 
@@ -368,6 +357,10 @@ tags:
 >>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
 >>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>> ### [[Tempestuskristall - Fragment des Donners| Druckwelle]] 
+>>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
+>>>|`INPUT[toggle:InputData.Druckwelle]` | [[Bonusaktion]]         | [[Schallschaden]]|  - | AoE  | Radius 3 m ( 2 Kästchen )  |  `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)`  | [[Stärke]] | [[Kurze Rast]], [[Lange Rast]] |
 >>> 
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberspruch Übersicht]]
@@ -380,13 +373,14 @@ tags:
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
 >>>>> ![[Stürmische Magie]]
+>>>>> ![[Magische Führung]]
 >>>>
 >>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
 >>> ### Metamagie
 >>>> [!column | 2 no-title]
->>>>> ![[Beschleunigter Zauber]]
+>>>>> ![[Weitreichender Zauber]]
 >>>>
 >>>>> ![[Gespiegelter Zauber]]
 >> 
@@ -396,12 +390,6 @@ tags:
 >>>>
 >>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
-
-
-> [!info | bg-c-plain ]- STATISTIK
-> ```dynamic-embed
-> [[embed Zauberspruch Statistik]]
-> ```
 
 
 > [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
@@ -498,6 +486,10 @@ actions:
     bindTarget: InputData.Klingenbann
     evaluate: false
     value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Druckwelle
+    evaluate: false
+    value: "false"
 ```
 
 ```meta-bind-button
@@ -569,4 +561,8 @@ actions:
     value: x - 1
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
+  - type: updateMetadata
+    bindTarget: InputData.Druckwelle
+    evaluate: false
+    value: "false"
 ```

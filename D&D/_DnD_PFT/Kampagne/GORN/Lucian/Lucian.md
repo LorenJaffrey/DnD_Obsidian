@@ -127,8 +127,8 @@ InputData:
     Ladung2: true
     Ladung3: true
     Ladung4: true
-    Ladung5: false
-    Ladung6: false
+    Ladung5: true
+    Ladung6: true
     Ladung7: false
     Ladung8: false
     Ladung9: false

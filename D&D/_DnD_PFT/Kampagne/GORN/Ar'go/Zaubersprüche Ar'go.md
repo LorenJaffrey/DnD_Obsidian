@@ -13,10 +13,11 @@ Zauber:
   - "[[Chaospfeil]]"
   - "[[Klingenbann]]"
   - "[[Schutzwind]]"
-  - "[[Snillocs Schneeballschwarm]]"
+  - "[[Blitz]]"
+  - "[[Blitze herbeirufen]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
-  - "[[Zielsuchzauber]]"
+  - "[[Gespiegelter Zauber]]"
 ---
 # `=this.file.name`
 
@@ -34,43 +35,18 @@ Metamagie:
 > Bekannte Zauber: `$=if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Art_Bekannte_Zauber=="Tabelle"){dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Bekannte_Zauber["Stufe"+dv.page(dv.current().Charakter).Stufe]}else{if(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).file.name=="Paladin"){dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)/2}else{dv.page(dv.current().Charakter).Stufe+Math.floor(((dv.page(dv.current().Charakter).Attribute[dv.page(dv.page(dv.page(dv.current().Charakter).Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)}}`  
 >
 
-
-
-> [!INFO] 
-> Ab Level 5 wären folgende Zauber des 3. Grades verfügbar (1 kann gewählt werden):
-
-> [!check] [[Blitz]]
-
-> [!check] [[Blitze herbeirufen]]
-
-> [!IMPORTANT] [[Wasser atmen]]
-
-> [!IMPORTANT] [[Schutz vor Energie]]
-
-> [!IMPORTANT] [[Zungen]]
-
-> [!IMPORTANT] [[Magie bannen]]
-
-> [!IMPORTANT]  [[Furcht]]
-
-> [!IMPORTANT]  [[Fliegen]]
-
-> [!IMPORTANT]  [[Gegenzauber]]
-
-> [!fail]  [[Feuerball]] (steht nicht mehr zur Auswahl -> dafür aber [[Blitze herbeirufen]] )
-
-
 > [!column | 2  no-title]
 >> ### Merkmale
 >>> [!column | 2 no-title]
 >>>> ![[Stürmische Magie]]
+>>>> ![[Magische Führung]]
 >>>
 >>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
 >>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>
 >> ### Metamagie
 >>> [!column | 2 no-title]
->>>> ![[Beschleunigter Zauber]]
+>>>> ![[Weitreichender Zauber]]
 >>>
 >>>> ![[Gespiegelter Zauber]]
 > 
