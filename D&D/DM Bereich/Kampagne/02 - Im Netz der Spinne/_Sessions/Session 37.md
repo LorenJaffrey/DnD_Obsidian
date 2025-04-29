@@ -88,14 +88,8 @@ Nichts davon schreit direkt „Verschwörung!“, aber die Muster lassen sich zu
 
 #### 📄 **Fundstücke in einer verschlossenen Kommode (Schlafzimmer)**
 
-**Ein Bündel Briefe**, geschrieben in feiner, sachlicher Handschrift, aber ohne Namen. 
-   Nur mit einem Wappen versiegelt, das nicht zugeordnet werden kann (eine schwarze Spinne auf silbernem Grund – wer es öffnet, zerstört das Siegel).
-    
-- Ein Beispieltext:
-> _„Das Artefakt wurde möglicherweise weitergegeben.“_ 
-> _„Der Zwerg war nicht kooperativ. Falls es weitergegeben wurde, dann an die Eindringlinge. Halte Augen und Ohren offen.“_
->  _„Die Position der Schmiede ist gesichert aber der Zugang bleibt versperrt, solange das Fragment nicht auf seine Weise reagiert.“_
-        
+![[Bündel Briefe aus dem Schreibtisch des Bürgermeisters von Phandalin |no-title]]
+
 ➤ Diese Briefe wirken wie verschlüsselte Lageberichte – keine klaren Namen, aber die Gruppe könnte eine Verbindung zum **Amulett** erahnen, wenn sie die Begriffe „Fragment“ oder „Fokus“ mit dem Objekt assoziieren.
 
 ---
@@ -118,13 +112,9 @@ Nichts davon schreit direkt „Verschwörung!“, aber die Muster lassen sich zu
 ### 🎬 **Sessionende / Ausblick**
 
 - Die Gruppe kennt nun den Ort von **Burg Cragmaw**.
-    
 - Die Hinweise auf die Schwarze Spinne verdichten sich, bleiben aber nebulös.
-    
 - Das Amulett rückt langsam ins Zentrum der Handlung, ohne dass seine volle Bedeutung bekannt ist.
-    
 - Die Gruppe steht vor der nächsten großen Entscheidung: **Burg Cragmaw betreten** – oder **weiter forschen**.
-    
 
 ---
 
