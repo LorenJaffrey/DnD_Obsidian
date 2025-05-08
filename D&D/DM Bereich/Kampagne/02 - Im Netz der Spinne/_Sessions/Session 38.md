@@ -15,6 +15,7 @@
 	- [ ] #task Hintergrund Lucian [priority:: normal]
 - [ ] #task Moralsystem  [priority:: high]
 - [ ] #task Sozialsystem (freundlich bis feindlich)
+- [ ] #task Warlock Patron Template YouTube
 
 ## Recap
 
