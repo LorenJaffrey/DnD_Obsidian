@@ -1,7 +1,11 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal
 Einsatz: Passiv
 ---
-Durch Laute und Gesten kannst du einfache Gedanken mit kleinen oder winzigen Tieren austauschen.
+# `=this.file.name`
+Du hast den Zauber [[[Mit Tieren sprechen]]] stets vorbereitet. 
+Die Anzahl der Male, die du den Zauber ohne [[Zauberplätze|Zauberplatz]] wirken kannst, entspricht deinem [[Übung|Übungsbonus]]. 
+Du erhältst alle verbrauchten Anwendungen nach einer [[Lange Rast|langen Rast]] zurück.
+Du kannst den Zauber auch mit einem verfügbaren [[Zauberplätze|Zauberplatz]] wirken.

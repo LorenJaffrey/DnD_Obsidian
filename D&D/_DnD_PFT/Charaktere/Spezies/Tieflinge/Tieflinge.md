@@ -1,6 +1,9 @@
 ---
-aliases: Tiefling
+aliases: 
+  - Tiefling
 ---
+# `=this.file.name`
+
 ## Beschreibung
 Durch Getuschel und Blicke begrüßt zu werden, Beleidigungen und Gewalt in der Öffentlichkeit ausgesetzt zu sein, das Misstrauen und die Angst in jedermanns Augen zu sehen, das ist das Los der Tieflinge. Schlimmer ist noch, dass die Tieflinge wissen, was der Grund für diese Angst ist: ein Pakt, der vor Generationen geschlossen wurde und bei dem die Essenz von Asmodeus, dem Erzteufel der Neun Höllen, in ihre Blutlinie geflossen ist. Sie tragen keine Schuld an ihrem Erscheinungsbild und ihrer Natur, beides ist die Folge einer uralten Sünde, für die sie, ihre Kinder und ihre Kindeskinder auf ewig zur Rechenschaft gezogen werden.
 
@@ -29,35 +32,5 @@ Aas, Aufgabe, Bedauern, Exzellenz, Frech-heit, Furcht, Gebet, Hoffnung, Hoffnung
 >Unwissende Leute begegnen Tieflingen oft mit Misstrauen, da sie annehmen, dass deren infernalische Abstammung nicht nur Spuren im Aussehen hinterlassen hat, sondern auch in Persönlichkeit und Moralvorstellung, In Wahrheit beeinflusst die Blutlinie eines Tieflings seine Persönlichkeit überhaupt nicht.
 >Sie nutzen zwar Magie aus den infernalischen Reichen, suchen sich aber ihren eigenen Lebensweg
 
-## Tieflinge
-![[tiefling.png|350]]
-
-### Attributswerterhöhung
-- +2 [[Charisma]]
-- +1 [[Intelligenz]]
-
-### Bewegungsrate
-- 9 Meter
-
-### Volksmerkmale
-- [[Dunkelsicht]]
-- [[Höllische Resistenz]]
-- [[Infernalisches Erbe]]
-
 ### Alter
 Tieflinge werden genauso schnell erwachsen wie Menschen, leben jedoch einige wenige Jahre länger.
-
-### Größe und Gewicht
-Tieflinge sind etwa so groß wie Menschen und ähnlich gebaut.
-[[Größenkategorie]]: mittel
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 143 cm     | 5W8 cm            | 110 Pfund    | 2W4 Pfund           |
-
-Größe = Grundgröße + Größenmodifikator
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-### Sprachen
-- Gemeinsprache
-- Infernalisch

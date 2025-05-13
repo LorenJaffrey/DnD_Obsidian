@@ -7,12 +7,12 @@ Einsatz: Passiv
 # `=this.file.name`
 *Dein Erbe gewährt dir übernatürliche Fähigkeiten.*
 
-Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]].
+Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Nekrotischer Schaden|Nekrotischen Schaden]].
 
 Außerdem beherrschst du folgende Zauber: 
-- ab Stufe 1: [[Feuerpfeil]] 
-- ab Stufe 3: [[Höllischer Tadel]]
-- ab Stufe 5: [[Dunkelheit]]
+- ab Stufe 1: [[Kalte Hand]] 
+- ab Stufe 3: [[Falsches Leben]]
+- ab Stufe 5: [[Schwächestrahl]]
 
 Wähle eines der folgenden [[Attribute]]: [[Intelligenz]], [[Weisheit]] oder [[Charisma]].
 Das gewählte [[Attribute|Attribut]] ist dein [[Attribute|Attribut]] zum Wirken dieser Zauber.

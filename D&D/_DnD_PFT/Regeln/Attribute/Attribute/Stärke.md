@@ -8,7 +8,7 @@ tags:
 Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
 
 ## Stärkemodifikator
-![[Attribute#Attributsmodifikator]]
+![[Attribute#Attributsmodifikator | no-title]]
 
 ## Verbundene Fertigkeiten
 ```dataview

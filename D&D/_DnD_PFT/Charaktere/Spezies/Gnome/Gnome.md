@@ -1,28 +1,9 @@
 ---
 tags: 
-  - Spezies
 aliases: 
   - Gnom
-Kreaturtyp: "[[Humanoide]]"
-Größenkategorie: "[[Klein]] (90 - 120 cm)" 
-Bewegungsrate: "9 Meter (6 Kästchen)"
-Merkmale:
-  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
-  - "[[Gnomische Gerissenheit]]"
 ---
 # `=this.file.name`
-> [!recite|right no-title fit] `=this.file.name`
-> ![[gnome_rockgnome.jpeg|300]]
-
-|                              |                         |
-| ---------------------------- | ----------------------- |
-| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
-| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
-| [[Bewegungsrate]]            | `=this.Bewegungsrate`   |
-
-## Merkmale
-`$=dv.list(dv.current().Merkmale)`
-
 ## Beschreibung
 Wo Gnome ihre eng verbundenen Gemeinschaften bilden, erfüllt ein konstantes Brummen von geschäftiger Aktivität die Nachbar-schaft. Laute Geräusche durchbrechen das Summen: das Rattern von schleifenden Zahnrädern hier, eine kleine Explosion dort, ein Schrei der Überraschung oder des Erfolgs, untermalt mit schallendem Gelächter. Gnome genießen das Leben in vollen Zügen und erfreuen sich an jedem Moment, den sie mit Erfindung, Ent-deckung, Forschung, kreativer Arbeit oder Spiel verbringen.
 
@@ -58,74 +39,3 @@ Beren, Daergel, Folkor, Garrick, Nackle, Murnig, Ningel, Raulnor, Scheppen, Timb
 
 ### Spitznamen
 Bierschwap, Aschenherz, Dachs, Mantel, Dop pelschloss, Schuftenschläger, Fnipper, Ku, Nim, Einschuh, Pock, Glitterstein, Entenstolperer
-
-## Felsengnome
-Als Felsengnom besitzt du einen natürlichen Einfallsreichtum und eine Zähigkeit, die über die der anderen Gnome hinaus-geht. Felsengnome machen den Großteil der gnomischen Bevölkerung aus. Dazu gehören etwa auch die Tüftlergnome in der Welt der Drachenlange.
-![[gnome_rockgnome.jpeg|300]]
-
-### Attributswertehöhung
-- +2 [[Intelligenz]]
-- +1 [[Konstitution]]
-
-### Bewegungsrate
-- 7,5 Meter
-
-### Volksmerkmale
-- [[Dunkelsicht]]
-- [[Gnomische Gerissenheit]]
-- [[Artefaktkunde]]
-- [[Tüftler]]
-
-### Alter
-Gnome sind genauso schnell entwickelt wie Menschen und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.
-Sie werden zwischen 350 und fast 500 Jahren alt.
-
-### Größe und Gewicht
-Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
-[[Größenkategorie]]: [[Klein]]
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
-
-Größe = Grundgröße + Größenmodifikator
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-### Sprachen
-- Gemeinsprache
-- Gnomisch
-
-## Waldgnome
-Als Waldgnom verfügst du über eine natürliche Begabung für Illusionen, außerdem wohnt dir eine gewisse Schnelligkeit und Heimlichkeit inne. In der Welt von DUNGEONS & DRAGONS sind Waldgnome selten und von einem gewissen Mysterium umgeben. Sie leben in versteckten Gemeinschaften in dunklen Wäldern und nutzen Illusion und Täuschung, um sich vor Bedrohungen zu schützen oder ihre Flucht zu verschleiern, falls sie entdeckt werden. Waldgnome begegnen anderen gutgesinnten Waldbewohnern freundlich, Elfen und gute Feenwesen sehen sie als ihre wichtigsten Verbündeten an. Oft freunden sich diese Gnome mit kleinen Waldtieren an und verlassen sich auf deren Hilfe, um Gefahren frühzeitig zu erkennen, die über ihr Land hereinbrechen könnten.
-![[gnome_forestgnome.webp|400]]
-### Attributswertehöhung
-- +2 [[Intelligenz]]
-- +1 [[Geschicklichkeit]]
-
-### Bewegungsrate
-- 7,5 Meter
-
-### Volksmerkmale
-- [[Dunkelsicht]]
-- [[Gnomische Gerissenheit]]
-- [[Geborene Illusionisten]]
-- [[Tierflüsterer]]
-
-### Alter
-Gnome sind genauso schnell entwickelt wie Menschen und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.
-Sie werden zwischen 350 und fast 500 Jahren alt.
-
-### Größe und Gewicht
-Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
-[[Größenkategorie]]: [[Klein]]
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |
-
-Größe = Grundgröße + Größenmodifikator
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-### Sprachen
-- Gemeinsprache
-- Gnomisch
