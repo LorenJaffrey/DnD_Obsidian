@@ -3,9 +3,10 @@ aliases:
 tags:
 - Merkmal/Klasse/Barbar
 ---
-# `=this.file.name`
+# `=this.file.name`.
+Dein [[Kampfrausch]] versetzt dich in die Lage, trotz schwerer Verletzungen weiterzukämpfen. 
+Wenn deine Trefferpunkte auf 0 sinken, während du im [[Kampfrausch]] bist, stirbst du nicht sofort, sondern führst einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 10 aus. 
+Bei einem Erfolg erhältst du [[Trefferpunkte]] in doppelter Höhe deiner Barbarenstufe.
 
-Du bist in der Lage, trotz schwerer Verletzungen weiterzukämpfen, wenn du dich im [[Kampfrausch]] befindest. 
-Sollten deine [[Trefferpunkte]] auf 0 reduziert werden, während du im [[Kampfrausch]] bist, und stirbst du nicht augenblicklich, kannst du einen [[Rettungswurf]] auf [[Konstitution]] mit [[Schwierigkeitsgrad|SG]] 10 ablegen. 
-Gelingt dir dieser, werden deine [[Trefferpunkte]] nur auf 1 reduziert.
-Jedes Mal, wenn du dieses Merkmal benutzt, steigt der [[Schwierigkeitsgrad]] für den Rettungswurf um 5 an. Nach einer kurzen oder langen Rast ist der Schwierigkeitsgrad wieder 10.
+Jedes Mal, wenn du dieses Merkmal nutzt, erhöht sich der [[Schwierigkeitsgrad|SG]] um 5. 
+Nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] sinkt der [[Schwierigkeitsgrad|SG]] wieder auf 10.

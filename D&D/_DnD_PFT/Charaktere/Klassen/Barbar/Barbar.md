@@ -85,15 +85,15 @@ Kampfrausch:
 |   6   | `=this.Kampfrausch.Stufe6.Anzahl`  | +`=this.Kampfrausch.Stufe6.Bonusschaden`  | Pfadmerkmal                                     |
 |   7   | `=this.Kampfrausch.Stufe7.Anzahl`  | +`=this.Kampfrausch.Stufe7.Bonusschaden`  | [[Wilder Instinkt]], [[Instinktiver Sprung]]    |
 |   8   | `=this.Kampfrausch.Stufe8.Anzahl`  | +`=this.Kampfrausch.Stufe8.Bonusschaden`  | [[Talente\|Talent]]                             |
-|   9   | `=this.Kampfrausch.Stufe9.Anzahl`  | +`=this.Kampfrausch.Stufe9.Bonusschaden`  | [[Brutale Kritische Treffer]] (1 Würfel)        |
+|   9   | `=this.Kampfrausch.Stufe9.Anzahl`  | +`=this.Kampfrausch.Stufe9.Bonusschaden`  | [[Brutaler Hieb]]                               |
 |  10   | `=this.Kampfrausch.Stufe10.Anzahl` | +`=this.Kampfrausch.Stufe10.Bonusschaden` | Pfadmerkmal                                     |
 |  11   | `=this.Kampfrausch.Stufe11.Anzahl` | +`=this.Kampfrausch.Stufe11.Bonusschaden` | [[Unerbittlicher Kampfrausch]]                  |
 |  12   | `=this.Kampfrausch.Stufe12.Anzahl` | +`=this.Kampfrausch.Stufe12.Bonusschaden` | [[Talente\|Talent]]                             |
-|  13   | `=this.Kampfrausch.Stufe13.Anzahl` | +`=this.Kampfrausch.Stufe13.Bonusschaden` | [[Brutale Kritische Treffer]] (2 Würfel)        |
+|  13   | `=this.Kampfrausch.Stufe13.Anzahl` | +`=this.Kampfrausch.Stufe13.Bonusschaden` | [[Verbesserter Brutaler Hieb]]                  |
 |  14   | `=this.Kampfrausch.Stufe14.Anzahl` | +`=this.Kampfrausch.Stufe14.Bonusschaden` | Pfadmerkmal                                     |
 |  15   | `=this.Kampfrausch.Stufe15.Anzahl` | +`=this.Kampfrausch.Stufe15.Bonusschaden` | [[Anhaltender Kampfrausch]]                     |
 |  16   | `=this.Kampfrausch.Stufe16.Anzahl` | +`=this.Kampfrausch.Stufe16.Bonusschaden` | [[Talente\|Talent]]                             |
-|  17   | `=this.Kampfrausch.Stufe17.Anzahl` | +`=this.Kampfrausch.Stufe17.Bonusschaden` | [[Brutale Kritische Treffer]] (3 Würfel)        |
+|  17   | `=this.Kampfrausch.Stufe17.Anzahl` | +`=this.Kampfrausch.Stufe17.Bonusschaden` | [[Überlegener Brutaler Hieb]]                   |
 |  18   | `=this.Kampfrausch.Stufe18.Anzahl` | +`=this.Kampfrausch.Stufe18.Bonusschaden` | [[Unbändige Stärke]]                            |
 |  19   | `=this.Kampfrausch.Stufe19.Anzahl` | +`=this.Kampfrausch.Stufe19.Bonusschaden` | [[Talente\|Talent]]                             |
 |  20   | `=this.Kampfrausch.Stufe20.Anzahl` | +`=this.Kampfrausch.Stufe20.Bonusschaden` | [[Meister der Wildnis]]                         |
@@ -127,10 +127,12 @@ Kampfrausch:
 	- [[Wahrnehmung]]
 
 ## Ausrüstung
-- [[Zweihandaxt]] oder beliebige [[Kriegswaffen|Kriegswaffe]]
-- zwei [[Axt|Äxte]] oder beliebige [[Einfache Waffen]]
-- 4 [[Wurfspeer]]e 
+- [[Zweihandaxt]]
+- vier [[Axt|Äxte]]
 - [[Ausrüstungssets#Entdeckerausrüstung]]
+- 15 GM
+ODER
+- 75 GM
 
 ## Klassenbeschreibung
 Ein großer Stammeskrieger der Menschen schreitet in Felle gehüllt und mit seiner Axt in der Hand durch den Schneesturm. Er lacht, als er auf den Frostriesen zustürmt, der es gewagt hat, die Elchherde seiner Leute zu rauben.
