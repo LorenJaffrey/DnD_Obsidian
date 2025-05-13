@@ -4,7 +4,7 @@ aliases: Hintergrund, Hintergründe
 | Hintergrund             | Variante       | Fertigkeiten                                                                      | Merkmal                          |
 | ----------------------- | -------------- | --------------------------------------------------------------------------------- | -------------------------------- |
 | Adeliger                | Ritter         | [[Geschichte]], [[Überzeugen]]                                                    | Privilegierte Stellung           |
-| Einsiedler              |                | [[Heilkunde]], [[Religion]]                                                       | Entdeckung                       |
+| [[Einsiedler]]          |                | [[Heilkunde]], [[Religion]]                                                       | Entdeckung                       |
 | Gilden-/Zunfthandwerker | Gildenkaufmann | [[Motiv erkennen]], [[Überzeugen]]                                                | Gilden- oder Zunftmitgliedschaft |
 | [[Heimgesuchter]]       |                | Zwei aus [[Arkane Kunde]], [[Nachforschungen]], [[Religion]], [[Überlebenskunst]] | Herz der Dunkelheit              |
 | Krimineller             | Spion          | [[Täuschen]], [[Heimlichkeit]]                                                    | Krimineller Kontakt              |

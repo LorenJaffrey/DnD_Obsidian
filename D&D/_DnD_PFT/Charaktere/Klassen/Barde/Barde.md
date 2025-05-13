@@ -8,7 +8,7 @@ Name_Subklassen: "[[Bardenschulen|Bardenschule]]"
 Trefferwürfel: W8
 Hauptattribut:
   - "[[Charisma]]"
-Zauberwirker: divers
+Komplexität: Hoch
 Zauberattribut: "[[Charisma]]"
 Art_Bekannte_Zauber: Tabelle
 ---

@@ -24,7 +24,15 @@ Klassen:
 ```
 
 ## Beschreibung
-Du erschaffst eine Sturmwolke in Form eines Zylinders, der 3 m hoch ist und einen Radius von 18 m besitzt, zentriert um einen Punkt in Reichweite. Der Zauber misslingt, wenn du keinen Punkt in der Luft sehen kannst, an dem die Sturmwolke erscheinen könnte (wenn du beispielsweise in einem Raum bist, der die Wolke nicht aufnehmen kann). Wirkst du den Zauber, wähle einen Punkt unterhalb der Wolke, den du sehen kannst. Ein Blitz fährt von der Wolke herab und schlägt in diesen ein. Jede Kreatur im Umkreis von 1,50 m um den Punkt muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet das Ziel 3W10 Blitzschaden oder halb so viel Schaden bei einem erfolgreichen Rettungswurf. In jedem deiner Züge, bis der Zauber endet, kannst du deine Aktion verwenden, um auf diese Weise einen weiteren Blitz zu beschwören, der entweder in denselben oder einen anderen Punkt einschlägt. Wenn du dich draußen aufhältst und ein Sturm herrscht, während du den Zauber wirkst, verleiht dieser dir die Kontrolle über den bestehenden Sturm und erschafft keinen eigenen. In diesem Fall steigt der Schaden des Zaubers um 1W10.
+An einem Punkt in Reichweite über dir, den du sehen kannst, erscheint eine Sturmwolke. Sie hat die Form eines drei Meter hohen Zylinders mit einem Radius von 18 Metern.  
+Wenn du den Zauber wirkst, wähle einen Punkt unter der Wolke aus, den du sehen kannst. Ein Blitz schlägt von der Wolke in diesen Punkt ein. 
+Jede Kreatur im Abstand von bis zu 1,5 Metern um diesem Punkt führt einen [[Geschicklichkeitsrettungswurf]] aus.  
+
+Scheitert der Wurf, so erleidet sie 3W10 Blitzschaden, anderenfalls die Hälfte.  
+Für die Wirkungsdauer kannst du eine magische [[Aktion]] verwenden, um einen weiteren Blitz dieser Art einschlagen zu lassen. Dabei kannst du denselben Punkt oder einen anderen als Ziel auswählen.
+
+Wenn du dich beim Wirken des Zaubers draußen aufhältst und ein Sturm herrscht, verleiht der Zauber dir Kontrolle über diesen Sturm, anstatt einen neuen zu erschaffen. 
+Unter diesen Umständen wird der Schaden des Zaubers um 1W10 erhöht.
 
 ## Auf höheren Graden
 Wenn du diesen Spruch mit einem Zauberplatz des 4. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 3. hinaus um 1W10.

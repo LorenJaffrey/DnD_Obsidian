@@ -52,7 +52,7 @@ Vorbesprechung für Abenteuer
 - Hintergrund muss nicht voll ausgearbeitet sein -> kann sich während des Spiels entwickeln und konkretisieren
 - grundsätzliches Ziel / Motivation der Figur
 - Leitfaden [[Hintergrundgeschichte]] als Hilfe
-- vorgfertigte DnD [[_Übersicht Hintergründe|Hintergründe]] als Anregung
+- vorgfertigte DnD [[Hintergründe|Hintergründe]] als Anregung
 - [[Charaktererschaffung]] mit jedem einzeln
 - DON'Ts
 	- keine Einzelgänger bauen

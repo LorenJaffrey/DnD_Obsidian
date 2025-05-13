@@ -4,4 +4,7 @@ tags:
   - Merkmal/Klasse/Zauberer/Metamagie
 ---
 # `=this.file.name`
-Wenn du einen Zauber wirkst, der eine Kreatur dazu zwingt. einen [[Rettungswurf]] abzulegen, um den Effekten des Spruches zu widerstehen kannst du 3 [[Zaubereipunkte]] ausgeben damit eines der Ziele des Zaubers bei seinem ersten [[Rettungswurf]] im [[Vorteil und Nachteil|Nachteil]] ist.
+
+**Kosten:** 2 [[Zaubereipunkte]]  
+
+Wenn du einen Zauber wirkst, der Kreaturen zu einem [[Rettungswurf]]  zwingt, kannst du 2 [[Zaubereipunkte]] verbrauchen, damit ein Ziel bei Rettungswürfen gegen den Zauber im Nachteil ist.

@@ -1,7 +1,3 @@
----
-aliases:
-  - Schadensart
----
 # `=this.file.name`
 
 | W8  | Schadensart             |
@@ -14,5 +10,3 @@ aliases:
 |  6  | [[Giftschaden]]         |
 |  7  | [[Psychischer Schaden]] |
 |  8  | [[Schallschaden]]       |
-
-Verwendet von: [[Chaospfeil]]

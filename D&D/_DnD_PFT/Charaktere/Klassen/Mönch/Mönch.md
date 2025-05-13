@@ -9,7 +9,7 @@ Trefferwürfel: W8
 Hauptattribut: 
 - "[[Geschicklichkeit]]"
 - "[[Weisheit]]"
-Zauberwirker: 
+Komplexität: Hoch
 ---
 ## Klassenbeschreibung
 

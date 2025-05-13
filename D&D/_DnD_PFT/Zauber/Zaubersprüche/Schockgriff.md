@@ -37,8 +37,8 @@ Bei einem Treffer erleidet die Kreatur 1W8 [[Blitzschaden]] und kann bis zum Beg
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt jeweils um 1W8 bei Erreichen höherer Stufen:
-- Stufe 5 (2W8)
-- Stufe 11 (3W8) 
-- Stufe 17 (4W8)
+- Stufe 5 (`dice:SchadenLv5`)
+- Stufe 11 (`dice:SchadenLv11`) 
+- Stufe 17 (`dice:SchadenLv17`)
 
 Quelle: Players Handbook, Seite: 261

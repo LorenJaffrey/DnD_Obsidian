@@ -8,7 +8,7 @@ Name_Subklassen: "[[Schurkenarchetypen|Schurkenarchetyp]]"
 Trefferwürfel: W8
 Hauptattribut:
   - "[[Geschicklichkeit]]"
-Zauberwirker:
+Komplexität: Niedrig
 HinterhältigerAngriff:
   Stufe1: 1
   Stufe2: 1

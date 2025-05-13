@@ -84,7 +84,7 @@ Aussehen:
   Hautfarbe: Sandfarben
 Merkmale:
   - "[[Dunkelsicht]]"
-  - "[[Unempfindlichkeit]]"
+  - "[[Zwergische Unverwüstlichkeit]]"
   - "[[Steingespür]]"
   - "[[Kampfrausch]]"
   - "[[Ungerüstete Verteidigung]]"

@@ -6,8 +6,9 @@ Art: Experte
 Name_Subklassen: "[[Waldläuferarchetypen|Waldläuferarchetyp]]"
 Trefferwürfel: W10
 Hauptattribut: 
- - "[[Weisheit]]"
-Zauberwirker: Urtümlich
+  - "[[Geschicklichkeit]]"
+  - "[[Weisheit]]"
+Komplexität: Mittel
 Zauberattribut: "[[Weisheit]]"
 Art_Bekannte_Zauber: Tabelle
 ---

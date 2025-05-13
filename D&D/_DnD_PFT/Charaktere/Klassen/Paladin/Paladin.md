@@ -9,7 +9,7 @@ Trefferwürfel: W10
 Hauptattribut: 
 - "[[Charisma]]"
 - "[[Stärke]]"
-Zauberwirker: Göttlich
+Komplexität: Mittel
 Zauberattribut: "[[Charisma]]"
 Art_Bekannte_Zauber: Berechnet
 ---

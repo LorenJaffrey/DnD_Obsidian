@@ -8,7 +8,7 @@ Name_Subklassen: "[[Urtümliche Pfade|Urtümlicher Pfad]]"
 Trefferwürfel: W12
 Hauptattribut:
   - "[[Stärke]]"
-Zauberwirker: 
+Komplexität: Mittel
 Kampfrausch:
   Stufe1:
     Anzahl: 2

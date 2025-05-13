@@ -6,11 +6,11 @@ Die folgenden Regeln legen fest, wie weit ein Charakter oder ein Monster in eine
 Während sie reist, kann eine Gruppe von Abenteurern in normalem, schnellem oder langsamem Tempo vorankommen.
 Ein schnelles Reisetempo etwa lässt die Charaktere unaufmerksamer werden, wohingegen ein langsames es ermöglicht, zu schleichen und die Gegend eingehender zu untersuchen.
 
-| Reisetempo | Minute | Stunde |   Tag | Effekt                                      |
-| ---------- | ------:| ------:| -----:| ------------------------------------------- |
-| Schnell    |  120 m |   6 km | 48 km | - 5 auf [[Wahrnehmung#Passive Wahrnehmung]] |
-| Normal     |   90 m | 4,5 km | 36 km |                                             |
-| Langsam    |   60 m |   3 km | 24 km | Einsatz von [[Heimlichkeit]] möglich        |
+| Reisetempo | Minute | Stunde |   Tag | Effekt                                                                                                      |
+| ---------- | ------:| ------:| -----:| ----------------------------------------------------------------------------------------------------------- |
+| Schnell    |  120 m |   6 km | 48 km | [[Vorteil und Nachteil\|Nachteil]] bei Würfen auf [[Überlebenskunst]], [[Wahrnehmung]] und [[Heimlichkeit]] |
+| Normal     |   90 m | 4,5 km | 36 km | [[Vorteil und Nachteil\|Nachteil]] bei Würfen auf [[Heimlichkeit]]                                          |
+| Langsam    |   60 m |   3 km | 24 km | [[Vorteil und Nachteil\|Vorteil]] bei Würfen auf [[Überlebenskunst]] und [[Wahrnehmung]]                    |
 
 ## Gewaltmarsch
 In der Tabelle [[Reisen#Reisetempo]] wird davon ausgegangen, dass die Charaktere maximal 8 Stunden am Tag reisen. 

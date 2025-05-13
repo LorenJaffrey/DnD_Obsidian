@@ -4,5 +4,8 @@ tags:
   - Merkmal/Klasse/Zauberer/Metamagie
 ---
 # `=this.file.name`
- Wenn du einen Zauber wirkst, der eine Reichweite von 1,50 m oder mehr besitzt, kannst du 1 [[Zaubereipunkte|Zaubereipunkt]] ausgeben, und seine Reichweite zu verdoppeln.
- Wirkst du einen Zauber mit Berührungsreichweite, kannst du 1 [[Zaubereipunkte|Zaubereipunkt]] ausgeben, um seine Reichweite auf 9 m zu erhöhen.
+
+**Kosten:** 1 [[Zaubereipunkte|Zaubereipunkt]]   
+
+Wenn du einen Zauber mit einer Reichweite von mindestens 1,5 Metern wirkst, kannst du einen [[Zaubereipunkte|Zaubereipunkt]]  verbrauchen, um die Reichweite des Zaubers zu verdoppeln. 
+Wirkst du einen Zauber mit Berührungsreichweite, so kannst du einen [[Zaubereipunkte|Zaubereipunkt]]  verbrauchen, um die Reichweite auf 9 Meter zu erhöhen.

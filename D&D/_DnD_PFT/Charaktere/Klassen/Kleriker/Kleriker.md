@@ -7,7 +7,7 @@ Name_Subklassen: "[[Göttliche Domänen|Göttliche Domäne]]"
 Trefferwürfel: W8
 Hauptattribut: 
 - "[[Weisheit]]"
-Zauberwirker: Göttlich
+Komplexität: Mittel
 Zauberattribut: "[[Weisheit]]"
 Art_Bekannte_Zauber: Berechnet
 ---

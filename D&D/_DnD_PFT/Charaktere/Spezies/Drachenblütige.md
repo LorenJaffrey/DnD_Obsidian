@@ -1,54 +1,36 @@
 ---
+tags: 
+  - Spezies
 aliases:
   - Drachenblütiger
   - Drachenblütigen
-Bewegungsrate: 9 Meter
-Attribute:
-  - +2 [[Stärke]]
-  - +1 [[Charisma]]
+Kreaturtyp: "[[Humanoide]]"
+Größenkategorie: "[[Mittelgroß]] (150 - 210 cm)" 
+Bewegungsrate: "9 Meter (6 Kästchen)"
 Merkmale:
   - "[[Drakonische Abstammung]]"
   - "[[Drakonische Odemwaffe]]"
-Sprachen:
-  - "[[Gemeinsprache]]"
-  - "[[Drakonisch]]"
+  - "[[Drakonischer Flug]]"
+  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
 ---
 # `=this.file.name`
-> [!recite|right no-title wfit] `= this.file.name`
+> [!recite|right no-title fit] `=this.file.name`
 > ![[dragonborn.png]]
 
-## Attributswerterhöhung
-`=this.Attribute`
+|                              |                         |
+| ---------------------------- | ----------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate`   |
 
-## Bewegungsrate
-`=this.Bewegungsrate`
-
-## Volksmerkmale
-`=this.Merkmale`
+## Merkmale
+`$=dv.list(dv.current().Merkmale)`
 
 ## Alter
 Junge Drachenblütige wachsen schnell heran. 
 Bereits wenige Stunden nach dem Schlüpfen können sie aufrecht gehen, und mit drei Jahren sehen sie aus wie ein menschliches Kind mit zehn. 
 Als Erwachsene gelten sie mit etwa 15. 
 Sie erreichen ein Alter von bis zu 80 Jahren.
-
-## Größe und Gewicht
-[[Drachenblütige]] sind mit ihren über 180 cm und etwa 250 Pfund weit größer und schwerer als Menschen.
-[[Größenkategorie]]: mittel
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 165 cm     | 2W8               | 175 Pfund    | 2W6                 |
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 165 cm     | `dice-: 2d8\|avg` | 175 Pfund    | `dice-: 2d3\|none`  |
-
-Größe = Grundgröße + Größenmodifikator x 2,5 cm
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-## Sprachen
-`=this.Sprachen`
 
 ## Beschreibung
 Von Drachen abstammend, wie ihr Name verrät, wandeln die [[Drachenblütige|Drachenblütigen]] durch die Welt, die mit furchtsamer Verständnislosigkeit auf sie reagiert. 

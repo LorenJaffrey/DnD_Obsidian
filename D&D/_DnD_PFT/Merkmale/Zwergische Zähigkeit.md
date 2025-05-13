@@ -1,7 +1,8 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
-[[Trefferpunkte]] erhöhen sich zusätzlich um 1 pro Stufe.
+# `=this.file.name`
+Dein [[Trefferpunktemaximum]] wird um 1 und bei jedem Stufenaufstieg um 1 weiteren Punkt erhöht.

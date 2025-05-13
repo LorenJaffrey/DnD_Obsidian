@@ -4,6 +4,9 @@ tags:
   - Merkmal/Klasse/Zauberer/Metamagie
 ---
 # `=this.file.name`
-Wenn ein [[Angriffswurf]] für einen Zauber misslingt, kannst du zwei [[Zaubereipunkte]] verbrauchen und den W20 erneut würfeln. 
-Du musst das zweite Ergebnis wählen. 
-Du kannst den [[Zielsuchzauber]] verwenden, auch wenn du beim Wirken des Zaubers bereits eine andere [[Metamagie]]-Option verwendet hast. 
+
+**Kosten:** 1 [[Zaubereipunkte|Zaubereipunkt]] 
+
+Wenn der [[Angriffswurf]] eines deiner Zauber scheitert, kannst du einen [[Zaubereipunkte|Zaubereipunkt]]  verbrauchen und erneut mit dem W20 würfeln. 
+In diesem Fall musst du das neue Ergebnis verwenden. 
+Du kannst [[Zielsuchzauber]] auch dann einsetzen, wenn du beim Wirken des Zaubers schon eine andere Metamagie-Option verwendet hast.

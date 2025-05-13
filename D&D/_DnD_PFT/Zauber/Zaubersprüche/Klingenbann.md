@@ -30,5 +30,3 @@ Klassen:
 
 Du streckst die Hand aus und zeichnest ein Sigille des Schutzes in die Luft. 
 Wenn eine Kreatur einen [[Angriffswurf]] gegen dich ausführt bevor der Zauber endet, subtrahiert der Angreifer `dice:1d4` von seinem [[Angriffswurf]].
-
-Quelle: Players Handbook, Seite: 243

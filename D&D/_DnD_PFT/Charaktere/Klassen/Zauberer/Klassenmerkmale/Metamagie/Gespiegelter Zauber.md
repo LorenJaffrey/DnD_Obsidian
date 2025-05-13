@@ -4,6 +4,7 @@ tags:
   - Merkmal/Klasse/Zauberer/Metamagie
 ---
 # `=this.file.name`
-Wenn du einen Zauber wirkst, der nur eine Kreatur zum Ziel hat (die nicht du selbst bist), kannst du eine Anzahl von [[Zaubereipunkte|Zaubereipunkten]] in Hohe des [[Zaubergrad|Grades]] des Zaubers ausgeben (1 [[Zaubereipunkte|Zaubereipunkt]] bei einem [[Zaubertricks|Zaubertrick]]), um ihn auf eine weitere Kreatur in Reichweite zu wirken.
-Um den Zauber mit dieser metamagischen Option wirken zu können, darf er auf seinem aktuellen [[Zaubergrad|Grad]] nicht mehr als eine Kreatur zum Ziel haben. 
-Zum Beispiel sind [[Magisches Geschoss]] und [[Sengender Strahl]] nicht geeignet, [[Kältestrahl]] und [[Chromatische Kugel]] hingegen schon.
+
+**Kosten:** 1 [[Zaubereipunkte|Zaubereipunkt]]  
+
+Wenn du einen Zauber wie [[Person bezaubern]] wirkst, der mit einem Zauberplatz eines höheren Grades gewirkt werden kann, um auf eine weitere Kreatur zu zielen, kannst du einen [[Zaubereipunkte|Zaubereipunkt]]   verbrauchen, um den effektiven Grad des Zaubers um 1 zu erhöhen.

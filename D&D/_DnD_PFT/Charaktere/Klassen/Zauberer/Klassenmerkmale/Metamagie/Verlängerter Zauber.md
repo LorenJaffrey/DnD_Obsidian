@@ -4,4 +4,8 @@ tags:
   - Merkmal/Klasse/Zauberer/Metamagie
 ---
 # `=this.file.name`
-Wenn du einen Zauber wirkst, der eine Wirkdauer von 1 Minute oder länger besitzt, kannst du 1 [[Zaubereipunkte|Zaubereipunkt]] ausgeben, um seine Wirkdauer bis zu einem Maximum von 24 Stunden zu verdoppeln.
+
+**Kosten:** 1 [[Zaubereipunkte|Zaubereipunkt]]  
+
+Wenn du einen Zauber mit einer Wirkungsdauer von mindestens einer Minute wirkst, kannst du 1 [[Zaubereipunkte|Zaubereipunkt]] verbrauchen, um die Dauer des Zaubers zu verdoppeln (höchstens 24 Stunden). 
+Wenn dieser Zauber Konzentration erfordert, bist du bei allen [[Rettungswurf|Rettungswürfen]], die du zum Aufrechterhalten dieser Konzentration ausführst, im [[Vorteil und Nachteil|Vorteil]].

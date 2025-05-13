@@ -4,20 +4,23 @@ cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion
 Zaubertricks: 5
 Bekannte_Zauber: 5
 Zauber:
-  - "[[Windbö]]"
+  - "[[Gedankensplitter]]"
+  - "[[Explosion der Zauberei]]"
+  - "[[Klingenbann]]"
   - "[[Schockgriff]]"
-  - "[[Donnerschlag]]"
-  - "[[Kältestrahl]]"
+  - "[[Elementalismus]]"
+  - "[[Chaospfeil]]"
   - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
-  - "[[Chaospfeil]]"
-  - "[[Klingenbann]]"
-  - "[[Schutzwind]]"
+  - "[[Schild]]"
+  - "[[Nebelschritt]]"
+  - "[[Dunkelheit]]"
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
+  - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
-  - "[[Gespiegelter Zauber]]"
+  - "[[Mächtiger Zauber]]"
 ---
 # `=this.file.name`
 

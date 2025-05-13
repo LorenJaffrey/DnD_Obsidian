@@ -3,9 +3,9 @@ Name: Inventar
 Charakter: "[[Ar'go]]"
 cssclass: slrvb-b, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
 Summen:
-  Rucksack: 49.6
+  Rucksack: 47.6
   Behälter: 0
-  Körper: 12.6
+  Körper: 12.1
 Inventar:
   Körper:
     count1: 2
@@ -23,7 +23,7 @@ Inventar:
     count7: 12
     gewicht7: 0.05
     count8: 1
-    gewicht8: 1
+    gewicht8: 0.5
     count9: 0
     gewicht9: 0
     count10: 0
@@ -80,7 +80,7 @@ Inventar:
     gewicht4: 1
     count5: 1
     gewicht5: 1
-    count6: 18
+    count6: 16
     gewicht6: 1
     count7: 1
     gewicht7: 0
@@ -106,9 +106,9 @@ Inventar:
     gewicht17: 0
 Geld:
   PM: 0
-  GM: 35
+  GM: 0
   EM: 0
-  SM: 8
+  SM: 29
   KM: 23
 ---
 
@@ -144,8 +144,8 @@ Geld:
 >> | Kultisten-Amulett <br/>(Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
 >> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
->> | Ritual Dolch des Talos                   | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
->> |  [[Heiltrank]]                                       | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
+>> | [[Heiltrank]]                                        | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
+>> |                                                                    | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
 >> |                                                                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
 >> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |

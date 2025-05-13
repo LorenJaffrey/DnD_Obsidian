@@ -24,4 +24,8 @@ Klassen:
 ```
 
 ## Beschreibung
-Magische Dunkelheit breitet sich von einem Punkt deiner Wahl in Reichweite aus (auch um Ecken) und füllt für die Wirkungsdauer eine Sphäre mit einem Radius von 4,50 m. Selbst Kreaturen mit Dunkelsicht vermögen den Bereich mit Blicken nicht zu durchdringen und nicht-magisches Licht kann ihn nicht erhellen. Ist der gewählte Punkt ein Gegenstand, breitet sich die Dunkelheit von dem Gegenstand aus und bewegt sich mit ihm, falls eine Kreatur ihn trägt oder in der Hand hält. Wird die Quelle der Dunkelheit vollständig mit einem blickdichten Gegenstand bedeckt, wie einer Schüssel oder einem Helm, blockiert das die Dunkelheit. Überschneidet sich die Sphäre mit einem Bereich magischen Lichts, der mit einem Spruch des 2. oder eines niedrigeren Grades erschaffen wurde, wird der Zauber aufgehoben, der das Licht verursacht.
+Für die Wirkungsdauer breitet sich magische Dunkelheit von einem Punkt in Reichweite zu einer Kugel mit einem Radius von 4,5 Metern aus. Sie kann weder mit Dunkelsicht durchdrungen noch durch nicht magische Lichtquellen erhellt werden.
+
+Alternativ kannst du den Zauber auf einen Gegenstand wirken, der nicht getragen oder gehalten wird. In diesem Fall erfüllt die Dunkelheit eine Ausströmung von 4,5 Metern um den Gegenstand. Wird der Gegenstand mit etwas Undurchsichtigem wie einer Schüssel oder einem Helm bedeckt, so wird die Dunkelheit blockiert.
+
+Wenn sich der Wirkungsbereich dieses Zaubers mit einem Bereich hellen oder dämmrigen Lichts überschneidet, das durch einen Zauber des höchstens 2. Grades erzeugt wurde, so wird der andere Zauber gebannt.

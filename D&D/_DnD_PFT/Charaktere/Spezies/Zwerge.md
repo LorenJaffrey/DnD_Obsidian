@@ -1,6 +1,30 @@
 ---
-aliases: Zwerg
+tags: 
+  - Spezies
+aliases:
+  - Zwerg
+Kreaturtyp: "[[Humanoide]]"
+Größenkategorie: "[[Mittelgroß]] (120 - 150 cm)"
+Bewegungsrate: 9 Meter (6 Kästchen)
+Merkmale:
+  - "[[Steingespür]]"
+  - "[[Zwergische Unverwüstlichkeit]]"
+  - "[[Zwergische Zähigkeit]]"
+  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
 ---
+# `=this.file.name`
+> [!recite|right no-title fit] `=this.file.name`
+> ![[dwarf_mountain.webp|450]]
+
+|                              |                         |
+| ---------------------------- | ----------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate`   |
+
+## Merkmale
+`$=dv.list(dv.current().Merkmale)`
+
 ## Beschreibung
 Königreiche voller antiker Erhabenheit, in den Fuß von Bergen geschlagene Hallen, der Widerhall von Spitzhacken und Hämmern aus tiefen Minen und feurigen Schmieden, die Verbundenheit mit Klan und Tradition und ein brennender Hass auf Goblins und Orks, diese Dinge verbinden alle Zwerge miteinander.
 
@@ -39,80 +63,3 @@ Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnd
 
 ### Klannamen
 Balderk, Heldenhammer, Starkamboss, Dankil, Feuerschmiede, Frostbart, Gorunn, Holderhek, Eisenfaust, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart
-
-
-## Gerbirgszwerge
-Als Gebirgszwerg bist du stark, zäh und an ein hartes Leben in rauer Umgebung gewöhnt. Du bist wahrscheinlich eher größer (für einen Zwerg) und neigst au einem helleren Hautton. Die Schildzwerge des nördlichen Faerûn sowie der herrschende Hylar-Klan und der adelige Daewar Klan aus der Welt der Drachenlanze zählen zu dieser Unterart.
-![[dwarf_mountain.webp|450]]
-
-### Attributswerterhöhung
-- +2 [[Konstitution]]
-- +2 [[Stärke]]
-
-### Bewegungsrate
-- 7,5 Meter
-- wird nicht durch das Tragen von schwerer Rüstung reduziert
-
-### Volksmerkmale
-- [[Dunkelsicht]]
-- [[Unempfindlichkeit]]
-- [[Zwergisches Kampftraining]]
-- [[Handwerkliches Geschick]]
-- [[Steingespür]]
-- [[Zwergische Rüstungsvertrautheit]]
-
-### Alter
-Gebirgszwerge reifen in der gleichen Geschwindigketi wie Menschen heran, doch werden sie bis zu ihrem 50. Sommer als jung angesehen.
-Im Durchschnitt erreichen sie ein Alter von 350 Jahren.
-
-### Größe und Gewicht
-Zwerge sind zwischen 120 cm und 150 cm groß und wiegen meist um die 150 Pfund.
-[[Größenkategorie]]: mittel
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 120 cm     | 2W4 x 2,5 cm      | 130 Pfund    | 2W6 Pfund           |
-
-Größe = Grundgröße + Größenmodifikator
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-### Sprachen
-- Gemeinsprache
-- Zwergisch
-
-## Hügelzwerge
-Als Hügelzwerg besitzt du scharfe Sinne, eine starke Intuition und eine bemerkenswerte Widerstandsfähigkeit. Die Goldzwerge aus Faerûn in ihrem mächtigen südlichen Königreich sind ebenso Hügelzwerge wie die verbannten Neidar und die entwurzelten Klar von Krynn in der Welt der Drachenlanze.
-![[dwarf_hill.webp]]
-### Attributswerterhöhung
-- +2 [[Konstitution]]
-- +1 [[Weisheit]]
-
-### Bewegungsrate
-- 7,5 Meter
-- wird nicht durch das Tragen von schwerer Rüstung reduziert
-
-### Volksmerkmale
-- [[Dunkelsicht]]
-- [[Unempfindlichkeit]]
-- [[Zwergisches Kampftraining]]
-- [[Handwerkliches Geschick]]
-- [[Steingespür]]
-- [[Zwergische Zähigkeit]]
-
-### Alter
-Gebirgszwerge reifen in der gleichen Geschwindigketi wie Menschen heran, doch werden sie bis zu ihrem 50. Sommer als jung angesehen.
-Im Durchschnitt erreichen sie ein Alter von 350 Jahren.
-
-### Größe und Gewicht
-[[Größenkategorie]]: mittel
-
-| Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
-| ---------- | ----------------- | ------------ | ------------------- |
-| 110 cm     | 2W4 x 2,5 cm      | 115 Pfund    | 2W6 Pfund           |
-
-Größe = Grundgröße + Größenmodifikator
-Gewicht = Grundgewicht + Größenmodifikator x Gewichtsmodifikator
-
-### Sprachen
-- Gemeinsprache
-- Zwergisch

@@ -8,7 +8,7 @@ Name_Subklassen: "[[Druidenzirkel]]"
 Trefferwürfel: W8
 Hauptattribut: 
 - "[[Weisheit]]"
-Zauberwirker: Urtümlich
+Komplexität: Hoch
 Zauberattribut: "[[Weisheit]]"
 Art_Bekannte_Zauber: Berechnet
 Zauberplätze:

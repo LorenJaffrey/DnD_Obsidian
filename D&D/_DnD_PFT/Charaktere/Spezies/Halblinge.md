@@ -100,7 +100,7 @@ Als Stämmiger bist du zäher als andere Halblinge und verfügst über eine gewi
 - [[Halblingglück]]
 - [[Tapferkeit]]
 - [[Halblinggewandheit]]
-- [[Unempfindlichkeit]]
+- [[Zwergische Unverwüstlichkeit]]
 
 ### Alter
 Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre.

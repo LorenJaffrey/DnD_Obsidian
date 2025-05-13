@@ -135,6 +135,9 @@ sonstigeInformationen: |-
     - [ ] Auflösung? (Wer war das?)
   - Butterschädel-Hof wurde überfallen
     - [x] Auflösung -> großer Weißer Drache & Orks
+
+
+  "Gott" der Goblins - Maglubiyet
 ---
 
 > [!column | 2 no-title]

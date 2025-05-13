@@ -7,7 +7,7 @@ Name_Subklassen: "[[Außerweltliche Schutzherren|Außerweltlicher Schutzherr]]"
 Trefferwürfel: W8
 Hauptattribut:
   - "[[Charisma]]"
-Zauberwirker: Arkan
+Komplexität: Hoch
 Zauberattribut: "[[Charisma]]"
 Art_Bekannte_Zauber: Tabelle
 Bekannte_Anrufungen:

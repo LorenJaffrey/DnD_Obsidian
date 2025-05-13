@@ -1,6 +1,28 @@
 ---
-aliases: Gnom
+tags: 
+  - Spezies
+aliases: 
+  - Gnom
+Kreaturtyp: "[[Humanoide]]"
+Größenkategorie: "[[Klein]] (90 - 120 cm)" 
+Bewegungsrate: "9 Meter (6 Kästchen)"
+Merkmale:
+  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
+  - "[[Gnomische Gerissenheit]]"
 ---
+# `=this.file.name`
+> [!recite|right no-title fit] `=this.file.name`
+> ![[gnome_rockgnome.jpeg|300]]
+
+|                              |                         |
+| ---------------------------- | ----------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate`   |
+
+## Merkmale
+`$=dv.list(dv.current().Merkmale)`
+
 ## Beschreibung
 Wo Gnome ihre eng verbundenen Gemeinschaften bilden, erfüllt ein konstantes Brummen von geschäftiger Aktivität die Nachbar-schaft. Laute Geräusche durchbrechen das Summen: das Rattern von schleifenden Zahnrädern hier, eine kleine Explosion dort, ein Schrei der Überraschung oder des Erfolgs, untermalt mit schallendem Gelächter. Gnome genießen das Leben in vollen Zügen und erfreuen sich an jedem Moment, den sie mit Erfindung, Ent-deckung, Forschung, kreativer Arbeit oder Spiel verbringen.
 
@@ -96,6 +118,7 @@ Sie werden zwischen 350 und fast 500 Jahren alt.
 ### Größe und Gewicht
 Gnome werden zwischen 90 und 120 cm groß bei einem Gewicht von etwa 40 Pfund.
 [[Größenkategorie]]: [[Klein]]
+
 | Grundgröße | Größenmodifikator | Grundgewicht | Gewichtsmodifikator |
 | ---------- | ----------------- | ------------ | ------------------- |
 | 87 cm      | 2W4 x 2,5 cm      | 35 Pfund     | 1 Pfund             |

@@ -33,4 +33,4 @@ Wenn du noch keine [[Übung]] in der gewählten [[Fertigkeiten|Fertigkeit]] hast
 Falls du bereits [[Übung]] hast, erhältst du [[Übung|Expertise]].
 
 ## Schnelle Auffassungsgabe
-Du kannst [[Nachdenken]] als [[Bonusaktion]] ausführen.
+Du kannst [[Studieren]] als [[Bonusaktion]] ausführen.

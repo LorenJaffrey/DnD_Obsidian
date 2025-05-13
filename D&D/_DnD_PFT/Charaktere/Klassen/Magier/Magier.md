@@ -7,7 +7,7 @@ Name_Subklassen: "[[Arkane Traditionen|Arkane Tradition]]"
 Trefferwürfel: W6
 Hauptattribut: 
 - "[[Intelligenz]]"
-Zauberwirker: Arkan
+Komplexität: Mittel
 Zauberattribut: "[[Intelligenz]]"
 Art_Bekannte_Zauber: Berechnet
 ---

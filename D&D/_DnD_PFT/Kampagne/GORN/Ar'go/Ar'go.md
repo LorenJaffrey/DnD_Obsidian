@@ -65,11 +65,7 @@ Fertigkeiten:
     - "[[Navigationswerkzeug]]"
   Rüstungen: 
   Waffen:
-    - "[[Dolch]]"
-    - "[[Wurfmesser]]"
-    - "[[Kampfstab]]"
-    - "[[Leichte Armbrust]]"
-    - "[[Kriegswaffen]]"
+    - "[[Einfache Waffen]]"
 Aussehen:
   Geschlecht: männlich
   Alter: 19 Jahre
@@ -80,13 +76,17 @@ Aussehen:
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
 Merkmale:
-  - "[[Odemwaffe]]"
+  - "[[Drakonische Odemwaffe]]"
   - "[[Drakonische Resistenz]]"
+  - "[[Drakonischer Flug]]"
+  - "[[Intuitive Zauberei]]"
+  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
   - "[[Quelle der Magie]]"
   - "[[Windsprecher]]"
   - "[[Stürmische Magie]]"
   - "[[Zauberwirken Zauberer]]"
   - "[[Magische Führung]]"
+  - "[[Zaubereiauffrischung]]"
 Talente:
   - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
@@ -108,17 +108,20 @@ Persönlichkeit:
   Makel:
     - <ul><b>Naivität</b></ul>Ar'gonthariel ist aufgrund seines abgeschiedenen Lebens auf einer Insel, auf der er kaum Kontakt zu Außenseitern hatte, etwas naiv und leichtgläubig. Dies kann dazu führen, dass er Menschen vertraut, die es nicht gut mit ihm meinen.
 Zauber:
-  - "[[Windbö]]"
+  - "[[Gedankensplitter]]"
+  - "[[Explosion der Zauberei]]"
+  - "[[Klingenbann]]"
   - "[[Schockgriff]]"
-  - "[[Donnerschlag]]"
-  - "[[Kältestrahl]]"
+  - "[[Elementalismus]]"
+  - "[[Chaospfeil]]"
   - "[[Hexenpfeil]]"
   - "[[Magierrüstung]]"
-  - "[[Chaospfeil]]"
-  - "[[Klingenbann]]"
-  - "[[Schutzwind]]"
+  - "[[Schild]]"
+  - "[[Nebelschritt]]"
+  - "[[Dunkelheit]]"
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
+  - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
 InputData:
   GlücksPunkt1: false
   GlücksPunkt2: false
@@ -131,13 +134,13 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: true
-  MagierRüstung: false
-  BlitzOdem: false
+  NormaleRüstung: false
+  MagierRüstung: true
+  BlitzOdem: 3
   Klingenbann: false
   Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 3
     Grad_2: 3
     Grad_3: 2
     Grad_4: 0
@@ -169,6 +172,10 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   Druckwelle: false
+  IntuitiveZaubereiLadungen: 2
+  IntuitiveZaubereiAktiv: false
+  DrakonischerFlugAktiv: false
+  DrakonischerFlugLadungen: 1
 tags:
   - Charakter/GORN
 ---
@@ -199,7 +206,7 @@ tags:
 >> 
 >> |                            |  
 >> | :--------------------------: | 
->> | `BUTTON[shortBreakButton]` |
+>> | `BUTTON[shortBreakButton]` `BUTTON[zaubereiAuffrischung]` |
 >> | `BUTTON[longBreakButton]`|  
 >
 > ---
@@ -353,10 +360,14 @@ tags:
 >>> [[embed Character Sheet Zauberangriff]]
 >>> ```
 >>> 
->>> ### [[Odemwaffe | Blitz-Odem]] 
->>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
+>>>| Aktiv | Verfügbar |  Fähigkeit |Zeitaufwand | Dauer | Erholung  |
+>>>| :-----: | :-----: | :-----: | :-----------------: | :-----: | ----------------  | 
+>>>| `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` |`INPUT[number():InputData.IntuitiveZaubereiLadungen]` / 2 | [[Intuitive Zauberei]] | [[Bonusaktion]]    |  1 Minute |  [[Lange Rast]] |
+>>>| `INPUT[toggle:InputData.DrakonischerFlugAktiv]`  |`INPUT[number():InputData.DrakonischerFlugLadungen]` / 1 | [[Drakonischer Flug]] | [[Bonusaktion]]     | 10 Minuten |  [[Lange Rast]] |
+>>> ### [[Drakonische Odemwaffe | Blitz-Odem]] 
+>>>| Verfügbar (`=ceil(this.Stufe/4)+1`) |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>>|`INPUT[toggle:InputData.BlitzOdem]` | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 6 ? "2d6" : dv.current().Stufe < 11 ? "3d6" : dv.current().Stufe < 16 ? "4d6" : "5d6") + " \|none\|noform\```"`  | AoE (Linie) | 1.5 m (breit) / 9 m (lang)  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)`  | [[Geschicklichkeit]] | [[Kurze Rast]], [[Lange Rast]] |
+>>>|`INPUT[number():InputData.BlitzOdem]`   | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"`  | AoE (Linie/Kegel) | Linie: 1.5 m (breit) / 9 m (lang), Kegel: 4.5 m  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1`  | [[Geschicklichkeit]] | [[Lange Rast]] |
 >>> ### [[Tempestuskristall - Fragment des Donners| Druckwelle]] 
 >>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
 >>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
@@ -378,11 +389,7 @@ tags:
 >>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
->>> ### Metamagie
->>>> [!column | 2 no-title]
->>>>> ![[Weitreichender Zauber]]
->>>>
->>>>> ![[Gespiegelter Zauber]]
+>>>> ![[Drakonischer Flug]] 
 >> 
 >>> ### Talente ([[Kampferprobter Zauberwirker]])
 >>>> [!column | 2 no-title] 
@@ -390,6 +397,12 @@ tags:
 >>>>
 >>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
+>>>
+>>> ### Metamagie
+>>>> [!column | 2 no-title]
+>>>>> ![[Weitreichender Zauber]]
+>>>>
+>>>>> ![[Mächtiger Zauber]]
 
 
 > [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
@@ -479,10 +492,6 @@ id: shortBreakButton
 style: primary
 actions:
   - type: updateMetadata
-    bindTarget: InputData.BlitzOdem
-    evaluate: false
-    value: "false"
-  - type: updateMetadata
     bindTarget: InputData.Klingenbann
     evaluate: false
     value: "false"
@@ -490,6 +499,19 @@ actions:
     bindTarget: InputData.Druckwelle
     evaluate: false
     value: "false"
+```
+
+```meta-bind-button
+label: Z.-Auffr.
+icon: switch
+hidden: true
+class: ""
+tooltip: "Zaubereiauffrischung (Zaubereipunkte 1x pro Langer Rast erholen)"
+id: zaubereiAuffrischung
+style: primary
+actions:
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const currentSourcererPoints = mb.getMetadata(mb.parseBindTarget('InputData.Zaubereipunkte', context.file.path)); const ziel = mb.parseBindTarget('InputData.Zaubereipunkte', context.file.path); let punkte = currentSourcererPoints + Math.floor((stufe / 2)); if (punkte > stufe) { punkte = stufe; } mb.setMetadata(ziel, punkte);"
 ```
 
 ```meta-bind-button
@@ -547,10 +569,8 @@ actions:
     bindTarget: InputData.MagierRüstung
     evaluate: false
     value: "false"
-  - type: updateMetadata
-    bindTarget: InputData.BlitzOdem
-    evaluate: false
-    value: "false"
+  - type: inlineJS
+    code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const odem = mb.parseBindTarget('InputData.BlitzOdem', context.file.path); const stufe = mb.getMetadata(mb.parseBindTarget('Stufe', context.file.path)); const odemCount = Math.ceil((stufe/4)+1);  mb.setMetadata(odem, odemCount);"
   - type: updateMetadata
     bindTarget: InputData.Klingenbann
     evaluate: false
@@ -563,6 +583,22 @@ actions:
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
   - type: updateMetadata
     bindTarget: InputData.Druckwelle
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.IntuitiveZaubereiLadungen
+    evaluate: false
+    value: 2
+  - type: updateMetadata
+    bindTarget: InputData.DrakonischerFlugLadungen
+    evaluate: false
+    value: 1
+  - type: updateMetadata
+    bindTarget: InputData.IntuitiveZaubereiAktiv
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.DrakonischerFlugAktiv
     evaluate: false
     value: "false"
 ```

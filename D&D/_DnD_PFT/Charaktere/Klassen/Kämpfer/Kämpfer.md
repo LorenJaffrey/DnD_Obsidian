@@ -8,7 +8,7 @@ Trefferwürfel: W10
 Hauptattribut: 
 - "[[Stärke]]"
 - "[[Geschicklichkeit]]"
-Zauberwirker: 
+Komplexität: Niedrig
 ---
 # `=this.file.name`
 

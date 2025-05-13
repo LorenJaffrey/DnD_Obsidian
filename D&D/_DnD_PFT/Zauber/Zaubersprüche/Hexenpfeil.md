@@ -6,16 +6,16 @@ tags:
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Reichweite: 18 Meter
 Verbal: true
 Geste: true
 Material: true
 Materialkosten: ein Zweig von einem Baum, der vom Blitz getroffen worden ist
-Dauer: unmittelbar
-Konzentration: false
+Dauer: 1 Mintue
+Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 1d12
+Schaden: 2d12
 Schadensart: "[[Blitzschaden]]"
 Ziel: Einzel
 Klassen:
@@ -26,14 +26,16 @@ Klassen:
 ```
 
 ## Beschreibung
-*Ein Strahl knisternder, blauer Energie schießt auf eine Kreatur in Reichweite und erschafft einen anhaltenden Bogen aus Blitzen zwischen dir und dem Ziel.*
+*Auf eine Kreatur in Reichweite schießt ein Strahl aus knisternder Energie zu und bildet einen beständigen Lichtbogen zwischen dir und dem Ziel.*
 
 Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff gegen diese Kreatur aus. 
-Bei einem Treffer erleidet sie 1W12 [[Blitzschaden]]. 
-Außerdem kannst du für die Wirkungsdauer in jedem deiner Züge deine [[Aktion]] verwenden, um dem Ziel automatisch 1W12 [[Blitzschaden]] zuzufügen. 
-Der Zauber endet, wenn du deine [[Aktion]] für eine andere Handlung verwendest oder sich das Ziel außerhalb der Reichweite des Zaubers oder in [[Deckung#Vollständige Deckung|Vollständiger Deckung]] befindet.
+Bei einem Treffer erleidet sie 2W12 [[Blitzschaden]]. 
+Außerdem kannst du für die Wirkungsdauer in jedem deiner Züge deine [[Bonusaktion]] verwenden, um dem Ziel automatisch 1W12 [[Blitzschaden]] zuzufügen, auch dann, wenn der erste Angriff gescheitert ist. 
+Der Zauber endet, wenn das Ziel sich außer Reichweite des Zaubers oder in [[Deckung#Vollständige Deckung|Vollständiger Deckung]] vor dir begibt.
 
 ### Auf höheren Graden
-Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Initialschaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W12.
-
-Quelle: Players Handbook, Seite: 240
+Für jeden Zauberplatzgrad über dem 1. wird der anfängliche Schaden um 1W12 erhöht:
+- Grad 2 (`dice:3d12`)
+- Grad 3 (`dice:4d12`) 
+- Grad 4 (`dice:5d12`)
+- ...
