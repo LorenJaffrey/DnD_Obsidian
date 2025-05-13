@@ -18,6 +18,7 @@ Schaden: 8d6
 Schadensart: "[[Blitzschaden]]" 
 Ziel: Linie
 Klassen:
+Typ: Angriff
 ---
 ``` dynamic-embed
 [[embed Zauber]]

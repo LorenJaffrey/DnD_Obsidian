@@ -21,6 +21,7 @@ Klassen:
   - "[[Zauberer]]"
   - "[[Druide]]"
   - "[[Magier]]"
+Typ: Alltagsmagie
 ---
 ``` dynamic-embed
 [[embed Zauber]]

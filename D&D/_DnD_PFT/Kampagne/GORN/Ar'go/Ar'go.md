@@ -76,7 +76,7 @@ Aussehen:
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
 Merkmale:
-  - "[[Drakonische Odemwaffe]]"
+  - "[[Odemwaffe]]"
   - "[[Drakonische Resistenz]]"
   - "[[Drakonischer Flug]]"
   - "[[Intuitive Zauberei]]"
@@ -118,7 +118,7 @@ Zauber:
   - "[[Magierrüstung]]"
   - "[[Schild]]"
   - "[[Nebelschritt]]"
-  - "[[Dunkelheit]]"
+  - "[[Spiegelbilder]]"
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
   - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
@@ -171,7 +171,7 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  Druckwelle: false
+  DruckwelleLadungen: 1
   IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
@@ -360,18 +360,12 @@ tags:
 >>> [[embed Character Sheet Zauberangriff]]
 >>> ```
 >>> 
->>>| Aktiv | Verfügbar |  Fähigkeit |Zeitaufwand | Dauer | Erholung  |
->>>| :-----: | :-----: | :-----: | :-----------------: | :-----: | ----------------  | 
->>>| `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` |`INPUT[number():InputData.IntuitiveZaubereiLadungen]` / 2 | [[Intuitive Zauberei]] | [[Bonusaktion]]    |  1 Minute |  [[Lange Rast]] |
->>>| `INPUT[toggle:InputData.DrakonischerFlugAktiv]`  |`INPUT[number():InputData.DrakonischerFlugLadungen]` / 1 | [[Drakonischer Flug]] | [[Bonusaktion]]     | 10 Minuten |  [[Lange Rast]] |
->>> ### [[Drakonische Odemwaffe | Blitz-Odem]] 
->>>| Verfügbar (`=ceil(this.Stufe/4)+1`) |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
->>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>>|`INPUT[number():InputData.BlitzOdem]`   | [[Aktion]]         | [[Blitzschaden]]|  `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"`  | AoE (Linie/Kegel) | Linie: 1.5 m (breit) / 9 m (lang), Kegel: 4.5 m  |  `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1`  | [[Geschicklichkeit]] | [[Lange Rast]] |
->>> ### [[Tempestuskristall - Fragment des Donners| Druckwelle]] 
->>>| Verfügbar |  Zeitaufwand |  Schadensart |  Schaden |   Ziel   |   Reichweite  |  [[Schwierigkeitsgrad\|SG]]  |   [[Rettungswurf]] |  Erholung  |
->>>| :-----: | ----------------- | ----------------  | ----------- | ------- | ---------------- | -------------------  |  -------------------  | ------------  |
->>>|`INPUT[toggle:InputData.Druckwelle]` | [[Bonusaktion]]         | [[Schallschaden]]|  - | AoE  | Radius 3 m ( 2 Kästchen )  |  `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)`  | [[Stärke]] | [[Kurze Rast]], [[Lange Rast]] |
+>>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf]] | Erholung  |
+>>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+>>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 1.5 m (breit) / 9 m (lang)<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit]] | [[Lange Rast]] |
+>>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
+>>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
+>>>| Stoßen | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke]] | [[Kurze Rast]], [[Lange Rast]] |
 >>> 
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberspruch Übersicht]]
@@ -383,26 +377,26 @@ tags:
 >> [!column | 2  no-title]
 >>> ### Merkmale
 >>>> [!column | 2 no-title]
->>>>> ![[Stürmische Magie]]
->>>>> ![[Magische Führung]]
+>>>>> ![[Stürmische Magie | no-title]]
+>>>>> ![[Magische Führung | no-title]]
 >>>>
->>>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
+>>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]
 >>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
 >>>
->>>> ![[Drakonischer Flug]] 
+>>>> ![[Drakonischer Flug | no-title]] 
 >> 
 >>> ### Talente ([[Kampferprobter Zauberwirker]])
 >>>> [!column | 2 no-title] 
 >>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
 >>>>
->>>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
+>>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 >>>
 >>> ### Metamagie
 >>>> [!column | 2 no-title]
->>>>> ![[Weitreichender Zauber]]
+>>>>> ![[Weitreichender Zauber | no-title]]
 >>>>
->>>>> ![[Mächtiger Zauber]]
+>>>>> ![[Beschleunigter Zauber | no-title]]
 
 
 > [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST
@@ -496,9 +490,9 @@ actions:
     evaluate: false
     value: "false"
   - type: updateMetadata
-    bindTarget: InputData.Druckwelle
+    bindTarget: InputData.DruckwelleLadungen
     evaluate: false
-    value: "false"
+    value: 1
 ```
 
 ```meta-bind-button
@@ -582,9 +576,9 @@ actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
   - type: updateMetadata
-    bindTarget: InputData.Druckwelle
+    bindTarget: InputData.DruckwelleLadungen
     evaluate: false
-    value: "false"
+    value: 1
   - type: updateMetadata
     bindTarget: InputData.IntuitiveZaubereiLadungen
     evaluate: false

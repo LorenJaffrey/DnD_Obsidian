@@ -21,6 +21,7 @@ Klassen:
   - "[[Druide]]"
   - "[[Kleriker]]"
   - "[[Waldläufer]]"
+Typ: Analyse
 ---
 ``` dynamic-embed
 [[embed Zauber]]

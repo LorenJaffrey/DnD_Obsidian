@@ -20,6 +20,7 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Druide]]"
+Typ: Alltagsmagie
 ---
 ``` dynamic-embed
 [[embed Zauber]]

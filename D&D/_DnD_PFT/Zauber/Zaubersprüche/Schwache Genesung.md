@@ -25,6 +25,7 @@ Klassen:
   - "[[Paladin]]"
   - "[[Waldläufer]]"
   - "[[Magieschmied]]"
+Typ: Heilung
 ---
 ``` dynamic-embed
 [[embed Zauber]]

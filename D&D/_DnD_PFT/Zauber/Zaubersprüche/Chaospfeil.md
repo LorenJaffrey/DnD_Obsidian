@@ -20,6 +20,7 @@ Schadensart: "[[Zufallsschaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
+Typ: Angriff
 ---
 ``` dynamic-embed
 [[embed Zauber]]

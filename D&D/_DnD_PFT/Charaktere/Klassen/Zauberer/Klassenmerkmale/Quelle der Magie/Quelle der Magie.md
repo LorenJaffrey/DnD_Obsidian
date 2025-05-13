@@ -23,18 +23,20 @@ Umgekehrt kannst du auch [[Zauberplätze]] aufgeben und sie für [[Zaubereipunkt
 Du lernst weitere Arten, deine Zaubereipunkte zu nutzen, wenn du höhere Stufen erreichst.
 
 ### Zauberplätze  erschaffen
- Du kannst unverbrauchte [[Zaubereipunkte]] als [[Bonusaktion]] in deinem [[Zug]] in einen [[Zauberplätze|Zauberplatz]] umwandeln. 
- Die nachfolgende Tabelle führt die Punktekosten für den [[Zaubergrad|Grad]] dieses [[Zauberplätze|Zauberplatzes]] auf. 
- Du kannst keinen [[Zauberplätze|Zauberplatz]] höher als [[Zaubergrad|Grad]] 5 erschaffen. 
- Alle [[Zauberplätze]], die dir aufgrund dieses Merkmals zur Verfügung stehen, verschwinden nach Beenden einer [[Lange Rast|Langen Rast]].
-
-| Zauberplatzgrad | Zaubereipunktekosten |
-|:---------------:|:--------------------:|
-|       1.        |          2           |
-|       2.        |          3           |
-|       3.        |          5           |
-|       4.        |          6           |
-|       5.        |          7           |
+Als [[Bonusaktion]] kannst du in deinem Zug unverbrauchte [[Zaubereipunkte]] in einen [[Zauberplätze|Zauberplatz]] umwandeln. 
+In der Tabelle „Zauberplätze erschaffen“ sind die Kosten von [[Zauberplätze|Zauberplätzen]] bestimmter Grade sowie die zum Umwandeln erforderliche [[Zaubergrad|Zaubererstufe]] angegeben. 
+Du kannst [[Zauberplätze]] des höchstens 5. Grades erzeugen.
+Alle mit diesem Merkmal erschaffenen [[Zauberplätze]] verschwinden nach einer [[Lange Rast|Langen Rast]].
 
 ### Zauberplätze in Zaubereipunkte umwandeln
-Als [[Bonusaktion]] in deinem [[Zug]] kannst du einen [[Zauberplätze|Zauberplatz]] aufgeben, um [[Zaubereipunkte]] in Höhe des [[Zaubergrad|Grades]] des verbrauchten [[Zauberplätze|Zauberplatzes]] zu erhalten.
+Du kannst einen [[Zauberplätze|Zauberplatz]] verbrauchen, um eine Anzahl von [[Zaubereipunkte|Zaubereipunkten]] in Höhe des [[Zaubergrad|Zauberplatzgrades]] zu erhalten (keine [[Aktion]] erforderlich).
+
+### Umwandlungstabellen
+
+| Zauberplatzgrad | Zaubereipunktekosten | Min. Zauberstufe |
+|:---------------:|:--------------------:|:----------------:|
+|       1.        |          2           |        2         |
+|       2.        |          3           |        3         |
+|       3.        |          5           |        5         |
+|       4.        |          6           |        7         |
+|       5.        |          7           |        9         | 

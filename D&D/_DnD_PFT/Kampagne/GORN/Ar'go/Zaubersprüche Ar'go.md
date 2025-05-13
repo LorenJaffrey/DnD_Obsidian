@@ -14,13 +14,13 @@ Zauber:
   - "[[Magierrüstung]]"
   - "[[Schild]]"
   - "[[Nebelschritt]]"
-  - "[[Dunkelheit]]"
+  - "[[Spiegelbilder]]"
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
   - "[[Zauber/Zaubersprüche/Fliegen|Fliegen]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
-  - "[[Mächtiger Zauber]]"
+  - "[[Beschleunigter Zauber]]"
 ---
 # `=this.file.name`
 
@@ -41,24 +41,24 @@ Metamagie:
 > [!column | 2  no-title]
 >> ### Merkmale
 >>> [!column | 2 no-title]
->>>> ![[Stürmische Magie]]
->>>> ![[Magische Führung]]
+>>>> ![[Stürmische Magie|no-title]]
+>>>> ![[Magische Führung|no-title]]
 >>>
->>>> ![[Quelle der Magie#Flexibles Zauberwirken]]
->>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
+>>>> ![[Quelle der Magie#Flexibles Zauberwirken|no-title]]
+>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln|no-title]]
 >>
 >> ### Metamagie
 >>> [!column | 2 no-title]
->>>> ![[Weitreichender Zauber]]
+>>>> ![[Weitreichender Zauber|no-title]]
 >>>
->>>> ![[Gespiegelter Zauber]]
+>>>> ![[Beschleunigter Zauber|no-title]]
 > 
 >> ### Talente ([[Kampferprobter Zauberwirker]])
 >>> [!column | 2 no-title] 
->>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>> ![[Kampferprobter Zauberwirker#Konzentration|no-title]]
 >>>
->>>> ![[Kampferprobter Zauberwirker#Somatische Zauber]]
->>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
+>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten|no-title]]
+>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber|no-title]]
 
 ```dynamic-embed
 [[embed Character Sheet Alle Grade]]

@@ -23,25 +23,20 @@ Klassen:
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
   - "[[Magier]]"
+Typ: Verteidigung
 ---
 ``` dynamic-embed
 [[embed Zauber]]
 ```
 
 ## Beschreibung
-Drei illusionäre Duplikate von dir erscheinen in deinem Bereich.
-Bis der Zauber endet, bewegen sie sich mit dir und ahmen deine Aktionen nach. 
-Dabei verändern sie ständig ihre Position, sodass du und deine Abbilder unmöglich zu unterscheiden seid. 
-Als [[Aktion]] kannst du die illusionären Duplikate jederzeit fortschicken.
+In deinem Bereich erscheinen **3** illusionäre **Duplikate** deiner selbst. 
+Für die Wirkungsdauer bewegen sich die Duplikate mit dir und imitieren deine Aktionen sowie deine Position, sodass die reale Version unmöglich zu erkennen ist.
 
-Immer wenn du während der Wirkungsdauer Ziel eines [[Angriff|Angriffs]] wirst, würfle mit einem W20, um zu bestimmen, ob der Angriff dir gilt oder einem deiner Duplikate.
+Wann immer dich eine Kreatur während der Wirkungsdauer des Zaubers mit einem [[Angriffswurf]] trifft, würfle für jedes verbleibende Duplikat mit einem **1W6**. 
+- Würfelst du jeweils **mindestens eine 3**, wird statt dir **das entsprechende Duplikat getroffen und dabei zerstört**. 
+- Die Duplikate ignorieren alle anderen Schadensquellen und Effekte. 
 
-Verfügst du über alle drei Duplikate, wird ein Angriff auf eines von ihnen übertragen, wenn du eine 6 oder höher würfelst. 
-Bei zwei Duplikaten musst du eine 8 oder höher würfeln, bei einem Duplikat eine 11 oder höher.
+Wenn alle drei Duplikate zerstört wurden, endet der Zauber.
 
-Die [[Rüstungsklasse]] eines Duplikats ist 10 + den [[Geschicklichkeit#Geschicklichkeitsmodifikator]]. 
-Wenn ein Angriff ein Duplikat trifft, wird es zerstört.
-
-Ein Duplikat kann einzig und allein von einem Angriff zerstört werden, der trifft, es ignoriert alle anderen Arten von Schaden und Effekten. 
-Der Zauber endet, wenn alle drei Duplikate zerstört sind.
-Eine Kreatur ist nicht vom Effekt der Spiegelbilder betroffen, wenn sie nicht sehen kann, wenn sie sich auf andere Sinne als die Sicht verlässt oder wenn sie [[Illusionszauber|Illusionen]] durchschauen kann (etwa mit [[Wahre Sicht]]).
+Eine Kreatur ist von diesem Zauber nicht betroffen, wenn sie den Zustand Blind hat oder aber über Blindsicht oder Wahrer Blick verfügt.

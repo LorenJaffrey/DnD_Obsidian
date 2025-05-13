@@ -17,7 +17,7 @@ cssclass: table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, t
 - Skill: 
 	- [[Drakonischer Flug]]
 	- [[Dunkelsicht]]
-	- [[Drakonische Odemwaffe]] -> funktioniert anders 
+	- [[Odemwaffe]] -> funktioniert anders 
 		- Man kann selber vor jedem Angriff entscheiden ob Linie oder Kegel 
 		- Rettungswurf ist GES 
 		- Schaden: 1W10 o Verwendungen: ist Anzahl des Übungsbonus

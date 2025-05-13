@@ -22,6 +22,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Magier]]"
   - "[[Magieschmied]]"
+Typ: Analyse
 ---
 ``` dynamic-embed
 [[embed Zauber]]

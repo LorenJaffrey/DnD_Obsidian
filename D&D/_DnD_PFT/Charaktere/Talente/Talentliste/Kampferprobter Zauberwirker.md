@@ -23,10 +23,11 @@ Wiederholbar: false
 Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Konzentration
-Du bist bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] im [[Vorteil und Nachteil|Vorteil]], um beim Erleiden von Schaden nicht die [[Konzentration]] auf einen Zauber zu verlieren.
+Du bist bei [[Rettungswurf|Konstitutionsrettungswürfen]] zum Aufrechterhalten der Konzentration im [[Vorteil und Nachteil|Vorteil]].
 
-## Somatische Zauber
-Du kannst die [[Zaubergesten]] von Zaubern auch dann ausführen, wenn du eine Waffe oder einen [[Schilde|Schild]] in einer oder beiden Händen hältst.
+## Gestenkomponenten
+Du kannst die [[Zaubergesten|Gestenkomponenten]] eines Zaubers auch dann ausführen, wenn du in mindestens einer Hand [[Waffen]] oder einen [[Schilde|Schild]] trägst.
 
 ## Reaktive Zauber
-Provoziert die [[Zug#Bewegung]] einer feindlichen Kreatur einen [[Gelegenheitsangriff]] von dir, kannst du als [[Reaktion]] einen [[Zauber wirken]] auf die Kreatur, anstatt einen [[Angriff]] auszuführen. Der Spruch muss einen [[Zauber wirken#Zeitaufwand]] von einer [[Aktion]] haben und darf nur diese Kreatur als Ziel haben.
+Wenn eine Kreatur deine Reichweite verlässt und dich zu einem [[Gelegenheitsangriff]] provoziert, kannst du eine [[Reaktion]] ausführen, um einen [[Zauber wirken| Zauber]] auf die Kreatur zu wirken, anstatt einen [[Gelegenheitsangriff]] auszuführen. 
+Der Zauber muss den [[Zauber wirken#Zeitaufwand]] von einer [[Aktion]] haben und kann nur auf diese Kreatur zielen.

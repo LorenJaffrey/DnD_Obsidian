@@ -22,6 +22,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Druide]]"
   - "[[Kleriker]]"
+Typ: Heilung
 ---
 ``` dynamic-embed
 [[embed Zauber]]

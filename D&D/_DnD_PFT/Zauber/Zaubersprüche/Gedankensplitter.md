@@ -19,12 +19,13 @@ Schaden: 1d4
 SchadenLv5: 2d6
 SchadenLv11: 3d6
 SchadenLv17: 4d6
-Schadensart: "[[Kälteschaden]]"
+Schadensart: "[[Psychischer Schaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
   - "[[Hexenmeister]]"
   - "[[Magier]]"
+Typ: Debuff
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -18,6 +18,7 @@ Schaden: 3d10
 Schadensart: "[[Blitzschaden]]" 
 Ziel: AoE
 Klassen:
+Typ: Angriff
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -18,6 +18,7 @@ Schadensart:
 Ziel: Selbst
 Klassen:
   - "[[Druide]]"
+Typ: Buff
 ---
 ``` dynamic-embed
 [[embed Zauber]]

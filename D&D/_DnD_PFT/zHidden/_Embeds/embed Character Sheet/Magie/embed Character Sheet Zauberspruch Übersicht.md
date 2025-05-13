@@ -25,14 +25,16 @@ const magicRank = 0;
 
 const results = dv.pages("#Zauber")
   .where(p => p.Grad == magicRank && dv.current().Zauber.some(link => link.path === p.file.path))
-  .sort(p => p.file.name);
+  .sort(p => p.file.name) // sekundäre Sortierung zuerst
+  .sort(p => p.Typ); // primäre Sortierung zuletzt
 
 
 if (results.length > 0) {
 
   dv.table(
-    ["Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
+    ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
     results.map(p => [
+      p.Typ,
       p.file.link,
       p.Schule,
       p.Zeitaufwand,
@@ -103,7 +105,8 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
   // Get all matching pages for the current magic rank
   const results = dv.pages("#Zauber")
     .where(p => p.Grad == magicRank && dv.current().Zauber.some(link => link.path === p.file.path))
-    .sort(p => p.file.name);
+    .sort(p => p.file.name) // sekundäre Sortierung zuerst
+    .sort(p => p.Typ); // primäre Sortierung zuletzt
 
   // Only display the table if there are results for the current rank
   if (results.length > 0) {
@@ -113,8 +116,9 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
 
     // Generate the table for the current magic rank
     dv.table(
-      ["Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
+      ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
       results.map(p => [
+        p.Typ,
         p.file.link,
         p.Schule,
         p.Zeitaufwand,

@@ -22,6 +22,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
   - "[[Hexenmeister]]"
+Typ: Fortbewegung
 ---
 ``` dynamic-embed
 [[embed Zauber]]
