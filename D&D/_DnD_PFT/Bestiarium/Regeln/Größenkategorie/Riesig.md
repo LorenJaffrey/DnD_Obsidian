@@ -1,6 +1,7 @@
 ---
 tags:
   - Größenkategorie
-Bereich: 4,5 x 4,5 m (3 x 3 Kästchen)
+BereichMeter: 4,5 x 4,5 m
+BereichQuadrate: 9 Quadrate (3x3)
 ---
 # `=this.file.name`

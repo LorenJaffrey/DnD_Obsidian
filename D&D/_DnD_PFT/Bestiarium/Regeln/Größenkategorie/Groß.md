@@ -5,6 +5,7 @@ aliases:
 - großer
 tags:
   - Größenkategorie
-Bereich: 3 x 3 m (2 x 2 Kästchen)
+BereichMeter: 3 x 3 m
+BereichQuadrate: 4 Quadrate (2x2)
 ---
 # `=this.file.name`

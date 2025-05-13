@@ -3,7 +3,8 @@
 TABLE WITHOUT ID
 
 file.link AS "Größenkategorie",
-Bereich
+BereichMeter AS "Bereich (Meter)",
+BereichQuadrate AS "Bereich (Quadrate)"
 
 FROM #Größenkategorie
 

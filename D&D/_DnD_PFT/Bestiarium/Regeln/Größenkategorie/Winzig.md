@@ -1,6 +1,7 @@
 ---
 tags:
   - Größenkategorie
-Bereich: 0,75 x 0,75 m (1/2 x 1/2 Kästchen)
+BereichMeter: 0,75 x 0,75 m
+BereichQuadrate: 4 pro Quadrat
 ---
 # `=this.file.name`

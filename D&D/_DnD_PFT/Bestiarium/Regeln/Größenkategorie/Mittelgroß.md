@@ -5,6 +5,7 @@ aliases:
 - mittelgroßer
 tags:
   - Größenkategorie
-Bereich: 1,5 x 1,5 m (1 x 1 Kästchen)
+BereichMeter: 1,5 x 1,5 m
+BereichQuadrate: 1 Quadrat
 ---
 # `=this.file.name`
