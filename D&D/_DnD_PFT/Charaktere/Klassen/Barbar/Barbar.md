@@ -44,7 +44,7 @@ Kampfrausch:
     Anzahl: 4
     Bonusschaden: 3
   Stufe12:
-    Anzahl: 2
+    Anzahl: 5
     Bonusschaden: 3
   Stufe13:
     Anzahl: 5
@@ -68,7 +68,7 @@ Kampfrausch:
     Anzahl: 6
     Bonusschaden: 4
   Stufe20:
-    Anzahl: unbegrenzt
+    Anzahl: 6
     Bonusschaden: 4
 ---
 # `=this.file.name`

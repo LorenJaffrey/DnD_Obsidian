@@ -6,16 +6,6 @@
 
 ## Organisatorisches
 
-## TODO
-- Persönlichkeit der Charaktere besser einbauen
-	- [ ] #task Hintergrund Drogan [priority:: normal]
-	- [ ] #task Hintergrund Aranon [priority:: normal]
-	- [ ] #task Hintergrund Niptac [priority:: normal]
-	- [ ] #task Hintergrund Argo [priority:: normal]
-	- [ ] #task Hintergrund Lucian [priority:: normal]
-- [ ] #task Moralsystem  [priority:: high]
-- [ ] #task Sozialsystem (freundlich bis feindlich)
-
 ## Recap
 - [[Szene - Rückkehr nach Phandalin 2]]
 	- Im Gasthaus gegessen und getrunken
