@@ -1,5 +1,8 @@
 ---
-aliases: SG
+tags:
+  - Regeln/PHB2024
+aliases: 
+  - SG
 ---
 # `=this.file.name`
 

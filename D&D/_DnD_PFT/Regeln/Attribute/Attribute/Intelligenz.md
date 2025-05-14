@@ -1,7 +1,13 @@
 ---
-aliases: Intelligenzwurf, Intelligenzwürfe, Intelligenzwürfen, IN, INT
+aliases: 
+  - Intelligenzwurf
+  - Intelligenzwürfe
+  - Intelligenzwürfen
+  - IN
+  - INT
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

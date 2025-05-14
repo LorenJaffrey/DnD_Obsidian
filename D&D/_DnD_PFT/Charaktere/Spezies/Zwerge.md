@@ -1,6 +1,7 @@
 ---
 tags: 
   - Spezies
+  - Regeln/PHB2024
 aliases:
   - Zwerg
 Kreaturtyp: "[[Humanoide]]"

@@ -1,7 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Barbar
+  - Merkmal/Klasse/Barbar
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

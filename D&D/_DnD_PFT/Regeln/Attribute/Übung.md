@@ -1,5 +1,11 @@
 ---
-alias: Übungsbonus, Expertise, Expertisebonus, geübt
+tags:
+  - Regeln/PHB2024
+alias: 
+  - Übungsbonus
+  - Expertise
+  - Expertisebonus
+  - geübt
 ---
 # `=this.file.name`
 Der Übungsbonus ist ein Bonus auf bestimmten geübten [[Attribute#Attributswurf]], [[Angriffswurf]],  [[Rettungswurf]] und [[Fertigkeiten#Fertigkeitswurf]] abhängig von der Stufe bei Charakteren bzw. dem [[Herausforderungsgrad]] bei Kreaturen.

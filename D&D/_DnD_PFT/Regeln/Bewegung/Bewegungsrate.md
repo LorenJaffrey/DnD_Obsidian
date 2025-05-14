@@ -1,5 +1,8 @@
 ---
-aliases: Bewegen
+tags:
+  - Regeln/PHB2024
+aliases: 
+  - Bewegen
 ---
 # `=this.file.name`
 

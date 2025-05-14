@@ -1,8 +1,8 @@
 ---
 tags:
-- Merkmal/Klasse
+  - Merkmal/Klasse
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
-
 Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Angriff]] [[Aktion]] ausführen

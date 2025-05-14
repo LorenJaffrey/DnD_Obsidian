@@ -1,7 +1,8 @@
 ---
 aliases: 
 tags:
-  - Merkmal
+  - Merkmal/Spezies/Zwerg
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`

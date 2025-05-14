@@ -1,7 +1,12 @@
 ---
-aliases: Geschicklichkeitswurf, Geschicklichkeitswürfe, Geschicklichkeitswürfen, GE
+aliases: 
+  - Geschicklichkeitswurf
+  - Geschicklichkeitswürfe
+  - Geschicklichkeitswürfen
+  - GE
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

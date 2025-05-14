@@ -1,5 +1,7 @@
 ---
-tags: Zug/Aktion
+tags: 
+  - Zug/Aktion
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

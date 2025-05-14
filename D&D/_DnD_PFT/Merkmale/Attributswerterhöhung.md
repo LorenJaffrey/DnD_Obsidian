@@ -1,6 +1,6 @@
 ---
 tags:
-- Merkmal
+  - Merkmal
 Einsatz: Passiv
 ---
 # `=this.file.name`

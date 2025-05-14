@@ -1,7 +1,8 @@
 ---
 alias:
 tags:
-- Merkmal
+  - Merkmal/Spezies/Drachenblütiger
+  - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`

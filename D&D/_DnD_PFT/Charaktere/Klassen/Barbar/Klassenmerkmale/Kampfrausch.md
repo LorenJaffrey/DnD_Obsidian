@@ -1,7 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal
+  - Merkmal
+  - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`

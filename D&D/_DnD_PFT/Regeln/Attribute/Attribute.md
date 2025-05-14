@@ -1,5 +1,11 @@
 ---
-aliases: Attribut, Attributswurf, Attributswürfe, Attributswürfen
+tags: 
+  - Regeln/PHB2024
+aliases: 
+  - Attribut
+  - Attributswurf
+  - Attributswürfe
+  - Attributswürfen
 ---
 # `=this.file.name`
 

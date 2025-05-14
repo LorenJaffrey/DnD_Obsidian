@@ -1,7 +1,8 @@
 ---
 aliases: 
 tags:
-  - Merkmal
+  - Merkmal/Spezies/Tiefling/Chthonisch
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`

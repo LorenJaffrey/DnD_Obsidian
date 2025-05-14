@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Regeln/PHB2024
 aliases: 
   - Gnom
 ---

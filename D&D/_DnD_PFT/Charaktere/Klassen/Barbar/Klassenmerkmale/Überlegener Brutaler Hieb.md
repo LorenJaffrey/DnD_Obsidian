@@ -1,7 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Barbar
+  - Merkmal/Klasse/Barbar
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Wenn du [[Rücksichtsloser Angriff]] einsetzt, kannst du in deinem [[Zug]] bei einem [[Stärke]]-basierten [[Angriffswurf]] deiner Wahl auf den [[Vorteil und Nachteil|Vorteil]] verzichten. 

@@ -1,7 +1,11 @@
 ---
-aliases: Charismawurf, Charismawürfe, CH
+aliases: 
+  - Charismawurf
+  - Charismawürfe
+  - CH
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

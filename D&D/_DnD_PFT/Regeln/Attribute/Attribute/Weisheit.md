@@ -1,7 +1,11 @@
 ---
-aliases: Weisheitswurf, Weisheitswürfe, WE
+aliases: 
+  - Weisheitswurf
+  - Weisheitswürfe
+  - WE
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

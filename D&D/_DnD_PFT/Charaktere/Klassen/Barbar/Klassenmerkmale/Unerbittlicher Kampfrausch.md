@@ -1,7 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Barbar
+  - Merkmal/Klasse/Barbar
+  - Regeln/PHB2024
 ---
 # `=this.file.name`.
 Dein [[Kampfrausch]] versetzt dich in die Lage, trotz schwerer Verletzungen weiterzukämpfen. 

@@ -1,6 +1,7 @@
 ---
 tags: 
   - Deckung
+  - Regeln/PHB2024
 Vorzug: "Kann nicht zum direkten Ziel werden."
 Beispiel: "Gegenstand, das gesamte Ziel ist verdeckt"
 ---

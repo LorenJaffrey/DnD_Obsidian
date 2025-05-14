@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/PHB2024
+---
 # `=this.file.name`
 Jede Kreatur besitzt eine [[Bewegungsrate]], welche die Distanz in Metern angibt, die sie in einer Runde zurücklegen kann.
 Dieser Wert geht davon aus, dass die Bewegung in lebens-bedrohlichen Situationen in kurzen energischen Schüben stattfindet. 

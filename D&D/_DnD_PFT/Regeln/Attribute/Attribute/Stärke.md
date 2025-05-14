@@ -1,7 +1,13 @@
 ---
-aliases: Stärkewurf, Stärkewürfe, Stärkewürfen, Stärkewurfs, ST
+aliases: 
+  - Stärkewurf
+  - Stärkewürfe
+  - Stärkewürfen
+  - Stärkewurfs
+  - ST
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

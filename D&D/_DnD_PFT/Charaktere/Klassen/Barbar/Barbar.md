@@ -3,6 +3,7 @@ aliases:
   - Barbaren
 tags:
   - Klasse
+  - Regeln/PHB2024
 Art: Krieger
 Name_Subklassen: "[[Urtümliche Pfade|Urtümlicher Pfad]]"
 Trefferwürfel: W12

@@ -1,7 +1,11 @@
 ---
-aliases: Konstitutionswurf, Konstitutionswürfe, KO
+aliases: 
+  - Konstitutionswurf
+  - Konstitutionswürfe
+  - KO
 tags:
-- Attribut
+  - Attribut
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Regeln/PHB2024
 aliases: 
   - Temporären Trefferpunkt
   - Temporärer Trefferpunkte

@@ -1,5 +1,9 @@
 ---
-aliases: Rettungswürfe, Rettungswürfen
+tags: 
+  - Regeln/PHB2024
+aliases: 
+  - Rettungswürfe
+  - Rettungswürfen
 ---
 # `=this.file.name`
 [[Rettungswurf|Rettungswürfe]]  repräsentieren den Versuch, Gefahren wie feurigen Explosionen, giftigen Gasen oder Zaubern, die in den Verstand eindringen, zu entgehen oder zu widerstehen. 

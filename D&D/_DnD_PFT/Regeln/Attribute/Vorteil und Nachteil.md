@@ -1,5 +1,9 @@
 ---
-aliases: Vorteil, Nachteil
+tags: 
+  - Regeln/PHB2024
+aliases: 
+  - Vorteil
+  - Nachteil
 ---
 # `=this.file.name`
 

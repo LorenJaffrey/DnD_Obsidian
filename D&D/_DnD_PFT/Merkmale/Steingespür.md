@@ -1,7 +1,8 @@
 ---
 aliases: 
 tags:
-  - Merkmal/Volk
+  - Merkmal/Spezies/Zwerg
+  - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
