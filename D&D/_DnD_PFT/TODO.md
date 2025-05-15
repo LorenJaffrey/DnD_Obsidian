@@ -28,24 +28,19 @@ priority is below medium
 show tree
 ```
 
-## Hintergründe
-- [ ] #task Hintergrund [[Einsiedler]]  [priority:: low]
-- [ ] #task Hintergrund [[Weiser]]  [priority:: low]
-- [ ] #task Hintergrund [[Scharlatan]]  [priority:: low]
-
 ## Sonstiges
-- [ ] #task Inventarsysteme evaluieren [priority:: low]
-- [ ] #task Vorlagen mit korrekter Syntax versehen [priority:: high]
-- Persönlichkeit der Charaktere besser einbauen
+- [ ] Inventarsysteme evaluieren [priority:: low]
+- [ ] Vorlagen mit korrekter Syntax versehen [priority:: high]
+- [ ] Persönlichkeit der Charaktere besser einbauen
 	- [ ] Hintergrund Drogan [priority:: normal]
-	- [ ] #task Hintergrund Aranon [priority:: normal]
-	- [ ] #task Hintergrund Niptac [priority:: normal]
-	- [ ] #task Hintergrund Argo [priority:: normal]
-	- [ ] #task Hintergrund Lucian [priority:: normal]
-- [ ] #task Moralsystem  [priority:: high]
-- [ ] #task Sozialsystem (freundlich bis feindlich) [priority:: high]
-- [ ] #task Warlock Patron Template YouTube [priority:: high]
-- [ ] Klassen überarbeiten
+	- [ ] Hintergrund Aranon [priority:: normal]
+	- [ ] Hintergrund Niptac [priority:: normal]
+	- [ ] Hintergrund Argo [priority:: normal]
+	- [ ] Hintergrund Lucian [priority:: normal]
+- [ ] Moralsystem  [priority:: high]
+- [ ] Sozialsystem (freundlich bis feindlich) [priority:: high]
+- [ ] Warlock Patron Template YouTube [priority:: high]
+- [ ] Klassen überarbeiten [priority:: high]
 	- [ ] [[Schurke]] [priority:: high]
 	- [ ] [[Hexenmeister]] [priority:: high]
 	- [ ] [[Druide]] [priority:: high]

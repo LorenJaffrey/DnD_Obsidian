@@ -1,14 +1,9 @@
 ---
 aliases:
-  - Athlete
 tags:
-  - Talent/Allgemein
-  - Regeln/PHB2024
-Kategorie: Allgemein
 Voraussetzungen:
-  - "[[Stärke]], [[Konstitution]] oder [[Geschicklichkeit]] 13+"
-Stufe: 4
-Wiederholbar: false
+Stufe:
+Wiederholbar:
 ---
 # `=this.file.name`
 
@@ -19,16 +14,18 @@ Wiederholbar: false
 > | Stufe                              | `=this.Stufe`                           |
 > | Mehrfach wählbar | `=this.Wiederholbar`         |
 
-*Du hast dich ausgiebigem körperlichen Training unterworfen.*
+*Flavour Text*
 
 ## Attributswerterhöhung
 Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
-## Klettern
-[[Klettern]] kostet dich keine zusätzliche [[Bewegungsrate]].
+## Weiterer Bonus
+Du bist zäh wie Leder. Mit der Wahl dieses Talents erhöht sich dein [[Trefferpunktemaximum]] einmalig um das Doppelte deiner Stufe. Immer wenn du danach eine Stufe aufsteigst, erhöht sich dein [[Trefferpunkte]]maximum um weitere 2 Punkte.
 
-## Aufspringen
-Wenn du den Zustand [[Liegend]] hast, kostet dich das Aufstehen nur 1,50 m deiner [[Bewegungsrate]].
-
-## Springen
-Du erhältst [[Vorteil und Nachteil|Vorteil]] auf jeden [[Attribute|Attributswurf]] der mit [[Hochsprung]] oder [[Weitsprung]] zu tun hat.
+```dataview
+TABLE WITHOUT ID 
+file.link AS "Talent", Stufe, Voraussetzungen, choice(Wiederholbar,"X","") AS "Wiederholbar", aliases AS "Alias"
+FROM #Talent
+WHERE Kategorie = "Allgemein"
+SORT Stufe, file.name ASC
+```

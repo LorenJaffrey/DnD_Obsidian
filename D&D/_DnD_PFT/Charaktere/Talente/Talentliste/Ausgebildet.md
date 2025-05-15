@@ -1,14 +1,12 @@
 ---
 aliases:
-  - Athlete
 tags:
-  - Talent/Allgemein
+  - Talent/Herkunft
   - Regeln/PHB2024
-Kategorie: Allgemein
+Kategorie: Herkunft
 Voraussetzungen:
-  - "[[Stärke]], [[Konstitution]] oder [[Geschicklichkeit]] 13+"
-Stufe: 4
-Wiederholbar: false
+Stufe: 1
+Wiederholbar: true
 ---
 # `=this.file.name`
 
@@ -19,10 +17,6 @@ Wiederholbar: false
 > | Stufe                              | `=this.Stufe`                           |
 > | Mehrfach wählbar | `=this.Wiederholbar`         |
 
-*Du hast dich ausgiebigem körperlichen Training unterworfen.*
-
-## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Klettern
 [[Klettern]] kostet dich keine zusätzliche [[Bewegungsrate]].

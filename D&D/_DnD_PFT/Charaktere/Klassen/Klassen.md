@@ -10,8 +10,7 @@ TABLE WITHOUT ID
 file.link AS "Klasse", 
 Art, 
 Trefferwürfel, 
-Hauptattribut, 
-Zauberwirker,
+Hauptattribut,
 Komplexität
 
 FROM #Klasse
