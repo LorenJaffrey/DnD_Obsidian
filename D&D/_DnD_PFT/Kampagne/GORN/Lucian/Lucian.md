@@ -94,7 +94,7 @@ Hintergrund:
   Klasse: "[[Hexenmeister]]"
   Subklasse: "[[Der Unhold]]"
   Gesinnung: "[[Chaotisch Neutral]]"
-  Hintergrund: "[[Weiser]]"
+  Herkunft: "[[Weiser]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - wortgewandt

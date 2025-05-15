@@ -107,7 +107,7 @@ Hintergrund:
   Klasse: "[[Schurke]]"
   Subklasse: "[[Meistertüftler]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Scharlatan]]"
+  Herkunft: "[[Scharlatan]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.

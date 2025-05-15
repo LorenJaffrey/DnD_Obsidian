@@ -78,7 +78,7 @@ Hintergrund:
   Gesinnung:
     Ordnung: 3
     Moral: 3
-  Hintergrund: "[[Heimgesuchter]]"
+  Herkunft: "[[Heimgesuchter]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
   - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
@@ -99,7 +99,7 @@ Persönlichkeit:
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> | [[Herkunft]] | `=this.Hintergrund.Herkunft` |
 > 
 > ## Aussehen
 > |  |  |

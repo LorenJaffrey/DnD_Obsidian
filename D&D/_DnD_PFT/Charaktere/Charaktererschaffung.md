@@ -3,7 +3,7 @@ m# `=this.file.name`
 1. [[Klassen|Klasse]]
 	1. [[Trefferpunkte]] je Stufenaufstieg = Würfelwert (minimal halber maximaler Würfelwert)
 2. [[Herkunft]]
-	1. [[Hintergründe|Hintergrund]]
+	1. [[Herkunft]]
 	2. [[Spezies]]
 	3. [[Sprachen]]
 3. [[Attribute]]

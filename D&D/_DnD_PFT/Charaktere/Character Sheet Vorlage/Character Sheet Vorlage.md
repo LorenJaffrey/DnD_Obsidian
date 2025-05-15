@@ -74,7 +74,7 @@ Hintergrund:
   Klasse: "[[Druide]]"
   Subklasse: "[[Zirkel des Hirten]]"
   Gesinnung: "[[Rechtschaffen Gut]]"
-  Hintergrund: "[[Heimgesuchter]]"
+  Herkunft: "[[Heimgesuchter]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
@@ -119,7 +119,7 @@ InputData:
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> | [[Herkunft]] | `=this.Hintergrund.Herkunft` |
 > 
 > ## Aussehen
 > |  |  |

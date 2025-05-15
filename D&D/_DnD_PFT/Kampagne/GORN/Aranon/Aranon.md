@@ -108,7 +108,7 @@ Hintergrund:
   Klasse: "[[Druide]]"
   Subklasse: "[[Zirkel des Hirten]]"
   Gesinnung: "[[Rechtschaffen Gut]]"
-  Hintergrund: "[[Einsiedler]]"
+  Herkunft: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Große Empathie für alle jene die großes Leid erfahren

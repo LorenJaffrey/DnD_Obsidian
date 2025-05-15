@@ -101,11 +101,11 @@ Hintergrund:
   Bild: "[[Drogan_portrait.jpeg]]"
   Video: "[[Drogan_animated.mp4]]"
   Name: Drogan
-  Volk: "[[Zwerge#Gerbirgszwerge|Gebirgszwerg]]"
+  Volk: "[[Zwerge|Zwerg]]"
   Klasse: "[[Barbar]]"
   Subklasse: "[[Pfad des Slayers]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Heimgesuchter]]"
+  Herkunft: "[[Heimgesuchter]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
@@ -120,12 +120,12 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 0
-  Erschöpfung1: false
-  Erschöpfung2: false
-  Erschöpfung3: false
-  Erschöpfung4: false
-  Erschöpfung5: false
+  ErschöpfungsPunkte: 5
+  Erschöpfung1: true
+  Erschöpfung2: true
+  Erschöpfung3: true
+  Erschöpfung4: true
+  Erschöpfung5: true
   Rage1: false
   Rage2: false
   Rage3: false

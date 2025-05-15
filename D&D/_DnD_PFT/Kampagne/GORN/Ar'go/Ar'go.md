@@ -97,7 +97,7 @@ Hintergrund:
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Einsiedler]]"
+  Herkunft: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.

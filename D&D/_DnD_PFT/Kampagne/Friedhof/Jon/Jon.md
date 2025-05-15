@@ -89,7 +89,7 @@ Hintergrund:
   Klasse: "[[Kämpfer]]"
   Subklasse: "[[Kampfmeister]]"
   Gesinnung: "[[Rechtschaffen Neutral]]"
-  Hintergrund: "[[Söldner]]"
+  Herkunft: "[[Söldner]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich stelle mich Problemen frontal. Eine einfache, direkte Lösung ist der beste Weg zum Erfolg. Ich habe einen derben Sinn für Humor.
@@ -117,7 +117,7 @@ tags:
 > | [[Klassen\|Klasse]] | `=this.Hintergrund.Klasse` |
 > |  `$=dv.page(dv.current().Hintergrund.Klasse).Name_Subklassen` | `=this.Hintergrund.Subklasse` |
 > | [[Gesinnung]] | `=this.Hintergrund.Gesinnung` |
-> | [[Hintergründe\|Hintergrund]] | `=this.Hintergrund.Hintergrund` |
+> | [[Herkunft]] | `=this.Hintergrund.Herkunft` |
 > |Feinde| `=this.Feinde`|
 > 
 > ## Todesrettungswürfe
