@@ -2,20 +2,19 @@
 aliases: 
 - Skilled
 tags: 
-- Talent
+- Talent/Herkunft
 Voraussetzungen:
+Kategorie: Herkunft
 Stufe: 1
 Wiederholbar: true
 ---
 # `=this.file.name`
 
 > [!infobox]
-> |                                           |                                                             |
-> | ------------------------ | ---------------------------------- |
-> | Voraussetzungen   | `=this.Voraussetzungen` |
-> | Stufe                              | `=this.Stufe`                           |
-> | Mehrfach wählbar | `=this.Wiederholbar`         |
+> ```dynamic-embed
+> [[embed Talente Infobox]]
+> ```
 
 *Du bist in einer Vielzahl von Disziplinen begabt.*
 
-Du hast [[Übung]] in drei beliebigen [[Fertigkeiten]] deiner Wahl in denen du bisher keine [[Übung]] hast.
+Du bist in drei [[Fertigkeiten]] oder [[Werkzeug|Werkzeugen]] deiner Wahl in beliebiger Kombination [[Übung|geübt]].
