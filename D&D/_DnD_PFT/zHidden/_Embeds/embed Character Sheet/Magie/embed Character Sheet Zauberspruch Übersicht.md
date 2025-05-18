@@ -32,7 +32,7 @@ const results = dv.pages("#Zauber")
 if (results.length > 0) {
 
   dv.table(
-    ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
+    ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual", "[[Rettungswurf|RW]]"],
     results.map(p => [
       p.Typ,
       p.file.link,
@@ -46,7 +46,8 @@ if (results.length > 0) {
       p.Geste ? "X" : "",
       p.Dauer,
       p.Konzentration ? "X" : "",
-      p.Ritual ? "X" : ""
+      p.Ritual ? "X" : "",
+      p.Rettungswurf
     ])
   );
 
@@ -116,7 +117,7 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
 
     // Generate the table for the current magic rank
     dv.table(
-      ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual"],
+      ["Typ", "Zauber", "Schule", "Zeitaufwand", "Schadensart", "Schaden", "Ziel", "Reichweite", "Verbal", "Geste", "Dauer", "Konzentration", "Ritual", "[[Rettungswurf|RW]]"],
       results.map(p => [
         p.Typ,
         p.file.link,
@@ -130,7 +131,8 @@ for (let magicRank = 1; magicRank <= 9; magicRank++) {
         p.Geste ? "X" : "",
         p.Dauer,
         p.Konzentration ? "X" : "",
-        p.Ritual ? "X" : ""
+        p.Ritual ? "X" : "",
+        p.Rettungswurf
       ])
     );
 

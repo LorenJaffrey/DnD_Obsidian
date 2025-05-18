@@ -21,6 +21,7 @@ SchadenLv11: 3d12
 SchadenLv17: 4d12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
+Rettungswurf: "[[Konstitution|KON]]"
 Klassen:
   - "[[Druide]]"
   - "[[Hexenmeister]]"

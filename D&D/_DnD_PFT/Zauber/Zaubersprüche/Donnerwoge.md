@@ -18,6 +18,7 @@ Skalierbar: true
 Schaden: 2d8
 Schadensart: "[[Schallschaden]]"
 Ziel: AoE
+Rettungswurf: "[[Konstitution|KON]]"
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"

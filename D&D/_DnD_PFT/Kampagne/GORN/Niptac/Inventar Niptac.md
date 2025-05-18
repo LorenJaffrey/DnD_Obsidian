@@ -3,9 +3,9 @@ tags:
 Charakter: "[[Niptac]]"
 Geld:
   PM: 0
-  GM: 353
+  GM: 255
   EM: 0
-  SM: 372
+  SM: 210
   KM: 95
 ---
 # `=this.file.name`
@@ -51,20 +51,19 @@ Geld:
 | [[Schlafsack]]                                                  |   1    |    7    |   7    |
 | [[Zunderkästchen]]                                              |   1    |    1    |   1    |
 | [[Fackel]]                                                      |   8    |    1    |   8    |
-| [[Ration]]                                                      |   8    |    1    |   8    |
+| [[Ration]]                                                      |   18   |    1    |   18   |
 | [[Trinkschlauch]]                                               |   1    |    4    |   4    |
 | [[Reisegeschirr]]                                               |   1    |    1    |   1    |
 | [[Dolch]]                                                       |   5    |    1    |   5    |
-| Armbrust Bolzen                                                 |   28   |  0.075  |  2.1   |
+| Armbrust Bolzen                                                 |   20   |  0.075  |  1.5   |
 | [[Obsidianscherben]]                                            |   5    |  0.25   |  1.25  |
 | [[Gildenabzeichen]]                                             |   1    |    0    |   0    |
 | Edelsteine (durchsichtig, grün)                                 |   2    |    0    |   0    |
 | Edelsteine (undurchsichtig, rotbraun)                           |   5    |    0    |   0    |
 | Perle                                                           |   1    |    0    |   0    |
 | Jade-Statuette eines Frosches mit winzigen Goldkugeln als Augen |   1    |    0    |   0    |
-| [[Heiltrank]]                                                   |   0    |   0.5   |   0    |
+| [[Heiltrank]]                                                   |   1    |   0.5   |  0.5   |
 | [[Zauberstecken der Vogelrufe]]                                 |   1    |    1    |   1    |
-| Modrige Bücher (Bestimmt viel wert)                             |   3    |   0.5   |  1.5   |
-| GESAMT                                                          |        |         | 39.85  |
+| GESAMT                                                          |        |         | 48.25  |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

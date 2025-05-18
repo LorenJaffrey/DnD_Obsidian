@@ -25,7 +25,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 33
+  TP: 37
   TW: 5
   TempTP: 0
 Attribute:
@@ -117,9 +117,9 @@ Persönlichkeit:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: false
-  GlücksPunkt4: false
-  GlücksPunkt5: false
+  GlücksPunkt3: true
+  GlücksPunkt4: true
+  GlücksPunkt5: true
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
   Erschöpfung2: false
@@ -129,7 +129,7 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: true
+    Ladung1: false
     Ladung2: false
     Ladung3: false
 tags:

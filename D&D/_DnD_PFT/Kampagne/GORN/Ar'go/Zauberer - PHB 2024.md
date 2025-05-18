@@ -124,7 +124,7 @@ cssclass: table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, t
 >> |-------------------------------|--------------------------------------| 
 >> | [[Blitz]]                         | [[Blitz]]                                | 
 >> | [[Blitze herbeirufen]]            | [[Blitze herbeirufen]]                   | 
->> |            -                   | [[Fliegen]]                              |
+>> |            -                   | [[Regeln/Bewegung/Fliegen]]                              |
  
 
 

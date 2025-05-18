@@ -17,6 +17,7 @@ Skalierbar: true
 Schaden: 8d6
 Schadensart: "[[Blitzschaden]]" 
 Ziel: Linie
+Rettungswurf: "[[Geschicklichkeit|GES]]"
 Klassen:
 Typ: Angriff
 ---

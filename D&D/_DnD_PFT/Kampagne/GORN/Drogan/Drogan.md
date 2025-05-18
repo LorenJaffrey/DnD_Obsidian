@@ -22,7 +22,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 59
+  TP: 53
   TW: 5
   TempTP: 0
 Attribute:
@@ -83,8 +83,11 @@ Aussehen:
   Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
+  - "[[Zwergisches Kampftraining]]"
+  - "[[Handwerkliches Geschick]]"
+  - "[[Zwergische Rüstungsvertrautheit]]"
   - "[[Dunkelsicht]]"
-  - "[[Zwergische Unverwüstlichkeit]]"
+  - "[[Unempfindlichkeit]]"
   - "[[Steingespür]]"
   - "[[Kampfrausch]]"
   - "[[Ungerüstete Verteidigung]]"
@@ -95,6 +98,7 @@ Merkmale:
   - "[[Furchtlos]]"
   - "[[Schnelle Bewegung]]"
   - "[[Zusätzlicher Angriff]]"
+  - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Talente:
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
@@ -116,18 +120,18 @@ Persönlichkeit:
   Makel: Ich habe eine (Alkohol-)Sucht.
 InputData:
   GlücksPunkt1: true
-  GlücksPunkt2: false
-  GlücksPunkt3: false
-  GlücksPunkt4: false
+  GlücksPunkt2: true
+  GlücksPunkt3: true
+  GlücksPunkt4: true
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 5
-  Erschöpfung1: true
-  Erschöpfung2: true
-  Erschöpfung3: true
-  Erschöpfung4: true
-  Erschöpfung5: true
-  Rage1: false
-  Rage2: false
+  ErschöpfungsPunkte: 0
+  Erschöpfung1: false
+  Erschöpfung2: false
+  Erschöpfung3: false
+  Erschöpfung4: false
+  Erschöpfung5: false
+  Rage1: true
+  Rage2: true
   Rage3: false
 tags:
   - Charakter/GORN
