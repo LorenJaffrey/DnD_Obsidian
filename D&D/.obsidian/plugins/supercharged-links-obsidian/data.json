@@ -33,6 +33,42 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Gegenstand/Rüstung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2852-2eaa",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zauber",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "24e5-53b9",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Spezies",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d2cb-d9fd",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

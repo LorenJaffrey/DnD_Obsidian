@@ -10,6 +10,7 @@ TABLE WITHOUT ID
 file.link AS "Waffe",
 "`dice:" + Schaden + "\|none\|noform`"  AS "Schaden",
 Schadensart, 
+Kategorie,
 Hände, 
 Größe, 
 Eigenschaften

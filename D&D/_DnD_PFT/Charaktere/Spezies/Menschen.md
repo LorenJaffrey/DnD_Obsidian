@@ -1,4 +1,6 @@
 ---
+tags:
+  - Spezies
 aliases: Mensch
 ---
 ## Beschreibung

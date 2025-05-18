@@ -4,7 +4,7 @@ tags:
   - Gegenstand/Waffe/Gruppe/Speer
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Wurfwaffe
-  - Gegenstand/Waffe/Kategorie/Einfache_Waffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Großwaffe
 Reichweite: 1,5(1)
 Schaden: 1d6

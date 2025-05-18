@@ -6,12 +6,12 @@ Attribute:
   - "[[Stärke]]"
   - "[[Geschicklichkeit]]"
   - "[[Intelligenz]]"
-Talent: "[[_DnD_PFT/Charaktere/Talente/Talentliste/Handwerker|Handwerker]]"
+Talent: "[[_DnD_PFT/Charaktere/Talente/Talentliste/Herkunftstalente/Handwerker|Handwerker]]"
 Fertigkeiten:
   - "[[Nachforschungen]]"
   - "[[Überzeugen]]"
 Werkzeug:
-  - "beliebiges [[Werkzeug]]"
+  - beliebiges [[Werkzeug]]
 ---
 # `=this.file.name`
 
