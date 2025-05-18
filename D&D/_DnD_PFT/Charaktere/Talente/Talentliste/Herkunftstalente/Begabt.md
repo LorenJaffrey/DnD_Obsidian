@@ -1,8 +1,9 @@
 ---
 aliases: 
-- Skilled
+   - Skilled
 tags: 
-- Talent/Herkunft
+  - Talent/Herkunft
+  - Regeln/PHB2024
 Voraussetzungen:
 Kategorie: Herkunft
 Stufe: 1
