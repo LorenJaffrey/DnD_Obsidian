@@ -1,9 +1,14 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Schurke
+  - Merkmal/Klasse/Schurke
+  - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`
-*Deine geistige und körperliche Agilität erlaubt dir, schnell Entscheidungen zu treffen und dich rasch zu bewegen und zu handeln.*
-Du kannst in jedem deiner [[Zug|Züge]] eine [[Bonusaktion]] verwenden, um damit die [[Spurt]]-, [[Rückzug]]- oder [[Verstecken]]-[[Aktion]] auszuführen.
+*Dank deiner Auffassungsgabe und deiner Beweglichkeit kannst du dich besonders schnell bewegen und rasch handeln.*
+
+Die Kreatur kann in ihrem [[Zug]] eine der folgenden [[Aktion|Aktionen]] als [[Bonusaktion]] ausführen: 
+- [[Rückzug]]
+- [[Spurt]]
+- [[Verstecken]]

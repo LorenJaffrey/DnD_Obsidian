@@ -1,9 +1,12 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Schurke
+  - Merkmal/Klasse/Schurke
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Dank deiner instinktiven Gewandheit kannst du dich dem Wirkungsbereich bestimmter Effekte entziehen, wie etwa dem Blitzodem eines blauen Drachen oder dem Zauber [[Feuerball]]. 
-Bist du einem Effekt ausgesetzt, der einen [[Rettungswurf]] auf [[Geschicklichkeit]] erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen [[Rettungswurf]] gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.
+*Du kannst bestimmten Gefahren geschickt ausweichen.*
+
+Bist du einem Effekt ausgesetzt, der dir einen [[Rettungswurf]] auf [[Geschicklichkeit]] erlaubt, um den Schaden zu halbieren, so erleidest du stattdessen bei einem [[Erfolg]] gar keinen und bei einem [[Misserfolg]] den halben Schaden. 
+Du kannst dieses Merkmal nicht einsetzen, wenn du [[kampfunfähig]] bist.

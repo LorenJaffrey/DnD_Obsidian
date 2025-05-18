@@ -41,16 +41,16 @@ HinterhältigerAngriff:
 |   2   | `=this.HinterhältigerAngriff.Stufe2 + "W6"`  | [[Raffinierte Aktion]]                                       |
 |   3   | `=this.HinterhältigerAngriff.Stufe3 + "W6"`  | [[Schurkenarchetypen]], [[Zielsicher]]                       |
 |   4   | `=this.HinterhältigerAngriff.Stufe4 + "W6"`  | [[Talente\|Talent]]                                          |
-|   5   | `=this.HinterhältigerAngriff.Stufe5 + "W6"`  | [[Unglaubliches Ausweichen]]                                 |
+|   5   | `=this.HinterhältigerAngriff.Stufe5 + "W6"`  | [[Raffinierter Schlag]], [[Unglaubliches Ausweichen]]        |
 |   6   | `=this.HinterhältigerAngriff.Stufe6 + "W6"`  | [[Expertise]]                                                |
-|   7   | `=this.HinterhältigerAngriff.Stufe7 + "W6"`  | [[Entrinnen]]                                                |
+|   7   | `=this.HinterhältigerAngriff.Stufe7 + "W6"`  | [[Entrinnen]], [[Verlässliches Talent]]                      |
 |   8   | `=this.HinterhältigerAngriff.Stufe8 + "W6"`  | [[Talente\|Talent]]                                          |
 |   9   | `=this.HinterhältigerAngriff.Stufe9 + "W6"`  | Merkmal Schurkenarchetyp                                     |
 |  10   | `=this.HinterhältigerAngriff.Stufe10 + "W6"` | [[Talente\|Talent]]                                          |
-|  11   | `=this.HinterhältigerAngriff.Stufe11 + "W6"` | [[Verlässliches Talent]]                                     |
+|  11   | `=this.HinterhältigerAngriff.Stufe11 + "W6"` | [[Verbesserter Raffinierter Schlag]]                         |
 |  12   | `=this.HinterhältigerAngriff.Stufe12 + "W6"` | [[Talente\|Talent]]                                          |
 |  13   | `=this.HinterhältigerAngriff.Stufe13 + "W6"` | Merkmal Schurkenarchetyp                                     |
-|  14   | `=this.HinterhältigerAngriff.Stufe14 + "W6"` | [[Blindgespür]]                                              |
+|  14   | `=this.HinterhältigerAngriff.Stufe14 + "W6"` | [[Überlegener Raffinierter Schlag]]                          |
 |  15   | `=this.HinterhältigerAngriff.Stufe15 + "W6"` | [[Entschlüpfender Geist]]                                    |
 |  16   | `=this.HinterhältigerAngriff.Stufe16 + "W6"` | [[Talente\|Talent]]                                          |
 |  17   | `=this.HinterhältigerAngriff.Stufe17 + "W6"` | Merkmal Schurkenarchetyp                                     |
@@ -68,11 +68,7 @@ HinterhältigerAngriff:
 - [[Leichte Rüstung]]
 
 ### Waffen
-- [[Einfache Waffen]]
-- [[Handarmbrust]]
-- [[Langschwert]]
-- [[Rapier]]
-- [[Kurzschwert]]
+- [[Schurkenwaffen]]
 
 ### Werkzeug
 - [[Diebeswerkzeug]]
@@ -83,25 +79,29 @@ HinterhältigerAngriff:
 
 ### Fertigkeiten
 - vier nach Wahl:
-	- [[Athletik]]
 	- [[Akrobatik]]
+	- [[Athletik]]
+	- [[Einschüchtern]]
 	- [[Fingerfertigkeit]]
 	- [[Heimlichkeit]]
-	- [[Nachforschungen]]
-	- [[Wahrnehmung]]
 	- [[Motiv erkennen]]
-	- [[Auftreten]]
-	- [[Einschüchtern]]
-	- [[Überzeugen]]
+	- [[Nachforschungen]]
 	- [[Täuschen]]
+	- [[Überzeugen]]
+	- [[Wahrnehmung]]
 
 ## Ausrüstung
-- ein [[Rapier]] oder ein [[Kurzschwert]]
-- ein [[Kurzbogen]] mit 20 Pfeilen oder ein [[Kurzschwert]]
-- [[Ausrüstungssets#Entdeckerausrüstung]] oder [[Ausrüstungssets#Gewölbeforscherausrüstung]] oder [[Ausrüstungssets#Entdeckerausrüstung]]
-- eine Lederrüstung
-- zwei [[Dolch]]e
-- ein [[Diebeswerkzeug]]
+- [[Lederrüstung]]
+- zwei [[Dolch|Dolche]]
+- [[Kurzschwert]]
+- ein [[Kurzbogen]] mit 20 Pfeilen
+- [[Einbrecherausrüstung]]
+- [[Diebeswerkzeug]]
+- 8 GM
+
+ODER 
+
+100 GM
 
 ## Klassenbeschreibung
 Ihren Gefährten signalisierend zu warten, kriecht eine Halbling-frau in eine Halle des Gewölbes. Sie drückt ihr Ohr an die Tür und holt dann einen Satz Werkzeuge hervor, mit dem sie das Schloss innerhalb eines kurzen Augenblicks knackt. Dann verschwindet sie in den Schatten, um dem Kämpfer ihrer Gruppe Platz zu machen, der die Tür mit einem Tritt aufstößt.

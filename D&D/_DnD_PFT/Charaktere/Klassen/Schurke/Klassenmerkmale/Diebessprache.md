@@ -1,17 +1,10 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Schurke
-- Sprache/Sonstige
-Typische_Völker:
-  - "[[Schurke|Schurken]]"
+  - Merkmal/Klasse/Schurke
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Während deiner Ausbildung zum Schurken hast du die [[Diebessprache]] erlernt. 
-Diese geheime Mischung aus Dialekt, Jargon und Codes erlaubt es dir, in einer scheinbar gewöhnlichen Unterhaltung Botschaften zu verstecken. 
-Nur eine andere Kreatur, die ebenfalls die [[Diebessprache]] beherrscht, kann diese Botschaften verstehen. 
-Das Mitteilen einer solchen Nachricht dauert vier Mal so lange, als wenn man deren Inhalt direkt formulieren würde.
-
-Außerdem ist dir ein Satz geheimer Zeichen und Symbole bekannt, mit denen du einfache, kurze Informationen übermitteln kannst, etwa ob ein Gebiet sicher ist oder ob es zum Territorium einer Diebesgilde gehört. 
-Auch ob man in der Nähe Beute machen kann, ob die Bevölkerung hier ein leichtes Ziele abgibt oder ob es einen Unterschlupf für Diebe auf der Flucht gibt.
+Du hast verschiedene Sprachen in den Gemeinschaften gelernt, in denen du dir deine Schurkentalente zugelegt hast. 
+Du beherrschst [[Gaunerzinken]] und eine andere [[Sprachen|Sprache]] deiner Wahl.

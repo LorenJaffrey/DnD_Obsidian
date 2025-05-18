@@ -1,9 +1,11 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Schurke
+  - Merkmal/Klasse/Schurke
+  - Regeln/PHB2024
 Einsatz: Passiv
 ---
 # `=this.file.name`
 *Du beherrscht deine geübten Fertigkeiten schon beinahe bis zur Perfektion.* 
-Immer wenn du einen [[Fertigkeiten#Fertigkeitswurf]] ablegst, der dich deinen [[Übung|Übungsbonus]] verwenden lässt, kannst du bei einem Würfelergebnis von 9 oder niedriger die 10 verwenden.
+
+Wann immer du einen [[Attribute#Attributswurf]] ausführst, der eine deiner [[Übung|Übungen]] in [[Fertigkeiten]] oder im Umgang mit [[Werkzeug|Werkzeugen]] nutzt, kannst du ein W20-Ergebnis von 9 oder darunter als 10 werten.
