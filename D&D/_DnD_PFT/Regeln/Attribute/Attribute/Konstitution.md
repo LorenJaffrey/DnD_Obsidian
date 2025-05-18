@@ -12,7 +12,9 @@ tags:
 Misst Gesundheit, Ausdauer und Lebenskraft. Kann den Versuch darstellen über die persönlichen Grenzen hinaus zu gehen.
 
 ## Konstitutionsmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Sonstige Tätigkeiten
 - die Luft anhalten

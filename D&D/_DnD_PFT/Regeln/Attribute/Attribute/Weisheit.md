@@ -14,7 +14,9 @@ Repräsentiert Wahrnehmung und Intuition.
 Wird benötigt um Körpersprache oder Gefühle einer Person zu verstehen, Dinge in der Umgebung zu bemerken oder um Verletzte zu kümmern.
 
 ## Weisheitsmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview

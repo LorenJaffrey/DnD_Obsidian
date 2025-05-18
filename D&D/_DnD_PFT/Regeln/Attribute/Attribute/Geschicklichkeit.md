@@ -13,7 +13,9 @@ tags:
 Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 
 ## Geschicklichkeitsmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview

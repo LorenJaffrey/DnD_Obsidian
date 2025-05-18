@@ -14,7 +14,9 @@ Dazu gehören Faktoren wie Selbstvertrauen und Beredsamkeit.
 Charismawürfe werden nötig um andere zu beeinflussen oder zu unterhalten, Eindruck zu schinden, mit einer Lüge zu überzeugen oder eine schwierige soziale Situation zu meistern.
 
 ## Charismamodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview

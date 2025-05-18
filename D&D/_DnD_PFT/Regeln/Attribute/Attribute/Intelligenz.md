@@ -15,7 +15,9 @@ Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
 Intelligenzwurf wird notwendig wenn Logik, Buildung, Gedächtnis oder deduktives Denken erforderlich sind.
 
 ## Intelligenzmodifikator
-![[Attribute#Attributsmodifikator]]
+```dynamic-embed
+[[embed Attributsmodifikator]]
+```
 
 ## Verbundene Fertigkeiten
 ```dataview
