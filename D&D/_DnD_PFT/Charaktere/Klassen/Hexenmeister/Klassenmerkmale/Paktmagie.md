@@ -1,18 +1,25 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister
+- Merkmal
+- Regeln/PHB2024
 ---
 # `=this.file.name`
-*Aufgrund deiner arkanen Forschungen und der Magie, die dir durch deinen Schutzherren verliehen wird, besitzt du die Fähigkeit, Zauber zu wirken.* 
+*In einer okkulten Zeremonie hast du einen Pakt mit einer mysteriösen Wesenheit geschlossen, um magische Kräfte zu erhalten.
+Diese Wesenheit ist eine Stimme in den Schatten, ihre Identität ist unklar - doch ihre Gabe für dich ist konkret: die Fähigkeit, Zauber zu wirken.* 
+
+Du erhältst die Fähigkeit [[Zauber wirken|Zauber zu wirken]].
+Folgende Informationen erklären, wie du diese Regeln mit den Hexenmeisterzaubern verwendest, die in der [[Zauberliste des Hexenmeisters]] aufgeführt sind.
 
 ## Zaubertricks
-Zu Beginn sind dir zwei beliebige [[Zaubertricks]] aus der [[Zauberliste des Hexenmeisters|Zauberliste des Hexenmeisters]] bekannt. 
-Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte [[Zaubertricks]] in der [[Hexenmeister#Klassentabelle|Klassentabelle des Hexenmeisters]] angegeben ist.
+Zu Beginn sind dir zwei beliebige [[Zaubertricks]] aus der [[Zauberliste des Hexenmeisters]] bekannt. 
+Weitere [[Zaubertricks]] lernst du auf höheren Stufen, so wie es in der Spalte für bekannte [[Zaubertricks]] in der [[Hexenmeister#Klassentabelle|Klassentabelle des Hexenmeisters]] angegeben ist.
+[[Schauriger Strahl]] und [[Taschenspielerei]] werden empfohlen. 
+Wann immer du eine Hexenmeisterstufe erhältst, kannst du einen deiner [[Zaubertricks]] dieses Merkmals durch einen anderen Hexenmeisterzaubertrick deiner Wahl ersetzen.
 
 ## Zauberplätze
-Die [[Hexenmeister#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] dir auf jeder Stufe zum Wirken deiner Hexenmeisterzauber des 1. bis 5. Grades zur Verfügung stehen und welchen Grad diese haben. 
-All deine Zauberplätze besitzen den gleichen [[Zaubergrad|Grad]].
+Die [[Hexenmeister#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] dir auf jeder Stufe zum Wirken deiner Hexenmeisterzauber des 1. bis 5. [[Zaubergrad|Grades]] zur Verfügung stehen und welchen [[Zaubergrad|Grad]] diese haben. 
+All deine [[Zauberplätze]] besitzen den gleichen [[Zaubergrad|Grad]].
 
 ## Bekannte Zauber
 Auf Stufe 1 kennst du zwei frei wählbare Zauber des 1. [[Zaubergrad|Grades]] aus der [[Zauberliste des Hexenmeisters]].
