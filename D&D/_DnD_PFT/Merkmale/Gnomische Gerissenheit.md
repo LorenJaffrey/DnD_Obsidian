@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Merkmal/Volk
+  - Merkmal
 Einsatz: Passiv
 ---
 # `=this.file.name`

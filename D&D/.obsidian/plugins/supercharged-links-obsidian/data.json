@@ -30,9 +30,9 @@
       "match": "exact",
       "uid": "11d9-9167",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
     },
     {
       "type": "tag",
@@ -66,9 +66,69 @@
       "match": "exact",
       "uid": "d2cb-d9fd",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Größenkategorie",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "9f77-7be1",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Sprache",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "bd47-63b5",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Merkmal",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "05ed-aca6",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Aktion",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a149-f253",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Liste/Waffen",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "44c7-6be5",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }

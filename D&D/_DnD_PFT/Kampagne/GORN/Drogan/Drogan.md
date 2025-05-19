@@ -83,11 +83,7 @@ Aussehen:
   Haarfarbe: Orange
   Hautfarbe: Sandfarben
 Merkmale:
-  - "[[Zwergisches Kampftraining]]"
-  - "[[Handwerkliches Geschick]]"
-  - "[[Zwergische Rüstungsvertrautheit]]"
   - "[[Dunkelsicht]]"
-  - "[[Unempfindlichkeit]]"
   - "[[Steingespür]]"
   - "[[Kampfrausch]]"
   - "[[Ungerüstete Verteidigung]]"

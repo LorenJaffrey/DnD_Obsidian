@@ -97,8 +97,9 @@ Merkmale:
   - "[[Raffinierte Aktion]]"
   - "[[Zielsicher]]"
   - "[[Unglaubliches Ausweichen]]"
-Talente:
   - "[[Verschwinden]]"
+Talente:
+  - "[[Gnomisches Verschwinden]]"
 Hintergrund:
   Bild: "[[Niptac_portrait.jpeg]]"
   Video: "[[Niptac_animated.mp4]]"

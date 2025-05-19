@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Merkmal/Spezies/Gnom/Felsengnom
+  - Merkmal
   - Regeln/PHB2024
 Einsatz: Passiv
 ---

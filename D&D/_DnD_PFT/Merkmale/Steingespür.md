@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Merkmal/Spezies/Zwerg
+  - Merkmal
   - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---

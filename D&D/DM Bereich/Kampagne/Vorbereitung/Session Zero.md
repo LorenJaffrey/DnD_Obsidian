@@ -53,7 +53,7 @@ Vorbesprechung für Abenteuer
 - grundsätzliches Ziel / Motivation der Figur
 - Leitfaden [[Hintergrundgeschichte]] als Hilfe
 - vorgfertigte DnD [[Herkunft]] als Anregung
-- [[Charaktererschaffung]] mit jedem einzeln
+- [[Charaktererstellung]] mit jedem einzeln
 - DON'Ts
 	- keine Einzelgänger bauen
 	- keine bösen Charaktere bauen
