@@ -2,6 +2,7 @@
 aliases: 
 tags:
   - Merkmal/Klasse/Zauberer
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 

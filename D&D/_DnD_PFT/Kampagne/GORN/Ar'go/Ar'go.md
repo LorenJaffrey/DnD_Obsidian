@@ -125,7 +125,7 @@ Zauber:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: false
+  GlücksPunkt3: true
   GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
@@ -181,9 +181,12 @@ InputData:
 tags:
   - Charakter/GORN
 ---
+> [!infobox|]
+> ```dynamic-embed
+> [[embed RadarChart]]
+> ```
 
-
-> [!infobox]
+> [!infobox|left]
 > ![[Argo_portrait.jpeg| 0]]
 >  
 > ```dynamic-embed
@@ -219,6 +222,38 @@ tags:
 >> [[embed Character Sheet Level Abschnitt]]
 >> ```
 > 
+>---
+>> [!important | bg-c-plain c-custom-red ]- BONUS/BEWEGUNG
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Übung</h2>`); 
+>> ```
+>> ```dynamic-embed
+>> [[embed Character Sheet Parameter]]
+>> ```
+>>
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Bewegung</h2>`); 
+>> ```
+>> ```dynamic-embed
+>> [[embed Character Sheet Bewegung]]
+>> ```
+>---
+>> [!important | bg-c-plain c-custom-red ]- ZAUBERPLÄTZE
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zauberplätze</h2>`); 
+>> ```
+>>  
+>> ```dynamic-embed
+>> [[embed Character Sheet Zauberplätze]]
+>> ```
+>>
+>> ```dataviewjs 
+>> dv.el('h2', `<h2>Zaubereipunkte</h2>`); 
+>> ```
+>> 
+>> ```dynamic-embed
+>> [[embed Character Sheet Zaubereipunkte]]
+>> ```
 > ---
 >
 >> [!info | bg-c-plain c-custom-lightblue]- CHARAKTER-ÜBUNG
@@ -239,10 +274,6 @@ tags:
 >> ```
 >> 
 >---
-
-```dynamic-embed
-[[embed Infobox Left Zauberer]]
-```
 
 # `=this.Hintergrund.Name`
 
@@ -273,6 +304,69 @@ tags:
 >>>>    - +1 auf [[Angriffswurf|Angriffswürfe]] und [[Schadenswurf|Schadenswürfe]] für [[Schallschaden]]
 >>>>      (dieser Bonus erhöht sich um +1 für jedes weitere Fragment des Tempestus Kristalls im Besitz des Trägers)
 >>
+
+> [!important | bg-c-plain c-custom-red ]- MAGIE
+>>[!column | 2 flex no-title]
+>>> ### Zauberangriff / Zauber wirken
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberangriff]]
+>>> ```
+>>> 
+>>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf\|RW]] | Erholung  |
+>>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+>>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
+>>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
+>>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
+>>>| Positions-</br>kontrolle | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
+>>>| Verteidigung | `INPUT[toggle:InputData.Klingenbann]` | - | - | [[Klingenbann]] | [[Aktion]] | 1 Minute | - | - `dice:1d4` <br/>(Angriffswurf des Gegners)  | Selbst | - | -  | - | - |
+>>>| Verteidigung | `INPUT[toggle:InputData.MagierRüstung]` | - | - | [[Magierrüstung]] | [[Aktion]] | 8 Stunden | - | -  | Selbst | - | -  | - | - |
+>>>| Verteidigung | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
+>>> 
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberspruch Übersicht]]
+>>> ```
+>>
+
+
+> [!important | bg-c-plain c-custom-red ]- FÄHIGKEITEN
+>> [!column | 2  no-title]
+>>> ### Merkmale
+>>>> [!column | 2 no-title]
+>>>>> ![[Stürmische Magie | no-title]]
+>>>>> ![[Magische Führung | no-title]]
+>>>>
+>>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]
+>>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
+>>>
+>>>> ![[Drakonischer Flug | no-title]] 
+>> 
+>>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>>> [!column | 2 no-title] 
+>>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>>
+>>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten]]
+>>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
+>>>
+>>> ### Metamagie
+>>>> [!column | 2 no-title]
+>>>>> ![[Weitreichender Zauber | no-title]]
+>>>>
+>>>>> ![[Beschleunigter Zauber | no-title]]
+
+
+> [!important | bg-c-plain c-custom-red ]- WAFFEN
+>> [!column | 3 flex  no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Nahkampf]]
+>>> ```
+>>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Fernkampf]]
+>>> ```
+>>> 
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Wurf]]
+>>> ```
 
 
 >[!caution | bg-c-plain c-custom-lightblue]- ATTRIBUTE
@@ -338,68 +432,6 @@ tags:
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Merkmale Passiv]]
 >>> ```
-
-
-> [!important | bg-c-plain c-custom-red ]- WAFFEN
->> [!column | 3 flex  no-title]
->>> ```dynamic-embed
->>> [[embed Character Sheet Angriff Nahkampf]]
->>> ```
->>>
->>> ```dynamic-embed
->>> [[embed Character Sheet Angriff Fernkampf]]
->>> ```
->>> 
->>> ```dynamic-embed
->>> [[embed Character Sheet Angriff Wurf]]
->>> ```
-
-
-> [!important | bg-c-plain c-custom-red ]- MAGIE
->>[!column | 2 flex no-title]
->>> ### Zauberangriff / Zauber wirken
->>> ```dynamic-embed
->>> [[embed Character Sheet Zauberangriff]]
->>> ```
->>> 
->>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf\|RW]] | Erholung  |
->>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
->>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
->>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
->>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
->>>| Positions-</br>kontrolle | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
->>>| Verteidigung | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
->>> 
->>> ```dynamic-embed
->>> [[embed Character Sheet Zauberspruch Übersicht]]
->>> ```
->>
-
-
-> [!important | bg-c-plain c-custom-red ]- FÄHIGKEITEN
->> [!column | 2  no-title]
->>> ### Merkmale
->>>> [!column | 2 no-title]
->>>>> ![[Stürmische Magie | no-title]]
->>>>> ![[Magische Führung | no-title]]
->>>>
->>>>> ![[Quelle der Magie#Zauberplätze erschaffen]]
->>>>> ![[Quelle der Magie#Zauberplätze in Zaubereipunkte umwandeln]]
->>>
->>>> ![[Drakonischer Flug | no-title]] 
->> 
->>> ### Talente ([[Kampferprobter Zauberwirker]])
->>>> [!column | 2 no-title] 
->>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
->>>>
->>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten]]
->>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
->>>
->>> ### Metamagie
->>>> [!column | 2 no-title]
->>>>> ![[Weitreichender Zauber | no-title]]
->>>>
->>>>> ![[Beschleunigter Zauber | no-title]]
 
 
 > [!info | bg-c-plain]- PERSÖNLICHKEIT / MAIN-QUEST

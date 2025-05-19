@@ -1,8 +1,36 @@
-|                  Aktiv                   |                                                                   Rüstung                                                                    |                                                                                                                            [[Rüstungsklasse]]                                                                                                                             |                                                        [[Schadensreduktion]]                                                         |
-|:----------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|
-| `INPUT[toggle:InputData.NormaleRüstung]` | `=this.Verteidigung.Rüstung` `=choice(this.Verteidigung.Schild, ", ", "")` `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild, "")` | `=this.Verteidigung.Natürliche_Rüstung+floor(((this.Attribute.Geschicklichkeit)-10)/2)+choice(this.Verteidigung.Rüstung.RP, this.Verteidigung.Rüstung.RP, 0)+this.Verteidigung.Zusätzliche_Rüstung` + `=choice(this.Verteidigung.Schild, this.Verteidigung.Schild.RP, 0)` | `=choice(this.Verteidigung.Rüstung.SR, this.Verteidigung.Rüstung.SR, 0)` + `=choice(this.Schild.SR, this.Verteidigung.Schild.SR, 0)` |
-| `INPUT[toggle:InputData.MagierRüstung]`  |                                                              [[Magierrüstung]]                                                               |                                                                                                           `=13+floor(((this.Attribute.Geschicklichkeit)-10)/2)`                                                                                                           |                                                                  -                                                                   |
-|  `INPUT[toggle:InputData.Klingenbann]`   |                                                               [[Klingenbann]]                                                                |                                                                                                                  - `dice:1d4` <br/>(Angriffswurf des Gegners)                                                                                                                  |                                                                  -                                                                   |
+```dataviewjs
+const page = dv.current();
+
+const input = page.InputData ?? {};
+const attr = page.Attribute ?? {};
+const def = page.Verteidigung ?? {};
+
+const geschickMod = Math.floor(((attr.Geschicklichkeit ?? 10) - 10) / 2);
+const zusatzRüstung = def.Zusätzliche_Rüstung ?? 0;
+
+let rüstungsklasse = 0;
+if (input.MagierRüstung === true) {
+    const schild = def.Schild?.RP ?? def.Schild ?? 0;
+    rüstungsklasse = 13 + geschickMod + schild + zusatzRüstung;
+} else {
+    const natRüstung = def.Natürliche_Rüstung ?? 0;
+    const rüstungRP = def.Rüstung?.RP ?? def.Rüstung ?? 0;
+    rüstungsklasse = natRüstung + geschickMod + rüstungRP + zusatzRüstung;
+}
+
+// Schadensreduktion berechnen
+const rüstungSR = def.Rüstung?.SR ?? 0;
+const schildSR = def.Schild?.SR ?? 0;
+const schadensreduktion = rüstungSR + schildSR;
+
+// Markdown-Tabelle erzeugen
+let table = `| [[Rüstungsklasse]] | [[Schadensreduktion]] |\n`;
+table += `| :--------------------: | :------------------------: |\n`;
+table += `| ${rüstungsklasse}           | ${schadensreduktion}                  |\n`;
+
+dv.paragraph(table);
+
+```
 
 |    Beschreibung     |           Bonus (bereits eingerechnet)           |
 |:-------------------:|:------------------------------------------------:|
