@@ -95,5 +95,9 @@
   "supercharged-links@@a149-f253-weight": "lighter",
   "supercharged-links@@44c7-6be5-weight": "lighter",
   "supercharged-links@@44c7-6be5-color": "#AAAAAA",
-  "supercharged-links@@44c7-6be5-before": " 🗡️ "
+  "supercharged-links@@44c7-6be5-before": " 🗡️ ",
+  "supercharged-links@@05ed-aca6-color": "#AC7C26",
+  "supercharged-links@@2183-693f-before": "🛠️",
+  "supercharged-links@@2183-693f-color": "#008F7A",
+  "supercharged-links@@2183-693f-weight": "lighter"
 }

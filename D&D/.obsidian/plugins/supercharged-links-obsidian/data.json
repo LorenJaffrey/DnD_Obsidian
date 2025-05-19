@@ -18,9 +18,9 @@
       "match": "exact",
       "uid": "92f7-35e3",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
     },
     {
       "type": "tag",
@@ -54,9 +54,9 @@
       "match": "exact",
       "uid": "24e5-53b9",
       "selectText": true,
-      "selectAppend": true,
+      "selectAppend": false,
       "selectPrepend": true,
-      "selectBackground": true
+      "selectBackground": false
     },
     {
       "type": "tag",
@@ -125,6 +125,18 @@
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "44c7-6be5",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Werkzeug",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2183-693f",
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": true,
