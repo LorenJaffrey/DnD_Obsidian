@@ -3,6 +3,7 @@ aliases:
   - Mirror Image
 tags:
   - Zauber
+  - Regeln/PHB2024
 Grad: 2
 Schule: "[[Illusionszauber|Illusion]]"
 Zeitaufwand: "[[Aktion]]"

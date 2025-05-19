@@ -1,8 +1,8 @@
 ---
 aliases:
-  - 
 tags:
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 3
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"

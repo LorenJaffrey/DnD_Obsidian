@@ -3,6 +3,7 @@ aliases:
   - Witch Bolt
 tags:
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"

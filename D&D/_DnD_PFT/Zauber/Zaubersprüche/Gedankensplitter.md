@@ -3,6 +3,7 @@ aliases:
   - Ray of Frost
 tags:
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 0
 Schule: "[[Verzauberungen|Verzauberung]]"
 Zeitaufwand: "[[Aktion]]"

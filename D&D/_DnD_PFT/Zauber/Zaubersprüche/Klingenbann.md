@@ -3,6 +3,7 @@ aliases:
   - Blade Ward
 tags:
   - Zauber
+  - Regeln/PHB2024
 Grad: 0
 Schule: "[[Bannzauber|Bannmagie]]"
 Zeitaufwand: "[[Aktion]]"

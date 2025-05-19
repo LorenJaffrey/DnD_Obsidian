@@ -2,6 +2,7 @@
 aliases: 
 tags: 
   - Zauber
+  - Regeln/PHB2024
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
 Zeitaufwand: "[[Aktion]]"
