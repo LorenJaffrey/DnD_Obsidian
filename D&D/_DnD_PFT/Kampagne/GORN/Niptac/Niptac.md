@@ -5,7 +5,7 @@ Niptac:
     - "[[Gnomischer Flammenwerfer]]"
     - "[[Kobold Blitzwerfer]]"
     - "[[Gnomische Nebelbombe]]"
-Bewegung: 5
+Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 0
@@ -43,18 +43,18 @@ Rettungswürfe:
   Weisheit: 0
   Charisma: 0
 Fertigkeiten:
-  Akrobatik: 0
+  Akrobatik: 1
   Arkane_Kunde: 0
   Athletik: 0
-  Auftreten: 0
+  Auftreten: 1
   Einschüchtern: 0
   Fingerfertigkeit: 2
   Geschichte: 0
   Heilkunde: 0
   Heimlichkeit: 1
   Mit_Tieren_umgehen: 0
-  Motiv_erkennen: 0
-  Nachforschungen: 0
+  Motiv_erkennen: 1
+  Nachforschungen: 1
   Naturkunde: 0
   Religion: 0
   Täuschen: 2
@@ -65,7 +65,9 @@ Fertigkeiten:
   Sprachen:
     - "[[Gemeinsprache]]"
     - "[[Gnomisch]]"
-    - "[[Diebessprache]]"
+    - "[[Goblinisch]]"
+    - "[[Zwergisch]]"
+    - "[[Gaunerzinken]]"
   Werkzeuge:
     - "[[Diebeswerkzeug]]"
     - "[[Tüftlerwerkzeug]]"
@@ -91,27 +93,27 @@ Merkmale:
   - "[[Dunkelsicht]]"
   - "[[Gnomische Gerissenheit]]"
   - "[[Artefaktkunde]]"
-  - "[[Tüftler]]"
   - "[[Hinterhältiger Angriff]]"
   - "[[Mechanische Apparaturen]]"
   - "[[Raffinierte Aktion]]"
   - "[[Zielsicher]]"
   - "[[Unglaubliches Ausweichen]]"
   - "[[Verschwinden]]"
+  - "[[Raffinierter Schlag]]"
 Talente:
   - "[[Gnomisches Verschwinden]]"
+  - "[[Begabt]]"
 Hintergrund:
   Bild: "[[Niptac_portrait.jpeg]]"
   Video: "[[Niptac_animated.mp4]]"
   Name: Niptac
-  Volk: "[[Gnome|Gnom]]"
+  Volk: "[[Felsengnome|Felsengnom]]"
   Klasse: "[[Schurke]]"
   Subklasse: "[[Meistertüftler]]"
   Gesinnung: "[[Neutral Gut]]"
   Herkunft: "[[Scharlatan]]"
 Persönlichkeit:
-  Persönlichkeitsmerkmale:
-    - Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
+  Persönlichkeitsmerkmale: Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.
   Ideale: Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe.
   Bindungen: Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.
   Makel: Ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.
@@ -130,9 +132,9 @@ InputData:
   Fähigkeiten:
     Verschwinden: false
   Apparaturen:
-    Ladung1: false
+    Ladung1: true
     Ladung2: false
-    Ladung3: false
+    Ladung3: true
 tags:
   - Charakter/GORN
 aliases: 
@@ -238,7 +240,7 @@ aliases:
 >> ```dynamic-embed
 >> [[embed Character Sheet Merkmale Passiv]]
 >> ```
-
+[[Artefaktkunde]] wird mit Intelligenzmodifikator ausgeführt
 ## Übung
 > [!column | 2 no-title]
 >> ```dynamic-embed
@@ -310,3 +312,6 @@ actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
+
+- [ ] Raffinierter Schlag zu Cooldowns hinzufügen
+- [ ] Tüftlerwurf automatisieren

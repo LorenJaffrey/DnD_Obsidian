@@ -6,7 +6,7 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Du hast raffinierte Methoden entwickelt, deinen [[Hinterhältiger Angriff|Hinterhältigen Angriff]]einzusetzen.
+Du hast raffinierte Methoden entwickelt, deinen [[Hinterhältiger Angriff|Hinterhältigen Angriff]] einzusetzen.
 Wenn du mit diesem Schaden bewirkst, kannst du **EINEN** der folgenden Effekte von [[Raffinierter Schlag]] hinzufügen. 
 Jeder Effekt hat Würfelkosten in Form der Schadenswürfel für [[Hinterhältiger Angriff]], auf die du verzichten musst, um den Effekt hinzuzufügen. 
 Du musst diese Würfel vor dem Wurf entfernen, und der Effekt tritt auf, sobald der Schaden des Angriffs bewirkt wurde. 
