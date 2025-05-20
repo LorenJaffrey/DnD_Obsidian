@@ -1,6 +1,7 @@
 ---
 aliases: 
   - Zuges
+  - Züge
 ---
 # `=this.file.name`
 In einem Zug kann eine Kreatur jeweils eine der folgenden Aktivitäten ausführen:

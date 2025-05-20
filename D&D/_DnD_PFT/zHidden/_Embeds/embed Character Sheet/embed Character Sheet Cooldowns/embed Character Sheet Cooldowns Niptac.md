@@ -1,7 +1,7 @@
-|                               |                                                                                                                       |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [[Gnomisches Verschwinden#Verschwinden]] | `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]`                                                                    |
-| [[Hinterhältiger Angriff]]    | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
+|                            |                                                                                                                       |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [[Verschwinden]]           | `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]`                                                                    |
+| [[Hinterhältiger Angriff]] | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
 
 #### Apparaturen (max `=ceil(this.Stufe/2)`)
 | Apparatur 1                                   | Apparatur 2                                   | Apparatur 3                                   |

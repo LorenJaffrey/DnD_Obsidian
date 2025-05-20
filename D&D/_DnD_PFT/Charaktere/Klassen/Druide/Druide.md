@@ -10,96 +10,96 @@ Hauptattribut:
 - "[[Weisheit]]"
 Komplexität: Hoch
 Zauberattribut: "[[Weisheit]]"
-Art_Bekannte_Zauber: Berechnet
+Art_Bekannte_Zauber: Tabelle
 Zauberplätze:
   Stufe1:
     Grad0: 2
     Grad1: 2
-    Grad2: 0
-    Grad3: 0
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad2: 
+    Grad3: 
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe2:
     Grad0: 2
     Grad1: 3
-    Grad2: 0
-    Grad3: 0
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad2: 
+    Grad3: 
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe3:
     Grad0: 2
     Grad1: 4
     Grad2: 2
-    Grad3: 0
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad3: 
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe4:
     Grad0: 3
     Grad1: 4
     Grad2: 3
-    Grad3: 0
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad3: 
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe5:
     Grad0: 3
     Grad1: 4
     Grad2: 3
     Grad3: 2
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe6:
     Grad0: 3
     Grad1: 4
     Grad2: 3
     Grad3: 3
-    Grad4: 0
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad4: 
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe7:
     Grad0: 3
     Grad1: 4
     Grad2: 3
     Grad3: 3
     Grad4: 1
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe8:
     Grad0: 3
     Grad1: 4
     Grad2: 3
     Grad3: 3
     Grad4: 2
-    Grad5: 0
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad5: 
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe9:
     Grad0: 3
     Grad1: 4
@@ -107,10 +107,10 @@ Zauberplätze:
     Grad3: 3
     Grad4: 3
     Grad5: 1
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe10:
     Grad0: 4
     Grad1: 4
@@ -118,10 +118,10 @@ Zauberplätze:
     Grad3: 3
     Grad4: 3
     Grad5: 2
-    Grad6: 0
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad6: 
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe11:
     Grad0: 4
     Grad1: 4
@@ -130,9 +130,9 @@ Zauberplätze:
     Grad4: 3
     Grad5: 2
     Grad6: 1
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe12:
     Grad0: 4
     Grad1: 4
@@ -141,9 +141,9 @@ Zauberplätze:
     Grad4: 3
     Grad5: 2
     Grad6: 1
-    Grad7: 0
-    Grad8: 0
-    Grad9: 0
+    Grad7: 
+    Grad8: 
+    Grad9: 
   Stufe13:
     Grad0: 4
     Grad1: 4
@@ -153,8 +153,8 @@ Zauberplätze:
     Grad5: 2
     Grad6: 1
     Grad7: 1
-    Grad8: 0
-    Grad9: 0
+    Grad8: 
+    Grad9: 
   Stufe14:
     Grad0: 4
     Grad1: 4
@@ -164,8 +164,8 @@ Zauberplätze:
     Grad5: 2
     Grad6: 1
     Grad7: 1
-    Grad8: 0
-    Grad9: 0
+    Grad8: 
+    Grad9: 
   Stufe15:
     Grad0: 4
     Grad1: 4
@@ -176,7 +176,7 @@ Zauberplätze:
     Grad6: 1
     Grad7: 1
     Grad8: 1
-    Grad9: 0
+    Grad9: 
   Stufe16:
     Grad0: 4
     Grad1: 4
@@ -187,7 +187,7 @@ Zauberplätze:
     Grad6: 1
     Grad7: 1
     Grad8: 1
-    Grad9: 0
+    Grad9: 
   Stufe17:
     Grad0: 4
     Grad1: 4
@@ -232,33 +232,76 @@ Zauberplätze:
     Grad7: 2
     Grad8: 1
     Grad9: 1
+Tiergestalt:
+  Stufe1:
+  Stufe2: 2
+  Stufe3: 2
+  Stufe4: 2
+  Stufe5: 2
+  Stufe6: 3
+  Stufe7: 3
+  Stufe8: 3
+  Stufe9: 3
+  Stufe10: 3
+  Stufe11: 3
+  Stufe12: 3 
+  Stufe13: 3
+  Stufe14: 3
+  Stufe15: 3
+  Stufe16: 3
+  Stufe17: 4
+  Stufe18: 4
+  Stufe19: 4
+  Stufe20: 4
+Vorbereitete_Zauber:
+  Stufe1: 4
+  Stufe2: 5
+  Stufe3: 6
+  Stufe4: 7
+  Stufe5: 9
+  Stufe6: 10
+  Stufe7: 11
+  Stufe8: 12
+  Stufe9: 14
+  Stufe10: 15
+  Stufe11: 16
+  Stufe12: 16
+  Stufe13: 17
+  Stufe14: 17
+  Stufe15: 18
+  Stufe16: 18
+  Stufe17: 19
+  Stufe18: 20
+  Stufe19: 21
+  Stufe20: 22
 ---
 # `=this.file.name`
 
 ## Klassentabelle
 
-| Stufe | Merkmale                                          |            Zaubertricks            |                 1.                 |                 2.                 |                 3.                 |                 4.                 |                 5.                 |                 6.                 |                 7.                 |                 8.                 |                 9.                 |
-|:-----:| ------------------------------------------------- |:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
-|   1   | [[Druidisch]], [[Druidisches Zauberwirken]]       | `=this.Zauberplätze.Stufe1.Grad0`  | `=this.Zauberplätze.Stufe1.Grad1`  | `=this.Zauberplätze.Stufe1.Grad2`  | `=this.Zauberplätze.Stufe1.Grad3`  | `=this.Zauberplätze.Stufe1.Grad4`  | `=this.Zauberplätze.Stufe1.Grad5`  | `=this.Zauberplätze.Stufe1.Grad6`  | `=this.Zauberplätze.Stufe1.Grad7`  | `=this.Zauberplätze.Stufe1.Grad8`  | `=this.Zauberplätze.Stufe1.Grad9`  |
-|   2   | [[Tiergestalt]], [[Wilder Gefährte]]              | `=this.Zauberplätze.Stufe2.Grad0`  | `=this.Zauberplätze.Stufe2.Grad1`  | `=this.Zauberplätze.Stufe2.Grad2`  | `=this.Zauberplätze.Stufe2.Grad3`  | `=this.Zauberplätze.Stufe2.Grad4`  | `=this.Zauberplätze.Stufe2.Grad5`  | `=this.Zauberplätze.Stufe2.Grad6`  | `=this.Zauberplätze.Stufe2.Grad7`  | `=this.Zauberplätze.Stufe2.Grad8`  | `=this.Zauberplätze.Stufe2.Grad9`  |
-|   3   | [[Druidenzirkel\|Druidenzirkel]]                  | `=this.Zauberplätze.Stufe3.Grad0`  | `=this.Zauberplätze.Stufe3.Grad1`  | `=this.Zauberplätze.Stufe3.Grad2`  | `=this.Zauberplätze.Stufe3.Grad3`  | `=this.Zauberplätze.Stufe3.Grad4`  | `=this.Zauberplätze.Stufe3.Grad5`  | `=this.Zauberplätze.Stufe3.Grad6`  | `=this.Zauberplätze.Stufe3.Grad7`  | `=this.Zauberplätze.Stufe3.Grad8`  | `=this.Zauberplätze.Stufe3.Grad9`  |
-|   4   | [[Talente\|Talent]], [[Vielseitige Zaubertricks]] | `=this.Zauberplätze.Stufe4.Grad0`  | `=this.Zauberplätze.Stufe4.Grad1`  | `=this.Zauberplätze.Stufe4.Grad2`  | `=this.Zauberplätze.Stufe4.Grad3`  | `=this.Zauberplätze.Stufe4.Grad4`  | `=this.Zauberplätze.Stufe4.Grad5`  | `=this.Zauberplätze.Stufe4.Grad6`  | `=this.Zauberplätze.Stufe4.Grad7`  | `=this.Zauberplätze.Stufe4.Grad8`  | `=this.Zauberplätze.Stufe4.Grad9`  |
-|   5   | [[Verbesserte Tiergestalt]]                       | `=this.Zauberplätze.Stufe5.Grad0`  | `=this.Zauberplätze.Stufe5.Grad1`  | `=this.Zauberplätze.Stufe5.Grad2`  | `=this.Zauberplätze.Stufe5.Grad3`  | `=this.Zauberplätze.Stufe5.Grad4`  | `=this.Zauberplätze.Stufe5.Grad5`  | `=this.Zauberplätze.Stufe5.Grad6`  | `=this.Zauberplätze.Stufe5.Grad7`  | `=this.Zauberplätze.Stufe5.Grad8`  | `=this.Zauberplätze.Stufe5.Grad9`  |
-|   6   | Merkmal Druidenzirkel                             | `=this.Zauberplätze.Stufe6.Grad0`  | `=this.Zauberplätze.Stufe6.Grad1`  | `=this.Zauberplätze.Stufe6.Grad2`  | `=this.Zauberplätze.Stufe6.Grad3`  | `=this.Zauberplätze.Stufe6.Grad4`  | `=this.Zauberplätze.Stufe6.Grad5`  | `=this.Zauberplätze.Stufe6.Grad6`  | `=this.Zauberplätze.Stufe6.Grad7`  | `=this.Zauberplätze.Stufe6.Grad8`  | `=this.Zauberplätze.Stufe6.Grad9`  |
-|   7   |                                                   | `=this.Zauberplätze.Stufe7.Grad0`  | `=this.Zauberplätze.Stufe7.Grad1`  | `=this.Zauberplätze.Stufe7.Grad2`  | `=this.Zauberplätze.Stufe7.Grad3`  | `=this.Zauberplätze.Stufe7.Grad4`  | `=this.Zauberplätze.Stufe7.Grad5`  | `=this.Zauberplätze.Stufe7.Grad6`  | `=this.Zauberplätze.Stufe7.Grad7`  | `=this.Zauberplätze.Stufe7.Grad8`  | `=this.Zauberplätze.Stufe7.Grad9`  |
-|   8   | [[Talente\|Talent]], [[Vielseitige Zaubertricks]] | `=this.Zauberplätze.Stufe8.Grad0`  | `=this.Zauberplätze.Stufe8.Grad1`  | `=this.Zauberplätze.Stufe8.Grad2`  | `=this.Zauberplätze.Stufe8.Grad3`  | `=this.Zauberplätze.Stufe8.Grad4`  | `=this.Zauberplätze.Stufe8.Grad5`  | `=this.Zauberplätze.Stufe8.Grad6`  | `=this.Zauberplätze.Stufe8.Grad7`  | `=this.Zauberplätze.Stufe8.Grad8`  | `=this.Zauberplätze.Stufe8.Grad9`  |
-|   9   | [[Überlegene Tiergestalt]]                        | `=this.Zauberplätze.Stufe9.Grad0`  | `=this.Zauberplätze.Stufe9.Grad1`  | `=this.Zauberplätze.Stufe9.Grad2`  | `=this.Zauberplätze.Stufe9.Grad3`  | `=this.Zauberplätze.Stufe9.Grad4`  | `=this.Zauberplätze.Stufe9.Grad5`  | `=this.Zauberplätze.Stufe9.Grad6`  | `=this.Zauberplätze.Stufe9.Grad7`  | `=this.Zauberplätze.Stufe9.Grad8`  | `=this.Zauberplätze.Stufe9.Grad9`  |
-|  10   | Merkmal Druidenzirkel                             | `=this.Zauberplätze.Stufe10.Grad0` | `=this.Zauberplätze.Stufe10.Grad1` | `=this.Zauberplätze.Stufe10.Grad2` | `=this.Zauberplätze.Stufe10.Grad3` | `=this.Zauberplätze.Stufe10.Grad4` | `=this.Zauberplätze.Stufe10.Grad5` | `=this.Zauberplätze.Stufe10.Grad6` | `=this.Zauberplätze.Stufe10.Grad7` | `=this.Zauberplätze.Stufe10.Grad8` | `=this.Zauberplätze.Stufe10.Grad9` |
-|  11   | ---                                               | `=this.Zauberplätze.Stufe11.Grad0` | `=this.Zauberplätze.Stufe11.Grad1` | `=this.Zauberplätze.Stufe11.Grad2` | `=this.Zauberplätze.Stufe11.Grad3` | `=this.Zauberplätze.Stufe11.Grad4` | `=this.Zauberplätze.Stufe11.Grad5` | `=this.Zauberplätze.Stufe11.Grad6` | `=this.Zauberplätze.Stufe11.Grad7` | `=this.Zauberplätze.Stufe11.Grad8` | `=this.Zauberplätze.Stufe11.Grad9` |
-|  12   | [[Talente\|Talent]], [[Vielseitige Zaubertricks]] | `=this.Zauberplätze.Stufe12.Grad0` | `=this.Zauberplätze.Stufe12.Grad1` | `=this.Zauberplätze.Stufe12.Grad2` | `=this.Zauberplätze.Stufe12.Grad3` | `=this.Zauberplätze.Stufe12.Grad4` | `=this.Zauberplätze.Stufe12.Grad5` | `=this.Zauberplätze.Stufe12.Grad6` | `=this.Zauberplätze.Stufe12.Grad7` | `=this.Zauberplätze.Stufe12.Grad8` | `=this.Zauberplätze.Stufe12.Grad9` |
-|  13   | ---                                               | `=this.Zauberplätze.Stufe13.Grad0` | `=this.Zauberplätze.Stufe13.Grad1` | `=this.Zauberplätze.Stufe13.Grad2` | `=this.Zauberplätze.Stufe13.Grad3` | `=this.Zauberplätze.Stufe13.Grad4` | `=this.Zauberplätze.Stufe13.Grad5` | `=this.Zauberplätze.Stufe13.Grad6` | `=this.Zauberplätze.Stufe13.Grad7` | `=this.Zauberplätze.Stufe13.Grad8` | `=this.Zauberplätze.Stufe13.Grad9` |
-|  14   | Merkmal Druidenzirkel                             | `=this.Zauberplätze.Stufe14.Grad0` | `=this.Zauberplätze.Stufe14.Grad1` | `=this.Zauberplätze.Stufe14.Grad2` | `=this.Zauberplätze.Stufe14.Grad3` | `=this.Zauberplätze.Stufe14.Grad4` | `=this.Zauberplätze.Stufe14.Grad5` | `=this.Zauberplätze.Stufe14.Grad6` | `=this.Zauberplätze.Stufe14.Grad7` | `=this.Zauberplätze.Stufe14.Grad8` | `=this.Zauberplätze.Stufe14.Grad9` |
-|  15   | ---                                               | `=this.Zauberplätze.Stufe15.Grad0` | `=this.Zauberplätze.Stufe15.Grad1` | `=this.Zauberplätze.Stufe15.Grad2` | `=this.Zauberplätze.Stufe15.Grad3` | `=this.Zauberplätze.Stufe15.Grad4` | `=this.Zauberplätze.Stufe15.Grad5` | `=this.Zauberplätze.Stufe15.Grad6` | `=this.Zauberplätze.Stufe15.Grad7` | `=this.Zauberplätze.Stufe15.Grad8` | `=this.Zauberplätze.Stufe15.Grad9` |
-|  16   | [[Talente\|Talent]], [[Vielseitige Zaubertricks]] | `=this.Zauberplätze.Stufe16.Grad0` | `=this.Zauberplätze.Stufe16.Grad1` | `=this.Zauberplätze.Stufe16.Grad2` | `=this.Zauberplätze.Stufe16.Grad3` | `=this.Zauberplätze.Stufe16.Grad4` | `=this.Zauberplätze.Stufe16.Grad5` | `=this.Zauberplätze.Stufe16.Grad6` | `=this.Zauberplätze.Stufe16.Grad7` | `=this.Zauberplätze.Stufe16.Grad8` | `=this.Zauberplätze.Stufe16.Grad9` |
-|  17   | ---                                               | `=this.Zauberplätze.Stufe17.Grad0` | `=this.Zauberplätze.Stufe17.Grad1` | `=this.Zauberplätze.Stufe17.Grad2` | `=this.Zauberplätze.Stufe17.Grad3` | `=this.Zauberplätze.Stufe17.Grad4` | `=this.Zauberplätze.Stufe17.Grad5` | `=this.Zauberplätze.Stufe17.Grad6` | `=this.Zauberplätze.Stufe17.Grad7` | `=this.Zauberplätze.Stufe17.Grad8` | `=this.Zauberplätze.Stufe17.Grad9` |
-|  18   | [[Zeitloser Körper]], [[In Tiergestalt zaubern]]  | `=this.Zauberplätze.Stufe18.Grad0` | `=this.Zauberplätze.Stufe18.Grad1` | `=this.Zauberplätze.Stufe18.Grad2` | `=this.Zauberplätze.Stufe18.Grad3` | `=this.Zauberplätze.Stufe18.Grad4` | `=this.Zauberplätze.Stufe18.Grad5` | `=this.Zauberplätze.Stufe18.Grad6` | `=this.Zauberplätze.Stufe18.Grad7` | `=this.Zauberplätze.Stufe18.Grad8` | `=this.Zauberplätze.Stufe18.Grad9` |
-|  19   | [[Talente\|Talent]], [[Vielseitige Zaubertricks]] | `=this.Zauberplätze.Stufe19.Grad0` | `=this.Zauberplätze.Stufe19.Grad1` | `=this.Zauberplätze.Stufe19.Grad2` | `=this.Zauberplätze.Stufe19.Grad3` | `=this.Zauberplätze.Stufe19.Grad4` | `=this.Zauberplätze.Stufe19.Grad5` | `=this.Zauberplätze.Stufe19.Grad6` | `=this.Zauberplätze.Stufe19.Grad7` | `=this.Zauberplätze.Stufe19.Grad8` | `=this.Zauberplätze.Stufe19.Grad9` |
-|  20   | [[Erzdruide]]                                     | `=this.Zauberplätze.Stufe20.Grad0` | `=this.Zauberplätze.Stufe20.Grad1` | `=this.Zauberplätze.Stufe20.Grad2` | `=this.Zauberplätze.Stufe20.Grad3` | `=this.Zauberplätze.Stufe20.Grad4` | `=this.Zauberplätze.Stufe20.Grad5` | `=this.Zauberplätze.Stufe20.Grad6` | `=this.Zauberplätze.Stufe20.Grad7` | `=this.Zauberplätze.Stufe20.Grad8` | `=this.Zauberplätze.Stufe20.Grad9` |
+| Stufe | Merkmale                                                            |         Tiergestalt         |            Zaubertricks            |         Vorbereitete Zauber         |                 1.                 |                 2.                 |                 3.                 |                 4.                 |                 5.                 |                 6.                 |                 7.                 |                 8.                 |                 9.                 |
+|:-----:| ------------------------------------------------------------------- |:---------------------------:|:----------------------------------:|:-----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
+|   1   | [[Druidisch]], [[Druidisches Zauberwirken]], [[Urtümliche Ordnung]] | `=this.Tiergestalt.Stufe1`  | `=this.Zauberplätze.Stufe1.Grad0`  | `=this.Vorbereitete_Zauber.Stufe1`  | `=this.Zauberplätze.Stufe1.Grad1`  | `=this.Zauberplätze.Stufe1.Grad2`  | `=this.Zauberplätze.Stufe1.Grad3`  | `=this.Zauberplätze.Stufe1.Grad4`  | `=this.Zauberplätze.Stufe1.Grad5`  | `=this.Zauberplätze.Stufe1.Grad6`  | `=this.Zauberplätze.Stufe1.Grad7`  | `=this.Zauberplätze.Stufe1.Grad8`  | `=this.Zauberplätze.Stufe1.Grad9`  |
+|   2   | [[Tiergestalt]], [[Wilder Gefährte]]                                | `=this.Tiergestalt.Stufe2`  | `=this.Zauberplätze.Stufe2.Grad0`  | `=this.Vorbereitete_Zauber.Stufe2`  | `=this.Zauberplätze.Stufe2.Grad1`  | `=this.Zauberplätze.Stufe2.Grad2`  | `=this.Zauberplätze.Stufe2.Grad3`  | `=this.Zauberplätze.Stufe2.Grad4`  | `=this.Zauberplätze.Stufe2.Grad5`  | `=this.Zauberplätze.Stufe2.Grad6`  | `=this.Zauberplätze.Stufe2.Grad7`  | `=this.Zauberplätze.Stufe2.Grad8`  | `=this.Zauberplätze.Stufe2.Grad9`  |
+|   3   | [[Druidenzirkel\|Druidenzirkel]]                                    | `=this.Tiergestalt.Stufe3`  | `=this.Zauberplätze.Stufe3.Grad0`  | `=this.Vorbereitete_Zauber.Stufe3`  | `=this.Zauberplätze.Stufe3.Grad1`  | `=this.Zauberplätze.Stufe3.Grad2`  | `=this.Zauberplätze.Stufe3.Grad3`  | `=this.Zauberplätze.Stufe3.Grad4`  | `=this.Zauberplätze.Stufe3.Grad5`  | `=this.Zauberplätze.Stufe3.Grad6`  | `=this.Zauberplätze.Stufe3.Grad7`  | `=this.Zauberplätze.Stufe3.Grad8`  | `=this.Zauberplätze.Stufe3.Grad9`  |
+|   4   | [[Talente\|Talent]], [[Verbesserte Tiergestalt]]                    | `=this.Tiergestalt.Stufe4`  | `=this.Zauberplätze.Stufe4.Grad0`  | `=this.Vorbereitete_Zauber.Stufe4`  | `=this.Zauberplätze.Stufe4.Grad1`  | `=this.Zauberplätze.Stufe4.Grad2`  | `=this.Zauberplätze.Stufe4.Grad3`  | `=this.Zauberplätze.Stufe4.Grad4`  | `=this.Zauberplätze.Stufe4.Grad5`  | `=this.Zauberplätze.Stufe4.Grad6`  | `=this.Zauberplätze.Stufe4.Grad7`  | `=this.Zauberplätze.Stufe4.Grad8`  | `=this.Zauberplätze.Stufe4.Grad9`  |
+|   5   | [[Wilde Wiederkehr]]                                                | `=this.Tiergestalt.Stufe5`  | `=this.Zauberplätze.Stufe5.Grad0`  | `=this.Vorbereitete_Zauber.Stufe5`  | `=this.Zauberplätze.Stufe5.Grad1`  | `=this.Zauberplätze.Stufe5.Grad2`  | `=this.Zauberplätze.Stufe5.Grad3`  | `=this.Zauberplätze.Stufe5.Grad4`  | `=this.Zauberplätze.Stufe5.Grad5`  | `=this.Zauberplätze.Stufe5.Grad6`  | `=this.Zauberplätze.Stufe5.Grad7`  | `=this.Zauberplätze.Stufe5.Grad8`  | `=this.Zauberplätze.Stufe5.Grad9`  |
+|   6   | Merkmal Druidenzirkel                                               | `=this.Tiergestalt.Stufe6`  | `=this.Zauberplätze.Stufe6.Grad0`  | `=this.Vorbereitete_Zauber.Stufe6`  | `=this.Zauberplätze.Stufe6.Grad1`  | `=this.Zauberplätze.Stufe6.Grad2`  | `=this.Zauberplätze.Stufe6.Grad3`  | `=this.Zauberplätze.Stufe6.Grad4`  | `=this.Zauberplätze.Stufe6.Grad5`  | `=this.Zauberplätze.Stufe6.Grad6`  | `=this.Zauberplätze.Stufe6.Grad7`  | `=this.Zauberplätze.Stufe6.Grad8`  | `=this.Zauberplätze.Stufe6.Grad9`  |
+|   7   | [[Elementare Wut]]                                                  | `=this.Tiergestalt.Stufe7`  | `=this.Zauberplätze.Stufe7.Grad0`  | `=this.Vorbereitete_Zauber.Stufe7`  | `=this.Zauberplätze.Stufe7.Grad1`  | `=this.Zauberplätze.Stufe7.Grad2`  | `=this.Zauberplätze.Stufe7.Grad3`  | `=this.Zauberplätze.Stufe7.Grad4`  | `=this.Zauberplätze.Stufe7.Grad5`  | `=this.Zauberplätze.Stufe7.Grad6`  | `=this.Zauberplätze.Stufe7.Grad7`  | `=this.Zauberplätze.Stufe7.Grad8`  | `=this.Zauberplätze.Stufe7.Grad9`  |
+|   8   | [[Talente\|Talent]], [[Überlegene Tiergestalt]]                     | `=this.Tiergestalt.Stufe8`  | `=this.Zauberplätze.Stufe8.Grad0`  | `=this.Vorbereitete_Zauber.Stufe8`  | `=this.Zauberplätze.Stufe8.Grad1`  | `=this.Zauberplätze.Stufe8.Grad2`  | `=this.Zauberplätze.Stufe8.Grad3`  | `=this.Zauberplätze.Stufe8.Grad4`  | `=this.Zauberplätze.Stufe8.Grad5`  | `=this.Zauberplätze.Stufe8.Grad6`  | `=this.Zauberplätze.Stufe8.Grad7`  | `=this.Zauberplätze.Stufe8.Grad8`  | `=this.Zauberplätze.Stufe8.Grad9`  |
+|   9   | ---                                                                 | `=this.Tiergestalt.Stufe9`  | `=this.Zauberplätze.Stufe9.Grad0`  | `=this.Vorbereitete_Zauber.Stufe9`  | `=this.Zauberplätze.Stufe9.Grad1`  | `=this.Zauberplätze.Stufe9.Grad2`  | `=this.Zauberplätze.Stufe9.Grad3`  | `=this.Zauberplätze.Stufe9.Grad4`  | `=this.Zauberplätze.Stufe9.Grad5`  | `=this.Zauberplätze.Stufe9.Grad6`  | `=this.Zauberplätze.Stufe9.Grad7`  | `=this.Zauberplätze.Stufe9.Grad8`  | `=this.Zauberplätze.Stufe9.Grad9`  |
+|  10   | Merkmal Druidenzirkel                                               | `=this.Tiergestalt.Stufe10` | `=this.Zauberplätze.Stufe10.Grad0` | `=this.Vorbereitete_Zauber.Stufe10` | `=this.Zauberplätze.Stufe10.Grad1` | `=this.Zauberplätze.Stufe10.Grad2` | `=this.Zauberplätze.Stufe10.Grad3` | `=this.Zauberplätze.Stufe10.Grad4` | `=this.Zauberplätze.Stufe10.Grad5` | `=this.Zauberplätze.Stufe10.Grad6` | `=this.Zauberplätze.Stufe10.Grad7` | `=this.Zauberplätze.Stufe10.Grad8` | `=this.Zauberplätze.Stufe10.Grad9` |
+|  11   | ---                                                                 | `=this.Tiergestalt.Stufe11` | `=this.Zauberplätze.Stufe11.Grad0` | `=this.Vorbereitete_Zauber.Stufe11` | `=this.Zauberplätze.Stufe11.Grad1` | `=this.Zauberplätze.Stufe11.Grad2` | `=this.Zauberplätze.Stufe11.Grad3` | `=this.Zauberplätze.Stufe11.Grad4` | `=this.Zauberplätze.Stufe11.Grad5` | `=this.Zauberplätze.Stufe11.Grad6` | `=this.Zauberplätze.Stufe11.Grad7` | `=this.Zauberplätze.Stufe11.Grad8` | `=this.Zauberplätze.Stufe11.Grad9` |
+|  12   | [[Talente\|Talent]]                                                 | `=this.Tiergestalt.Stufe12` | `=this.Zauberplätze.Stufe12.Grad0` | `=this.Vorbereitete_Zauber.Stufe12` | `=this.Zauberplätze.Stufe12.Grad1` | `=this.Zauberplätze.Stufe12.Grad2` | `=this.Zauberplätze.Stufe12.Grad3` | `=this.Zauberplätze.Stufe12.Grad4` | `=this.Zauberplätze.Stufe12.Grad5` | `=this.Zauberplätze.Stufe12.Grad6` | `=this.Zauberplätze.Stufe12.Grad7` | `=this.Zauberplätze.Stufe12.Grad8` | `=this.Zauberplätze.Stufe12.Grad9` |
+|  13   | ---                                                                 | `=this.Tiergestalt.Stufe13` | `=this.Zauberplätze.Stufe13.Grad0` | `=this.Vorbereitete_Zauber.Stufe13` | `=this.Zauberplätze.Stufe13.Grad1` | `=this.Zauberplätze.Stufe13.Grad2` | `=this.Zauberplätze.Stufe13.Grad3` | `=this.Zauberplätze.Stufe13.Grad4` | `=this.Zauberplätze.Stufe13.Grad5` | `=this.Zauberplätze.Stufe13.Grad6` | `=this.Zauberplätze.Stufe13.Grad7` | `=this.Zauberplätze.Stufe13.Grad8` | `=this.Zauberplätze.Stufe13.Grad9` |
+|  14   | Merkmal Druidenzirkel                                               | `=this.Tiergestalt.Stufe14` | `=this.Zauberplätze.Stufe14.Grad0` | `=this.Vorbereitete_Zauber.Stufe14` | `=this.Zauberplätze.Stufe14.Grad1` | `=this.Zauberplätze.Stufe14.Grad2` | `=this.Zauberplätze.Stufe14.Grad3` | `=this.Zauberplätze.Stufe14.Grad4` | `=this.Zauberplätze.Stufe14.Grad5` | `=this.Zauberplätze.Stufe14.Grad6` | `=this.Zauberplätze.Stufe14.Grad7` | `=this.Zauberplätze.Stufe14.Grad8` | `=this.Zauberplätze.Stufe14.Grad9` |
+|  15   | [[Verbesserte Elementare Wut]]                                      | `=this.Tiergestalt.Stufe15` | `=this.Zauberplätze.Stufe15.Grad0` | `=this.Vorbereitete_Zauber.Stufe15` | `=this.Zauberplätze.Stufe15.Grad1` | `=this.Zauberplätze.Stufe15.Grad2` | `=this.Zauberplätze.Stufe15.Grad3` | `=this.Zauberplätze.Stufe15.Grad4` | `=this.Zauberplätze.Stufe15.Grad5` | `=this.Zauberplätze.Stufe15.Grad6` | `=this.Zauberplätze.Stufe15.Grad7` | `=this.Zauberplätze.Stufe15.Grad8` | `=this.Zauberplätze.Stufe15.Grad9` |
+|  16   | [[Talente\|Talent]]                                                 | `=this.Tiergestalt.Stufe16` | `=this.Zauberplätze.Stufe16.Grad0` | `=this.Vorbereitete_Zauber.Stufe16` | `=this.Zauberplätze.Stufe16.Grad1` | `=this.Zauberplätze.Stufe16.Grad2` | `=this.Zauberplätze.Stufe16.Grad3` | `=this.Zauberplätze.Stufe16.Grad4` | `=this.Zauberplätze.Stufe16.Grad5` | `=this.Zauberplätze.Stufe16.Grad6` | `=this.Zauberplätze.Stufe16.Grad7` | `=this.Zauberplätze.Stufe16.Grad8` | `=this.Zauberplätze.Stufe16.Grad9` |
+|  17   | ---                                                                 | `=this.Tiergestalt.Stufe17` | `=this.Zauberplätze.Stufe17.Grad0` | `=this.Vorbereitete_Zauber.Stufe17` | `=this.Zauberplätze.Stufe17.Grad1` | `=this.Zauberplätze.Stufe17.Grad2` | `=this.Zauberplätze.Stufe17.Grad3` | `=this.Zauberplätze.Stufe17.Grad4` | `=this.Zauberplätze.Stufe17.Grad5` | `=this.Zauberplätze.Stufe17.Grad6` | `=this.Zauberplätze.Stufe17.Grad7` | `=this.Zauberplätze.Stufe17.Grad8` | `=this.Zauberplätze.Stufe17.Grad9` |
+|  18   | [[In Tiergestalt zaubern]]                                          | `=this.Tiergestalt.Stufe18` | `=this.Zauberplätze.Stufe18.Grad0` | `=this.Vorbereitete_Zauber.Stufe18` | `=this.Zauberplätze.Stufe18.Grad1` | `=this.Zauberplätze.Stufe18.Grad2` | `=this.Zauberplätze.Stufe18.Grad3` | `=this.Zauberplätze.Stufe18.Grad4` | `=this.Zauberplätze.Stufe18.Grad5` | `=this.Zauberplätze.Stufe18.Grad6` | `=this.Zauberplätze.Stufe18.Grad7` | `=this.Zauberplätze.Stufe18.Grad8` | `=this.Zauberplätze.Stufe18.Grad9` |
+|  19   | [[Talente\|Talent]]                                                 | `=this.Tiergestalt.Stufe19` | `=this.Zauberplätze.Stufe19.Grad0` | `=this.Vorbereitete_Zauber.Stufe19` | `=this.Zauberplätze.Stufe19.Grad1` | `=this.Zauberplätze.Stufe19.Grad2` | `=this.Zauberplätze.Stufe19.Grad3` | `=this.Zauberplätze.Stufe19.Grad4` | `=this.Zauberplätze.Stufe19.Grad5` | `=this.Zauberplätze.Stufe19.Grad6` | `=this.Zauberplätze.Stufe19.Grad7` | `=this.Zauberplätze.Stufe19.Grad8` | `=this.Zauberplätze.Stufe19.Grad9` |
+|  20   | [[Erzdruide]]                                                       | `=this.Tiergestalt.Stufe20` | `=this.Zauberplätze.Stufe20.Grad0` | `=this.Vorbereitete_Zauber.Stufe20` | `=this.Zauberplätze.Stufe20.Grad1` | `=this.Zauberplätze.Stufe20.Grad2` | `=this.Zauberplätze.Stufe20.Grad3` | `=this.Zauberplätze.Stufe20.Grad4` | `=this.Zauberplätze.Stufe20.Grad5` | `=this.Zauberplätze.Stufe20.Grad6` | `=this.Zauberplätze.Stufe20.Grad7` | `=this.Zauberplätze.Stufe20.Grad8` | `=this.Zauberplätze.Stufe20.Grad9` |
+
 ## Trefferpunkte
 [[Trefferwürfel]]: `=this.Trefferwürfel`
 [[Trefferpunkte]] auf Stufe 1: 8 + [[Konstitution#Konstitutionsmodifikator]]
@@ -267,21 +310,10 @@ Zauberplätze:
 ## Übung
 ### Rüstungen
 - [[Leichte Rüstung]]
-- [[Mittelschwere Rüstung]]
 - [[Schilde]]
-- darf keine Metallrüstungen tragen
 
 ### Waffen
-- [[Knüppel]]
-- [[Dolch]] 
-- [[Wurfmesser]]
-- [[Wurfspeer]] 
-- [[Streitkolben]]
-- [[Kampfstab]]
-- [[Krummsäbel]]
-- [[Sichel]] 
-- [[Schleuder]]
-- [[Speer]]
+- [[Einfache Waffen]]
 
 ### Werkzeuge
 - [[Kräuterkunde-Ausrüstung]]
@@ -302,11 +334,17 @@ Zauberplätze:
 	- [[Wahrnehmung]]
 
 ## Ausrüstung
-- [[Holzschild]] oder beliebige [[Einfache Waffen|Einfache Waffe]]
-- [[Krummsäbel]]  oder beliebige Nahkampf [[Einfache Waffen|Einfache Waffe]]
 - [[Lederrüstung]]
-- [[Ausrüstungssets#Entdeckerausrüstung]]
-- Druidischer Fokus
+- [[Holzschild]]
+- [[Sichel]]
+- [[Druidischer Fokus]] ([[Kampfstab]])
+- [[Entdeckerausrüstung]]
+- [[Kräuterkunde-Ausrüstung]]
+- 9 GM
+
+ODER 
+
+- 50 GM
 
 ## Klassenbeschreibung
 Mit einem knorrigen Stab aus Eschenholz in der Hand beschwört eine Elfe die Wut eines Sturms herauf und ruft explodierende Blitzschläge herab, um die Fackeln tragenden Orks, die ihren Wald bedrohen, in die Flucht zu schlagen. Außer Sichtweite auf einem hohen Ast schaut ein Mensch in Leopardengestalt aus dem Dschungel auf die seltsame Erscheinung des Tempels des Elementaren Bösen und behält die Aktivitäten der Kultanhänger wachsam im Auge.  Eine Klinge aus reinem Feuer schwingend, stürmt ein Halbelf auf eine Masse von Skelettkriegern zu, um die unnatürliche Magie auszulöschen, die den fauligen Kreaturen die höhnische Nachahmung von Leben verleiht. Sei es beim Anrufen elementarer Kräfte oder in Gestalt einer Kreatur der Wildnis - Druiden verkörpern die Widerstands-kraft, Wut und Furchtlosigkeit der Natur. Sie beanspruchen keine Herrschaft über diese, sondern sehen sich selbst als Vollstrecker ihres unbeugsamen Willens.

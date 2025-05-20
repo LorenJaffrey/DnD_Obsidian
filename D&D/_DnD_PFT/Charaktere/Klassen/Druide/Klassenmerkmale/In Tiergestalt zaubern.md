@@ -2,8 +2,7 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
+Einsatz: Passiv
 ---
 # `=this.file.name`
-
-Du kannst viele deiner Druidenzauber in jeder Gestalt wirken, die du annimmst. 
-[[Verbale Zauberkomponenten]] und [[Zaubergesten]]  eines Druidenzaubers kannst du in [[Tiergestalt]] ausführen, jedoch nicht die [[Materialkomponenten]] zur Verfügung stellen.
+Wenn du [[Tiergestalt]] verwendest, kannst du in [[Tiergestalt]] [[Zauber wirken]], sofern diese weder [[Materialkomponenten]] mit angegebenen Kosten erfordern noch [[Materialkomponenten]] verbrauchen.

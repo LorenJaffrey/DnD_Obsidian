@@ -2,13 +2,12 @@
 aliases:
 tags:
 - Merkmal/Klasse/Druide
-- Sprache/Sonstige
-Typische_Völker:
-  - "[[Druide|Druiden]]"
+Einsatz: Passiv
 ---
 # `=this.file.name`
-
-Du beherrschst Druidisch, die Geheimsprache der Druiden. 
-Du weißt nicht nur, wie man die Sprache spricht, sondern auch wie man versteckte Botschaften hinterlassen kann. 
-Jeder, der des Druidischen mächtig ist, findet diese Botschaften automatisch.
-Uneingeweihte erkennen sie nur mit einem erfolgreichen Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 15, können aber ohne magische Hilfe den Inhalt nicht entschlüsseln.
+Du beherrschst [[Ogham]], die Geheimsprache der Druiden.
+Beim Erlernen dieser uralten Sprache hast du auch die Magie erlangt, mit Tieren zu kommunizieren. 
+Daher hast du den Zauber [[Mit Tieren sprechen]] stets vorbereitet.
+Du kannst [[Ogham]] verwenden, um verborgene Botschaften zu hinterlassen. 
+Jeder, der dieser Sprache mächtig ist, findet eine solche Botschaft automatisch.
+Andere erkennen sie nur, wenn sie einen Wurf auf [[Nachforschungen]] gegen [[SG]]  15 bestehen, und können den Inhalt nicht ohne magische Hilfe entschlüsseln.

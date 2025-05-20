@@ -28,7 +28,7 @@ Attribute:
   Konstitution: 14
   Intelligenz: 12
   Weisheit: 19
-  Charisma: 11
+  Charisma: 10
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -59,27 +59,13 @@ Fertigkeiten:
   Sprachen:
     - "[[Gemeinsprache]]"
     - "[[Elfisch]]"
-    - "[[Sylvanisch]]"
-    - "[[Urtümlich]]"
-    - "[[Druidisch]]"
+    - "[[Ogham]]"
   Werkzeuge:
     - "[[Kräuterkunde-Ausrüstung]]"
-    - "[[Giftmischerausrüstung]]"
   Rüstungen:
     - "[[Leichte Rüstung]]"
-    - "[[Mittelschwere Rüstung]]"
   Waffen:
-    - "[[Knüppel]]"
-    - "[[Dolch]]"
-    - "[[Wurfmesser]]"
-    - "[[Wurfspeer]]"
-    - "[[Streitkolben]]"
-    - "[[Kampfstab]]"
-    - "[[Krummsäbel]]"
-    - "[[Sichel]]"
-    - "[[Schleuder]]"
-    - "[[Speer]]"
-    - "[[Zauberstecken]]"
+    - "[[Einfache Waffen]]"
 Aussehen:
   Geschlecht: männlich
   Alter: 45 Jahre
@@ -94,10 +80,11 @@ Merkmale:
   - "[[Feenblut]]"
   - "[[Die Sprache des Waldes]]"
   - "[[Druidisch]]"
-  - "[[Verbesserte Tiergestalt]]"
-  - "[[Geistertotem]]"
   - "[[Druidisches Zauberwirken]]"
-  - "[[Tiergestalt]]"
+  - "[[Verbesserte Tiergestalt]]"
+  - "[[Wilder Gefährte]]"
+  - "[[Wilde Wiederkehr]]"
+  - "[[Geistertotem]]"
 Talente:
   - "[[Von Feen berührt]]"
 Hintergrund:
