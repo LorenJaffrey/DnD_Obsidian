@@ -1,5 +1,6 @@
 ---
 aliases:
+Einsatz: Passiv
 tags:
 - Merkmal/Klasse/Zauberer
 ---

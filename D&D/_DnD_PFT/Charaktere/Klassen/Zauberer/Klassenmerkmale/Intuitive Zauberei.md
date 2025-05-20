@@ -1,5 +1,6 @@
 ---
 aliases: 
+Einsatz: "[[Bonusaktion]]"
 tags:
   - Merkmal/Klasse/Zauberer
   - Regeln/PHB2024

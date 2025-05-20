@@ -76,8 +76,7 @@ Aussehen:
   Haarfarbe: Dunkel Blau
   Hautfarbe: Blau
 Merkmale:
-  - "[[Odemwaffe]]"
-  - "[[Drakonische Resistenz]]"
+  - "[[Drakonische Odemwaffe]]"
   - "[[Drakonischer Flug]]"
   - "[[Intuitive Zauberei]]"
   - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
@@ -97,7 +96,7 @@ Hintergrund:
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Neutral Gut]]"
-  Hintergrund: "[[Einsiedler]]"
+  Herkunft: "[[Einsiedler]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
@@ -314,7 +313,7 @@ tags:
 >>> 
 >>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf\|RW]] | Erholung  |
 >>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
->>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
+>>>| Angriff | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Drakonische Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>Kegel: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
 >>>| Buff | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
 >>>| Fortbewegung | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
 >>>| Positions-</br>kontrolle | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
