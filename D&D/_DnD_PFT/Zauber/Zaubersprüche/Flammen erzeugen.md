@@ -3,15 +3,16 @@ aliases:
   - Produce Flame
 tags: 
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 0
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Aktion]]"
-Reichweite: 9 Meter
+Zeitaufwand: "[[Bonusaktion]]"
+Reichweite: 18 Meter
 Verbal: true
 Geste: true
 Material: false
 Materialkosten: 
-Dauer: 10m
+Dauer: 10 Minuten
 Konzentration: false
 Ritual: false
 Skalierbar: true
@@ -20,7 +21,7 @@ SchadenLv5: 2d8
 SchadenLv11: 3d8
 SchadenLv17: 4d8
 Schadensart: "[[Feuerschaden]]" 
-Ziel: Einzel
+Ziel: Einzeln
 Klassen:
   - "[[Druide]]"
 ---
@@ -31,14 +32,12 @@ Klassen:
 ## Beschreibung
 *Eine flackernde Flamme erscheint in deiner Hand.*
 
-Diese bleibt für die Wirkungsdauer bestehen und beschädigt weder dich noch deine Ausrüstung. 
-Sie strahlt innerhalb von 3 m [[Helles Licht]] und in einem Radius von weiteren 3 m [[Dämmriges Licht]] aus. 
-Der Zauber endet, wenn du ihn als [[Aktion]] aufhebst oder noch einmal wirkst.
+In deiner Hand erscheint für die Wirkungsdauer eine flackernde Flamme. 
+Sie strahlt keine Wärme aus und kann nichts entzünden, spendet jedoch in einem Radius von 6 Metern [[Helles Licht]] und in einem Radius von weiteren 6 Metern dämmriges Licht. 
+Der Zauber endet vorzeitig, wenn du ihn erneut wirkst.
 
-Du kannst mit der Flamme auch angreifen, dies beendet jedoch den Zauber. 
-Beim Wirken des Zaubers oder als [[Aktion]] in einem späteren Zug kannst du die Flamme auf eine Kreatur innerhalb von 9 m werfen. 
-Führe einen [[Fernkampfangriff|Fernkampf]]-Zauberangriff aus. 
-Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
+Bis der Zauber endet, kannst du eine magische [[Aktion]]ausführen, um Feuer auf eine Kreatur oder einen Gegenstand im Abstand von bis zu 18 Metern von dir zu schleudern. 
+Führe einen [[Zauberangriffswürfe|Fernkampf-Zauberangriff]] aus. Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt auf höheren Stufen:

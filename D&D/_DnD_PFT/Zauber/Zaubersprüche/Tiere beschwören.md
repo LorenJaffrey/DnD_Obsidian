@@ -2,6 +2,7 @@
 aliases:
 tags:
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 3
 Schule: "[[Beschwörungszauber|Beschwörung]]"
 Zeitaufwand: "[[Aktion]]"
@@ -10,13 +11,14 @@ Verbal: true
 Geste: true
 Material: false
 Materialkosten: 
-Dauer: 1 Stunde
+Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart:  
-Ziel: 
+Schaden: 3d10
+Schadensart: "[[Hiebschaden]]"
+Rettungswurf: "[[Geschicklichkeit|GES]]"
+Ziel: Einzel
 Klassen:
 Typ: Unterstützung
 ---
@@ -25,17 +27,22 @@ Typ: Unterstützung
 ```
 
 ## Beschreibung
-Du beschwörst Feengeister in Form von Tieren, die in freien Bereichen in Reichweite erscheinen, die du sehen kannst. Wähle eine der folgenden Optionen aus:
+Du beschwörst Naturgeister. Diese nehmen **die Form eines großen Rudels geisterhafter, immaterieller Tiere** in einem freien Bereich in Reichweite an, den du sehen kannst. 
+Das Rudel bleibt für die Wirkungsdauer bestehen. 
 
-- Ein Tier mit Herausforderungsgrad 2 oder niedriger
-- Zwei Tiere mit Herausforderungsgrad 1 oder niedriger
-- Vier Tiere mit Herausforderungsgrad 1/2 oder niedriger
-- Acht Tiere mit Herausforderungsgrad 1/4 oder niedriger
-- Jedes Tier ist gleichzeitig ein Feenwesen und verschwindet, wenn der Zauber endet oder seine Trefferpunkte auf 0 sinken.
+Du wählst die Tierform der Geister aus, beispielsweise:
+- Wölfe
+- Schlangen
+- Vögel
 
-Die beschworenen Kreaturen sind dir und deinen Gefährten freundlich gesinnt. Würfle die Initiative für die beschworenen Kreaturen als Gruppe aus, die über ihren eigenen Zug verfügt. Sie gehorchen deinen mündlichen Befehlen (erfordert keine Aktion), Wenn du ihnen keine Befehle erteilst, verteidigen sie sich gegen feindlich gesinnte Kreaturen, führen aber anderenfalls keine Aktionen aus.
+Du bist bei [[Rettungswurf|Stärkerettungswürfen]] im [[Vorteil und Nachteil|Vorteil]], solange du dich im Abstand von bis zu 1,5 Metern vom Rudel befindest. 
+Wenn du dich in deinem Zug bewegst, kannst du auch das Rudel um bis zu 9 Meter in einen freien Bereich bewegen, den du sehen kannst.
 
-Der SL hat die Werte der Kreaturen.
+Wann immer das Rudel sich einer Kreatur, die du sehen kannst, auf höchstens 3 Meter nähert, und wann immer eine Kreatur, die du sehen kannst, 
+einen Bereich im Abstand von bis zu 3 Metern vom Rudel betritt oder ihren Zug dort beendet, kannst du die Kreatur zu einem [[Rettungswurf|Geschicklichkeitsrettungswurf]] zwingen. 
+
+Scheitert der Wurf, so erleidet die Kreatur 3W10 [[Hiebschaden]]. 
+Eine Kreatur kann diesen [[Rettungswurf]] nur einmal pro Zug ausführen.
 
 ## Auf höheren Graden
-Wirkst du diesen Zauber mit bestimmten Zauberplätzen höheren Grades, erscheinen mehr Kreaturen, wenn du eine der oben genannten Optionen auswählst: doppelt so viele mit einem Zauberplatz des 5. Grades, dreimal so viele mit einem Zauberplatz des 7. Grades und viermal so viele mit einem Zauberplatz des 9. Grades.
+Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W10 erhöht.

@@ -17,6 +17,7 @@ Ritual: false
 Skalierbar: true
 Schaden: 3d6
 Schadensart: "[[Feuerschaden]]"
+Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: AoE
 Klassen:
   - "[[Magier]]"

@@ -3,6 +3,7 @@ aliases:
   - Identify
 tags: 
   - Zauber
+  - Regeln/PHB2024
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
 Zeitaufwand: 1m
@@ -28,7 +29,15 @@ Typ: Analyse
 [[embed Zauber]]
 ```
 
-## Beschreibung
+## Beschreibung (Neu 2024)
+Du berührst einen Gegenstand, solange du den Zauber wirkst. 
+
+Falls es sich um einen magischen Gegenstand handelt, erkennst du seine [[Eigenschaften]] und ihre [[Anwendung]], und du weißt, ob er [[Einstimmung magischer Gegenstände|Einstimmung]] erfordert und wie viele [[Ladungen]] er besitzt, falls zutreffend. 
+Du erfährst, ob aktuell Zauber auf den Gegenstand wirken, und wenn ja, welche. Falls der Gegenstand durch einen Zauber erzeugt wurde, erfährst du dessen Namen.
+
+Wenn du stattdessen beim Wirken des Zaubers eine Kreatur durchgehend berührst, erfährst du, von welchen [[Zaubern]] sie derzeit betroffen ist, falls zutreffend.
+
+## Beschreibung DnD 5e 2014
 Du wählst einen Gegenstand, den du berühren musst, während du den Zauber wirkst. 
 Handelt es sich um einen magischen Gegenstand oder ein anderweitig mit Magie erfülltes Objekt, würfle einen W20, addiere deinen [[Attribute#Attributsmodifikator]] zum Zauberwirken und vergleiche das Ergebnis mit der folgenden Tabelle. 
 Wenn du [[Übung]] in [[Arkane Kunde]] hast, erhältst du [[Vorteil und Nachteil|Vorteil]] auf den Wurf. 

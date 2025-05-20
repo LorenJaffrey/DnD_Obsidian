@@ -3,6 +3,7 @@ aliases:
   - Speak with Animals
 tags:
   - Zauber
+  - Regeln/PHB2024
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
 Zeitaufwand: "[[Aktion]]"
@@ -29,7 +30,7 @@ Typ: Beeinflussung
 ```
 
 ## Beschreibung
-Für die Wirkungsdauer kannst du Tiere verstehen und verbal mit ihnen kommunizieren. 
-Das Wissen und die Wahrnehmung vieler Tiere wird durch ihre Intelligenz eingeschränkt. 
-Sie sind jedoch zumindest in der Lage, Informationen über nahe Orte und Monster mitzuteilen - sowie über Ereignisse, die sie wahrnehmen können oder innerhalb des letzten Tages erlebt haben. 
-Nach Ermessen des DM kannst du ein Tier überreden, dir einen kleinen Gefallen zu erweisen.
+Für die Wirkungsdauer kannst du Tiere verstehen und verbal mit ihnen kommunizieren, und du kannst beliebige Fertigkeitsoptionen der Beeinflussen-Aktion auf sie anwenden.
+
+Die meisten Tiere haben zu Themen abseits von Überleben oder Gefährtenschaft nicht viel zu sagen. 
+Sie sind jedoch zumindest in der Lage, Informationen über nahe Orte und Monster sowie über Ereignisse mitzuteilen, die sie innerhalb des letzten Tages erlebt haben.

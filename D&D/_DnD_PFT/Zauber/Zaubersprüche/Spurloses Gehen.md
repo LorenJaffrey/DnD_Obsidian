@@ -2,6 +2,7 @@
 aliases:
 tags:
   - Zauber
+  - Regeln/PHB2024
 Grad: 2
 Schule: "[[Bannzauber|Bannmagie]]"
 Zeitaufwand: "[[Aktion]]"
@@ -28,4 +29,5 @@ Typ: Fortbewegung
 
 ## Beschreibung
 
-Ein Schleier aus Schatten und Stille geht von dir aus und schützt dich und deine Gefährten vor Entdeckung. Für die Wirkungsdauer erhält jede Kreatur deiner Wahl im Abstand von bis zu neun Metern von dir (einschließlich dir selbst) einen Bonus von +10 auf Geschicklichkeitswürfe (Heimlichkeit) und kann nur durch Magie aufgespürt werden. Eine Kreatur mit diesem Bonus hinterlässt keine Fährten oder andere Spuren ihrer Anwesenheit.
+Von dir geht für die Wirkungsdauer eine verhüllende Aura mit einer Ausströmung von 9 Metern aus. 
+Du und jede Kreatur deiner Wahl habt in der Aura einen [[Bonus]] von **+10 auf [[Rettungswurf|Geschicklichkeitswürfe]] ([[Heimlichkeit]])**, und ihr hinterlasst **keine Spuren**.

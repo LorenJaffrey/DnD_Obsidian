@@ -15,8 +15,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 2d8
+Schaden: 2d10
 Schadensart: "[[Feuerschaden]]"
+Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"

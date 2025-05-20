@@ -3,10 +3,11 @@ aliases:
   - Poison Spray
 tags: 
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"
-Reichweite: 3 Meter
+Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
@@ -21,7 +22,7 @@ SchadenLv11: 3d12
 SchadenLv17: 4d12
 Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
-Rettungswurf: "[[Konstitution|KON]]"
+Rettungswurf:
 Klassen:
   - "[[Druide]]"
   - "[[Hexenmeister]]"
@@ -37,7 +38,9 @@ Typ: Angriff
 ## Beschreibung
 *Du streckst deine Hand in Richtung einer Kreatur aus, die sich in Reichweite befindet und die du sehen kannst, und erzeugst eine Wolke ekelhaften Gases aus deiner Handfläche.*
 
-Die Kreatur muss einen erfolgreichen [[Rettungswurf]] auf [[Konstitution]] ablegen, sonst erleidet sie 1W12 [[Giftschaden]] .
+Du sprühst giftigen Nebel auf eine Kreatur in Reichweite.
+Führe einen [[Zauberangriffswürfe|Fernkampf-Zauberangriff]] gegen das Ziel aus. 
+Bei einem Treffer erleidet das Ziel 1W12 [[Giftschaden]].
 
 ### Auf höheren Stufen
 Der Schaden dieses Zaubers steigt wenn du höhere Stufen erreichst 

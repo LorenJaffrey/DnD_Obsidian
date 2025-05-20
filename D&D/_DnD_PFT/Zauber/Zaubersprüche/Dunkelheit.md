@@ -2,6 +2,7 @@
 aliases: 
 tags:
   - Zauber/Offensiv
+  - Regeln/PHB2024
 Grad: 2
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"

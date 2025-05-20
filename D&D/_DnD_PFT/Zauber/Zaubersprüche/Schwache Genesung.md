@@ -3,9 +3,10 @@ aliases:
   - Lesser Restoration
 tags:
   - Zauber
+  - Regeln/PHB2024
 Grad: 2
 Schule: "[[Bannzauber|Bannmagie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Bonusaktion]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true
@@ -32,5 +33,5 @@ Typ: Heilung
 ```
 
 ## Beschreibung
-Du berührst eine Kreatur und beendest entweder eine Krankheit oder einen [[Zustände|Zustand]], unter dem sie leidet. 
+Du berührst eine Kreatur und beendest einen [[Zustände|Zustand]], unter dem sie leidet. 
 Mögliche [[Zustände]] sind [[Blind]], [[Gelähmt]], [[Taub]] oder [[Vergiftet]].

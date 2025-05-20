@@ -17,6 +17,7 @@ Ritual: true
 Skalierbar: true
 Schaden: 2d6
 Schadensart: "[[Nekrotischer Schaden]]"
+Rettungswurf: "[[Stärke|STK]]"
 Ziel: AoE
 Klassen: 
   - "[[Hexenmeister]]"
