@@ -24,8 +24,7 @@ Du erhältst die folgenden Vorzüge:
 ## Attributswerterhöhung
 Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
-## Verbesserter Kampf mit zwei Waffen
-Angriffe mit der Zweitwaffe erhalten nun auch einen positiven [[Attribute#Attributsmodifikator]] für [[Angriffswurf|Angriffswürfe]] und [[Schadenswurf|Schadenswürfe]].
-
-## Schnelles Ziehen
-Du kannst gleichzeitig zwei einhändige Waffen ziehen beziehungsweise verstauen statt nur einer.
+## Merkmale
+Du erhältst die folgenden [[Merkmale]]:
+- [[Schnelles Ziehen]]
+- [[Verbesserter Kampf mit zwei Waffen]]

@@ -1,6 +1,6 @@
 ---
 Stufe: 5
-Bewegung: 7
+Bewegung: 8
 Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 0
@@ -28,13 +28,13 @@ Gesundheit:
 Attribute:
   Stärke: 18
   Geschicklichkeit: 14
-  Konstitution: 16
+  Konstitution: 15
   Intelligenz: 10
   Weisheit: 12
   Charisma: 8
 Rettungswürfe:
   Stärke: 1
-  Geschicklichkeit: 0
+  Geschicklichkeit: 1
   Konstitution: 1
   Intelligenz: 0
   Weisheit: 0
@@ -51,21 +51,19 @@ Fertigkeiten:
   Heimlichkeit: 0
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
-  Nachforschungen: 1
-  Naturkunde: 0
+  Nachforschungen: 0
+  Naturkunde: 1
   Religion: 0
   Täuschen: 0
-  Überlebenskunst: 0
+  Überlebenskunst: 1
   Überzeugen: 0
   Wahrnehmung: 1
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
     - "[[Zwergisch]]"
-    - "[[Riesisch]]"
-    - "[[Abyssisch]]"
   Werkzeuge:
-    - "[[Brauereivorräte]]"
+    - "[[Spiel]]"
   Rüstungen:
     - "[[Leichte Rüstung]]"
     - "[[Mittelschwere Rüstung]]"
@@ -84,18 +82,23 @@ Aussehen:
   Hautfarbe: Sandfarben
 Merkmale:
   - "[[Dunkelsicht]]"
+  - "[[Zwergische Unverwüstlichkeit]]"
+  - "[[Zwergische Zähigkeit]]"
   - "[[Steingespür]]"
   - "[[Kampfrausch]]"
   - "[[Ungerüstete Verteidigung]]"
   - "[[Rücksichtsloser Angriff]]"
   - "[[Gefahrengespür]]"
+  - "[[Urwissen]]"
+  - "[[Schnelle Bewegung]]"
+  - "[[Zusätzlicher Angriff]]"
   - "[[Titanengriff]]"
   - "[[Tödlicher Hieb]]"
   - "[[Furchtlos]]"
-  - "[[Schnelle Bewegung]]"
-  - "[[Zusätzlicher Angriff]]"
-  - "[[Meisterschaft Kampf mit zwei Waffen]]"
+  - "[[Schnelles Ziehen]]"
+  - "[[Verbesserter Kampf mit zwei Waffen]]"
 Talente:
+  - "[[Wilder Angreifer]]"
   - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
   Bild: "[[Drogan_portrait.jpeg]]"
@@ -105,7 +108,7 @@ Hintergrund:
   Klasse: "[[Barbar]]"
   Subklasse: "[[Pfad des Slayers]]"
   Gesinnung: "[[Neutral Gut]]"
-  Herkunft: "[[Heimgesuchter]]"
+  Herkunft: "[[Soldat]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
@@ -302,3 +305,6 @@ actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
+
+- [ ] Steingespür in Cooldowns eintragen  [priority:: high]
+- [ ] Urwissen/Urmacht in Attribute einpflegen  [priority:: medium]
