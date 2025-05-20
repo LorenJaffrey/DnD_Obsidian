@@ -38,7 +38,7 @@ Komplexität: Niedrig
 |  20   | [[Zusätzlicher Angriff]]                             |
 
 ## Klassenbeschreibung
-- [ ] #task aus PHB ergänzen [priority:: lowest]
+
 
 ## Origin Hooks
 
