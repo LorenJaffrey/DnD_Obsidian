@@ -1,8 +1,8 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
-- [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf]] gegen Bezauberung 
-- Immun gegen Schlafzauber
+# `=this.file.name`
+Du bist bei [[Rettungswurf|Rettungswürfen]] zum Vermeiden oder Beenden des Zustands [[Bezaubert]] im [[Vorteil und Nachteil|Vorteil]]. 

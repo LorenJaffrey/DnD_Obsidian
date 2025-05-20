@@ -13,12 +13,12 @@ Anhänger dieses Zirkels werden zu Abenteurern, um sich jenen Mächten entgegenz
 |  10   | [[Schutzgeist]]                              |
 |  14   | [[Loyale Tiergeister]]                       |
 
-![[Die Sprache des Waldes]]
+![[Die Sprache des Waldes|no-title]]
 
-![[Geistertotem]]
+![[Geistertotem|no-title]]
 
-![[Mächtiger Beschwörer]]
+![[Mächtiger Beschwörer|no-title]]
 
-![[Schutzgeist]]
+![[Schutzgeist|no-title]]
 
-![[Loyale Tiergeister]]
+![[Loyale Tiergeister|no-title]]

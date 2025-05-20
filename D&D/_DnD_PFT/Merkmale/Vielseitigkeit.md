@@ -1,7 +1,8 @@
 ---
-alias:
+aliases: 
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
-[[Übung]] in zwei beliebigen [[Fertigkeiten]].
+# `=this.file.name`
+Du bist [[Übung|geübt]] in zwei [[Fertigkeiten]] deiner Wahl.

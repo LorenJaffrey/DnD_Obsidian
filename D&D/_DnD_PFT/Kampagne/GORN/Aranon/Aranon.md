@@ -21,7 +21,7 @@ Gesundheit:
   MaxTP: 38
   TP: 38
   TW: 5
-  TempTP: 50
+  TempTP: 0
 Attribute:
   Stärke: 8
   Geschicklichkeit: 14
@@ -60,6 +60,7 @@ Fertigkeiten:
     - "[[Gemeinsprache]]"
     - "[[Elfisch]]"
     - "[[Ogham]]"
+    - "[[Sylvanisch]]"
   Werkzeuge:
     - "[[Kräuterkunde-Ausrüstung]]"
   Rüstungen:
@@ -78,14 +79,15 @@ Aussehen:
 Merkmale:
   - "[[Dunkelsicht]]"
   - "[[Feenblut]]"
-  - "[[Die Sprache des Waldes]]"
   - "[[Druidisch]]"
   - "[[Druidisches Zauberwirken]]"
   - "[[Verbesserte Tiergestalt]]"
   - "[[Wilder Gefährte]]"
   - "[[Wilde Wiederkehr]]"
+  - "[[Die Sprache des Waldes]]"
   - "[[Geistertotem]]"
 Talente:
+  - "[[Heiler]]"
   - "[[Von Feen berührt]]"
 Hintergrund:
   Bild: "[[Aranon_portrait.jpg]]"
