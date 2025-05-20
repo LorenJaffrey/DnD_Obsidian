@@ -141,6 +141,18 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Fertigkeit",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "eeb5-5922",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }
