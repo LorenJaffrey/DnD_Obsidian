@@ -16,7 +16,7 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden: 1d20
+Schaden:
 Schadensart: 
 Ziel: Einzel
 Klassen:
