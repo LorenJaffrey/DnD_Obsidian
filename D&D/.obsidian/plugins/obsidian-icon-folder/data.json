@@ -26,10 +26,10 @@
     "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":",
-    "iconsInLinksEnabled": true,
-    "debugMode": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "debugMode": false,
     "iconInTitlePosition": "above",
     "lucideIconPackType": "native",
     "useInternalPlugins": false
@@ -39,5 +39,104 @@
   "DM Bereich/Homebrew": "RaPotion",
   "DM Bereich/Tips": "CoInfo",
   "DM Bereich/Worldbuilding": "IbGlobe",
-  "_DnD_PFT/Kampagne/Timeline Kampagne 2.md": "LiClock"
+  "_DnD_PFT/Kampagne/Timeline Kampagne 2.md": "LiCalendarDays",
+  "_DnD_PFT/Monster Manual": "SiMonster",
+  "_DnD_PFT/Ausrüstung/Edelsteine": "LiGem",
+  "_DnD_PFT/Ausrüstung/Getränke": "TiGlassFull",
+  "_DnD_PFT/Ausrüstung/Speisen": "TiMeat",
+  "_DnD_PFT/Bestiarium": "RaEyeMonster",
+  "_DnD_PFT/Regeln": "RaPerspectiveDiceOne",
+  "_DnD_PFT/Gegenstände": "RaDiamond",
+  "_DnD_PFT/Charaktere": "RaDeadTree",
+  "_DnD_PFT/GORN": "RaBladeBite",
+  "_DnD_PFT/Zauber": "RaFairyWand",
+  "_DnD_PFT/Kampagne": "RaBladeBite",
+  "_DnD_PFT/Kampagne/Backup Charakter": "LiArchive",
+  "_DnD_PFT/Kampagne/GORN/Niptac": {
+    "iconName": "LiBanana",
+    "iconColor": "#8454de"
+  },
+  "_DnD_PFT/Kampagne/GORN/Aranon": {
+    "iconName": "RaWolfHead",
+    "iconColor": "#30b539"
+  },
+  "_DnD_PFT/Kampagne/GORN/Drogan": "RaCrossedAxes",
+  "_DnD_PFT/Kampagne/GORN/Lucian": {
+    "iconName": "RaFire",
+    "iconColor": "#c2932e"
+  },
+  "_DnD_PFT/Kampagne/GORN": "RaDeathSkull",
+  "_DnD_PFT/Kampagne/Friedhof": {
+    "iconName": "LiSkull",
+    "iconColor": "#ffffff"
+  },
+  "_DnD_PFT/Kampagne/Friedhof/Jon": {
+    "iconName": "LiSkull",
+    "iconColor": "#ffffff"
+  },
+  "_DnD_PFT/Kampagne/GORN/Ar'go": {
+    "iconName": "RaLightningStorm",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Zaubersprüche.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Inventar Ar'go.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/GORN/Aranon/Inventar Aranon.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#30b539"
+  },
+  "_DnD_PFT/Kampagne/GORN/Aranon/Spell Sheet Aranon.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#30b539"
+  },
+  "_DnD_PFT/Kampagne/GORN/Drogan/Inventar Drogan.md": "LiArchive",
+  "_DnD_PFT/Kampagne/GORN/Lucian/Inventar Lucian.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#c2932e"
+  },
+  "_DnD_PFT/Kampagne/GORN/Lucian/Spell Sheet Lucian.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#c2932e"
+  },
+  "_DnD_PFT/Kampagne/GORN/Niptac/Inventar Niptac.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#8454de"
+  },
+  "_DnD_PFT/Kampagne/Friedhof/Jon/_Attachments": {
+    "iconName": "LiImage",
+    "iconColor": "#ffffff"
+  },
+  "_Attachments": "LiImage",
+  "_DnD_PFT/Kampagne/Friedhof/Jon/Inventar Jon.md": {
+    "iconName": "LiArchive",
+    "iconColor": "#ffffff"
+  },
+  "_DnD_PFT/Kampagne/Friedhof/Jon/Session Notizen Jon.md": "🗒",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Session Notes.md": {
+    "iconName": "LiBookLock",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/Memoiren.md": "LiBookOpen",
+  "_DnD_PFT/Kampagne/Attribut-Übersicht.md": "LiView",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Zaubersprüche Ar'go.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/Initiative (Spielleiter).md": "LiPieChart",
+  "_DnD_PFT/Kampagne/Gesinnung GORN.md": "LiActivitySquare",
+  "_DnD_PFT/zEmbeds": "RaHiveEmblem",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Ritualbuch.md": {
+    "iconName": "RaDragon",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/Hinweise/Grannocs Tagebuch.md": "LiPiggyBank",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Zauberer - PHB 2024.md": {
+    "iconName": "LiBookCopy",
+    "iconColor": "#258bb6"
+  }
 }
