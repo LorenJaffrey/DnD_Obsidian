@@ -1,13 +1,14 @@
-- [ ] #task Flankenangriff (Gegner in die Zange nehmen gibt +2 auf Angriffswürfe)  [priority:: low]
-- [ ] #task System Shock (mehr als 50% der [[Trefferpunkte]] in einer Runde verlieren = permanente Verletzung) [priority:: low]
--  [ ] #task Mana System [priority:: low]
-	- Alle Zauberplätze zusammengerechnet = Maximales Mana des Charakters
-	- Höchster verfügbarer Zauber = Maximaler [[Zaubergrad]]
-- [ ] #task Wrestling Regeln [priority:: low]
+# `=this.file.name`
+- [ ] Flankenangriff (Gegner in die Zange nehmen gibt +2 auf Angriffswürfe)  [priority:: lowest]
+- [ ] System Shock (mehr als 50% der [[Trefferpunkte]] in einer Runde verlieren = permanente Verletzung) [priority:: lowest]
+-  [ ] Mana System [priority:: lowest]
+	- Alle Zauberplätze zusammengerechnet = Maximales Mana des Charakters [priority:: lowest]
+	- Höchster verfügbarer Zauber = Maximaler [[Zaubergrad]] [priority:: lowest]
+- [ ] Wrestling Regeln [priority:: lowest]
 - Ausrüstung
-	- [ ] #task Waffenaktionen [priority:: low]
+	- [ ] [[Waffeneigenschaften]] aufteilen in normale und Meisterschaft [priority:: medium]
 - Klassen
-	- [ ] #task Schurke (Meistertüftler) [priority:: low]
-		- [ ] #task Mount (Mechaspider, Mechanostrider) [priority:: low]
+	- [ ] Schurke (Meistertüftler) [priority:: lowest]
+		- [ ] Mount (Mechaspider, Mechanostrider) [priority:: lowest]
 - Werkzeuge ergänzen
-	- [ ] #task Alchemie[priority:: low]
+	- [ ] Alchemie[priority:: lowest]

@@ -54,7 +54,7 @@
 	- unerledigte Sidequests haben möglicherweise Konsequenzen
 - Informationsfluss 
 	- [x] Name und Identität [[Schwarze Spinne]]
-	- [ ] Name und Identität [[Iarno Albrek|Glasstab]] [priority:: low]
+	- [x] Name und Identität [[Iarno Albrek|Glasstab]]  [priority:: low]
 	- [ ] Amulett und Codewort (Wer weiß davon?; wer kennt das Codewort?) [priority:: low]
 	- [x] Wellenhallhöhle (wer weiß davon?; wer kennt die Lage?)
 
