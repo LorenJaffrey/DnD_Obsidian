@@ -2,9 +2,8 @@
 aliases: Jotun
 tags:
   - Sprache/Standard
-Typische_Völker:
-  - "[[Riesen]]"
-Schrift: "[[Zwergisch]]"
+Ursprung: "[[Riesen]]"
+Schrift: Zwergisch
 ---
 # `=this.file.name`
 

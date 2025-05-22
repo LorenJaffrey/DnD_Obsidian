@@ -1,7 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Feenwesen]]"
-Schrift: "[[Elfisch]]"
+  - Sprache/Selten
+Ursprung: "[[Feenwesen]]"
+Schrift: Elfisch
 ---

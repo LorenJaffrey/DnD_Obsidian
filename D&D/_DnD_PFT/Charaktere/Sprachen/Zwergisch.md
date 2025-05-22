@@ -1,9 +1,8 @@
 ---
 tags:
   - Sprache/Standard
-Typische_Völker:
-  - "[[Zwerge]]"
-Schrift: "[[Zwergisch]]"
+Ursprung: "[[Zwerge]]"
+Schrift: Zwergisch
 ---
 # `=this.file.name`
 

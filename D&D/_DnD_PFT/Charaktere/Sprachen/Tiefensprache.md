@@ -1,7 +1,5 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Gedankenschinder]]"
-  - "[[Betrachter]]"
+  - Sprache/Selten
+Ursprung: "[[Aberrationen]]"
 ---

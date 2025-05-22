@@ -6,7 +6,9 @@ aliases:
 ```dataview
 TABLE WITHOUT ID
 
-file.link AS "Sprache", Typische_Völker, Schrift
+file.link AS "Sprache", 
+Ursprung, 
+Schrift
 
 FROM #Sprache/Standard 
 
@@ -17,9 +19,11 @@ SORT file.name
 ```dataview
 TABLE WITHOUT ID
 
-file.link AS "Sprache", Typische_Völker, Schrift
+file.link AS "Sprache", 
+Ursprung, 
+Schrift
 
-FROM #Sprache/Exotisch 
+FROM #Sprache/Selten 
 
 SORT file.name
 ```
@@ -28,7 +32,8 @@ SORT file.name
 ```dataview
 TABLE WITHOUT ID
 
-file.link AS "Sprache", Typische_Völker, Schrift
+file.link AS "Sprache", 
+Ursprung
 
 FROM #Sprache/Sonstige 
 

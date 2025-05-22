@@ -1,8 +1,7 @@
 ---
 tags:
   - Sprache/Sonstige
-Typische_Völker:
-  - "[[Druide|Druiden]]"
+Ursprung: "[[Druide|Druiden]]"
 ---
 # `=this.file.name`
 Du weißt nicht nur, wie man die Sprache spricht, sondern auch wie man versteckte Botschaften hinterlassen kann. 

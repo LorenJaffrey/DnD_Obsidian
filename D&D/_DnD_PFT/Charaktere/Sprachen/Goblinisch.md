@@ -1,9 +1,8 @@
 ---
 tags:
   - Sprache/Standard
-Typische_Völker:
-  - "[[Goblinoide]]"
-Schrift: "[[Zwergisch]]"
+Ursprung: "[[Goblinoide]]"
+Schrift: Zwergisch
 ---
 # `=this.file.name`
 

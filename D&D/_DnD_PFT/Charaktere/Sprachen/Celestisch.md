@@ -1,7 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Celestische Wesen]]"
-Schrift: "[[Celestisch]]"
+  - Sprache/Selten
+Ursprung: "[[Celestische Wesen]]"
+Schrift: Celestisch
 ---

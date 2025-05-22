@@ -1,8 +1,7 @@
 ---
 tags:
   - Sprache/Sonstige
-Typische_Völker:
-  - "[[Schurken]]"
+Ursprung: "[[Schurken]]"
 Schrift:
 ---
 # `=this.file.name`

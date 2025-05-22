@@ -1,7 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Elementare]]"
-Schrift: "[[Zwergisch]]"
+  - Sprache/Selten
+Ursprung: "[[Elementare]]"
+Schrift: Zwergisch
 ---

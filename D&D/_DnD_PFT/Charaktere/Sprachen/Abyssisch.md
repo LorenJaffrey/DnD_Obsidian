@@ -1,7 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
-Typische_Völker:
-  - "[[Dämonen]]"
-Schrift: "[[Abyssisch]]"
+  - Sprache/Selten
+Ursprung: "[[Dämonen]]"
+Schrift: Abyssisch
 ---

@@ -1,9 +1,8 @@
 ---
 tags:
   - Sprache/Standard
-Typische_Völker:
-  - "[[Gnome]]"
-Schrift: "[[Zwergisch]]"
+Ursprung: "[[Gnome]]"
+Schrift: Zwergisch
 ---
 # `=this.file.name`
 

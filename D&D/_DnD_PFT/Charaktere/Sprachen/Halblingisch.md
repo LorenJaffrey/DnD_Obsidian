@@ -1,9 +1,8 @@
 ---
 tags:
   - Sprache/Standard
-Typische_Völker:
-  - "[[Halblinge]]"
-Schrift: "[[Gemeinsprache]]"
+Ursprung: "[[Halblinge]]"
+Schrift: Gemeinsprache
 ---
 # `=this.file.name`
 
