@@ -2,15 +2,17 @@
 
 # `=this.file.name`
 1. [[Klassen|Klasse]] [[Schurke]]
+	1. [[Raffinierter Schlag]]
 2. [[Herkunft]] 
-	1. [[Herkunft]] [[Scharlatan]] oder [[Händler]]?
+	1. [[Herkunft]] [[Scharlatan]]
 	2. [[Spezies]] [[Felsengnome|Felsengnom]]
 		1. [[Gnomische Gerissenheit]]
 		2. [[Artefaktkunde]] Alternative ohne Zaubern
 	3. [[Sprachen]]
 		1. [[Gemeinsprache]]
 		2. [[Gnomisch]]
-		3. ?
+		3. [[Goblinisch]]
+		4. [[Gaunerzinken]]
 	4. [[Attribute]]
 		1. [[Stärke]] 8
 		2. [[Geschicklichkeit]] 17 (16+1)

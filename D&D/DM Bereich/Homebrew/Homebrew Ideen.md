@@ -12,3 +12,6 @@
 		- [ ] Mount (Mechaspider, Mechanostrider) [priority:: lowest]
 - Werkzeuge ergänzen
 	- [ ] Alchemie[priority:: lowest]
+- [ ] Moralsystem  [priority:: medium]
+- [ ] Sozialsystem (freundlich bis feindlich) [priority:: medium]
+- [ ] Inventarsysteme evaluieren [priority:: low]

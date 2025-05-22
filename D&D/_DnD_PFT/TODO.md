@@ -43,7 +43,6 @@ show tree
 ```
 
 ## Sonstiges
-- [ ] Inventarsysteme evaluieren [priority:: low]
 - [ ] Vorlagen mit korrekter Syntax versehen [priority:: medium]
 - [ ] Persönlichkeit der Charaktere besser einbauen
 	- [ ] Hintergrund Drogan [priority:: normal]
@@ -51,10 +50,4 @@ show tree
 	- [ ] Hintergrund Niptac [priority:: normal]
 	- [ ] Hintergrund Argo [priority:: normal]
 	- [ ] Hintergrund Lucian [priority:: normal]
-- [ ] Moralsystem  [priority:: high]
-- [ ] Sozialsystem (freundlich bis feindlich) [priority:: high]
 - [ ] Warlock Patron Template YouTube [priority:: high]
-- [ ] Klassen überarbeiten [priority:: high]
-	- [ ] [[Schurke]] [priority:: high]
-	- [ ] [[Hexenmeister]] [priority:: high]
-	- [ ] [[Druide]] [priority:: high]
