@@ -4,14 +4,15 @@
 1. [[Klassen|Klasse]] [[Druide]]
 	1. [[Urtümliche Ordnung]]
 	2. keine [[Übung]] mit [[Mittelschwere Rüstung]] mehr
+	3. feste [[Tiergestalt]]
 2. [[Herkunft]] 
-	1. [[Herkunft]] [[Einsiedler]]?
+	1. [[Herkunft]] [[Einsiedler]]
 		1. [[Heiler]]
 	2. [[Spezies]] [[Halbelfen|Halbelf]]
 	3. [[Sprachen]]
 		1. [[Gemeinsprache]]
 		2. [[Elfisch]]
-		3. weitere [[Sprachen#Standardsprachen|Standardsprache]]
+		3. [[Gebärdensprache]]]]
 		4. [[Sylvanisch]] ([[Die Sprache des Waldes]])
 		5. [[Ogham]] ([[Druidisch]])
 	4. [[Attribute]]

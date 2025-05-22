@@ -11,7 +11,7 @@
 
 
 ## Recap
-
+- [[Lucian]] zweimal [[Bewusstlos]] -> 2 Punkte [[Erschöpft|Erschöpfung]]
 
 ## Ablauf
 - Kampf in [[[[Burg Cragmaw]]]]

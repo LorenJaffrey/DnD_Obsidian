@@ -1,6 +1,6 @@
 ---
 tags:
-  - Sprache/Exotisch
+  - Sprache/Standard
 Typische_Völker:
   - "[[Drachen]]"
   - "[[Drachenblütige]]"
