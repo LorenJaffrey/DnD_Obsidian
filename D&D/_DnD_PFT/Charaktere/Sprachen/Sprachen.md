@@ -2,6 +2,7 @@
 aliases:
   - Sprache
 ---
+# `=this.file.name`
 ## Standardsprachen
 ```dataview
 TABLE WITHOUT ID
