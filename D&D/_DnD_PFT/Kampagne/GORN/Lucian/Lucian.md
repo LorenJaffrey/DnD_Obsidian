@@ -92,7 +92,7 @@ Hintergrund:
   Name: Lucian Blackthorn
   Volk: "[[Infernalische Tieflinge|Infernalischer Tiefling]]"
   Klasse: "[[Hexenmeister]]"
-  Subklasse: "[[Der Unhold]]"
+  Subklasse: "[[Unhold-Schutzherr]]"
   Gesinnung: "[[Chaotisch Neutral]]"
   Herkunft: "[[Weiser]]"
 Persönlichkeit:

@@ -1,5 +1,6 @@
 ---
-aliases: Hexenmeisterzauber
+aliases: 
+  - Hexenmeisterzauber
 ---
 # `=this.file.name`
 

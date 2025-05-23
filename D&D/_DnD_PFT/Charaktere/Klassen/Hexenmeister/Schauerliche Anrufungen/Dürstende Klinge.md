@@ -1,11 +1,14 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Klinge"
-mindeststufe: 5
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung: "[[Pakt der Klinge]]"
+Mindeststufe: 5
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 5, [[Segen des Pakts#Pakt der Klinge]]
-Du kannst mit deiner Paktwaffe zweimal angreifen anstatt nur einmal, wenn du als [[Aktion]] [[Angriff|Angreifen]] in deinem Zug wählst.
+Du erhältst das Merkmal [[Zusätzlicher Angriff]], das nur für deine [[Pakt der Klinge#Paktwaffe]] gilt. 
+Wenn du in deinem [[Zug]] die [[Aktion]] [[Angriff]] ausführst, kannst du mit dieser Waffe zweimal statt einmal angreifen.

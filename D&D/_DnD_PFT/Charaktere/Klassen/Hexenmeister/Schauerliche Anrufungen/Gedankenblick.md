@@ -5,5 +5,7 @@ tags:
 mindeststufe: 1
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
 Du kannst mit deiner [[Aktion]] eine humanoide Kreatur berühren, die dazu gewillt ist, um durch ihre Sinne bis zum Ende deines nächsten [[Zug]] die Umwelt wahrzunehmen. Solange sich die Kreatur auf derselben Existenzebene befindet wie du selbst, kannst du deine [[Aktion]] in den folgenden Zügen verwenden, um diese Verbindung aufrechtzuerhalten und die Dauer bis zum Ende deines jeweils nächsten Zuges zu verlängern. Während du mit den Sinnen der anderen Kreatur wahrnimmst, besitzt du all ihre speziellen Sinne, bist aber blind und taub für deine eigene Umgebung.

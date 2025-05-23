@@ -2,10 +2,9 @@
 alias:
 tags:
 - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 1
+voraussetzung: "Pakt der Klinge"
+mindeststufe: 12
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
-
-Du kannst in [[Dunkelheit]] bis zu 36 m weit normal sehen, gleichgültig ob diese magischen oder natürlichen Ursprungs ist.

@@ -1,14 +1,20 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt des Buches"
-mindeststufe: 9
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung: "[[Pakt des Buches]]"
+Mindeststufe: 9
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 9, [[Segen des Pakts#Pakt des Buches]]
-Eine neue Seite erscheint in deinem Buch der Schatten. Mit deiner Erlaubnis kann eine Kreatur ihre [[Aktion]] verwenden, um ihren Namen auf diese Seite zu schreiben.
-Die maximal mögliche Anzahl an Namen entspricht deinem [[Übung|Übungsbonus]].
-Wenn eine Kreatur, deren Name auf der Seite steht, 0 [[Trefferpunkte]] erreicht, aber noch nicht stirbt, erhält sie einen [[Trefferpunkte|Trefferpunkt]] zurück. Sobald diese Magie ausgelöst wurde, kann sie erst wieder nach einer [[Lange Rast]] genutzt werden.
-Als [[Aktion]] kannst du einen Namen auf der Seite auf magische Weise entfernen, indem du ihn berührst.
+In deinem [[Pakt des Buches#Buch der Schatten]] erscheint eine neue Seite, wenn du es beschwörst. 
+Eine Kreatur kann mit deiner Erlaubnis eine [[Aktion]] ausführen, um ihren Namen auf diese Seite zu schreiben. 
+Die höchstmögliche Anzahl von Namen auf der Seite entspricht deinem [[Charisma#Charismamodifikator]] (mindestens ein Name).
+
+Wenn die [[Trefferpunkte]] einer Kreatur, deren Name auf der Seite steht, auf 0 sinken, die Kreatur aber noch nicht stirbt, erhält sie auf magische Art einen [[Trefferpunkte|Trefferpunkt]] zurück. 
+Wenn diese Magie ausgelöst wurde, kann sie erst nach einer [[Lange Rast|langen Rast]] erneut verwendet werden.
+
+Als magische [[Aktion]] kannst du einen Namen von der Seite entfernen, indem du ihn berührst.

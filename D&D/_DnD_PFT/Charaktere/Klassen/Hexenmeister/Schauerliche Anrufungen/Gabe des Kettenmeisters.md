@@ -1,16 +1,27 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Kette"
-mindeststufe: 1
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+Voraussetzung: "[[Pakt der Kette]]"
+Mindeststufe: 5
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: [[Segen des Pakts#Pakt der Kette]]
-Wenn du [[Vertrauten finden]] wirkst. verleihst du dem beschworenen Vertrauten etwas von deiner schauerlichen Kraft und die folgenden Vorzüge:
-- Der Vertraute erhält entweder eine Flug- oder Schwimmbewegungsrate (nach Wahl) von zwölf Metern.
-- ﻿﻿Als [[Bonusaktion]] kannst du deinem Vertrauten befehlen, einen [[Angriff]] auszuführen.
-- ﻿﻿Die Waffenangriffe des Vertrauten sind magisch, um Immunität und [[Schadensarten#Schadensresistenz]] gegen nichtmagische Angriffe zu überwinden.  
-- Wenn der Vertraute eine Kreatur zwingt, einen [[Rettungswurf]] auszuführen, gilt dein [[Zauberrettungswurf-Schwierigkeitsgrad]]. 
-- Wenn der Vertraute Schaden erleidet, kannst du deine [[Reaktion]] nutzen, um ihm [[Schadensarten#Schadensresistenz]] gegen diese Schadensart zu gewähren.
+Wenn du [[Vertrauten finden]] wirkst, verleihst du dem beschworenen Vertrauten etwas von deiner schauerlichen Kraft und gewährst ihm damit folgende Vorzüge:
+
+## Flugfähig oder aquatisch
+Der Vertraute erhält entweder eine [[Fliegen]]- oder eine [[Schwimmen]]-[[Bewegungsrate]] (nach deiner Wahl) von zwölf Metern (9 Kästchen).
+
+## Schneller Angriff
+Als [[Bonusaktion]] kannst du deinem Vertrauten befehlen, die [[Angriff]]-[[Aktion]] auszuführen.
+
+## Gleißender oder nekrotischer Schaden
+Wann immer der Vertraute [[Hiebschaden]], [[Stichschaden]] oder [[Wuchtschaden]] bewirkt, kannst du diesen in [[Gleißender Schaden|gleißenden Schaden]] oder [[Nekrotischer Schaden|nekrotischen Schaden]] umwandeln.
+
+## Dein Rettungswurf-SG
+Wenn der Vertraute eine Kreatur zu einem [[Rettungswurf]] zwingt, gilt dein [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]].
+
+## Resistenz
+Wenn der Vertraute Schaden erleidet, kannst du eine [[Reaktion]] ausführen, um ihm [[Schadensarten#Schadensresistenz]] gegen diese [[Schadensarten|Schadensart]] zu gewähren.

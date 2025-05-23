@@ -5,8 +5,6 @@ tags:
   - Regeln/PHB2024
 ---
 # `=this.file.name`
-*Du bist mit Hilfe deines Schutzherren dazu in der Lage, von deinen inneren Reserven an mystischer Energie zu zehren, um Zauber zu wirken.*
-
 Du kannst eine Minute lang einen esoterischen Ritus ausführen. 
-Danach erhältst du alle verbrauchten Paktmagie-[[Zauberplätze]] zurück.
+Danach erhältst du verbrauchte Paktmagie-[[Zauberplätze]] zurück, jedoch höchstens eine Anzahl in Höhe der Hälfte deines Maximums (aufgerundet). 
 Du kannst dieses Merkmal erst nach einer [[Lange Rast|langen Rast]] erneut verwenden.

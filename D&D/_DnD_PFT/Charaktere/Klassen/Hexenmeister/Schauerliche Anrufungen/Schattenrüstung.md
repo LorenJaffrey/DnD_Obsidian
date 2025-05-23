@@ -5,5 +5,7 @@ tags:
 mindeststufe: 1
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
 Du kannst [[Magierrüstung]] nach Belieben auf dich selbst wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] oder [[Materialkomponenten]] aufwenden zu müssen.

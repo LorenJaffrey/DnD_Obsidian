@@ -1,8 +1,8 @@
 ---
 aliases:
 tags:
-- Merkmal
-- Regeln/PHB2024
+  - Merkmal/Klasse/Hexenmeister
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 *In einer okkulten Zeremonie hast du einen Pakt mit einer mysteriösen Wesenheit geschlossen, um magische Kräfte zu erhalten.

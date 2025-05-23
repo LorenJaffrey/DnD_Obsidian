@@ -1,12 +1,16 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 5
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 5
 ---
 # `=this.file.name`
+Mindeststufe: Stufe `=this.Mindeststufe` 
+Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 5
-Du kannst unter Wasser atmen, und du erhältst eine Bewegungsrate für Schwimmen, die deiner Schrittbewegungsrate entspricht.
-Du kannst außerdem einmal [[Wasser atmen]] wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
-Du erhältst diese Fähigkeit zurück, nachdem du eine [[Lange Rast]] beendet hast.
+Du kannst unter Wasser atmen und erhältst eine [[Schwimmen]]-[[Bewegungsrate]] in Höhe deiner [[Bewegungsrate]].
+
+Außerdem kannst du den Zauber [[Wasser atmen]] wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
+Du erhältst die Fähigkeit, ihn auf diese Art zu wirken, nach einer [[Lange Rast|langen Rast]] zurück.
