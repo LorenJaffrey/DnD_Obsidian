@@ -17,7 +17,7 @@ Zauber:
   - "[[Spiegelbilder]]"
   - "[[Blitz]]"
   - "[[Blitze herbeirufen]]"
-  - "[[Zauber/Zaubersprüche/Fliegen]]"
+  - "[[Magisches Fliegen]]"
 Metamagie:
   - "[[Weitreichender Zauber]]"
   - "[[Beschleunigter Zauber]]"
