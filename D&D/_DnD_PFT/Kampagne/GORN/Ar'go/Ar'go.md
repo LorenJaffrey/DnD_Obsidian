@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 20
+  TP: 30
   TW: 5
   TempTP: 0
 Attribute:
@@ -27,7 +27,7 @@ Attribute:
   Geschicklichkeit: 13
   Konstitution: 16
   Intelligenz: 12
-  Weisheit: 10
+  Weisheit: 8
   Charisma: 18
 Rettungswürfe:
   Stärke: 0
@@ -46,21 +46,21 @@ Fertigkeiten:
   Geschichte: 0
   Heilkunde: 0
   Heimlichkeit: 0
-  Mit_Tieren_umgehen: 0
+  Mit_Tieren_umgehen: 1
   Motiv_erkennen: 0
   Nachforschungen: 0
-  Naturkunde: 1
+  Naturkunde: 0
   Religion: 1
   Täuschen: 0
-  Überlebenskunst: 1
-  Überzeugen: 0
+  Überlebenskunst: 0
+  Überzeugen: 1
   Wahrnehmung: 0
 Übung:
   Sprachen:
     - "[[Gemeinsprache]]"
     - "[[Urtümlich]]"
     - "[[Drakonisch]]"
-    - "[[Celestisch]]"
+    - "[[Riesisch]]"
   Werkzeuge:
     - "[[Navigationswerkzeug]]"
   Rüstungen: 
@@ -87,6 +87,7 @@ Merkmale:
   - "[[Magische Führung]]"
   - "[[Zaubereiauffrischung]]"
 Talente:
+  - "[[Glückspilz]]"
   - "[[Kampferprobter Zauberwirker]]"
 Hintergrund:
   Bild: "[[Argo_portrait.jpeg]]"
@@ -96,7 +97,7 @@ Hintergrund:
   Klasse: "[[Zauberer]]"
   Subklasse: "[[Sturmzauberei]]"
   Gesinnung: "[[Neutral Gut]]"
-  Herkunft: "[[Einsiedler]]"
+  Herkunft: "[[Händler|Drachenkult]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
     - <ul><b>Respekt vor der Natur</b></ul>Ar'gonthariel Maez'ralor empfindet eine tiefe Ehrfurcht vor den Elementen und dem Gleichgewicht der Natur. Er sieht sich selbst als Beschützer dieses Gleichgewichts und handelt dementsprechend.
@@ -119,7 +120,7 @@ Zauber:
   - "[[Nebelschritt]]"
   - "[[Spiegelbilder]]"
   - "[[Blitz]]"
-  - "[[Magisches Fliegen]]"
+  - "[[Zauber/Zaubersprüche/Fliegen]]"
   - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: true
@@ -137,11 +138,11 @@ InputData:
   MagierRüstung: true
   BlitzOdem: 2
   Klingenbann: true
-  Zaubereipunkte: 5
+  Zaubereipunkte: 3
   Zauberplätze:
     Grad_1: 3
-    Grad_2: 3
-    Grad_3: 2
+    Grad_2: 1
+    Grad_3: 1
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -171,12 +172,12 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 2
-  IntuitiveZaubereiAktiv: false
+  IntuitiveZaubereiLadungen: 1
+  IntuitiveZaubereiAktiv: true
   DrakonischerFlugAktiv: false
   DrakonischerFlugLadungen: 1
-  SpiegelbilderLadungen: 3
-  SpiegelbilderAktiv: false
+  SpiegelbilderLadungen: 2
+  SpiegelbilderAktiv: true
 tags:
   - Charakter/GORN
 ---
@@ -339,10 +340,14 @@ tags:
 >>>
 >>>> ![[Drakonischer Flug | no-title]] 
 >> 
->>> ### Talente ([[Kampferprobter Zauberwirker]])
+>>> ### Talente ([[Kampferprobter Zauberwirker]], [[Glückspilz]])
 >>>> [!column | 2 no-title] 
->>>>> ![[Kampferprobter Zauberwirker#Konzentration]]
+>>>>> 
+>>>>> ![[Glückspilz#Glückspunkte]]
+>>>>> ![[Glückspilz#Vorteil]]
+>>>>> ![[Glückspilz#Nachteil]]
 >>>>
+>>>>>  ![[Kampferprobter Zauberwirker#Konzentration]]
 >>>>> ![[Kampferprobter Zauberwirker#Gestenkomponenten]]
 >>>>>  ![[Kampferprobter Zauberwirker#Reaktive Zauber]]
 >>>
@@ -402,14 +407,14 @@ tags:
 >>> dv.el('h2', `<h2>Weisheit</h2>`); 
 >>> ```
 >>> ```dynamic-embed
->>> [[embed  Makel Naivität Weisheit]]
+>>> [[embed Character Sheet Attribute Weisheit]]
 >>> ```
 >>
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Charisma</h2>`); 
 >>> ```
 >>> ```dynamic-embed
->>> [[embed Makel Naivität Charisma]]
+>>> [[embed Character Sheet Attribute Charisma]]
 >>> ```
 >>> 
 
@@ -453,13 +458,6 @@ tags:
 >>> | 🤓  | Er lässt sich leicht beeinflussen bzw. für eine Idee begeistern (kann sich leicht überschätzen) besonders wenn von Elementaren Kräften gesprochen wird |
 >>> | 🧨  | Wenn er merkt das er reingelegt wurde, wird er leicht Emotional ([[Schockgriff]]!!!) |
 >>> | 🚢  |  Umgebung die ihm gefallen: auf See > in der Wildnis > ein Dorf > eine Stadt |
->>> 
->>> ## Persönlichkeits-Attributs/Fertigkeiten-Modifizierung
->>> |        Grund         |           Beschreibung           |                              Auswirkung (Negativ)                               |              Auswirkung (Positiv)              |
->>> |--------------------|--------------------------------|:-------------------------------------------------------------------------------:|:----------------------------------------------:|
->>> | Herkunft / Lebensweise |    Einsiedler / Naturverbunden     |                 Argo verliert die [[Übung]] von [[Überzeugen]]                  | Argo erhält [[Übung]] auf [[Überlebenskunst]]  |
->>> |         [[Völker\|Volk]]         |         [[Drachenblütige\|Drachengeborener]]         |                         siehe Spalte [[Makel]] Naivität                         |  [[Stärke]] wird von (Basis) 8 auf 10 erhöht   |
->>> |       [[Makel]] (🪫)      | Naivität / Jugendlicher Leichtsinn | Werte von [[Motiv erkennen]], [[Täuschen]] & [[Auftreten]] wird um -4 reduziert | siehe Spalte [[Völker\|Volk]]  [[Drachenblütige\|Drachengeborener]] |
 >>>  
 >>> ## Aussehen
 >>> ```dynamic-embed

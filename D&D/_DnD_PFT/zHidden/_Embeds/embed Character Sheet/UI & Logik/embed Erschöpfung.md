@@ -6,13 +6,13 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
 ---
-|        Eigenschaft         |                   1                    |                   2                    |                   3                    |                   4                    |                   5                    |
-|:--------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|
-|  [[Glück\|Glückspunkte]]   | `INPUT[toggle:InputData.GlücksPunkt1]` | `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` |
-| [[Erschöpft\|Erschöpfung]] | `INPUT[toggle:InputData.Erschöpfung1]` | `INPUT[toggle:InputData.Erschöpfung2]` | `INPUT[toggle:InputData.Erschöpfung3]` | `INPUT[toggle:InputData.Erschöpfung4]` | `INPUT[toggle:InputData.Erschöpfung5]` |
+|        Eigenschaft         |                   1                    |                   2                    |                   3                    |                   4                    |                   5                    |                                                         [[Glückspilz\|6]]                                                         | 
+|:--------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|
+|  [[Glück\|Glückspunkte]]   | `INPUT[toggle:InputData.GlücksPunkt1]` | `INPUT[toggle:InputData.GlücksPunkt2]` | `INPUT[toggle:InputData.GlücksPunkt3]` | `INPUT[toggle:InputData.GlücksPunkt4]` | `INPUT[toggle:InputData.GlücksPunkt5]` | `$=(dv.current().Talente.join(", ").indexOf("Glückspilz").toString()!=="-1")?('```INPUT[toggle:InputData.GlücksPunkt6]```') :'❌'` |
+| [[Erschöpft\|Erschöpfung]] | `INPUT[toggle:InputData.Erschöpfung1]` | `INPUT[toggle:InputData.Erschöpfung2]` | `INPUT[toggle:InputData.Erschöpfung3]` | `INPUT[toggle:InputData.Erschöpfung4]` | `INPUT[toggle:InputData.Erschöpfung5]` |                                                                 💀                                                                 |
 
 
- ```js-engine
+```js-engine
 // Grab the Meta Bind API and extract metadata fields
 const mb = engine.getPlugin('obsidian-meta-bind-plugin').api;
 

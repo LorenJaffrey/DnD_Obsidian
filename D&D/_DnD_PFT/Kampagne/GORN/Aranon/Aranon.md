@@ -61,10 +61,12 @@ Fertigkeiten:
     - "[[Elfisch]]"
     - "[[Ogham]]"
     - "[[Sylvanisch]]"
+    - "[[Gebärdensprache]]"
   Werkzeuge:
     - "[[Kräuterkunde-Ausrüstung]]"
   Rüstungen:
     - "[[Leichte Rüstung]]"
+    - - - Mittelschwere Rüstung
   Waffen:
     - "[[Einfache Waffen]]"
 Aussehen:
@@ -86,6 +88,7 @@ Merkmale:
   - "[[Wilde Wiederkehr]]"
   - "[[Die Sprache des Waldes]]"
   - "[[Geistertotem]]"
+  - "[[Druidischer Wächter]]"
 Talente:
   - "[[Heiler]]"
   - "[[Von Feen berührt]]"
@@ -137,7 +140,7 @@ InputData:
   TiergestaltLadung1: false
   TiergestaltLadung2: false
   GeistertotemLadung: false
-  NebelschrittLadung: false
+  NebelschrittLadung: true
   IdentifizierenLadung: false
   Stresslevel1: false
   Stresslevel2: false
@@ -146,8 +149,8 @@ InputData:
   Stresslevel5: false
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 3
-    Grad_3: 1
+    Grad_2: 1
+    Grad_3: 0
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -391,5 +394,3 @@ actions:
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
-
-- [ ] Tiergestalten auswählen  [priority:: highest]
