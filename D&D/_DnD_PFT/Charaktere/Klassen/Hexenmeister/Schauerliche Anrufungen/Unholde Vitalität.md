@@ -1,14 +1,15 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Schauriger Strahl"
-mindeststufe: 1
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 2
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: [[Schauriger Strahl]]
-
-Wenn du [[Schauriger Strahl]] wirkst, beträgt die Reichweite des Zaubers 90 m.
+Du kannst [[Falsches Leben]] auf dich selbst wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
+Wenn du den Zauber mit diesem Merkmal wirkst, würfelst du nicht, um die[[Temporäre Trefferpunkte|Temporären Trefferpunkte]] zu ermitteln, sondern erhältst automatisch das höchste Würfelergebnis.

@@ -5,6 +5,7 @@ tags:
   - Regeln/PHB2024
 Voraussetzung: "[[Pakt des Buches]]"
 Mindeststufe: 9
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 

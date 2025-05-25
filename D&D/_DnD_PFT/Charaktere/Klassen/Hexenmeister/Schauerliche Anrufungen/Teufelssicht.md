@@ -2,10 +2,12 @@
 alias:
 tags:
 - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 1
+Voraussetzung:
+Mindeststufe: 2
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Du kannst in [[Dunkelheit]] bis zu 36 m weit normal sehen, gleichgültig ob diese magischen oder natürlichen Ursprungs ist.
+Du hast bei [[Dämmriges Licht|dämmrigem Licht]] und bei [[Finsternis]] - sowohl magischer als auch nichtmagischer - normale Sich]] mit einer Reichweite von 36 Metern.

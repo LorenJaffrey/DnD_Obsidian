@@ -1,12 +1,14 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 5
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 5
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 5
-Wenn du dich in einem Bereich mit [[Dämmriges Licht]] oder [[Dunkelheit]] befindest, kannst du deine [[Aktion]] verwenden, um [[Unsichtbar]] zu werden, bis du dich bewegst oder eine [[Aktion]] oder eine [[Reaktion]] ausführst.
+In [[Dämmriges Licht|dämmrigem Licht]] oder [[Finsternis]] kannst du [[Unsichtbarkeit]] auf dich selbst wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen.

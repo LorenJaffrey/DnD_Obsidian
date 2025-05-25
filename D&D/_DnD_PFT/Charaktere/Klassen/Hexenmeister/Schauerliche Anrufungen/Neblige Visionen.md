@@ -1,11 +1,14 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 1
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 2
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Du kannst [[Lautloses Trugbild]] nach Belieben wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] oder [[Materialkomponenten]] aufwenden zu müssen.
+Du kannst [[Lautloses Trugbild]] wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen.

@@ -1,13 +1,15 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Klinge"
-mindeststufe: 5
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung: "[[Pakt der Klinge]]"
+Mindeststufe: 5
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 5, [[Segen des Pakts#Pakt der Klinge]]
-Wenn du eine Kreatur mit deiner Paktwaffe triffst, kannst du einmal pro [[Zug]] einen [[Zauberplätze|Zauberplatz]] verbrauchen, um dem Ziel 1W8 zusätzlichen [[Energieschaden]] zuzufügen, plus weitere 1W8 pro Stufe des [[Zauberplätze|Zauberplatz]]es. Außerdem kannst du das Ziel zu Boden werfen und es erhält den [[Liegend]], falls es die [[Größenkategorie]] [[Riesig]] oder kleiner besitzt.
+Einmal pro [[Zug]] kannst du, wenn du eine Kreatur mit deiner [[Pakt der Klinge#Paktwaffe]] triffst, einen Paktmagie-[[Zauberplätze|Zauberplatz]] verbrauchen, um dem Ziel zusätzlich `dice:1d8` [[Energieschaden]] sowie 1W8 pro [[Zaubergrad]] zuzufügen. 
+Wenn das Ziel von höchstens [[Riesig|riesiger]] Größe ist, kannst du es außerdem [[Liegend|umstoßen]].

@@ -5,6 +5,7 @@ tags:
   - Regeln/PHB2024
 Voraussetzung: "[[Pakt der Klinge]]"
 Mindeststufe: 5
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 

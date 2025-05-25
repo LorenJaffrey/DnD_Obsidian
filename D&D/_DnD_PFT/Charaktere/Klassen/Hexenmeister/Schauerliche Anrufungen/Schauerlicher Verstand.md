@@ -1,11 +1,14 @@
 ---
 alias:
-tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 1
+tags: 
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 1
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Du hast jetzt [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] zum Aufrechterhalten der [[Konzentration]] auf einen Zauber.
+Du bist bei [[Rettungswurf|Rettungswürfen]] auf [[Konstitution]] zum Aufrechterhalten der [[Konzentration]] im [[Vorteil und Nachteil|Vorteil]].

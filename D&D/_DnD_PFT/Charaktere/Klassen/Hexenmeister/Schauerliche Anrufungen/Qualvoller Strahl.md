@@ -1,13 +1,18 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Schauriger Strahl"
-mindeststufe: 1
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung: "ein [[Zaubertricks|Zaubertrick]] aus der [[Zauberliste des Hexenmeisters]], der Schaden bewirkt"
+Mindeststufe: 2
+Wiederholbar: true
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung [[Schauriger Strahl]]
-Wenn du eine Kreatur mit [[Schauriger Strahl]] triffst, addiere deinen [[Charisma#Charismamodifikator]] zum Schaden.
+Wähle einen der dir bekannten [[Zaubertricks]] aus der [[Zauberliste des Hexenmeisters]] aus, die Schaden bewirken. 
+Du kannst den [[Schadenswurf|Schadenswürfen]] des Zaubers deinen [[Charisma#Charismamodifikator]] hinzufügen.
+
+## Kann wiederholt werden: Du kannst diese Anrufung mehr als einmal erhalten. 
+Wähle bei Wiederholung einen anderen passenden [[Zaubertricks|Zaubertrick]] aus.

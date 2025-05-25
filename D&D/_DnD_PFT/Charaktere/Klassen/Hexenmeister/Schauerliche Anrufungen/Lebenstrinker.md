@@ -1,13 +1,14 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Klinge"
-mindeststufe: 12
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung: "[[Pakt der Klinge]]"
+Mindeststufe: 9
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 12, [[Segen des Pakts#Pakt der Klinge]]
-Triffst du mit deiner Paktwaffe eine Kreatur, erleidet diese [[Nekrotischer Schaden]] in Höhe deines [[Charisma#Charismamodifikator]] (mindestens 1).
+Einmal pro [[Zug]] kannst du, wenn du eine Kreatur mit deiner [[Pakt der Klinge#Paktwaffe]] triffst, der Kreatur zusätzlich 1W6 [[Gleißender Schaden|gleißenden Schaden]], [[Nekrotischer Schaden|nekrotischen Schaden]] oder [[Psychischer Schaden|psychischen Schaden]] (nach deiner Wahl) zufügen, und du kannst einen deiner [[Trefferwürfel]] verbrauchen, mit ihm würfeln und eine Anzahl von [[Trefferpunkte|Trefferpunkten]] in Höhe des Ergebnisses plus deines [[Konstitution#Konstitutionsmodifikator|Konstitutionsmodifikators]] (mindestens 1 [[Trefferpunkte|Trefferpunkt]]) zurückerhalten.

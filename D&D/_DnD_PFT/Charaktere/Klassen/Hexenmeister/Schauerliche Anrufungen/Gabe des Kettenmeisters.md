@@ -2,8 +2,10 @@
 alias:
 tags:
   - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
 Voraussetzung: "[[Pakt der Kette]]"
 Mindeststufe: 5
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 

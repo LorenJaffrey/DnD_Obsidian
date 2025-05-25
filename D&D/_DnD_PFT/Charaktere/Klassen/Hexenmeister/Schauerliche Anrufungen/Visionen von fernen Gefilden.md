@@ -1,12 +1,14 @@
 ---
 alias:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-mindeststufe: 15
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
+  - Regeln/PHB2024
+Voraussetzung:
+Mindeststufe: 9
+Wiederholbar: false
 ---
 # `=this.file.name`
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Voraussetzung: Stufe 15
-Du kannst [[Arkanes Auge]] nach Belieben wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] oder [[Materialkomponenten]] aufwenden zu müssen.
+Du kannst [[Arkanes Auge]] wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen.
