@@ -1,6 +1,7 @@
 ---
 aliases:
 tags:
+  - Zauber
 Grad: 3
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
 Zeitaufwand: "[[Aktion]]"

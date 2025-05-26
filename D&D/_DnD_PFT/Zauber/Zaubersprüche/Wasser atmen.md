@@ -1,6 +1,5 @@
 ---
 aliases:
-  - 
 tags:
   - Zauber/Offensiv
 Grad: 3
