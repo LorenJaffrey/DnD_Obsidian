@@ -25,4 +25,5 @@ Klassen:
 ```
 
 ## Beschreibung
-Du berührst eine bereitwillige Kreatur und verleihst ihr die Fähigkeit, in der Dunkelheit zu sehen. Für die Wirkungsdauer verfügt das Ziel über Dunkelsicht mit einer Reichweite von 18 m.
+Du berührst eine bereitwillige Kreatur und verleihst ihr die Fähigkeit, in der Dunkelheit zu sehen. 
+Für die Wirkungsdauer verfügt das Ziel über [[Dunkelsicht]] mit einer Reichweite von 18 m.
