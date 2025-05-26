@@ -314,4 +314,4 @@ actions:
 ```
 
 - [ ] Raffinierter Schlag zu Cooldowns hinzufügen
-- [ ] Tüftlerwurf automatisieren
+- [x] Tüftlerwurf automatisieren
