@@ -3,6 +3,19 @@
 | [[Verschwinden]]           |                                  `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]`                                   |
 | [[Hinterhältiger Angriff]] | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
 
+```dataview
+TABLE WITHOUT ID
+
+file.link AS "Raffinierter Schlag",
+Kosten
+
+FROM #Merkmal/Klasse/Schurke/Raffinierter_Schlag
+
+WHERE Stufe < 14
+
+SORT file.name
+```
+
 #### Apparaturen (max `=ceil(this.Stufe/2)`)
 |                  Apparatur 1                  |                  Apparatur 2                  |                  Apparatur 3                  |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
