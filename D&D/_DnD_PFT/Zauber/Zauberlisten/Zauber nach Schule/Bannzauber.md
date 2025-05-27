@@ -1,9 +1,12 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases:
-- Bannmagie
+  - Bannmagie
+Typische_Effekte: "Verhindert schädliche Effekte oder kehrt sie um."
 ---
 # `=this.file.name`
-Schützende Zauber die magische Barrieren erschaffen oder Eindringlinge abwehren.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

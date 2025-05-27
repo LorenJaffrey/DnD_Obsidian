@@ -1,9 +1,11 @@
 ---
+tags:
+  - Regeln/PHB2024
 aliases:
   - Zauberplatz
   - Zauberplätzen
 ---
-# Zauberplätze
+## Zauberplätze
 Zauberei ist anstrengend, weshalb ein Zauberwirker nur eine bestimmte Anzahl von Zaubern ab dem 1. [[Zaubergrad|Grad]] wirken kann, bevor er rasten muss. 
 Das magische Potenzial eines Zauberwirkers wird durch seine [[Zauberplätze]] repräsentiert.
 
@@ -30,11 +32,3 @@ Verbrauchte Zauberplätze werden nach einer [[Lange Rast|langen Rast]] wiederher
 
 
 
-## Zauber auf einem höheren Grad wirken
-Manche Zauber können auf einem höheren [[Zaubergrad|Grad]] gewirkt werden um ihren Effekt zu verstärken. 
-Es wird dann ein entsprechender `=this.aliases` verbraucht und.
-(siehe [[Skalierbare Zauber]])
-
-## Zauber ohne Zauberplätze wirken
-Ein Zauberer kann im Notfall auch noch Zauber wirken wenn er keine passenden `=this.file.name` mehr zur Verfügung hat. Er erhält dafür im Gegenzug eine Anzahl an Stufen [[Erschöpft|Erschöpfung]] in Höhe des [[Zaubergrad]]s des gewirkten Zaubers.
-Dies kann nur genutzt werden wenn keine gleichwertigen oder höheren `=this.file.name` mehr zur Verfügung stehen, sonst müssen diese zuerst verbraucht werden.

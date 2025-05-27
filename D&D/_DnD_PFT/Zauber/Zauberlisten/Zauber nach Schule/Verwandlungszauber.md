@@ -1,9 +1,12 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases:
-- Verwandlung
+  - Verwandlung
+Typische_Effekte: "Verwandelt Kreaturen oder Gegenstände."
 ---
 # `=this.file.name`
-Verändern die Eigenschaften oder Formen von Kreaturen und Gegenständen.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

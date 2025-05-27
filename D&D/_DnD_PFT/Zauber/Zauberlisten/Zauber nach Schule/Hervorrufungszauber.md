@@ -1,9 +1,12 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases: 
-- Hervorrufung
+  - Hervorrufung
+Typische_Effekte: "Kanalisiert Energie, um Effekte zu erzeugen, die oft zerstörerisch sind."
 ---
 # `=this.file.name`
-Manipulieren magische Energiequellen mit einer Vielzahl von Effekten. Manche erzeugen Feuerblitze, andere kanalisieren positive Energie um Wunden zu heilen.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

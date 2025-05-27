@@ -1,8 +1,17 @@
 ---
-aliases: Verbale Zauberkomponente, Verbal (V)
+tags:
+  - Regeln/PHB2024
+aliases: 
+  - Verbale Zauberkomponente
+  - Verbal (V)
+  - Verbalkomponente
+  - Verbalkomponenten
 ---
-# `=this.file.name`
-Die meisten Zauber erfordern, dass du mystische Worte intonierst. 
-Die Worte selbst sind nicht die Quelle der Macht eines Zaubers, vielmehr setzt die Kombination aus Lauten, mit ihrer Betonung und Resonanz, die Fäden der Magie in Bewegung. 
+## Verbale Zauberkomponenten
+Eine [[Verbale Zauberkomponenten|Verbalkomponente]] ist der Vortrag geheimer Worte, deren Sinn sich Uneingeweihten nicht erschließt. 
+Die Worte müssen mit normaler Sprechstimme vorgetragen werden.
 
-Eine Kreatur die geknebelt oder sich in einem Bereich der [[Stille]] befindet, kann keine Zauber mit [[Verbale Zauberkomponenten|Verbalen Zauberkomponenten]] wirken.
+Sie selbst sind nicht die Quelle der Macht eines Zaubers.
+Vielmehr bringt die Kombination aus Lauten, Betonung und Resonanz die Fäden der Magie zum Schwingen.
+
+Eine Kreatur, die geknebelt ist oder sich im Bereich einer magischen [[Stille]] befindet, kann keine Zauber mit [[Verbale Zauberkomponenten|Verbalkomponenten]] wirken.

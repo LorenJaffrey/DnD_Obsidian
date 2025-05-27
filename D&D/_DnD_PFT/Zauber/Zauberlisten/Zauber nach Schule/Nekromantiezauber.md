@@ -1,5 +1,10 @@
+---
+tags:
+  - Schule_der_Magie
+Typische_Effekte: "Manipuliert Leben und Tod."
+---
 # `=this.file.name`
-Lenken die Energien von Leben und Tod.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/PHB2024
+---
 # `=this.file.name`
 Ehe du einen Zauber wirken kannst, musst du ihn geistig vorbereitet haben, oder du brauchst über einen magischen Gegenstand wie eine [[Zauberschriftrollen|Zauberschriftrolle]] Zugriff auf den Zauber. 
 Deine Merkmale und Talente geben an, auf welche Zauber du gegebenenfalls zugreifen kannst, ob du bestimmte Zauber stets vorbereitet hast und ob du die Liste deiner vorbereiteten Zauber ändern kannst.

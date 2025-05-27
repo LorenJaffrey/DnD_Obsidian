@@ -1,5 +1,8 @@
 ---
-aliases: Ritual
+tags:
+  - Regeln/PHB2024
+aliases: 
+  - Ritual
 ---
 # `=this.file.name`
 Bestimmte Zauber sind beim Eintrag Zeitaufwand als [[Rituale]] gekennzeichnet. 

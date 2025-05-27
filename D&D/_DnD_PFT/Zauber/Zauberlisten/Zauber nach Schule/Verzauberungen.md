@@ -1,9 +1,13 @@
 ---
+tags:
+  - Schule_der_Magie
+  - Regeln/PHB2024
 aliases:
-- Verzauberung
+  - Verzauberung
+Typische_Effekte: "Beeinflusst Gedanken."
 ---
 # `=this.file.name`
-Beeinflussen den Verstand einer anderen Person und manipulieren oder kontrollieren ihr Verhalten.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

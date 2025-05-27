@@ -1,10 +1,13 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases:
-- Erkenntnis
-- Erkenntnismagie
+  - Erkenntnis
+  - Erkenntnismagie
+Typische_Effekte: "Enthüllt Informationen."
 ---
 # `=this.file.name`
-Offenbaren Blicke in die Zukunft, die Position versteckter Gegenstände oder Visionen weit entfernter Personen und Orte.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

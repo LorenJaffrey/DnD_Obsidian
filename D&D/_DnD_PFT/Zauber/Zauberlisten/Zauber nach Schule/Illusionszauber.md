@@ -1,9 +1,12 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases:
-- Illusion
+  - Illusion
+Typische_Effekte: "Täuscht den Verstand oder die Sinne."
 ---
 # `=this.file.name`
-Täuschen die Sinne und verwirren die Gedanken anderer.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID

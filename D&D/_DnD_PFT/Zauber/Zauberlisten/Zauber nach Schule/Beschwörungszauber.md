@@ -1,9 +1,12 @@
 ---
+tags:
+  - Schule_der_Magie
 aliases:
-- Beschwörung
+  - Beschwörung
+Typische_Effekte: "Transportiert Kreaturen oder Gegenstände."
 ---
 # `=this.file.name`
-Transportieren Gegenstände oder Kreaturen von einem Ort an einen anderen.
+`=this.Typische_Effekte`
 
 ```dataview
 TABLE WITHOUT ID
