@@ -1,3 +1,7 @@
+---
+aliases:
+  - Zauberschriftrolle
+---
 # `=this.file.name`
 [[Zauberschriftrollen]] enthalten die Worte für einen einzelnen Zauber, die in mystischen Schriftzeichen geschrieben sind. 
 Wenn der Zauber auf der Zauberliste deiner Klasse ist, kannst du die Schriftrolle lesen und den Zauber ohne irgendwelche materiellen Komponenten wirken. Andernfalls ist dir die Schriftrolle unverständlich. 

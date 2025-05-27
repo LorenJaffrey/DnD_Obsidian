@@ -8,5 +8,5 @@
 	- [[Vorteil und Nachteil]]
 - Kampf
 	- [[Angriff]]
-	- [[Zauber wirken|Zaubern]]
+	- [[_DnD_PFT/Regeln/Kampf/Aktion/Zauber wirken|Zaubern]]
 - XP und [[Glück]]

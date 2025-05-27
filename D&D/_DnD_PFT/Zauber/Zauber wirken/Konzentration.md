@@ -3,7 +3,7 @@ aliases: konzentrieren
 ---
 Manche Zaubersprüche erfordern, dass du [[Konzentration]] aufrecht erhältst um ihre Magie aktiv zu halten.
 
-Wenn [[Konzentration]] erforderlich ist, ist dies bei der [[Zauber wirken#Wirkungsdauer]] des Zaubers vermerkt. Außerdem wird angegeben wie lange er sich darauf konzentrieren kann. 
+Wenn [[Konzentration]] erforderlich ist, ist dies bei der [[_DnD_PFT/Regeln/Kampf/Aktion/Zauber wirken#Wirkungsdauer]] des Zaubers vermerkt. Außerdem wird angegeben wie lange er sich darauf konzentrieren kann. 
 Wenn du die [[Konzentration]] verlierst, endet ein solcher Zauberspruch. [[Konzentration]] kann jederzeit und ohne Zeitaufwand beendet werden.
 
 ## Konzentration verlieren
