@@ -20,4 +20,4 @@ Das gewählte [[Attribute|Attribut]] ist dein [[Attribute|Attribut]] zum Wirken 
 
 Du hast diese Zauber stets vorbereitet und kannst sie einmal wirken, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
 Diese Fähigkeit erhältst du nach einer [[Lange Rast|langen Rast]] zurück. 
-Du kannst den Zauber auch mit einem beliebigen verfügbaren [[Zauberplätze|Zauberplatz]] des entsprechenden Grades wirken.
+Du kannst den Zauber auch mit einem beliebigen verfügbaren [[Zauberplätze|Zauberplatz]] des entsprechenden [[Zaubergrad|Grades]] wirken.

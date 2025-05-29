@@ -23,10 +23,10 @@ Wiederholbar: false
 Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Konzentration
-Du bist bei [[Rettungswurf|Konstitutionsrettungswürfen]] zum Aufrechterhalten der Konzentration im [[Vorteil und Nachteil|Vorteil]].
+Du bist bei [[Rettungswurf|Konstitutionsrettungswürfen]] zum Aufrechterhalten der [[Konzentration]] im [[Vorteil und Nachteil|Vorteil]].
 
 ## Gestenkomponenten
-Du kannst die [[Zaubergesten|Gestenkomponenten]] eines Zaubers auch dann ausführen, wenn du in mindestens einer Hand [[Waffen]] oder einen [[Schilde|Schild]] trägst.
+Du kannst die [[Geste (G)|Gestenkomponenten]] eines Zaubers auch dann ausführen, wenn du in mindestens einer Hand [[Waffen]] oder einen [[Schilde|Schild]] trägst.
 
 ## Reaktive Zauber
 Wenn eine Kreatur deine Reichweite verlässt und dich zu einem [[Gelegenheitsangriff]] provoziert, kannst du eine [[Reaktion]] ausführen, um einen [[Zauber wirken| Zauber]] auf die Kreatur zu wirken, anstatt einen [[Gelegenheitsangriff]] auszuführen. 

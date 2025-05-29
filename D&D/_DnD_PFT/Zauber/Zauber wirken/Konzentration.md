@@ -1,14 +1,18 @@
 ---
-aliases: konzentrieren
+tags:
+  - Regeln/PHB2024
+aliases: 
+  - konzentrieren
 ---
-Manche Zaubersprüche erfordern, dass du [[Konzentration]] aufrecht erhältst um ihre Magie aktiv zu halten.
+Manche Zauber und andere Effekte erfordern [[Konzentration]], um aktiv zu bleiben. 
+Dies ist in ihrer Beschreibung angegeben. 
+Wenn der Wirker des Effekts seine [[Konzentration]] verliert, endet der Effekt. 
+Hat der Effekt eine maximale Wirkungsdauer, so ist in der Beschreibung des Effekts angegeben, wie lange der Wirker sich auf ihn [[Konzentration|konzentrieren]] kann: „bis zu 1 Minute", „1 Stunde" oder eine andere Dauer. 
+Der Wirker kann seine [[Konzentration]] jederzeit beenden - dazu ist keine [[Aktion]] erforderlich.
 
-Wenn [[Konzentration]] erforderlich ist, ist dies bei der [[_DnD_PFT/Regeln/Kampf/Aktion/Zauber wirken#Wirkungsdauer]] des Zaubers vermerkt. Außerdem wird angegeben wie lange er sich darauf konzentrieren kann. 
-Wenn du die [[Konzentration]] verlierst, endet ein solcher Zauberspruch. [[Konzentration]] kann jederzeit und ohne Zeitaufwand beendet werden.
-
-## Konzentration verlieren
-Du verlierst die [[Konzentration]], wenn du:
-- einen anderen Spruch wirkst, der ebenfalls [[Konzentration]] erfordert
-- wenn du [[Kampfunfähig]] wirst
-- jedes Mal, wenn du Schaden nimmst, musst du eine Probe auf [[Konstitution]] werfen. 
-  Der Herausforderungsgrad entspricht 10 oder der Hälfte des Schadens, den du nimmst, je nachdem was höher ist.
+Folgende Faktoren stören oder beenden die [[Konzentration]]:
+- **Weiterer Effekt, der Konzentration erfordert**: Du verlierst die [[Konzentration]] auf einen Effekt, sobald du einen Zauber oder sonstigen Effekt wirkst, der ebenfalls [[Konzentration]] erfordert.
+- **Schaden**: Wenn du Schaden erleidest, musst du einen [[Rettungswurf]] auf [[Konstitution]] bestehen, um die [[Konzentration]] aufrechtzuerhalten. 
+  Der [[Schwierigkeitsgrad|SG]] beträgt 10 oder die Hälfte des erlittenen Schadens (abgerundet), je nachdem, welcher Wert höher ist. 
+  Er kann höchstens 30 betragen.
+- **Kampfunfähig oder tot**: Deine [[Konzentration]] endet, wenn du [[kampfunfähig]] wirst oder stirbst.

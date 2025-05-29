@@ -28,4 +28,4 @@ Klassen:
 Dein Zauber stärkt die Entschlossenheit und Zähigkeit deiner Verbündeten. Wähle bis zu drei Kreaturen in Reichweite. Die maximalen und aktuellen Trefferpunkte aller Ziele steigen für die Wirkungsdauer um 5.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, steigen die Trefferpunkte des Ziels zusätzlich um 5 für jeden Grad über den 2. hinaus.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 3. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigen die Trefferpunkte des Ziels zusätzlich um 5 für jeden [[Zaubergrad|Grad]] über den 2. hinaus.

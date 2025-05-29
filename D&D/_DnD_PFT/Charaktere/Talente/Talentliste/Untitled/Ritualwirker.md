@@ -17,7 +17,7 @@ Wiederholbar: false
 > | Stufe                              | `=this.Stufe`                           |
 > | Mehrfach wählbar | `=this.Wiederholbar`         |
 
-*Du hast dir eine Reihe von Zaubern angeeignet, die du als Ritual wirken kannst.*
+*Du hast dir eine Reihe von Zaubern angeeignet, die du als [[Rituale|Ritual]] wirken kannst.*
 
 ## Attributswerterhöhung
 Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
@@ -31,4 +31,4 @@ Die gewählte Klasse bestimmt auch das zum Zauberwirken relevante Attribut: [[Ch
 Findest du einen Zauber in geschriebener Form, etwa auf einer Spruchrolle oder im [[Zauberbuch]] eines Magiers, kannst du versuchen, ihn in dein [[Ritualbuch]] zu übertragen. Der Zauber muss in der Spruchliste der gewählten Klasse vorkommen und sein [[Zaubergrad]] darf nicht mehr als die Hälfte deiner Stufe (aufgerundet) betragen. 
 Außerdem muss der Zauber als [[Rituale|Ritual]] gekennzeichnet sein. 
 Der Vorgang des Kopierens dauert 2 Stunden pro [[Zaubergrad]] und kostet 50 [[Münzen#Goldmünzen]] pro [[Zaubergrad]].
-Die Kosten repräsentieren sowohl [[Materialkomponenten]], die du bei den Versuchen verbrauchst, den Zauber zu meistern, als auch spezielle Tinte, die du zum Aufschreiben benötigst.
+Die Kosten repräsentieren sowohl [[Material (M)]], die du bei den Versuchen verbrauchst, den Zauber zu meistern, als auch spezielle Tinte, die du zum Aufschreiben benötigst.

@@ -24,7 +24,7 @@ Klassen:
 ```
 
 ## Beschreibung
-Du füllst die Luft in einem Würfel mit 1,50 m Kantenlänge, der um einen Punkt deiner Wahl in Reichweite zentriert ist, mit wirbelnden Dolchen. Eine Kreatur erleidet 4W4 Hiebschaden, wenn sie den Bereich das erste Mal in einem Zug betritt oder ihren Zug dort beginnt.
+Du füllst die Luft in einem [[Würfel]] mit 1,50 m Kantenlänge, der um einen Punkt deiner Wahl in Reichweite zentriert ist, mit wirbelnden Dolchen. Eine Kreatur erleidet 4W4 Hiebschaden, wenn sie den Bereich das erste Mal in einem Zug betritt oder ihren Zug dort beginnt.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 2. hinaus um 2W4.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 3. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 2. hinaus um 2W4.

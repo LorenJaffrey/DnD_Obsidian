@@ -26,7 +26,7 @@ Typ: Beeinflussung
 ```
 
 ## Beschreibung
-In einer unbeweglichen Ausströmung von **bis zu 9 Metern** um dich erfüllst du Pflanzen mit begrenztem Bewusstsein, sodass sie mit dir kommunizieren und einfache Befehle befolgen können. 
+In einer unbeweglichen [[Ausströmung]] von **bis zu 9 Metern** um dich erfüllst du Pflanzen mit begrenztem Bewusstsein, sodass sie mit dir kommunizieren und einfache Befehle befolgen können. 
 Du kannst die Pflanzen über Ereignisse des letzten Tages im Bereich des Zaubers befragen und so Informationen über vorbeiziehende Kreaturen, das Wetter und andere Umstände erhalten.
 
 Außerdem kannst du schwieriges Gelände aufgrund von Pflanzenwachstum - beispielsweise Dickicht oder Unterholz - für die Wirkungsdauer in normales Gelände verwandeln. 

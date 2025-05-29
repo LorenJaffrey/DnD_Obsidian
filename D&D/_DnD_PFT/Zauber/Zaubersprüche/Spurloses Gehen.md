@@ -29,5 +29,5 @@ Typ: Fortbewegung
 
 ## Beschreibung
 
-Von dir geht für die Wirkungsdauer eine verhüllende Aura mit einer Ausströmung von 9 Metern aus. 
+Von dir geht für die Wirkungsdauer eine verhüllende Aura mit einer [[Ausströmung]] von 9 Metern aus. 
 Du und jede Kreatur deiner Wahl habt in der Aura einen [[Bonus]] von **+10 auf [[Rettungswurf|Geschicklichkeitswürfe]] ([[Heimlichkeit]])**, und ihr hinterlasst **keine Spuren**.

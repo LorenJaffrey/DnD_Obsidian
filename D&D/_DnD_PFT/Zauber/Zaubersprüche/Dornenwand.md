@@ -28,4 +28,4 @@ Du erschaffst eine Barriere aus zähen, biegsamen und verworrenen Büschen, die 
 halb so viel Schaden bei einem gelungenen Rettungswurf. Eine Kreatur kann sich durch die Barriere bewegen, allerdings nur langsam und unter großen Schmerzen. Für jeweils 30 cm, die sich die Kreatur durch die Dornenbüsche bewegt, muss sie 1,20 m Bewegungsrate aufwenden. Betritt eine Kreatur die Barriere das erste Mal in einem Zug oder beendet sie ihren Zug dort, muss sie außerdem einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet sie 7W8 Hiebschaden oder halb so viel Schaden bei einem erfolgreichen Rettungswurf.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 7. oder eines höheren Grades wirkst, steigen beide Schadensarten für jeden Grad über den 6. hinaus um 1W8.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 7. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigen beide Schadensarten für jeden [[Zaubergrad|Grad]] über den 6. hinaus um 1W8.

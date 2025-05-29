@@ -29,4 +29,4 @@ Du segnest bis zu drei Kreaturen deiner Wahl in Reichweite. Wenn ein Ziel währe
 
 ## Auf höheren Graden 
 
-Wirkst du diesen Zauber, indem du einen Zauberplatz des 2. Grades oder höher nutzt, kannst du für jeden Grad über dem 1. eine zusätzliche Kreatur als Ziel wählen.
+Wirkst du diesen Zauber, indem du einen [[Zauberplätze|Zauberplatz]] des 2. [[Zaubergrad|Grades]] oder höher nutzt, kannst du für jeden [[Zaubergrad|Grad]] über dem 1. eine zusätzliche Kreatur als Ziel wählen.

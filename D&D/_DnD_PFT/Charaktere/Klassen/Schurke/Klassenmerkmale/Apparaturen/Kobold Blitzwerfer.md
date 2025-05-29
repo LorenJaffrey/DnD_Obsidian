@@ -14,9 +14,9 @@ Einsatz: "[[Aktion]]"
 > | SG | `=this.SG` |
 
 # `=this.file.name`
-Du wendest eine `=this.Einsatz` auf und feuerst einen konzentrierten Blitzstrahl in einer geraden Linie von 9 Metern ab.
+Du wendest eine `=this.Einsatz` auf und feuerst einen konzentrierten Blitzstrahl in einer geraden [[Linie]] von 9 Metern ab.
 Führe einen [[Mechanische Apparaturen#Tüftlerwurf]] gegen [[Schwierigkeitsgrad|SG]] `=this.SG` aus.
-Alle Kreaturen in der Linie müssen einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen deinen [[Mechanische Apparaturen#Apparatur-SG]] bestehen. 
+Alle Kreaturen in der [[Linie]] müssen einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen deinen [[Mechanische Apparaturen#Apparatur-SG]] bestehen. 
 Bei einem [[Misserfolg]] erleiden sie `dice:3d6` [[Blitzschaden]], bei [[Erfolg]] den halben Schaden.
 
 ### Auf höheren Stufen

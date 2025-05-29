@@ -29,7 +29,7 @@ Diese Fähigkeit erhältst du nach einer [[Lange Rast|langen Rast]] zurück.
 Du kannst den Zauber auch mit einem beliebigen verfügbaren [[Zauberplätze|Zauberplatz]] wirken.
 
 ## Zauberwechsel
-Wann immer du eine neue Stufe erhältst, kannst du einen der [[Zauber]], die du für dieses Talent ausgewählt hast, durch einen anderen Zauber des gleichen Grades von der ausgewählten Zauberliste ersetzen.
+Wann immer du eine neue Stufe erhältst, kannst du einen der [[Zauber]], die du für dieses Talent ausgewählt hast, durch einen anderen Zauber des gleichen [[Zaubergrad|Grades]] von der ausgewählten Zauberliste ersetzen.
 
 ## Kann wiederholt werden
 Du kannst dieses [[Talente|Talent]] mehr als einmal verwenden, aber du musst jedes Mal eine andere Zauberliste auswählen.

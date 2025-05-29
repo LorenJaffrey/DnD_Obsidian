@@ -2,9 +2,9 @@
 tags:
   - Regeln/PHB2024
 aliases: 
-  - Gestenkomponente, 
-  - Gesten, 
-  - Geste (G)
+  - Gestenkomponente
+  - Gesten
+  - Zaubergesten
 ---
 ## Zaubergesten
 Eine Gestenkomponente ist eine schwungvolle Geste oder eine komplexe Abfolge von Gesten. 

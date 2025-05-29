@@ -29,4 +29,4 @@ Eine nicht-magische Waffe, die du berührst, wird zu einer magischen Waffe. Wäh
 
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz eines höheren Grades wirkst, steigen der Angriffsbonus und der Zusatzschaden: bei einem Zauberplatz des 5. oder 6. Grades auf +2 und 2W4, bei einem des 7. oder eines höheren Grades auf +3 und 3W4.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] eines höheren [[Zaubergrad|Grades]] wirkst, steigen der Angriffsbonus und der Zusatzschaden: bei einem [[Zauberplätze|Zauberplatz]] des 5. oder 6. [[Zaubergrad|Grades]] auf +2 und 2W4, bei einem des 7. oder eines höheren [[Zaubergrad|Grades]] auf +3 und 3W4.

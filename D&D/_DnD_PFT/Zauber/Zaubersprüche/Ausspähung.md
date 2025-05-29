@@ -29,7 +29,7 @@ ob du über einen Gegenstand als physische Verbindung zu ihr verfügst. Wenn das
 
 | Wissen                                        | RW-Modifikator |
 | --------------------------------------------- |:--------------:|
-| Aus zweiter Hand (du hast von demZiel gehört) |       +5       |
+| Aus zweiter Hand (du hast von dem Ziel gehört) |       +5       |
 | Aus erster Hand (du hast das Ziel getroffen)  |       +0       |
 | Vertraut (du kennst das Ziel gut)             |       -5       | 
 

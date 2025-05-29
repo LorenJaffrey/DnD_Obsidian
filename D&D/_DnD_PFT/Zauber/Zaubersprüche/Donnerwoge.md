@@ -33,7 +33,7 @@ Typ: Angriff
 ## Beschreibung
 *Eine Woge aus donnernder Kraft geht von dir aus.* 
 
-Jede Kreatur in einem Würfel mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. 
+Jede Kreatur in einem [[Würfel]] mit 4,50 m Kantenlänge muss einen [[Rettungswurf]] auf [[Konstitution]] ablegen. 
 Bei einem Misserfolg erleidet eine Kreatur 2W8 [[Schallschaden]] und wird 3 m von dir weggestoßen.
 Bei einem erfolgreichen [[Rettungswurf]] erleidet die Kreatur nur den halben Schaden und wird nicht weggestoßen.
 Nicht gesicherte oder befestigte Gegenstände, die sich vollständig innerhalb des Wirkungsbereichs befinden, werden automatisch 3 m von dir weggestoßen. 

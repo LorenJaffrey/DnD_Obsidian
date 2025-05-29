@@ -27,4 +27,4 @@ Klassen:
 Du schleuderst eine Sphäre aus Energie mit 10 cm Durchmesser auf eine Kreatur in Reichweite, die du sehen kannst. Beim Wirken des Zaubers wählst du Blitz, Feuer, Gift, Kälte, Säure oder Schall aus, um die Art der Kugel zu bestimmen, und führst dann einen Fernkampf-Zauberangriff gegen das Ziel aus. Trifft der Angriff, erleidet das Ziel 3W8 Schaden des gewählten Typs.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W8.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W8.

@@ -27,4 +27,4 @@ Klassen:
 Du kannst einen Feind blind oder taub werden lassen. Wähle eine Kreatur in Reichweite, die du sehen kannst. Sie muss einen Konstitutionsrettungswurf ablegen. Wenn dieser misslingt, ist das Ziel für die Wirkungsdauer entweder blind oder taub (deine Wahl). Am Ende eines jeden seiner Züge kann das Ziel einen Konstitutionsrettungswurf ablegen. Bei Erfolg endet der Zauber.
 
 ## Auf höheren Graden 
-Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, kannst du für jeden Grad über den 2. hinaus eine zusätzliche Kreatur als Ziel wählen.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 3. oder eines höheren [[Zaubergrad|Grades]] wirkst, kannst du für jeden [[Zaubergrad|Grad]] über den 2. hinaus eine zusätzliche Kreatur als Ziel wählen.

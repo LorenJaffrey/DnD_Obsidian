@@ -16,7 +16,7 @@ Einsatz: "[[Aktion]]"
 # `=this.file.name`
 Du wendest eine `=this.Einsatz` auf und diese Apparatur erzeugt eine überwältigende Schallwelle in einem 4,5-Meter-Radius um dich herum. 
 Führe einen [[Mechanische Apparaturen#Tüftlerwurf]] gegen [[Schwierigkeitsgrad|SG]] `=this.SG` aus.
-Alle Kreaturen im Wirkungsbereich müssen einen [[Rettungswurf]] auf [[Konstitution]] ablegen. 
+Alle Kreaturen im [[Wirkungsbereich]] müssen einen [[Rettungswurf]] auf [[Konstitution]] ablegen. 
 Bei einem Fehlschlag sind sie für 1 [[Runde]] [[betäubt]].
 Du selbst bist auf die Schallwelle vorbereitet und gegen diesen Effekt immun.
 

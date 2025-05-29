@@ -50,6 +50,6 @@ Dieser könnte die Energie erneut überspringen lassen.
 Eine Kreatur kann bei jedem Wirken dieses Zaubers nur einmal zu dessen Ziel werden.
 
 ### Auf höheren Graden
-Wenn du diesen Zauber mit einem [[Zauberplätze|Zauberplatz]] des 2. Grades oder höher wirkst, nimmt jedes Ziel für jeden [[Zaubergrad]] über dem ersten 1W6 zusätzlichen Schaden vom erwürfelten Typ.
+Wenn du diesen Zauber mit einem [[Zauberplätze|Zauberplatz]] des 2. [[Zaubergrad|Grades]] oder höher wirkst, nimmt jedes Ziel für jeden [[Zaubergrad]] über dem ersten 1W6 zusätzlichen Schaden vom erwürfelten Typ.
 
 Quelle: Xanathars Ratgeber für alles, Seite: 152

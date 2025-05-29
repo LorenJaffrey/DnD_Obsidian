@@ -28,4 +28,4 @@ Das nächste Mal, wenn du innerhalb der Wirkungsdauer des Zaubers eine Kreatur m
 gibt in einem Radius von 1,50 m dämmriges Licht ab. Es kann nicht unsichtbar werden, bis der Zauber endet.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 2. hinaus um 1W6.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 3. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 2. hinaus um 1W6.

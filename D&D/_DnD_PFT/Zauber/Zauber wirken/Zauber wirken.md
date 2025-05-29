@@ -42,7 +42,7 @@ Die Effekte sind in der Beschreibung des Zaubers aufgeführt.
 (siehe [[Skalierbare Zauber]])
 
 ## Zeitaufwand
-Für die meisten Zauber ist nur die magische [[Aktion]] erforderlich. 
+Für die meisten Zauber ist nur die [[Magie wirken|magische Aktion]] erforderlich. 
 Manche Zauber erfordern jedoch eine [[Bonusaktion]], eine [[Reaktion]] oder einen Zeitaufwand von mindestens einer Minute. 
 Der Zeitaufwand gibt an, was davon zum Wirken des Zaubers erforderlich ist.
 
@@ -68,67 +68,54 @@ Die Reichweite eines Zaubers gibt an, wie weit vom Zauberwirker entfernt der Eff
 Die Beschreibung des Zauberspruchs erläutert näher, welcher Teil des Effekts durch die Reichweite begrenzt ist.
 
 Die Reichweite hat üblicherweise eine der folgenden Formen:
-
-### Entfernung
-Die Reichweite ist in Metern angegeben.
-
-### Berührung
-Die Wirkung des Zaubers geht von etwas in Reichweite aus, was der Zauberwirker berühren muss, wie im Zauber beschrieben.
-
-### Selbst
-Der Zauber wird auf den Zauberwirker gewirkt oder geht von diesem aus, wie beim Zauber angegeben.
+- **Entfernung**: Die Reichweite ist in Metern angegeben.
+- **Berührung**: Die Wirkung des Zaubers geht von etwas in Reichweite aus, was der Zauberwirker berühren muss, wie im Zauber beschrieben.
+- **Selbst**: Der Zauber wird auf den Zauberwirker gewirkt oder geht von diesem aus, wie beim Zauber angegeben.
 
 Wenn ein Zauber bewegliche Effekte hat, werden diese nicht von seiner Reichweite eingeschränkt, sofern in der Zauberbeschreibung nicht anders vermerkt.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Ziel
-Das Ziel eines Zauberspruchs muss innerhalb der Reichweite des Zauberspruchs sein. Um zu zielen muss der Pfad zwischen dir und dem Ziel frei sein, d.h. das Ziel darf nicht hinter [[Deckung#Vollständige Deckung]] sein.
+```dynamic-embed
+[[Zauberkomponenten]]
+```
 
 ## Wirkungsdauer
-Gibt an wie lange der Effekt dauert. Dies kann unmittelbar erfolgen oder Runden, Minuten, Stunden oder sogar Jahre betragen. 
-Manche Zauber sind aktiv bis sie gebannt oder zerstört werden.
-Tritt ein Effekt unmittelbar ein, kann er nicht gebannt werden, da die Magie nur einen Augenblick lang existiert.
+Die Wirkungsdauer eines Zaubers gibt an, wie lange dessen Effekt nach dem Wirken anhält. 
+Sie hat üblicherweise eine der folgenden Formen:
+- **[[Konzentration]]**: Eine Wirkungsdauer, die [[Konzentration]] erfordert, folgt den Konzentrationsregeln.
+- **Unmittelbar**: Eine unmittelbare Wirkungsdauer bedeutet, dass die Magie des Zaubers für einen Moment auftritt und dann verschwindet.
+- **Zeitspanne**: Eine Wirkungsdauer in Form einer Zeitspanne gibt an, wie lange der Zauber in Runden, Minuten, Stunden oder ähnlich anhält. 
+  Beispielsweise könnte der Eintrag für die Wirkungsdauer „1 Minute" lauten.
+  In diesem Fall endet der Zauber, sobald eine Minute vergangen ist. 
+  Während ein Zauber mit Zeitspanne andauert, nachdem du ihn gewirkt hast, kannst du ihn verwerfen (keine [[Aktion]] erforderlich), sofern du nicht kampfunfähig bist.
 
-## Wirkungsbereich
-![[Wirkungsbereich | no-title]]
+## Effekte
+Die Effekte eines Zaubers sind nach seiner Wirkungsdauer aufgeführt. 
+Es ist genau angegeben, was der Zauber tut. 
+Reale Gesetze der Physik werden ignoriert. 
+Alle Ergebnisse über diese Effekte hinaus liegen im Ermessen des SL. 
+Die Effekte haben üblicherweise mit Zielen, [[Rettungswurf|Rettungswürfen]], [[Angriffswurf|Angriffswürfen]] oder allen drei Elementen zu tun, wie jeweils unten beschrieben.
 
-## Konzentration
-![[Konzentration | no-title]]
+## Ziele
+Bei vielen Zaubern muss der Zauberwirker mindestens ein Ziel auswählen, auf das die Magie des Zaubers wirkt. 
+In der Beschreibung eines Zaubers ist angegeben, ob der Zauber auf Kreaturen, Gegenstände oder etwas anderes zielt.
 
-## Rituale
-![[Rituale | no-title]]
+- **Freie Sicht auf das Ziel**: Ein Zauberwirker muss sein Ziel sehen können - es darf sich also nicht hinter [[Vollständige Deckung|vollständiger Deckung]] befinden.
+- **Der Zauberwirker als Ziel**: Wenn das Ziel eines Zaubers eine Kreatur nach Wahl des Zauberwirkers ist, kann er sich auch selbst als Ziel bestimmen, es sei denn, es muss sich um eine feindlich gesinnte oder ausdrücklich um eine andere Kreatur handeln.
+- **Wirkungsbereiche**: Manche Zauber, beispielsweise [[Donnerwoge]], haben einen sogenannten [[Wirkungsbereich]]. 
+  Der Bereich bestimmt, worauf der Zauber zielt. 
+  In der Beschreibung eines Zaubers ist angegeben, ob er einen [[Wirkungsbereich]] hat, der üblicherweise eine der folgenden Formen hat: [[Ausströmung]], [[Kegel]], [[Kugel]], [[Linie]], [[Würfel]] oder [[Zylinder]].
+- **Bewusstsein dafür, Ziel zu sein**: Hat ein Zauber keine wahrnehmbare Wirkung, so weiß eine Kreatur möglicherweise nicht, dass sie sein Ziel war. 
+  Effekte wie Blitze sind offensichtlich, doch subtilere Effekte wie der Versuch, Gedanken zu lesen, bleiben üblicherweise unbemerkt, sofern in der Beschreibung nicht anders vermerkt.
+- **Ungültige Ziele**: Wenn du einen Zauber auf ein Ziel wirkst, das von ihm nicht betroffen sein kann, geschieht nichts.
+  Wurde zum Wirken ein [[Zauberplätze|Zauberplatz]] verbraucht, so ist dieser trotzdem verbraucht.
+  Wenn der Zauber normalerweise keinen Effekt auf ein Ziel hat, dem ein [[Rettungswurf]] gelingt, wirkt ein ungültiges Ziel, als wäre ihm sein [[Rettungswurf]] gelungen, auch wenn es keinen [[Rettungswurf]] ausgeführt hat (es ist also nicht zu erkennen, dass die Kreatur ein ungültiges Ziel ist).
+  Anderenfalls bemerkt der Zauberwirker, dass sein Zauber beim Ziel nichts ausgerichtet hat.
 
-## Zauberattribut
-![[Zauberattribut | no-title]]
-
-## Zauberangriffswurf
-![[Zauberangriffswürfe|Zauberangriffswurf | no-title]]
-
-## Zauberrettungswurf-Schwierigkeitsgrad
-![[Zauberrettungswurf-Schwierigkeitsgrad | no-title]]
-
-## In Rüstung zaubern
-Zauber wirken in [[Rüstungen|Rüstung]] ist nur möglich wenn man in der getragenen [[Rüstungen|Rüstung]] geübt ist.
+## Zaubereffekte kombinieren
+Die Effekte verschiedener Zauber addieren sich, wenn sich die Wirkungsdauer der Zauber überschneiden. 
+Die Effekte des gleichen Zaubers, der mehrmals gewirkt wird, addieren sich hingegen nicht. 
+Stattdessen wird der stärkste Effekt - beispielsweise der höchste Bonus - der Zauber angewendet, solange sich deren Wirkungsdauern überschneiden. 
+Oder es gilt der neueste Effekt, falls die Effekte gleich stark sind und sich die Wirkungsdauern überschneiden. 
+Wirken beispielsweise zwei [[Kleriker]] [[Segnen]] auf dasselbe Ziel, so erhält dieses den Vorzug des Zaubers nur einmal. 
+Es erhält keine zwei Bonuswürfel. 
+Der Effekt bleibt jedoch bestehen, bis die Wirkungsdauer des zweiten Zaubers [[Segnen]] endet.

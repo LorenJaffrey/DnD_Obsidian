@@ -12,4 +12,4 @@ Verflucht: false
 [[embed Magische Gegenstände Infobox]]
 ```
 
-Der Träger kann einmal pro Tag den Zaubertrick [[Taschenspielerei]] wirken.
+Der Träger kann einmal pro Tag den [[Zaubertricks|Zaubertrick]] [[Taschenspielerei]] wirken.

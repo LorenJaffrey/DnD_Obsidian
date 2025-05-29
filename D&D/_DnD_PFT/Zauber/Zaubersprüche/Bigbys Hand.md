@@ -32,6 +32,6 @@ Du erschaffst eine große Hand aus schimmernder, durchsichtiger Energie in einem
 **Blockierende Hand:** Die Hand platziert sich zwischen dir und einer Kreatur deiner Wahl, bis du ihr einen anderen Befehl gibst. Um diese Position beizubehalten, bewegt sich die Hand, und gewährt dir so Teildeckung gegen das Ziel. Dieses kann sich nicht durch den Bereich der Hand bewegen, wenn sein Stärkewert dem der Hand entspricht oder niedriger ist. Ist der Stärkewert des Ziels höher, kann es sich durch den Bereich der Hand bewegen, behandelt diesen aber als schwieriges Gelände.
 
 ## Auf höheren Graden: 
-Wenn du diesen Spruch mit einem Zauberplatz des 6. oder eines höheren Grades wirkst, steigt der Schaden der geschlossenen Faust um 2W8 und der Schaden der greifenden Hand um 2W6 für jeden Grad über den 5. hinaus.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 6. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden der geschlossenen Faust um 2W8 und der Schaden der greifenden Hand um 2W6 für jeden [[Zaubergrad|Grad]] über den 5. hinaus.
 
 

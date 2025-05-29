@@ -21,4 +21,4 @@ Du erlernst den Zauber [[Magie entdecken]] und kannst Ihn beliebig oft wirken, o
 
 Du lernst außerdem [[Schweben]] und [[Magie bannen]], die du beide jeweils einmal wirken kannst, ohne einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
 Nach einer [[Lange Rast]] kannst du diese beiden Zauber wieder auf diese Weise wirken. 
-Dein [[Zauber wirken#Zauberattribute]] für alle drei Zauber ist [[Charisma]].
+Dein [[Zauberattribut|Attribut zum Zauberwirken]] für alle drei Zauber ist [[Charisma]].

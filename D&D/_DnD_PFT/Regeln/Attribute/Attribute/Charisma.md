@@ -29,4 +29,4 @@ FROM #Fertigkeit/Charisma
 - dich unter eine Gruppe mischen um ein Gefühl dafür zu bekommen, was gerade die Hauptgesprächsthemen sind
 
 ## Attribut zum Zauberwirken
-[[Barde]], [[Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[Attribute|Attribut]] zum [[Zauber wirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].
+[[Barde]], [[Hexenmeister]], [[Paladin]] und [[Zauberer]] benutzen Charisma als [[Zauberattribut|Attribut zum Zauberwirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Rettungswurf]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].

@@ -24,7 +24,7 @@ Klassen:
 ```
 
 ## Beschreibung
-Ein Hagel aus felsharten Eisbrocken regnet in einem Zylinder mit 6 m Radius und 12 m Höhe auf die Erde. Der Zylinder ist um einen Punkt in Reichweite zentriert. Jede Kreatur innerhalb des Zylinders muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet das Ziel 2W8 [[Wuchtschaden]] und 4W6 [[Kälteschaden]] oder halb so viel Schaden bei einem erfolgreichen Rettungswurf. Durch den Sturm gilt der Bereich des Zaubers bis zum Ende deines nächsten Zuges als schwieriges Gelände.
+Ein Hagel aus felsharten Eisbrocken regnet in einem [[Zylinder]] mit 6 m Radius und 12 m Höhe auf die Erde. Der [[Zylinder]] ist um einen Punkt in Reichweite zentriert. Jede Kreatur innerhalb des Zylinders muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet das Ziel 2W8 [[Wuchtschaden]] und 4W6 [[Kälteschaden]] oder halb so viel Schaden bei einem erfolgreichen Rettungswurf. Durch den Sturm gilt der Bereich des Zaubers bis zum Ende deines nächsten Zuges als schwieriges Gelände.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 5. oder eines höheren Grades wirkst, steigt der Wuchtschaden für jeden Grad über den 4. hinaus um 1W8.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 5. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Wuchtschaden für jeden [[Zaubergrad|Grad]] über den 4. hinaus um 1W8.

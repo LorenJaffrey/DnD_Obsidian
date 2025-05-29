@@ -2,7 +2,7 @@
 - [ ] Flankenangriff (Gegner in die Zange nehmen gibt +2 auf Angriffswürfe)  [priority:: lowest]
 - [ ] System Shock (mehr als 50% der [[Trefferpunkte]] in einer Runde verlieren = permanente Verletzung) [priority:: lowest]
 -  [ ] Mana System [priority:: lowest]
-	- Alle Zauberplätze zusammengerechnet = Maximales Mana des Charakters [priority:: lowest]
+	- Alle [[Zauberplätze]] zusammengerechnet = Maximales Mana des Charakters [priority:: lowest]
 	- Höchster verfügbarer Zauber = Maximaler [[Zaubergrad]] [priority:: lowest]
 - [ ] Wrestling Regeln [priority:: lowest]
 - Ausrüstung

@@ -27,10 +27,10 @@ Klassen:
 
 ## Beschreibung
 Ein Hagel magischer Schneebelle bricht von einem Punkt hervor, den du innerhalb der Reichweite wählst. 
-Jede Kreatur in einer Kugel mit 1,50 Meter  (1 Kästchen) Radius, deren Zentrum an diesem Punkt liegt, muss einen [[Geschicklichkeit]]-[[Rettungswurf]] durchführen. 
+Jede Kreatur in einer [[Kugel]] mit 1,50 Meter  (1 Kästchen) Radius, deren Zentrum an diesem Punkt liegt, muss einen [[Geschicklichkeit]]-[[Rettungswurf]] durchführen. 
 Eine Kreatur erleidet 3W6 [[Kälteschaden]] bei einem Fehlschlag, die Hälfte davon bei einem Erfolg.
 
 ## Auf  höheren Graden
-Wenn du diesen Zauber unter Verwendung eines [[Zauberplätze|Zauberplatz]] des 3. Grades oder höher verwendest, so erhöht sich der Schaden um 1W6 für jeden Zauberplatz-Grad über dem zweiten.
+Wenn du diesen Zauber unter Verwendung eines [[Zauberplätze|Zauberplatz]] des 3. [[Zaubergrad|Grades]] oder höher verwendest, so erhöht sich der Schaden um 1W6 für jeden [[Zauberplätze|Zauberplatz]]-[[Zaubergrad|Grad]] über dem zweiten.
 
 Quelle: Xanathars Ratgeber für alles, Seite: 165

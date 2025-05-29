@@ -28,4 +28,4 @@ Du stimmst flüsternd eine missklingende Melodie an, die nur eine Kreatur deiner
 und muss sofort seine Reaktion verwenden (falls sie noch verfügbar ist), um sich so weit von dir zu entfernen, wie es seine Bewegungsrate erlaubt. Die Kreatur bewegt sich nicht in offensichtlich gefährliches Gelände, wie Feuer oder eine Grube. Bei einem erfolgreichen Rettungswurf erleidet das Ziel nur den halben Schaden und muss sich nicht wegbewegen. Eine taube Kreatur ist bei ihrem Rettungswurf automatisch erfolgreich.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 1. hinaus um 1W6.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 1. hinaus um 1W6.

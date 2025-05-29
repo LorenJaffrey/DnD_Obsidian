@@ -17,18 +17,9 @@ Jede zauberwirkende Klasse hat eine begrenzte Anzahl von [[Zauberplätze|Zauberp
 Wenn du einen Zauber wirkst, verbrauchst du einen [[Zauberplätze|Zauberplatz]], dessen [[Zaubergrad|Grad]] mindestens dem des Zaubers entspricht. 
 Du „füllst" den Platz sozusagen mit dem Zauber.
 
-Stell dir einen [[Zauberplätze|Zauberplatz]] als einen Aktenordner einer bestimmten Dicke vor - Zauber des 1. Grades brauchen nicht so einen dicken Aktenordner wie Zauber höherer Grade. 
+Stell dir einen [[Zauberplätze|Zauberplatz]] als einen Aktenordner einer bestimmten Dicke vor - Zauber des 1. [[Zaubergrad|Grades]] brauchen nicht so einen dicken Aktenordner wie Zauber höherer Grade. 
 Dabei passen Zauber des 1. [[Zaubergrad|Grades]] natürlich auch in einen dickeren Ordner. 
-Zauber des 2. [[Zaubergrad|Grades]] passen hingegen nur in Aktenordner ab dem 2. Grad. 
+Zauber des 2. [[Zaubergrad|Grades]] passen hingegen nur in Aktenordner ab dem 2. [[Zaubergrad|Grad]]. 
 Wenn ein Magier der 3. Stufe also [[Magisches Geschoss]] wirkt - einen Zauber des 1. [[Zaubergrad|Grades]] -, dann verbraucht er einen seiner vier [[Zauberplätze]] des 1. [[Zaubergrad|Grades]], sodass ihm noch drei verbleiben.
 
 Verbrauchte Zauberplätze werden nach einer [[Lange Rast|langen Rast]] wiederhergestellt.
-
-
-
-
-
-
-
-
-

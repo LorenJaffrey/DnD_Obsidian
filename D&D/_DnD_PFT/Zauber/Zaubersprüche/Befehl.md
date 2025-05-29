@@ -36,4 +36,4 @@ Du gibst einer Kreatur in Reichweite, die du sehen kannst, einen Befehl, bei dem
 Eine fliegende Kreatur verbleibt schwebend an Ort und Stelle, wenn sie dazu imstande ist. Muss sie sich bewegen, um in der Luft zu bleiben, fliegt sie die Mindestentfernung, die notwendig ist, um nicht abzustürzen.
 
 ## Auf höheren Graden 
-Wenn du diesen Spruch mit einem Zauberplatz des 2. oder eines höheren Grades wirkst, kannst du für jeden Grad über den 1. hinaus eine zusätzliche Kreatur als Ziel wählen. Die Kreaturen dürfen nicht weiter als 9 m voneinander entfernt sein, wenn du den Zauber auf sie wirkst.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren [[Zaubergrad|Grades]] wirkst, kannst du für jeden [[Zaubergrad|Grad]] über den 1. hinaus eine zusätzliche Kreatur als Ziel wählen. Die Kreaturen dürfen nicht weiter als 9 m voneinander entfernt sein, wenn du den Zauber auf sie wirkst.

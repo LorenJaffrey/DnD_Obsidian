@@ -38,7 +38,7 @@ Um einen dir bekannten [[Zauberliste des Hexenmeisters|Zauber des Hexenmeisters]
 Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] wieder zur Verfügung.
 
 >[!example]
->Bist du beispielsweise ein [[Hexenmeister]] der 5. Stufe, hast du zwei [[Zauberplätze]] des 3. Grades. 
+>Bist du beispielsweise ein [[Hexenmeister]] der 5. Stufe, hast du zwei [[Zauberplätze]] des 3. [[Zaubergrad|Grades]]. 
 >Um den Zauber [[Hexenpfeil]] des 1. [[Zaubergrad|Grades]] zu wirken, musst du einen dieser [[Zauberplätze]] aufwenden, und wirkst ihn als Zauber des 3. [[Zaubergrad|Grades]].
 
 ## Attribut zum Zauberwirken

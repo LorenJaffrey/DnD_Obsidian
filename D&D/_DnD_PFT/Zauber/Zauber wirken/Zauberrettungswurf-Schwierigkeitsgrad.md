@@ -1,10 +1,14 @@
 ---
+tags:
+  - Regeln/PHB2024
 aliases:
   - Zauberrettungswurf-SG
 ---
 # `=this.file.name`
-Viele Zauber erlauben dem Ziel einen [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf]], um den Effekt des Spruchs ganz oder teilweise zu entgehen. 
-Der Zauber legt das [[Attribute|Attribut]] fest, das für den [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf]] verwendet wird, und gibt an, was bei einem [[Erfolg]] oder [[Misserfolg]] geschieht.
+In der Beschreibung vieler Zauber ist angegeben, dass das Ziel einen [[Rettungswurf]] ausführt, um den Effekt ganz oder teilweise zu verhindern. 
+Die Beschreibung gibt außerdem an, welches [[Attribut]] vom Ziel für den [[Rettungswurf]] verwendet wird und was bei einem [[Erfolg]] oder [[Misserfolg]] geschieht.
+
+Der [[Schwierigkeitsgrad|SG]] deiner Zauber errechnet sich wie folgt:
 
 >[!info] Zauberrettungswurf-Schwierigkeitsgrad
->8 + [[Übung|Übungsbonus]] des Zaubernden +  [[Attribute#Attributsmodifikator]] (primäres [[Zauberattribut]] des Zaubernden).
+>8 + [[Übung|Übungsbonus]] des Zaubernden +  [[Attribute#Attributsmodifikator]] ([[Zauberattribut]] des Zaubernden).

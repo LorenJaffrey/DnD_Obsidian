@@ -8,10 +8,10 @@ Einsatz: Passiv
 *Du hast gelernt, Zauber zu wirken, indem du die mystischen Kräfte der Natur studiert hast.* 
 
 ## Zaubertricks
-Du beherrschst zwei Zaubertricks deiner Wahl aus der [[Zauberliste des Druiden]]. 
+Du beherrschst zwei [[Zaubertricks]] deiner Wahl aus der [[Zauberliste des Druiden]]. 
 [[Druidenkunst]] und [[Flammen erzeugen]] werden empfohlen.
 Wann immer du eine Druidenstufe erhältst, kannst du einen deiner [[Zaubertricks]] mit einem anderen [[Zaubertricks|Zaubertrick]] deiner Wahl aus der [[Zauberliste des Druiden]] ersetzen.
-Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der [[Druide#Klassentabelle]] angegeben ist.
+Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte [[Zaubertricks]] in der [[Druide#Klassentabelle]] angegeben ist.
 
 ## Zauberplätze
 Die [[Druide#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] pro [[Zaubergrad]] dir auf jeder Stufe zur Verfügung stehen. 

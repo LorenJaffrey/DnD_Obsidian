@@ -37,7 +37,7 @@ Der Zauber endet, wenn das Ziel sich außer Reichweite des Zaubers oder in [[Dec
 
 ### Auf höheren Graden
 Für jeden Zauberplatzgrad über dem 1. wird der anfängliche Schaden um 1W12 erhöht:
-- Grad 2 (`dice:3d12`)
-- Grad 3 (`dice:4d12`) 
-- Grad 4 (`dice:5d12`)
+- [[Zaubergrad|Grad]] 2 (`dice:3d12`)
+- [[Zaubergrad|Grad]] 3 (`dice:4d12`) 
+- [[Zaubergrad|Grad]] 4 (`dice:5d12`)
 - ...

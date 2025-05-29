@@ -38,4 +38,4 @@ Wenn du dich beim Wirken des Zaubers draußen aufhältst und ein Sturm herrscht,
 Unter diesen Umständen wird der Schaden des Zaubers um 1W10 erhöht.
 
 ## Auf höheren Graden
-Wenn du diesen Spruch mit einem Zauberplatz des 4. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 3. hinaus um 1W10.
+Wenn du diesen Spruch mit einem [[Zauberplätze|Zauberplatz]] des 4. oder eines höheren [[Zaubergrad|Grades]] wirkst, steigt der Schaden für jeden [[Zaubergrad|Grad]] über den 3. hinaus um 1W10.

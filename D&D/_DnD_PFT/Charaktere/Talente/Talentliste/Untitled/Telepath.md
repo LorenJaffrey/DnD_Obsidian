@@ -23,7 +23,7 @@ Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Pu
 
 ## Gedanken wahrnehmen
 Du kannst den Zauber [[Gedanken wahrnehmen]] ohne einen [[Zauberplätze|Zauberplatz]] und [[Zauberkomponenten]] wirken und kannst ihn erst nach einer [[Lange Rast]] auf diese Weise erneut wirken.
-Das[[Attribute|Attribut]] zum [[Zauber wirken]] für diesen Zauber ist das durch dieses Talent erhöhte. 
+Das [[Zauberattribut|Attribut zum Zauberwirken]] für diesen Zauber ist das durch dieses Talent erhöhte. 
 Wenn du einen [[Zauberplätze|Zauberplatz]] des 2. oder eines höheren Grads hast, kannst du den Zauber damit wirken.
 
 ## Telepathie

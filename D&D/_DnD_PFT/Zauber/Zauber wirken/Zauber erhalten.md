@@ -29,5 +29,5 @@ Bestimmte Merkmale geben dir möglicherweise einen Zauber, den du stets vorberei
 Wenn du außerdem eine Liste vorbereiteter Zauber hast, die du ändern kannst, wird ein Zauber, den du stets vorbereitet hast, bei der Anzahl von Zaubern auf dieser Liste nicht berücksichtigt.
 
 ## Zaubern in Rüstung
-Du benötigst Vertrautheit mit der Rüstung, die du trägst, wenn du einen Zauber wirkst. 
-Anderenfalls schränkt die Rüstung dich zum Zauberwirken zu sehr ein.
+Du benötigst Vertrautheit mit der [[Rüstung]], die du trägst, wenn du einen Zauber wirkst. 
+Anderenfalls schränkt die [[Rüstung]] dich zum Zauberwirken zu sehr ein.

@@ -27,4 +27,4 @@ Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Pu
 Du musst keinen [[Zauberplätze|Zauberplatz]] verbrauchen, um diese Zauber zu wirken. 
 Wirkst du einen dieser Zauber, kannst du ihn erst nach einer [[Lange Rast]] erneut wirken. 
 Du kannst diese Zauber auch mit einem beliebigen verfügbaren [[Zauberplätze|Zauberplatz]] des entsprechenden Grads wirken. 
-Das [[Attribute|Attribut]] zum [[Zauber wirken]] für diesen Zauber ist das durch dieses Talent erhöhte.
+Das [[Zauberattribut|Attribut zum Zauberwirken]] für diesen Zauber ist das durch dieses Talent erhöhte.

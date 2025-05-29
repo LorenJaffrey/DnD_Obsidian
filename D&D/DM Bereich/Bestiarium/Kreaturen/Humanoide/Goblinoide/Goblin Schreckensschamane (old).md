@@ -25,7 +25,7 @@ spells:
     ([[Zauberrettungswurf-Schwierigkeitsgrad]] 12; [[Zauberangriffswürfe|Zauberangriffswurf]]-Modifikator +4).
     Er besitzt 2 [[Zauberplätze]] des 2. [[Zaubergrad|Grades]].
     Er regeneriert verbrauchte [[Zauberplätze]] bei einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]].
-  - Zaubertricks: [[Kalte Hand]], [[Schauriger Strahl]]
+  - [[Zaubertricks]]: [[Kalte Hand]], [[Schauriger Strahl]]
   - 1. Grad: [[Befehl]], [[Zeichen des Schreckens]]
   - 2. Grad: [[Finsternis]], [[Person festhalten]]
 traits:

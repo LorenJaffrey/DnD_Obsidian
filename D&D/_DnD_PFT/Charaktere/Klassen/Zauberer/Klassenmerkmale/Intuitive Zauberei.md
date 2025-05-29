@@ -15,5 +15,5 @@ Wirkungsdauer: 1 Minute
 Erholung: [[Lange Rast]]
 
 Während die Dauer erhältst du folgende Vorzüge:
-- Der Zauberrettungswurf-SG deiner Zaubererzauber wird um 1 erhöht.
+- Der [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]] deiner Zaubererzauber wird um 1 erhöht.
 - Bei den [[Angriffswurf|Angriffswürfen]] der Zaubererzauber, die du wirkst, bist du im [[Vorteil und Nachteil|Vorteil]].

@@ -10,7 +10,7 @@ Diese Quelle der Magie, welchen Ursprungs sie auch immer ist, speist deine Zaube
 
 ## Zaubertricks
 Zu Beginn sind dir vier beliebige [[Zaubertricks]] aus der [[Zauberliste des Zauberers]] bekannt. 
-Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der [[Zauberer#Klassentabelle]] angegeben ist.
+Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte [[Zaubertricks]] in der [[Zauberer#Klassentabelle]] angegeben ist.
 
 ## Zauberplätze
 Die [[Zauberer#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] pro [[Zaubergrad|Grad]] dir auf jeder Stufe zur Verfügung stehen. 

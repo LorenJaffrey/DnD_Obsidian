@@ -45,7 +45,7 @@ actions:
     desc: Das Truhenwesen besetzt einen nicht-magischen Gegenstand im Umkreis von 1,5 m (1 Kästchen), der nicht von einer Kreatur getragen wird. 
 reactions:
   - name: Nebelschritt
-    desc: Das Truhenwesen kann [[Nebelschritt]] als Reaktion wirken nachdem eine gegnerische Kreatur eine Aktion ausgeführt hat. Dieser Einsatz verbraucht keinen Zauberplatz.
+    desc: Das Truhenwesen kann [[Nebelschritt]] als Reaktion wirken nachdem eine gegnerische Kreatur eine Aktion ausgeführt hat. Dieser Einsatz verbraucht keinen [[Zauberplätze|Zauberplatz]].
   - ...
 ```
 

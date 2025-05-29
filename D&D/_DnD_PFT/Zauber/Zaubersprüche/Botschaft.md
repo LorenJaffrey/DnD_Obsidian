@@ -31,4 +31,4 @@ Das Ziel (und nur dieses) hört die Botschaft und kann in einem Flüstern antwor
 
  Du darfst diesen Zauber durch feste Gegenstände wirken wenn du mit dem Ziel vertraut bist und weißt, dass es sich hinter der Barriere befindet. 
  Magische Stille, 30 cm Stein, 2,5 cm gewöhnliches Metall, eine dünne Schicht Blei oder 90 cm Holz blockieren den Zauber. 
- Der Effekt muss keiner geraden Linie folgen und kann sich frei um Ecken oder durch Öffnungen bewegen.
+ Der Effekt muss keiner geraden [[Linie]] folgen und kann sich frei um Ecken oder durch Öffnungen bewegen.

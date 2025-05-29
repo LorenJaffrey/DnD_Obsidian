@@ -29,4 +29,4 @@ Du erschaffst einen Blitz, der in einem Bogen auf ein Ziel deiner Wahl zusteuert
 Ein Ziel muss einen Rettungswurf auf Geschicklichkeit machen. Bei einem misslungenen Rettungswurf erleidet das Ziel 10W8 Blitzschaden, bei einem erfolgreichen Rettungswurf die Hälfte des Schadens.
 
 ## Auf höheren Graden
-Wenn du diesen Zauberspruch mit einem Zauberplatz des 7. Grades oder höher wirkst, springt für jeden Zauberplatz-Grad über dem 6. Grad ein zusätzlicher Bolzen vom ersten Ziel zu einem anderen Ziel.
+Wenn du diesen Zauberspruch mit einem [[Zauberplätze|Zauberplatz]] des 7. [[Zaubergrad|Grades]] oder höher wirkst, springt für jeden [[Zauberplätze|Zauberplatz]]-[[Zaubergrad|Grad]] über dem 6. [[Zaubergrad|Grad]] ein zusätzlicher Bolzen vom ersten Ziel zu einem anderen Ziel.

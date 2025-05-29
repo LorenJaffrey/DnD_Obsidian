@@ -18,7 +18,7 @@ Solange dein [[Kampfrausch]] aktiv ist, gelten für ihn folgende Regeln:
 	- Du bist gegen [[Hiebschaden]], [[Stichschaden]] und [[Wuchtschaden]] [[Schadensarten#Schadensresistenz|resistent]].
 	- Wenn du einen Angriff ausführst, der [[Stärke]] erfordert - entweder mit einer Waffe oder als [[Waffenloser Angriff|waffenlosen Angriff]] -, und dem Ziel Schaden zufügst, erhältst du einen Bonus auf den Schaden, der sich erhöht, wenn du Barbarenstufen hinzugewinnst. Dies ist in der [[Barbar#Klassentabelle]] nach Barbarenstufe aufgeführt.
 	- Du bist bei [[Attribute|Attributswürfen]] und [[Rettungswurf|Rettungswürfen]] auf [[Stärke]] im [[Vorteil und Nachteil|Vorteil]].
-	- Du kannst keine [[Konzentration]] aufrechterhalten und keine [[Zauber wirken]].
+	- Du kannst keine [[Konzentration]] aufrechterhalten und keine [[Magie wirken]].
 	- Der Kampfrausch währt bis zum Ende deines nächsten [[Zug|Zuges]] und endet vorzeitig, wenn du [[schwere Rüstung]] anlegst oder [[kampfunfähig]] wirst. 
 	  Wenn dein [[Kampfrausch]] in deinem nächsten Zug noch aktiv ist, kannst ihn um eine weitere Runde verlängern, indem du eine der folgenden Handlungen ausführst:
 		- ﻿﻿Führe einen [[Angriffswurf]] gegen einen Gegner aus.

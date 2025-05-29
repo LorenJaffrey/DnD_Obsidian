@@ -25,7 +25,7 @@ spells:
   - Der Skelett Magier ist ein Zauberwirker der zweiten Stufe. Sein [[Zauberattribut]] ist [[Intelligenz]] 
     ([[Zauberrettungswurf-Schwierigkeitsgrad]] 12; [[Zauberangriffswürfe|Zauberangriffswurf]]-Modifikator +4).
     Er besitzt 3 [[Zauberplätze]] des 1. [[Zaubergrad|Grades]].
-  - Zaubertricks: [[Kalte Hand]], [[Kältestrahl]]
+  - [[Zaubertricks]]: [[Kalte Hand]], [[Kältestrahl]]
   - 1. Grad: [[Befehl]], [[Magierrüstung]], [[Strahl der Übelkeit]], [[Tashas fürchterlicher Lachanfall]]
 actions:
   - name: [[Kampfstab]]

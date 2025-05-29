@@ -231,8 +231,8 @@ tags:
 >>| --- | --- |
 >> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
 >> | Zauberangriff   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
->> | Zauberrettungswurf-SG | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
->> | Zaubertricks | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
+>> | [[Zauberrettungswurf-Schwierigkeitsgrad\|Zauberrettungswurf-SG]] | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>> | [[Zaubertricks]] | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
 >> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
 >>
 >> ```dynamic-embed
