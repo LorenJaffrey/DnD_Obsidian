@@ -18,7 +18,7 @@ Wiederholbar: false
 Du erhältst folgende Vorzüge:
 
 ## Kampfheiler
-Wenn du eine [[Heilerausrüstung]] hast, kannst du eine Anwendung davon verbrauchen und als [[Gegenstand benutzen]]-Aktion eine Kreatur im Abstand von bis zu 1,5 Metern von dir versorgen. 
+Wenn du eine [[Heilerausrüstung]] hast, kannst du eine Anwendung davon verbrauchen und als [[Gegenstand benutzen]]-[[Aktion]] eine Kreatur im Abstand von bis zu 1,5 Metern von dir versorgen. 
 Diese Kreatur kann einen ihrer [[Trefferwürfel]] verbrauchen, mit dem du dann würfelst. 
 Die Kreatur erhält [[Trefferpunkte]] in Höhe des Würfelergebnisses plus deines [[Übung|Übungsbonus]] zurück.
 

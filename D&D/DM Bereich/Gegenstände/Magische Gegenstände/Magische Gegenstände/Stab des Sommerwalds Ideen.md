@@ -39,7 +39,7 @@ Du kannst eine [[Aktion]] verwenden, um ein Ende des [[Zauberstecken|Zaubersteck
 Wenn du den Baum berührst und sein Befehlswort sprichst, wird er wieder zu einem [[Zauberstecken]]. Jede Kreatur auf dem Baum fällt zu Boden, wenn er sich in einen [[Zauberstecken]] zurück verwandelt.
 
 ## Zauber
-Als eine Aktion kannst du 1 oder mehrere Ladungen des Zaubersteckens verbrauchen, um einen der folgenden Zauber damit zu wirken, welcher deinen [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]] benutzt: 
+Als eine [[Aktion]] kannst du 1 oder mehrere Ladungen des Zaubersteckens verbrauchen, um einen der folgenden Zauber damit zu wirken, welcher deinen [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]] benutzt: 
 
 | Zauber                    | Stufe | Ladungen |
 | ------------------------- |:-----:|:--------:|

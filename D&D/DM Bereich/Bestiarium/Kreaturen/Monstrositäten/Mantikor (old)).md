@@ -36,7 +36,7 @@ Ein [[Mantikor]] beginnt seinen Angriff mit einer Salve von Schwanzspitzen, land
 Wenn es im Freien und in der Unterzahl ist, benutzt es seine Flügel, um in der Luft zu bleiben, greift aus der Ferne an, bis seine Spitzen aufgebraucht sind.
 
 Angesichts des Statistik- und Merkmalsprofils des [[Mantikor]] machen diese Taktiken Sinn. 
-Die Schwanzspitze ist ein starker Angriff mit gutem Schaden und einer großzügigen Reichweite, und der [[Mantikor]] kann drei in einer einzigen Multiattack-Aktion schleudern. 
+Die Schwanzspitze ist ein starker Angriff mit gutem Schaden und einer großzügigen Reichweite, und der [[Mantikor]] kann drei in einer einzigen Multiattack-[[Aktion]] schleudern. 
 Seine [[Stärke]], [[Geschicklichkeit]] und [[Konstitution]] sind alle sehr hoch, was es gleichermaßen für Fern- und Nahkampf geeignet macht. 
 Es liegt nahe, dass es seinen stärksten, sichersten Angriff zuerst einsetzen würde, um dann verletzte Feinde zu erledigen.
 

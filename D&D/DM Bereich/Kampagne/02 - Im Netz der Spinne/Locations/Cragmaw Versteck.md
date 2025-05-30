@@ -70,7 +70,7 @@ Wenn die [[Wolf (old)|Wölfe]] von Gegnern außerhalb ihrer Reichweite gereizt w
 In jeder Runde, in der ein Charakter in Sicht bleibt, versuchen die Wölfe einen einzelnen Wurf auf [[Stärke]] gegen [[Schwierigkeitsgrad|SG]] 15. 
 Beim ersten Versuch lockern sie den Stab, und der [[Schwierigkeitsgrad|SG]] sinkt auf 10. 
 Beim zweiten Erfolg reißen sie den Stab los oder verbiegen ihn, sodass ihre Ketten nicht mehr festgehalten werden.
-Ein [[Hügelgoblin]] oder [[Grottenschrat Wüstling]] kann seine Aktion verwenden, um einen [[Wolf (old)]] von seiner Kette zu befreien.
+Ein [[Hügelgoblin]] oder [[Grottenschrat Wüstling]] kann seine [[Aktion]] verwenden, um einen [[Wolf (old)]] von seiner Kette zu befreien.
 
 ### Spalte
 Eine schmale Öffnung in der Ostwand führt zu einem natürlichen Schacht, der 9 Meter nach oben in Bereich 8 führt.

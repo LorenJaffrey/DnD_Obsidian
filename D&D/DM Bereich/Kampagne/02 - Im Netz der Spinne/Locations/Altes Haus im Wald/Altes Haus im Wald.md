@@ -61,7 +61,7 @@ Bei einer 5 oder 6 handelt es sich um einen verwandelten [[Akolyth von Talos|Ako
 Mit dem Zauber [[Magie entdecken]] können Charaktere eine schwache Aura der Verwandlungsmagie um jeden Kürbis erkennen. 
 Als [[Aktion]] kann ein Charakter einen Kürbis aufschneiden. 
 Jeder enthält sechs Portionen Kerne. 
-Eine Kreatur, die als Aktion eine Portion Kürbiskerne isst, erhält einen [[Trefferpunkte|Trefferpunkt]] zurück. 
+Eine Kreatur, die als [[Aktion]] eine Portion Kürbiskerne isst, erhält einen [[Trefferpunkte|Trefferpunkt]] zurück. 
 Wenn eine Kreatur mehr als fünf Portionen isst, muss sie einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 12 ausführen, um nicht [[vergiftet]] zu werden.
 Dieser Effekt hält `dice:1d4` Stunden lang an.
 

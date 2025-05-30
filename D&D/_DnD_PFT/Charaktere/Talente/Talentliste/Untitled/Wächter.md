@@ -23,7 +23,7 @@ Wiederholbar: false
 Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
 
 ## Wächter
-Kreaturen provozieren [[Gelegenheitsangriff]] durch dich, obwohl sie die Aktion [[Rückzug]] gewählt haben, bevor sie deine Reichweite verlassen.
+Kreaturen provozieren [[Gelegenheitsangriff]] durch dich, obwohl sie die [[Aktion]] [[Rückzug]] gewählt haben, bevor sie deine Reichweite verlassen.
 Wenn eine Kreatur innerhalb von 1,50 m ein anderes Ziel als dich angreift, provoziert sie ebenfalls einen [[Gelegenheitsangriff]] durch dich.
 
 ## Keinen Schritt weiter

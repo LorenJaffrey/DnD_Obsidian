@@ -14,5 +14,5 @@ Gewicht: 1
 > | Gewicht | `=this.Gewicht` Pfund |
 
 Dieses kleine Kästchen enthält Feuerstein, Stahl und Zunder (in der Regel Stoff, der leicht mit O1 getränkt ist), um ein Feuer entfachen zu können. 
-Zum Anzünden einer Fackel oder einem ähnlichen mit Brennstoff versehenen Gegenstand, benötigt man eine Aktion. 
+Zum Anzünden einer Fackel oder einem ähnlichen mit Brennstoff versehenen Gegenstand, benötigt man eine [[Aktion]]. 
 Jedes andere Feuer zu entfachen, dauert 1 Minute.

@@ -81,7 +81,7 @@ Merkmale:
 Anzahl_Legendäre_Aktionen: 3
 Legendäre_Aktionen:
   - "[[Donnerndes Stampfen]]"
-  - "[[Bewegung]]"
+  - "[[Instinktbewegung]]"
   - "[[Blitzladung]]"
 ---
 ```dynamic-embed

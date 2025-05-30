@@ -212,7 +212,7 @@ Der [[Alter Nothic (old)|Nothic]] weiß alles, was die Rotbrenner wissen; siehe 
 Die Brücken bestehen aus hölzernen Planken und haben kein Geländer. 
 Die südliche Brücke ist so ausgelegt, dass sie einstürzt, wenn eine Kreatur, die mehr als 50 Pfund wiegt, sich über sie bewegt. 
 Ein Charakter neben der Brücke kann bemerken, dass die Bauweise fehlerhaft ist, wenn ihm ein Wurf auf Intelligenz (Nachforschungen) gegen SG 15 gelingt. 
-Jede Kreatur kann ihre Aktion verwenden, um ein Ende der beiden Brücken zu lösen, sodass sie in den Spalt fällt.
+Jede Kreatur kann ihre [[Aktion]] verwenden, um ein Ende der beiden Brücken zu lösen, sodass sie in den Spalt fällt.
 
 ### Spalte
 Der steile Spalt ist zwischen 1,5 und 3 Metern breit und 6 Meter tief. 
@@ -264,7 +264,7 @@ Wenn die Charaktere rote Umhänge tragen, die sie anderswo erbeutet haben, gehen
 Schlaue Charaktere könnten die Grottenschrate vielleicht sogar davon überzeugen, sich um „Verräter“ oder „Hochstapler“ anderswo im Kerker zu kümmern. 
 Wenn du nicht der Meinung bist, dass sie die Täuschung gut ausspielen, kannst du den Charakter, der am meisten redet, einen Wurf auf  [[Täuschen]] gegen [[Schwierigkeitsgrad|SG]] 15 machen lassen, um die Grottenschrate davon zu überzeugen, das zu tun, was die Gruppe möchte.
 
-Der [[Hügelgoblin]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine Aktion verwenden, um ihn zu wecken. 
+Der [[Hügelgoblin]] namens Baumel fällt bewusstlos zu Boden, als er die Gruppe sieht, doch eine andere Kreatur kann eine [[Aktion]] verwenden, um ihn zu wecken. 
 Ansonsten bleibt Baumel für 1W10 Minuten bewusstlos.
 Der [[Hügelgoblin]] Baumel ist keine Bedrohung für die Gruppe. 
 Er wurde von den Grottenschraten eingeschüchtert und folgt ihren Befehlen, bis jemand Stärkeres kommt.

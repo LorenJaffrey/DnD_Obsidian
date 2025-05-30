@@ -139,7 +139,7 @@ Der Schaden erhöht sich auf 5W6 bei Stufe 17.
 **Fehlzündung**: Der Handschuh entlädt sich unkontrolliert, und du erleidest 2W6 Blitzschaden.
 
 ### **Gnomischer Gravitations-Manipulator**  
-Diese komplexe Apparatur kann das Schwerkraftfeld in einem 3-Meter-Radius manipulieren. Du kannst als Aktion eine Kreatur oder einen Gegenstand innerhalb von 18 Metern anvisieren. Die Zielkreatur muss einen Stärke-Rettungswurf gegen deinen Apparatur-SG ablegen. Bei einem Fehlschlag wird sie in die Luft geschleudert und schwebt 3 Meter über dem Boden für 1 Minute oder bis du die Konzentration verlierst (wie beim Zauber _Levitation_).
+Diese komplexe Apparatur kann das Schwerkraftfeld in einem 3-Meter-Radius manipulieren. Du kannst als [[Aktion]] eine Kreatur oder einen Gegenstand innerhalb von 18 Metern anvisieren. Die Zielkreatur muss einen Stärke-Rettungswurf gegen deinen Apparatur-SG ablegen. Bei einem Fehlschlag wird sie in die Luft geschleudert und schwebt 3 Meter über dem Boden für 1 Minute oder bis du die Konzentration verlierst (wie beim Zauber _Levitation_).
 
 **Schwierigkeit des Tüftlerwurfs**: 14
 **Fehlzündung**: Die Schwerkraft im Umkreis von 1,5 Metern um dich wird gestört, und du wirst für eine Runde bewegungsunfähig.
