@@ -1,6 +1,7 @@
 ---
-tags: Zug/Aktion
+tags: 
+  - Zug/Aktion
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
-
-Deine [[Zug#Bewegung]] in diesem Zug löst keinen [[Gelegenheitsangriff]] aus.
+Wenn du die [[Rückzug]]-Aktion ausführst, provoziert deine [[Bewegung]] in diesem Zug keine [[Gelegenheitsangriff|Gelegenheitsangriffe]].

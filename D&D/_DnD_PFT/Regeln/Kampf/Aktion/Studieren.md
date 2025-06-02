@@ -4,9 +4,7 @@ tags:
   - Regeln/PHB2024
 ---
 # `=this.file.name`
-
-*Du gehst in dich um dein Gedächtnis, ein Buch, eine Kreatur, einen Hinweis, ein Objekt oder eine andere Wissensquelle zu studieren und dir ein wichtiges Stück Information darüber ins Gedächtnis zu rufen.*
-
+Du gehst in dich um dein Gedächtnis, ein Buch, eine Kreatur, einen Hinweis, ein Objekt oder eine andere Wissensquelle zu studieren und dir ein wichtiges Stück Information darüber ins Gedächtnis zu rufen.
 Wenn du diese [[Aktion]] ausführst, machst du einen [[Intelligenz]]-Wurf um Informationen über ein bestimmtes Thema zu erhalten.
 
 Die folgende Tabelle gibt an, welche [[Fertigkeiten]] anwendbar sind, wenn du diese [[Aktion]] ausführst, je nachdem, um welchen Wissensbereich es sich handelt.

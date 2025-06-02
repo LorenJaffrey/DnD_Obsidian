@@ -4,8 +4,7 @@ aliases:
   - magische Aktion
 tags: 
   - Zug/Aktion
-  - Zug/Bonusaktion
-  - Zug/Reaktion
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Wenn du eine [[Magie wirken|magische Aktion]] ausführst, wirkst du einen Zauber mit dem Zeitaufwand von einer [[Aktion]] oder verwendest ein Merkmal oder einen magischen Gegenstand, bei dem eine [[Magie wirken|magische Aktion]] zum Aktivieren erforderlich ist.

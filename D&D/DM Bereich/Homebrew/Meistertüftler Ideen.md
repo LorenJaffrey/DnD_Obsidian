@@ -132,7 +132,7 @@ Dieses Gadget projiziert eine Energiewand, die dir einen Bonus von +2 auf deine 
 **Fehlzündung**: Das Gadget überlädt sich und reduziert den Schaden von Geschossen nur um 1W4.
 
 ### **Betäubungshandschuh**  
-Ein Handschuh, der bei einem Nahkampfangriff 4W6 Blitzschaden verursacht und das Ziel dazu zwingt, einen Konstitutionsrettungswurf zu bestehen oder für 1 Runde betäubt zu sein.
+Ein Handschuh, der bei einem [[Nahkampfangriff]] 4W6 Blitzschaden verursacht und das Ziel dazu zwingt, einen Konstitutionsrettungswurf zu bestehen oder für 1 Runde betäubt zu sein.
 
 **Schwierigkeit des Tüftlerwurfs**: 14
 Der Schaden erhöht sich auf 5W6 bei Stufe 17.
@@ -163,7 +163,7 @@ Diese Apparatur erzeugt ein kugelförmiges Kraftfeld mit einem Radius von 3 Mete
 **Fehlzündung**: Das Kraftfeld reduziert nur deinen Bewegungsspielraum und verursacht für 1 Runde Nachteil auf Angriffe und Rettungswürfe.
 
 **Gnomischer Hochgeschwindigkeits-Gleiter**  
-Eine kleine, ausfahrbare Plattform, die es dir ermöglicht, in einer geraden Linie 18 Meter weit zu fliegen. Du bewegst dich blitzschnell und kannst dabei keine Gelegenheitsangriffe provozieren.
+Eine kleine, ausfahrbare Plattform, die es dir ermöglicht, in einer geraden Linie 18 Meter weit zu fliegen. Du bewegst dich blitzschnell und kannst dabei keine [[Gelegenheitsangriff|Gelegenheitsangriffe]] provozieren.
 
 **Schwierigkeit des Tüftlerwurfs**: 14
 **Fehlzündung**: Der Gleiter stürzt ab, und du erleidest 1W6 Fallschaden.

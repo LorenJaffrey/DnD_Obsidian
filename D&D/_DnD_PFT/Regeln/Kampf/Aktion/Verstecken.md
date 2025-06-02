@@ -1,14 +1,17 @@
 ---
-tags: Zug/Aktion
+tags: 
+  - Zug/Aktion
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
+Mit der [[Verstecken]]-Aktion versuchst du dich zu verbergen.
 
-*Versuche dich zu verstecken.*
+Dazu musst du einen Wurf auf [[Heimlichkeit]] gegen [[Schwierigkeitsgrad|SG]] 15 bestehen, während du entweder [[komplett verschleiert]] bist oder dich hinter [[Dreivierteldeckung]] oder [[Vollständige Deckung|vollständiger Deckung]] befindest. 
+Außerdem darfst du dich nicht in der Sichtlinie von Gegnern befinden: Kannst du eine Kreatur sehen, so kannst du beurteilen, ob sie dich ebenfalls sehen kann.
+Bei einem [[Erfolg]] hast du den Zustand [[Unsichtbar]], während du versteckt bist. 
 
-Du kannst dich nicht vor einer Kreatur verstecken, die dich sehen kann. Du musst [[Deckung#Vollständige Deckung]] haben, in einem Bereich sein der [[Komplett verschleiert]] ist, [[Unsichtbar]] sein, oder anderweitig die Sicht des Feindes blockieren.
+Jedes mal wenn die Möglichkeit besteht, dass du entdeckt wirst, wirf eine Probe auf [[Heimlichkeit]].
+Wenn du aktiv gesucht wirst vergleiche das Ergebnis mit dem Wurf auf [[Wahrnehmung]] des Suchenden. 
+Ansonsten vergleiche das Ergebnis mit der [[Wahrnehmung#Passive Wahrnehmung|Passiven Wahrnehmung]] der Kreatur.
 
-Sag an, dass du versuchst dich zu verstecken. Jedes mal wenn die Möglichkeit besteht, dass du entdeckt wirst, wirf eine Probe auf [[Heimlichkeit]].
-Wenn du aktiv gesucht wirst vergleiche das Ergebnis mit dem Wurf auf [[Wahrnehmung]] des Suchenden. Ansonsten vergleiche das Ergebnis mit der [[Wahrnehmung#Passive Wahrnehmung|Passiven Wahrnehmung]] der Kreatur.
-
-Wenn das Ziel einen versteckten Angreifer nicht sehen kann, erhält dieser [[Vorteil und Nachteil|Vorteil]] auf den [[Angriffswurf]].
 Ein versteckter Angreifer gibt beim [[Angriff]] seine Position preis.

@@ -3,7 +3,6 @@ aliases: Stabilisiert
 tags: Zug/Aktion
 ---
 # `=this.file.name`
-
 Eine Kreatur kann versuchen eine andere Kreatur zu [[Stabilisieren]] werden. 
 Dies kostet eine [[Aktion]] und erfordert einen Wurf auf [[Heilkunde]] gegen die untenstehende Tabelle.
 Eine [[Stabilisieren|Stabilisiert]]e Kreatur bleibt bewusstlos, aber führt keinen [[Todesrettungswürfe|Todesrettungswurf]] mehr durch.

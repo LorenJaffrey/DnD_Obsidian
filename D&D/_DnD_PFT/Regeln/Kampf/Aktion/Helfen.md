@@ -1,13 +1,17 @@
 ---
-tags: Zug/Aktion
+tags: 
+  - Zug/Aktion
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
-*Gewähre einem Verbündeten Vorteil auf eine Fähigkeitenprobe oder einen Angriff.*
+Wenn du die [[Helfen]]-Aktion ausführst, vollziehst du eine der folgenden Handlungen:
 
-Wenn das Ziel einen Fertigkeitswurf ausführt, musst du einen Wurf auf die [[Fertigkeiten|Fertigkeit]] gegen [[Schwierigkeitsgrad|SG]] 10 ablegen. 
-Wenn du Erfolg hast, erhält das Ziel [[Vorteil und Nachteil|Vorteil]] auf den geplanten nächsten Fertigkeitswurf, den es macht um die Aufgabe zu erfüllen, bei der du ihr hilfst.
+## Einen Attributswurf unterstützen
+Wähle eine deiner [[Übung|Übungen]] in einer [[Fertigkeiten|Fertigkeit]] oder im Umgang mit [[Werkzeug]] sowie einen Verbündeten aus, der dir nahe genug ist, dass du ihn verbal oder physisch unterstützen kannst, wenn er einen [[Attribute|Attributswurf]]] ausführt. 
+Der Verbündete ist bei seinem nächsten [[Attribute|Attributswurf]] mit der ausgewählten [[Fertigkeiten|Fertigkeit]] oder dem ausgewählten [[Werkzeug]] im [[Vorteil und Nachteil|Vorteil]]. 
+Dieser Vorzug gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten [[Zug|Zuges]] einsetzt. 
+Der SL entscheidet, ob deine Hilfe möglich ist.
 
-Alternativ erhält das Ziel [[Vorteil und Nachteil|Vorteil]] auf den nächsten [[Angriff]] gegen ein bestimmtes Ziel innerhalb von 1,5m neben dir.
-Der [[Vorteil und Nachteil|Vorteil]] ist einmalig bis zum Beginn deines nächsten Zuges nutzbar.
-
-Beispiel: Finte ausführen um feindliche Kreatur abzulenken.
+## Einen Angriffswurf unterstützen
+Du lenkst einen Gegner im Abstand von bis zu 1,5 Metern von dir vorübergehend ab, sodass der nächste [[Angriffswurf]] eines deiner Verbündeten gegen ihn im [[Vorteil und Nachteil|Vorteil]] ist. 
+Dieser Vorzug gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten [[Zug|Zuges]] einsetzt.

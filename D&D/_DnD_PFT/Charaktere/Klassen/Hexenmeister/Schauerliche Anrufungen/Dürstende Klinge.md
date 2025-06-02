@@ -12,4 +12,4 @@ Mindeststufe: Stufe `=this.Mindeststufe`
 Voraussetzung: `=this.Voraussetzung` 
 
 Du erhältst das Merkmal [[Zusätzlicher Angriff]], das nur für deine [[Pakt der Klinge#Paktwaffe]] gilt. 
-Wenn du in deinem [[Zug]] die [[Aktion]] [[Angriff]] ausführst, kannst du mit dieser Waffe zweimal statt einmal angreifen.
+Wenn du in deinem [[Zug]] die [[Angreifen|Angriffsaktion]] ausführst, kannst du mit dieser Waffe zweimal statt einmal angreifen.

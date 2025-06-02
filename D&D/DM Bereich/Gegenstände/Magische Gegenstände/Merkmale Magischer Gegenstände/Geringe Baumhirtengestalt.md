@@ -22,4 +22,4 @@ Statt ihrer normalen Waffenangriffe führt die Kreatur nun einen [[Rankenstoß s
 Bei einem erfolgreichen Treffer muss das Ziel außerdem einen [[Rettungswurf]] auf [[Stärke]] gegen  [[Schwierigkeitsgrad|SG]] 10 + [[Weisheit#Weisheitsmodifikator]] + [[Übung|Übungsbonus]] bestehen oder wird 1,5 Meter (5 Fuß) zurückgestoßen.
 
 ##### Naturgeist
-In der [[Geringe Baumhirtengestalt|geringen Baumhirtengestalt]] kann die Kreatur weder sprechen noch [[Magie wirken]] oder [[Gegenstand benutzen|Gegenstände benutzen]].
+In der [[Geringe Baumhirtengestalt|geringen Baumhirtengestalt]] kann die Kreatur weder sprechen noch [[Magie wirken]] oder [[Verwenden|Gegenstände benutzen]].

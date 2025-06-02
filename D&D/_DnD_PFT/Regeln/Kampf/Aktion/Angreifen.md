@@ -5,7 +5,7 @@ tags:
   - Zug/Aktion/Angriff
 ---
 # `=this.file.name`
-Wenn du die [[Angreifen|Angriffsaktion]] ausführst, kannst du einen [[Angriffswurf]] mit einer Waffe oder einem [[Waffenloser Angriff|waffenlosen Angriff]] ausführen.
+Wenn du die [[Angreifen|Angriffsaktion]] ausführst, kannst du einen [[Nahkampfangriff]] oder [[Fernkampfangriff]]mit einer Waffe oder einen [[Waffenloser Angriff|waffenlosen Angriff]] ausführen.
 
 ## Waffen an- und ablegen
 Wenn du einen [[Angriff]] ausführst, kannst du als Teil dieser [[Aktion]] eine Waffe an- oder ablegen.
