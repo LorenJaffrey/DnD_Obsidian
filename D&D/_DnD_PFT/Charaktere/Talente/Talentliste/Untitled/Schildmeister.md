@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast gelernt, Schilde nicht nur zur Verteidigung, sondern auch zum Angriff zu nutzen.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Schildschlag
 ﻿﻿Wenn du in deinem [[Zug]] als [[Aktion]] [[Angriff]] wählst, kannst du deine [[Bonusaktion]] dazu verwenden, eine Kreatur in Nahkampfreichweite mit deinem [[Schilde|Schild]] zurückzustoßen.

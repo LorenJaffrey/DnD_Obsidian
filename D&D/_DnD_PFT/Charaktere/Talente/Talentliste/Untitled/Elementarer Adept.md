@@ -22,7 +22,7 @@ Wiederholbar: true
 Du kannst dieses Talent mehrfach auswählen, musst jedoch jedes Mal eine andere [[Schadensarten|Schadensart]] wählen.
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Meisterschaft der Energie
 Wähle eine der folgenden Schadensarten: 

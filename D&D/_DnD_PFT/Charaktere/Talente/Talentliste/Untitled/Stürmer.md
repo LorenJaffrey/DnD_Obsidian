@@ -18,7 +18,7 @@ Wiederholbar: false
 > | Mehrfach wählbar | `=this.Wiederholbar`         |
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Verbesserter Spurt
 Wenn du deine [[Aktion]] verwendest, um [[Spurt]] einzusetzen, kannst du als [[Bonusaktion]] einen [[Nahkampfangriff]] ausführen oder eine Kreatur [[Stossen]]. 

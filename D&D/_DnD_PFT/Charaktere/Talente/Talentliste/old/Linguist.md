@@ -19,7 +19,7 @@ Wiederholbar: false
 Du hast [[Sprachen]] und Geheimschriften studiert, wodurch du diese Vorzüge erhältst:
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Sprachspezialist
 ﻿﻿Du erlernst drei [[Sprachen]] deiner Wahl.

@@ -6,8 +6,8 @@
 	2. [[Schauerliche Anrufungen]]
 		1. [[Pakt des Buches]]
 		2. [[Qualvoller Strahl]]
-		3. [[Maske der vielen Gesichter]]
-		4. beliebig
+		3. [[Meister der myriaden Formen]]
+		4. [[Pakt der Kette]]
 		5. beliebig
 2. [[Herkunft]] 
 	1. [[Herkunft]]

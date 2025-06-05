@@ -22,7 +22,7 @@ Wiederholbar: false
 Du erhältst die folgenden Vorzüge:
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Merkmale
 Du erhältst die folgenden [[Merkmale]]:

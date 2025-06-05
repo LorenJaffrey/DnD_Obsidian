@@ -31,4 +31,4 @@ Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem max
 Wenn du den Zustand [[Liegend]] hast, kostet dich das Aufstehen nur 1,50 m deiner [[Bewegungsrate]].
 
 ## Springen
-Du erhältst [[Vorteil und Nachteil|Vorteil]] auf jeden [[Attribute|Attributswurf]] der mit [[Hochsprung]] oder [[Weitsprung]] zu tun hat.
+Du erhältst [[Vorteil und Nachteil|Vorteil]] auf jeden [[Attribute#Attributswurf]] der mit [[Hochsprung]] oder [[Weitsprung]] zu tun hat.

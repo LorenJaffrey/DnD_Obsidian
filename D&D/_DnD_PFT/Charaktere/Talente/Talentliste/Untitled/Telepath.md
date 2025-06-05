@@ -19,7 +19,7 @@ Wiederholbar: false
 *Du hast gelernt, eine mentale Verbindung zu anderen aufzubauen*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Gedanken wahrnehmen
 Du kannst den Zauber [[Gedanken wahrnehmen]] ohne einen [[Zauberplätze|Zauberplatz]] und [[Zauberkomponenten]] wirken und kannst ihn erst nach einer [[Lange Rast]] auf diese Weise erneut wirken.

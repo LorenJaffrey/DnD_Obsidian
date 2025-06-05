@@ -19,7 +19,7 @@ Wiederholbar: false
 Dank deines ausgiebigen Trainings mit Bögen erhältst du folgende Vorzüge:
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Kernschuss
 Du bist nicht im [[Vorteil und Nachteil|Nachteil]] bei [[Fernkampfangriff|Fernkampfangriffen]] mit [[Bögen]] die sich zwischen Nahkampfreichweite und [[Fernkampfangriff#Mindestreichweite]] befinden.

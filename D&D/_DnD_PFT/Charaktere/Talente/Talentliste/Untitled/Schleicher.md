@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du bist ein Experte darin, durch die Schatten zu schleichen.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Blindsicht
 Du erhältst [[Blindsicht]]  mit einer Reichweite von 3 m (2 Kästchen).

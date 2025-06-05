@@ -20,7 +20,7 @@ Wiederholbar: false
 *Die Treffsicherheit von Elfen ist legendär, besonders die von elfischen Bogenschützen und Magiewirkern.* 
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]], [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]], [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Zielsicher
 Wenn du im [[Vorteil und Nachteil|Vorteil]] bei einem [[Angriffswurf]] bist, der auf [[Geschicklichkeit]], [[Intelligenz]], [[Weisheit]] oder [[Charisma]] basiert, kannst du einen der Würfel einmal erneut würfeln.

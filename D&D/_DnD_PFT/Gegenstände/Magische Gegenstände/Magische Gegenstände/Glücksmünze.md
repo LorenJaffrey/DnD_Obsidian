@@ -14,7 +14,7 @@ Verflucht: false
 
 *Diese exotisch wirkende Münze kann dem Benutzer Glück oder auch Pech bescheren.*
 
-Der Besitzer der Münze kann unmittelbar bevor er einen [[Attribute|Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]] ausführt erklären, dass er die Münze einsetzt.
+Der Besitzer der Münze kann unmittelbar bevor er einen [[Attribute#Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]] ausführt erklären, dass er die Münze einsetzt.
 Er wirf die Münze in die Luft und fängt sie wieder auf. Würfle auf der folgenden Tabelle
 
 **Münzwurf**: `dice: [[Lookup Tabellen#^Muenzwurf]]`

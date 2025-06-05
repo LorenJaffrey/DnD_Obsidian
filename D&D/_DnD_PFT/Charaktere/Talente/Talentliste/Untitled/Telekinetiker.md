@@ -19,7 +19,7 @@ Wiederholbar: false
 *Du hast gelernt, Gegenstände mit deinem Willen zu bewegen.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Magierhand
 Du lernst den [[Zaubertricks|Zaubertrick]] [[Magierhand]]. 

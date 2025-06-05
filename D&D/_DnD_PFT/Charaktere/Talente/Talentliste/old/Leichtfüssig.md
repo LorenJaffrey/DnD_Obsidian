@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du besitzt außergewöhnliche Schnelligkeit und Ausdauer.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]] oder [[Konstitution]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] oder [[Konstitution]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Geschwindigkeit
 ﻿﻿Deine [[Bewegungsrate]] erhöht sich um 3 m, solange du keine [[Schwere Rüstung]] trägst.

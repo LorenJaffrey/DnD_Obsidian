@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast die Technik gemeistert, jegliche Lücke in der Verteidigung deines Gegners zu nutzen.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Wächter
 Kreaturen provozieren [[Gelegenheitsangriff]] durch dich, obwohl sie die [[Aktion]] [[Rückzug]] gewählt haben, bevor sie deine Reichweite verlassen.

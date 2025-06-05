@@ -19,7 +19,7 @@ Du erhältst folgende Vorzüge:
 
 ## Zaubertricks
 Du beherrschst zwei [[Zaubertricks]] deiner Wahl aus der [[Zauberliste des Druiden]], der [[Zauberliste des Klerikers]] oder der [[Zauberliste des Magiers]]. 
-Dein Attribut zum Wirken der Zauber dieses Talents ist [[Intelligenz]], [[Weisheit]] oder [[Charisma]] (wähle aus, wenn du dieses Talent auswählst).
+Dein [[Attribute|Attribut]] zum Wirken der Zauber dieses Talents ist [[Intelligenz]], [[Weisheit]] oder [[Charisma]] (wähle aus, wenn du dieses Talent auswählst).
 
 ## Zauber des 1. Grades 
 Wähle einen [[Zauber des 1. Grades]] von der Liste aus, die du für die [[Zaubertricks]] dieses Talents ausgewählt hast. 

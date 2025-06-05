@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast trainiert, in Schwerer Rüstung zu kämpfen.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Konstitution]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Konstitution]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Rüstungsvertrautheit
 Du hast [[Übung]] im Umgang mit [[Schwere Rüstung|Schwerer Rüstung]] und [[Schilde|Schilden]].

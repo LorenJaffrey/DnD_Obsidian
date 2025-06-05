@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast ausgiebig mit einer Vielzahl an Waffen geübt.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Waffentraining
 Du hast [[Übung]] im Umgang mit [[Kriegswaffen]].

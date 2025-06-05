@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast im Kampf eine besondere Präzision mit Stichwaffen erreicht.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Präzise Stöße
 Wenn du eine Kreatur mit einem Angriff triffst, der [[Stichschaden]] verursacht, kannst du einmal pro [[Zug]] einen der Schadenswürfel erneut würfeln. 

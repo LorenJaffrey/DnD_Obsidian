@@ -29,6 +29,6 @@ Klassen:
 
 ## Beschreibung
 Du berührst eine bereitwillige Kreatur. 
-Einmal während der Wirkungsdauer kann das Ziel mit einem 1W4 würfeln und das Ergebnis auf einen [[Attribute|Attributswurf]] seiner Wahl addieren. 
-Es darf sich vor oder nach dem [[Attribute|Attributswurf]] dazu entscheiden, den Würfel einzusetzen. 
+Einmal während der Wirkungsdauer kann das Ziel mit einem 1W4 würfeln und das Ergebnis auf einen [[Attribute#Attributswurf]] seiner Wahl addieren. 
+Es darf sich vor oder nach dem [[Attribute#Attributswurf]] dazu entscheiden, den Würfel einzusetzen. 
 Anschließend endet der Zauber.

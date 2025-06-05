@@ -20,7 +20,7 @@ Wiederholbar:
 Da du äußerst bewandert in den Künsten der Nachahmung und der Darstellung bist, erhältst du die folgenden Vorzüge:
 
 ## Attributswerterhöhung
-﻿﻿Erhöhe dein [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+﻿﻿Erhöhe dein [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Imitation
 Du bist bei Würfen auf [[Auftreten]] im [[Vorteil und Nachteil|Vorteil]], wenn du dich als eine andere Person ausgeben willst.

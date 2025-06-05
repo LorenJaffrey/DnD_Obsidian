@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du bist darin geübt, deine Feinde mit wuchtigen Hieben zu zermalmen.* 
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Präzise Hiebe
 Wenn du eine Kreatur mit einem Angriff triffst, der [[Wuchtschaden]] verursacht, kannst du einmal pro [[Zug]] einen der Schadenswürfel erneut würfeln. 

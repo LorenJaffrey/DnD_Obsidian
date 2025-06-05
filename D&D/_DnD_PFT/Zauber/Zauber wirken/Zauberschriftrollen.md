@@ -8,7 +8,7 @@ Wenn der Zauber auf der Zauberliste deiner Klasse ist, kannst du die Schriftroll
 Den Zauber zu wirken, indem die Schriftrolle gelesen wird, benötigt den normalen Zeitaufwand des Zaubers. 
 Sobald der Zauber gewirkt wurde, verschwinden die Worte auf der Schriftrolle, und sie zerfällt zu Staub. Wenn der Zauber unterbrochen wurde, ist die Schriftrolle nicht verloren.
 
-Wenn der Zauberspruch auf der Zauberliste deiner Klasse steht, aber höher ist als der [[Zaubergrad|Grad]], den du normalerweise wirken kannst, musst du einen [[Attribute|Attributswurf]] auf dein [[Zauberattribut]] ablegen, um zu bestimmen, ob du den Zauber erfolgreich wirken kannst. 
+Wenn der Zauberspruch auf der Zauberliste deiner Klasse steht, aber höher ist als der [[Zaubergrad|Grad]], den du normalerweise wirken kannst, musst du einen [[Attribute#Attributswurf]] auf dein [[Zauberattribut]] ablegen, um zu bestimmen, ob du den Zauber erfolgreich wirken kannst. 
 > [[Schwierigkeitsgrad|SG]]=10 + der [[Zaubergrad|Grad]] des Zaubers.
 
 Wenn der Wurf misslingt, verschwindet der Zauber ohne weiteren Effekt von der Schriftrolle.

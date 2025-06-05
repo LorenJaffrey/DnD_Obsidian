@@ -19,7 +19,7 @@ Wiederholbar: false
 *Dein Kontakt mit der Magie aus Schattenfell hat dich verändert.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]], deine [[Weisheit]] oder dein [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Schattenmagie
 ﻿﻿Du lernst den Zauber [[Unsichtbarkeit]] und einen[[Zauber des 1. Grades]] deiner Wahl. 

@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du bist außergewöhnlich gut darin, dir Zeiten, Richtungen und Einzelheiten einzuprägen.*
 
 ## Attributswerterhöhung
-﻿﻿Erhöhe deine [[Intelligenz]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+﻿﻿Erhöhe deine [[Intelligenz]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Gebildet
 Wähle eine der folgenden [[Fertigkeiten]]:

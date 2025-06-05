@@ -21,6 +21,6 @@ Wiederholbar: false
 
 Du erhältst die folgenden Aufwertungen:
 - [[Attributswerterhöhung]] (Geschicklichkeit)
-Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 - [[Weitschuss]]
 - [[Deckung umgehen]]

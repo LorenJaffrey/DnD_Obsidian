@@ -4,7 +4,7 @@ tags:
 Attribut: "[[Charisma]]"
 ---
 # `=this.file.name`
-Abhängiges Attribut: `=this.Attribut`
+Abhängiges [[Attribute|Attribut]]: `=this.Attribut`
 
 Jemanden durch Drohungen, feindselige Gesten oder körperliche Gewalt beeinflussen.
 Beispiele:

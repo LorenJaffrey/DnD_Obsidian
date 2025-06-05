@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast Techniken gelernt, um die Angriffe mit bestimmten Zaubern zu verbessernl.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Intelligenz]], [[Weisheit]] oder [[Charisma]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Deckung umgehen
 Deine Angriffszauber ignorieren [[Deckung#Halbe Deckung]] und [[Deckung#Dreiviertel Deckung]].

@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast eine schnelle Hand und ein scharfes Auge beim Einsatz von Feuerwaffen*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Laden ignorieren
 Du ignorierst  die Waffeneigenschaft [[Laden]] bei [[Feuerwaffen]], mit denen du [[Übung]] hast.

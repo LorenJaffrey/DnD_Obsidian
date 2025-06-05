@@ -4,7 +4,7 @@ tags:
 Attribut: "[[Weisheit]]"
 ---
 # `=this.file.name`
-Abhängiges Attribut: `=this.Attribut`
+Abhängiges [[Attribute|Attribut]]: `=this.Attribut`
 
 Beispiele:
 - Spuren lesen

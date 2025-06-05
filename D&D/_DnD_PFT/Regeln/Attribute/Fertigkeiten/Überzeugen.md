@@ -4,7 +4,7 @@ tags:
 Attribut: "[[Charisma]]"
 ---
 # `=this.file.name`
-Abhängiges Attribut: `=this.Attribut`
+Abhängiges [[Attribute|Attribut]]: `=this.Attribut`
 
 Andere mit Taktgefühl, Einfühlungsvermögen oder wohlwollendem Wesen beeinflussen.
 Beispiele:

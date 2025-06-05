@@ -18,7 +18,7 @@ Wiederholbar: false
 *Du hast trainiert, in Leichter Rüstung zu kämpfen.*
 
 ## Attributswerterhöhung
-﻿﻿Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+﻿﻿Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Rüstungsvertrautheit
 Du hast [[Übung]] im Umgang mit [[Leichte Rüstung|Leichter Rüstung]] und [[Schilde|Schilden]].

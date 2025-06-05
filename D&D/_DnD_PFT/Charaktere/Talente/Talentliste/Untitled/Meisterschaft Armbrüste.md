@@ -21,7 +21,7 @@ Wiederholbar: false
 Dank deines ausgiebigen Trainings mit der Armbrust erhältst du folgende Vorzüge:
 
 ## Attributswerterhöhung
-Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Laden ignorieren
 Du ignorierst  die Waffeneigenschaft [[Laden]] bei [[Armbrüste|Armbrüsten]], mit denen du [[Übung]] hast.

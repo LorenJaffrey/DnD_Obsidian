@@ -30,5 +30,5 @@ Klassen:
 Umschlingende Gräser und Ranken wachsen in einem quadratischen Bereich mit 6 m Seitenlänge in Reichweite aus dem Boden. 
 Für die Wirkungsdauer verwandeln diese Pflanzen den Boden in [[Schwieriges Gelände]].
 Jede Kreatur, die sich in dem Bereich aufhält, wenn du den Zauber wirkst, muss einen erfolgreichen [[Rettungswurf]] auf [[Stärke]] ablegen, um nicht für die Wirkungsdauer von den umschlingenden Pflanzen [[Festgesetzt]] zu werden. 
-Eine Kreatur, die von den Pflanzen [[Festgesetzt]] ist, kann als [[Aktion]] einen [[Attribute|Attributswurf]] auf [[Stärke]] gegen deinen [[Zauberrettungswurf-Schwierigkeitsgrad]] ablegen. Bei einem Erfolg kann sie sich befreien.
+Eine Kreatur, die von den Pflanzen [[Festgesetzt]] ist, kann als [[Aktion]] einen [[Attribute#Attributswurf]] auf [[Stärke]] gegen deinen [[Zauberrettungswurf-Schwierigkeitsgrad]] ablegen. Bei einem Erfolg kann sie sich befreien.
 Wenn der Zauber endet, verdorren die beschworenen Pflanzen.

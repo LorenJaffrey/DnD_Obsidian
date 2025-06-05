@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du bist hartgesotten und standhaft.*
 
 ## Attributswerterhöhung
-Erhöhe deine [[Konstitution]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Konstitution]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Den Tod betrügen
 Du erhältst [[Vorteil und Nachteil|Vorteil]] auf [[Todesrettungswürfe]].

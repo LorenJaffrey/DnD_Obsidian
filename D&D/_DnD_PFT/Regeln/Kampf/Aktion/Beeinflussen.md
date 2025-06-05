@@ -13,16 +13,16 @@ Versuchst du, es zu [[täuschen]], [[Einschüchtern|einzuschüchtern]], zu [[Auf
 Der SL bestimmt dann, ob das Monster bereitwillig, nicht bereitwillig oder zögerlich auf deine Interaktion reagiert. Daraus ergibt sich, ob ein Attributswurf erforderlich ist, wie unten erläutert.
 
 ## Bereitwillig
-Wenn deine [[Beeinflussen|Beeinflussung]] mit den Interessen des Monsters übereinstimmt, ist kein [[Attribute|Attributswurf]] erforderlich: Das Monster kommt deinen Wünschen auf seine Art nach.
+Wenn deine [[Beeinflussen|Beeinflussung]] mit den Interessen des Monsters übereinstimmt, ist kein [[Attribute#Attributswurf]] erforderlich: Das Monster kommt deinen Wünschen auf seine Art nach.
 
 ## Nicht bereitwillig
-Wenn deine [[Beeinflussen|Beeinflussung]] mit den Interessen oder der Gesinnung des Monsters in Konflikt steht, ist kein [[Attribute|Attributswurf]] erforderlich: Das Monster kommt deinen Wünschen nicht nach.
+Wenn deine [[Beeinflussen|Beeinflussung]] mit den Interessen oder der Gesinnung des Monsters in Konflikt steht, ist kein [[Attribute#Attributswurf]] erforderlich: Das Monster kommt deinen Wünschen nicht nach.
 
 ## Zögerlich
-Wenn du das Monster zu etwas bewegen willst, was es nicht unbedingt tun will, musst du einen [[Attribute|Attributswurf]] ausführen, der von der [[Einstellung]] des Monsters betroffen ist: 
+Wenn du das Monster zu etwas bewegen willst, was es nicht unbedingt tun will, musst du einen [[Attribute#Attributswurf]] ausführen, der von der [[Einstellung]] des Monsters betroffen ist: 
 [[Gleichgültig]], [[Freundlich]] gesinnt oder [[Feindlich]] gesinnt.
-In der Tabelle [[Beeinflussen#Attributswürfe zum Beeinflussen]] findest du Vorschläge, welcher [[Attribute|Attributswurf]] je nach deiner Interaktion mit dem Monster jeweils auszuführen ist. 
-Der SL wählt den [[Attribute|Attributswurf]] aus.
+In der Tabelle [[Beeinflussen#Attributswürfe zum Beeinflussen]] findest du Vorschläge, welcher [[Attribute#Attributswurf]] je nach deiner Interaktion mit dem Monster jeweils auszuführen ist. 
+Der SL wählt den [[Attribute#Attributswurf]] aus.
 Dieser hat einen [[Schwierigkeitsgrad]] in Höhe von 15 oder dem [[Intelligenz|Intelligenzwert]] des Monsters, je nachdem, welcher Wert höher ist. 
 Bei einem [[Erfolg]] tut das Monster, was du willst. 
 Scheitert der Wurf, so musst du 24 Stunden (oder eine Dauer nach Vorgabe des SL) abwarten, ehe du erneut versuchen kannst, es auf diese Art zu [[beeinflussen]].

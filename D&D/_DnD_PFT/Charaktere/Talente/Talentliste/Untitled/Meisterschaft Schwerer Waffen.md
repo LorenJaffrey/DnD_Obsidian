@@ -20,7 +20,7 @@ Wiederholbar: false
 *Du hast gelernt, das Gewicht von Waffen zu deinem Vorteil zu nutzen, wodurch die Wucht deiner Hiebe verstärkt wird.* 
 
 ## Attributswerterhöhung
-Erhöhe deine [[Stärke]] um 1 Punkt, bis zu einem maximalen Attributswert von 20.
+Erhöhe deine [[Stärke]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
 ## Geschickter Schwung﻿﻿
 ﻿﻿Du kannst die Eigenschaft [[Langsam]] von [[Schwere Waffen|Schweren Waffen]] ignorieren mit denen du [[Übung]] hast.
