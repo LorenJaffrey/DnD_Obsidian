@@ -2,8 +2,6 @@
 graph TD
 a(Phandalin)
 
-m(Schrein von Savras)
-
 subgraph Starterquests
 b(Die Zwergenausgrabung)
 d(Der Haderhügel)
@@ -12,7 +10,6 @@ end
 
 subgraph Nebenquests
 e(Das Holzfällerlager)
-g(Die Bergzeh-Goldmine)
 end 
 
 subgraph Cryovain
@@ -30,7 +27,6 @@ subgraph Talosanhänger
 i(Das alte Haus im Wald)
 l(Jagdhaus des Falken)
 o(Kreis des Donners)
-n(Turm der Stürme)
 end
 
 subgraph Intro
@@ -55,34 +51,29 @@ a --> Nebenquests
 e --> Talosanhänger
 Starterquests --> Cryovain
 l --> i
-g --> m
-i --> n
 i --> o
 x --> y
 p --> q
 r --> s
 s --> SchwarzeSpinne
-a --> Cryovain
 Cryovain --> SchwarzeSpinne
 ```
 
-| Quests                                     | Step | Stufe | Art                        | Effekt                                                     |
-| ------------------------------------------ |:----:|:-----:| -------------------------- | ---------------------------------------------------------- |
-| [[Goblinhinterhalt]]                       |  1   |   3   | Überfall                   |                                                            |
-| [[Cragmaw Versteck]]                       |  1   |   3   | Rettung                    | Entführte NPCs gerettet                                    |
-| [[Konfrontation mit den Rotbrennern]]      |  2   |   4   | Informationen              | [[Rotbrenner-Versteck]] finden                             |
-| [[Tresendar Anwesen\|Rotbrenner Versteck]] |  3   |   4   | Informationen              | [[Iarno Albrek]] finden, Exposition [[Schwarze Spinne]]    |
-| [[Haderhügel]]                             |  3   |   4   | Warnung                    | Zugriff auf Heiltränke                                     |
-| [[Zwergenausgrabung]]                      |  3   |   4   | Warnung                    | Warnung an Ausgräber                                       |
-| [[Butterschädelhof]]                       |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]          |
-| [[Bergzeh-Goldmine]]                       |  4   |   5   | Lieferung                  | Exposition [[Schrein von Savras]]                          |
-| [[Das Holzfällerlager]]                    |  4   |   5   | Lieferung/Rettung          | Exposition Talosanhänger                                   |
-| [[Gnomengard]]                             |  5   |   5   | Unterstützung holen        | Unterstützung für Kampf gegen [[Cryovain]]                 |
-| [[Altes Haus im Wald]]                     |  5   |   5   | Angriff                    | Talosanhänger aufhalten, Exposition [[Kreis des Donners]]  |
-| [[Axtholm]]                                |  5   |   5   | Sichern                    | Unterschlupf für Bewohner von [[Phandalin]]                |
-| [[Das Drachengrab]]                        |  5   |   5   | Unterstützung holen        | Drachentöter Schwert für Kampf gegen [[Cryovain]]          |
-| [[Der Schrein von Savras]]                 |  5   |   6   | Angriff                    | Vision von [[Eisnadelfestung]] oder [[Burg Cragmaw]]       |
-| [[Der Turm der Stürme]]                    |  5   |   6   | Angriff                    | Information über [[Eisnadelfestung]] oder [[Burg Cragmaw]] |
-| [[Kreis des Donners]]                      |  6   |   6   | Finale Talosanhänger       | [[Gorthok der Donnerkeiler]] vernichten                    |
-| [[Die Eisnadelfestung]]                    |  6   |   6   | Finale Cryovain            | [[Cryovain]] vernichten                                    |
-| [[Die Wellenhallhöhle]]                    |  7   |   6   | Finale [[Schwarze Spinne]] | [[Schwarze Spinne]] aufhalten                              |
+| Quests                                     | Step | Stufe | Art                        | Effekt                                                    |
+| ------------------------------------------ |:----:|:-----:| -------------------------- | --------------------------------------------------------- |
+| [[Goblinhinterhalt]]                       |  1   |   3   | Überfall                   |                                                           |
+| [[Cragmaw Versteck]]                       |  1   |   3   | Rettung                    | Entführte NPCs gerettet                                   |
+| [[Konfrontation mit den Rotbrennern]]      |  2   |   4   | Informationen              | [[Rotbrenner-Versteck]] finden                            |
+| [[Tresendar Anwesen\|Rotbrenner Versteck]] |  3   |   4   | Informationen              | [[Iarno Albrek]] finden, Exposition [[Schwarze Spinne]]   |
+| [[Haderhügel]]                             |  3   |   4   | Warnung                    | Zugriff auf Heiltränke                                    |
+| [[Zwergenausgrabung]]                      |  3   |   4   | Warnung                    | Warnung an Ausgräber                                      |
+| [[Butterschädelhof]]                       |  3   |   4   | Angriff/Rettung            | vor Orküberfall gerettet, Exposition [[Cryovain]]         |
+| [[Bergzeh-Goldmine]]                       |  4   |   5   | Lieferung                  | Exposition [[Schrein von Savras]]                         |
+| [[Das Holzfällerlager]]                    |  4   |   5   | Lieferung/Rettung          | Exposition Talosanhänger                                  |
+| [[Altes Haus im Wald]]                     |  5   |   5   | Angriff                    | Talosanhänger aufhalten, Exposition [[Kreis des Donners]] |
+| [[Kreis des Donners]]                      |  5   |   5   | Finale Talosanhänger       | [[Gorthok der Donnerkeiler]] vernichten                   |
+| [[Gnomengard]]                             |  5   |   5   | Unterstützung holen        | Unterstützung für Kampf gegen [[Cryovain]]                |
+| [[Axtholm]]                                |  5   |   5   | Sichern                    | Unterschlupf für Bewohner von [[Phandalin]]               |
+| [[Das Drachengrab]]                        |  5   |   5   | Unterstützung holen        | Drachentöter Schwert für Kampf gegen [[Cryovain]]         |
+| [[Die Eisnadelfestung]]                    |  6   |   6   | Finale Cryovain            | [[Cryovain]] vernichten                                   |
+| [[Die Wellenhallhöhle]]                    |  7   |   6   | Finale [[Schwarze Spinne]] | [[Schwarze Spinne]] aufhalten                             |
