@@ -23,16 +23,22 @@ Hände: 2
 Größe: 4
 Gewicht: 3 Pfund
 ---
+
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```
+
+> [!infobox]
+> ![[Stecken der Verteidigung.jpeg|250]]
 
 Der schlanke, hohle [[Zauberstecken]] besteht aus Glas, ist aber so robust wie Eichenholz. 
 Du musst auf den Stecken [[Einstimmung magischer Gegenstände|eingestimmt]] sein, um seine Vorteile zu nutzen und seine Zauber zu wirken.
 
 ## Rüstungsbonus
 Solange du den Stecken hältst, erhältst du [[Rüstungsbonus]] (+1).
-
+</br>
+</br>
+</br>
 ## Gespeicherte Zauber
 Der Stecken hat 10 Ladungen, die genutzt werden können, um die Zauber in seinem Inneren zu wirken.
 Es sind keine Komponenten notwendig.
