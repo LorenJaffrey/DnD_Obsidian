@@ -26,7 +26,7 @@ Sich gegen eine Kraft wehren, die dich physisch bewegen oder binden würde.
 Ausweichen, um Schaden zu vermeiden.
 
 ## Konstitutionsrettungswurf
-Eine Krankheit, ein Gift oder eine andere Gefahr ertragen, die deine Lebenskraft schwächt.
+Eine [[Krankheiten|Krankheit]], ein Gift oder eine andere Gefahr ertragen, die deine Lebenskraft schwächt.
 
 ## Intelligenzrettungswurf
 Bestimmte Illusionen durchschauen und mentalen Angriffen widerstehen, die mit Logik, scharfem Gedächtnis oder beidem widerlegt werden können.

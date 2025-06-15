@@ -1,3 +1,7 @@
+---
+aliases:
+  - Krankheit
+---
 # `=this.file.name`
 ```dataview
 TABLE WITHOUT ID

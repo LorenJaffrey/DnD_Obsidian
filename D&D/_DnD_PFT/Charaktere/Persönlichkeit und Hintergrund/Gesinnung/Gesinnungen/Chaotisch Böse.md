@@ -1,6 +1,6 @@
 ---
 tags:
-- Gesinnung
+  - Gesinnung
 ---
 # `=this.file.name`
 ## Beschreibung

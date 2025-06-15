@@ -19,10 +19,10 @@ An den Blatträndern bilden sich feine, nadelartige Auswüchse, die dem Gras ein
 Im Licht reflektieren die Blätter einen dezenten metallischen Glanz, der sie im Sonnenlicht oder Mondschein leicht erkennbar macht.
 
 ## Wirkung
-Das [[Mirazorn-Gras]] ist bekannt für seine starken heilenden Eigenschaften, die besonders bei der Bekämpfung von Krankheiten wirksam sind. 
-Der Verzehr der Blätter in roher Form oder als Tee zubereitet kann den Körper gegen verschiedene Krankheiten stärken und hilft dabei, Infektionen abzuwehren oder ihren Fortschritt zu verlangsamen. 
+Das [[Mirazorn-Gras]] ist bekannt für seine starken heilenden Eigenschaften, die besonders bei der Bekämpfung von [[Krankheiten]] wirksam sind. 
+Der Verzehr der Blätter in roher Form oder als Tee zubereitet kann den Körper gegen verschiedene [[Krankheiten]] stärken und hilft dabei, Infektionen abzuwehren oder ihren Fortschritt zu verlangsamen. 
 Es ist ein beliebtes Mittel unter Heilern, um den natürlichen Heilungsprozess zu unterstützen und den Körper zu stärken.
-Neben der Fähigkeit, Krankheiten zu verlangsamen, verleiht das verarbeitete [[Mirazorn-Gras]] auch eine temporäre Resistenz gegen zukünftige Infektionen. 
+Neben der Fähigkeit, [[Krankheiten]] zu verlangsamen, verleiht das verarbeitete [[Mirazorn-Gras]] auch eine temporäre Resistenz gegen zukünftige Infektionen. 
 
 ## Vorkommen
 [[Mirazorn-Gras]] wächst bevorzugt in den felsigen, windgepeitschten Regionen des Hochgebirges sowie in den trockenen Wüstengebieten. 

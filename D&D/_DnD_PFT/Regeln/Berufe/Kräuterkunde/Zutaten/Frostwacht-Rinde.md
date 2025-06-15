@@ -17,7 +17,7 @@ Sie besitzt eine harte, krustige Textur, die von feinen, frostigen Rissen durchz
 Die Oberfläche hat einen schimmernden Glanz, der im Sonnenlicht oder in schwachem Licht wie gefrorene Eiskristalle wirkt.
 
 ## Wirkung
-Die Frostwacht-Rinde verleiht dem Konsumenten temporären Schutz gegen eine Vielzahl von schädlichen Zuständen wie Gift, Krankheit und Betäubung. 
+Die Frostwacht-Rinde verleiht dem Konsumenten temporären Schutz gegen eine Vielzahl von schädlichen Zuständen wie Gift, [[Krankheiten|Krankheit]] und Betäubung. 
 Die Schutzwirkung hält etwa eine Stunde an und bietet einen starken Widerstand gegen diese Arten von Bedrohungen.
 
 ## Vorkommen

@@ -33,5 +33,9 @@ Typ: Heilung
 ```
 
 ## Beschreibung
-Du berührst eine Kreatur und beendest einen [[Zustände|Zustand]], unter dem sie leidet. 
-Mögliche [[Zustände]] sind [[Blind]], [[Gelähmt]], [[Taub]] oder [[Vergiftet]].
+Du berührst eine Kreatur und heilst damit eine [[Krankheiten|Krankheit]] oder beendest einen [[Zustände|Zustand]], unter dem sie leidet.
+Mögliche [[Zustände]] sind: 
+- [[Blind]]
+- [[Gelähmt]]
+- [[Taub]]
+- [[Vergiftet]].

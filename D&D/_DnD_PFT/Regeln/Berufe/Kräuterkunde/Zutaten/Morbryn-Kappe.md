@@ -19,10 +19,10 @@ Der Pilz hat einen kurzen, kräftigen Stiel, der von einer dunklen, fast schwarz
 Die Unterseite des Hutes ist von engen, cremefarbenen Lamellen durchzogen, die leicht leuchten, wenn sie im Dunkeln betrachtet werden.
 
 ## Wirkung
-Die [[Morbryn-Kappe]] ist bekannt für ihre heilenden Eigenschaften, insbesondere in Bezug auf Krankheiten. 
-Der Verzehr des Pilzes, roh oder als Sud, kann den Fortschritt vieler Krankheiten erheblich verlangsamen und dem Körper Zeit geben, sich selbst zu heilen. 
-Wird der Pilz verarbeitet, kann er sogar die vollständige Heilung von leichten bis mittelschweren Krankheiten bewirken. 
-Die [[Morbryn-Kappe]] wird oft in Gegenden geschätzt, in denen Seuchen oder ansteckende Krankheiten vorkommen, und wird sowohl von Heilern als auch von Druiden genutzt, um die Kranken zu behandeln.
+Die [[Morbryn-Kappe]] ist bekannt für ihre heilenden Eigenschaften, insbesondere in Bezug auf [[Krankheiten]]. 
+Der Verzehr des Pilzes, roh oder als Sud, kann den Fortschritt vieler [[Krankheiten]] erheblich verlangsamen und dem Körper Zeit geben, sich selbst zu heilen. 
+Wird der Pilz verarbeitet, kann er sogar die vollständige Heilung von leichten bis mittelschweren [[Krankheiten]] bewirken. 
+Die [[Morbryn-Kappe]] wird oft in Gegenden geschätzt, in denen Seuchen oder ansteckende [[Krankheiten]] vorkommen, und wird sowohl von Heilern als auch von Druiden genutzt, um die Kranken zu behandeln.
 
 ## Vorkommen
 Die [[Morbryn-Kappe]] wächst bevorzugt in den dunklen, feuchten Wäldern und in den tiefen, abgeschiedenen Bereichen des Unterreichs. 
