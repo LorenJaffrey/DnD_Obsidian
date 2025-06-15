@@ -182,7 +182,7 @@ sessionNotes: |
 >		Rückreise nach Phandalin: done, a2, after a1, 9h
 >		Ankunft in Phandalin: done, milestone, a3, after a2, 0h
 >		Belohnungen von Sildar kassiert: done, milestone, a4, after a3, 30m
->		Lucian lernt Ar'go in einer Kneipe kennen & tritt G.O.R.N bei: done, milestone, a5, after a3, 30m
+>		Lucian lernt [[Ar'go]] in einer Kneipe kennen & tritt G.O.R.N bei: done, milestone, a5, after a3, 30m
 >		Ein Bote/Späher erreicht Phandalin: done, milestone, a6, after a5, 20m
 >		Gruppe stockt Vorräte auf: done, a7, after a6, 1h
 >		Jon bekommt ein Feuerbegräbnis: done, milestone, a8, after a7, 1h

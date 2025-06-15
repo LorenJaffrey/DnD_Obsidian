@@ -334,7 +334,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>	**Verwendung**: 1x W10 + der Stufe des Kämpfers
 >>	**Erholung**: kurze oder langen Rast
 >>-  **[[Tatendrang]]**
->>	**Auswirkung**: Man kann nochmal im selben Zug  angreifen bzw. eine [[Aktion]] ausführen
+>>	**Auswirkung**: Man kann nochmal im selben Zug  angreifen bzw. eine Aktion ausführen
 >>	**Verwendung**: Kann 1 Mal verwendet werden
 >>	**Erholung**: kurze oder langen Rast
 >>- **[[Zusätzlicher Angriff]]**
@@ -352,7 +352,7 @@ Disclaimer: Waffen haben immer Übungsbonus...
 >>
 >>## Kurze Manöver Aktions-Beschreibung
 >>- **[[Schlag des Befehlshabers]]**
->>        **Auswirkung**: Eigene [[Aktion]] + Bonus [[Aktion]] verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
+>>        **Auswirkung**: Eigene Aktion + Bonus Aktion verwenden, damit verbündete Kreatur seine Reaktion opfert, um  mit einem Waffen-Angriff angreifen zu können + bekommt zusätzlich Schadensbonus (Wert des Überlegenheitswürfels)
 >>        **Verwendung**: Verbündete Kreatur muss mich sehen oder hören können
 >> 
 >>- **[[Fällender Angriff]]**

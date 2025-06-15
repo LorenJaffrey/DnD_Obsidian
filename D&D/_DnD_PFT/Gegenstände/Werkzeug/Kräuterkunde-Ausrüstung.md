@@ -19,7 +19,7 @@ Du kennst dich mit den Eigenschaften und Anwendungszwecken von Kräutern aus. Da
 Wenn du einen von Pflanzen überwucherten Bereich untersuchst, entdeckst du dank deiner Kenntnisse der Kräuterkunde vielleicht Einzelheiten und Hinweise, die andere übersehen hätten.
 
 ### [[Heilkunde]]
-Als Experte der Kräuterkunde wirst du besser darin, [[Krankheiten]] und Wunden zu heilen, da du medizinische Pflanzen bei der Behandlung einsetzt.
+Als Experte der Kräuterkunde wirst du besser darin, Krankheiten und Wunden zu heilen, da du medizinische Pflanzen bei der Behandlung einsetzt.
 
 ### [[Naturkunde]] und [[Überlebenskunst]]
 Wenn du durch die Wildnis reist, kannst du dank deiner Kenntnisse der Kräuterkunde leichter Pflanzen identifizieren und Nahrungsquellen ausfindig machen, die anderen vielleicht gar nicht auffallen würden.
