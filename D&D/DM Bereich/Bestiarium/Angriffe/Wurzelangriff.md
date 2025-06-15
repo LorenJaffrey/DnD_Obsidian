@@ -5,7 +5,7 @@ Reichweite: 9(6)
 Schaden: 2d6
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-
+  - "[[Finesse]]"
 SchadenFern: 
 SchadensartFern: 
 Range1: 

@@ -5,7 +5,7 @@ Reichweite: 1,5(1)
 Schaden: 2d8
 Schadensart: "[[Stichschaden]]"
 Eigenschaften:
-
+  - "[[Finesse]]"
 SchadenFern: 
 SchadensartFern: 
 Range1: 

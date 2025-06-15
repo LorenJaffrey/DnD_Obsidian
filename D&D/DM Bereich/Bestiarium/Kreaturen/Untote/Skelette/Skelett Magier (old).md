@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-- Kreatur/Untote/Skelette
+- Kreatur/Untot/Skelett
 ---
 ```statblock
 image: [[Skeleton_Mage.png]]

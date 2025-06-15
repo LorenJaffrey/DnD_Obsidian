@@ -5,6 +5,7 @@ Reichweite: 1,5(1)
 Schaden: 2d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
+  - "[[Finesse]]"
 SchadenFern: 
 SchadensartFern: 
 Range1: 

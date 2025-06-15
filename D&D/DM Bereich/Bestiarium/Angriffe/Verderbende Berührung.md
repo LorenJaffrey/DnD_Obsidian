@@ -2,10 +2,10 @@
 tags:
   - Angriff/Nahkampf
 Reichweite: 1,5(1)
-Schaden: 1d4
-Schadensart: "[[Stichschaden]]"
+Schaden: 3d6
+Schadensart: "[[Nekrotischer Schaden]]"
 Eigenschaften:
-  - "[[Finesse]]"
+  - "[[Magische Präzision]]"
 SchadenFern: 
 SchadensartFern: 
 Range1: 

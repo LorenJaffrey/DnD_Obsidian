@@ -2,7 +2,7 @@
 aliases:
   - Ockergallerten
 tags:
-  - Kreatur/Schlicke
+  - Kreatur/Schlick
 ---
 # `=this.file.name`
 Ockergallerten sind gelbliche Blobs, die unter Türen und durch schmale Spalten gleiten können, um Kreaturen zu verfolgen und zu verschlingen. Sie haben genug tierhafte Intelligenz, um große Gruppen von Gegnern zu meiden. Eine Ockergallerte folgt in sicherer Entfernung, während sie ihre Beute jagt.

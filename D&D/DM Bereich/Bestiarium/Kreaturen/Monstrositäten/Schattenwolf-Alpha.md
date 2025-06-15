@@ -75,7 +75,7 @@ Merkmale:
   - "[[Umwerfen]]"
   - "[[Schattenversteck]]"
   - "[[Schattenschritt]]"
-  - "[[Schreckliches Heulen]]"
+  - "[[Schreckliches Kreischen]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---

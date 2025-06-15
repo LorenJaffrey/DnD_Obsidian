@@ -29,8 +29,7 @@ Verteidigung:
     Schadensimmunität: 
     Zustandsimmunität:
 Angriff:
-  Angriffe:
-    - "[[Klauenhieb]]"
+  - "[[Klauenhieb]]"
 Attribute:
   Stärke: 17
   Geschicklichkeit: 11

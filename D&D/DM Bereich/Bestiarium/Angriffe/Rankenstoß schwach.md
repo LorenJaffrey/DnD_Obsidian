@@ -4,8 +4,8 @@ tags:
 Reichweite: 1,5(1)
 Schaden: 2d4
 Schadensart: "[[Wuchtschaden]]"
-Eigenschaften: "[[Magische Präzision]]"
-
+Eigenschaften: 
+  - "[[Magische Präzision]]"
 SchadenFern: 
 SchadensartFern: 
 Range1: 

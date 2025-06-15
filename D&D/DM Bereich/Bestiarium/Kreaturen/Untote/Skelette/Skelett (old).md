@@ -2,7 +2,7 @@
 aliases: 
 - Skelette
 tags:
-- Kreatur/Untote/Skelette
+- Kreatur/Untot/Skelett
 ---
 ```statblock
 image: [[Wikilink To Image]]
