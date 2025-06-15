@@ -4,6 +4,9 @@ cssclass: slrvb-b, dvl-o, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, ta
 
 # Ritualbuch - Drachenkult des Sturmdrachen
 
+> [!infobox]
+> ![[Ritualbuch - Drachenkult des Sturmdrachen.jpeg|250]]
+
 ### Kapitel 1: Der Tempestus-Kristall – Ursprung und Bedeutung
 
 > [!column | no-title]
