@@ -13,10 +13,10 @@
     {
       "type": "tag",
       "name": "",
-      "value": "Kreatur",
+      "value": "Gegenstand",
       "matchCaseSensitive": false,
       "match": "exact",
-      "uid": "92f7-35e3",
+      "uid": "2cf1-6324",
       "selectText": true,
       "selectAppend": false,
       "selectPrepend": true,
@@ -45,6 +45,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Kreatur",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "92f7-35e3",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     },
     {
       "type": "tag",
@@ -153,6 +165,78 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Zustand",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "3491-74f3",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Schadensart",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2def-e229",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Beruf/Kräuterkunde/Zutat",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a289-aaa8",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Angriff/Nahkampf",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "dfe1-7209",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Gesinnung",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "e14a-240b",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Gegenstand/Magischer_Gegenstand",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "13fd-7d47",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }
