@@ -5,7 +5,7 @@ cssclass: slrvb-b, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion
 Summen:
   Rucksack: 47.6
   Behälter: 0
-  Körper: 12.1
+  Körper: 13.6
 Inventar:
   Körper:
     count1: 2
@@ -22,7 +22,7 @@ Inventar:
     gewicht6: 1
     count7: 12
     gewicht7: 0.05
-    count8: 1
+    count8: 2
     gewicht8: 0.5
     count9: 0
     gewicht9: 0
@@ -80,7 +80,7 @@ Inventar:
     gewicht4: 1
     count5: 1
     gewicht5: 1
-    count6: 16
+    count6: 14
     gewicht6: 1
     count7: 1
     gewicht7: 0
@@ -106,9 +106,9 @@ Inventar:
     gewicht17: 0
 Geld:
   PM: 0
-  GM: 0
-  EM: 0
-  SM: 29
+  GM: 27
+  EM: 50
+  SM: 73
   KM: 23
 ---
 
@@ -138,15 +138,15 @@ Geld:
 >> | Gegenstand                                  |                 Anzahl                 |                 Gewicht                  |                             Gesamt                             |
 >> | ------------------------------------------- |:--------------------------------------:|:----------------------------------------:|:--------------------------------------------------------------:|
 >> | [[Dolch]]                                   | `INPUT[number:Inventar.Körper.count1]` | `INPUT[number:Inventar.Körper.gewicht1]` | `=round(this.Inventar.Körper.count1 * this.Inventar.Körper.gewicht1, 2)` |
->> | [[Kampfstab]]  + <br/> [[Tempestuskristall - Fragment des Donners]]   | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
+>> | [[Kampfstab mit Tempestuskristall]]   | `INPUT[number:Inventar.Körper.count2]` | `INPUT[number:Inventar.Körper.gewicht2]` | `=round(this.Inventar.Körper.count2 * this.Inventar.Körper.gewicht2, 2)` |
 >> | [[Arkaner Fokus]] - Kristall                | `INPUT[number:Inventar.Körper.count3]` | `INPUT[number:Inventar.Körper.gewicht3]` | `=round(this.Inventar.Körper.count3 * this.Inventar.Körper.gewicht3, 2)` |
 >> | Gewöhnliche Kleidung                        | `INPUT[number:Inventar.Körper.count4]` | `INPUT[number:Inventar.Körper.gewicht4]` | `=round(this.Inventar.Körper.count4 * this.Inventar.Körper.gewicht4, 2)` |
 >> | Kultisten-Amulett <br/>(Symbol des Sturmdrachen) | `INPUT[number:Inventar.Körper.count5]` | `INPUT[number:Inventar.Körper.gewicht5]` | `=round(this.Inventar.Körper.count5 * this.Inventar.Körper.gewicht5, 2)` |
 >> | [[Leichte Armbrust]]                        | `INPUT[number:Inventar.Körper.count6]` | `INPUT[number:Inventar.Körper.gewicht6]` | `=round(this.Inventar.Körper.count6 * this.Inventar.Körper.gewicht6, 2)` |
 >> | Köcher mit Bolzen                           | `INPUT[number:Inventar.Körper.count7]` | `INPUT[number:Inventar.Körper.gewicht7]` | `=round(this.Inventar.Körper.count7 * this.Inventar.Körper.gewicht7, 2)` |
 >> | [[Heiltrank]]                                        | `INPUT[number:Inventar.Körper.count8]` | `INPUT[number:Inventar.Körper.gewicht8]` | `=round(this.Inventar.Körper.count8 * this.Inventar.Körper.gewicht8, 2)` |
->> |                                                                    | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
->> |                                                                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
+>> |   [[Goblin-König-Kopf mit Krone (Groll).jpeg]] </br>- Sildar gegeben | `INPUT[number:Inventar.Körper.count9]` | `INPUT[number:Inventar.Körper.gewicht9]` | `=round(this.Inventar.Körper.count9 * this.Inventar.Körper.gewicht9, 2)` |
+>> |                    | `INPUT[number:Inventar.Körper.count10]` | `INPUT[number:Inventar.Körper.gewicht10]` | `=round(this.Inventar.Körper.count10 * this.Inventar.Körper.gewicht10, 2)` |
 >> |                                                                    | `INPUT[number:Inventar.Körper.count11]` | `INPUT[number:Inventar.Körper.gewicht11]` | `=round(this.Inventar.Körper.count11 * this.Inventar.Körper.gewicht11, 2)` |
 >> | **GESAMT**                                  |                                        |                                          |                     `=this.Summen.Körper`                      |
 >

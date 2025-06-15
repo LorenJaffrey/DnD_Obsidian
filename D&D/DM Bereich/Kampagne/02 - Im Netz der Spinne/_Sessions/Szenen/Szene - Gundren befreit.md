@@ -4,7 +4,7 @@
 
 ## 🎭 **Szenenbeginn: Was vom Zwerg übrig blieb**
 
-> [!quote] 
+> [!info] Flavour Text
 > Das Echo eurer Schritte verhallt in den alten Steinfluren von Burg Cragmaw. 
 > Rauch hängt noch schwer in der Luft, der stechende Geruch von Blut, Schweiß und kalter Angst liegt wie ein Schleier über den Gemäuern.
 > Gundren Felssucher sitzt auf dem Boden vor euch. Magische Heilung hat sein Leben gerettet – doch sie kann nicht ungeschehen machen, was ihm angetan wurde.

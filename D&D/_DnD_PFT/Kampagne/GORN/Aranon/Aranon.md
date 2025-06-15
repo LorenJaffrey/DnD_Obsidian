@@ -140,7 +140,7 @@ InputData:
   TiergestaltLadung1: false
   TiergestaltLadung2: false
   GeistertotemLadung: false
-  NebelschrittLadung: true
+  NebelschrittLadung: false
   IdentifizierenLadung: false
   Stresslevel1: false
   Stresslevel2: false
@@ -149,14 +149,14 @@ InputData:
   Stresslevel5: false
   Zauberplätze:
     Grad_1: 4
-    Grad_2: 1
-    Grad_3: 0
-    Grad_4: 0
-    Grad_5: 0
-    Grad_6: 0
-    Grad_7: 0
-    Grad_8: 0
-    Grad_9: 0
+    Grad_2: 3
+    Grad_3: 2
+    Grad_4: 
+    Grad_5: 
+    Grad_6: 
+    Grad_7: 
+    Grad_8: 
+    Grad_9: 
 tags:
   - Charakter/GORN
 ---

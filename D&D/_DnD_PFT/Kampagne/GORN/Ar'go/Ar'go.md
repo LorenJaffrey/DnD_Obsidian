@@ -14,12 +14,12 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
-  - "[[Kampfstab]]"
+  - "[[Kampfstab mit Tempestuskristall]]"
   - "[[Dolch]]"
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 30
+  TP: 39
   TW: 5
   TempTP: 0
 Attribute:
@@ -120,7 +120,7 @@ Zauber:
   - "[[Nebelschritt]]"
   - "[[Spiegelbilder]]"
   - "[[Blitz]]"
-  - "[[Zauber/Zaubersprüche/Fliegen]]"
+  - "[[Magisches Fliegen]]"
   - "[[Blitze herbeirufen]]"
 InputData:
   GlücksPunkt1: true
@@ -134,15 +134,15 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  NormaleRüstung: false
+  NormaleRüstung: true
   MagierRüstung: true
-  BlitzOdem: 2
-  Klingenbann: true
-  Zaubereipunkte: 3
+  BlitzOdem: 3
+  Klingenbann: false
+  Zaubereipunkte: 5
   Zauberplätze:
     Grad_1: 3
-    Grad_2: 1
-    Grad_3: 1
+    Grad_2: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -172,12 +172,12 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 1
-  IntuitiveZaubereiAktiv: true
+  IntuitiveZaubereiLadungen: 2
+  IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
-  DrakonischerFlugLadungen: 1
-  SpiegelbilderLadungen: 2
-  SpiegelbilderAktiv: true
+  DrakonischerFlugLadungen: 0
+  SpiegelbilderLadungen: 3
+  SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
 ---
