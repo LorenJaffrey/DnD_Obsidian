@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Poison Spray
-tags: 
+tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
 Grad: 0
@@ -29,7 +29,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
-Typ: Angriff
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

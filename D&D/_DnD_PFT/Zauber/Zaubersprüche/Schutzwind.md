@@ -20,6 +20,7 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
+Typ: "[[Defensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

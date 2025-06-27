@@ -20,6 +20,7 @@ Schadensart:
 Ziel:
 Klassen:
   - "[[Magier]]"
+Typ: "[[Unterstützung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

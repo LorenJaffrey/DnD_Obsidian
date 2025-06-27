@@ -18,6 +18,7 @@ Schaden:
 Schadensart:
 Ziel: 
 Klassen:
+Typ: "[[Positionskontrolle]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

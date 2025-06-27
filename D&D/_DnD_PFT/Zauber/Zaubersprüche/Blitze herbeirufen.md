@@ -16,11 +16,11 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 3d10
-Schadensart: "[[Blitzschaden]]" 
+Schadensart: "[[Blitzschaden]]"
 Ziel: AoE
 Rettungswurf: "[[Geschicklichkeit|GES]]"
 Klassen:
-Typ: Angriff
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

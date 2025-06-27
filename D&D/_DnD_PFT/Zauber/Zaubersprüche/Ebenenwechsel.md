@@ -18,6 +18,7 @@ Schaden:
 Schadensart:
 Ziel: 
 Klassen:
+Typ: "[[Fortbewegung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -15,11 +15,11 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 8d6
-Schadensart: "[[Blitzschaden]]" 
+Schadensart: "[[Blitzschaden]]"
 Ziel: Linie
 Rettungswurf: "[[Geschicklichkeit|GES]]"
-Klassen:
-Typ: Angriff
+Klassen: 
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

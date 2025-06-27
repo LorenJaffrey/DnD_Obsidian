@@ -27,6 +27,7 @@ Klassen:
   - "[[Waldläufer]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
+Typ: "[[Analyse]]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

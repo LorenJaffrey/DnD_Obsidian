@@ -23,6 +23,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

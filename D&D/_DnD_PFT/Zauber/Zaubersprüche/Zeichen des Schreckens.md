@@ -20,6 +20,7 @@ Schadensart:
 Ziel: Einzel
 Klassen:
 - "[[Hexenmeister]]"
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

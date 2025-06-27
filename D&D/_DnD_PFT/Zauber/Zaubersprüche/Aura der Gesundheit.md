@@ -22,6 +22,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
+Typ: "[[Heilung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

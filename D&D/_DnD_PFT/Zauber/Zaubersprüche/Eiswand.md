@@ -18,6 +18,7 @@ Schaden: 10d6
 Schadensart: "[[Kälteschaden]]"
 Ziel: AoE
 Klassen:
+Typ: "[[Positionskontrolle]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

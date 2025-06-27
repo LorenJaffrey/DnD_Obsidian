@@ -27,7 +27,7 @@ Klassen:
   - "[[Zauberer]]"
   - "[[Hexenmeister]]"
   - "[[Magier]]"
-Typ: Debuff
+Typ: "[[Debuff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

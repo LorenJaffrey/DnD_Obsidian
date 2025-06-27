@@ -18,6 +18,7 @@ Schaden:
 Schadensart: 
 Ziel: 
 Klassen:
+Typ: "[[Debuff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

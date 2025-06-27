@@ -25,6 +25,7 @@ Klassen:
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
   - "[[Magier]]"
+Typ: "[[Buff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

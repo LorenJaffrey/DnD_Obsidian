@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Thunderwave
-tags: 
+tags:
   - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
@@ -24,7 +24,7 @@ Klassen:
   - "[[Druide]]"
   - "[[Magier]]"
   - "[[Zauberer]]"
-Typ: Angriff
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

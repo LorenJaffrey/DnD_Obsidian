@@ -24,6 +24,7 @@ Ziel: AoE
 Klassen:
   - "[[Druide]]"
   - "[[Magieschmied]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

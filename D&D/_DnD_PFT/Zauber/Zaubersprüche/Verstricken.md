@@ -21,6 +21,7 @@ Ziel: AoE
 Klassen:
   - "[[Druide]]"
   - "[[Waldläufer]]"
+Typ: "[[Positionskontrolle]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

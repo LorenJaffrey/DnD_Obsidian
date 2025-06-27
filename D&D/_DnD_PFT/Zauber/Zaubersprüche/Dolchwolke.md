@@ -15,9 +15,10 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 4d4
-Schadensart: "[[Hiebschaden]]" 
+Schadensart: "[[Hiebschaden]]"
 Ziel: AoE
 Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

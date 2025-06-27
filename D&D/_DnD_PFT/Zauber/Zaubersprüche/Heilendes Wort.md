@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Healing Word
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 1
@@ -23,7 +23,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Druide]]"
   - "[[Kleriker]]"
-Typ: Heilung
+Typ: "[[Heilung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

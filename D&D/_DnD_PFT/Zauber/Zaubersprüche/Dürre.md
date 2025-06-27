@@ -18,6 +18,7 @@ Schaden: 8d8
 Schadensart: "[[Nekrotischer Schaden]]"
 Ziel: 
 Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

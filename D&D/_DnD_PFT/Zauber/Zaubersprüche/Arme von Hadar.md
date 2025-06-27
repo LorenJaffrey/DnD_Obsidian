@@ -19,8 +19,9 @@ Schaden: 2d6
 Schadensart: "[[Nekrotischer Schaden]]"
 Rettungswurf: "[[Stärke|STK]]"
 Ziel: AoE
-Klassen: 
+Klassen:
   - "[[Hexenmeister]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

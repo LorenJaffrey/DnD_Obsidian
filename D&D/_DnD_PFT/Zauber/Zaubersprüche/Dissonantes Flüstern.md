@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags:
   - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
@@ -18,6 +18,7 @@ Schaden: 3d6
 Schadensart: "[[Psychischer Schaden]]"
 Ziel:
 Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -20,6 +20,7 @@ Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
+Typ: "[[Alltagsmagie]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

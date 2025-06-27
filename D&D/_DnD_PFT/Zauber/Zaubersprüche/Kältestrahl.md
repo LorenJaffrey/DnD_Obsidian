@@ -23,6 +23,7 @@ Schadensart: "[[Kälteschaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

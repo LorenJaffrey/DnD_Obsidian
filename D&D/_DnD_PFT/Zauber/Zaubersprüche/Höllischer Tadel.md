@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Hellish Rebuke
-tags: 
+tags:
   - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
@@ -21,6 +21,7 @@ Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

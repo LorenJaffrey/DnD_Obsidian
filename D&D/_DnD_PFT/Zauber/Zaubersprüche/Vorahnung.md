@@ -19,6 +19,7 @@ Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Kleriker]]"
+Typ: "[[Analyse]]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

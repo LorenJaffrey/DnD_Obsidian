@@ -19,6 +19,7 @@ Schaden:
 Schadensart: 
 Ziel: 
 Klassen:
+Typ: "[[Unterstützung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

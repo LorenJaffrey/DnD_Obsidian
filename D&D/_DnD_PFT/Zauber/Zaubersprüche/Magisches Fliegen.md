@@ -1,5 +1,5 @@
 ---
-aliases:
+aliases: 
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
@@ -18,8 +18,8 @@ Skalierbar: true
 Schaden: 
 Schadensart: 
 Ziel: 
-Klassen:
-Typ: Fortbewegung
+Klassen: 
+Typ: "[[Fortbewegung]]"
 ---
 
 ``` dynamic-embed

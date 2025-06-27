@@ -15,9 +15,10 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 1d10
-Schadensart: "[[Stichschaden]]" 
+Schadensart: "[[Stichschaden]]"
 Ziel: AoE
 Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

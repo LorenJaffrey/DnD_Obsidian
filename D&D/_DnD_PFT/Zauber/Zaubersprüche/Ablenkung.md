@@ -19,6 +19,7 @@ Schaden:
 Schadensart: 
 Ziel: Einzel
 Klassen:
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

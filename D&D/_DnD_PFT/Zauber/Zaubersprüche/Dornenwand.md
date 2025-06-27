@@ -18,6 +18,7 @@ Schaden: 7d8
 Schadensart: "[[Hiebschaden]]" 
 Ziel: AoE
 Klassen:
+Typ: "[[Positionskontrolle]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

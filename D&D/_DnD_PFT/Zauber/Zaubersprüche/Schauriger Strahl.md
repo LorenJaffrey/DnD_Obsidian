@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
   - Eldritch Blast
 tags:
   - Zauber/Offensiv
@@ -20,6 +20,7 @@ Schadensart: "[[Energieschaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

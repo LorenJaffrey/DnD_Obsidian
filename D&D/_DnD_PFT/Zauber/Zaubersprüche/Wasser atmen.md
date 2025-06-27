@@ -18,6 +18,7 @@ Schaden:
 Schadensart: 
 Ziel: 
 Klassen:
+Typ: "[[Buff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -20,6 +20,7 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
+Typ: "[[Positionskontrolle]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

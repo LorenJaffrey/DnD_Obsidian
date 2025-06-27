@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 0
@@ -22,7 +22,7 @@ Klassen:
   - "[[Zauberer]]"
   - "[[Druide]]"
   - "[[Magier]]"
-Typ: Alltagsmagie
+Typ: "[[Alltagsmagie]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

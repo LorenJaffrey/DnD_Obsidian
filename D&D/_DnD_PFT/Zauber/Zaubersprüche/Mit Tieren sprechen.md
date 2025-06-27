@@ -18,12 +18,12 @@ Ritual: true
 Skalierbar: false
 Schaden: 
 Schadensart: 
-Ziel:
+Ziel: 
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"
   - "[[Waldläufer]]"
-Typ: Beeinflussung
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

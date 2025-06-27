@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Identify
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 1
@@ -23,7 +23,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Magier]]"
   - "[[Magieschmied]]"
-Typ: Analyse
+Typ: "[[Analyse]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Druidcraft
-tags: 
+tags:
   - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
@@ -20,7 +20,7 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Druide]]"
-Typ: Alltagsmagie
+Typ: "[[Alltagsmagie]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

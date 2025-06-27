@@ -18,8 +18,8 @@ Skalierbar: false
 Schaden: 
 Schadensart: 
 Ziel: 
-Klassen:
-Typ: Beeinflussung
+Klassen: 
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -21,6 +21,7 @@ Ziel:
 Klassen:
   - "[[Barde]]"
   - "[[Kleriker]]"
+Typ: "[[Debuff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

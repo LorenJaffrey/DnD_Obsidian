@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 0
@@ -22,7 +22,7 @@ Schadensart: "[[Energieschaden]]"
 Ziel: Selbst
 Klassen:
   - "[[Druide]]"
-Typ: Buff
+Typ: "[[Buff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Produce Flame
-tags: 
+tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
 Grad: 0
@@ -20,10 +20,11 @@ Schaden: 1d8
 SchadenLv5: 2d8
 SchadenLv11: 3d8
 SchadenLv17: 4d8
-Schadensart: "[[Feuerschaden]]" 
+Schadensart: "[[Feuerschaden]]"
 Ziel: Einzeln
 Klassen:
   - "[[Druide]]"
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

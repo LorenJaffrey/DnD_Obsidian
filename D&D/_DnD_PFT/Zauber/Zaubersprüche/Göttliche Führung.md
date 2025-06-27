@@ -22,6 +22,7 @@ Klassen:
   - "[[Magieschmied]]"
   - "[[Kleriker]]"
   - "[[Druide]]"
+Typ: "[[Buff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

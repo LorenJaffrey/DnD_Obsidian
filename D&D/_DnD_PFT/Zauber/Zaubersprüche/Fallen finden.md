@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags:
   - Zauber
 Grad: 2
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
@@ -21,7 +21,7 @@ Klassen:
   - "[[Druide]]"
   - "[[Kleriker]]"
   - "[[Waldläufer]]"
-Typ: Analyse
+Typ: "[[Analyse]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

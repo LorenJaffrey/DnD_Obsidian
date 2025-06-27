@@ -18,6 +18,7 @@ Ritual: false
 Skalierbar: false
 Klassen:
   - "[[Kleriker]]"
+Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

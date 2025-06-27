@@ -18,6 +18,7 @@ Schaden: 2d6
 Schadensart: "[[Gleißender Schaden]]"
 Ziel: Einzel
 Klassen:
+Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]
