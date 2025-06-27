@@ -233,7 +233,7 @@ Zauberplätze:
     Grad8: 1
     Grad9: 1
 Tiergestalt:
-  Stufe1:
+  Stufe1: 0
   Stufe2: 2
   Stufe3: 2
   Stufe4: 2

@@ -3,6 +3,8 @@ tags:
   - Regeln/PHB2024
 aliases:
   - Schadensart
+tags:
+  - Schadensart
 ---
 # `=this.file.name`
 

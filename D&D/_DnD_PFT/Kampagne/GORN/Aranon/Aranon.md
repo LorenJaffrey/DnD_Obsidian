@@ -225,7 +225,7 @@ tags:
 ```
 
 ## Magie
->[!column | 2 no-title]
+>[!column | 2 no-title flex]
 >> #### Zauberparameter
 >>| | |
 >>| --- | --- |

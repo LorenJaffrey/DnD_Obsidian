@@ -1,3 +1,9 @@
+---
+tags:
+  - Schadensart
+Zustand: 
+---
+
 # `=this.file.name`
 
 | W8  | Schadensart             |
