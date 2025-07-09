@@ -23,7 +23,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Druide]]"
   - "[[Waldläufer]]"
-Typ: "[[Beeinflussung]]"
+Typ: "[[Beeinflussung|Geist]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -20,7 +20,7 @@ Schadensart: "[[Energieschaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Hexenmeister]]"
-Typ: "[[Offensivzauber]]"
+Typ: "[[Offensivzauber|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

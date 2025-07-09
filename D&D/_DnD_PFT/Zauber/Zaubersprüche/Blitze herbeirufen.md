@@ -20,7 +20,7 @@ Schadensart: "[[Blitzschaden]]"
 Ziel: AoE
 Rettungswurf: "[[Geschicklichkeit|GES]]"
 Klassen:
-Typ: "[[Offensivzauber]]"
+Typ: "[[Offensivzauber|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

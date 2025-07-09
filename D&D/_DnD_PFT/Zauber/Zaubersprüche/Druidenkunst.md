@@ -20,7 +20,7 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Druide]]"
-Typ: "[[Alltagsmagie]]"
+Typ: "[[Alltagsmagie|Trick]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -20,7 +20,7 @@ Schadensart: "[[Hiebschaden]]"
 Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: Einzel
 Klassen:
-Typ: "[[Unterstützung]]"
+Typ: "[[Unterstützung|Support]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

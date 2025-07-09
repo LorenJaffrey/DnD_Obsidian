@@ -29,7 +29,7 @@ Klassen:
   - "[[Magier]]"
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
-Typ: "[[Offensivzauber]]"
+Typ: "[[Offensivzauber|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

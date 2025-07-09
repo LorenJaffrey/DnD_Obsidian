@@ -21,7 +21,7 @@ Schadensart: "[[Blitzschaden]]"
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
-Typ: "[[Offensivzauber]]"
+Typ: "[[Offensivzauber|Angriff]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

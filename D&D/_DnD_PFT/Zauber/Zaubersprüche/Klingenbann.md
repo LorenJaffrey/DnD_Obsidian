@@ -21,7 +21,7 @@ Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"
-Typ: "[[Defensivzauber]]"
+Typ: "[[Defensivzauber|Abwehr]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

@@ -314,13 +314,13 @@ tags:
 >>> 
 >>>| Typ | Aktiv | Verfügbar | Max. Verfügbar | Fähigkeit |Zeitaufwand | Dauer | Schadensart | Schaden | Ziel | Reichweite | [[Schwierigkeitsgrad\|SG]] | [[Rettungswurf\|RW]] | Erholung  |
 >>>| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
->>>| [[_DnD_PFT/Zauber/Zaubertypen/Offensivzauber\|Angriff]] | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Drakonische Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>[[Kegel]]: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
+>>>| [[Offensivzauber\|Angriff]] | - | `INPUT[number():InputData.BlitzOdem]` | `=ceil(this.Stufe/4)+1` | [[Drakonische Odemwaffe\|Blitz-Odem]] | [[Aktion]] | - | [[Blitzschaden]]| `$="```dice: " + (dv.current().Stufe < 5 ? "1d10" : dv.current().Stufe < 11 ? "2d10" : dv.current().Stufe < 17 ? "3d10" : "4d10") + " \|none\|noform\```"` | AoE | Linie: 9 m<br/>[[Kegel]]: 4.5 m | `=8+floor(((this.Attribute.Konstitution)-10)/2)+ceil(this.Stufe/4)+1` | [[Geschicklichkeit\|GES]] | [[Lange Rast]] |
 >>>| [[Buff]] | `INPUT[toggle:InputData.IntuitiveZaubereiAktiv]` | `INPUT[number():InputData.IntuitiveZaubereiLadungen]`| 2 | [[Intuitive Zauberei]]| [[Bonusaktion]] | 1 Minute | - | - | Selbst | - | - | - | [[Lange Rast]] |
->>>| [[Fortbewegung]] | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
+>>>| [[Fortbewegung\|Move]] | `INPUT[toggle:InputData.DrakonischerFlugAktiv]`| `INPUT[number():InputData.DrakonischerFlugLadungen]` | 1 | [[Drakonischer Flug]] | [[Bonusaktion]] | 10 Minuten | - | - | Selbst | - | -| -| [[Lange Rast]] |
 >>>| [[Positionskontrolle\|POS-Ctrl]] | - | `INPUT[number():InputData.DruckwelleLadungen]` | 1 | [[Tempestuskristall - Fragment des Donners\|Druckwelle]] | [[Bonusaktion]] | - | [[Schallschaden]] | -  | AoE | Radius 3 m ( 2 Kästchen ) | `=8+ceil((this.Stufe/4)+1)+floor(((this.Attribute.Charisma)-10)/2)` | [[Stärke\|STA]] | [[Kurze Rast]], </br>[[Lange Rast]] |
->>>| [[Defensivzauber\|Verteidigung]] | `INPUT[toggle:InputData.Klingenbann]` | - | - | [[Klingenbann]] | [[Aktion]] | 1 Minute | - | - `dice:1d4` <br/>(Angriffswurf des Gegners)  | Selbst | - | -  | - | - |
->>>| [[Defensivzauber\|Verteidigung]] | `INPUT[toggle:InputData.MagierRüstung]` | - | - | [[Magierrüstung]] | [[Aktion]] | 8 Stunden | - | -  | Selbst | - | -  | - | - |
->>>| [[Defensivzauber\|Verteidigung]] | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
+>>>| [[Defensivzauber\|Abwehr]] | `INPUT[toggle:InputData.Klingenbann]` | - | - | [[Klingenbann]] | [[Aktion]] | 1 Minute | - | - `dice:1d4` <br/>(Angriffswurf des Gegners)  | Selbst | - | -  | - | - |
+>>>| [[Defensivzauber\|Abwehr]] | `INPUT[toggle:InputData.MagierRüstung]` | - | - | [[Magierrüstung]] | [[Aktion]] | 8 Stunden | - | -  | Selbst | - | -  | - | - |
+>>>| [[Defensivzauber\|Abwehr]] | `INPUT[toggle:InputData.SpiegelbilderAktiv]` | `INPUT[number():InputData.SpiegelbilderLadungen]` | 3 | [[Spiegelbilder]] | [[Aktion]] | 1 Minute | - | -  | Selbst | - | -  | `dice:1d6`</br> `dice:1d6`</br> `dice:1d6` | - |
 >>> 
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberspruch Übersicht]]

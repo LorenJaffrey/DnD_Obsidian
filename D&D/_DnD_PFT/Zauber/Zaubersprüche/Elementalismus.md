@@ -22,7 +22,7 @@ Klassen:
   - "[[Zauberer]]"
   - "[[Druide]]"
   - "[[Magier]]"
-Typ: "[[Alltagsmagie]]"
+Typ: "[[Alltagsmagie|Trick]]"
 ---
 ``` dynamic-embed
 [[embed Zauber]]

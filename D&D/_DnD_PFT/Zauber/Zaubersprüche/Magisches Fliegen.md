@@ -19,7 +19,7 @@ Schaden:
 Schadensart: 
 Ziel: 
 Klassen: 
-Typ: "[[Fortbewegung]]"
+Typ: "[[Fortbewegung|Move]]"
 ---
 
 ``` dynamic-embed
