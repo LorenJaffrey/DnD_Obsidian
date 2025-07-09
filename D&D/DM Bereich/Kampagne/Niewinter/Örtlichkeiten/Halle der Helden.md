@@ -15,7 +15,7 @@ mapmarker: Gilde
 >Sie empfängt Besucher mit großen eisernen Toren, die das geschmiedeten Wappen der [[Abenteurergilde]] - ein stilisiertes Schwert und eine Feder - tragen, die den Geist des Mutes und der Weisheit symbolisieren.
 
 ## Räume
-- [ ] Räume ergänzen [priority:: low]
+- [ ] Räume ergänzen  [priority:: lowest]
 
 - Keller
 	- Verließ

@@ -1,24 +1,24 @@
 # `=this.file.name`
 
 ## [[Niewinter]]
-- [ ]  Händler für Schriftrollen und Bedarf [priority:: low]
-- [ ] Holzverarbeiter [priority:: low]
-- [ ] Badehaus [priority:: low]
-- [ ] andere NPCs [priority:: low]
-- [ ] Wäscherei/Geldwäsche [priority:: low]
+- [ ] Händler für Schriftrollen und Bedarf  [priority:: lowest]
+- [ ] Holzverarbeiter  [priority:: lowest]
+- [ ] Badehaus  [priority:: lowest]
+- [ ] andere NPCs  [priority:: lowest]
+- [ ] Wäscherei/Geldwäsche  [priority:: lowest]
 
 ## [[Schwarzwasserdistrikt]]
-- [ ] Tempel von Lathander [priority:: low]
-- [ ] Sternenlicht Akademie (Schule für Kunst und Gartenbau) [priority:: low] 
-- [ ] Dannar's Mechanische Wunder (Laden für mechanische Apparaturen und Material) [priority:: low]
-- [ ] Xandar's Waffen [priority:: low]
+- [ ] Tempel von Lathander  [priority:: lowest]
+- [ ] Sternenlicht Akademie (Schule für Kunst und Gartenbau)  [priority:: lowest]
+- [ ] Dannar's Mechanische Wunder (Laden für mechanische Apparaturen und Material)  [priority:: lowest]
+- [ ] Xandar's Waffen  [priority:: lowest]
 
 ## [[Protektor Enklave]]
-- [ ] Sage's Supply Shack [priority:: low]
+- [ ] Sage's Supply Shack  [priority:: lowest]
 
 ## [[Turmdistrikt]]
-- [ ] Trinket, Tomes and Treasures [priority:: low]
+- [ ] Trinket, Tomes and Treasures  [priority:: lowest]
 
 ## [[Kluftdistrikt]]
-- [ ] Never Ferry [priority:: low]
+- [ ] Never Ferry  [priority:: lowest]
 
