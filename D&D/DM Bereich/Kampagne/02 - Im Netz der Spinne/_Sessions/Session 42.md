@@ -10,11 +10,6 @@ date: 2025-06-15
 ## Organisatorisches
 
 ## TODO
-- [ ] Session vorbereiten
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-- [x] Neue [[Apparaturen|Apparatur]] für Niptac ähnlich [[Halluzinogene]]  [priority:: highest]
-- [ ] Rätsel zur Öffnung der Geheimkammer
-- [ ] Rätsel für Codewort
 
 ## Recap
 - [[Drow]] sind mit [[Gundren Felssucher|Gundren]] (eigentlich schwarze Spinne in Verkleidung) aufgetaucht

@@ -80,7 +80,7 @@ Merkmale:
   - "[[Angst vor Sonnenlicht]]"
   - "[[Schreckliches Heulen|Ghulkreischen]]"
   - "[[Mehrfachangriff Ghul Brut]]"
-  - "[[Infektiös (Ghulfieber]]"
+  - "[[Infektiös (Ghulfieber)]]"
 Anzahl_Legendäre_Aktionen: 
 Legendäre_Aktionen: 
 ---

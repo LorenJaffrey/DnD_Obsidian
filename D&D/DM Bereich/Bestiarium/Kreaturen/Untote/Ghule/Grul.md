@@ -81,7 +81,7 @@ Merkmale:
   - "[[Angst vor Sonnenlicht]]"
   - "[[Schreckliches Kreischen|Grulkreischen]]"
   - "[[Mehrfachangriff Ghul Brut]]"
-  - "[[Infektiös (Ghulfieber]]"
+  - "[[Infektiös (Ghulfieber)]]"
   - "[[Unheilige Regeneration]]"
   - "[[In die Ecke getrieben]]"
   - "[[Unsterbliche Widerstandskraft]]"

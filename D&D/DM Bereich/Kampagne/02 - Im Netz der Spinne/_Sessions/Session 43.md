@@ -8,6 +8,7 @@ date: 2025-06-15
 - [[Erschöpft|Erschöpfung]]
 
 ## Organisatorisches
+- [[Gnomisches Halluzinogenfläschchen]]
 
 ## TODO
 - [x] Session vorbereiten
