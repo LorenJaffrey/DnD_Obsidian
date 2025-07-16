@@ -19,7 +19,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 38
+  TP: 1
   TW: 5
   TempTP: 0
 Attribute:
@@ -131,11 +131,11 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 0
-  Erschöpfung1: false
-  Erschöpfung2: false
-  Erschöpfung3: false
-  Erschöpfung4: false
+  ErschöpfungsPunkte: 4
+  Erschöpfung1: true
+  Erschöpfung2: true
+  Erschöpfung3: true
+  Erschöpfung4: true
   Erschöpfung5: false
   TiergestaltLadung1: false
   TiergestaltLadung2: false
@@ -148,9 +148,9 @@ InputData:
   Stresslevel4: false
   Stresslevel5: false
   Zauberplätze:
-    Grad_1: 4
-    Grad_2: 3
-    Grad_3: 2
+    Grad_1: 3
+    Grad_2: 0
+    Grad_3: 0
     Grad_4: 
     Grad_5: 
     Grad_6: 

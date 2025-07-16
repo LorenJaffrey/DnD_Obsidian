@@ -19,7 +19,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 20
   TW: 5
   TempTP: 0
 Attribute:
@@ -79,7 +79,7 @@ Merkmale:
   - "[[Drakonische Odemwaffe]]"
   - "[[Drakonischer Flug]]"
   - "[[Intuitive Zauberei]]"
-  - "[[Merkmale/Dunkelsicht|Dunkelsicht]]"
+  - "[[Dunkelsicht]]"
   - "[[Quelle der Magie]]"
   - "[[Windsprecher]]"
   - "[[Stürmische Magie]]"
@@ -126,7 +126,7 @@ InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
   GlücksPunkt3: true
-  GlücksPunkt4: false
+  GlücksPunkt4: true
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -138,11 +138,11 @@ InputData:
   MagierRüstung: true
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 5
+  Zaubereipunkte: 3
   Zauberplätze:
-    Grad_1: 3
-    Grad_2: 3
-    Grad_3: 2
+    Grad_1: 1
+    Grad_2: 1
+    Grad_3: 1
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -171,10 +171,10 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 2
-  IntuitiveZaubereiAktiv: false
-  DrakonischerFlugAktiv: false
+  DruckwelleLadungen: 0
+  IntuitiveZaubereiLadungen: 0
+  IntuitiveZaubereiAktiv: true
+  DrakonischerFlugAktiv: true
   DrakonischerFlugLadungen: 0
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false

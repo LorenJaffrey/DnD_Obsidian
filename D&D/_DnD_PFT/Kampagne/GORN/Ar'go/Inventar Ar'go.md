@@ -22,7 +22,7 @@ Inventar:
     gewicht6: 1
     count7: 12
     gewicht7: 0.05
-    count8: 2
+    count8: 1
     gewicht8: 0.5
     count9: 0
     gewicht9: 0
