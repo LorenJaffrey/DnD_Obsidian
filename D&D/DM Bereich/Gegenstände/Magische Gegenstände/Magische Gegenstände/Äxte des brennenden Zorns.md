@@ -17,13 +17,6 @@ Diese beiden zwergischen [[Streitaxt|Streitäxte]] enthalten jeweils ein Feuerge
 
 ## Verbunden
 Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magischer Gegenstände]] als ein einzelner Gegenstand.
-Wer eine der beiden [[Streitaxt|Streitäxte]] findet und sich darauf [[Einstimmung magischer Gegenstände|einstimmt]] kennt zu jeder Zeit die Richtung in der sich die zweite [[Streitaxt]] befindet.
-
-## Sengen
-Jede [[Streitaxt]] besitzt drei Ladungen. 
-Sämtliche Ladungen werden bei einer [[Lange Rast|Langen Rast]] wiederhergestellt.
-Du kannst das Aktivierungswort "Zharr" (Feuer) sprechen und eine Ladung verbrauchen. 
-Die Schneide der Klinge glüht daraufhin vor Energie und verursacht zusätzlichen [[Feuerschaden]]  und lässt das Ziel [[Brennend|brennen]].
 
 ## Vereint
 Wenn du einen [[Gelegenheitsangriff]] mit diesen Äxten ausführst, kannst du mit beiden Äxten angreifen anstatt nur mit einer.
@@ -60,11 +53,28 @@ Die Stufe der Äxte kann durch folgendes um jeweils eine Stufe  erhöht werden:
 - der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W10
 - gewährt einen Bonus von +2 auf [[Angriffswurf|Angriffswürfe]]  und [[Schadenswurf|Schadenswürfe]], die du mit ihr ausführst. 
 
-## Ideen
-- besondere Attacke mit beiden Äxten gleichzeitig
-- Rage
-- Verflucht
-	- Während Rage wenn Gegner getötet wird gehen weitere Angriffe auf zufällige Ziele
-	- Rage kann nicht willentlich beendet werden
-	- Ketten binden die Äxte am Handgelenk fest
-- Befehl an den Finder der ersten Axt die zweite Axt zu finden
+
+
+### Trigger
+- Kampfrausch (temporär)
+- Low HP (temporär)
+- Fund der zweiten Waffe (dauerhaft)
+- spezielle Weihung (dauerhaft)
+
+### Stufe 0 (Einstimmung)
+- magische Waffe
+
+### Stufe 1
+- +1 [[Angriffsbonus]]
+- Bonusschaden (1W4/1W6 [[Feuerschaden]])
+
+### Stufe 2
+- +2 [[Angriffsbonus]]
+- Bonus-RK (Getrennt)
+
+### Stufe 3
+- Wirbelangriff (getrennt)
+- Ketten des Höllenfeuers (kombiniert)
+
+### Stufe 4
+- +3 [[Angriffsbonus]]

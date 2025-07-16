@@ -1,3 +1,6 @@
+---
+date: 2025-07-16
+---
 # `=this.file.name`
 
 ## Reminder
@@ -6,11 +9,14 @@
 
 ## Organisatorisches
 
+## TODO
+
 ## Recap
-- [[Szene - Rückkehr nach Phandalin]]
+- [[Axtholm]]
 
 ## Ablauf
-- [[Szene - Rückkehr nach Phandalin 2]]
+- [[Axtholm]]
 
+---
 ## Background
 [[Hintergrundinfos]]

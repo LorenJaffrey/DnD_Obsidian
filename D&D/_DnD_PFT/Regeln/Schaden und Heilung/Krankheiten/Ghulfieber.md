@@ -9,7 +9,7 @@ Kreaturen, die mit dieser Krankheit sterben, verfallen schließlich zu verdorrte
 Kreaturen, die an [[Ghulfieber]] erkrankt sind, können für die Dauer dieser [[Krankheiten|Krankheit]] keine [[Trefferpunkte]] zurückerlangen.  
 Immer wenn eine betroffene Kreatur eine [[kurze Rast]] macht, kann sie keine [[Trefferwürfel]] verwenden, und sie erhält auch keine [[Trefferwürfel]] zurück, wenn sie eine [[lange Rast]] beendet.
 
-Kreaturen, die auf 0 [[Trefferpunkte]] reduziert werden, während sie infiziert sind, sterben sofort und können für die Dauer der [[Krankheiten|Krankheit]] weder wiederbelebt noch in [[Untote]] verwandelt werden.  
+Kreaturen, die auf sterben, während sie infiziert sind können für die Dauer der [[Krankheiten|Krankheit]] weder wiederbelebt noch in [[Untote]] verwandelt werden.  
 Nach einer Stunde kehrt diese Kreatur als [[Ghul Brut]] ins Leben zurück.
 
 Ein auf diese Weise verdorbener Leichnam kann durch den Einsatz von [[Zeremonie]], [[Fluch brechen]], [[Gutes und Böses bannen]] oder ähnlicher Magie gereinigt werden.
