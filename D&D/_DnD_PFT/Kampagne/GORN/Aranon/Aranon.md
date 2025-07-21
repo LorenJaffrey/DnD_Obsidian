@@ -4,7 +4,7 @@ Stufe: 5
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
-  Zusätzliche_Rüstung: 1
+  Zusätzliche_Rüstung: 0
   Zusätzliche_SR: 0
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"

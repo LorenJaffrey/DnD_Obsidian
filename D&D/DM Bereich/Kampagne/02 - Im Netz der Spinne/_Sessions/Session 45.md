@@ -11,6 +11,8 @@ date: 2025-06-15
 
 ## TODO
 - [ ] Session vorbereiten
+	- [ ] Loot für die Kiste des Kastellans
+	- [ ] Flavour für die Backstory von Axtholm
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap

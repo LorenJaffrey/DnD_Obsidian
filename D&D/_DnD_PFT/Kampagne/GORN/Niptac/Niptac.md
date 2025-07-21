@@ -8,7 +8,7 @@ Niptac:
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
-  Zusätzliche_Rüstung: 0
+  Zusätzliche_Rüstung: 1
   Zusätzliche_SR: 0
   Rüstung: "[[Beschlagene Lederrüstung]]"
   Schild: 
