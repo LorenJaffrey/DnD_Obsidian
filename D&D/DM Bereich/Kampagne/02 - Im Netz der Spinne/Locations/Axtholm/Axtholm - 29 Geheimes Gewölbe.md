@@ -9,6 +9,7 @@ Die Truhe kann auch mit Diebeswerkzeug (erfolgreicher Wurf auf Geschicklichkeit 
 
 ## Schätze
 In der Truhe befindet sich ein [[Amulett der Wahrheit]], zwei [[Großer Heiltrank|Große Heiltränke]], ein Sack mit Münzen (60 GM, 120 SM, 340 KM)
+- **150 EP**, **200 PP**, **120 GP**
 
 
 In Brusthöhe befindet sich ein flaches steinernes Becken  von ca. 30 cm Durchmesser.  
