@@ -1,6 +1,6 @@
 # `=this.file.name`
 **11. Raukmonat**  
-Die Kornkammern sind voll, das Tor repariert. Hochkönig Brottur meint, wir seien zu übervorsichtig – aber Axtholm steht noch, während andere Festen gefallen sind. Ich bin zufrieden.
+Die Kornkammern sind voll, das Tor repariert. Brottur meint, wir seien zu übervorsichtig – aber Axtholm steht noch, während andere Festen gefallen sind. Ich bin zufrieden.
 
 ---
 
@@ -10,7 +10,7 @@ Ein Gesandtenzug der Elfen kam heute durch das Südtor. Ihre Sprecherin, Vyldara
 ---
 
 **4. Eismonat**  
-Vyldara spricht nun vor den Schmieden. Sie spricht von „Teilung der Last“ und „alter Schuld“. Einige jüngere Zwerge hören ihr zu. Ich habe Hochkönig Brottur gewarnt – er sagt, wir seien kein Kindervolk.
+Vyldara spricht nun vor den Schmieden. Sie spricht von „Teilung der Last“ und „alter Schuld“. Einige jüngere Zwerge hören ihr zu. Ich habe Brottur gewarnt – er sagt, wir seien kein Kindervolk.
 
 ---
 
@@ -20,7 +20,7 @@ Wir haben Vyldara verhaftet. Sie schlich nachts durch die Kartenskammern. In ihr
 ---
 
 **15. Eismonat**  
-Die Elfen sollen kommen, um sie abzuholen. Ich habe den Boten ausgesandt. Bis dahin bleibt sie im Turmverlies. Sie singt. Immer nur singt sie.
+Die Elfen sollen kommen, um sie abzuholen. Ich habe den Boten ausgesandt. Bis dahin bleibt sie im Verlies. Sie singt. Immer nur singt sie.
 
 ---
 
