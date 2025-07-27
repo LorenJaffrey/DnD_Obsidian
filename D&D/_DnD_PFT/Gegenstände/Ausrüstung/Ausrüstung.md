@@ -8,3 +8,5 @@ FROM #Gegenstand/Ausrüstung
 
 SORT file.name
 ```
+
+- [ ] Ausrüstung ergänzen  [priority:: high]
