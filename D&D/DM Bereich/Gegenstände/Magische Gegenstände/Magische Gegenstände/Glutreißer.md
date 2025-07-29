@@ -1,5 +1,10 @@
 ---
 tags:
+  - Gegenstand/Waffe/Art/Hiebwaffe
+  - Gegenstand/Waffe/Gruppe/Axt
+  - Gegenstand/Waffe/Klasse/Nahkampfwaffe
+  - Gegenstand/Waffe/Kategorie/Kriegswaffe
+  - Gegenstand/Waffe/Größe/Anderthalbhänder
   - Gegenstand/Magischer_Gegenstand/Waffe/Streitaxt
 Art: "[[Magische Waffe]]"
 Seltenheit: Erbstück
@@ -7,64 +12,43 @@ Einstimmung: true
 Kosten: 
 Voraussetzung:
   - "[[Barbar]]"
+  - "[[Pfad des Slayers]]"
 Verflucht: true
+
+Reichweite: 1,5(1)
+Schaden: 1d8
+Schadensart: "[[Hiebschaden]]"
+Eigenschaften:
+- "[[Tödlich]]"
+
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
+
+Kategorie: "[[Kriegswaffen]]"
+Hände: 1
+Größe: 3
+Gewicht: 6 Pfund
 ---
 ```dynamic-embed
 [[embed Magische Gegenstände Infobox]]
 ```
 
-Diese beiden zwergischen [[Streitaxt|Streitäxte]] enthalten jeweils ein Feuergefäß. 
+Glutreißer ist eine schwere, zwergisch geschmiedete Streitaxt mit einem groben, aber meisterlich verzierten Schaft aus dunklem Stahlholz und schwarzem Eisenband. 
+Am unteren Ende hängt eine kurze, geschwärzte Kette.
+Der Axtkopf ist wuchtig, asymmetrisch und eingebettet in einen kunstvoll gearbeiteten Feuerkorb: Zwischen den Schneiden liegen filigrane, vergitterte Runenkanäle, die entfernt an einen Schmiedeofen erinnern. Bei näherer Betrachtung glimmen die Runen kaum sichtbar – als wäre unter der Oberfläche etwas am Erwachen.
 
-## Verbunden
-Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magischer Gegenstände]] als ein einzelner Gegenstand.
+```dynamic-embed
+[[embed Waffe Nahkampf]]
+```
 
-## Stufen
+## Magisch
+Glutreißer zählt als magische Waffe (kein Bonus auf Angriff oder Schaden). 
+Sie ignoriert [[Schadensarten#Schadensresistenz]] gegen nichtmagische Waffen.
 
-### Stufe 0 (Asche)
-- zählt als magische [[Streitaxt]]
-
-### Stufe 1 (Glimmen)
-- spendet [[Dämmriges Licht]] in 1,5 Metern (1 Kästchen) Umkreis
-- der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W4
-
-### Stufe 2 (Glühen)
-- spendet [[Helles Licht]] im Umkreis von 1,5 Metern (1 Kästchen) und [[Dämmriges Licht]] in weiteren 1,5 Metern (1 Kästchen) Umkreis
-- der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W6
-- gewährt einen Bonus von +1 auf [[Angriffswurf|Angriffswürfe]]  und [[Schadenswurf|Schadenswürfe]], die du mit ihr ausführst. 
-
-### Stufe 3 (Brennen)
-- spendet [[Helles Licht]] im Umkreis von 3 Metern (2 Kästchen) und [[Dämmriges Licht]] in weiteren 3 Metern (2 Kästchen) Umkreis
-- der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W8
-- gewährt einen Bonus von +2 auf [[Angriffswurf|Angriffswürfe]]  und [[Schadenswurf|Schadenswürfe]], die du mit ihr ausführst.
-- bei einem [[Kritische Treffer|Kritischen Treffer]] kann der Träger entscheiden statt auf der Tabelle zu würfeln die aktuell geführte Waffe des Gegners zu zerstören
-
-### Stufe 4 (Lodern)
-- spendet [[Helles Licht]] im Umkreis von 3 Metern (2 Kästchen) und [[Dämmriges Licht]] in weiteren 3 Metern (2 Kästchen) Umkreis
-- der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W10
-- gewährt einen Bonus von +2 auf [[Angriffswurf|Angriffswürfe]]  und [[Schadenswurf|Schadenswürfe]], die du mit ihr ausführst. 
-
-
-
-### Trigger
-- Kampfrausch (temporär)
-- Low HP (temporär)
-- Fund der zweiten Waffe (dauerhaft)
-- spezielle Weihung (dauerhaft)
-
-### Stufe 0 (Einstimmung)
-- magische Waffe
-
-### Stufe 1
-- +1 [[Angriffsbonus]]
-- Bonusschaden (1W4/1W6 [[Feuerschaden]])
-
-### Stufe 2
-- +2 [[Angriffsbonus]]
-- Bonus-RK (Getrennt)
-
-### Stufe 3
-- Wirbelangriff (getrennt)
-- Ketten des Höllenfeuers (kombiniert)
-
-### Stufe 4
-- +3 [[Angriffsbonus]]
+## Fluch – Eisenband der Bindung  
+Sobald sich ein Charakter auf die Waffe [[Einstimmung magischer Gegenstände|einstimmt]], schließt sich die Kette automatisch um sein dominantes Handgelenk.
+Die Kette wirkt wie gehärtetes Eisen, kann aber nicht abgenommen oder zerstört werden (außer durch [[Fluch brechen]], [[Wunsch]] o. ä.).

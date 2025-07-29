@@ -21,13 +21,6 @@ Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magische
 ## Vereint
 Wenn du einen [[Gelegenheitsangriff]] mit diesen Äxten ausführst, kannst du mit beiden Äxten angreifen anstatt nur mit einer.
 
-## Anheizen
-Die Stufe der Äxte kann durch folgendes um jeweils eine Stufe  erhöht werden:
-- [[Einstimmung magischer Gegenstände|Einstimmung]]
-- Vereinen beider Äxte
-- Aktivierung von [[Kampfrausch]]
-- ?
-
 ## Stufen
 
 ### Stufe 0 (Asche)
@@ -52,7 +45,6 @@ Die Stufe der Äxte kann durch folgendes um jeweils eine Stufe  erhöht werden:
 - spendet [[Helles Licht]] im Umkreis von 3 Metern (2 Kästchen) und [[Dämmriges Licht]] in weiteren 3 Metern (2 Kästchen) Umkreis
 - der zusätzliche Schaden durch [[Äxte des brennenden Zorns#Sengen]] beträgt 1W10
 - gewährt einen Bonus von +2 auf [[Angriffswurf|Angriffswürfe]]  und [[Schadenswurf|Schadenswürfe]], die du mit ihr ausführst. 
-
 
 
 ### Trigger

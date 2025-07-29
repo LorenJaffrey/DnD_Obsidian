@@ -17,7 +17,7 @@ In der Truhe befindet sich:
 - 1 Zwergenschale aus Mithril (60 GM)
 - ein Sack mit Münzen 45 PM, 75 EM
 
-## Versteck von Gltreißer
+## Versteck von Glutreißer
 In Brusthöhe befindet sich ein flaches steinernes Becken  von ca. 30 cm Durchmesser.  
 Es ist rußgeschwärzt, aber makellos – als sei es erst gestern benutzt worden.
 Direkt darüber sind zwergische Runenworte eingraviert.
