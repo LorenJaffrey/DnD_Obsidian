@@ -8,19 +8,20 @@ date: 2025-07-23
 - [[Erschöpft|Erschöpfung]]
 
 ## Organisatorisches
+- Rätsel ja/nein?
+	- wer löst in Rätsel? Charakter oder Spieler?
+	- Lösung per Internet etc.?
 
 ## TODO
 - [ ] Session vorbereiten
-	- [ ] Loot für die Kiste des Kastellans
+	- [ ] Loot für die Kiste des Kastellans fertigstellen  [priority:: highest]
 	- [x] Flavour für die Backstory von Axtholm
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - [[Axtholm]]
-	- Ghule besiegt
-	- Aranon wäre fast gestorben
-	- Todesfee besiegt
-	- Aranon wäre ein zweites Mal fast gestorben
+	- Axtholm erkundet
+	- Geheimkammer hinter Raum des Kastellans entdeckt
 
 ## Ablauf
 - [[Axtholm]]

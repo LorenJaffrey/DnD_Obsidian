@@ -8,38 +8,49 @@ Fügt man den Siegelring des Kastellans in die Vertiefung ein, öffnet sich die 
 Die Truhe kann auch mit Diebeswerkzeug (erfolgreicher Wurf auf Geschicklichkeit gegen SG 20) oder einem passenden Zauber wie [[Klopfen]] geöffnet werden.
 
 ## Schätze
-In der Truhe befindet sich ein [[Amulett der Wahrheit]], zwei [[Großer Heiltrank|Große Heiltränke]], ein Sack mit Münzen (60 GM, 120 SM, 340 KM)
-- **150 EP**, **200 PP**, **120 GP**
+In der Truhe befindet sich:
+- ein [[Phönixfeder Amulett]]
+- zwei [[Heiltrank|Heiltränke]]
+- [ ] ein Trank  [priority:: highest]
+- Zwergisches Trinkhorn mit dem Wappen von Axtholm
+- 1 Feueropal (100 GM)
+- 1 Zwergenschale aus Mithril (60 GM)
+- ein Sack mit Münzen 45 PM, 75 EM
 
-
+## Versteck von Gltreißer
 In Brusthöhe befindet sich ein flaches steinernes Becken  von ca. 30 cm Durchmesser.  
 Es ist rußgeschwärzt, aber makellos – als sei es erst gestern benutzt worden.
 Direkt darüber sind zwergische Runenworte eingraviert.
 
-Barag Khôzrund-Azkhar.  
-Hier ruht Glutreißer.
-
-Narak ez dum. Azgal ez gromkar.  
-Dies ist kein Grab. Es ist ein Käfig.
-
-Wut ist der Schlüssel (KIH WGH RSF GQVZISGGSZ)
-Blut ist der Preis (PZIH WGH RSF DFSWG)
-Feuer ist die Wahrheit (TSISF WGH RWS KOVFVSWH)
+>[!info] Inschrift
+>*Barag Khôzrund-Azkhar*  
+>Hier ruht Glutreißer
+>
+>*Narak ez dum. Azgal ez gromkar.*  
+>Dies ist kein Grab. Es ist ein Käfig.
+>
+>Wut ist der Schlüssel (KIH WGH RSF GQVZISGGSZ)
+>Blut ist der Preis (PZIH WGH RSF DFSWG)
+>Feuer ist die Wahrheit (TSISF WGH RWS KOVFVSWH)
 
 „Khôzrund-Azkhar“ – Glutreißer
 
- „Rûn-vhaz“ – Die wandernde Rune
+ Ein Charakter der einen Wurf auf [[Geschichte]] gegen [[Schwierigkeitsgrad|SG]] 15 besteht kann erkennen, dass es sich um eine Chiffre handelt.
+ [[Zwerge]] erhalten [[Vorteil und Nachteil|Vorteil]] auf den Wurf. 
+ Es handelt sich um eine alte zwergische Chiffre namens „Rûn-vhaz“ – Die wandernde Rune.
  Ein alter zwergischer Begriff für eine Technik, bei der Runen „wandern“ oder „verschoben“ werden.
+Die Buchstaben werden dabei um eine feste Zahl verschoben, in diesem Fall 14 (die Zahl der zwergischen Götter).
 
+Um die Kammer zu öffnen muss ein [[Pfad des Slayers|Slayer]] dabei im Kampfrausch ein Blutopfer in der Schale darbringen und es danach anzünden.
 
-Als die steinerne Wand sich mit donnerndem Grollen zur Seite schiebt, tritt der Blick in eine Kammer, kaum fünf Schritt im Durchmesser. 
-Die Luft ist alt, trocken, riecht nach Staub und Asche – und einem Hauch von altem Eisen und etwas, das wie verbrannter Zorn schmeckt.
-Der Raum ist still. Kein Windhauch. Kein Tropfen Wasser. Nur das Echo des eigenen Atems.
-
-#### In der Mitte:
-Ein massiver Steinsockel, etwa hüfthoch. 
-Darauf ruht, scheinbar sorgsam gebettet, eine Streitaxt, von der Zeit unberührt. 
-Um den Sockel herum sind kreisförmig Runen in den Boden graviert – glimmend, als würden sie Glut atmen.
+>[!info] Beschreibung
+>Das Blut fängt sofort Feuer und lodert hoch. Genauso schnell wie es sich entzündet hat verpufft es wieder.
+>Als die steinerne Wand sich mit donnerndem Grollen zur Seite schiebt, tritt der Blick in eine Kammer, kaum fünf Schritt im Durchmesser. 
+>Die Luft ist alt, trocken, riecht nach Staub und Asche – und einem Hauch von altem Eisen und etwas, das wie verbrannter Zorn schmeckt.
+>Der Raum ist still. Kein Windhauch. Kein Tropfen Wasser. Nur das Echo des eigenen Atems.
+>In der Mitte des Raums steht ein massiver Steinsockel, etwa hüfthoch (für Zwerge). 
+>Darauf ruht, scheinbar sorgsam gebettet, eine Streitaxt, von der Zeit unberührt. 
+>Um den Sockel herum sind kreisförmig Runen in den Boden graviert – glimmend, als würden sie Glut atmen.
 
 #### Die Wände:
 Vier Säulen aus schwarzem Basalt tragen die Decke. 

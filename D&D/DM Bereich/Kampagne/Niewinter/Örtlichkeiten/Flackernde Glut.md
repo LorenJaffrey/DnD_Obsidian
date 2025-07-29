@@ -25,4 +25,4 @@ Obwohl der Laden den Anschein eines normalen Geschäfts macht, lässt sich eine 
 Das Haus hat einen unterirdischen Durchgang, der zum [[Lagerhaus der Nasher]] führt. Mit einem Wurf auf [[Nachforschungen]] ([[Schwierigkeitsgrad|SG]] 15) kann man ihn entdecken.
 
 ## Angebot
-- [ ] Angebot ergänzen [priority:: low]
+- [ ] Angebot ergänzen [priority:: lowest]
