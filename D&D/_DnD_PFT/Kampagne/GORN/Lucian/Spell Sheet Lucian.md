@@ -14,30 +14,18 @@ Zauberplätze:
   Grad_8: 0
   Grad_9: 0
 Zauber:
-  - "[[Feuerpfeil]]"
-  - "[[Thaumaturgie]]"
-  - "[[Magierhand]]"
-  - "[[Schauriger Strahl]]"
   - "[[Einfache Illusion]]"
-  - "[[Totenläuten]]"
-
-  - "[[Verwünschen]]"
-  - "[[Einflüsterung]]"
+  - "[[Schauriger Strahl]]"
+  - "[[Schwertexplosion]]"
   - "[[Brennende Hände]]"
-  - "[[Spiegelbilder]]"
-
-  - "[[Sengender Strahl]]"
-
-  - "[[Feuerball]]"
-  - "[[Stinkende Wolke]]"
-
   - "[[Arme von Hadar]]"
   - "[[Unsichtbarkeit]]"
-
+  - "[[Spiegelbilder]]"
+  - "[[Einflüsterung]]"
 Pakt_des_Buches:
   - "[[Magierhand]]"
   - "[[Göttliche Führung]]"
-  - "[[Verschonung der Sterbenden]]"
+  - "[[Flammen erzeugen]]"
 ---
 # `=this.file.name`
 

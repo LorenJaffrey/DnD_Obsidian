@@ -5,7 +5,7 @@ cssclass: slrvb-b, dvl-o, hc, h-line, table, k-o, t-c, t-w, tbl-nalt, tag-notion
 Summen:
   Rucksack: 45.6
   Behälter: 0
-  Körper: 12.6
+  Körper: 12.1
 Inventar:
   Körper:
     count1: 2

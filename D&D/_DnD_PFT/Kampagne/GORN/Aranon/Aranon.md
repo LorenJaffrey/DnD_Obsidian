@@ -4,7 +4,7 @@ Stufe: 5
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
-  Zusätzliche_Rüstung: 0
+  Zusätzliche_Rüstung: 1
   Zusätzliche_SR: 0
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
@@ -19,7 +19,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 1
+  TP: 14
   TW: 5
   TempTP: 0
 Attribute:

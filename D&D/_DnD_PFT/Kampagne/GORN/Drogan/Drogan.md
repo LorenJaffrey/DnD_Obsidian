@@ -13,7 +13,6 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
-  - "[[Glutreißer - 0 Glimmend]]"
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
   - "[[Wurfspeer]]"
@@ -23,8 +22,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 26
-  TW: 5
+  TP: 48
+  TW: 0
   TempTP: 0
 Attribute:
   Stärke: 18

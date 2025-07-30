@@ -69,6 +69,7 @@ Geld:
 | [[Herzblutbeere\|Herzblutbeeren]]   |   1    |    0    |   0    |
 | [[Schriftrolle der Wiederbelebung]] |   1    |    0    |   0    |
 | [[Dornbühlbeeren]]                  |   1    |         |        |
+| [[Ring des Schutzes]]               |   1    |         |        |
 |                                     |        |         |        |
 <!-- TBLFM: $>=($-1*$-2) -->
 <!-- TBLFM: @>$>=sum(@I..@-1) -->

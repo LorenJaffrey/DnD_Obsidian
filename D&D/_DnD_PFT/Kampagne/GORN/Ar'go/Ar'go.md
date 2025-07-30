@@ -19,8 +19,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 20
-  TW: 5
+  TP: 39
+  TW: 2
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -138,7 +138,7 @@ InputData:
   MagierRüstung: true
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 3
+  Zaubereipunkte: 5
   Zauberplätze:
     Grad_1: 1
     Grad_2: 1
@@ -171,10 +171,10 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 0
+  DruckwelleLadungen: 1
   IntuitiveZaubereiLadungen: 0
-  IntuitiveZaubereiAktiv: true
-  DrakonischerFlugAktiv: true
+  IntuitiveZaubereiAktiv: false
+  DrakonischerFlugAktiv: false
   DrakonischerFlugLadungen: 0
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
