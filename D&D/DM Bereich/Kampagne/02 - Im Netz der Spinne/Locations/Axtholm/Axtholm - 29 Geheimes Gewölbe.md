@@ -60,3 +60,24 @@ Zwischen ihnen sind Reliefs eingelassen:
    Wer genauer hinsieht entdeckt, dass die Äxte zu verschmelzen scheinen.
 3. Ein Zwerg der durch Horden an Gegnern wütet, Tränen aus Glut im Gesicht.
    Wer genauer hinsieht entdeckt, dass er Freudn wie Feind niederstreckt.
+
+>[!info] Beschreibung 
+>Als Drogans Blick auf die Axt in der Nische fällt, ist sie im ersten Augenblick unscheinbar:  
+>Ein uralter Schaft aus dunklem Eisenholz, matt, fast grau. 
+>Der Axtkopf massiv, aber schwarz, die Kanten stumpf wirkend. 
+>Doch im Inneren der breiten Schneide: ein kleiner, verzierter **Feuerkorb** – leer und dunkel.
+>
+>Dann... atmet die Axt.
+>Ein Glimmen erwacht in den Runen. Tiefrot. Zögerlich.  
+>Wie eine längst vergessene Glut, die plötzlich Wind spürt.
+
+Drogan streckt die Hand aus.
+
+>[!info] Beschreibung
+>Kaum berührt seine Haut den kalten Schaft, durchzuckt ihn ein Kribbeln – wie ferne Donnerschläge in seinem Blut.  
+>Ein tiefer, stummer Ton hallt in seinem Brustkorb.  
+>Kein Klang. Eher ein Erinnern.
+>
+> _„Zorn...“_  
+> _„Feuer...“_  
+> _„Käfig...“_

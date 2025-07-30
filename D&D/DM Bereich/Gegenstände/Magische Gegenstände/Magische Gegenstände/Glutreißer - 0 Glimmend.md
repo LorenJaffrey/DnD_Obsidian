@@ -38,8 +38,9 @@ Gewicht: 6 Pfund
 ```
 
 Glutreißer ist eine schwere, zwergisch geschmiedete Streitaxt mit einem groben, aber meisterlich verzierten Schaft aus dunklem Stahlholz und schwarzem Eisenband. 
-Am unteren Ende hängt eine kurze, geschwärzte Kette.
-Der Axtkopf ist wuchtig, asymmetrisch und eingebettet in einen kunstvoll gearbeiteten Feuerkorb: Zwischen den Schneiden liegen filigrane, vergitterte Runenkanäle, die entfernt an einen Schmiedeofen erinnern. Bei näherer Betrachtung glimmen die Runen kaum sichtbar – als wäre unter der Oberfläche etwas am Erwachen.
+Am unteren Ende des Griffes hängt eine kurze, geschwärzte Kette.
+Der Axtkopf ist wuchtig, asymmetrisch und eingebettet in einen kunstvoll gearbeiteten Feuerkorb. 
+Bei näherer Betrachtung glimmt der Feuerkorb kaum sichtbar – als wäre unter der Oberfläche etwas am Erwachen.
 
 ```dynamic-embed
 [[embed Waffe Nahkampf]]
@@ -49,6 +50,10 @@ Der Axtkopf ist wuchtig, asymmetrisch und eingebettet in einen kunstvoll gearbei
 Glutreißer zählt als magische Waffe (kein Bonus auf Angriff oder Schaden). 
 Sie ignoriert [[Schadensarten#Schadensresistenz]] gegen nichtmagische Waffen.
 
-## Fluch – Eisenband der Bindung  
+## Fluch – Ketten der Bindung  
 Sobald sich ein Charakter auf die Waffe [[Einstimmung magischer Gegenstände|einstimmt]], schließt sich die Kette automatisch um sein dominantes Handgelenk.
 Die Kette wirkt wie gehärtetes Eisen, kann aber nicht abgenommen oder zerstört werden (außer durch [[Fluch brechen]], [[Wunsch]] o. ä.).
+
+## Fluch - 
+Wenn der Träger bei einem Angriff mit Glutreißer eine natürliche 1 würfelt, trifft der Angriff automatisch ein zufälliges Ziel in Reichweite  – ob Freund oder Feind (DMs Entscheidung).
+Diese Wirkung manifestiert sich als plötzlicher Kontrollverlust – ein zuckender Hieb, ein verrutschtes Zielen, ein unbewusster Ausbruch.

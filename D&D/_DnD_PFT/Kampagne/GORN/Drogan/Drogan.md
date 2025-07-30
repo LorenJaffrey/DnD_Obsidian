@@ -13,6 +13,7 @@ Verteidigung:
     Schadensanfälligkeit: 
     Zustandsimmunität: 
 Waffen:
+  - "[[Glutreißer - 0 Glimmend]]"
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
   - "[[Wurfspeer]]"
