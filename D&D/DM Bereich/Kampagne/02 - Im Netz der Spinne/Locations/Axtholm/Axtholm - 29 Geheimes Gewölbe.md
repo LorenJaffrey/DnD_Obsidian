@@ -11,8 +11,8 @@ Die Truhe kann auch mit Diebeswerkzeug (erfolgreicher Wurf auf Geschicklichkeit 
 In der Truhe befindet sich:
 - ein [[Phönixfeder Amulett]]
 - zwei [[Heiltrank|Heiltränke]]
-- [ ] ein Trank  [priority:: highest]
-- Zwergisches Trinkhorn mit dem Wappen von Axtholm
+- ein [[Trank  des Heldenmuts]]
+- Zwergisches Trinkhorn mit dem Wappen von Axtholm (10 GM)
 - 1 Feueropal (100 GM)
 - 1 Zwergenschale aus Mithril (60 GM)
 - ein Sack mit Münzen 45 PM, 75 EM

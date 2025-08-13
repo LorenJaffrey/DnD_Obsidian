@@ -1,11 +1,11 @@
 ---
 tags:
+  - Gegenstand/Magischer_Gegenstand/Waffe/Streitaxt
   - Gegenstand/Waffe/Art/Hiebwaffe
   - Gegenstand/Waffe/Gruppe/Axt
   - Gegenstand/Waffe/Klasse/Nahkampfwaffe
   - Gegenstand/Waffe/Kategorie/Kriegswaffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
-  - Gegenstand/Magischer_Gegenstand/Waffe/Streitaxt
 Art: "[[Magische Waffe]]"
 Seltenheit: Erbstück
 Einstimmung: true

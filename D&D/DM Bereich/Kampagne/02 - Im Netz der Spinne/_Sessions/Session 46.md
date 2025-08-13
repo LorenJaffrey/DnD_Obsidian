@@ -1,5 +1,5 @@
 ---
-date: 2025-07-23
+date: 2025-07-30
 ---
 # `=this.file.name`
 
@@ -9,12 +9,12 @@ date: 2025-07-23
 
 ## Organisatorisches
 - Rätsel ja/nein?
-	- wer löst in Rätsel? Charakter oder Spieler?
+	- wer löst ein Rätsel? Charakter oder Spieler?
 	- Lösung per Internet etc.?
 
 ## TODO
-- [ ] Session vorbereiten
-	- [ ] Loot für die Kiste des Kastellans fertigstellen  [priority:: highest]
+- [x] Session vorbereiten
+	- [x] Loot für die Kiste des Kastellans fertigstellen  [priority:: highest]
 	- [x] Flavour für die Backstory von Axtholm
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
