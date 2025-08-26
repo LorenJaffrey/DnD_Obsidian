@@ -17,18 +17,19 @@ Ein schnelles Reisetempo etwa lässt die Charaktere unaufmerksamer werden, wohin
 | Langsam    |   60 m |   3 km | 24 km | [[Vorteil und Nachteil\|Vorteil]] bei Würfen auf [[Überlebenskunst]] und [[Wahrnehmung]]                    |
 
 ## Gewaltmarsch
-In der Tabelle [[Reisen#Reisetempo]] wird davon ausgegangen, dass die Charaktere maximal 8 Stunden am Tag reisen. 
+In der Tabelle Reisetempo wird davon ausgegangen, dass die Charaktere maximal 8 Stunden am Tag reisen. 
 Diese Grenze kann auch überschritten werden, auf die Gefahr der [[Erschöpft|Erschöpfung]] hin. 
 Für jede weitere Stunde über 8 hinaus legen die Charaktere die in der Stundenspalte angegebene Distanz zurück. 
 Anschließend muss jeder Charakter einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
 Der [[Schwierigkeitsgrad]] beträgt 10 + 1 für jede Stunde über 8 hinaus. 
 Bei einem Misserfolg erleidet der Charakter eine Stufe an [[Erschöpft|Erschöpfung]].
 
-## Fahrzeuge und Reittiere
+## Reittiere
 Für kurze Zeitspannen (bis zu 1 Stunde) können berittene Charaktere mit wesentlich höherer Geschwindigkeit reisen. 
 Ein Reittier kann bis zu 1 Stunde galoppieren, wobei es das Doppelte der gewöhnlichen Distanz zurücklegt. 
-Stehen alle acht bis zehn Meilen frische Reittiere zur Verfügung, können so auch längere Strecken überbrückt werden, was jedoch selten der Fall ist (außer in dicht besiedelten Gebieten).
+Stehen alle acht bis zehn Kilometer frische Reittiere zur Verfügung, können so auch längere Strecken überbrückt werden, was jedoch selten der Fall ist (außer in dicht besiedelten Gebieten).
 
+## Fahrzeuge
 Charaktere in Wagen, Karren oder anderen Landfahrzeugen wählen wie gewohnt eine Reisegeschwindigkeit.
 Charaktere in Wasserfahrzeugen sind auf dessen Reisegeschwindigkeit beschränkt (siehe Kapitel 5 „Ausrüstung"), außerdem werden sie nicht von den Effekten der Reisegeschwindigkeit betroffen. 
 Abhängig vom Schiffstyp und der Größe der Besatzung können Wasserfahrzeuge bis zu 24 Stunden am Tag reisen.
