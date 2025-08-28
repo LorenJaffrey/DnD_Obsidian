@@ -1,5 +1,6 @@
 ---
-aliases: Fernkampfwaffe
+aliases:
+  - Fernkampfwaffe
 tags:
   - Liste/Waffen
 ---

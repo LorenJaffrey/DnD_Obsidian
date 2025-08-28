@@ -1,5 +1,6 @@
 ---
-aliases: Schwere Verletzungen
+aliases:
+  - Schwere Verletzungen
 ---
 # `=this.file.name`
 

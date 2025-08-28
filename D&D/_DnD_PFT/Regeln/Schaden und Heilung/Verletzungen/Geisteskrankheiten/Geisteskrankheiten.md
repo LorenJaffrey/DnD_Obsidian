@@ -1,5 +1,6 @@
 ---
-aliases: Geisteskrankheiten
+aliases:
+  - Geisteskrankheiten
 ---
 # `=this.file.name`
 

@@ -1,4 +1,5 @@
 ---
-aliases: Ordens des Vielgesternten Mantels
+aliases:
+  - Ordens des Vielgesternten Mantels
 ---
 # `=this.file.name`

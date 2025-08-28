@@ -1,7 +1,8 @@
 ---
-aliases: Spiele
+aliases:
+  - Spiele
 tags:
-- Gegenstand/Werkzeug
+  - Gegenstand/Werkzeug
 kosten: variiert
 gewicht: variiert
 ---

@@ -1,5 +1,6 @@
 ---
-aliases: Halbork
+aliases:
+  - Halbork
 ---
 ## Beschreibung
 Ob unter der Führung eines mächtigen Kriegsherren vereint oder nach jahrelangen Konflikten einen Waffenstillstand aus-handelnd, bilden Orks und Menschen zuweilen Allianzen. Aus Allianzen, die durch Heirat besiegelt werden, gehen Halborks hervor. Manche von ihnen wachsen zu stolzen Anführern von Orkgemeinschaften heran. Andere wagen sich in die Welt hin-aus, um ihren Wert unter Beweis zu stellen. Viele werden zu Abenteurern, die Ruhm durch ihre mächtigen Taten erlangen.

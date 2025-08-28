@@ -1,7 +1,7 @@
 ---
 tags:
   - Regeln/PHB2024
-alias: 
+aliases:
   - Übungsbonus
   - Expertise
   - Expertisebonus

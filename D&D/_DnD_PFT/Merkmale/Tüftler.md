@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 Du bist geübt im Umgang mit [[Tüftlerwerkzeug]]. 

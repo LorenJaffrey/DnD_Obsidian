@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Klinge"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+voraussetzung: Pakt der Klinge
 mindeststufe: 1
 ---
 # `=this.file.name`

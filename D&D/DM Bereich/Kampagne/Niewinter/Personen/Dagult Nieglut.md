@@ -1,5 +1,10 @@
 ---
-aliases: Dagult, Nieglut, Lord Nieglut, Lord Protektor, Lord Protektor Nieglut
+aliases:
+  - Dagult
+  - Nieglut
+  - Lord Nieglut
+  - Lord Protektor
+  - Lord Protektor Nieglut
 ---
 # `=this.file.name`
 

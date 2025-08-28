@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 - kennt einen [[Zaubertricks|Zaubertrick]] aus der Zauberliste des [[Magier|Magier]]

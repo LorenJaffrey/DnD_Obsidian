@@ -1,5 +1,6 @@
 ---
-aliases: Finnian
+aliases:
+  - Finnian
 ---
 # `=this.file.name`
 [[Finnian Krake Sturmhafen]] ist ein Mann mittleren Alters mit verwitterter Haut, die von Jahren auf See gezeichnet ist. Er ist der Wirt der Taverne im Erdgeschoss der [[Mystische Grotte|Mystischen Grotte]].

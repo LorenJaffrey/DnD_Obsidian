@@ -1,5 +1,8 @@
 ---
-aliases: Einfache Waffe, Einfachen Waffe, Einfachen Waffen
+aliases:
+  - Einfache Waffe
+  - Einfachen Waffe
+  - Einfachen Waffen
 tags:
   - Liste/Waffen
 ---

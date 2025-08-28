@@ -1,5 +1,6 @@
 ---
-alias: Wand
+aliases:
+  - Wand
 ---
 # `=this.file.name`
 

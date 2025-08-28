@@ -1,5 +1,6 @@
 ---
-tags: Geisteskrankheit
+tags:
+  - Geisteskrankheit
 ---
 # `=this.file.name`
 

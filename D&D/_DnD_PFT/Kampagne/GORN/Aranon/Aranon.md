@@ -1,5 +1,6 @@
 ---
-cssclass: dnd
+cssclasses:
+  - dnd
 Stufe: 5
 Bewegung: 6
 Verteidigung:
@@ -9,10 +10,10 @@ Verteidigung:
   Rüstung: "[[Fellrüstung]]"
   Schild: "[[Holzschild]]"
   Resistenzen:
-    Schadensresistenz: 
-    Schadensimmunität: 
-    Schadensanfälligkeit: 
-    Zustandsimmunität: 
+    Schadensresistenz:
+    Schadensimmunität:
+    Schadensanfälligkeit:
+    Zustandsimmunität:
 Waffen:
   - "[[Stab des Sommerwalds (Erneuert)]]"
   - "[[Krummsäbel]]"
@@ -151,12 +152,12 @@ InputData:
     Grad_1: 3
     Grad_2: 0
     Grad_3: 0
-    Grad_4: 
-    Grad_5: 
-    Grad_6: 
-    Grad_7: 
-    Grad_8: 
-    Grad_9: 
+    Grad_4:
+    Grad_5:
+    Grad_6:
+    Grad_7:
+    Grad_8:
+    Grad_9:
 tags:
   - Charakter/GORN
 ---

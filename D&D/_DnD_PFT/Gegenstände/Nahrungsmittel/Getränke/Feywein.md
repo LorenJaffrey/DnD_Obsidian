@@ -1,7 +1,8 @@
 ---
-aliases: Feenwein
+aliases:
+  - Feenwein
 tags:
-- Gegenstand/Nahrungsmittel/Getränk/Wein
+  - Gegenstand/Nahrungsmittel/Getränk/Wein
 Preis: 1 GM
 Art: Wein
 ---

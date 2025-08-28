@@ -1,5 +1,6 @@
 ---
-tags: Zug/Aktion/Angriff
+tags:
+  - Zug/Aktion/Angriff
 ---
 # `=this.file.name`
 

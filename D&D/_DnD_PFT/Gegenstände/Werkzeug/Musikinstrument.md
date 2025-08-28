@@ -1,7 +1,8 @@
 ---
-aliases: Musikinstrumente
+aliases:
+  - Musikinstrumente
 tags:
-- Gegenstand/Werkzeug
+  - Gegenstand/Werkzeug
 kosten: variiert
 gewicht: variiert
 ---

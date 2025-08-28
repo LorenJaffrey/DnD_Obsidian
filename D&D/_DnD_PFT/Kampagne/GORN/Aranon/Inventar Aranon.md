@@ -1,6 +1,7 @@
 ---
-cssclass: dnd
-tags: 
+cssclasses:
+  - dnd
+tags:
 Charakter: "[[Aranon]]"
 Geld:
   PM: 0

@@ -1,5 +1,6 @@
 ---
-aliases: Brannur
+aliases:
+  - Brannur
 ---
 # `=this.file.name`
 Brannur Lutgehr, ein talentierter und fleißiger junger (nach Zwergenmaßstäben) männlicher Zwerg, hat in den Wiederaufbaubemühungen von [[Niewinter]] eine Chance gesehen.

@@ -1,7 +1,8 @@
 ---
-aliases: Schlick
+aliases:
+  - Schlick
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Naturkunde]]"
 Plündern: "[[Überlebenskunst]]"
 ---

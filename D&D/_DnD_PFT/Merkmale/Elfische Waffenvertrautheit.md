@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 [[Übung]] im Umgang mit folgenden Waffen

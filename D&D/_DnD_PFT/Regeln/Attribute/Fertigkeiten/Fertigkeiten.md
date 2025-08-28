@@ -1,5 +1,6 @@
 ---
-aliases: Fertigkeit
+aliases:
+  - Fertigkeit
 ---
 # `=this.file.name`
 Jede Fertigkeit hat ein zugeordnetes [[Attribute|Attribut]], dessen [[Attribute#Attributsmodifikator]] für einen [[Fertigkeiten#Fertigkeitswurf]] herangezogen wird. 

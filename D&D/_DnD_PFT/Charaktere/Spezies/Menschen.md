@@ -1,7 +1,8 @@
 ---
 tags:
   - Spezies
-aliases: Mensch
+aliases:
+  - Mensch
 ---
 ## Beschreibung
 In den Chroniken der meisten Welten sind die Menschen das jüngste der verbreiteten Völker. Sie erscheinen spät auf der Bühne der Welt und leben im Vergleich zu Zwergen, Elfen und Drachen nur kurz. Möglicherweise liegt es gerade an dieser Kurzlebigkeit, dass sie danach streben, so viel wie möglich in den ihnen gegebenen Jahren zu erreichen. Vielleicht haben sie auch das Gefühl, dass sie den älteren Völkern etwas beweisen müssen, und bauen daher mächtige Imperien auf der Basis von Eroberung und Handel auf. Was immer sie anspornt, die Menschen sind Erfinder und Pioniere, die treibenden Kräfte dieser Welten.

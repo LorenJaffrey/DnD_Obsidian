@@ -1,5 +1,6 @@
 ---
-alias: Thaladon
+aliases:
+  - Thaladon
 ---
 # `=this.file.name`
 >[!quote] Beschreibung

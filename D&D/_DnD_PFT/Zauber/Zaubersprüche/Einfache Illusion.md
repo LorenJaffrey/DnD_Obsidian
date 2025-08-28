@@ -1,6 +1,7 @@
 ---
-alias: Minor Illusion
-tags: 
+aliases:
+  - Minor Illusion
+tags:
   - Zauber
 Grad: 0
 Schule: "[[Illusionszauber|Illusion]]"
@@ -9,13 +10,13 @@ Reichweite: 9 Meter
 Verbal: false
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Minute
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"

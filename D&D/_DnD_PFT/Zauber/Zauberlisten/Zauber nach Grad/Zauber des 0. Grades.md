@@ -1,5 +1,6 @@
 ---
-aliases: Zaubertrick
+aliases:
+  - Zaubertrick
 ---
 # Zaubertricks
 ## Zaubertricks

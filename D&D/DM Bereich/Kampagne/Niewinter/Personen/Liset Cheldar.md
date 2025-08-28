@@ -1,5 +1,6 @@
 ---
-aliases: Liset
+aliases:
+  - Liset
 ---
 # `=this.file.name`
 >[!quote] Beschreibung

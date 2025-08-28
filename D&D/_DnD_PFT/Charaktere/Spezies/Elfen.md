@@ -1,5 +1,6 @@
 ---
-aliases: Elf
+aliases:
+  - Elf
 ---
 ## Beschreibung
 Elfen sind ein magisches Volk mit einer fast übernatürlichen Anmut. Obwohl sie in dieser Welt wandeln, sind sie nicht vollständig ein Teil von ihr. Sie leben an Orten von ätherischer Schönheit inmitten uralter Wälder oder in silbrigen Türmen, die vor Feenlicht glitzern und wo sanfte Musik zu angenehmen Düften durch die Lüfte schwebt. Elfen lieben die Natur und die Magie, Kunst und Kunstfertigkeit, Musik und Poesie und die schönen Dinge der Welt.

@@ -1,5 +1,6 @@
 ---
-alias: Aktionen
+aliases:
+  - Aktionen
 ---
 # `=this.file.name`
 

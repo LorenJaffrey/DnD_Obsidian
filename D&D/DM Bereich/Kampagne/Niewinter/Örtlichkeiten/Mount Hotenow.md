@@ -1,4 +1,5 @@
 ---
-aliases: Hotenow
+aliases:
+  - Hotenow
 ---
 # `=this.file.name`

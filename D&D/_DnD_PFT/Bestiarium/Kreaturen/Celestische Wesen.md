@@ -1,7 +1,8 @@
 ---
-aliases: Celestisches Wesen
+aliases:
+  - Celestisches Wesen
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Religion]]"
 Plündern: "[[Religion]]"
 ---

@@ -1,7 +1,8 @@
 ---
-aliases: Drache
+aliases:
+  - Drache
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Geschichte]]"
 Plündern: "[[Überlebenskunst]]"
 ---

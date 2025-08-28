@@ -1,5 +1,17 @@
 ---
-cssclass: slrvb-b, dvl-o, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclasses:
+  - slrvb-b
+  - dvl-o
+  - h-line
+  - k-o
+  - table
+  - t-c
+  - t-w
+  - tbl-nalt
+  - tag-notion
+  - tag-bubble
+  - tag-outline
+  - tag-text
 ---
 
 # Ritualbuch - Drachenkult des Sturmdrachen

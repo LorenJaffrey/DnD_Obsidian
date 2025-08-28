@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 kann versuchen sich zu verstecken obwohl nur von 

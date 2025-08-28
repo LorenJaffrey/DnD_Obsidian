@@ -1,7 +1,8 @@
 ---
-aliases: Riese
+aliases:
+  - Riese
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Geschichte]]"
 Plündern: "[[Überlebenskunst]]"
 ---

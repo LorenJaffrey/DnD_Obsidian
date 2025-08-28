@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 [[Vorteil und Nachteil|Vorteil]] bei [[Rettungswurf]] gegen Verängstigt

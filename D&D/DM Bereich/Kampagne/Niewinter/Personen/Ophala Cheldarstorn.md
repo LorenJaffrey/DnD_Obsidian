@@ -1,4 +1,5 @@
 ---
-aliases: Ophala
+aliases:
+  - Ophala
 ---
 # `=this.file.name`

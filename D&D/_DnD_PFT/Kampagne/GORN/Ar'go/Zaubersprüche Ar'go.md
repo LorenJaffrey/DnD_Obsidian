@@ -1,6 +1,19 @@
 ---
 Charakter: "[[Ar'go]]"
-cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclasses:
+  - slrvb-b
+  - dvl-o
+  - hc
+  - h-line
+  - k-o
+  - table
+  - t-c
+  - t-w
+  - tbl-nalt
+  - tag-notion
+  - tag-bubble
+  - tag-outline
+  - tag-text
 Zaubertricks: 5
 Bekannte_Zauber: 5
 Zauber:

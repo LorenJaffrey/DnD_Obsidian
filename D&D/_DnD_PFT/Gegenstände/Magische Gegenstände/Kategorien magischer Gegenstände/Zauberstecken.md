@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 ---
 # `=this.file.name`
 

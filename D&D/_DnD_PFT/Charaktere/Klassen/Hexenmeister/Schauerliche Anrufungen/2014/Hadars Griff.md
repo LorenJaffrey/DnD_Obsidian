@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Schauriger Strahl"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+voraussetzung: Schauriger Strahl
 mindeststufe: 1
 ---
 # `=this.file.name`

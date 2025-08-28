@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
-- Regeln/PHB2024
+  - Merkmal/Volk
+  - Regeln/PHB2024
 Einsatz: "[[Bonusaktion]]"
 ---
 # `=this.file.name`

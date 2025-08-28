@@ -1,8 +1,9 @@
 ---
-aliases: Erschöpfung
+aliases:
+  - Erschöpfung
 tags:
-- Zustand
-- Regeln/PHB2024
+  - Zustand
+  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Einige Spezialfähigkeiten und Umweltgefahren, wie Verhungern und die Langzeiteffekte von eiskalten oder heißen Temperaturen, können zu einem besonderen Zustand führen, der [[Erschöpft|Erschöpfung]] genannt wird. 

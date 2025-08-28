@@ -1,5 +1,6 @@
 ---
-aliases: Finesse Waffe
+aliases:
+  - Finesse Waffe
 tags:
   - Liste/Waffen
 ---

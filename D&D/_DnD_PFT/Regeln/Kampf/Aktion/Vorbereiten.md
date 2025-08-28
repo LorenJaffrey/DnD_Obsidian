@@ -1,5 +1,6 @@
 ---
-tags: Zug/Aktion
+tags:
+  - Zug/Aktion
 ---
 # `=this.file.name`
 Du führst die [[Vorbereiten]]-Aktion aus, um auf bestimmte Umstände zu warten, ehe du handelst. 

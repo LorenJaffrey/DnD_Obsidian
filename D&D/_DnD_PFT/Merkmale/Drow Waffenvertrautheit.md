@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal
+  - Merkmal
 Einsatz: Passiv
 ---
 [[Übung]] im Umgang mit folgenden Waffen:

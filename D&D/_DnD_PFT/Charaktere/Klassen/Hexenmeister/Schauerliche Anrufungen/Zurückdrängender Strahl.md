@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-Voraussetzung: "ein [[Zaubertricks|Zaubertrick]] aus der [[Zauberliste des Hexenmeisters]], der Schaden über einen [[Angriffswurf]] bewirkt"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+Voraussetzung: ein [[Zaubertricks|Zaubertrick]] aus der [[Zauberliste des Hexenmeisters]], der Schaden über einen [[Angriffswurf]] bewirkt
 Mindeststufe: 2
 Wiederholbar: false
 ---

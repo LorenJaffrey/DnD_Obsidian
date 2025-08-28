@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal
+  - Merkmal
 Einsatz: Passiv
 ---
 Wenn die [[Trefferpunkte]] der Kreatur auf 0 sinken, sinken sie stattdessen nur auf 1 (außer bei [[Sofortiger Tod]]).

@@ -1,7 +1,8 @@
 ---
-aliases: Humanoid
+aliases:
+  - Humanoid
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Geschichte]]"
 Plündern: "[[Überlebenskunst]]"
 ---

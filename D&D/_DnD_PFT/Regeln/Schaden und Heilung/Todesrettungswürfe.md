@@ -1,5 +1,6 @@
 ---
-aliases: Todesrettungswurf
+aliases:
+  - Todesrettungswurf
 ---
 # `=this.file.name`
 

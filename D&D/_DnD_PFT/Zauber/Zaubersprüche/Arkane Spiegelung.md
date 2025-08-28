@@ -1,6 +1,6 @@
 ---
-alias: 
-tags: 
+aliases:
+tags:
   - Zauber
 Grad: 7
 Schule: "[[Illusionszauber|Illusion]]"
@@ -9,14 +9,14 @@ Reichweite: Sicht
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Tage
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Beeinflussung]]"
 ---

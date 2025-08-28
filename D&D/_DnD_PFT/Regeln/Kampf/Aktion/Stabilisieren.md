@@ -1,6 +1,8 @@
 ---
-aliases: Stabilisiert
-tags: Zug/Aktion
+aliases:
+  - Stabilisiert
+tags:
+  - Zug/Aktion
 ---
 # `=this.file.name`
 Eine Kreatur kann versuchen eine andere Kreatur zu [[Stabilisieren]] werden. 

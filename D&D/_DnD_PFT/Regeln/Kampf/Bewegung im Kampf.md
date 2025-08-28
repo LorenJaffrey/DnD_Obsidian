@@ -1,5 +1,8 @@
 ---
-aliases: Kampfbewegung, Positionierung, Bewegung im Kampf
+aliases:
+  - Kampfbewegung
+  - Positionierung
+  - Bewegung im Kampf
 ---
 # `=this.file.name`
 

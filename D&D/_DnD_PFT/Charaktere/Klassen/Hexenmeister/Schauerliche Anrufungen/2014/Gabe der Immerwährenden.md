@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt der Kette"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+voraussetzung: Pakt der Kette
 mindeststufe: 1
 ---
 # `=this.file.name`

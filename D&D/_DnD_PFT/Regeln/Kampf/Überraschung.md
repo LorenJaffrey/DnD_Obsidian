@@ -1,5 +1,6 @@
 ---
-aliases: überrascht
+aliases:
+  - überrascht
 ---
 # `=this.file.name`
 

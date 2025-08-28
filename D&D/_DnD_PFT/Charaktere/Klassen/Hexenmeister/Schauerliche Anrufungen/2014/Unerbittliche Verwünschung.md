@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Zauber Verwünschen oder ein Merkmal des Hexenmeisters das verflucht"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+voraussetzung: Zauber Verwünschen oder ein Merkmal des Hexenmeisters das verflucht
 mindeststufe: 7
 ---
 # `=this.file.name`

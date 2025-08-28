@@ -1,7 +1,8 @@
 ---
-aliases: Elementar
+aliases:
+  - Elementar
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Arkane Kunde]]"
 Plündern: "[[Arkane Kunde]]"
 ---

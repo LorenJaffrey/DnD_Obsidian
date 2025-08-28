@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
 tags:
   - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufung
   - Regeln/PHB2024

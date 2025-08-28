@@ -1,5 +1,6 @@
 ---
-aliases: Schurkenwaffe
+aliases:
+  - Schurkenwaffe
 tags:
   - Liste/Waffen
 ---

@@ -1,4 +1,5 @@
 ---
-aliases: Valindra
+aliases:
+  - Valindra
 ---
 # `=this.file.name`

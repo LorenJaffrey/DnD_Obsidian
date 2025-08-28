@@ -1,5 +1,6 @@
 ---
-tags: Zug/Aktion
+tags:
+  - Zug/Aktion
 ---
 # `=this.file.name`
 Um einem Haltegriff zu entkommen, musst du eine Probe auf [[Athletik]] oder [[Akrobatik]] gegen eine Probe auf [[Athletik]] der Kreatur, die dich gepackt hält, gewinnen.

@@ -1,5 +1,6 @@
 ---
-aliases: Branwynn
+aliases:
+  - Branwynn
 ---
 # `=this.file.name`
 Branwyn Lutgehr, die Schwester von Brannur Lutgehr, suchte ebenfalls nach den Möglichkeiten, die das schnell wachsende Neverwinter bieten könnte.

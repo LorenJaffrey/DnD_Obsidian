@@ -1,5 +1,6 @@
 ---
-aliases: Jotun
+aliases:
+  - Jotun
 tags:
   - Sprache/Standard
 Ursprung: "[[Riesen]]"

@@ -1,5 +1,6 @@
 ---
-aliases: Kriegswaffe
+aliases:
+  - Kriegswaffe
 tags:
   - Liste/Waffen
 ---

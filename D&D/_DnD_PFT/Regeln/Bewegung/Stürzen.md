@@ -1,5 +1,6 @@
 ---
-tags: Bewegung
+tags:
+  - Bewegung
 ---
 # `=this.file.name`
 

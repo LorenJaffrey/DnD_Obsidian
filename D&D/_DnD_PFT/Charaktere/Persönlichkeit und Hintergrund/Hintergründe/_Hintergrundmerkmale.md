@@ -1,5 +1,7 @@
 ---
-aliases: Hintergrundmerkmal, Hintergrundmerkmale
+aliases:
+  - Hintergrundmerkmal
+  - Hintergrundmerkmale
 ---
 
 ## Herz der Dunkelheit

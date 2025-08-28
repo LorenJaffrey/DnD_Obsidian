@@ -1,5 +1,6 @@
 ---
-tags: Eigenschaft/Rüstung
+tags:
+  - Eigenschaft/Rüstung
 ---
 # `=this.file.name`
 - [[Bonusaktion]] um Schild auf- bzw. abzustellen. 

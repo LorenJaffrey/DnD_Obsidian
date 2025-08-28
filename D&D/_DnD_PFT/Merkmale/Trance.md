@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Volk
+  - Merkmal/Volk
 Einsatz: Passiv
 ---
 - muss nicht schlafen, sondern verweilt 4 Stunden in tiefer Meditation

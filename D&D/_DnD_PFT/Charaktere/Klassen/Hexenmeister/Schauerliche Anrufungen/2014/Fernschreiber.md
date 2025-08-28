@@ -1,8 +1,8 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
-voraussetzung: "Pakt des Buches"
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+voraussetzung: Pakt des Buches
 mindeststufe: 5
 ---
 # `=this.file.name`

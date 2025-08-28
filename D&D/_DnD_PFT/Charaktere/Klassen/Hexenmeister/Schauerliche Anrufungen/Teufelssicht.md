@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
 Voraussetzung:
 Mindeststufe: 2
 Wiederholbar: false

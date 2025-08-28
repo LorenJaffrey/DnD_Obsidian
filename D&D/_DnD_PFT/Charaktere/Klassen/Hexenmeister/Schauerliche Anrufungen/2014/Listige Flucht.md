@@ -1,7 +1,7 @@
 ---
-alias:
+aliases:
 tags:
-- Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
+  - Merkmal/Klasse/Hexenmeister/Schauerliche_Anrufungen
 mindeststufe: 7
 ---
 # `=this.file.name`

@@ -1,18 +1,31 @@
 ---
-cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclasses:
+  - slrvb-b
+  - dvl-o
+  - hc
+  - h-line
+  - k-o
+  - table
+  - t-c
+  - t-w
+  - tbl-nalt
+  - tag-notion
+  - tag-bubble
+  - tag-outline
+  - tag-text
 Stufe: 5
 Bewegung: 6
 Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 0
   Zusätzliche_SR: 0
-  Rüstung: 
-  Schild: 
+  Rüstung:
+  Schild:
   Resistenzen:
-    Schadensresistenz: 
-    Schadensimmunität: 
-    Schadensanfälligkeit: 
-    Zustandsimmunität: 
+    Schadensresistenz:
+    Schadensimmunität:
+    Schadensanfälligkeit:
+    Zustandsimmunität:
 Waffen:
   - "[[Kampfstab mit Tempestuskristall]]"
   - "[[Dolch]]"
@@ -63,7 +76,7 @@ Fertigkeiten:
     - "[[Riesisch]]"
   Werkzeuge:
     - "[[Navigationswerkzeug]]"
-  Rüstungen: 
+  Rüstungen:
   Waffen:
     - "[[Einfache Waffen]]"
 Aussehen:

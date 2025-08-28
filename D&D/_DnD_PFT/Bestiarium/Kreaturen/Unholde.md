@@ -1,7 +1,8 @@
 ---
-aliases: Unhold
+aliases:
+  - Unhold
 tags:
-- Kreatur/Typ
+  - Kreatur/Typ
 Identifizieren: "[[Religion]]"
 Plündern: "[[Religion]]"
 ---

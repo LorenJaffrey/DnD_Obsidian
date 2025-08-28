@@ -1,5 +1,18 @@
 ---
-cssclass: slrvb-b, dvl-o, hc, h-line, k-o, table, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text
+cssclasses:
+  - slrvb-b
+  - dvl-o
+  - hc
+  - h-line
+  - k-o
+  - table
+  - t-c
+  - t-w
+  - tbl-nalt
+  - tag-notion
+  - tag-bubble
+  - tag-outline
+  - tag-text
 wichtigePersonen: |-
   > ### Quest-Relevant
   > - Drogans Freund: **Gudren Felssucher**

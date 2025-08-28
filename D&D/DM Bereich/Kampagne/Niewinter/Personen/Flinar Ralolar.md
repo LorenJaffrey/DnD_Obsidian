@@ -1,5 +1,6 @@
 ---
-aliases: Flinar
+aliases:
+  - Flinar
 ---
 # `=this.file.name`
 ![[flinar_ralolar.png|400]]

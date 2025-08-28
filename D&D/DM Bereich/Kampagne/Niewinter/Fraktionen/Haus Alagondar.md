@@ -1,5 +1,6 @@
 ---
-aliases: Alagondar
+aliases:
+  - Alagondar
 ---
 # `=this.file.name`
 [[Haus Alagondar]] regierte Neverwinter während einer kurzen Mandatszeit. Die Familie wurde von den Nachkommen von Lord [[Nasher Alagondar]] gegründet, nachdem er verstorben war, und er wurde als erster Patriarch der Familie angesehen. Laut einigen widersprüchlichen Aufzeichnungen hatte [[Nasher Alagondar]], König von [[Niewinter]] in den späten Jahren des 14. Jahrhunderts, einen Bastardsohn namens [[Vers Never]], der [[Niewinter]] verließ, sich in [[Tiefwasser]] niederließ und [[Mirtria Ember]] heiratete, woraus die Familie [[Neverember]] entstand. Die Linie der Könige und Königinnen von [[Haus Alagondar]] regierte ihre Stadt gerecht und wurde von ihren Untertanen geliebt, bis die Lords von [[Tiefwasser]] etwa im Jahr 1451 DR Hugo Babris mit der Leitung der Stadt betrauten. [[Haus Alagondar]] verschwand nach dem Ausbruch des [[Mount Hotenow]]. Man glaubt, dass alle von ihnen starben, als [[Burg Nie]] von der pyroklastischen Strömung getroffen wurde, da ihre Geister den Ort nach ihrem Tod heimsuchten. Nach unbestätigten Quellen war [[Dagult Nieglut]] ein Nachkomme von [[Vers Never]].

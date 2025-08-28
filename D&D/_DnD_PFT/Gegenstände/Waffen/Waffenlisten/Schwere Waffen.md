@@ -1,5 +1,6 @@
 ---
-aliases: Schweren Waffen
+aliases:
+  - Schweren Waffen
 tags:
   - Liste/Waffen
 ---

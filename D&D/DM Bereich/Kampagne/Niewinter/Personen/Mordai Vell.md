@@ -1,4 +1,5 @@
 ---
-aliases: Mordai
+aliases:
+  - Mordai
 ---
 # `=this.file.name`
