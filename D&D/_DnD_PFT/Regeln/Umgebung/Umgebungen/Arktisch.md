@@ -4,6 +4,8 @@ tags:
 Typ: "[[Schwieriges Gelände]]"
 Such-DC: 15
 Navigation-DC: 15
+Nahrungssuche-DC: 20
+max_Tempo: "[[Schnelles Reisetempo]]"
 ---
 # `=this.file.name`
 Aufgrund des Mangels an Orientierungspunkten und der eintönigen Landschaft ist es leicht, sich zu verirren. 
