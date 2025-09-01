@@ -26,7 +26,7 @@ Waffen:
   - "[[Handarmbrust]]"
 Gesundheit:
   MaxTP: 42
-  TP: 24
+  TP: 42
   TW: 5
   TempTP: 0
 Attribute:
@@ -135,8 +135,8 @@ InputData:
     Verschwinden: false
   Apparaturen:
     Ladung1: false
-    Ladung2: true
-    Ladung3: true
+    Ladung2: false
+    Ladung3: false
 tags:
   - Charakter/GORN
 aliases: 
@@ -313,6 +313,18 @@ actions:
     value: x - 1
   - type: inlineJS
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
+  - type: updateMetadata
+    bindTarget: InputData.Apparaturen.Ladung1
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Apparaturen.Ladung2
+    evaluate: false
+    value: "false"
+  - type: updateMetadata
+    bindTarget: InputData.Apparaturen.Ladung3
+    evaluate: false
+    value: "false"
 ```
 
 - [x] Raffinierter Schlag zu Cooldowns hinzufügen
