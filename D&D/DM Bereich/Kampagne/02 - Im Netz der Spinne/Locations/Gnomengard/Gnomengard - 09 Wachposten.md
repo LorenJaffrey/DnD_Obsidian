@@ -7,7 +7,7 @@ Der Sims lässt sich erreichen, wenn man dem gewundenen Tunnel nach Osten folgt 
 Zwei Felsengnome (Wertekasten siehe Seite 71)stehen auf dem Sims, ein weiblicher namens Ulla und ein männlicher namens Pog. 
 Wenn jemand die Höhle betritt, ruft Ulla auf Gnomisch „Wer da?". 
 Pog wiederholt die Frage in der Gemeinsprache. 
-Sie haben Befehl, Gestalt-wandler sofort anzugreifen. 
+Sie haben Befehl, Gestaltwandler sofort anzugreifen. 
 Da jeder ein Gestaltwandler sein kann, greifen sie jeden an, der nicht beweisen kann, der zu sein, für den er sich ausgibt. 
 
 Charaktere, die nicht angegriffen werden wollen, müssen einen der folgenden Würfe bestehen:
