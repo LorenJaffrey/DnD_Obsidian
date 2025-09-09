@@ -33,7 +33,7 @@ Waffen:
 Gesundheit:
   MaxTP: 39
   TP: 39
-  TW: 2
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 10
@@ -148,14 +148,14 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: true
+  MagierRüstung: false
   BlitzOdem: 3
   Klingenbann: false
   Zaubereipunkte: 5
   Zauberplätze:
-    Grad_1: 1
-    Grad_2: 1
-    Grad_3: 1
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 2
     Grad_4: 0
     Grad_5: 0
     Grad_6: 0
@@ -173,6 +173,8 @@ InputData:
           - [x] ein magischer Vampierbaum wurde von dem Talos-Anhänger erschaffen, was von GORN besiegt wurde (Aranon's Kampfstab wurde dadurch magisch wieder hergestellt)
           - eine Karte & ein Tagebuch deuteten auf einen Punkt im Niewinterwald (**Kreis des Donners**), wo wahrscheinlich "**Gorthok** der Donnerkeiler" beschworen wird/wurde
           - [x] Ritual unterbrechen und **Tempestus Fragment** an sich bringen
+       - [ ] neue Spuren für die restlichen Kristalle finden (aktuell noch keine neuen Spuren)
+
 
     **Tempestus Fragment:**
     - [ ] **Fragment des Windes** gefunden
@@ -185,26 +187,19 @@ InputData:
   UhrzeitToogle1: false
   UhrzeitToogle2: false
   DruckwelleLadungen: 1
-  IntuitiveZaubereiLadungen: 0
+  IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
-  DrakonischerFlugLadungen: 0
+  DrakonischerFlugLadungen: 1
   SpiegelbilderLadungen: 3
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
+sonstigeZustaende: "\n"
 ---
-> [!infobox|]
-> ```dynamic-embed
-> [[embed RadarChart]]
-> ```
 
 > [!infobox|left]
-> ![[Argo_portrait.jpeg| 0]]
->  
-> ```dynamic-embed
-> [[embed Character Sheet Video]]
-> ```
+> ![[Argo_Pixel.gif|]]
 >  
 > ```dynamic-embed
 > [[embed Character Sheet Healthbar]]
@@ -218,6 +213,14 @@ tags:
 > [[embed Character Sheet SpellPointsbar]]
 > ```
 >
+> ---
+> 
+>> [!info | bg-c-plain c-custom-gray]- STURMGOTT ORAKEL
+>> ```dynamic-embed
+>> [[embed Kord Orakel]]
+>> ```
+> 
+> 
 > ---
 > 
 >> [!info | bg-c-plain c-custom-gray]+ RASTEN-BUTTONS
@@ -291,23 +294,26 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
->> [!column | flex 2 no-title]
->>>  ## Zustand
+>> [!column | 3 no-title]
+>>>  ## Zustände
 >>> ```dynamic-embed
 >>> [[embed Erschöpfung]]
+>>> ```
+>>>
+>>> ```meta-bind
+>>> INPUT[editor(class(dndSmallHeight)):sonstigeZustaende]
+>>> ```
+>>
+>>> ## Gesundheit
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Gesundheit]]
 >>> ```
 >>>
 >>> ## Verteidigung
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Rüstung Zauberer]]
 >>> ```
->>>
->>
->>> ## Gesundheit
->>> ```dynamic-embed
->>> [[embed Character Sheet Gesundheit]]
->>> ```
->>> 
+>> 
 >>> ## [[Schadensarten#Schadensresistenz|Resistenz]]
 >>>> [!success]  **Blitz**  
 >>>>    - erlittener Schaden halbieren (abrunden)
@@ -319,7 +325,7 @@ tags:
 >>
 
 > [!important | bg-c-plain c-custom-red ]- MAGIE
->>[!column | 2 flex no-title]
+>>[!column | flex  no-title]
 >>> ### Zauberangriff / Zauber wirken
 >>> ```dynamic-embed
 >>> [[embed Character Sheet Zauberangriff]]
@@ -387,7 +393,7 @@ tags:
 
 
 >[!caution | bg-c-plain c-custom-lightblue]- ATTRIBUTE
->> [!column | flex  no-title]
+>> [!column |  3  no-title]
 >>> ```dataviewjs 
 >>> dv.el('h2', `<h2>Stärke</h2>`); 
 >>> ```

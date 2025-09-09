@@ -20,7 +20,7 @@ Waffen:
   - "[[Schleuder]]"
 Gesundheit:
   MaxTP: 38
-  TP: 14
+  TP: 38
   TW: 5
   TempTP: 0
 Attribute:
@@ -132,11 +132,11 @@ InputData:
   GlücksPunkt3: false
   GlücksPunkt4: false
   GlücksPunkt5: false
-  ErschöpfungsPunkte: 4
+  ErschöpfungsPunkte: 3
   Erschöpfung1: true
   Erschöpfung2: true
   Erschöpfung3: true
-  Erschöpfung4: true
+  Erschöpfung4: false
   Erschöpfung5: false
   TiergestaltLadung1: false
   TiergestaltLadung2: false
@@ -149,9 +149,9 @@ InputData:
   Stresslevel4: false
   Stresslevel5: false
   Zauberplätze:
-    Grad_1: 3
-    Grad_2: 0
-    Grad_3: 0
+    Grad_1: 4
+    Grad_2: 3
+    Grad_3: 2
     Grad_4:
     Grad_5:
     Grad_6:
@@ -165,136 +165,133 @@ tags:
 # `=this.Hintergrund.Name`
 
 > [!infobox]
-> ![[Aranon_portrait.jpg| 0]]
-> 
-> ```dynamic-embed
-> [[embed Character Sheet Video]]
-> ```
+> ![[Aranon_Pixel.png]]
 > 
 > ```dynamic-embed
 > [[embed Character Sheet Background 2]]
 > ```
 
-## Allgemein
-> [!column | 3 no-title]
->> ```dynamic-embed
->> [[embed Character Sheet Allgemein]]
->> ```
->
->> ### Cooldowns
->> ```dynamic-embed
->> [[embed Character Sheet Cooldowns Aranon]]
->> ```
->
->> ### Bewegung
->> ```dynamic-embed
->> [[embed Character Sheet Bewegung]]
->> ```
-
-> [!column | 2 no-title]
->> ## Angriff
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Nahkampf]]
->> ```
+> [!caution | bg-c-plain c-custom-lightblue]+ Allgemein
+>> [!column | 3 no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Allgemein]]
+>>> ```
 >>
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Fernkampf]]
->> ```
+>>> ### Cooldowns
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Cooldowns Aranon]]
+>>> ```
+>>
+>>> ### Bewegung
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Bewegung]]
+>>> ```
+
+> [!important | bg-c-plain c-custom-red ]- Angriff & Verteidigung
+>> [!column | 2 flex no-title]
+>>> ## Angriff
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Nahkampf]]
+>>> ```
+>>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Fernkampf]]
+>>> ```
+>>> 
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Angriff Wurf]]
+>>> ```
+>>
+>>> ## Verteidigung
+>>> ### Gesundheit
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Gesundheit]]
+>>> ```
+>>>
+>>> ### Rüstung
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Rüstung]]
+>>> ```
+>>>
+>>> ```dynamic-embed
+>>> [[embed Statblock Kreatur Resistenzen]]
+>>> ```
+
+> [!important | bg-c-plain c-custom-red ]- Magie
+>> [!column | 2 no-title flex]
+>>> #### Zauberparameter
+>>>| | |
+>>>| --- | --- |
+>>> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
+>>> | Zauberangriff   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
+>>> | [[Zauberrettungswurf-Schwierigkeitsgrad\|Zauberrettungswurf-SG]] | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
+>>> | [[Zaubertricks]] | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
+>>> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
+>>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberplätze]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Zauberspruch Übersicht]]
+>>> ```
+
+> [!important | bg-c-plain c-custom-red ]- Merkmale
+>> [!column | 4 no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Aktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Bonusaktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Reaktionen]]
+>>> ```
+>>
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Merkmale Passiv]]
+>>> ```
+
+> [!caution | bg-c-plain c-custom-lightblue]- Attribute
+> ``` dynamic-embed
+> [[embed Character Sheet Attribute Übersicht]]
+> ```
+
+> [!caution | bg-c-plain c-custom-lightblue]- Übung
+>> [!column | 4 no-title]
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Übung Rüstung]]
+>>> ```
 >> 
->> ```dynamic-embed
->> [[embed Character Sheet Angriff Wurf]]
->> ```
->
->> ## Verteidigung
->> ### Gesundheit
->> ```dynamic-embed
->> [[embed Character Sheet Gesundheit]]
->> ```
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Übung Waffen]]
+>>> ```
 >>
->> ### Rüstung
->> ```dynamic-embed
->> [[embed Character Sheet Rüstung]]
->> ```
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Übung Sprachen]]
+>>> ```
 >>
->> ```dynamic-embed
->> [[embed Statblock Kreatur Resistenzen]]
->> ```
+>>> ```dynamic-embed
+>>> [[embed Character Sheet Übung Werkzeuge]]
+>>> ```
 
-## Attribute und Fertigkeiten
-``` dynamic-embed
-[[embed Character Sheet Attribute Übersicht]]
-```
-
-## Magie
->[!column | 2 no-title flex]
->> #### Zauberparameter
->>| | |
->>| --- | --- |
->> | Zauberattribut | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberattribut` |
->> | Zauberangriff   |  `$="```dice:1d20+" + (Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)) + "\|none\|noform\```"`      |
->> | [[Zauberrettungswurf-Schwierigkeitsgrad\|Zauberrettungswurf-SG]] | `$=8+Math.ceil((dv.current().Stufe/4)+1)+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)` |
->> | [[Zaubertricks]] | `$=dv.page(dv.current().Hintergrund.Klasse).Zauberplätze["Stufe"+dv.current().Stufe].Grad0` |
->> | Bekannte Zauber | `$=dv.current().Stufe+Math.floor(((dv.current().Attribute[dv.page(dv.page(dv.current().Hintergrund.Klasse).Zauberattribut).file.name])-10)/2)`  |
->>
->> ```dynamic-embed
->> [[embed Character Sheet Zauberplätze]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Zauberspruch Übersicht]]
->> ```
-
-## Merkmale
-> [!column | 4 no-title]
->> ```dynamic-embed
->> [[embed Character Sheet Merkmale Aktionen]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Merkmale Bonusaktionen]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Merkmale Reaktionen]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Merkmale Passiv]]
->> ```
-
-## Übung
-> [!column | 4 no-title]
->> ```dynamic-embed
->> [[embed Character Sheet Übung Rüstung]]
->> ```
-> 
->> ```dynamic-embed
->> [[embed Character Sheet Übung Waffen]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Übung Sprachen]]
->> ```
->
->> ```dynamic-embed
->> [[embed Character Sheet Übung Werkzeuge]]
->> ```
-
-## Hintergrundgeschichte
-* Vater Waldelf 
-* Mutter Mensch (lebt in der Stadt)
-* aufgewachsen im Stamm des Vaters
-* Der Stamm lebte im Wald in besonderer Beziehung zu einem Einhorn
-* Stamm wurde von einem bösen Wesen ausgelöscht
-* Während des Angriffs schnell ausgeschaltet / getötet
-* Das Einhorn wurde ebenfalls getötet und fiel auf den Halbelfen
-* Durch die Berührung des Hornes überlebte der Halbelf
-* Sagte durch das traumatische Erlebnis den dämonischen Mächten den Kampf an
-* Leidet seit dem Angriff gelegentlich unter angsteinflössenden Visionen und Alpträumen, die er mit diversen Mitteln betäubt
-* Trägt das abgetrennte Einhorn als Totem
+> [!info | bg-c-plain]- Hintergrundgeschichte
+> * Vater Waldelf 
+> * Mutter Mensch (lebt in der Stadt)
+> * aufgewachsen im Stamm des Vaters
+> * Der Stamm lebte im Wald in besonderer Beziehung zu einem Einhorn
+> * Stamm wurde von einem bösen Wesen ausgelöscht
+> * Während des Angriffs schnell ausgeschaltet / getötet
+> * Das Einhorn wurde ebenfalls getötet und fiel auf den Halbelfen
+> * Durch die Berührung des Hornes überlebte der Halbelf
+> * Sagte durch das traumatische Erlebnis den dämonischen Mächten den Kampf an
+> * Leidet seit dem Angriff gelegentlich unter angsteinflössenden Visionen und Alpträumen, die er mit diversen Mitteln betäubt
+> * Trägt das abgetrennte Einhorn als Totem
 
 
-## Meta
+> [!info | bg-c-plain]- Meta
 
 ```meta-bind-button
 label: Kurze Rast

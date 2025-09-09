@@ -22,8 +22,8 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 48
-  TW: 0
+  TP: 37
+  TW: 5
   TempTP: 0
 Attribute:
   Stärke: 18
@@ -129,8 +129,8 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Rage1: true
-  Rage2: true
+  Rage1: false
+  Rage2: false
   Rage3: false
 tags:
   - Charakter/GORN

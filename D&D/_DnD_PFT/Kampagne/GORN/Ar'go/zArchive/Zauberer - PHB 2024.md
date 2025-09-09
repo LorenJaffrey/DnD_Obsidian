@@ -1,7 +1,19 @@
 ---
 Name: Zauberer - PHB 2024
 Charakter: "[[Ar'go]]"
-cssclass: table, k-o, t-c, t-w, tbl-nalt, tag-notion, tag-bubble, tag-outline, tag-text, dvl-o, h-line
+cssclasses: 
+  - table
+  - k-o
+  - t-c
+  - t-w
+  - tbl-nalt
+  - tag-notion
+  - tag-bubble
+  - tag-outline
+  - tag-text
+  - dvl-o
+  - h-line
+
 --- 
 
 # Änderungen und Anpassungen aus dem Spielerhandbuch 2024
