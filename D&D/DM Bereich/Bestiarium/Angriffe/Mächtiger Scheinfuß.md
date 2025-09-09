@@ -2,10 +2,9 @@
 tags:
   - Angriff/Nahkampf
 Reichweite: 1,5(1)
-Schaden: 2d6
+Schaden: 2d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-  - "[[Finesse]]"
   - "[[Umschlingender Angriff]]"
 SchadenFern: 
 SchadensartFern: 

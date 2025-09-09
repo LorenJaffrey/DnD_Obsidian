@@ -1,43 +1,44 @@
 ---
 aliases:
 tags:
-- Kreatur/Monstrosität/Ankheg
-Bild: "[[ankheg.avif]]"
-Größenkategorie: "[[Groß]]"
+  - Kreatur/Monstrosität/Mimik
+Bild: "[[Mimik.png | 350]]"
+Größenkategorie: "[[Klein]]"
 Typ: "[[Monstrositäten|Monstrosität]]"
-Subtyp: "[[Ankhegs|Ankheg]]"
+Subtyp: "[[Mimiken|Mimik]]"
 Gesinnung: Gesinnungslos
-Herausforderungsgrad: 2
+Herausforderungsgrad: 1
 Stufe: 6
-Trefferwürfel: d10
+Trefferwürfel: d6
 Bewegung:
-  Boden: 9
+  Boden: 6
   Fliegen:
   Schwimmen:
-  Klettern: 
-  Graben: 3
+  Klettern:
+  Graben:
 Sinne:
   - "[[Dunkelsicht]] 18m (12 Kästchen)"
-  - "[[Erschütterungssinn]] 18m (12 Kästchen)"
 Verteidigung:
   Rüstung:
   Schild:
-  Natürliche_Rüstung: 14
-  Natürliche_SR: 1
+  Natürliche_Rüstung: 12
+  Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
-    Schadensimmunität: 
+    Schadensimmunität:
+      - "[[Säureschaden]]"
     Zustandsimmunität:
+      - "[[Liegend]]"
 Angriff:
-  - "[[Fangbeine]]"
-  - "[[Ankhegbiss]]"
+  - "[[Schwacher Scheinfuß]]"
+  - "[[Schwacher Mimikbiss]]"
 Attribute:
-  Stärke: 17
-  Geschicklichkeit: 11
-  Konstitution: 13
-  Intelligenz: 1
+  Stärke: 14
+  Geschicklichkeit: 12
+  Konstitution: 10
+  Intelligenz: 5
   Weisheit: 13
-  Charisma: 6
+  Charisma: 8
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -48,13 +49,13 @@ Rettungswürfe:
 Fertigkeiten:
   Akrobatik: 0
   Arkane_Kunde: 0
-  Athletik: 0
+  Athletik: 1
   Auftreten: 0
   Einschüchtern: 0
   Fingerfertigkeit: 0
   Geschichte: 0
   Heilkunde: 0
-  Heimlichkeit: 0
+  Heimlichkeit: 2
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
   Nachforschungen: 0
@@ -63,10 +64,13 @@ Fertigkeiten:
   Täuschen: 0
   Überlebenskunst: 0
   Überzeugen: 0
-  Wahrnehmung: 0
+  Wahrnehmung: 1
 Sprachen:
+  - "Versteht [[Gemeinsprache der Untereiche]]"
 Merkmale:
-  - "[[Säure versprühen]]"
+  - "[[Gestaltwandler]]"
+  - "[[Haftend]]"
+  - "[[Falsches Erscheinungsbild]]"
   - "[[Eiserner Griff]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:

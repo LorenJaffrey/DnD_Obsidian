@@ -1,43 +1,44 @@
 ---
+aliases:
 tags:
-  - Kreatur/Pflanze
-aliases: 
-Bild: "[[vine_blight.jpg | 250]]"
+  - Kreatur/Monstrosität/Mimik
+Bild: "[[Mimik.png | 350]]"
 Größenkategorie: "[[Mittelgroß]]"
-Typ: "[[Pflanzen|Pflanze]]"
-Subtyp: "[[Plagen|Plage]]"
-Gesinnung: "[[Neutral Böse]]"
-Herausforderungsgrad: 0.5
-Stufe: 4
+Typ: "[[Monstrositäten|Monstrosität]]"
+Subtyp: "[[Mimiken|Mimik]]"
+Gesinnung: Gesinnungslos
+Herausforderungsgrad: 2
+Stufe: 9
 Trefferwürfel: d8
 Bewegung:
-  Boden: 3
-  Fliegen: 0
-  Schwimmen: 0
-  Klettern: 0
-  Graben: 0
+  Boden: 6
+  Fliegen:
+  Schwimmen:
+  Klettern:
+  Graben:
 Sinne:
-  - "[[Blindsicht]] 18m (12 Kästchen)"
+  - "[[Dunkelsicht]] 18m (12 Kästchen)"
 Verteidigung:
-  Rüstung: 
-  Schild: 
-  Natürliche_Rüstung: 13
+  Rüstung:
+  Schild:
+  Natürliche_Rüstung: 14
   Natürliche_SR: 0
   Resistenzen:
     Schadensresistenz:
-    Schadensimmunität: 
+    Schadensimmunität:
+      - "[[Säureschaden]]"
     Zustandsimmunität:
-      - "[[Blind]]"
-      - "[[Taub]]"
+      - "[[Liegend]]"
 Angriff:
-  - "[[Rankenhieb]]"
+  - "[[Scheinfuß]]"
+  - "[[Mimikbiss]]"
 Attribute:
-  Stärke: 15
-  Geschicklichkeit: 8
-  Konstitution: 14
+  Stärke: 17
+  Geschicklichkeit: 12
+  Konstitution: 15
   Intelligenz: 5
-  Weisheit: 10
-  Charisma: 3
+  Weisheit: 13
+  Charisma: 8
 Rettungswürfe:
   Stärke: 0
   Geschicklichkeit: 0
@@ -48,13 +49,13 @@ Rettungswürfe:
 Fertigkeiten:
   Akrobatik: 0
   Arkane_Kunde: 0
-  Athletik: 0
+  Athletik: 1
   Auftreten: 0
   Einschüchtern: 0
   Fingerfertigkeit: 0
   Geschichte: 0
   Heilkunde: 0
-  Heimlichkeit: 1
+  Heimlichkeit: 2
   Mit_Tieren_umgehen: 0
   Motiv_erkennen: 0
   Nachforschungen: 0
@@ -63,13 +64,14 @@ Fertigkeiten:
   Täuschen: 0
   Überlebenskunst: 0
   Überzeugen: 0
-  Wahrnehmung: 0
+  Wahrnehmung: 1
 Sprachen:
-  - "versteht [[Gemeinsprache]]"
+  - "Versteht [[Gemeinsprache der Untereiche]]"
 Merkmale:
+  - "[[Gestaltwandler]]"
+  - "[[Haftend]]"
   - "[[Falsches Erscheinungsbild]]"
   - "[[Eiserner Griff]]"
-  - "[[Umschlingende Pflanzen]]"
 Anzahl_Legendäre_Aktionen:
 Legendäre_Aktionen:
 ---

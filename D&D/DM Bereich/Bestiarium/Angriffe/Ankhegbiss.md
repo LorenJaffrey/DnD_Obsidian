@@ -2,11 +2,11 @@
 tags:
   - Angriff/Nahkampf
 Reichweite: 1,5(1)
-Schaden: 2d6
-Schadensart: "[[Wuchtschaden]]"
+Schaden: 2d8
+Schadensart: "[[Stichschaden]]"
 Eigenschaften:
   - "[[Finesse]]"
-  - "[[Umschlingender Angriff]]"
+  - "[[Zusätzlicher Säureschaden]] `dice:1d6`"
 SchadenFern: 
 SchadensartFern: 
 Range1: 
