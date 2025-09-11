@@ -16,7 +16,7 @@ date: 2025-07-30
 - [x] Session vorbereiten
 	- [x] Loot für die Kiste des Kastellans fertigstellen  [priority:: highest]
 	- [x] Flavour für die Backstory von Axtholm
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - [[Axtholm]]
