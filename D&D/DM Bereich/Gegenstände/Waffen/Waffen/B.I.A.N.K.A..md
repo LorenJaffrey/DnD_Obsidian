@@ -5,11 +5,11 @@ tags:
   - Gegenstand/Waffe/Klasse/Fernkampfwaffe/Schusswaffe
   - Gegenstand/Waffe/Kategorie/Exotische_Waffe
   - Gegenstand/Waffe/Größe/Anderthalbhänder
-  - Gegenstand/Magischer_Gegenstand/Waffe/Armbrust
 Reichweite: 
 Schaden: 
 Schadensart: 
 Eigenschaften: 
+
 AngriffsbonusFern: 1
 SchadenFern: 2d3+1
 SchadensartFern: "[[Stichschaden]]"
@@ -26,8 +26,8 @@ Kategorie: "[[Exotische Waffen]]"
 Hände: 2
 Größe: 3
 Gewicht: 10 Pfund
-Kosten: 25 GM
-Verfügbarkeit: gewöhnlich
+Kosten:
+Verfügbarkeit:
 ---
 ## `=this.file.name`
 > [!infobox]

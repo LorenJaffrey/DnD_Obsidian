@@ -1,9 +1,6 @@
 ---
 tags:
-  - Merkmal/Magischer_Gegenstand
-Aktivierung: Passiv
-Ladungen:
-Regeneration:
+  - Eigenschaft/Waffe
 ---
 # `=this.file.name`
 Die Armbrust verfügt über ein Magazin, das bis zu 6 Bolzen fasst. 
