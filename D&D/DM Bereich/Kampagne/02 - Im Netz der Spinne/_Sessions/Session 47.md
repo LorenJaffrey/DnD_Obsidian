@@ -12,7 +12,6 @@ date: 2025-07-30
 	- eigenständiges Wesen, keine Marionette
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - [[Axtholm]]
