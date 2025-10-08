@@ -13,10 +13,6 @@ date: 2025-07-30
 	- Lösung per Internet etc.?
 
 ## TODO
-- [x] Session vorbereiten
-	- [x] Loot für die Kiste des Kastellans fertigstellen  [priority:: highest]
-	- [x] Flavour für die Backstory von Axtholm
-- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - [[Axtholm]]
