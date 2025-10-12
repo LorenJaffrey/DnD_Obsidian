@@ -11,12 +11,12 @@ Verteidigung:
   Zusätzliche_Rüstung: 0
   Zusätzliche_SR: 0
   Rüstung: "[[Beschlagene Lederrüstung]]"
-  Schild: 
+  Schild:
   Resistenzen:
-    Schadensresistenz: 
-    Schadensimmunität: 
-    Schadensanfälligkeit: 
-    Zustandsimmunität: 
+    Schadensresistenz:
+    Schadensimmunität:
+    Schadensanfälligkeit:
+    Zustandsimmunität:
 Waffen:
   - "[[Kurzschwert]]"
   - "[[Dolch]]"
@@ -24,10 +24,9 @@ Waffen:
   - "[[Schleuder]]"
   - "[[Leichte Armbrust]]"
   - "[[Handarmbrust]]"
-  - "[[B.I.A.N.K.A.]]"
 Gesundheit:
   MaxTP: 42
-  TP: 42
+  TP: 26
   TW: 5
   TempTP: 0
 Attribute:
@@ -140,7 +139,7 @@ InputData:
     Ladung3: false
 tags:
   - Charakter/GORN
-aliases: 
+aliases:
 ---
 # `=this.file.name`
 > [!infobox]

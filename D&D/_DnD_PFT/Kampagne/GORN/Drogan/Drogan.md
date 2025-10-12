@@ -5,13 +5,13 @@ Verteidigung:
   Natürliche_Rüstung: 10
   Zusätzliche_Rüstung: 0
   Zusätzliche_SR: 0
-  Rüstung: 
-  Schild: 
+  Rüstung:
+  Schild:
   Resistenzen:
-    Schadensresistenz: 
-    Schadensimmunität: 
-    Schadensanfälligkeit: 
-    Zustandsimmunität: 
+    Schadensresistenz:
+    Schadensimmunität:
+    Schadensanfälligkeit:
+    Zustandsimmunität:
 Waffen:
   - "[[Zweihandaxt]]"
   - "[[Axt]]"
@@ -22,7 +22,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 59
-  TP: 37
+  TP: 59
   TW: 5
   TempTP: 0
 Attribute:
@@ -129,7 +129,7 @@ InputData:
   Erschöpfung3: false
   Erschöpfung4: false
   Erschöpfung5: false
-  Rage1: false
+  Rage1: true
   Rage2: false
   Rage3: false
 tags:

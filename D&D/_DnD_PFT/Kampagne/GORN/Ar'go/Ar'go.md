@@ -32,7 +32,7 @@ Waffen:
   - "[[Leichte Armbrust]]"
 Gesundheit:
   MaxTP: 39
-  TP: 39
+  TP: 19
   TW: 5
   TempTP: 0
 Attribute:
@@ -138,8 +138,8 @@ Zauber:
 InputData:
   GlücksPunkt1: true
   GlücksPunkt2: true
-  GlücksPunkt3: true
-  GlücksPunkt4: true
+  GlücksPunkt3: false
+  GlücksPunkt4: false
   GlücksPunkt5: false
   ErschöpfungsPunkte: 0
   Erschöpfung1: false
@@ -148,12 +148,12 @@ InputData:
   Erschöpfung4: false
   Erschöpfung5: false
   NormaleRüstung: true
-  MagierRüstung: false
+  MagierRüstung: true
   BlitzOdem: 3
   Klingenbann: false
-  Zaubereipunkte: 5
+  Zaubereipunkte: 4
   Zauberplätze:
-    Grad_1: 4
+    Grad_1: 3
     Grad_2: 3
     Grad_3: 2
     Grad_4: 0
@@ -186,7 +186,7 @@ InputData:
   Uhrzeit2: 00:00
   UhrzeitToogle1: false
   UhrzeitToogle2: false
-  DruckwelleLadungen: 1
+  DruckwelleLadungen: 0
   IntuitiveZaubereiLadungen: 2
   IntuitiveZaubereiAktiv: false
   DrakonischerFlugAktiv: false
@@ -195,7 +195,9 @@ InputData:
   SpiegelbilderAktiv: false
 tags:
   - Charakter/GORN
-sonstigeZustaende: "\n"
+sonstigeZustaende: |-
+  
+  - Schuppen am ganzen Körper sind GELB (aber wieder blau genug gesoffen)
 ---
 
 > [!infobox|left]
@@ -291,7 +293,8 @@ sonstigeZustaende: "\n"
 >> 
 >---
 
-# `=this.Hintergrund.Name`
+# `=this.Hintergrund.Name`,
+#####  der Sturmgezeichnete von der Insel der Drachenkulte, Auserwählter Kords, Träger des ersten Splitters des Tempestus, Bezwinger des Donnerebers Grannocs, der Orks und der wandelnden Schatten gemeinsam mit der ruhmreichen Schar GORN, der Schläfer unter freiem Himmel, Freund von Donner und Regen, Verkoster der Welt in all ihrer Bitterkeit und Süße, Sturmzauberer der tosenden Lüfte, Sucher des zerschlagenen Kristalls, der Gelbgezeichnete im Strudel der Zauberei
 
 > [!caution | bg-c-plain c-custom-lightblue]+ ZUSTAND / LEBENSPUNKTE / VERTEIDIGUNG / RESISTENZ
 >> [!column | 3 no-title]
