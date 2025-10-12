@@ -8,20 +8,29 @@ date: 2025-07-30
 - [[Erschöpft|Erschöpfung]]
 
 ## Organisatorisches
-- Vertrauter
-	- eigenständiges Wesen, keine Marionette
+- mehr Charakterentwicklung
+- mehr Rollenspiel
+- besinnen auf Eigenheiten des Charakters
+	- am besten etwas übertrieben -> mehr Spaß
+- kein Durchspielen der Story
+- Beispiele:
+	- Niptac -> Kleptomane
+	- Drogan -> stürzt sich Hals über Kopf in den Kampf
+	- Argo -> naiv, euphorisch, will alles probieren
+	- Lucian und Aranon fehlt etwas außergewöhnliches
 
 ## TODO
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
-- [[Axtholm]]
-	- Axtholm erkundet
-	- Geheimkammer hinter Raum des Kastellans entdeckt
-	- [[Glutreißer - 0 Glimmend]] gefunden und gebunden
+- [[Gnomengard]]
+	- Mimic getötet
 
 ## Ablauf
-- [[Axtholm]]
+- [[Gnomengard]] fertig
+- Aufbruch
+	- Phandalin um warme Kleidung zu besorgen
+	- direkt zur Eisnadelfestung
 
 ---
 ## Background

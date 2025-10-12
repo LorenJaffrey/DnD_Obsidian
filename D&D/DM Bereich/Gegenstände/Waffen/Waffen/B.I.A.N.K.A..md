@@ -14,8 +14,8 @@ AngriffsbonusFern: 1
 SchadenFern: 2d3+1
 SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
-Range2: 24(16)
-Range3: 96(64)
+Range2: 9(6)
+Range3: 36(24)
 EigenschaftenFern:
   - "[[Geschosse]] (Bolzen)"
   - "[[Rüstungsbrechend]] (1)"
