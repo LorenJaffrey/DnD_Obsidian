@@ -20,6 +20,8 @@ Waffen:
   - "[[Streitaxt]]"
   - "[[Kriegsflegel]]"
   - "[[Leichte Armbrust]]"
+  - "[[Glutreißer - 0 Glimmend]]"
+  - "[[Glutreißer - 1 Glühend]]"
 Gesundheit:
   MaxTP: 59
   TP: 59
