@@ -27,7 +27,7 @@ try {
                     const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.Angriffsbonus ?? 0)}\``;
 
                     // Calculate Schaden
-                    const damageRoll = `\`dice:${page.Schaden}+${attackModifier}\``;
+                    const damageRoll = `\`dice:${page.Schaden}+${attackModifier+(page?.Schadensbonus ?? 0)}\``;
 
                     return [
                         page.file.link,
