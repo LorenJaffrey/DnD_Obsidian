@@ -3,19 +3,22 @@
 ## Core Rules
 
 ### Initiative
+https://knightattheopera.blogspot.com/2024/06/every-initiative-method.html
 - Initiative überarbeiten
+	- Überraschung berücksichtigen
+	- Gruppen- vs. Einzelinitiative
+	- dynamisches System (Initiative kann sich plötzlich ändern)
+	- Coop Aktionen
 
 ### Schaden und Rüstungen
-- Rüstung senkt nur Schaden, hat nichts mit Trefferwahrscheinlichkeit zu tun
-- Schaden aufteilen in Stress und tatsächlichen Schaden
-	- Stress kann durch Rast gesenkt werden
-	- Schaden muss "geheilt" werden
+
 
 ### Ausrüstung
-- Ausrüstung
+- Waffen
 	- [[Waffeneigenschaften]] aufteilen in normale und Meisterschaft
 	- [[Waffen]] neu evaluieren
 		- [ ] Schwerter sind Finessewaffen
+		- [ ] Waffenschaden ist unbedeutend (immer gleich), Eigenschaften sind entscheidend
 
 ### Inventar
 - Inventarsysteme evaluieren
