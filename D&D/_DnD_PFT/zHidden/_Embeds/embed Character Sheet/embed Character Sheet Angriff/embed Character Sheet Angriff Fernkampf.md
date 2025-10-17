@@ -24,7 +24,7 @@ try {
                     let attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + (page?.AngriffsbonusFern ?? 0)}\``;
 
                     // Calculate Schaden
-                    let damageRoll = `\`dice:${page.SchadenFern}+${attackModifier}\``;
+                    let damageRoll = `\`dice:${page.SchadenFern}+${attackModifier+(page?.SchadensbonusFern ?? 0)}\``;
 
                     return [
                         page.file.link,

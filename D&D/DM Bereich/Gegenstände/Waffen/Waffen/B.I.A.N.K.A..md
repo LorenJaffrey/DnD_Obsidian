@@ -12,6 +12,7 @@ Eigenschaften:
 
 AngriffsbonusFern: 1
 SchadenFern: 2d3+1
+SchadensbonusFern: 1
 SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
 Range2: 9(6)
@@ -20,8 +21,6 @@ EigenschaftenFern:
   - "[[Geschosse]] (Bolzen)"
   - "[[Rüstungsbrechend]] (1)"
   - "[[Repetiermechanismus]]"
-  - "[[Angriffsbonus|Zielvorrichtung]] (1) (bereits eingerechnet)"
-  - "[[Schadensbonus|Verstärkte Sehne]] (1) (bereits eingerechnet)"
 Kategorie: "[[Exotische Waffen]]"
 Hände: 2
 Größe: 3

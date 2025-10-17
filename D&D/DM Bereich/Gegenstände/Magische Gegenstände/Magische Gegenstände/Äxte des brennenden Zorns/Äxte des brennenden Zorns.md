@@ -85,7 +85,7 @@ Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magische
 ### Stufe 2 (Glühen)
 - spendet [[Helles Licht]] im Umkreis von 1,5 Metern (1 Kästchen) und [[Dämmriges Licht]] in weiteren 1,5 Metern (1 Kästchen) Umkreis
 - **Bonusschaden**: 1W4 [[Feuerschaden]]
-- +1 [[Angriffsbonus]] und [[Schadensbonus]]
+- +1 Angriffsbonus und Schadensbonus
 - **Fluch**: ein Fehlschlag trifft ein zufälliges befreundetes Ziel in bis zu 3m Entfernung. Wenn kein befreundetes Ziel in Reichweite ist erleidest du stattdessen 1W8 [[Feuerschaden]]
 - **Getrennt**: Wenn du Glutreißer und Brandseele gleichzeitig führst erhältst du +2 auf deine [[Rüstungsklasse]].
 - **Kombiniert**: Crit wenn Trefferwurf min. 10 über RK
@@ -93,7 +93,7 @@ Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magische
 ### Stufe 3 (Brennen)
 - spendet [[Helles Licht]] im Umkreis von 3 Metern (2 Kästchen) und [[Dämmriges Licht]] in weiteren 3 Metern (2 Kästchen) Umkreis
 - **Bonusschaden**: 1W4 [[Feuerschaden]]
-- +2 [[Angriffsbonus]] und [[Schadensbonus]]
+- +2 Angriffsbonus und Schadensbonus
 - **Fluch**: ein Fehlschlag trifft ein zufälliges befreundetes Ziel in bis zu 3m Entfernung kritisch. Wenn kein befreundetes Ziel in Reichweite ist erleidest du stattdessen 2W6 [[Feuerschaden]]
 - **Getrennt**:
 - **Kombiniert**: Crit wenn Trefferwurf min. 5 über RK
@@ -101,7 +101,7 @@ Die beiden Äxte zählen als magisch verbunden und bzgl.  [[Einstimmung magische
 ### Stufe 4 (Lodern)
 - spendet [[Helles Licht]] im Umkreis von 3 Metern (2 Kästchen) und [[Dämmriges Licht]] in weiteren 3 Metern (2 Kästchen) Umkreis
 - **Bonusschaden**: 1W4 [[Feuerschaden]]
-- +3 [[Angriffsbonus]] und [[Schadensbonus]]
+- +3 Angriffsbonus und Schadensbonus
 - **Fluch**: Du erleidest automatisch 2W6 [[Feuerschaden]] am Ende deines Zuges.
 - **Getrennt**:
 - **Kombiniert**: Jeder erfolgreiche Angriff ist automatisch ein [[Kritische Treffer|Kritischer Treffer]]

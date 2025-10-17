@@ -31,7 +31,7 @@ try {
                     const attackRoll = `\`dice:1d20+${attackModifier + proficiencyBonus + rangedAttackBonus}\``;
 
                     // Calculate damage roll
-                    const damageRoll = `\`dice:${page.SchadenFern}+${attackModifier}\``;
+                    const damageRoll = `\`dice:${page.SchadenFern}+${attackModifier+(page?.SchadensbonusFern ?? 0)}\``;
 
                     return [
                         page.file.link,
