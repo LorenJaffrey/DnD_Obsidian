@@ -14,10 +14,10 @@ Kosten: 150 GM
 ---
 # `=this.file.name`
 
-*Ein Kettenpanzer ist eine Ganzkörperrüstung die vorwiegend aus Kettengeflecht - feuergeschweißten bzw. vernieteten ineinander verflochtenen kleinen Metallringen - besteht. 
+*Eine Kettenrüstung ist eine Ganzkörperrüstung die vorwiegend aus Kettengeflecht - feuergeschweißten bzw. vernieteten ineinander verflochtenen kleinen Metallringen - besteht. 
 Sie bedeckt den ganzen Körper vom Kopf bis zu den Beinen.*
 
-Ein [[Kettenpanzer]] beinhaltet einen darunter getragenen [[Gambeson]].
+Ein [[Kettenrüstung]] beinhaltet einen darunter getragenen [[Gambeson]].
 
 | Rüstung           | Klasse         |     RP     |     SR     |     Stärke     | GES Cap        | Eigenschaften         |
 | ----------------- | -------------- |:----------:|:----------:|:--------------:| :--------------: | --------------------- |
