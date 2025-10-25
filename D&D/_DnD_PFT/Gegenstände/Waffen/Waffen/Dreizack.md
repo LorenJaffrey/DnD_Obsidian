@@ -22,7 +22,7 @@ Range3: 18(12)
 EigenschaftenFern:
   - "[[Wurfwaffe]]"
 
-Kategorie: "[[Kriegswaffen]]
+Kategorie: "[[Kriegswaffen]]"
 Hände: 1
 Größe: 4
 Gewicht: 3 Pfund

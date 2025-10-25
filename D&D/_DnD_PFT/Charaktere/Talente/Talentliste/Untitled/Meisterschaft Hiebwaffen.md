@@ -1,6 +1,7 @@
 ---
 aliases: 
 - Slasher
+- Hauer
 tags: 
 - Talent
 Voraussetzungen:

@@ -1,6 +1,7 @@
 ---
 tags:
   - Eigenschaft/Waffe
+Punkte: 3
 ---
 # `=this.file.name`
 

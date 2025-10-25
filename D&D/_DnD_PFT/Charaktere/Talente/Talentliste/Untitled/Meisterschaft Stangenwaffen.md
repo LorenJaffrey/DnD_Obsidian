@@ -1,6 +1,7 @@
 ---
 aliases: 
 - Polearm Master
+- Stangenwaffenmeister
 tags: 
 - Talent
 Voraussetzungen:

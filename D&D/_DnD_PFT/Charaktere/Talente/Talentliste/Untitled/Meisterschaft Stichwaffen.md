@@ -1,6 +1,7 @@
 ---
 aliases: 
-- Crusher
+- Piercer
+- Messerstecher
 tags: 
 - Talent
 Voraussetzungen:
@@ -17,15 +18,15 @@ Wiederholbar: false
 > | Stufe                              | `=this.Stufe`                           |
 > | Mehrfach wählbar | `=this.Wiederholbar`         |
 
-*Du bist darin geübt, deine Feinde mit wuchtigen Hieben zu zermalmen.* 
+*Du hast im Kampf eine besondere Präzision mit Stichwaffen erreicht.*
 
 ## Attributswerterhöhung
 Erhöhe deine [[Stärke]] oder [[Geschicklichkeit]] um 1 Punkt, bis zu einem maximalen [[Attribute|Attributswert]] von 20.
 
-## Präzise Hiebe
-Wenn du eine Kreatur mit einem Angriff triffst, der [[Wuchtschaden]] verursacht, kannst du einmal pro [[Zug]] einen der Schadenswürfel erneut würfeln. 
+## Präzise Stöße
+Wenn du eine Kreatur mit einem Angriff triffst, der [[Stichschaden]] verursacht, kannst du einmal pro [[Zug]] einen der Schadenswürfel erneut würfeln. 
 Du musst das neue Ergebnis verwenden.
 
 ## Erschütternder Schlag
-Wenn du eine Kreatur mit einem [[Angriff]] triffst, der [[Wuchtschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
-Bei einem [[Misserfolg]] erleidet das Ziel den Zustand [[Benommen]].
+Wenn du eine Kreatur mit einem [[Angriff]] triffst, der [[Stichschaden]] verursacht, muss das Ziel einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
+Bei einem [[Misserfolg]] erleidet das Ziel den Zustand [[Bluten]].

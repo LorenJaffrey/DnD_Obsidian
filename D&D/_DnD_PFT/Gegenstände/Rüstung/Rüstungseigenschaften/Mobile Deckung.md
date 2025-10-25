@@ -3,5 +3,6 @@ tags:
   - Eigenschaft/Rüstung
 ---
 # `=this.file.name`
-- [[Bonusaktion]] um Schild auf- bzw. abzustellen. 
-- Zählt als Deckung.
+- [[Aktion]] um Schild auf- bzw. abzustellen. 
+- Zählt als [[Dreivierteldeckung]]
+- statt [[Schadensreduktion|SR]]
