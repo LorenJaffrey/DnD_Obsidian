@@ -12,10 +12,10 @@
 
 ![[Meisterschaft Kampf mit zwei Waffen]] (Zwei-Waffen-Kämpfer)
 
-![[Messerstecher]]
+![[Meisterschaft Stichwaffen]] (Messerstecher)
 
-![[Hauer]]
+![[Meisterschaft Hiebwaffen]] (Hauer)
 
-![[Zermalmer]]
+![[Meisterschaft Wuchtwaffen]] (Zermalmer)
 
 ![[Defensiver Duellant]]
