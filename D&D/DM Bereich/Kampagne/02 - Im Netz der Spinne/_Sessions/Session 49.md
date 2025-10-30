@@ -1,5 +1,5 @@
 ---
-date: 2025-10-22 
+date: 2025-10-29 
 ---
 # `=this.file.name`
 
@@ -15,6 +15,8 @@ date: 2025-10-22
 
 ## TODO
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [ ] Plot Recap [priority:: highest]
+- [ ] 
 
 ## Recap
 - [[Gnomengard]]
