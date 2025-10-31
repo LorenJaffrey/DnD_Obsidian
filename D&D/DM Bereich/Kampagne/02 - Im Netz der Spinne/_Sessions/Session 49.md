@@ -107,13 +107,13 @@ Er hat keinen Grund, sie sofort zu töten; er spielt mit ihnen, testet sie, oder
 
 ## ⚙️ Technische Hinweise
 
-|Element|Schwierigkeit / Wirkung|
-|---|---|
-|Kälteeinfluss|Erschöpfungswürfe SG 10–12 alle 4 Stunden ohne Schutz|
-|Gnomische Wärmeweste|Verhindert Erschöpfung für 8h|
-|Frosttrank|Resistenz gg. Kälteschaden 1h|
-|Cryovain (Vorbeiflug)|Frostatem 8d8 (Reduziert für „Warnschuss“)|
-|Lawine|6d6 Wucht + Restrisiko verschüttet zu werden|
+| Element               | Schwierigkeit / Wirkung                               |
+| --------------------- | ----------------------------------------------------- |
+| Kälteeinfluss         | Erschöpfungswürfe SG 10–12 alle 4 Stunden ohne Schutz | 
+| Gnomische Wärmeweste  | Verhindert Erschöpfung für 8h                         |
+| Frosttrank            | Resistenz gg. Kälteschaden 1h                         |
+| Cryovain (Vorbeiflug) | Frostatem 8d8 (Reduziert für „Warnschuss“)            |
+| Lawine                | 6d6 Wucht + Restrisiko verschüttet zu werden          |
 
 ---
 
