@@ -1,12 +1,81 @@
-**Key Stats:** STR, DEX
-**Hit Die:** 1d12
-**Starting HP:** 20
+---
+tags:
+  - Numble/Klasse
+Trefferwürfel: W12
+Kernattribute:
+  - "[[Stärke]]"
+  - "[[Geschicklichkeit]]"
+---
+# `=this.file.name`
+
+
+## Kernattribute
+`=this.Kernattribute`
+
+## Trefferpunkte
+[[Trefferwürfel]]: 1`=this.Trefferwürfel` pro Stufe
+[[Trefferpunkte]] auf Stufe 1: 20
+[[Trefferpunkte]] pro Stufenaufstieg: 1`=this.Trefferwürfel` (min. 7) + [[Konstitution#Konstitutionsmodifikator]]
+
+## Übung
+
+### Waffen
+- [[Einfache Waffen]] 
+- [[Kriegswaffen]] 
+
+### Rettungswürfe
+- [[Stärke]]
+- [[Konstitution]]
+
+### Fertigkeiten
+- zwei nach Wahl:
+	- [[Athletik]]
+	- [[Einschüchtern]]
+	- [[Mit Tieren umgehen]]
+	- [[Naturkunde]]
+	- [[Überlebenskunst]]
+	- [[Wahrnehmung]]
+
+## Ausrüstung
+- [[Zweihandaxt]]
+- vier [[Axt|Äxte]]
+- [[Ausrüstungssets#Entdeckerausrüstung]]
+- 15 GM
+ODER
+- 75 GM
+
+
 **Saves:** STR+, INT-
 **Armor:** None
 **Weapons:** All STR Weapons
 **Starting Gear:** Battleaxe, Rations (meat), Rope (50 ft.)
 
 ---
+
+| Stufe | Wutwürfel | Merkmale |
+| ----- | --------- | -------- |
+| 1     | 1W4       | [[Wut]]  |
+| 2     | 1W4       |          |
+| 3     | 1W4       |          |
+| 4     | 1W4       |          |
+| 5     | 2W4       |          |
+| 6     | 2W6       |          |
+| 7     | 2W6       |          |
+| 8     | 2W6       |          |
+| 9     | 2W8       |          |
+| 10    | 2W8       |          |
+| 11    | 2W8       |          |
+| 12    | 2W8       |          |
+| 13    | 2W10      |          |
+| 14    | 2W10      |          |
+| 15    | 2W10      |          |
+| 16    | 2W10      |          |
+| 17    | 2W12      |          |
+| 18    | 2W12      |          |
+| 19    | 2W12      |          |
+| 20    | 2W12      |          |
+
+
 # Levels
 ### Level 1
 **Rage**

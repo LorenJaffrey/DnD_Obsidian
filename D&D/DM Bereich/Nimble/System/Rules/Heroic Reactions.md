@@ -17,4 +17,4 @@ Grant an ally advantage on a roll if you can reasonably explain to the GM how yo
 ---
 
 **Related**
-- [[Heroic Actions]]
+- [[Heroische Aktionen]]

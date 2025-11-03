@@ -1,7 +1,7 @@
 # Berserker
 - [[Berserker Description]]
-- [[Berserker Levels]]
-- [[Savage Arsenal]]
+- [[Berserker]]
+- [[Wildes Arsenal]]
 - [[Path of the Mountainheart]]
 - [[Path of the Red Mist]]
 # The Cheat

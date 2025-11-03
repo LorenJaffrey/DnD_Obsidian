@@ -41,7 +41,7 @@
 - [[Erzwungene Bewegung]]
 - [[Flunkies]]
 - [[Grappling]]
-- [[Heroic Actions]]
+- [[Heroische Aktionen]]
 - [[Heroic Reactions]]
 - [[Hit Dice]]
 - [[Hit Points, Dying & Wounds]]

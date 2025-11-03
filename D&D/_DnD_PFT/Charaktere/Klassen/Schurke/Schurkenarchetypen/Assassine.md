@@ -9,7 +9,7 @@ Du konzentrierst dein Training auf die grausame Kunst des Tötens. Es gibt sehr 
 |   3   | [[Zusätzliche Übung]] [[Attentat]] |
 |   9   | [[Infiltrationsexperte]]           |
 |  13   | [[Imitator]]                       |
-|  17   | [[Todesstoß]]                      |
+|  17   | [[_Todesstoß]]                      |
 
 ![[Zusätzliche Übung]]
 
@@ -19,4 +19,4 @@ Du konzentrierst dein Training auf die grausame Kunst des Tötens. Es gibt sehr 
 
 ![[Imitator]]
 
-![[Todesstoß]]
+![[_Todesstoß]]
