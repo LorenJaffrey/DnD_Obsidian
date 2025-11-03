@@ -1,9 +1,10 @@
 ---
 tags:
   - Regeln/PHB2024
-aliases: 
+aliases:
   - konzentrieren
 ---
+# `=this.file.name`
 Manche Zauber und andere Effekte erfordern [[Konzentration]], um aktiv zu bleiben. 
 Dies ist in ihrer Beschreibung angegeben.
 Wenn der Wirker des Effekts seine [[Konzentration]] verliert, endet der Effekt. 

@@ -33,7 +33,7 @@
 # Rules
 - [[Vorteil und Nachteil]]
 - [[Combat Structure]]
-- [[Konzentration]]
+
 - [[Conditions]]
 - [[Cover & Hiding]]
 - [[Downtime]]
@@ -43,8 +43,6 @@
 - [[Grappling]]
 - [[Heroische Aktionen]]
 - [[Heroic Reactions]]
-- [[Hit Dice]]
-- [[Hit Points, Dying & Wounds]]
 - [[Leveling Up]]
 - [[Measuring Spaces]]
 - [[Minions]]
@@ -56,7 +54,17 @@
 - [[Skill Checks and Saves]]
 - [[Skills]]
 - [[Speed]]
-- [[Spellcasting]]
+
 - [[Stats]]
 - [[Variant Rules]]
 - [[Wealth]]
+
+## Schaden und Heilung
+- [[Trefferwürfel]]
+- [[Trefferpunkte]]
+- [[Sterbend]]
+- [[Hit Points, Dying & Wounds]]
+
+## Zaubern
+- [[Spellcasting]]
+- [[Konzentration]]

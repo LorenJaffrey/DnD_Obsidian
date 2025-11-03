@@ -15,5 +15,5 @@ Kosten:
 Der Träger erhält +1,5 Meter (1 Kästchen) auf seine [[Bewegungsrate]] (dieser Bonus erhöht sich um +1,5 Meter (1 Kästchen) für jedes weitere Fragment des [[Tempestus Kristall|Tempestus Kristalls]] im Besitz des Trägers).
 
 **Geschwindigkeit des Windes**
-Der Träger ignoriert [[schwieriges Gelände]], das durch natürliche oder magische Winde erzeugt wird. 
+Der Träger ignoriert [[Schwieriges Gelände]], das durch natürliche oder magische Winde erzeugt wird. 
 Zusätzlich kann der Träger einmal pro Tag als [[Reaktion]] auf einen [[Fernkampfangriff]] auf sich selbst den Wind so manipulieren, dass der Angriff mit [[Vorteil und Nachteil|Nachteil]] gewürfelt wird.

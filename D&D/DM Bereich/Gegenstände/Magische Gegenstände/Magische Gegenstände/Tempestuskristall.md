@@ -29,7 +29,7 @@ Der Träger regeneriert zu Beginn seines [[Zug|Zuges]] 4 [[Trefferpunkte]].
 Der Träger erhält +6 Meter (4 Kästchen) auf seine [[Bewegungsrate]].
 
 **Geschwindigkeit des Windes**
-Der Träger ignoriert [[schwieriges Gelände]], das durch natürliche oder magische Winde erzeugt wird. 
+Der Träger ignoriert [[Schwieriges Gelände]], das durch natürliche oder magische Winde erzeugt wird. 
 Zusätzlich kann der Träger einmal pro Tag als [[Reaktion]] auf einen [[Fernkampfangriff]] auf sich selbst den Wind so manipulieren, dass der Angriff mit [[Vorteil und Nachteil|Nachteil]] gewürfelt wird.
 
 **Überspringen**
