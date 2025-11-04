@@ -1,28 +1,29 @@
 ---
-tags: 
+tags:
   - Regeln/PHB2024
-aliases: 
+aliases:
   - Attribut
   - Attributswert
 ---
 # `=this.file.name`
 
 ```dataview
-TABLE
+TABLE WITHOUT ID
+
+file.link AS "Attribut"
+
 FROM #Attribut
-```
 
-## Attributsmodifikator
-Attributswürfe sind nach dem [[Attribut]] benannt, dessen Modifikator sie verwenden: Stärkewurf, Intelligenzwurf und so fort. 
-Je nach Situation und relevantem Attribut sind unterschiedliche Attributswürfe erforderlich.
-
-```dynamic-embed
-[[embed Attributsmodifikator]]
+SORT file.name
 ```
 
 ## Attributswurf
-Ein Attributswurf repräsentiert den Versuch einer Kreatur, mithilfe ihrer Fähigkeiten und Kenntnisse eine Herausforderung zu meistern, beispielsweise eine verklemmte Tür aufzubrechen, ein Schloss zu knacken, ein Publikum zu unterhalten oder eine Geheimschrift zu entschlüsseln.
-Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte. 
+Attributswürfe sind nach dem [[Attribute|Attribut]] benannt, dessen Modifikator sie verwenden: Stärkewurf, Intelligenzwurf und so fort. 
+Je nach Situation und relevantem Attribut sind unterschiedliche Attributswürfe erforderlich.
+
+Ein Attributswurf repräsentiert den Versuch einer Kreatur, mithilfe ihrer Fähigkeiten und Kenntnisse eine Herausforderung zu meistern. 
+Beispielsweise eine verklemmte Tür aufzubrechen, ein Schloss zu knacken, ein Publikum zu unterhalten oder eine Geheimschrift zu entschlüsseln.
+Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte.
 Ist der Ausgang ungewiss und für die Geschichte interessant, so bestimmen die Würfel das Ergebnis.
 
 W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus

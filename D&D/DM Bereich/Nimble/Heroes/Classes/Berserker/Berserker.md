@@ -47,7 +47,6 @@ ODER
 
 **Saves:** STR+, INT-
 **Armor:** None
-**Weapons:** All STR Weapons
 **Starting Gear:** Battleaxe, Rations (meat), Rope (50 ft.)
 
 ---

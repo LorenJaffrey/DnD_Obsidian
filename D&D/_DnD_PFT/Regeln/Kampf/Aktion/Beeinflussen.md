@@ -9,7 +9,7 @@ aliases:
 # `=this.file.name`
 Mit der [[Beeinflussen|Beeinflussen-Aktion]] kannst du ein Monster zu etwas drängen. 
 Beschreibe oder stelle rollenspielerisch dar, wie du mit dem Monster kommunizierst. 
-Versuchst du, es zu [[täuschen]], [[Einschüchtern|einzuschüchtern]], zu [[Auftreten|amüsieren]] oder zu [[Überzeugen|überreden]]? 
+Versuchst du, es zu [[Täuschen]], [[Einschüchtern|einzuschüchtern]], zu [[Auftreten|amüsieren]] oder zu [[Überzeugen|überreden]]? 
 Der SL bestimmt dann, ob das Monster bereitwillig, nicht bereitwillig oder zögerlich auf deine Interaktion reagiert. Daraus ergibt sich, ob ein Attributswurf erforderlich ist, wie unten erläutert.
 
 ## Bereitwillig

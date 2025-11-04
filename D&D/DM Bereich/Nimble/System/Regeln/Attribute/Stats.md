@@ -9,8 +9,8 @@ Your agility, reflexes, and precision with blades or bows. Affects DEX weapon da
 ### Intelligence (INT)
 Your Intelligence reflects knowledge and reasoning across fields like the arcane, tactics, or street smarts. Affects languages, spellcasting, use of wands, spell scrolls, INT saves, as well as the Arcana, Examination, and Lore skills.
 ### Will (WIL)
-Your force of personality, courage, and wisdom. Will shapes your interactions with
-both nature and society. Affects spellcasting and WIL saves, as well as the Insight, Influence, Naturecraft, and Perception skills.
+Your force of personality, courage, and wisdom. Will shapes your interactions with both nature and society. 
+Affects spellcasting and WIL saves, as well as the Insight, Influence, Naturecraft, and Perception skills.
 
 ---
 

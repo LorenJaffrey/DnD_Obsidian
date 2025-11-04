@@ -1,6 +1,6 @@
 ---
 tags:
-  - Bewegung
+  - Regeln/Nimble
 ---
 # `=this.file.name`
 

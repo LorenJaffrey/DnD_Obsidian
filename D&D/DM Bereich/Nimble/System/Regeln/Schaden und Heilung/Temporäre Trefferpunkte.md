@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/PHB2024
-  - Regeln/Nible
+  - Regeln/Nimble
 aliases: 
   - Temporären Trefferpunkt
   - Temporärer Trefferpunkte
