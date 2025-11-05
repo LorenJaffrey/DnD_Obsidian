@@ -1,3 +1,8 @@
+---
+tags:
+  - Regeln/Nimble
+---
+
 # `=this.file.name`
 Wenn eine Kreatur oder ein Gegenstand Schaden erleidet, wird dieser von den aktuellen [[Trefferpunkte|Trefferpunkten]] abgezogen. 
 

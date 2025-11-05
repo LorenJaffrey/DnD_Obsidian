@@ -5,7 +5,7 @@ aliases:
 - großer
 tags:
   - Größenkategorie
-  - Regeln/PHB2024
+  - Regeln/Nimble
 BereichMeter: 3 x 3 m
 BereichQuadrate: 4 Quadrate (2x2)
 ---

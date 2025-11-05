@@ -7,16 +7,10 @@ aliases:
   - ST
 tags:
   - Attribut
-  - Regeln/PHB2024
+  - Regeln/Nimble
 ---
 # `=this.file.name`
-
 Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
-
-## Stärkemodifikator
-```dynamic-embed
-[[embed Attributsmodifikator]]
-```
 
 ## Verbundene Fertigkeiten
 ```dataview

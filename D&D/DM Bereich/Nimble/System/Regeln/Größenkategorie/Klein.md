@@ -1,7 +1,7 @@
 ---
 tags:
   - Größenkategorie
-  - Regeln/PHB2024
+  - Regeln/Nimble
 BereichMeter: 1,5 x 1,5 m
 BereichQuadrate: 1 Quadrat
 ---

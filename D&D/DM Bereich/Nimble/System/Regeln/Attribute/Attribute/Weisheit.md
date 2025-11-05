@@ -5,18 +5,12 @@ aliases:
   - WE
 tags:
   - Attribut
-  - Regeln/PHB2024
+  - Regeln/Nimble
 ---
 # `=this.file.name`
-
 Stellt dar wie gut du auf die Welt um dich herum eingestimmt bist.
 Repräsentiert Wahrnehmung und Intuition.
 Wird benötigt um Körpersprache oder Gefühle einer Person zu verstehen, Dinge in der Umgebung zu bemerken oder um Verletzte zu kümmern.
-
-## Weisheitsmodifikator
-```dynamic-embed
-[[embed Attributsmodifikator]]
-```
 
 ## Verbundene Fertigkeiten
 ```dataview

@@ -7,17 +7,11 @@ aliases:
   - INT
 tags:
   - Attribut
-  - Regeln/PHB2024
+  - Regeln/Nimble
 ---
 # `=this.file.name`
-
 Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
-Intelligenzwurf wird notwendig wenn Logik, Buildung, Gedächtnis oder deduktives Denken erforderlich sind.
-
-## Intelligenzmodifikator
-```dynamic-embed
-[[embed Attributsmodifikator]]
-```
+Intelligenzwurf wird notwendig wenn Logik, Bildung, Gedächtnis oder deduktives Denken erforderlich sind.
 
 ## Verbundene Fertigkeiten
 ```dataview
@@ -32,6 +26,3 @@ FROM #Fertigkeit/Intelligenz
 - ein Dokument fälschen
 - an das Wissen um ein Handwerk oder eine Zunft erinnern
 - einen Wettstreit in Fachwissen gewinnen
-
-## Attribut zum Zauberwirken
-[[Magier|Magier]] benutzen [[Intelligenz]] als [[Zauberattribut|Attribut zum Zauberwirken]] und bestimmen damit den [[Schwierigkeitsgrad]] des [[Zauberrettungswurf-Schwierigkeitsgrad]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].

@@ -5,12 +5,12 @@
 | Berserker    |  A  |     |  A  |     |     |     |  X  |
 | Zephyr       |     |     |  A  |     |  A  |     |  X  |
 | Commander    |  A  |     |     |     |     |  A  |  X  |
-| Shepherd     |  A  |     |     |     |  A  |     |     |
-| Oathsworn    |  A  |     |     |     |     |  A  |     |
+| Shepherd     |  A  |     |     |     |  A  |     |  X  |
+| Oathsworn    |  A  |     |     |     |     |  A  |  X  |
 | Cheat        |     |     |  A  |  A  |     |     |  X  |
 | Shadowmancer |     |     |     |  A  |     |  A  |  X  |
-| Hunter       |     |     |  A  |     |  A  |     |     |
-| Stormshifter |     |     |  A  |     |  A  |     |     |
+| Hunter       |     |     |  A  |     |  A  |     |  X  |
+| Stormshifter |     |     |  A  |     |  A  |     |  X  |
 | Mage         |     |     |     |  A  |  A  |     |  X  |
 | Songweaver   |     |     |     |  A  |     |  A  |  X  |
 
