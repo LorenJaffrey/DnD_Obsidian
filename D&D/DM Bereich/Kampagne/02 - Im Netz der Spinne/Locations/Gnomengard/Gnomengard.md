@@ -1,7 +1,7 @@
 # `=this.file.name`
 
 ##  Hintergrund
-- Gnomengard liegt südöstlich von Phandalin, in den Höhlen am Fuß eines Berges, durch den ein schmaler Wasserfall fließt.  
+- Gnomengard liegt südöstlich von [[Phandalin]], in den Höhlen am Fuß eines Berges, durch den ein schmaler Wasserfall fließt.  
     In den nebligen Höhlen wachsen zahlreiche Pilze, die den Gnomen Nahrung und Rohstoffe liefern.
     
 ### Bewohner  
