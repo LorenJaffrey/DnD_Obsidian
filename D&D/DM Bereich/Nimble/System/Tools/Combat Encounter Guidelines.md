@@ -33,6 +33,6 @@ While these ratios can vary, too many armored foes can bog down combat. Use armo
 ---
 
 **Related**
-- [[Combat Structure]]
+- [[Kampf]]
 - [[Running Monsters]]
 - [[Running Legendary Monsters]]

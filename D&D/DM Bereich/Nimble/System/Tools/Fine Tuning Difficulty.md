@@ -36,5 +36,5 @@ Start with an easier encounter and introduce minions in waves to dial in the cha
 ---
 
 **Related**
-- [[Combat Structure]]
+- [[Kampf]]
 - [[Combat Encounter Guidelines]]

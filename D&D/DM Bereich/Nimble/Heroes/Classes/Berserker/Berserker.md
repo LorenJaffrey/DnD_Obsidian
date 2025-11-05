@@ -51,28 +51,28 @@ ODER
 
 ---
 
-| Stufe | Wutwürfel | Merkmale |
-| ----- | --------- | -------- |
-| 1     | 1W4       | [[Wut]]  |
-| 2     | 1W4       |          |
-| 3     | 1W4       |          |
-| 4     | 1W4       |          |
-| 5     | 2W4       |          |
-| 6     | 2W6       |          |
-| 7     | 2W6       |          |
-| 8     | 2W6       |          |
-| 9     | 2W8       |          |
-| 10    | 2W8       |          |
-| 11    | 2W8       |          |
-| 12    | 2W8       |          |
-| 13    | 2W10      |          |
-| 14    | 2W10      |          |
-| 15    | 2W10      |          |
-| 16    | 2W10      |          |
-| 17    | 2W12      |          |
-| 18    | 2W12      |          |
-| 19    | 2W12      |          |
-| 20    | 2W12      |          |
+| Stufe | Wutwürfel | Merkmale                |
+| ----- | --------- | ----------------------- |
+| 1     | 1W4       | [[Wut]]                 |
+| 2     | 1W4       |                         |
+| 3     | 1W4       |                         |
+| 4     | 1W4       | Key Stat Increase       |
+| 5     | 2W4       | Secondary Stat Increase |
+| 6     | 2W6       |                         |
+| 7     | 2W6       |                         |
+| 8     | 2W6       | Key Stat Increase       |
+| 9     | 2W8       | Secondary Stat Increase |
+| 10    | 2W8       |                         |
+| 11    | 2W8       |                         |
+| 12    | 2W8       | Key Stat Increase       |
+| 13    | 2W10      | Secondary Stat Increase |
+| 14    | 2W10      |                         |
+| 15    | 2W10      |                         |
+| 16    | 2W10      | Key Stat Increase       |
+| 17    | 2W12      | Secondary Stat Increase |
+| 18    | 2W12      |                         |
+| 19    | 2W12      |                         |
+| 20    | 2W12      |                         |
 
 
 # Levels

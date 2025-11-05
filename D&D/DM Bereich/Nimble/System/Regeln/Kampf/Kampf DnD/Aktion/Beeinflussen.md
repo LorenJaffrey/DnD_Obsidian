@@ -25,7 +25,7 @@ In der Tabelle [[Beeinflussen#Attributswürfe zum Beeinflussen]] findest du Vors
 Der SL wählt den [[Attribute#Attributswurf]] aus.
 Dieser hat einen [[Schwierigkeitsgrad]] in Höhe von 15 oder dem [[Intelligenz|Intelligenzwert]] des Monsters, je nachdem, welcher Wert höher ist. 
 Bei einem [[Erfolg]] tut das Monster, was du willst. 
-Scheitert der Wurf, so musst du 24 Stunden (oder eine Dauer nach Vorgabe des SL) abwarten, ehe du erneut versuchen kannst, es auf diese Art zu [[beeinflussen]].
+Scheitert der Wurf, so musst du 24 Stunden (oder eine Dauer nach Vorgabe des SL) abwarten, ehe du erneut versuchen kannst, es auf diese Art zu [[Beeinflussen]].
 
 ## Attributswürfe zum Beeinflussen
 

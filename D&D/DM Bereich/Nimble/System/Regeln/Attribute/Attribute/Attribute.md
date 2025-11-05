@@ -18,15 +18,12 @@ SORT file.name
 ```
 
 ## Attributswurf
-Attributswürfe sind nach dem [[Attribute|Attribut]] benannt, dessen Modifikator sie verwenden: Stärkewurf, Intelligenzwurf und so fort. 
-Je nach Situation und relevantem Attribut sind unterschiedliche Attributswürfe erforderlich.
-
 Ein Attributswurf repräsentiert den Versuch einer Kreatur, mithilfe ihrer Fähigkeiten und Kenntnisse eine Herausforderung zu meistern. 
 Beispielsweise eine verklemmte Tür aufzubrechen, ein Schloss zu knacken, ein Publikum zu unterhalten oder eine Geheimschrift zu entschlüsseln.
 Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte.
 Ist der Ausgang ungewiss und für die Geschichte interessant, so bestimmen die Würfel das Ergebnis.
 
-W20 + [[Attribute#Attributsmodifikator]] + Bonus/Malus
+W20 + [[Attribute|Attributswert]] + Bonus/Malus
 Besonderer [[Erfolg]] oder [[Misserfolg]] für 5, 10, 15 Punkte unter/über [[Schwierigkeitsgrad|SG]]
 
 ### Kombinierte Würfe
@@ -41,17 +38,17 @@ Bei gewissen [[Attribute#Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]] k
 	- eine Hängebrücke vorsichtig überqueren oder drüber rennen
 - kann den Wurf erleichtern bzw. erschweren und oder [[Vorteil und Nachteil|Vorteil]]/[[Vorteil und Nachteil|Nachteil]] verleihen
 
-## Passiver Attributswurf 
-10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil|Vorteil]] (+5) + [[Vorteil und Nachteil|Nachteil]] (-5) + [[Übung|Übungsbonus]]
+### Passiver Attributswurf 
+10 + [[Attribute#Attributsmodifikator]] + [[Vorteil und Nachteil|Vorteil]] (+5) + [[Vorteil und Nachteil|Nachteil]] (-5)
 
-## Wettstreit
+### Wettstreit
 Gegeneinander gerichtete Attributswürfe (inkl Bonus/Malus und [[Attribute|Attributsmodifikator]])
 
-## Zusammenarbeit
+### Zusammenarbeit
 Verleiht [[Vorteil und Nachteil|Vorteil]] bei [[Attribute#Attributswurf]] wenn ein Charakter einen anderen unterstützt.
-Ein Charakter darf nur bei Tätigkeiten helfen die er auch alleine ausführen könnte.
+Ein Charakter darf nur bei Tätigkeiten helfen die er auch selbst ausführen könnte.
 Ein Charakter darf nur bei Tätigkeiten helfen bei denen dies auch Sinn macht.
 
-### Gruppenwürfe
+#### Gruppenwürfe
 Versuchen mehrere Spieler zusammen etwas zu vollbringen (z.B. zusammen einen Fels wegschieben) wird ein Gruppenwurf fällig.
 Jeder Spieler wirft einen W20. Sind mindestens 50% der Würfe erfolgreich gilt der Gruppenwurf als erfolgreich. Ansonsten versagt die ganze Gruppe.
