@@ -9,14 +9,14 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Minute
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Debuff]]"
 ---

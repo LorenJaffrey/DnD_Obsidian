@@ -10,13 +10,13 @@ Reichweite: 9 m (6 Kästchen)
 Verbal: true
 Geste: false
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: 8 Stunden
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"

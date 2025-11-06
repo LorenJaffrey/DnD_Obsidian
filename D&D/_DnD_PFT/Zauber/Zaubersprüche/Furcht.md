@@ -15,8 +15,8 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: AoE
 Klassen:
 Typ: "[[Beeinflussung]]"

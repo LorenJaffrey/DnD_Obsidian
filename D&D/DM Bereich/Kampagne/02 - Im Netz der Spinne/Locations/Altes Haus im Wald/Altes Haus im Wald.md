@@ -62,7 +62,7 @@ Mit dem Zauber [[Magie entdecken]] können Charaktere eine schwache Aura der Ver
 Als [[Aktion]] kann ein Charakter einen Kürbis aufschneiden. 
 Jeder enthält sechs Portionen Kerne. 
 Eine Kreatur, die als [[Aktion]] eine Portion Kürbiskerne isst, erhält einen [[Trefferpunkte|Trefferpunkt]] zurück. 
-Wenn eine Kreatur mehr als fünf Portionen isst, muss sie einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 12 ausführen, um nicht [[vergiftet]] zu werden.
+Wenn eine Kreatur mehr als fünf Portionen isst, muss sie einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 12 ausführen, um nicht [[Vergiftet]] zu werden.
 Dieser Effekt hält `dice:1d4` Stunden lang an.
 
 ### A2: Veranda und Balkon

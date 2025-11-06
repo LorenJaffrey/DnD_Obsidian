@@ -16,9 +16,9 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 10d6+40
-Schadensart: 
-Ziel: 
-Klassen: 
+Schadensart:
+Ziel:
+Klassen:
 Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed

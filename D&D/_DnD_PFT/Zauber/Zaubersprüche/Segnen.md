@@ -14,9 +14,9 @@ Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Buff]]"
 ---

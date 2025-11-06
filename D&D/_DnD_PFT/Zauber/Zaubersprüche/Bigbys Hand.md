@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
 Grad: 5
@@ -9,12 +9,12 @@ Reichweite: 36 Meter
 Verbal: true
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: bis zu 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Klassen: 
+Klassen:
 Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed

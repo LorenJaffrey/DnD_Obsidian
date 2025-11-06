@@ -16,7 +16,7 @@ Ritual: false
 Skalierbar: true
 Schaden: 10d8
 Schadensart: "[[Blitzschaden]]"
-Ziel: 
+Ziel:
 Klassen:
 Typ: "[[Offensivzauber]]"
 ---

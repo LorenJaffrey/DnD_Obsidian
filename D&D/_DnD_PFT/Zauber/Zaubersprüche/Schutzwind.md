@@ -10,13 +10,13 @@ Reichweite: Selbst
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"
@@ -31,7 +31,7 @@ Ein starker Wind (30 km/h) weht in einem Radius von 3 m (2 Kästchen) um dich he
 Der Wind verbleibt für die Wirkungsdauer des Zaubers.
 
 Der Wind hat folgende Effekte: 
-- Er macht dich und andere Kreaturen in seinem Bereich [[taub]]. 
+- Er macht dich und andere Kreaturen in seinem Bereich [[Taub]]. 
 - Er löscht ungeschützte Feuer in seinem Bereich die so groß sind wie Fackeln oder kleiner. 
 - Er hält Dampfe, Gase und Nebel ab, die von starken Winden verweht werden 
 - Der Bereich ist [[Schwieriges Gelände]] für jede Kreatur außer dir. 

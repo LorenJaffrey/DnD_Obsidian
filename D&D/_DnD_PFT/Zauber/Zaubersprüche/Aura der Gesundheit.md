@@ -10,14 +10,14 @@ Reichweite: Selbst (9 Meter)
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Minute
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
   - "[[Magier]]"
   - "[[Zauberer]]"

@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
 Grad: 2
@@ -14,9 +14,9 @@ Dauer: bis der Zauber gebannt wird
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
+Schaden:
 Schadensart:
-Ziel: 
+Ziel:
 Klassen:
 Typ: "[[Alltagsmagie]]"
 ---

@@ -10,13 +10,13 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"

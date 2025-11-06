@@ -15,9 +15,9 @@ Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Positionskontrolle]]"
 ---

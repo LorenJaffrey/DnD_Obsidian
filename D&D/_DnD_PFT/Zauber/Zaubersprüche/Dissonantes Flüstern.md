@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber
 Grad: 1
@@ -9,7 +9,7 @@ Reichweite: 18 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: true
 Ritual: false

@@ -10,7 +10,7 @@ Reichweite: Selbst
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false

@@ -10,7 +10,7 @@ Reichweite: Würfel 4,5 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false

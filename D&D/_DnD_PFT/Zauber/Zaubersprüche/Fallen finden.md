@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber
 Grad: 2
@@ -14,8 +14,8 @@ Dauer: Unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Selbst
 Klassen:
   - "[[Druide]]"

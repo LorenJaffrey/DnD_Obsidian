@@ -7,7 +7,7 @@ Stufe: 5
 ---
 # `=this.file.name`
 Du fügst deinem Schlag ein Toxin hinzu, welches das Ziel zu einem [[Rettungswurf]] auf [[Konstitution]] zwingt. 
-Bei einem [[Misserfolg]] ist die Kreatur eine Minute lang [[vergiftet]]. 
+Bei einem [[Misserfolg]] ist die Kreatur eine Minute lang [[Vergiftet]]. 
 Das vergiftete Ziel wiederholt den [[Rettungswurf]] am Ende jedes seiner [[Zug|Züge]]. 
 Bei einem [[Erfolg]] endet der Effekt.
 

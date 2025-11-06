@@ -14,9 +14,9 @@ Dauer: bis der Zauber gebannt wird
 Konzentration: true
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Beeinflussung]]"
 ---

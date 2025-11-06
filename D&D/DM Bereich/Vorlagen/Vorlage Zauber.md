@@ -11,7 +11,7 @@ Reichweite: Kegel 4,5 Meter
 Verbal: false
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false

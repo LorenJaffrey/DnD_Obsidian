@@ -15,8 +15,8 @@ Dauer: 8 Stunden
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"

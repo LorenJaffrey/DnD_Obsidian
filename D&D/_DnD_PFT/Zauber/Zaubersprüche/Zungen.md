@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - 
-tags: 
+tags:
   - Zauber
 Grad: 3
 Schule: "[[Erkenntniszauber|Erkenntnismagie]]"
@@ -15,8 +15,8 @@ Dauer: 1 Stunde
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
 Typ: "[[Analyse]]]"

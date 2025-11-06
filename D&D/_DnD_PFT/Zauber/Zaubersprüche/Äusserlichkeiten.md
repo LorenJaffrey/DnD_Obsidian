@@ -10,14 +10,14 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 8 Stunden
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Beeinflussung]]"
 ---

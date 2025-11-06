@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Mage Hand
-tags: 
+tags:
   - Zauber
 Grad: 0
 Schule: "[[Beschwörungszauber|Beschwörung]]"
@@ -10,13 +10,13 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Minute
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"

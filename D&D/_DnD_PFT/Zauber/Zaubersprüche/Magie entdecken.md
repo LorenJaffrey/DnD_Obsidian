@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Detect Magic
-tags: 
+tags:
   - Zauber
 Grad: 1
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
@@ -15,8 +15,8 @@ Dauer: 10m
 Konzentration: true
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Barde]]"

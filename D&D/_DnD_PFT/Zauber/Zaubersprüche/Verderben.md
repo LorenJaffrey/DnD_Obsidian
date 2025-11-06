@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Bane
-tags: 
+tags:
   - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
@@ -10,13 +10,13 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: 1m
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
   - "[[Barde]]"

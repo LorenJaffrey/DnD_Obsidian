@@ -1,6 +1,6 @@
 ---
-aliases: 
-tags: 
+aliases:
+tags:
   - Zauber
 Grad: 3
 Schule: "[[Verwandlungszauber|Verwandlung]]"
@@ -15,7 +15,7 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 1d4
-Schadensart: 
+Schadensart:
 Ziel:
 Klassen:
   - "[[Zauberer]]"

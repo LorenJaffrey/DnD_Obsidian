@@ -11,7 +11,7 @@ Reichweite: 18 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Runde
 Konzentration: false
 Ritual: false

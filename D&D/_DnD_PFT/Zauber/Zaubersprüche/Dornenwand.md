@@ -15,7 +15,7 @@ Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 7d8
-Schadensart: "[[Hiebschaden]]" 
+Schadensart: "[[Hiebschaden]]"
 Ziel: AoE
 Klassen:
 Typ: "[[Positionskontrolle]]"

@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Dimension Door
-tags: 
+tags:
   - Zauber
 Grad: 4
 Schule: "[[Beschwörungszauber|Beschwörung]]"
@@ -10,14 +10,14 @@ Reichweite: 150 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Fortbewegung]]"
 ---

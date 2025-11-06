@@ -3,8 +3,7 @@ tags:
   - Regeln/Nimble
 ---
 # `=this.file.name`
-
-Halbe [[Bewegungsrate]] in schwierigem Gelände.
+In [[Schwieriges Gelände|Schwierigem Gelände]] wird die [[Bewegungsrate]] halbiert.
 Beispiele:
 - niedrige Möbel
 - Geröll

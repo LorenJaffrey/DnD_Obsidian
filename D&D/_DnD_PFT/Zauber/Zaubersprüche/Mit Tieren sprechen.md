@@ -11,14 +11,14 @@ Reichweite: Selbst
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Minuten
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
   - "[[Barde]]"
   - "[[Druide]]"

@@ -11,13 +11,13 @@ Reichweite: Berührung
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
   - "[[Druide]]"

@@ -1,6 +1,6 @@
 ---
 tags:
-- Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
+  - Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
 SG: 14
 Stufe: 3
 Einsatz: "[[Aktion]]"
@@ -24,7 +24,7 @@ Durch diese Fokussierung wird der Radius des Schadens minimiert, während die Ze
 Die Implosionsgranate kann wie ein normaler Wurfgegenstand verwendet werden und hat eine [[Fernkampfangriff#Grundreichweite]] von 6 Metern (4 Kästchen) und eine [[Fernkampfangriff#Maximalreichweite]] von 12 Metern (8 Kästchen).
 Beim Aufprall entfaltet die Granate eine hochkonzentrierte Implosion, die `dice:5d8` [[Energieschaden]] verursacht.
 Die Implosion destabilisiert das Ziel, sodass es einen [[Rettungswurf]] auf [[Konstitution]] gegen deinen [[Mechanische Apparaturen#Apparatur-SG]] ablegen muss. 
-Bei einem [[Misserfolg]] erleidet es den vollen Schaden und ist bis zum Ende seiner nächsten Runde [[betäubt]]. 
+Bei einem [[Misserfolg]] erleidet es den vollen Schaden und ist bis zum Ende seiner nächsten Runde [[Betäubt]]. 
 Bei einem [[Erfolg]] erleidet es nur die Hälfte des Schadens.
 
 ### Auf höheren Stufen
@@ -35,4 +35,4 @@ Der Schaden erhöht sich wenn du höhere Stufen erreichst:
 
 ### Fehlzündung
 Die Granate implodiert in deiner Nähe, und du erleidest `dice:2d8` [[Energieschaden]]. 
-Zudem bist du für eine [[Runde]] [[betäubt]], während du dich von dem Schock erholst. 
+Zudem bist du für eine [[Runde]] [[Betäubt]], während du dich von dem Schock erholst. 

@@ -1,6 +1,6 @@
 ---
 tags:
-- Merkmal
+  - Merkmal
 Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`

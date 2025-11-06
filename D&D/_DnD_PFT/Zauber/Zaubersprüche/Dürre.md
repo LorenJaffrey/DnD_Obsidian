@@ -9,14 +9,14 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: true
 Ritual: false
 Skalierbar: true
 Schaden: 8d8
 Schadensart: "[[Nekrotischer Schaden]]"
-Ziel: 
+Ziel:
 Klassen:
 Typ: "[[Offensivzauber]]"
 ---

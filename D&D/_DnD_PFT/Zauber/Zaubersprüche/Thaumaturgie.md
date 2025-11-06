@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Thaumaturgy
-tags: 
+tags:
   - Zauber
   - Regeln/PHB2024
 Grad: 0
@@ -11,7 +11,7 @@ Reichweite: 9 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1 Minute
 Konzentration: false
 Ritual: false

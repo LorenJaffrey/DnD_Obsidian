@@ -1,6 +1,6 @@
 ---
-aliases: 
-tags: 
+aliases:
+tags:
   - Zauber
 Grad: 5
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
@@ -14,9 +14,9 @@ Dauer: 10m
 Konzentration: true
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
+Schaden:
+Schadensart:
+Ziel:
 Klassen:
 Typ: "[[Unterstützung]]"
 ---

@@ -15,8 +15,8 @@ Dauer: 1 Stunde
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Druide]]"

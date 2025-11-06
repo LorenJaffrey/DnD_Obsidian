@@ -1,6 +1,6 @@
 ---
 tags:
-- Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
+  - Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
 SG: 12
 Stufe: 3
 Einsatz: "[[Aktion]]"

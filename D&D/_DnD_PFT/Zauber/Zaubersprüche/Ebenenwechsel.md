@@ -14,9 +14,9 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
+Schaden:
 Schadensart:
-Ziel: 
+Ziel:
 Klassen:
 Typ: "[[Fortbewegung]]"
 ---

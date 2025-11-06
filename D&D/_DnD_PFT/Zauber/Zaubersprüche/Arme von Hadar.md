@@ -10,7 +10,7 @@ Reichweite: Radius 3 Meter
 Verbal: true
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: true
 Ritual: true

@@ -15,4 +15,4 @@ Der zusätzliche Schaden ist von der gleichen [[Schadensarten|Schadensart]] wie 
 
 Außerdem muss eine der folgenden Bedingungen erfüllt sein:
 - du musst beim [[Angriffswurf]] im [[Vorteil und Nachteil|Vorteil]] sein.
-- ein anderer Gegner des Ziels muss sich innerhalb von 1,50 m um dieses befinden, nicht [[kampfunfähig]] sein und du darfst beim [[Angriffswurf]] nicht im [[Vorteil und Nachteil|Nachteil]] sein.
+- ein anderer Gegner des Ziels muss sich innerhalb von 1,50 m um dieses befinden, nicht [[Kampfunfähig]] sein und du darfst beim [[Angriffswurf]] nicht im [[Vorteil und Nachteil|Nachteil]] sein.

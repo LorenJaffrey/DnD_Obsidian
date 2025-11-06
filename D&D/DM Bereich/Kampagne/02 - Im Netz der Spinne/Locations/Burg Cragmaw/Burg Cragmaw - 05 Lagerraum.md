@@ -9,7 +9,7 @@ Auch wenn die Vorräte hier nach menschlichen Standards nicht essbar sind, könn
 
 Ein kleines Fass ist mit einem hervorragenden zwergischen Branntwein gefüllt, doch die Goblins haben es aufgrund seiner Größe übersehen. 
 Das Fass beinhaltet die Entsprechung von zwanzig Gläsern. 
-Ein Charakter, der ein Glas Branntwein trinkt, erhält einen [[Trefferpunkte|Trefferpunkt]] zurück, aber wenn ein Charakter zwei Gläser innerhalb einer Stunde trinkt, gilt er für 1 Stunde als [[vergiftet]].
+Ein Charakter, der ein Glas Branntwein trinkt, erhält einen [[Trefferpunkte|Trefferpunkt]] zurück, aber wenn ein Charakter zwei Gläser innerhalb einer Stunde trinkt, gilt er für 1 Stunde als [[Vergiftet]].
 
 ## Sildars Ausrüstung
 Das [[Kettenhemd]] und [[Langschwert]] gehören [[Sildar Hallwinter]]. 

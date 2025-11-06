@@ -10,13 +10,13 @@ Reichweite: 150 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
 Typ: "[[Fortbewegung]]"

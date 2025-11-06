@@ -1,7 +1,7 @@
 *Die Mächte der Natur erlauben dir, die Gestalt eines Tieres anzunehmen.*
 
 Als [[Bonusaktion]] nimmst du eine Tiergestalt an, die du für dieses Merkmal erlernt hast (siehe „Bekannte Gestalten" unten). 
-Du bleibst für eine Anzahl von Stunden in Höhe der Hälfte deiner Druidenstufe in dieser Gestalt, oder bis du [[Tiergestalt]] erneut wirkst, [[kampfunfähig]] wirst oder stirbst. 
+Du bleibst für eine Anzahl von Stunden in Höhe der Hälfte deiner Druidenstufe in dieser Gestalt, oder bis du [[Tiergestalt]] erneut wirkst, [[Kampfunfähig]] wirst oder stirbst. 
 Du kannst die Gestalt auch als [[Bonusaktion]] vorzeitig aufgeben.
 
 ## Anzahl der Anwendungen

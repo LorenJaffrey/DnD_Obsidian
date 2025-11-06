@@ -10,7 +10,7 @@ Reichweite: 45 Meter
 Verbal: true
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false

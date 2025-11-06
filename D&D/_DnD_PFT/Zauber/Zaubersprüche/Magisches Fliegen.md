@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
@@ -15,10 +15,10 @@ Dauer: 10 Minuten
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
-Ziel: 
-Klassen: 
+Schaden:
+Schadensart:
+Ziel:
+Klassen:
 Typ: "[[Fortbewegung|Move]]"
 ---
 

@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Disguise Self
-tags: 
+tags:
   - Zauber
 Grad: 1
 Schule: "[[Illusionszauber|Illusion]]"
@@ -10,13 +10,13 @@ Reichweite: selbst
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1h
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
   - "[[Barde]]"

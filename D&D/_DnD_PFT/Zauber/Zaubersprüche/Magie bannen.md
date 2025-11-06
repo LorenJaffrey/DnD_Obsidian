@@ -10,15 +10,15 @@ Reichweite: 36 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
-Klassen: 
+Klassen:
 Typ: "[[Defensivzauber]]"
 ---
 ``` dynamic-embed

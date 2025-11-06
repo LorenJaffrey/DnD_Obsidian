@@ -69,7 +69,7 @@ Wenn er eingekesselt ist oder sich eingekesselt fühlt, wird er noch irrer und v
 
 ## Verhalten im Kampf
 Sobald der Kampf beginnt, wenn der [[Nothics|Nothic]] als erster [[Initiative]] hat, wird er seine [[Verfaulender Blick|Verfaulenden Blick]] als [[Reaktion]] bereithalten, um sie gegen den ersten PC einzusetzen, der sich ihm auf 6m (4 Kästchen) nähert. 
-Andernfalls wird er [[Ausweichen]] (er hat nicht das Kampftraining, um zu wissen, wie er sich [[Rückzug|zurückziehen]] kann) und sich von den angreifenden PCs wegbewegen, um an einem Ort maximaler Deckung zu bleiben. 
+Andernfalls wird er [[_Ausweichen]] (er hat nicht das Kampftraining, um zu wissen, wie er sich [[Rückzug|zurückziehen]] kann) und sich von den angreifenden PCs wegbewegen, um an einem Ort maximaler Deckung zu bleiben. 
 Nur wenn er keinen Platz zum Weglaufen hat, setzt er seinen doppelten Klauenangriff gegen einen Nahkämpfer ein. 
 Wenn dieser Angreifer auf 0 [[Trefferpunkte]] reduziert wird und andere Feinde ihn aus der Ferne angreifen, setzt er seinen [[Verfaulender Blick|Verfaulenden Blick]] gegen jeden von ihnen ein, der sich innerhalb von 9m (6 Kästchen) von ihm befindet, und versucht dann, eine neue Fluchtroute zu finden.
 

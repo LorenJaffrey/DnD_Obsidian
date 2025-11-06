@@ -10,15 +10,15 @@ Reichweite: Selbst
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Minuten
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
-Ziel: 
-Klassen: 
+Schaden:
+Schadensart:
+Ziel:
+Klassen:
 Typ: "[[Beeinflussung|Geist]]"
 ---
 ``` dynamic-embed

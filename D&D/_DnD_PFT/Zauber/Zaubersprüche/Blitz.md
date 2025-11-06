@@ -18,7 +18,7 @@ Schaden: 8d6
 Schadensart: "[[Blitzschaden]]"
 Ziel: Linie
 Rettungswurf: "[[Geschicklichkeit|GES]]"
-Klassen: 
+Klassen:
 Typ: "[[Offensivzauber|Angriff]]"
 ---
 ``` dynamic-embed

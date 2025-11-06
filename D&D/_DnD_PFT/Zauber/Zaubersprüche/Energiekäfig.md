@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber/Offensiv
 Grad: 7
@@ -14,9 +14,9 @@ Dauer: 1 Stunde
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
+Schaden:
 Schadensart:
-Ziel: 
+Ziel:
 Klassen:
 Typ: "[[Positionskontrolle]]"
 ---

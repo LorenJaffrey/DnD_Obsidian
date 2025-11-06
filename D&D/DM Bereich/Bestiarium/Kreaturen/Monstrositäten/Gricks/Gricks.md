@@ -41,7 +41,7 @@ Allerdings birgt diese Taktik einen Nachteil: Ein Gegner, der den Grick in eine 
 Deshalb wird der [[Gricks|Grick]] diesen Versuch wohl gar nicht erst unternehmen. 
 Sobald er sich offenbart hat, bleibt er im Nahkampf, bis er siegt oder fliehen muss.
 
-Wenn ein [[Gricks|Grick]] seinen Gegner [[bewusstlos]] schlägt, wird er normalerweise versuchen, ihn in seinen Bau zu schleppen, indem er ihn mit seinen Tentakeln umklammert und wegzieht. 
+Wenn ein [[Gricks|Grick]] seinen Gegner [[Bewusstlos]] schlägt, wird er normalerweise versuchen, ihn in seinen Bau zu schleppen, indem er ihn mit seinen Tentakeln umklammert und wegzieht. 
 Überirdisch kann dies problematisch sein, da viele Felsspalten zu klein für das Opfer sind. 
 In solchen Fällen wird der [[Gricks|Grick]] versuchen, das Opfer in eine Höhle, einen Bau oder einen abgelegenen Ort im Wald zu bringen, wo er ungestört fressen kann. 
 Er kämpft nicht um des Kämpfens willen – er jagt, um zu fressen. 

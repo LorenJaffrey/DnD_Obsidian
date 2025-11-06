@@ -1,7 +1,7 @@
 ---
 aliases:
 tags:
-- Merkmal/Klasse/Druide
+  - Merkmal/Klasse/Druide
 Einsatz: "[[Aktion]]"
 ---
 # `=this.file.name`

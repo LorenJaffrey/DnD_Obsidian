@@ -16,7 +16,7 @@ Wenn ein Charakter eine Puppe zerlegt, findet er darin ein noch schlagendes Schw
 Wird dem Herzen Schaden zugefügt, hört es auf zu schlagen und die Wurzeln des toten Baumes werden auf magische Weise belebt und brechen aus dem Boden hervor.
 
 Kreaturen auf der Lichtung müssen einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 12 ausführen, um auszuweichen. 
-Misslingt dieser, erleiden sie `dice:2d4` [[Wuchtschaden]] und werden [[festgesetzt]]. 
+Misslingt dieser, erleiden sie `dice:2d4` [[Wuchtschaden]] und werden [[Festgesetzt]]. 
 Die Kreaturen erleiden diesen Schaden zu Beginn jedes Zugs erneut, bis sie befreit werden. 
 Eine Kreatur kann eine Aktion verwenden, um sich selbst oder eine andere Kreatur in ihrer Reichweite mit einem erfolgreichen Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 15 zu befreien. 
 Dies ist auch möglich, wenn mit einem einzigen [[Nahkampfangriff]] mindestens fünf Punkte [[Hiebschaden]] verursacht werden. 

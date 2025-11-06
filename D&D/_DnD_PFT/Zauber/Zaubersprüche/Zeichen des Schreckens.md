@@ -10,16 +10,16 @@ Reichweite: 12 Meter
 Verbal: true
 Geste: true
 Material: true
-Materialkosten: 
+Materialkosten:
 Dauer: 1m
 Konzentration: true
 Ritual: false
 Skalierbar: true
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
-- "[[Hexenmeister]]"
+  - "[[Hexenmeister]]"
 Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed

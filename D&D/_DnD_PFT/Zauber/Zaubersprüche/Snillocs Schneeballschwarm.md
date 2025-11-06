@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 3d6
-Schadensart: 
+Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Zauberer]]"

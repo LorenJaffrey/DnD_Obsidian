@@ -1,7 +1,7 @@
 ---
-aliases: 
+aliases:
   - Message
-tags: 
+tags:
   - Zauber
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
@@ -15,8 +15,8 @@ Dauer: 1 Runde
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Zauberer]]"

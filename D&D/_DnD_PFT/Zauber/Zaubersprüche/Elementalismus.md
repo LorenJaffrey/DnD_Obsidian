@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Zauber
   - Regeln/PHB2024
@@ -15,8 +15,8 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
   - "[[Zauberer]]"

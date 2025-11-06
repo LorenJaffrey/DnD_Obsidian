@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - Merkmal/Spezies/Drachenblütiger
   - Regeln/PHB2024

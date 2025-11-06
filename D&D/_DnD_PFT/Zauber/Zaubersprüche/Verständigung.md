@@ -14,7 +14,7 @@ Dauer: 1 Runde
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
+Schaden:
 Schadensart:
 Ziel:
 Klassen:
