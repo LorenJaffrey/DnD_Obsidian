@@ -6,7 +6,7 @@ gewicht: 5
 ---
 *Holzschnitzwerkzeuge eignen sich zum Schnitzen von kunstvollen Holzgegenständen, beispielsweise hölzerne Erinnerungsstücke oder Pfeile.*
 
-Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Identifikation, Herstellung, Bearbeitung und Reparatur von Holz und Holzarbeiten in Verbindung steht.
+Bist du im Umgang mit diesem Werkzeug [[_Übung|geübt]], darfst du deinen [[_Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Identifikation, Herstellung, Bearbeitung und Reparatur von Holz und Holzarbeiten in Verbindung steht.
 
 ## Bestandteile
 Das Holzschnitzwerkzeug besteht aus diversen Schnitzmessern und Hohlmeißeln, einem Hobel und einer kleinen Säge, sowie einem kleinen Topf Leim.

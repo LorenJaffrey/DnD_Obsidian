@@ -7,7 +7,7 @@ gewicht: 2
 # `=this.file.name`
 *Die Giftmischerausrüstung ist besonders beliebt bei Dieben, Meuchelmördern und anderen, die Böses im Schilde führen. Die Ausrüstung ermöglicht dir, Gifte anzuwenden und aus verschiedenen Materialien herzustellen. Dein Wissen über Gifte hilft dir auch bei der Behandlung ihrer Auswirkungen.*
 
-Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Herstellung, Anwendung, Identifikation und Behandlung von Giften in Verbindung steht.
+Bist du im Umgang mit diesem Werkzeug [[_Übung|geübt]], darfst du deinen [[_Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Herstellung, Anwendung, Identifikation und Behandlung von Giften in Verbindung steht.
 
 ## Bestandteile
 Zu der Ausrüstung eines Giftmischers gehören Glasphiolen, ein Mörser und Stößel, Chemikalien und ein Glasstab zum Umrühren.

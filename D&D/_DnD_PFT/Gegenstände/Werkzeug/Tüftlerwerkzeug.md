@@ -5,7 +5,7 @@ kosten: 50 GM
 gewicht: 10
 ---
 *Die Tüftlerwerkzeuge ermöglichen dir die Reparatur vieler alltäglicher und außergewöhnlicher Apparaturen und Gerätschaften.*
-Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Herstellung, Wartung und Manipulation von Maschinen und Gerätschaften in Verbindung steht.
+Bist du im Umgang mit diesem Werkzeug [[_Übung|geübt]], darfst du deinen [[_Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit der Herstellung, Wartung und Manipulation von Maschinen und Gerätschaften in Verbindung steht.
 
 ### Bestandteile
 Tüftlerwerkzeuge bestehen aus einer Reihe von Handwerkzeugen wie Schraubenzieher, Schraubenschlüssel und Zangen, einem Hammer, einem Messer, einer kleine Säge, einer Feile, sowie Faden, Nadeln, Stoff-und Lederresten und einem kleinen Topf Leim.

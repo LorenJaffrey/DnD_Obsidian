@@ -17,14 +17,14 @@ Jede [[Apparaturen|Apparatur]] hat einen eigenen [[Schwierigkeitsgrad]] basieren
 Bei einem [[Misserfolg]] tritt ein Fehlzündungs-Effekt auf, der bei der jeweiligen [[Apparaturen|Apparatur]] vermerkt ist.
 
 >[!info] Tüftlerwurf
->W20 + dein [[Übung|Übungsbonus]] für [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
+>W20 + dein [[_Übung|Übungsbonus]] für [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
 
 ## Apparatur-SG
 Manche deiner [[Apparaturen]] erfordern von deinem Ziel einen [[Rettungswurf]], um den Auswirkungen der [[Apparaturen]] zu widerstehen. 
 Der [[Schwierigkeitsgrad]] des [[Rettungswurf|Rettungswurfs]] wird folgendermaßen berechnet:
 
 >[!info] Apparatur-SG
->8 + dein [[Übung|Übungsbonus]] für [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
+>8 + dein [[_Übung|Übungsbonus]] für [[Tüftlerwerkzeug]] + dein [[Intelligenz#Intelligenzmodifikator]]
 
 ## Apparaturen
 ```dataview

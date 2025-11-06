@@ -134,7 +134,7 @@ Persönlichkeit:
 
 `$=dv.page(if(dv.current().Hintergrund.Gesinnung.Ordnung>1){"Rechtschaffen"+" "+"Neutral"}else if(dv.current().Hintergrund.Gesinnung.Ordnung<-1){"Chaotisch"}else{"Neutral"})`
 
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
+[[_Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 [[Glück|Glückspunkte]]: `=this.Glück`
 [[Erschöpft|Erschöpfung]]: `=this.Erschöpfung`

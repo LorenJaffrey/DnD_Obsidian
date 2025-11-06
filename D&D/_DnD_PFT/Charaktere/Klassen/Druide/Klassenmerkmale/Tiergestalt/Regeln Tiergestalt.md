@@ -31,8 +31,8 @@ Wenn du [[Tiergestalt]] annimmst, erhältst du eine Anzahl von [[Temporäre Tref
 
 ### Spielwerte
 Deine Spielwerte werden durch den Wertekasten des Tieres ersetzt, aber du behältst deinen [[Kreaturtypen|Kreaturtyp]], deine [[Trefferpunkte]], deine [[Trefferwürfel]], deine Werte für [[Intelligenz]], [[Weisheit]] und [[Charisma]], deine Klassenmerkmale, deine [[Sprachen]] und deine Talente bei. 
-Außerdem behältst du [[Übung]] in [[Fertigkeiten]] und [[Rettungswurf|Rettungswürfen]] bei und wendest deinen entsprechenden [[Übung|Übungsbonus]] an. 
-[[Übung]] der Kreatur kommen noch dazu. Wenn ein Fertigkeits- oder Rettungswurfmodifikator im Wertekasten des Tieres höher als deiner ist, verwendest du den im Wertekasten.
+Außerdem behältst du [[_Übung]] in [[Fertigkeiten]] und [[Rettungswurf|Rettungswürfen]] bei und wendest deinen entsprechenden [[_Übung|Übungsbonus]] an. 
+[[_Übung]] der Kreatur kommen noch dazu. Wenn ein Fertigkeits- oder Rettungswurfmodifikator im Wertekasten des Tieres höher als deiner ist, verwendest du den im Wertekasten.
 
 ### Kein Zauberwirken
 Du kannst keine [[Zauber wirken]], aber der Gestaltwandel unterbricht nicht deine [[Konzentration]] oder beeinträchtigt auf andere Weise einen Zauber, den du bereits gewirkt hast.

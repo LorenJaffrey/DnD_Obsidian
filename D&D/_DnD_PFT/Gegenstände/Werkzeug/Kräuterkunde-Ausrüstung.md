@@ -6,7 +6,7 @@ gewicht: 8
 ---
 *Wenn du im Umgang mit der Kräuterkunde-Ausrüstung geübt bist, kannst du Pflanzen identifizieren und ihre nützlichen Teile gefahrlos ernten.*
 
-Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit dem Anwenden und Identifizieren von Kräutern sowie dem Herstellen von Gegengiften und Heiltränken in Verbindung steht.
+Bist du im Umgang mit diesem Werkzeug [[_Übung|geübt]], darfst du deinen [[_Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit dem Anwenden und Identifizieren von Kräutern sowie dem Herstellen von Gegengiften und Heiltränken in Verbindung steht.
 
 ### Bestandteile
 Eine Kräuterkunde-Ausrüstung enthält Beutel zur Aufbewahrung von Kräutern, eine Schere und Lederhandschuhe zum Sammeln von Kräutern, eine Pinzette, einen Mörser mit Stößel und mehrere Glasgefäße.

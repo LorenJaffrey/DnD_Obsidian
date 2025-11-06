@@ -115,7 +115,7 @@ Das an der Südküste der Inneren See beheimatete Volk der Turami ist im Allgeme
 - 9 Meter
 
 ### Volksmerkmale
-- [[Übung]] in einer beliebigen [[Fertigkeiten|Fertigkeit]]
+- [[_Übung]] in einer beliebigen [[Fertigkeiten|Fertigkeit]]
 - beliebiges [[Talente|Talent]]
 
 ### Alter

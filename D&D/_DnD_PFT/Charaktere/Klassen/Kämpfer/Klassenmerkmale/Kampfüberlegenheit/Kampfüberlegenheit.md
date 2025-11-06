@@ -20,7 +20,7 @@ Manche deiner Manöver erfordern von deinem Ziel einen [[Rettungswurf]], um den 
 Der [[Schwierigkeitsgrad]] des [[Rettungswurf]]s wird folgendermaßen berechnet:
 
 >[!info] [[Schwierigkeitsgrad|SG]] für [[Rettungswurf]] gegen [[Kampfüberlegenheit#Manöver]]
->8 + dein [[Übung|Übungsbonus]] + dein [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (nach Wahl)
+>8 + dein [[_Übung|Übungsbonus]] + dein [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (nach Wahl)
 
 ## Manöver
 ```dataview

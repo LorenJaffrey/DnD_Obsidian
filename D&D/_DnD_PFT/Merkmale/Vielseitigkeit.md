@@ -5,4 +5,4 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Du bist [[Übung|geübt]] in zwei [[Fertigkeiten]] deiner Wahl.
+Du bist [[_Übung|geübt]] in zwei [[Fertigkeiten]] deiner Wahl.

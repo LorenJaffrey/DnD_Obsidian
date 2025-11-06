@@ -42,8 +42,8 @@ Wird der [[Schwierigkeitsgrad]] für einen [[Rettungswurf]] gegen deine Druidenz
 Bei Angriffen mit deinen Zaubern findet ebenfalls der [[Weisheit#Weisheitsmodifikator]] Anwendung.
 
 >[!info]
->**[[Schwierigkeitsgrad]] für [[Rettungswurf|Rettungswürfe]]** = 8 + [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
->**Modifikator für Zauberangriffe** = [[Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
+>**[[Schwierigkeitsgrad]] für [[Rettungswurf|Rettungswürfe]]** = 8 + [[_Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
+>**Modifikator für Zauberangriffe** = [[_Übung|Übungsbonus]] + [[Weisheit#Weisheitsmodifikator]]
 
 ## Zauberfokus
 Du kannst einen [[Druidischer Fokus|Druidischen Fokus]] als [[Zauberfokus]] für deine Druidenzauber verwenden.

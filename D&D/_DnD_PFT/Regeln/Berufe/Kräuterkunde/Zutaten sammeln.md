@@ -3,8 +3,8 @@ Jeder Versuch, Zutaten zu sammeln, dauert 1 Stunde Zeit, wobei die Verfügbarkei
 
 Um Pflanzen zu finden und  zu ernten musst du einen Wurf auf [[Naturkunde]] ablegen.
 Der [[Schwierigkeitsgrad|SG]] basiert auf der Umgebung gemäß der untenstehenden Tabelle. 
-Wenn du nicht [[Übung|geübt]] in [[Naturkunde]] bist, füge deinen [[Übung|Übungsbonus]] für die [[Kräuterkunde-Ausrüstung]] zum Wurf hinzu.
-Wenn du [[Übung|geübt]] in [[Naturkunde]] bist erhältst du [[Vorteil und Nachteil|Vorteil]] auf den Wurf.
+Wenn du nicht [[_Übung|geübt]] in [[Naturkunde]] bist, füge deinen [[_Übung|Übungsbonus]] für die [[Kräuterkunde-Ausrüstung]] zum Wurf hinzu.
+Wenn du [[_Übung|geübt]] in [[Naturkunde]] bist erhältst du [[Vorteil und Nachteil|Vorteil]] auf den Wurf.
 
 Wenn du den Wurf bestehst erntest du erfolgreich eine Pflanze.
 Für jeden Grad des [[Erfolg|Erfolgs]] erntest du eine weitere Pflanze.

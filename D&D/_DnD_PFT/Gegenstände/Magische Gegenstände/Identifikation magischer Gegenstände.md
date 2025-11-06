@@ -31,7 +31,7 @@ Tränke sind eine Ausnahme; bereits ein kleiner Schluck reicht aus, um dem Probi
 
 ### Arkane Kunde
 [[Arkane Kunde]] stellt das Wissen des Charakters in arkanen Dingen dar. Dies erstreckt sich natürlich auch auf das Identifizieren magischer Gegenstände.
-Ein Charakter benötigt [[Übung]] in [[Arkane Kunde]] um zu versuchen einen Gegenstand auf diese Weise zu identifizieren. Für eine erfolgreiche Identifikation muss dem Charakter dann einen Wurf auf [[Arkane Kunde]] mit [[Vorteil und Nachteil|Nachteil]] gegen den entsprechenden [[Identifikation magischer Gegenstände#Magische Gegenstände Seltenheit SG]] gelingen.
+Ein Charakter benötigt [[_Übung]] in [[Arkane Kunde]] um zu versuchen einen Gegenstand auf diese Weise zu identifizieren. Für eine erfolgreiche Identifikation muss dem Charakter dann einen Wurf auf [[Arkane Kunde]] mit [[Vorteil und Nachteil|Nachteil]] gegen den entsprechenden [[Identifikation magischer Gegenstände#Magische Gegenstände Seltenheit SG]] gelingen.
 Gegenstände die Einstimmung benötigen können nicht auf diese Weise identifiziert werden.
 Diese Methode der Identifikation kann nicht wiederholt werden. Scheitert ein Charakter bei der Identifikation mithilfe von [[Arkane Kunde]], kann er es nicht erneut versuchen.
 

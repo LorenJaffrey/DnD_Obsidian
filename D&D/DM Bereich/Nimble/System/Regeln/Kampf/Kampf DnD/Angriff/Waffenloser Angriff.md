@@ -17,5 +17,5 @@ Wann immer du deinen [[Waffenloser Angriff|Waffenlosen Angriff]] einsetzt, wähl
 
 ## Schaden
 Du führst einen [[Angriffswurf]] gegen das Ziel aus. 
-Dein Bonus auf den Wurf entspricht deinem [[Stärke#Stärkemodifikator]] plus deinem [[Übung|Übungsbonus]]. 
+Dein Bonus auf den Wurf entspricht deinem [[Stärke#Stärkemodifikator]] plus deinem [[_Übung|Übungsbonus]]. 
 Bei einem Treffer erleidet das Ziel Wuchtschaden in Höhe von 1 plus deinem Stärkemodifikator.

@@ -5,4 +5,4 @@ tags:
 ---
 # `=this.file.name`
 
-Du erhältst [[Übung]] mit [[Tüftlerwerkzeug]] und einem weiteren [[Werkzeuge]] deiner Wahl.
+Du erhältst [[_Übung]] mit [[Tüftlerwerkzeug]] und einem weiteren [[Werkzeuge]] deiner Wahl.

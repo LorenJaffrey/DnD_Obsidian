@@ -5,4 +5,4 @@ tags:
 ---
 # `=this.file.name`
 
-Du erhältst [[Übung]] in der Anwendung eines [[Werkzeuge]]s deiner Wahl.
+Du erhältst [[_Übung]] in der Anwendung eines [[Werkzeuge]]s deiner Wahl.

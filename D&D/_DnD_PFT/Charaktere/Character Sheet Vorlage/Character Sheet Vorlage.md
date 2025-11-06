@@ -154,7 +154,7 @@ InputData:
 |:--------------------------:|:-------------------------:|
 | `BUTTON[shortBreakButton]` | `BUTTON[longBreakButton]` |
 
-[[Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
+[[_Übung|Übungsbonus]]:  `=ceil(this.Stufe/4)+1`
 [[Initiative|Initiativebonus]]: `=floor(((this.Attribute.Geschicklichkeit)-10)/2)`
 
 | Eigenschaft  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |

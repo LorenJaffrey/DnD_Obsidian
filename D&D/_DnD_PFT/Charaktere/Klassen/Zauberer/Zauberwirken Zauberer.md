@@ -43,5 +43,5 @@ Wird der [[Schwierigkeitsgrad]] für einen [[Rettungswurf]] gegen deine Zauber b
 Bei Angriffen mit deinen Zaubern findet ebenfalls der [[Charisma#Charismamodifikator]] Anwendung.
 
 >[!info]
->**[[Schwierigkeitsgrad]] für [[Rettungswurf|Rettungswürfe]]** = 8 + [[Übung|Übungsbonus]] + [[Charisma#Charismamodifikator]]
->**Modifikator für Zauberangriffe** = [[Übung|Übungsbonus]] + [[Charisma#Charismamodifikator]]
+>**[[Schwierigkeitsgrad]] für [[Rettungswurf|Rettungswürfe]]** = 8 + [[_Übung|Übungsbonus]] + [[Charisma#Charismamodifikator]]
+>**Modifikator für Zauberangriffe** = [[_Übung|Übungsbonus]] + [[Charisma#Charismamodifikator]]

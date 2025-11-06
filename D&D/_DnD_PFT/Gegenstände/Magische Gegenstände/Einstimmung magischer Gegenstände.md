@@ -11,7 +11,7 @@ Dafür ist ein W20 Wurf + der Modifikator für die Kategorie des Gegenstandes (n
 
 | Typ                    | SG Modifikator                                      |
 | ---------------------- | --------------------------------------------------- |
-| Waffen                 | [[Übung\|Übungsbonus]] mit der Waffentyp            |
+| Waffen                 | [[_Übung\|Übungsbonus]] mit der Waffentyp            |
 | Rüstung                | [[Geschicklichkeit#Geschicklichkeitsmodifikator]]   |
 | Ringe                  | [[Attribute#Attributsmodifikator]] zum Zauberwirken |
 | Zauberstecken          | [[Attribute#Attributsmodifikator]] zum Zauberwirken |

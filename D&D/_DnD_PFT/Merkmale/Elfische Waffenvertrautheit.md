@@ -4,7 +4,7 @@ tags:
   - Merkmal/Volk
 Einsatz: Passiv
 ---
-[[Übung]] im Umgang mit folgenden Waffen
+[[_Übung]] im Umgang mit folgenden Waffen
 - [[Langschwert]] 
 - [[Kurzschwert]] 
 - [[Langbogen]] 

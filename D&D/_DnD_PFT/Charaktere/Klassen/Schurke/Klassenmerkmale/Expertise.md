@@ -6,5 +6,5 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Du erhältst [[Übung|Expertise]] in zwei [[Fertigkeiten]] deiner Wahl, in denen du [[Übung|geübt]] bist. 
-[[Fingerfertigkeit]] und [[Heimlichkeit]] werden empfohlen, wenn du in ihnen [[Übung|geübt]] bist.
+Du erhältst [[_Übung|Expertise]] in zwei [[Fertigkeiten]] deiner Wahl, in denen du [[_Übung|geübt]] bist. 
+[[Fingerfertigkeit]] und [[Heimlichkeit]] werden empfohlen, wenn du in ihnen [[_Übung|geübt]] bist.

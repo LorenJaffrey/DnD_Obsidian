@@ -5,4 +5,4 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Die Kreatur hat [[Übung]] in der Fertigkeit [[Einschüchtern]].
+Die Kreatur hat [[_Übung]] in der Fertigkeit [[Einschüchtern]].

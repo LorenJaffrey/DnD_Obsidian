@@ -6,7 +6,7 @@ gewicht: 5
 ---
 *Eine Fälscherausrüstung ist dazu gedacht, Duplikate von Dokumenten anzufertigen. Außerdem wird es durch die Ausrüstung leichter, Siegel oder die Signatur einer Person zu kopieren.*
 
-Bist du im Umgang mit diesem Werkzeug [[Übung|geübt]], darfst du deinen [[Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit dem Fälschen von Dokumenten in Verbindung steht.
+Bist du im Umgang mit diesem Werkzeug [[_Übung|geübt]], darfst du deinen [[_Übung|Übungsbonus]] auf jeden [[Attribute#Attributswurf]] und [[Fertigkeiten#Fertigkeitswurf]] addieren, der mit dem Fälschen von Dokumenten in Verbindung steht.
 
 ## Bestandteile
 Eine [[Fälscherausrüstung]] beinhaltet mehrere unterschiedliche Sorten Tinte, eine große Auswahl an Pergamenten und Papieren, mehrere Federkiele, Siegel und Siegelwachs, Blattgold und -silber sowie filigrane Werkzeuge, mit denen man aus Wachs die Kopie eines Siegels formen kann.

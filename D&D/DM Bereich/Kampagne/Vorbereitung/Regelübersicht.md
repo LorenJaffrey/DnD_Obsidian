@@ -4,7 +4,7 @@
 	- [[Attribute]] und [[Attribute#Attributswurf]]
 	- [[Fertigkeiten]]
 	- [[Schwierigkeitsgrad]]
-	- [[Übung]]
+	- [[_Übung]]
 	- [[Vorteil und Nachteil]]
 - Kampf
 	- [[Angriff]]

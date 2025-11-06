@@ -27,4 +27,4 @@ Passives Wahrnehmen ist das, von dem dein Charakter im Allgemeinen in der Welt u
 Zum Beispiel, wenn keine Feinde in der Nähe sind und die Gruppe gerade einen Raum betreten hat und sich locker umsieht, haben sie Zeit, Dinge wie Stolperdrähte und versteckte Monster zu bemerken.
 
 >[!info]
->Passive Wahrnehmung = 10 + [[Weisheit#Weisheitsmodifikator]] + [[Übung|Übungsbonus]] (falls Übung in [[Wahrnehmung]])
+>Passive Wahrnehmung = 10 + [[Weisheit#Weisheitsmodifikator]] + [[_Übung|Übungsbonus]] (falls Übung in [[Wahrnehmung]])

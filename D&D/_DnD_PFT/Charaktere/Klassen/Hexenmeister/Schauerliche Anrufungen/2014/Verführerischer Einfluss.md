@@ -6,4 +6,4 @@ mindeststufe: 1
 ---
 # `=this.file.name`
 
-Du hast [[Übung]] in den Fertigkeiten [[Täuschen]] und [[Überzeugen]].
+Du hast [[_Übung]] in den Fertigkeiten [[Täuschen]] und [[Überzeugen]].

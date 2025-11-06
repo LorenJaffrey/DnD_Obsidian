@@ -3,7 +3,7 @@
 # `=this.file.name`
 1. [[Klassen|Klasse]] [[Druide]]
 	1. [[Urtümliche Ordnung]]
-	2. keine [[Übung]] mit [[Mittelschwere Rüstung]] mehr
+	2. keine [[_Übung]] mit [[Mittelschwere Rüstung]] mehr
 	3. feste [[Tiergestalt]]
 2. [[Herkunft]] 
 	1. [[Herkunft]] [[Einsiedler]]

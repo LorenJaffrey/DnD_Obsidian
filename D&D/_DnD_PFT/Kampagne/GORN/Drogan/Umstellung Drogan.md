@@ -6,8 +6,8 @@
 2. [[Herkunft]] 
 	1. [[Herkunft]] [[Soldat]] 
 		1. [[Wilder Angreifer]]
-		2. [[Übung]] mit [[Spiel]]
-		3. keine [[Übung]] mit [[Brauereivorräte]] mehr
+		2. [[_Übung]] mit [[Spiel]]
+		3. keine [[_Übung]] mit [[Brauereivorräte]] mehr
 	2. [[Spezies]] [[Zwerge|Zwerg]]
 		1. [[Steingespür]]
 		2. [[Zwergische Unverwüstlichkeit]]

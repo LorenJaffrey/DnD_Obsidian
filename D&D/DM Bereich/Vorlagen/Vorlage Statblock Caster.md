@@ -117,7 +117,7 @@ Zauber:
 >> | Subtyp | `=this.Subtyp` |
 >> | [[Gesinnung]] | `=this.Gesinnung` |
 >> | [[Herausforderungsgrad]] | `=this.Herausforderungsgrad` |
->> | [[Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
+>> | [[_Übung\|Übungsbonus]] | (Übungsbonus:: `=(ceil(this.Herausforderungsgrad/4)+1)`) |
 >> | [[Sprachen]] | `=this.Sprachen` |
 >
 >> ## Bewegung

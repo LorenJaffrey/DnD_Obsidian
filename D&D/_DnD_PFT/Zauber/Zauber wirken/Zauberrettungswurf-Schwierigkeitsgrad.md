@@ -11,4 +11,4 @@ Die Beschreibung gibt außerdem an, welches [[Attribut]] vom Ziel für den [[Ret
 Der [[Schwierigkeitsgrad|SG]] deiner Zauber errechnet sich wie folgt:
 
 >[!info] Zauberrettungswurf-Schwierigkeitsgrad
->8 + [[Übung|Übungsbonus]] des Zaubernden +  [[Attribute#Attributsmodifikator]] ([[Zauberattribut]] des Zaubernden).
+>8 + [[_Übung|Übungsbonus]] des Zaubernden +  [[Attribute#Attributsmodifikator]] ([[Zauberattribut]] des Zaubernden).

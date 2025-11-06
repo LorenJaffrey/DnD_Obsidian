@@ -8,10 +8,6 @@ aliases:
 
 ## Bewegung aufteilen
 [[Bewegungsrate|Bewegen]] kann im Zug beliebig aufgeteilt werden.
-- [[Bewegungsrate]] -> [[Aktion]]
-- [[Aktion]] -> [[Bewegungsrate|Bewegen]]
-- [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]]
-- [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]] -> [[Aktion]] -> [[Bewegungsrate|Bewegen]]
 
 ## Um andere Kreaturen herumbewegen
 Durch den Bereich, den eine nicht feindliche Kreatur einnimmt, kannst du dich jederzeit hindurchbewegen. 

@@ -13,7 +13,7 @@ Das Ergebnis des [[Rettungswurf|Rettungswurfs]] wird beim Effekt beschrieben, de
 Wenn du dem Effekt nicht widerstehen willst, kannst du den [[Rettungswurf]] scheitern lassen, ohne zu würfeln.
 
 >[!info] Rettungswurf
->W20 + [[Attribute#Attributsmodifikator]] +/- Bonus/Malus + [[Übung|Übungsbonus]] (falls anwendbar).
+>W20 + [[Attribute#Attributsmodifikator]] +/- Bonus/Malus + [[_Übung|Übungsbonus]] (falls anwendbar).
 
 Kann mit [[Vorteil und Nachteil]] kombiniert werden.
 [[Schwierigkeitsgrad]] wird durch auslösenden Effekt bestimmt.

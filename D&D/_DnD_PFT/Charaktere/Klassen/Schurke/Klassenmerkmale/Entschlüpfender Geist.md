@@ -8,4 +8,4 @@ Einsatz: Passiv
 # `=this.file.name`
 *Dein raffinierter Verstand ist außergewöhnlich schwierig zu kontrollieren.*
 
-Du erhältst [[Übung]] in [[Rettungswurf|Rettungswürfen]] auf [[Weisheit]] und [[Charisma]].
+Du erhältst [[_Übung]] in [[Rettungswurf|Rettungswürfen]] auf [[Weisheit]] und [[Charisma]].

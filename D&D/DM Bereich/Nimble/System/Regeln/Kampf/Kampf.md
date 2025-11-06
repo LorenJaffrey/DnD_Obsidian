@@ -18,21 +18,7 @@ Wenn der Kampf beginnt, handeln standardmäßig die Helden zuerst. Der Spieler, 
 > [!tip]- Teamarbeit fördern, flexibel bleiben  
 > Wenn Spieler ihre Züge in einer Runde strategisch tauschen möchten, um Teamwork oder einen taktischen Plan zu ermöglichen, kann der SL dies nach eigenem Ermessen zulassen. Dies sollte jedoch nur gelegentlich geschehen, um das Spieltempo und die Übersicht zu bewahren.
 
-> [!faq]- Online spielen?  
-> Ihr könnt in Webcam-Reihenfolge, alphabetisch oder in einer beliebigen Reihenfolge spielen, die sich leicht nachverfolgen lässt.
-
-## Züge, Runden & Begegnungen
-
-Ein **Zug** ist der Moment, in dem ein einzelner Held oder eine Monstergruppe handelt. Ein typischer Zug dauert rund 6 Sekunden in der Spielwelt. Eine **Runde** umfasst alle Züge, bis alle Spieler und Monster gehandelt haben. Eine **Begegnung** besteht aus allen Runden eines bestimmten Kampfes.
-
-**1× pro Zug-Fähigkeiten.**  
-Wenn du eine solche Fähigkeit in deinem Zug verwendest und einen Weg findest, sie zusätzlich im Zug einer anderen Kreatur zu nutzen, darfst du sie erneut ausführen (zum Beispiel Heimtückischer Angriff mit Gelegenheitsangriff oder Koordiniertem Schlag).
-
-**1× pro Runde-Fähigkeiten.**  
-Diese werden zurückgesetzt, sobald dein eigener Zug wieder beginnt (zum Beispiel wenn du dich Verteidigst, kannst du dies erst wieder tun, wenn dein Zug erneut startet).
-
 ## Handlungen über mehrere Züge
-
 Für Aktivitäten, die mehr als 1 Aktion kosten, können Aktionen über mehrere Züge hinweg ausgeführt werden, solange Konzentration aufrechterhalten wird und du in der Zwischenzeit keine anderen Aktionen oder Reaktionen ausführst (außer kostenlose).
 
 > [!example]- Beispiel  

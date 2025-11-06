@@ -5,7 +5,7 @@ tags:
 # `=this.file.name`
 Du erlernst ein [[Kampfüberlegenheit#Manöver]] deiner Wahl, das dem [[Kampfarchetypen]] [[Kampfmeister]] zur Verfügung steht. 
 Falls das [[Kampfüberlegenheit#Manöver]] deinem Ziel abverlangt, zur Abwehr einen [[Rettungswurf]] durchzuführen, entspricht der [[Schwierigkeitsgrad|SG]] des [[Rettungswurf|Rettungswurfs]]:
-8 + dein [[Übung|Übungsbonus]] + dein [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (nach deiner Wahl).
+8 + dein [[_Übung|Übungsbonus]] + dein [[Stärke#Stärkemodifikator]] oder [[Geschicklichkeit#Geschicklichkeitsmodifikator]] (nach deiner Wahl).
 
 Du erhältst einen W6 als [[Kampfüberlegenheit#Überlegenheitswürfel]].
 Dieser Würfel wird zu den [[Kampfüberlegenheit#Überlegenheitswürfel]], die du aus anderen Quellen hast, hinzugefügt. 

@@ -14,7 +14,7 @@ Du musst diese Würfel vor dem Wurf entfernen, und der Effekt tritt auf, sobald 
 >[!example] Beispiel
 >Wenn du den Gift-Effekt hinzufügst, entfernst du 1W6 von den Schadenswürfeln des [[Hinterhältiger Angriff|Hinterhältigen Angriffs]], bevor du würfelst.
 
-Wenn ein Effekt von Raffinierter Schlag einen [[Rettungswurf]] erfordert, entspricht der [[Schwierigkeitsgrad|SG]] 8 plus deinem [[Geschicklichkeit#Geschicklichkeitsmodifikator]] plus deinem [[Übung|Übungsbonus]].
+Wenn ein Effekt von Raffinierter Schlag einen [[Rettungswurf]] erfordert, entspricht der [[Schwierigkeitsgrad|SG]] 8 plus deinem [[Geschicklichkeit#Geschicklichkeitsmodifikator]] plus deinem [[_Übung|Übungsbonus]].
 
 ```dataview
 TABLE WITHOUT ID

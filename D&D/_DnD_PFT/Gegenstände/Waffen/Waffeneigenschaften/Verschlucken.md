@@ -5,7 +5,7 @@ tags:
 # `=this.file.name`
 Wenn das Ziel mindestens eine [[Größenkategorie]] kleiner ist, wir es verschluckt.
 Eine verschluckte Kreatur ist [[Blind]], [[Festgesetzt]], kann weder sprechen noch atmen und hat [[Vollständige Deckung]] gegen Angriffe von außen.
-Zu Beginn ihres Zuges erleidet die Kreatur automatisch [[Wuchtschaden]] und [[Säureschaden]] in Höhe von 1W8 x [[Übung|Übungsbonus]] des Angreifers.
+Zu Beginn ihres Zuges erleidet die Kreatur automatisch [[Wuchtschaden]] und [[Säureschaden]] in Höhe von 1W8 x [[_Übung|Übungsbonus]] des Angreifers.
 
 Wenn die Kreatur Schaden erleidet muss sie einen [[Rettungswurf]] auf [[Konstitution]] ablegen.
 Der [[Schwierigkeitsgrad]] entspricht dabei der Hälfte des erlittenen Schadens (min. 10).

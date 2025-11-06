@@ -5,4 +5,4 @@ tags:
 ---
 # `=this.file.name`
 
-Du hast [[Übung]] im Umgang mit der [[Verkleidungsausrüstung]] und [[Giftmischerausrüstung]].
+Du hast [[_Übung]] im Umgang mit der [[Verkleidungsausrüstung]] und [[Giftmischerausrüstung]].
