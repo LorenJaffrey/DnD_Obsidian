@@ -37,3 +37,7 @@
 ## Mondberührtes Schwert
 - Schwert
 - scheint in Dunkelheit wie Mondlicht (4,5m)
+
+## Teleportationsdolch
+- Wenn geworfen kann sich der Träger zum Dolch teleportieren
+- Fehleranfällig 
