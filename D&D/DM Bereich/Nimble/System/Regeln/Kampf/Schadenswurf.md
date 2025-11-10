@@ -1,4 +1,6 @@
 ---
+tags:
+  - Regeln/Nimble/WIP
 aliases:
 - Schadenswürfe
 ---

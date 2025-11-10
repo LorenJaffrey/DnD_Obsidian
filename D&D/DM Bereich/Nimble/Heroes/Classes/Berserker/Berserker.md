@@ -1,6 +1,6 @@
 ---
 tags:
-  - Numble/Klasse
+  - Nimble/Klasse
 Trefferwürfel: W12
 Kernattribute:
   - "[[Stärke]]"
