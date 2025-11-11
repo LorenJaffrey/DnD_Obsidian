@@ -1,7 +1,9 @@
 ---
-aliases: 
-- Angriffswürfe
-- Angriffswürfen
+tags:
+  - Regeln/Nimble
+aliases:
+  - Angriffswürfe
+  - Angriffswürfen
 ---
 # `=this.file.name`
 
@@ -13,8 +15,6 @@ Die meisten [[Nahkampfangriff|Nahkampfangriffe]] basieren auf [[Stärke]], manch
 Die meisten [[Fernkampfangriff|Fernkampfangriffe]] basieren auf [[Geschicklichkeit]].
 
 Der [[Schwierigkeitsgrad]] für den `=this.file.name` ist in der Regel die [[Rüstungsklasse]] des Ziels.
-
-
 
 ### Angriff ausführen
 [[Angriff#Angriffswurf]] ausführen. 

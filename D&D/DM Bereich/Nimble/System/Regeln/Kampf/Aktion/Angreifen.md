@@ -13,4 +13,3 @@ Wenn du einen [[Angriff]] ausführst, kannst du als Teil dieser [[Aktion]] eine 
 Tu dies entweder vor oder nach dem [[Angriff]]. 
 Zum Anlegen einer Waffe gehört es, sie aus einer Scheide zu ziehen oder sie aufzuheben. 
 Zum Ablegen einer Waffe gehört es, sie in eine Scheide zu stecken, sie zu verstauen oder fallenzulassen.
-

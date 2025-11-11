@@ -8,12 +8,7 @@ tags:
 ---
 # `=this.file.name`
 Anstatt einer Waffe kannst du als [[Nahkampfangriff]] auch einen Fausthieb, Tritt, Kopfstoß oder ähnlich kraftvollen Hieb einsetzen. 
-Nach den Spielbegriffen ist dies ein [[Waffenloser Angriff]] - ein [[Nahkampfangriff]], bei dem du deinen Körper einsetzt, um einem Ziel im Abstand von bis zu 1,5 Metern von dir Schaden zuzufügen, um es zu [[Packen]] oder zu [[Stossen]].
-
-Wann immer du deinen [[Waffenloser Angriff|Waffenlosen Angriff]] einsetzt, wähle als Effekt eine der folgenden Optionen aus:
-- Schaden (siehe unten)
-- [[Packen]]
-- [[Stossen]]
+Nach den Spielbegriffen ist dies ein [[Waffenloser Angriff]] - ein [[Nahkampfangriff]], bei dem du deinen Körper einsetzt, um einem Ziel im Abstand von bis zu 1,5 Metern von dir Schaden zuzufügen.
 
 ## Schaden
 Du führst einen [[Angriffswurf]] gegen das Ziel aus. 

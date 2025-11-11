@@ -15,3 +15,6 @@ FROM #Zug/Reaktion
 
 SORT file.name
 ```
+
+- [ ] Verteidigen/Blocken
+- [ ] 

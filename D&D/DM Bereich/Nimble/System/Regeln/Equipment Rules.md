@@ -12,13 +12,7 @@ A hero can sheathe weapons or shields they are proficient with and equip a diffe
 
 > [!tip]- Remember!
 > Only the Primary Die (the leftmost one) is used for determining whether an attack crits. Every time you roll crit damage, roll the additional Vicious die as well!
-### Dual Wielding
-Heroes may wield 2 Light weapons at the same time. While dual wielding, you may gain advantage on an attack with those weapons, 1/round.
 
-You may dual wield 1-handed weapons without the Light property if your STR is 3 or greater, or 1 weapon without the Light property if your STR is 2. If completely unarmed, fists/feet can be considered dual wielded.
-
-> [!faq]- Dual wielding different weapons?
-> Roll dice for both weapons and choose either result instead (the 1/round limit still applies). Attacking with advantage? Add an extra die for one of the weapons.
 
 ### Unarmed Strikes
 To attack with your bare hands or feet, roll 1d4; on hit: deal 1+STR damage.

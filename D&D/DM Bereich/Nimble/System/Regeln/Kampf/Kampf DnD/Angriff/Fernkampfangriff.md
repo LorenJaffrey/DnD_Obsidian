@@ -16,13 +16,14 @@ Wenn ein [[Fernkampfangriff]], beispielsweise mit einem Zauber, nur eine einfach
 
 Solange du dich in Nahkampfreichweite mindestens eines Gegners befindest, der dich sehen kann und nicht [[Kampfunfähig]]ist, giltst du als [[Bedroht]].
 
-Manche Fernkampfangriffe wie die mit Langbogen oder Kurzbogen haben drei Reichweiten. Die kleinste Zahl ist die Mindestreichweite, die mittlere die Grundreichweite, die größte die Maximalreichweite.
+Manche Fernkampfangriffe wie die mit [[Langbogen]] oder [[Kurzbogen]] haben drei Reichweiten. 
+Die kleinste Zahl ist die Mindestreichweite, die mittlere die Grundreichweite, die größte die Maximalreichweite.
 
 ## Mindestreichweite
-Angriffe auf Ziele innerhalb der [[Fernkampfangriff#Mindestreichweite]], die den Angreifer sehen können und nicht [[Kampfunfähig]] sind, sind beim [[Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]].
+Angriffe auf Ziele innerhalb der Mindestreichweite, die den Angreifer sehen können und nicht [[Kampfunfähig]] sind, sind beim [[Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]].
 
 ## Grundreichweite
-Greifst du ein über die [[Fernkampfangriff#Grundreichweite]] entferntes Ziel an, bist du bei deinem [[Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]]. 
+Greifst du ein über die Grundreichweite entferntes Ziel an, bist du bei deinem [[Angriffswurf]] im [[Vorteil und Nachteil|Nachteil]]. 
 
 ## Maximalreichweite
-Du kannst kein Ziel angreifen, das sich außerhalb der [[Fernkampfangriff#Maximalreichweite]] der Waffe befindet.
+Du kannst kein Ziel angreifen, das sich außerhalb der Maximalreichweite der Waffe befindet.
