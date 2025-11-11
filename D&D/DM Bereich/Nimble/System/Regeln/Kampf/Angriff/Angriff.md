@@ -12,6 +12,10 @@ Ob du mit einer [[Nahkampfwaffen|Nahkampfwaffe]] zuschlägst, eine [[Fernkampfwa
     Bei einem Treffer würfelst du den Schaden aus, es sei denn, die Art des Angriffs gibt etwas anderes an. 
     Bestimmte Angriffe bewirken zusätzlich zum Schaden oder anstelle des Schadens spezielle Effekte.
 
+## Überhastete Angriffe
+Ein Held darf in seinem Zug mehrmals angreifen, doch jeder zusätzliche Angriff ist überhastet und verursacht kumulativen [[Vorteil und Nachteil|Nachteil]] – jeder weitere Angriff nach dem ersten erhöht die Wahrscheinlichkeit zu verfehlen und senkt den durchschnittlichen Schaden.
+Bei Fähigkeiten, die einen [[Rettungswurf]] auslösen (z. B. Greifen), erhalten Gegner stattdessen zunehmenden [[Vorteil und Nachteil|Vorteil]].
+
 ## Beidhändiger Kampf
 Kreaturen können 2 [[Leichte Waffen]] gleichzeitig führen. 
 Während des beidhändigen Kampfes darfst du einmal  pro [[Runde]] bei einem [[Angriff]] mit diesen Waffen [[Vorteil und Nachteil|Vorteil]] erhalten.
@@ -20,4 +24,4 @@ Du kannst [[einhändige Waffen]] ohne die Eigenschaft [[Leicht]] beidhändig
 Wenn du völlig unbewaffnet bist, können Fäuste / Tritte als beidhändig geführt gelten.
 
 > [!faq]- Unterschiedliche Waffen beidhändig führen?
-> Würfle für beide Waffen und wähle aus mit welcher Waffe du den [[Schadenswurf]] ausführen willst.
+> Würfle ganz normal mit [[Vorteil und Nachteil|Vorteil]] und wähle aus mit welcher Waffe du den [[Schadenswurf]] ausführen willst.

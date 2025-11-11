@@ -1,3 +1,8 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
+
 ### Mana
 Powerful tiered spells require mana—a portion of the spellcaster’s life force—to fuel them. A spell’s mana cost is equal to its tier. See the Heroes book for more info on how different classes gain mana. Cantrips, cost no mana.
 ### Upcasting

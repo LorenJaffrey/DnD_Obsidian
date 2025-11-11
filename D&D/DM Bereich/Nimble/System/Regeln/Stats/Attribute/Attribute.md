@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/PHB2024
+  - Regeln/Nimble
 aliases:
   - Attribut
   - Attributswert

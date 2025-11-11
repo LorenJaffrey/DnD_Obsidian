@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 # `=this.file.name`
 
 ## Berittener Kampf

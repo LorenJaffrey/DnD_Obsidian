@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 The GM may allow you to gain a level (LVL) whenever you complete an appropriately challenging quest or adventure. At level 1, this may be as simple as clearing some angry rats out of a basement or rescuing someone from the woods. Each subsequent level will generally take more effort (and therefore more time). When a hero gains a level:
 * **HP Increase.** Roll your Hit Die with advantage and increase your max HP by that much.
 * **More Endurance.** Your Hit Die max increases by 1 (it is typically equal to your level).

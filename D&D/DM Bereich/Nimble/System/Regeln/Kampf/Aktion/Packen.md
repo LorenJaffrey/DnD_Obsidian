@@ -13,6 +13,3 @@ Das Ziel muss einen [[Rettungswurf]] auf [[Stärke]] oder [[Geschicklichkeit]] (
 Der [[Schwierigkeitsgrad|SG]] für den [[Rettungswurf]] und alle [[Befreien|Befreiungsversuche]] entspricht 10 plus deiner [[Stärke]] oder [[Geschicklichkeit]].
 
 [[Erzwungene Bewegung]] (z. B. den Greifer wegstoßen), Kampfunfähigkeit oder [[Befreien]] können den [[Zustände|Zustand]] beenden.
-
-**Gefesselt**  
-Funktioniert wie **Gepackt**, wird jedoch durch Objekte verursacht (z. B. Ketten, Seile, Wurzeln) und ignoriert Größenbeschränkungen. Der Zustand kann auf logische Weise beendet werden, etwa durch das Knacken eines Schlosses, Durchtrennen oder Verbrennen eines Seils, etc.

@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble
+---
 # `=this.file.name`
 
 | Misserfolgsgrad       | Würfelwurf       | Effekt                                                               |

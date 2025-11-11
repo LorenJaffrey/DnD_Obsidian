@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Nimble/WIP
 aliases:
   - Übungsbonus
   - Expertise

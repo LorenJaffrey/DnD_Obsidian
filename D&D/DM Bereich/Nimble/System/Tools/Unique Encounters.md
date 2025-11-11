@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 Most encounters start with heroes and bad guys aware of each other, within one or two moves apart, and feature 1–4 level-appropriate enemies per hero who fight to the death. While this formula works, changing it up from time to time can make for a more memorable encounter. Here are some ways to spice things up:
 
 - **Ambush (Bad Guys)!** A easy encounter becomes much more difficult and exciting when the bad guys get the drop on the heroes. Place hidden enemies close to the party, and let them act first (just be careful that there is a good story reason for the ambush or you give them a chance to spot it!). 

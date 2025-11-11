@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 The time you aren’t out adventuring is called **Downtime**. You can spend Downtime to recuperate from your adventures and partake in Downtime Activities. Not every moment of Downtime needs to be narrated or roleplayed. Much Downtime can be skipped over to get back to adventuring if desired. **Example Downtime Activities:**
 * **Retrain.** Spend time doing activities to retrain any of your chosen abilities, features, or if it makes sense in the story, possibly even your subclass.
 * **Gather Information.** Meet NPCs, pick up news, or collect rumors and job leads.

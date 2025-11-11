@@ -7,8 +7,12 @@ Ein Kampf beginnt, wenn der SL ruft: „[[Initiative]] würfeln!“.
 Der [[Initiative|Initiativewurf]] bestimmt wie viele [[Aktion|Aktionen]] die Charaktere im ersten Zug zur Verfügung haben.
 Unabhängig vom [[Initiative|Initiativewurf]] erhält ein Charakter **am Ende seines Zuges** alle 3 Aktionen zurück.
 
+> [!faq]- Freie Aktionen  
+> Diese kosten keine Aktion und verbrauchen keine anderen Ressourcen (z. B. Mana), sofern nicht anders angegeben. 
+> Helden können einfache Handlungen (eine unverschlossene Tür öffnen, einen kurzen Ruf ausstoßen, einen Gegenstand fallen lassen, Konzentration beenden usw.) einmal pro Zug kostenlos ausführen.
+
 ## Zugreihenfolge
-Wenn der Kampf beginnt, handeln standardmäßig die Charaktere zuerst. 
+Wenn der Kampf beginnt, handeln standardmäßig die Charaktere zuerst.
 Der Spieler, der zuerst bereit ist (oder wer es erzählerisch am meisten hergibt), beginnt – danach geht es im Uhrzeigersinn um den Tisch. 
 Monster agieren in der Regel zuletzt, doch manche sind schnell genug, um früher in der Runde zu handeln. 
 Eine Monstergruppe agiert immer gemeinsam in jeder [[Runde]].

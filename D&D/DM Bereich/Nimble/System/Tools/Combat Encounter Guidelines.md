@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 # Monster Levels
 Making encounters in Nimble is easy! Simply add up the total levels of the heroes (e.g., if you have 3 level 2 heroes, their total is 6). Monsters with a total level equal to that will be a hard but fair fight; less than that: medium or easy; greater than that: deadly, or very deadly.
 

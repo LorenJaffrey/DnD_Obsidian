@@ -2,7 +2,6 @@
 tags:
   - Regeln/Nimble
 ---
-
 # `=this.file.name`
 ```dataview
 TABLE WITHOUT ID

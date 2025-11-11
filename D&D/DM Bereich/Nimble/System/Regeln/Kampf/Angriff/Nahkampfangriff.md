@@ -1,10 +1,10 @@
 ---
+tags: 
+  - Regeln/Nimble
 aliases: 
   - Nahkampf
   - Nahkampfangriffe
   - Nahkampfangriffen
-tags: 
-  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Mit einem [[Nahkampfangriff]] kannst du ein Ziel in Reichweite angreifen. 

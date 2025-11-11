@@ -6,8 +6,9 @@ aliases:
   - Kritischen Treffer
 ---
 # `=this.file.name`
-Ein [[Kritische Treffer|Kritischer Treffer]] liegt normalerweise vor wenn der  [[Angriffswurf]] eine natürliche 20 zeigt, oder ein Rettungswurf eine natürliche 1 zeigt.
+Ein [[Kritische Treffer|Kritischer Treffer]] liegt normalerweise vor wenn der  [[Angriffswurf]] eine natürliche 20 zeigt, oder ein [[Rettungswurf]] eine natürliche 1 zeigt.
 Er kann jedoch auch durch ein anderes Ereignis ausgelöst werden.
+
 Ein [[Kritische Treffer|Kritischer Treffer]] verursacht zusätzlich den maximalen Schaden der benutzten Schadenswürfel und verursacht außerdem einen kritischen Statuseffekt (siehe die jeweilige [[Schadensarten|Schadensart]].
 
 >[!example] Beispiel

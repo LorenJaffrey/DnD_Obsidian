@@ -1,9 +1,9 @@
 ---
-aliases: 
-  - Angriffsaktion
 tags: 
   - Regeln/Nimble
   - Zug/Aktion/Angriff
+aliases: 
+  - Angriffsaktion
 ---
 # `=this.file.name`
 Wenn du die [[Angreifen|Angriffsaktion]] ausführst, kannst du einen [[Nahkampfangriff]] oder [[Fernkampfangriff]] mit einer Waffe oder einen [[Waffenloser Angriff|waffenlosen Angriff]] ausführen.

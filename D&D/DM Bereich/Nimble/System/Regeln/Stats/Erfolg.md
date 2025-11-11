@@ -1,4 +1,8 @@
-# `=this.file.name`
+---
+tags:
+  - Regeln/Nimble
+---
+ # `=this.file.name`
 
 | Erfolgsgrad       | Würfelwurf      | Effekt                              |
 | ----------------- | --------------- | ----------------------------------- |

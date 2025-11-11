@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
  If your playgroup likes extra little tactical nuggets, your GM can allow you to try out some of these additional variants to add some more spice to your game. You can always try out a rule for 1 session and see how you all like it before committing to it.
 ### Multiclassing
  If your GM wants to allow for additional creativity for experienced players (and potentially broken combos!), when heroes level up, they may choose any class. For example, when a level 4 Berserker levels up, he could pick Commander, and take the level 1 Commander features instead of the level 5 Berserker features. He would have 4 d12 hit dice and a single d10 hit die. A hero gains all the equipment proficiencies of all their classes but should use the advantaged/disadvantaged saves of whichever class has the highest level.

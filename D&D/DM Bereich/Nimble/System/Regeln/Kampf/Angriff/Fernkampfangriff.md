@@ -1,10 +1,10 @@
 ---
+tags: 
+  - Regeln/Nimble
 aliases: 
   - Fernkampfangriffe
   - Fernkampf
   - Fernkampfangriffen
-tags: 
-  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Bei einem [[Fernkampfangriff]] schießt du mit einem Bogen, wirfst eine Axt oder schickst auf anderem Wege Geschosse in Richtung eines Gegners in einiger Entfernung.

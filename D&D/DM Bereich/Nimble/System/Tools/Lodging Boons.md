@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 Spending extra gold on lavish accommodations can provide valuable temporary benefits. These perks might include quicker recovery, valuable contacts, additional resources, or unique opportunities. The specific benefits depend on the quality of the lodging and the amount spent. You can roll from the table, or award a Minor, Major, or even EPIC Boon based on how much the heroes pay and where they rest:
 * **A Minor Boon:** Typically costs around 10 gp.
 * **A Major Boon:** Typically costs around 100 gp.

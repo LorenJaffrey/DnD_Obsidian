@@ -1,10 +1,10 @@
 ---
+tags: 
+  - Regeln/Nimble
 aliases:
   - Waffenlosen Angriffe
   - Waffenlosen Angriffs
   - Waffenlose Angriffe
-tags: 
-  - Regeln/PHB2024
 ---
 # `=this.file.name`
 Anstatt einer Waffe kannst du als [[Nahkampfangriff]] auch einen Fausthieb, Tritt, Kopfstoß oder ähnlich kraftvollen Hieb einsetzen. 
@@ -12,5 +12,5 @@ Nach den Spielbegriffen ist dies ein [[Waffenloser Angriff]] - ein [[Nahkampfang
 
 ## Schaden
 Du führst einen [[Angriffswurf]] gegen das Ziel aus. 
-Dein Bonus auf den Wurf entspricht deinem [[Stärke#Stärkemodifikator]] plus deinem [[_Übung|Übungsbonus]]. 
-Bei einem Treffer erleidet das Ziel Wuchtschaden in Höhe von 1 plus deinem Stärkemodifikator.
+Dein Bonus auf den Wurf entspricht normalerweise deinem [[Stärke#Stärkemodifikator]]. 
+Bei einem Treffer erleidet das Ziel [[Wuchtschaden]] in Höhe von 1 plus deinem [[Stärke#Stärkemodifikator]].

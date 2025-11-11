@@ -1,3 +1,7 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+---
 ### Gold & Currency
 Gold is a versatile reward that gives heroes the freedom to choose their own rewards. While some gold will be spent on necessities like lodging, its primary appeal is to purchase exciting upgrades: better weapons, armor, potions, wands, or magical items.
 

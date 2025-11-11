@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/WIP
+  - Regeln/Nimble
   - Zug/Aktion
 ---
 # `=this.file.name`
