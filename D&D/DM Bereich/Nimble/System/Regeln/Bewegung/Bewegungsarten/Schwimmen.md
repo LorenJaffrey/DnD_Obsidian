@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
-  - Bewegung
+  - Regeln/Nimble/Bewegung
 ---
 # `=this.file.name`
 Die [[Bewegungsrate]] wird halbiert, außer es gibt extra [[Bewegungsrate]] für Schwimmen.

@@ -1,6 +1,6 @@
 ---
 tags:
-- Fertigkeit/Charisma
+- Regeln/Nimble/Fertigkeit/Charisma
 Attribut: "[[Charisma]]"
 ---
 # `=this.file.name`

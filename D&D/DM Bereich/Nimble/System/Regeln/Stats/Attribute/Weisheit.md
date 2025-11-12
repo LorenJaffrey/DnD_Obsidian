@@ -4,8 +4,7 @@ aliases:
   - Weisheitswürfe
   - WE
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 Stellt dar wie gut du auf die Welt um dich herum eingestimmt bist.
@@ -15,7 +14,7 @@ Wird benötigt um Körpersprache oder Gefühle einer Person zu verstehen, Dinge 
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Fertigkeit/Weisheit
+FROM #Regeln/Nimble/Fertigkeit/Weisheit
 ```
 
 ## Sonstige Tätigkeiten

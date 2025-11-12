@@ -1,3 +1,9 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+aliases:
+  - Hintergrund
+---
 Backgrounds provide a glimpse into your character’s past—how they were raised, the skills they honed before becoming an adventurer, or even their defining personality traits. Feel free to adapt or reimagine these backgrounds to suit your character’s story. Choose 1 background:
 
 > [!tip]- Make It Your Own!

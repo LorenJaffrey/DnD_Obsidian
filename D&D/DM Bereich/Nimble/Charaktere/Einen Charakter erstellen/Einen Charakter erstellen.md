@@ -55,12 +55,11 @@ Auf Stufe 1 überträgst du deine Attributsboni auf die jeweiligen [[Fertigk
 ## 3. Sekundäre Werte
 Trage deine sekundären Werte ein:
 - maximale [[Trefferpunkte]] 
-- Trefferwürfelgröße (einsehbar bei deiner Klasse), 
-- Anzahl der Trefferwürfel (Standard: = Stufe)
-- Initiative (Standard: [[Geschicklichkeit|GE]])
+- [[Trefferwürfel]] 
+- [[Initiative|Initiativebonus]] (Standard: [[Geschicklichkeit|GE]])
 - Größe
-- Geschwindigkeit (Standard: 6)
-- maximale [[Wunden]] (Standard: 6) 
+- [[Bewegungsrate]] (abhängig von der [[Abstammungen|Abstammung]])
+- maximale [[Wunden]] (Standard: 6) 
 - Inventarplätze (10 + [[Stärke]]) 
 
 ## 4. Ausrüstung & Geld
@@ -79,7 +78,7 @@ Jeder Punkt in [[Intelligenz|IN]] gewährt eine weitere bekannte�
 > Die Sprache einer anderen Kreatur zu sprechen kann Türen öffnen, die Waffen nicht können – wer bewaffnet ist, aber nicht kommunizieren kann, führt oft zum Kampf.
 
 ## 6. Weitere Fähigkeiten
-Trage besondere Fähigkeiten ein, die du durch Klasse, Abstammung, Hintergrund oder ähnliche Quellen erhältst.
+Trage besondere Fähigkeiten ein, die du durch [[Klasse]], [[Abstammungen|Abstammung]], [[Hintergründe|Hintergrund]] oder ähnliche Quellen erhältst.
 
 ## 7. Inventarplätze
 Jeder Held hat **10 + [[Stärke|ST]]** [[Inventarplätze]] für Ausrüstung und Beute (getragen, angelegt oder verpackt).  

@@ -4,8 +4,7 @@ aliases:
   - Charismawürfe
   - CH
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 
@@ -16,7 +15,7 @@ Charismawürfe werden nötig um andere zu beeinflussen oder zu unterhalten, Eind
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Fertigkeit/Charisma
+FROM #Regeln/Nimble/Fertigkeit/Charisma
 ```
 
 ## Sonstige Tätigkeiten

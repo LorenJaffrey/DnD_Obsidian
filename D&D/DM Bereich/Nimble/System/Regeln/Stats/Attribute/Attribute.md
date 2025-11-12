@@ -12,7 +12,7 @@ TABLE WITHOUT ID
 
 file.link AS "Attribut"
 
-FROM #Attribut
+FROM #Regeln/Nimble/Attribut
 
 SORT file.name
 ```

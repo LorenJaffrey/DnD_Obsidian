@@ -1,6 +1,6 @@
 ---
 tags:
-- Fertigkeit/Stärke
+- Regeln/Nimble/Fertigkeit/Stärke
 Attribut: "[[Stärke]]"
 ---
 # `=this.file.name`

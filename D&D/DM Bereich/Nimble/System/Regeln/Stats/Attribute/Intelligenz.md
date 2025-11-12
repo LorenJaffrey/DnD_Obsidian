@@ -6,8 +6,7 @@ aliases:
   - IN
   - INT
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
@@ -16,7 +15,7 @@ Intelligenzwurf wird notwendig wenn Logik, Bildung, Gedächtnis oder deduktives 
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Fertigkeit/Intelligenz 
+FROM #Regeln/Nimble/Fertigkeit/Intelligenz 
 ```
 
 ## Sonstige Tätigkeiten

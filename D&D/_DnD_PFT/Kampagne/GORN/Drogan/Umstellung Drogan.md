@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[Klassen|Klasse]] [[Barbar]]
+1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Barbar]]
 	1. [[Urwissen]]
 2. [[Herkunft]] 
 	1. [[Herkunft]] [[Soldat]] 

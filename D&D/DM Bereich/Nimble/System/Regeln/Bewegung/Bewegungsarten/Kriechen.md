@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
-  - Bewegung
+  - Regeln/Nimble/Bewegung
 ---
 # `=this.file.name`
 [[Bewegungsrate]] halbiert.

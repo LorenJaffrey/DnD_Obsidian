@@ -22,3 +22,8 @@ dv.span("`dice:" + dv.current().Schaden + "+" + dv.current().Bonus + "|none`")
 ## Exploding Crits
 `dice:1d6!i` --> einzeln nacheinander
 `dice:1d6!!i`
+
+`dice:5d6!i`
+`dice:5d6!!i`
+
+`dice:2d6|avg`

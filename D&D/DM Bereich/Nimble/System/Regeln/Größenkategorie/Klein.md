@@ -1,7 +1,6 @@
 ---
 tags:
-  - Größenkategorie
-  - Regeln/Nimble
+  - Regeln/Nimble/Größenkategorie
 BereichMeter: 1,5 x 1,5 m
 BereichQuadrate: 1 Quadrat
 ---

@@ -1,5 +1,6 @@
 ---
-tags: Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
+tags: 
+  - Regeln/Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
 Einsatz: "2 [[Aktion|Aktionen]]"
 ---
 # `=this.file.name`

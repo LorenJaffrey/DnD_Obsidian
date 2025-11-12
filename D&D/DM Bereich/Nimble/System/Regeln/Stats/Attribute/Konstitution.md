@@ -5,8 +5,7 @@ aliases:
   - KO
   - KON
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 Misst Gesundheit, Ausdauer und Lebenskraft. Kann den Versuch darstellen über die persönlichen Grenzen hinaus zu gehen.

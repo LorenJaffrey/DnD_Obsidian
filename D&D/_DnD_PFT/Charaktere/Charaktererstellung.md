@@ -1,6 +1,6 @@
 # `=this.file.name`
 
-1. [[Klassen|Klasse]] auswählen
+1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] auswählen
 	1. [[Trefferpunkte]] je Stufenaufstieg = Würfelwert (minimal halber maximaler Würfelwert)
 2. [[Herkunft]]
 	1. [[Herkunft]]

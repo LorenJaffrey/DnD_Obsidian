@@ -26,7 +26,7 @@
   "narrativeSymbolSet": "Genesys",
   "displayAsSymbols": false,
   "displayAsEmbed": true,
-  "round": "None",
+  "round": "Up",
   "initialDisplay": "None",
   "icons": [
     {

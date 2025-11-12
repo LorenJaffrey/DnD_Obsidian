@@ -6,8 +6,7 @@ aliases:
   - Stärkewurfs
   - ST
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
@@ -15,7 +14,7 @@ Misst die körperliche Kraft, das athletische Training und das Maß in dem du ro
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Fertigkeit/Stärke 
+FROM #Regeln/Nimble/Fertigkeit/Stärke 
 ```
 
 ## Heben und Tragen

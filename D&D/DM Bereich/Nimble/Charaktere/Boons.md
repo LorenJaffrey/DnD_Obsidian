@@ -9,6 +9,7 @@ Boons can be a great quest reward from a powerful patron (e.g., an elf queen, he
 * **Skilled.** +1 skill point.
 * **Simple.** +1 VS Charm effects.
 * **Stand Tall.** +Height (slightly).
+* 
 # Major Boons
 * **Ancestry Trait.** Selecting another Ancestry trait (if it makes sense) can make for a great Major Boon.
 * **Aggressive.** On your first round of combat you can spend 1 Action from your next turn.
@@ -30,6 +31,7 @@ Boons can be a great quest reward from a powerful patron (e.g., an elf queen, he
 * **Unflinching.** Your focus is unbroken even in the face of danger. Advantage on Concentration checks.
 * **Unnatural Talent.** Learn any 1 Utility Spell.
 * **Veteran.** +10 HP.
+* 
 # EPIC Boons
 * **Epic Agility.** Gain 1 action. 1/encounter.
 * **Epic Criticals.** Whenever you roll for critical hit damage, you may replace one die with a d20.

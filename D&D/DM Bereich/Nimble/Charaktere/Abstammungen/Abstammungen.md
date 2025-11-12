@@ -1,3 +1,11 @@
+---
+tags:
+  - Regeln/Nimble/WIP
+aliases:
+  - Abstammung
+---
+
+
 Your kin, lineage, heritage, or race—this is how your character was born and how others see you at first glance. You may be a dwarf raised in the mines under the mountain with countless other dwarves, or you may be an elf raised by goblins! It’s up to you to choose how your character began. Choose 1 ancestry and add its bonus to your character sheet.
 
 > [!tip]- Flavor Is Free
@@ -25,7 +33,7 @@ Your kin, lineage, heritage, or race—this is how your character was born and h
 
 ---
 
-![[DM Bereich/Nimble/Charaktere/Ancestries/Gnome]]
+![[DM Bereich/Nimble/Charaktere/Abstammungen/Gnome]]
 # Exotic Ancestries
 Your setting may or may not support these choices—check with your GM first before selecting one.
 
@@ -43,11 +51,11 @@ Your setting may or may not support these choices—check with your GM first bef
 
 ---
 
-![[DM Bereich/Nimble/Charaktere/Ancestries/Goblin|Goblin]]
+![[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Goblin|Goblin]]
 
 ---
 
-![[DM Bereich/Nimble/Charaktere/Ancestries/Kobold|Kobold]]
+![[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Kobold|Kobold]]
 
 ---
 

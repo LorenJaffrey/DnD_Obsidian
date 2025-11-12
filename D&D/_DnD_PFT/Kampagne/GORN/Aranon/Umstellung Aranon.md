@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[Klassen|Klasse]] [[Druide]]
+1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Druide]]
 	1. [[Urtümliche Ordnung]]
 	2. keine [[_Übung]] mit [[Mittelschwere Rüstung]] mehr
 	3. feste [[Tiergestalt]]

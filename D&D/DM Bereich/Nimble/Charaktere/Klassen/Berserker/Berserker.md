@@ -1,11 +1,11 @@
 ---
 tags:
-  - Nimble/Klasse
+  - Regeln/Nimble/Charakter/Klasse
 Trefferwürfel: 12
 Kernattribute:
   - "[[Stärke]]"
   - "[[Geschicklichkeit]]"
-
+Beschreibung: "Unaufhaltsame Kraft aus Zorn und Zerstörung."
 ---
 # `=this.file.name`
 Zorn und Zerstörung. Der Berserker ist die Verkörperung der Vernichtung. Er kennt weder Erschöpfung noch Vorsicht – beide werden von seiner unbändigen Wut vertrieben. 
@@ -27,23 +27,25 @@ Als Berserker kannst du:
 
 ## Trefferpunkte
 [[Trefferwürfel]]: 1`="W" + this.Trefferwürfel` pro Stufe
-[[Trefferpunkte]] auf Stufe 1: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` + [[Konstitution]]
-[[Trefferpunkte]] pro Stufenaufstieg: 1`="W" + this.Trefferwürfel` (min. 7) + [[Konstitution]]
+[[Trefferpunkte]] auf Stufe 1: `=this.Trefferwürfel` + [[Konstitution]]
+[[Trefferpunkte]] pro Stufenaufstieg: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` (min. 7) + [[Konstitution]]
 
-## Übung
-
-### Waffen
+## Waffen
 - [[Einfache Waffen]] 
 - [[Kriegswaffen]] 
 
-### Rettungswürfe
-- [[Stärke]]
-- [[Konstitution]]
+## Rettungswürfe
+- [[Vorteil und Nachteil|Vorteil]] auf **EINEN** der folgenden:
+	- [[Rettungswurf#Stärkerettungswurf|Stärkerettungswürfe]] 
+	- [[Rettungswurf#Geschicklichkeitsrettungswurf|Geschicklichkeitsrettungswürfe]]
+- [[Vorteil und Nachteil|Nachteil]] auf **EINEN** der folgenden: 
+	- [[Rettungswurf#Intelligenzrettungswurf|Intelligenzrettungswürfe]]
+	- [[Rettungswurf#Weisheitsrettungswurf|Weisheitsrettungswürfe]]
+	- [[Rettungswurf#Charismarettungswurf|Charismarettungswürfe]]
 
 ## Ausrüstung
-- [[Zweihandaxt]]
-- vier [[Axt|Äxte]]
-- [[Ausrüstungssets#Entdeckerausrüstung]]
+- [[Streitaxt]]
+
 - 15 GM
 ODER
 - 75 GM

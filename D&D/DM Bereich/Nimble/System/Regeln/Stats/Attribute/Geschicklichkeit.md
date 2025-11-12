@@ -5,8 +5,7 @@ aliases:
   - Geschicklichkeitswürfen
   - GE
 tags:
-  - Attribut
-  - Regeln/Nimble
+  - Regeln/Nimble/Attribut
 ---
 # `=this.file.name`
 Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
@@ -14,7 +13,7 @@ Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Fertigkeit/Geschicklichkeit 
+FROM #Regeln/Nimble/Fertigkeit/Geschicklichkeit 
 ```
 
 ## Sonstige Tätigkeiten

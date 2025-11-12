@@ -10,7 +10,7 @@ file.link AS "Größenkategorie",
 BereichMeter AS "Bereich (Meter)",
 BereichQuadrate AS "Bereich (Quadrate)"
 
-FROM #Größenkategorie
+FROM #Regeln/Nimble/Größenkategorie
 
 SORT Bereich ASC
 ```

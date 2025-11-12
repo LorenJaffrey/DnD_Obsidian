@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[Klassen|Klasse]] [[Hexenmeister]]
+1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Hexenmeister]]
 	1. [[Magische Rafinesse]]
 	2. [[Schauerliche Anrufungen]]
 		1. [[Pakt des Buches]]

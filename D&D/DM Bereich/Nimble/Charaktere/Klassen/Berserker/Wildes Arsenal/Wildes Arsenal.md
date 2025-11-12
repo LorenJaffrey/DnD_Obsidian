@@ -6,7 +6,7 @@ TABLE WITHOUT ID
 file.link AS "Title",
 Einsatz
 
-FROM #Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
+FROM #Regeln/Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
 
 SORT file.name
 ```

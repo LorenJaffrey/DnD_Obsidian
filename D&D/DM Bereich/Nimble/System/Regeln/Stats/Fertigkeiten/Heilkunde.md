@@ -1,6 +1,6 @@
 ---
 tags:
-- Fertigkeit/Weisheit
+- Regeln/Nimble/Fertigkeit/Weisheit
 Attribut: "[[Weisheit]]"
 ---
 # `=this.file.name`
