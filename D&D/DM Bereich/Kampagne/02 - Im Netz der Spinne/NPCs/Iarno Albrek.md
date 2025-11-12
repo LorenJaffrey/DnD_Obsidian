@@ -45,7 +45,7 @@ Fraktion:
 Besitzt folgende Informationen für die Gruppe:
 - Die [[Schwarze Spinne]] ist eine [[Drow]].
 - Die [[Schwarze Spinne]] hat drei [[Grottenschrate]] geschickt, die [[Iarno Albrek|Iarno]] dabei helfen sollten, die Bevölkerung von [[Phandalin]] unter Kontrolle zu halten, doch die [[Rotbrenner]] haben dies ohne ihre Hilfe geschafft. 
-- Die [[Schwarze Spinne]] sucht die [[Zauberschmiede]] in der [[Wellenhallhöhle]]. Die [[Zwerge]] und [[Gnome]] des [[Phandelver-Pakt]] verwendeten die magische Schmiede, um mächtige magische Gegenstände zu erschaffen.
+- Die [[Schwarze Spinne]] sucht die [[Zauberschmiede]] in der [[Wellenhallhöhle]]. Die [[Zwerge]] und [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]] des [[Phandelver-Pakt]] verwendeten die magische Schmiede, um mächtige magische Gegenstände zu erschaffen.
 - Kein anderes Mitglied des [[Rat der Grafen|Rats der Grafen]] weiß von [[Iarno Albrek|Iarnos]] Verrat.
 
 ## Statblock

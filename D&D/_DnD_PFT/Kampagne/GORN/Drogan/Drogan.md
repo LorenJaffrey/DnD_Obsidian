@@ -308,5 +308,5 @@ actions:
     code: "const mb = engine.getPlugin('obsidian-meta-bind-plugin').api; const TP = mb.parseBindTarget('Gesundheit.TP', context.file.path); const maxTP = mb.getMetadata(mb.parseBindTarget('Gesundheit.MaxTP', context.file.path));  mb.setMetadata(TP, maxTP);"
 ```
 
-- [ ] Steingespür in Cooldowns eintragen  [priority:: high]
-- [ ] Urwissen/Urmacht in Attribute einpflegen  [priority:: medium]
+- [x] Steingespür in Cooldowns eintragen  [priority:: high]
+- [x] Urwissen/Urmacht in Attribute einpflegen  [priority:: medium]

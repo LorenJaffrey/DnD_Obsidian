@@ -15,4 +15,4 @@ The GM may allow you to gain a level (LVL) whenever you complete an appropriatel
 ---
 
 **Related**
-- [[Making A Hero]]
+- [[Einen Charakter erstellen]]

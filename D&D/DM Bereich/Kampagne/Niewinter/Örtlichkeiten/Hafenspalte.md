@@ -11,7 +11,7 @@ location:
 mapmarker: Taverne
 ---
 # `=this.file.name`
-Eine Taverne unter der Leitung eines geselligen und vornehmen männlichen [[Gnome|Gnom]]s in seinen jüngeren Jahren. Wenn man ihn nach seinem Namen fragt, kichert er einfach. 
+Eine Taverne unter der Leitung eines geselligen und vornehmen männlichen [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome|Gnom]]s in seinen jüngeren Jahren. Wenn man ihn nach seinem Namen fragt, kichert er einfach. 
 
 > [!quote] Beschreibung
 > Die Fassade besteht aus robusten Holzbalken, die kunstvoll bemalt und mit maritimen Motiven verziert sind. Ein großes Schild hängt über dem Eingang, auf dem ein fröhlich grinsender Gnom zu sehen ist, der die Gäste einlädt, einzutreten.

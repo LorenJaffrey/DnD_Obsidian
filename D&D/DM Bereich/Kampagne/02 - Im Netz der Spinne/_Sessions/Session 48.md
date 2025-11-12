@@ -20,7 +20,7 @@ date: 2025-07-30
 	- Lucian und Aranon fehlt etwas außergewöhnliches
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - [[Gnomengard]]

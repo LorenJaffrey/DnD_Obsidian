@@ -1,7 +1,7 @@
 ---
 tags:
   - Sprache/Standard
-Ursprung: "[[Gnome]]"
+Ursprung: "[[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]]"
 Schrift: Zwergisch
 ---
 # `=this.file.name`

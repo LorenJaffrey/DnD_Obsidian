@@ -1,7 +1,7 @@
 ## Phandelvers Pakt und die Wellenhallhöhle
-Vor mehr als fünfhundert Jahren schlossen Klans der [[Zwerge]] und [[Gnome]] ein Abkommen, das als Phandelvers Pakt bekannt ist, als sie eine reiche Mine in einer wundersamen Höhle teilen sollten, die als [[Wellenhallhöhle]] bekannt ist. 
+Vor mehr als fünfhundert Jahren schlossen Klans der [[Zwerge]] und [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]] ein Abkommen, das als Phandelvers Pakt bekannt ist, als sie eine reiche Mine in einer wundersamen Höhle teilen sollten, die als [[Wellenhallhöhle]] bekannt ist. 
 Neben dem mineralischen Reichtum barg die Mine auch große magische Macht. 
-Menschliche Zauberwirker verbündeten sich mit den [[Zwerge|Zwergen]] und [[Gnome|Gnomen]], um diese Energie zu kanalisieren und in eine große Schmiede zu binden (genannt Zauberschmiede), mit der magische Gegenstände erschaffen werden konnten. 
+Menschliche Zauberwirker verbündeten sich mit den [[Zwerge|Zwergen]] und [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome|Gnomen]], um diese Energie zu kanalisieren und in eine große Schmiede zu binden (genannt Zauberschmiede), mit der magische Gegenstände erschaffen werden konnten. 
 Die Zeiten waren gut, und die nahe menschliche Stadt [[Phandalin]] gedieh ebenfalls. 
 
 ## Untergang 

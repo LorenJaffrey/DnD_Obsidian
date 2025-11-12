@@ -30,5 +30,5 @@ Als [[Felsengnome|Felsengnom]] besitzt du einen natürlichen Einfallsreichtum un
 Dazu gehören etwa auch die Tüftlergnome in der Welt der Drachenlanze.
 
 ### Alter
-[[Gnome]] sind genauso schnell entwickelt wie [[Menschen]] und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.
+[[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]] sind genauso schnell entwickelt wie [[Menschen]] und erreichen mit ungefähr 40 Jahren das Erwachsenenalter.
 Sie werden zwischen 350 und fast 500 Jahren alt.

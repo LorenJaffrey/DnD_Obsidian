@@ -25,7 +25,7 @@ Your kin, lineage, heritage, or race—this is how your character was born and h
 
 ---
 
-![[Gnome]]
+![[DM Bereich/Nimble/Charaktere/Ancestries/Gnome]]
 # Exotic Ancestries
 Your setting may or may not support these choices—check with your GM first before selecting one.
 
@@ -43,11 +43,11 @@ Your setting may or may not support these choices—check with your GM first bef
 
 ---
 
-![[Heroes/Ancestries/Goblin|Goblin]]
+![[DM Bereich/Nimble/Charaktere/Ancestries/Goblin|Goblin]]
 
 ---
 
-![[Heroes/Ancestries/Kobold|Kobold]]
+![[DM Bereich/Nimble/Charaktere/Ancestries/Kobold|Kobold]]
 
 ---
 

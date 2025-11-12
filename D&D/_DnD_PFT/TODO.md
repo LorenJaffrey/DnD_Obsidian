@@ -44,12 +44,4 @@ show tree
 
 ## Sonstiges
 - [ ] Vorlagen mit korrekter Syntax versehen [priority:: medium]
-- [ ] Persönlichkeit der Charaktere besser einbauen
-	- [ ] Hintergrund Drogan [priority:: normal]
-	- [ ] Hintergrund Aranon [priority:: normal]
-	- [ ] Hintergrund Niptac [priority:: normal]
-	- [ ] Hintergrund Argo [priority:: normal]
-	- [ ] Hintergrund Lucian [priority:: normal]
 - [ ] Warlock Patron Template YouTube [priority:: high]
-
-public

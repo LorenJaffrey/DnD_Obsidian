@@ -14,8 +14,8 @@ date: 2025-10-29
 	- Inhalt des Dialogs sollte auf Erfolgsgrad des Wurfs angepasst sein
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-- [ ] Plot Recap [priority:: highest]
+- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [x] Plot Recap  [priority:: highest]
 - [ ] 
 
 ## Recap

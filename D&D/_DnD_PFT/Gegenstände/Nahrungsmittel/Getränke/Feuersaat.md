@@ -7,7 +7,7 @@ Art: Spirituosen
 # `=this.file.name`
 [[Feuersaat]] ist ein alkoholisches Getränk, das von Zwergen hergestellt wird.
 
-Es handelt sich um einen nicht-magischen Schnaps, der auf [[Zwerge]] und [[Gnome]] kaum Auswirkungen hat. 
+Es handelt sich um einen nicht-magischen Schnaps, der auf [[Zwerge]] und [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]] kaum Auswirkungen hat. 
 [[Feuersaat]] ist jedoch für andere Rassen potenter und verstärkt entweder natürliche Widerstandsfähigkeiten oder führt zu beträchtlicher Trunkenheit.
 
 [[Zwerge]] und erfahrene Brauer können [[Feuersaat]] leicht anhand seines Geruchs identifizieren. 

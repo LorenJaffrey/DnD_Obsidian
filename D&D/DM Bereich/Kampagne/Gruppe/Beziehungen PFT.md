@@ -26,4 +26,4 @@ erDiagram
   
 ```
 
-- [ ] Beziehungen fertigstellen [priority:: medium]
+- [x] Beziehungen fertigstellen  [priority:: medium]

@@ -30,10 +30,10 @@ FROM #Spezies
 SORT file.name
 ```
 
-- [ ] Spezies vervollständigen [priority:: medium]
-	- [ ] Elfen [priority:: medium]
-	- [ ] Halblinge [priority:: medium]
-	- [ ] Menschen [priority:: medium]
-	- [ ] Orks [priority:: medium]
-	- [ ] Goliath [priority:: medium]
-	- [ ] Aasimar [priority:: medium]
+- [x] Spezies vervollständigen  [priority:: medium]
+	- [x] Elfen  [priority:: medium]
+	- [x] Halblinge  [priority:: medium]
+	- [x] Menschen  [priority:: medium]
+	- [x] Orks  [priority:: medium]
+	- [x] Goliath  [priority:: medium]
+	- [x] Aasimar  [priority:: medium]
