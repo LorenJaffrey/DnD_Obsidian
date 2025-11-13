@@ -2,11 +2,9 @@
 tags:
   - Regeln/Nimble
 ---
-
-
 # `=this.file.name`
-The world is a dangerous place—people don’t usually just “go adventuring“ without a reason. 
-Your motivation should make your character want to work with the rest of the group.
+Die Welt ist ein gefährlicher Ort – niemand zieht ohne triftigen Grund einfach „auf Abenteuer“ aus. 
+Deine Motivation sollte deinem Charakter einen Grund geben, mit der Gruppe zusammenzuarbeiten.
 
 > [!Tipp] – Oder denk dir etwas Eigenes aus!  
 > Ein großartiger Charakterhintergrund hat Verbindungen zur Welt, ihren Bewohnern, deinen Mithelden oder sogar zu den Gegenspielern. 

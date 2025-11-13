@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "templater-obsidian",
-  "dataview",
   "obsidian-charts",
   "obsidian-icon-folder",
   "cmdr",
@@ -20,5 +19,6 @@
   "settings-search",
   "supercharged-links-obsidian",
   "tag-wrangler",
-  "obsidian-tagfolder"
+  "obsidian-tagfolder",
+  "dataview"
 ]

@@ -45,84 +45,39 @@ Als Berserker kannst du:
 
 ## Ausrüstung
 - [[Streitaxt]]
-
+- 5 [[Ration|Rationen]]
+- [[Seil aus Hanf]] (15 Meter)
 - 15 GM
-ODER
-- 75 GM
-
-
-**Saves:** STR+, INT-
-**Armor:** None
-**Starting Gear:** Battleaxe, Rations (meat), Rope (50 ft.)
 
 ---
 
-| Stufe | Wutwürfel | Merkmale                |
-| ----- | --------- | ----------------------- |
-| 1     | 1W4       | [[Wut]]                 |
-| 2     | 1W4       |                         |
-| 3     | 1W4       |                         |
-| 4     | 1W4       | Key Stat Increase       |
-| 5     | 2W4       | Secondary Stat Increase |
-| 6     | 2W6       |                         |
-| 7     | 2W6       |                         |
-| 8     | 2W6       | Key Stat Increase       |
-| 9     | 2W8       | Secondary Stat Increase |
-| 10    | 2W8       |                         |
-| 11    | 2W8       |                         |
-| 12    | 2W8       | Key Stat Increase       |
-| 13    | 2W10      | Secondary Stat Increase |
-| 14    | 2W10      |                         |
-| 15    | 2W10      |                         |
-| 16    | 2W10      | Key Stat Increase       |
-| 17    | 2W12      | Secondary Stat Increase |
-| 18    | 2W12      |                         |
-| 19    | 2W12      |                         |
-| 20    | 2W12      |                         |
+## Klassentabelle
+| Stufe | Wutwürfel | Merkmale                                                      |
+| ----- | --------- | ------------------------------------------------------------- |
+| 1     | W4        | [[Wüten]], [[War das schon alles]]                            |
+| 2     | W4        | [[Aufsteigende Wut]], [[Eins mit den Ahnen]]                  |
+| 3     | W4        | [[Berserker Subklassen\|Berserker Subklasse]], [[Blutrausch]] |
+| 4     | W4        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]], [[Andauernde Wut]]     |
+| 5     | W4        | Secondary Stat Increase                                       |
+| 6     | W6        |                                                               |
+| 7     | W6        |                                                               |
+| 8     | W6        | Key Stat Increase                                             |
+| 9     | W8        | Secondary Stat Increase                                       |
+| 10    | W8        |                                                               |
+| 11    | W8        |                                                               |
+| 12    | W8        | Key Stat Increase                                             |
+| 13    | W10       | Secondary Stat Increase                                       |
+| 14    | W10       |                                                               |
+| 15    | W10       |                                                               |
+| 16    | W10       | Key Stat Increase                                             |
+| 17    | W12       | Secondary Stat Increase                                       |
+| 18    | W12       |                                                               |
+| 19    | W12       |                                                               |
+| 20    | W12       |                                                               |
 
 
-# Stufen
+# Stufen  
 
-## Stufe 1
-
-**Wut**  
-(1× pro Runde) Aktion: Würfle 1 Wutwürfel (1W4) und lege ihn beiseite. Addiere ihn zu jedem STÄ-Angriff, den du ausführst. Du kannst maximal SCHL Wutwürfel halten; sie verfallen, wenn deine Wut endet.
-
-**War das schon alles?!**  
-Wenn du angegriffen wirst, kannst du 1 oder mehr Wutwürfel ausgeben, um den erlittenen Schaden pro Würfel um STÄ + GES zu verringern.
-
-> [!tip]- Deine Wut endet...  
-> Wenn du den Kampf verlässt, auf 0 TP fällst oder eine Runde lang weder angreifst noch wütend bist.
-
-> [!tip]- Ja!  
-> Du kannst erneut in Wut verfallen und einen weiteren Wutwürfel erhalten, selbst wenn du bereits wütend bist. Wenn du dein Maximum erreicht hast, würfle normal und wähle, welche Würfel du behältst. Deine Wutwürfel werden beim Berechnen von Schaden gegen Monster-Rüstung mit einbezogen.
-
-## Stufe 2
-
-**Steigernde Wut**  
-Wenn du zu Beginn deines Zuges wütend bist, würfle 1 Wutwürfel kostenlos.
-
-**Eins mit den Ahnen**  
-(1× pro Sichere Rast) Wenn du vor einer Entscheidung über Richtung oder Vorgehensweise stehst, kannst du deine Ahnen um Rat bitten, und sie führen dich auf den gefährlichsten oder herausforderndsten Pfad.
-
-## Stufe 3
-
-**Unterklasse**  
-Wähle eine Berserker-Unterklasse.
-
-**Blutrausch**  
-Gib während deines Zuges 1 oder mehr Wutwürfel aus und bewege dich pro Würfel um GES Felder kostenlos.
-
-## Stufe 4
-
-**Andauernde Wut**  
-Während du stirbst, verfällst du automatisch und kostenlos zu Beginn deines Zuges in Wut, hast maximal 2 Aktionen statt 1 und ignorierst STÄ-Rettungswürfe, um Angriffe auszuführen.
-
-**Primäres Attributsplus**  
-+1 STÄ oder GES. Wildes Arsenal. Wähle 1 Fähigkeit aus dem Wilden Arsenal.
-
-> [!tip]- Zorn & Zerstörung  
-> Wann immer du während einer Sicheren Rast eine bemerkenswerte Tat der Zerstörung oder Stärke vollbringst, kannst du deine verfügbaren Berserker-Optionen neu wählen.
 
 ## Stufe 5
 

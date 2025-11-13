@@ -8,6 +8,17 @@ So erschaffst du deinen eigenen Helden:
 
 ## Schritt 1: Wähle deine Klasse
 Dies hat den größten Einfluss auf deine weiteren Entscheidungen und darauf, wie dein Charakter mit der Welt interagiert:
+```dataview
+TABLE WITHOUT ID
+
+file.link AS "Klasse",
+Beschreibung
+
+FROM #Regeln/Nimble/Charakter 
+
+SORT file.name
+```
+
 - **[[BERSERKER]].** Unaufhaltsame Kraft aus Zorn und Zerstörung.
 - **[[DER BETRÜGER]].** Heimtückischer, hinterhältiger, schmutzig kämpfender Schurke.
 - **[[KOMMANDANT]].** Meisterstratege, Anführer und Waffenexperte.
@@ -20,19 +31,21 @@ Dies hat den größten Einfluss auf deine weiteren Entscheidungen und darauf, wi
 - **[[STURMWANDLER]].** Gebieter über Wetter, Bestien und Natur.
 - **[[ZEPHYR]].** Disziplinierter Kampfkünstler mit schnellen Händen und Füßen.
 
-## Schritt 2: Wähle deine Abstammung & deinen Hintergrund
-(Optional kannst du auch deine Abenteuer-Motivation festlegen.) 
+## Schritt 2: Wähle deine Herkunft
+Wähle eine [[Abstammung]].
+Wähle entweder aus den vorgefertigten [[Hintergründe|Hintergründen]]oder lege deine eigene Abenteuer-Motivation fest. 
 Was hat deinen Helden angetrieben, ein Abenteurer zu werden? 
 Wie kennst du die anderen Helden?
 
 ## Schritt 3: Fülle dein Charakterblatt aus
+Benutze die [[Character Sheet Vorlage]].
 Dieses Blatt hilft dir, Werte, Fähigkeiten, Ausrüstung und andere wichtige Informationen zu verwalten.
 
 # Das Charakterblatt
 
 ## 1. Grundwerte & Attribute
-Trage Charakterdetails ein: Name, [[Abstammung]], [[Klasse]], Stufe, Größe und Gewicht. 
-Markiere Vorteile  und Nachteile bei Rettungswürfen und wähle eine Werteverteilung. 
+Trage Charakterdetails ein: Name, [[Abstammung]], [[Klasse]], Stufe, Größe und Gewicht.
+Markiere [[Vorteil und Nachteil|Vorteil]]  und [[Vorteil und Nachteil|Nachteil]] bei [[Rettungswurf|Rettungswürfen]] und wähle eine Werteverteilung. 
 (Tipp: Setze die höchsten Zahlen in die Kernattribute deiner Klasse).
 
 - **Standard:** +2, +2, +1, +0, +0, -1
@@ -40,12 +53,12 @@ Markiere Vorteile  und Nachteile bei Rettungswürfen und wähle eine Wertevert
 - **Extrem (Min–Max):** +3, +1, +1, +1, -1, -1
 
 > [!example]- Beispiel  
-> Der Betrüger hat [[Geschicklichkeit|GE]] und [[Intelligenz|IN]] als seine Hauptwerte. 
+> [[Der Betrüger]] hat [[Geschicklichkeit|GE]] und [[Intelligenz|IN]] als seine Hauptwerte. 
 > Mit der Min–Max-Verteilung könntest du +3 auf  [[Geschicklichkeit|GE]], +1 auf  [[Intelligenz|IN]], [[Charisma|CH]] und [[Konstitution|KO]]  und –1 auf  [[Stärke|ST]] und [[Weisheit|WE]]  setzen. 
 > Markiere [[Vorteil und Nachteil|Vorteil]] für [[Geschicklichkeit|GE]]-[[Rettungswurf|Rettungswürfe]] und [[Vorteil und Nachteil|Nachteil]] für [[Weisheit|WE]]-[[Rettungswurf|Rettungswürfe]].
 
 ## 2. Fertigkeitspunkte
-Auf Stufe 1 überträgst du deine Attributsboni auf die jeweiligen [[Fertigkeiten]] (z. B. ein Held mit +2 [[Geschicklichkeit|GE]] trägt +2 bei [[Akrobatik]], [[Fingerfertigkeit]] und [[Heimlichkeit]] ein) und darf 6 weitere Punkte frei verteilen.
+Auf Stufe 1 überträgst du deine [[Attribute|Attributsboni]] auf die jeweiligen [[Fertigkeiten]] (z. B. ein Held mit +2 [[Geschicklichkeit|GE]] trägt +2 bei [[Akrobatik]], [[Fingerfertigkeit]] und [[Heimlichkeit]] ein) und darf 6 weitere Punkte frei verteilen.
 
 > [!example]- Beispiel  
 > Wenn du –1 [[Intelligenz|IN]] hast, markiere  -1 bei [[Arkane Kunde]], [[Geschichte]], [[Nachforschungen]], [[Naturkunde]] und [[Religion]]. 
