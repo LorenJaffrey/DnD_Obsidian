@@ -9,9 +9,9 @@ tags:
 Art: "[[Zauberstecken]]"
 Seltenheit: Erbstück
 Einstimmung: true
-Kosten: 
+Kosten:
 Voraussetzung:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
 Verflucht: false
 Reichweite: 1,5(1)
 Schaden: 1d8

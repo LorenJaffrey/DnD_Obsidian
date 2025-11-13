@@ -16,10 +16,10 @@ Welches Attribut du nutzt, hängt von deiner Klasse ab:
 | Klasse                       | Attribut zum Zauberwirken |
 | ---------------------------- | ------------------------- |
 | [[Barde]]                        | [[Charisma]]                  |
-| [[Kleriker]]                     | [[Weisheit]]                  |
-| [[Druide]]                       | [[Weisheit]]                  |
+| [[Kleriker DnD]]                     | [[Weisheit]]                  |
+| [[Druide DnD]]                       | [[Weisheit]]                  |
 | [[Hexenmeister]]                 | [[Charisma]]                  |
-| [[Magier]]                       | [[Intelligenz]]               |
-| [[Paladin]]                      | [[Charisma]]                  |
+| [[Magier DnD]]                       | [[Intelligenz]]               |
+| [[Paladin DnD]]                      | [[Charisma]]                  |
 | [[Waldläufer]]                   | [[Weisheit]]                  |
 | [[Zauberer]]                     | [[Charisma]]                  |

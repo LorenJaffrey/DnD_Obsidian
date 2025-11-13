@@ -19,7 +19,7 @@ Schaden:
 Schadensart:
 Ziel:
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
 Typ: "[[Heilung]]"

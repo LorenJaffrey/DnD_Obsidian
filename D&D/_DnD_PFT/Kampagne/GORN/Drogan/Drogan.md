@@ -96,7 +96,7 @@ Merkmale:
   - "[[Zusätzlicher Angriff]]"
   - "[[Titanengriff]]"
   - "[[Tödlicher Hieb]]"
-  - "[[Furchtlos]]"
+  - "[[_DnD_PFT/Charaktere/Klassen/Barbar/Klassenmerkmale/Furchtlos]]"
   - "[[Schnelles Ziehen]]"
   - "[[Verbesserter Kampf mit zwei Waffen]]"
 Talente:

@@ -24,7 +24,7 @@ Ziel: AoE
 Klassen:
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Hexenmeister]]"
 Typ: "[[Offensivzauber|Angriff]]"
 ---

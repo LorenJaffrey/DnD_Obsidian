@@ -20,7 +20,7 @@ Schadensart: "[[Feuerschaden]]"
 Rettungswurf: "[[Geschicklichkeit|GES]]"
 Ziel: AoE
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
 Typ: "[[Offensivzauber|Angriff]]"
 ---

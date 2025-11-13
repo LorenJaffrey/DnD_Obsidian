@@ -9,25 +9,22 @@ tags:
 Art: "[[Zauberstecken]]"
 Seltenheit: Erbstück
 Einstimmung: true
-Kosten: 
+Kosten:
 Voraussetzung:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
 Verflucht: false
-
 Reichweite: 1,5(1)
 Schaden: 1d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
   - "[[Parieren]]"
   - "[[Finesse]]"
-
-SchadenFern: 
-SchadensartFern: 
-Range1: 
-Range2: 
-Range3: 
-EigenschaftenFern: 
-
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
 Größe: 4

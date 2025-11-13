@@ -9,7 +9,7 @@ Reichweite: Berührung
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 1m
 Konzentration: false
 Ritual: false
@@ -21,7 +21,7 @@ SchadenLv17: 2d6
 Schadensart: "[[Energieschaden]]"
 Ziel: Selbst
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
 Typ: "[[Buff]]"
 ---
 ``` dynamic-embed

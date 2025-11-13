@@ -20,7 +20,7 @@ Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
 Typ: "[[Beeinflussung|Geist]]"

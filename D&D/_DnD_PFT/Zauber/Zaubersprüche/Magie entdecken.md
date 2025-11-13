@@ -20,10 +20,10 @@ Schadensart:
 Ziel: AoE
 Klassen:
   - "[[Barde]]"
-  - "[[Druide]]"
-  - "[[Kleriker]]"
-  - "[[Magier]]"
-  - "[[Paladin]]"
+  - "[[Druide DnD]]"
+  - "[[Kleriker DnD]]"
+  - "[[Magier DnD]]"
+  - "[[Paladin DnD]]"
   - "[[Waldläufer]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"

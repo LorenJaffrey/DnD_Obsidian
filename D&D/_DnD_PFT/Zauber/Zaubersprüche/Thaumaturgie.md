@@ -17,7 +17,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: false
 Klassen:
-  - "[[Kleriker]]"
+  - "[[Kleriker DnD]]"
 Typ: "[[Beeinflussung]]"
 ---
 ``` dynamic-embed
@@ -40,4 +40,4 @@ Du kannst einen solchen Effekt verwerfen (keine [[Aktion]] erforderlich).
 - **Verändete Augen**: Du veränderst für 1 Minute das Aussehen deiner Augen.
 
 ## Zauberlisten
-- [[Kleriker]]
+- [[Kleriker DnD]]

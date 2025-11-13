@@ -24,9 +24,9 @@ Schadensart: "[[Giftschaden]]"
 Ziel: Einzel
 Rettungswurf:
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
   - "[[Hexenmeister]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Magieschmied]]"
   - "[[Zauberer]]"
 Typ: "[[Offensivzauber|Angriff]]"

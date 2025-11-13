@@ -71,7 +71,7 @@ Merkmale:
     - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
   Volk: "[[Zwerge|Zwerg]]"
-  Klasse: "[[Druide]]"
+  Klasse: "[[Druide DnD]]"
   Subklasse: "[[Zirkel des Hirten]]"
   Gesinnung: "[[Rechtschaffen Gut]]"
   Herkunft: "[[Heimgesuchter]]"

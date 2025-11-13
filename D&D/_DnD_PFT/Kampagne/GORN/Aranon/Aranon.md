@@ -98,7 +98,7 @@ Hintergrund:
   Video: "[[Aranon_animated.mp4]]"
   Name: Aranon Grauwald
   Volk: "[[Halbelfen|Halbelf]]"
-  Klasse: "[[Druide]]"
+  Klasse: "[[Druide DnD]]"
   Subklasse: "[[Zirkel des Hirten]]"
   Gesinnung: "[[Rechtschaffen Gut]]"
   Herkunft: "[[Einsiedler]]"

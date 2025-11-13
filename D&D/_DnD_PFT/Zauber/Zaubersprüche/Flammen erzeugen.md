@@ -11,7 +11,7 @@ Reichweite: 18 Meter
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: 10 Minuten
 Konzentration: false
 Ritual: false
@@ -23,7 +23,7 @@ SchadenLv17: 4d8
 Schadensart: "[[Feuerschaden]]"
 Ziel: Einzeln
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
 Typ: "[[Offensivzauber]]"
 ---
 ``` dynamic-embed

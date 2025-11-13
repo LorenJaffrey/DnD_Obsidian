@@ -10,16 +10,16 @@ Reichweite: selbst
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Selbst
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Hexenmeister]]"
 Typ: "[[Fortbewegung|Move]]"

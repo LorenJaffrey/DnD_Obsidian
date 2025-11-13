@@ -1,6 +1,6 @@
 ---
-aliases: 
-tags: 
+aliases:
+tags:
   - Zauber
 Grad: 2
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
@@ -14,11 +14,11 @@ Dauer: Unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
-  - "[[Kleriker]]"
+  - "[[Kleriker DnD]]"
 Typ: "[[Analyse]]]"
 ---
 ``` dynamic-embed

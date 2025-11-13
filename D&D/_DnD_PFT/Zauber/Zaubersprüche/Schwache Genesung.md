@@ -11,19 +11,19 @@ Reichweite: Berührung
 Verbal: true
 Geste: true
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"
-  - "[[Druide]]"
-  - "[[Kleriker]]"
-  - "[[Paladin]]"
+  - "[[Druide DnD]]"
+  - "[[Kleriker DnD]]"
+  - "[[Paladin DnD]]"
   - "[[Waldläufer]]"
   - "[[Magieschmied]]"
 Typ: "[[Heilung]]"

@@ -1,7 +1,7 @@
 ---
 tags:
   - Sprache/Sonstige
-Ursprung: "[[Druide|Druiden]]"
+Ursprung: "[[Druide DnD|Druiden]]"
 ---
 # `=this.file.name`
 Du weißt nicht nur, wie man die Sprache spricht, sondern auch wie man versteckte Botschaften hinterlassen kann. 

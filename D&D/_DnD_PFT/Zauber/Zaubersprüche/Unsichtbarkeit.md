@@ -24,7 +24,7 @@ Klassen:
   - "[[Magieschmied]]"
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
 Typ: "[[Buff]]"
 ---
 ``` dynamic-embed

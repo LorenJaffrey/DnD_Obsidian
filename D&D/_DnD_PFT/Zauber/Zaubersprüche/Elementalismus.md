@@ -20,8 +20,8 @@ Schadensart:
 Ziel:
 Klassen:
   - "[[Zauberer]]"
-  - "[[Druide]]"
-  - "[[Magier]]"
+  - "[[Druide DnD]]"
+  - "[[Magier DnD]]"
 Typ: "[[Alltagsmagie|Trick]]"
 ---
 ``` dynamic-embed

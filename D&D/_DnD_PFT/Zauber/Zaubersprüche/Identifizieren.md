@@ -17,11 +17,11 @@ Konzentration: false
 Ritual: true
 Skalierbar: false
 Schaden:
-Schadensart: 
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Magieschmied]]"
 Typ: "[[Analyse]]"
 ---

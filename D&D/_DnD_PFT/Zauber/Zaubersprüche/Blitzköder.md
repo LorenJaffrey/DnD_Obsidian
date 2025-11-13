@@ -16,7 +16,7 @@ Konzentration: false
 Ritual: false
 Skalierbar: true
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
   - "[[Hexenmeister]]"

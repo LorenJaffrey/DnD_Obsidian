@@ -15,11 +15,11 @@ Dauer: unmittelbar
 Konzentration: false
 Ritual: true
 Skalierbar: false
-Schaden: 
-Schadensart: 
+Schaden:
+Schadensart:
 Ziel:
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
 Typ: "[[Unterstützung]]"
 ---
 ``` dynamic-embed

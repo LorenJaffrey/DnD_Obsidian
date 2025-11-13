@@ -20,10 +20,10 @@ Schaden:
 Schadensart:
 Ziel:
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
   - "[[Barde]]"
-  - "[[Kleriker]]"
-  - "[[Paladin]]"
+  - "[[Kleriker DnD]]"
+  - "[[Paladin DnD]]"
   - "[[Magieschmied]]"
   - "[[Waldläufer]]"
 Typ: "[[Heilung]]"

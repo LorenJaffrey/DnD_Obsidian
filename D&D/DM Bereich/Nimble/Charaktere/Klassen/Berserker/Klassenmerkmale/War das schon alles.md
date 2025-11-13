@@ -5,5 +5,5 @@ aliases:
 Einsatz: "Passiv"
 ---
 # `=this.file.name`
-Wenn du angegriffen wirst, kannst du einen oder mehrere [[Wüten#Wutwürfel]] ausgeben.
-Verringere den eingehenden Schaden um [[Stärke]] + [[Geschicklichkeit]] für jeden ausgegebenen [[Wüten#Wutwürfel]].
+Wenn du angegriffen wirst, kannst du einen oder mehrere [[Wut#Wutwürfel]] ausgeben.
+Verringere den eingehenden Schaden um [[Stärke]] + [[Geschicklichkeit]] für jeden ausgegebenen [[Wut#Wutwürfel]].

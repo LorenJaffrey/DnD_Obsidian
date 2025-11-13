@@ -1,1 +1,0 @@
-Advantage on checks to know or obtain gossip for events that will soon happen or have happened less than 1 year ago.

@@ -12,7 +12,7 @@ BereichQuadrate AS "Bereich (Quadrate)"
 
 FROM #Regeln/Nimble/Größenkategorie
 
-SORT Bereich ASC
+SORT BereichMeter ASC
 ```
 
 ## Bereich

@@ -19,7 +19,7 @@ Schaden:
 Schadensart:
 Ziel: AoE
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
   - "[[Waldläufer]]"
 Typ: "[[Positionskontrolle]]"
 ---

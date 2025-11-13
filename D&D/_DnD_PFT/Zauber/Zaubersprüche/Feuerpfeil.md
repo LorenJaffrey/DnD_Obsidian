@@ -22,7 +22,7 @@ SchadenLv17: 4d10
 Schadensart: "[[Feuerschaden]]"
 Ziel: AoE
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
 Typ: "[[Offensivzauber]]"

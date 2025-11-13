@@ -6,7 +6,7 @@ Bewegung: 5
 Rüstung: "[[Plattenrüstung]]"
 Schild: "[[Turmschild]]"
 Waffen:
-- "[[Streitaxt]]"
+  - "[[Streitaxt]]"
 Gesundheit:
   MaxTP: 39
   TP: 39
@@ -73,7 +73,7 @@ Merkmale:
     - "[[Meisterschaft Kampf mit zwei Waffen]]"
 Hintergrund:
   Volk: "[[Zwerge|Zwerg]]"
-  Klasse: "[[Druide]]"
+  Klasse: "[[Druide DnD]]"
   Subklasse: "[[Zirkel des Hirten]]"
   Gesinnung:
     Ordnung: 3
@@ -81,9 +81,9 @@ Hintergrund:
   Herkunft: "[[Heimgesuchter]]"
 Persönlichkeit:
   Persönlichkeitsmerkmale:
-  - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
-  - Ich spreche nicht über das, was mich quält. 
-  - Ich möchte andere nicht mit meinem Fluch belasten.
+    - Ich fliehe nicht vor dem Bösen, das Böse flieht vor mir.
+    - Ich spreche nicht über das, was mich quält.
+    - Ich möchte andere nicht mit meinem Fluch belasten.
   Ideale: Ich versuche denjenigen zu helfen die Hilfe benötigen, egal was es mich kosten mag.
   Bindungen: Eine furchtbare Schuld verzehrt mich. Ich hoffe durch meine Taten Erlösung zu finden.
   Makel: Ich habe eine (Alkohol-)Sucht.

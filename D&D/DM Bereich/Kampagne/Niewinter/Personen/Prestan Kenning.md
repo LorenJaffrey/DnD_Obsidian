@@ -28,7 +28,7 @@ Fraktion: "[[Abenteurergilde]]"
 - trägt er ein beeindruckendes, mit Juwelen verziertes Langschwert
 
 ## Persönlichkeit
-- [[Paladin]] des Tyr
+- [[Paladin DnD]] des Tyr
 - vornehmes Benehmen
 - spricht mit einer ruhigen und bedachten Stimme
 - inspirierender Redner

@@ -20,8 +20,8 @@ Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Magieschmied]]"
-  - "[[Kleriker]]"
-  - "[[Druide]]"
+  - "[[Kleriker DnD]]"
+  - "[[Druide DnD]]"
 Typ: "[[Buff]]"
 ---
 ``` dynamic-embed

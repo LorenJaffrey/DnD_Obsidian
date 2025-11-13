@@ -20,7 +20,7 @@ Schadensart:
 Ziel:
 Klassen:
   - "[[Barde]]"
-  - "[[Kleriker]]"
+  - "[[Kleriker DnD]]"
 Typ: "[[Debuff]]"
 ---
 ``` dynamic-embed

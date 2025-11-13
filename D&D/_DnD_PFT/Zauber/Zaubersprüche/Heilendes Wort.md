@@ -11,18 +11,18 @@ Reichweite: 18 Meter
 Verbal: true
 Geste: false
 Material: false
-Materialkosten: 
+Materialkosten:
 Dauer: unmittelbar
 Konzentration: false
 Ritual: false
 Skalierbar: true
 Schaden: 1d4
-Schadensart: 
+Schadensart:
 Ziel: Einzel
 Klassen:
   - "[[Barde]]"
-  - "[[Druide]]"
-  - "[[Kleriker]]"
+  - "[[Druide DnD]]"
+  - "[[Kleriker DnD]]"
 Typ: "[[Heilung]]"
 ---
 ``` dynamic-embed

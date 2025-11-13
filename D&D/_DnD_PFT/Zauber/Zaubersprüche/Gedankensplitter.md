@@ -26,7 +26,7 @@ Rettungswurf: "[[Intelligenz|INT]]"
 Klassen:
   - "[[Zauberer]]"
   - "[[Hexenmeister]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
 Typ: "[[Debuff]]"
 ---
 ``` dynamic-embed

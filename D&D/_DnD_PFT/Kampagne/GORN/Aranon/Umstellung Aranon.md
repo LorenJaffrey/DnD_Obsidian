@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Druide]]
+1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Druide DnD]]
 	1. [[Urtümliche Ordnung]]
 	2. keine [[_Übung]] mit [[Mittelschwere Rüstung]] mehr
 	3. feste [[Tiergestalt]]
@@ -25,5 +25,5 @@
 	5. [[Fertigkeiten]]
 		1. [[Heilkunde]] ([[Einsiedler]])
 		2. [[Religion]] ([[Einsiedler]])
-		3. Zwei weitere aus [[Druide#Fertigkeiten]] -> [[Naturkunde]], [[Mit Tieren umgehen]]
+		3. Zwei weitere aus [[Druide DnD#Fertigkeiten]] -> [[Naturkunde]], [[Mit Tieren umgehen]]
 		4. Zwei weitere beliebige ([[Vielseitig]]) -> [[Arkane Kunde]], [[Überlebenskunst]]

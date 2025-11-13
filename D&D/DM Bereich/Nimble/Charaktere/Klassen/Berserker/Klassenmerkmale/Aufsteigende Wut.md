@@ -5,4 +5,4 @@ aliases:
 Einsatz: "Passiv"
 ---
 # `=this.file.name`
-Wenn du zu Beginn deines [[Zug|Zuges]] [[Wüten|wütend]] bist, erhalte 1 [[Wüten#Wutwürfel]] kostenlos.
+Wenn du zu Beginn deines [[Zug|Zuges]] [[Wut|wütend]] bist, erhalte 1 [[Wut#Wutwürfel]] kostenlos.

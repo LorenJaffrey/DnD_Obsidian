@@ -20,7 +20,7 @@ Schadensart:
 Ziel:
 Klassen:
   - "[[Barde]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
 Typ: "[[Beeinflussung]]"

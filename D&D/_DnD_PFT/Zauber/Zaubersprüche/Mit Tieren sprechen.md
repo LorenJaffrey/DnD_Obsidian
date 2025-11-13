@@ -21,7 +21,7 @@ Schadensart:
 Ziel:
 Klassen:
   - "[[Barde]]"
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
   - "[[Waldläufer]]"
 Typ: "[[Beeinflussung|Geist]]"
 ---

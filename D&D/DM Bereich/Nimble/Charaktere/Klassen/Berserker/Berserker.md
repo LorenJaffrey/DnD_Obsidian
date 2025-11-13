@@ -52,133 +52,25 @@ Als Berserker kannst du:
 ---
 
 ## Klassentabelle
-| Stufe | Wutwürfel | Merkmale                                                      |
-| ----- | --------- | ------------------------------------------------------------- |
-| 1     | W4        | [[Wüten]], [[War das schon alles]]                            |
-| 2     | W4        | [[Aufsteigende Wut]], [[Eins mit den Ahnen]]                  |
-| 3     | W4        | [[Berserker Subklassen\|Berserker Subklasse]], [[Blutrausch]] |
-| 4     | W4        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]], [[Andauernde Wut]]     |
-| 5     | W4        | Secondary Stat Increase                                       |
-| 6     | W6        |                                                               |
-| 7     | W6        |                                                               |
-| 8     | W6        | Key Stat Increase                                             |
-| 9     | W8        | Secondary Stat Increase                                       |
-| 10    | W8        |                                                               |
-| 11    | W8        |                                                               |
-| 12    | W8        | Key Stat Increase                                             |
-| 13    | W10       | Secondary Stat Increase                                       |
-| 14    | W10       |                                                               |
-| 15    | W10       |                                                               |
-| 16    | W10       | Key Stat Increase                                             |
-| 17    | W12       | Secondary Stat Increase                                       |
-| 18    | W12       |                                                               |
-| 19    | W12       |                                                               |
-| 20    | W12       |                                                               |
-
-
-# Stufen  
-
-
-## Stufe 5
-
-**Wut (2)**  
-Immer wenn du in Wut verfällst, erhältst du 2 Wutwürfel statt 1.
-
-**Sekundäres Attributsplus**  
-+1 INT oder WIL.
-
-## Stufe 6
-
-**Wildes Arsenal (2)**  
-Wähle eine zweite Fähigkeit aus dem Wilden Arsenal.
-
-**Steigernde Wut (2)**  
-Deine Wutwürfel sind nun W6.
-
-## Stufe 7
-
-**Unterklasse**  
-Erhalte das Merkmal deiner Berserker-Unterklasse.
-
-## Stufe 8
-
-**Wildes Arsenal (3)**  
-Wähle eine dritte Fähigkeit aus dem Wilden Arsenal.
-
-**Primäres Attributsplus**  
-+1 STÄ oder GES.
-
-## Stufe 9
-
-**Steigernde Wut (3)**  
-Deine Wutwürfel sind nun W8.
-
-**Sekundäres Attributsplus**  
-+1 INT oder WIL.
-
-## Stufe 10
-
-**Wildes Arsenal (4)**  
-Wähle eine vierte Fähigkeit aus dem Wilden Arsenal.
-
-## Stufe 11
-
-**Unterklasse**  
-Erhalte das Merkmal deiner Berserker-Unterklasse.
-
-## Stufe 12
-
-**Wildes Arsenal (5)**  
-Wähle eine fünfte Fähigkeit aus dem Wilden Arsenal.
-
-**Primäres Attributsplus**  
-+1 STÄ oder GES.
-
-## Stufe 13
-
-**Steigernde Wut (4)**  
-Deine Wutwürfel sind nun W10.
-
-**Sekundäres Attributsplus**  
-+1 INT oder WIL.
-
-## Stufe 14
-
-**Wildes Arsenal (6)**  
-Wähle eine sechste Fähigkeit aus dem Wilden Arsenal.
-
-## Stufe 15
-
-**Unterklasse**  
-Erhalte das Merkmal deiner Berserker-Unterklasse.
-
-## Stufe 16
-
-**Wildes Arsenal (7)**  
-Wähle eine siebte Fähigkeit aus dem Wilden Arsenal.
-
-**Primäres Attributsplus**  
-+1 STÄ oder GES.
-
-## Stufe 17
-
-**Steigernde Wut (5)**  
-Deine Wutwürfel sind nun W12.
-
-**Sekundäres Attributsplus**  
-+1 INT oder WIL.
-
-## Stufe 18
-
-**TIEFE WUT**  
-Das Fallen auf 0 TP beendet deine Wut nicht mehr.
-
-## Stufe 19
-
-**Epische Gabe**  
-Wähle eine Epische Gabe.
-
-## Stufe 20
-
-**GRENZENLOSE WUT**  
-+1 auf zwei beliebige Attribute. Wann immer du auf einem Wutwürfel weniger als 6 würfelst, ändere das Ergebnis zu 6.
+| Stufe | Wutwürfel | Merkmale                                                                  |
+| ----- | --------- | ------------------------------------------------------------------------- |
+| 1     | W4        | [[Wut]], [[Wüten]], [[War das schon alles]]                               |
+| 2     | W4        | [[Aufsteigende Wut]], [[Eins mit den Ahnen]]                              |
+| 3     | W4        | [[Berserker Subklassen\|Berserker Subklasse]], [[Blutrausch]]             |
+| 4     | W4        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]], [[Andauernde Wut]] |
+| 5     | W4        | [[Sekundäre Attributswerterhöhung]], [[Verbessertes Wüten]]               | 
+| 6     | W6        | [[Wildes Arsenal]]                                                        |
+| 7     | W6        | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 8     | W6        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
+| 9     | W8        | [[Sekundäre Attributswerterhöhung]]                                       |
+| 10    | W8        | [[Wildes Arsenal]]                                                        |
+| 11    | W8        | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 12    | W8        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
+| 13    | W10       | [[Sekundäre Attributswerterhöhung]]                                       |
+| 14    | W10       | [[Wildes Arsenal]]                                                        |
+| 15    | W10       | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 16    | W10       | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
+| 17    | W12       | [[Sekundäre Attributswerterhöhung]]                                       |
+| 18    | W12       | [[Tiefe Wut]]                                                             |
+| 19    | W12       | [[Boons#EPIC Boons]]                                                      |
+| 20    | W12       | [[Grenzenlose Wut]]                                                       |

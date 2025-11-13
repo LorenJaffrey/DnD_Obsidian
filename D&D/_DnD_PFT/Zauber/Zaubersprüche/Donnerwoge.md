@@ -21,8 +21,8 @@ Ziel: AoE
 Rettungswurf: "[[Konstitution|KON]]"
 Klassen:
   - "[[Barde]]"
-  - "[[Druide]]"
-  - "[[Magier]]"
+  - "[[Druide DnD]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
 Typ: "[[Offensivzauber|Angriff]]"
 ---

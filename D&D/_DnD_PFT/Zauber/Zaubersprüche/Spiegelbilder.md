@@ -23,7 +23,7 @@ Klassen:
   - "[[Barde]]"
   - "[[Hexenmeister]]"
   - "[[Zauberer]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
 Typ: "[[Defensivzauber|Abwehr]]"
 ---
 ``` dynamic-embed

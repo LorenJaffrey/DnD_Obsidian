@@ -21,7 +21,7 @@ Ziel: Einzel
 Klassen:
   - "[[Barde]]"
   - "[[Hexenmeister]]"
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
   - "[[Magieschmied]]"
 Typ: "[[Unterstützung]]"

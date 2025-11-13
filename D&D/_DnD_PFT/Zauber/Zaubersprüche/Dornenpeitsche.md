@@ -22,7 +22,7 @@ SchadenLv17: 4d6
 Schadensart: "[[Stichschaden]]"
 Ziel: AoE
 Klassen:
-  - "[[Druide]]"
+  - "[[Druide DnD]]"
   - "[[Magieschmied]]"
 Typ: "[[Offensivzauber]]"
 ---

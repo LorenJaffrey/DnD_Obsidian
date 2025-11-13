@@ -18,8 +18,8 @@ Schaden:
 Schadensart:
 Ziel: Selbst
 Klassen:
-  - "[[Druide]]"
-  - "[[Kleriker]]"
+  - "[[Druide DnD]]"
+  - "[[Kleriker DnD]]"
   - "[[Waldläufer]]"
 Typ: "[[Analyse]]"
 ---

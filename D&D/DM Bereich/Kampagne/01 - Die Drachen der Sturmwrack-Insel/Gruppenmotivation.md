@@ -3,7 +3,7 @@
 | Frank   | Gnom [[Schurke]] Niptac   | Geld, Beute, Mutter unterstützen                 | Unterstützung im Kampf | versteckter Schatz                       |
 | Michi   | Mensch [[Kämpfer]]        | Geld, Beute, etc.                                | Unterstützung im Kampf | Geld, Beute, etc.                        |
 | Deekay  | Zwerg [[Barbar]]          | Ehrenhafter Tod; Monster töten                   | größere Heldentaten    | Drachen töten                            |
-| Sancho  | Halbelf [[Druide]]        | Rache an Betrachter, Bedrohungen aktiv bekämpfen | Unterstützung im Kampf |                                          |
+| Sancho  | Halbelf [[Druide DnD]]        | Rache an Betrachter, Bedrohungen aktiv bekämpfen | Unterstützung im Kampf |                                          |
 | Tobi    | Tiefling [[Hexenmeister]] | Namen des Patrons erfahren, Arkanes Wissen       |                        | Arkanes Wissen, Talisman im Schiffswrack |
 
 

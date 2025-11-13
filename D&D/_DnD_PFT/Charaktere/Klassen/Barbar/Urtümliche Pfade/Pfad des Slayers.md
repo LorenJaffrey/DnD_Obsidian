@@ -6,7 +6,7 @@
 
 | Stufe | Merkmal                                             |
 |:-----:| --------------------------------------------------- |
-|   3   | [[Titanengriff]], [[Tödlicher Hieb]], [[Furchtlos]] |
+|   3   | [[Titanengriff]], [[Tödlicher Hieb]], [[_DnD_PFT/Charaktere/Klassen/Barbar/Klassenmerkmale/Furchtlos]] |
 |   6   | [[Slayerzorn]], [[Unerschütterlich]]                |
 |  10   | [[Verzweifelter Ansturm]]                           |
 |  14   | [[Bestienslayer]]                                   |

@@ -14,26 +14,26 @@ TABLE WITHOUT ID
 file.link AS "Klasse",
 Beschreibung
 
-FROM #Regeln/Nimble/Charakter 
+FROM #Regeln/Nimble/Charakter/Klasse 
 
 SORT file.name
 ```
 
 - **[[BERSERKER]].** Unaufhaltsame Kraft aus Zorn und Zerstörung.
-- **[[DER BETRÜGER]].** Heimtückischer, hinterhältiger, schmutzig kämpfender Schurke.
+- **[[GAUNER]].** Heimtückischer, hinterhältiger, schmutzig kämpfender Schurke.
 - **[[KOMMANDANT]].** Meisterstratege, Anführer und Waffenexperte.
 - **[[JÄGER]].** Findiger Überlebenskünstler, Bogenschütze und erfahrener Fährtenleser.
-- **[[MAGIER]].** Beherrsche Feuer, Eis und Blitze.
-- **[[EIDBEWAHRER]].** Treuer Wächter, Beschützer und Rächer der Schwachen.
-- **[[SCHATTENBESCHWÖRER]].** Beschwöre Horden entbehrlicher Diener.
-- **[[HIRTE]].** Meistre Leben und Tod. Führe einen treuen Begleiter.
-- **[[LIEDWIRKER]].** Inspirierende Präsenz, scharfer Verstand, schärfere Zunge.
-- **[[STURMWANDLER]].** Gebieter über Wetter, Bestien und Natur.
-- **[[ZEPHYR]].** Disziplinierter Kampfkünstler mit schnellen Händen und Füßen.
+- **[[ARKANIST]].** Beherrsche Feuer, Eis und Blitze.
+- **[[PALADIN]].** Treuer Wächter, Beschützer und Rächer der Schwachen.
+- **[[SCHATTENRUFER]].** Beschwöre Horden entbehrlicher Diener.
+- **[[KLERIKER]].** Meistre Leben und Tod. Führe einen treuen Begleiter.
+- **[[KLANGWEBER]].** Inspirierende Präsenz, scharfer Verstand, schärfere Zunge.
+- **[[DRUIDE]].** Gebieter über Wetter, Bestien und Natur.
+- **[[WINDLÄUFER]].** Disziplinierter Kampfkünstler mit schnellen Händen und Füßen.
 
 ## Schritt 2: Wähle deine Herkunft
 Wähle eine [[Abstammung]].
-Wähle entweder aus den vorgefertigten [[Hintergründe|Hintergründen]]oder lege deine eigene Abenteuer-Motivation fest. 
+Wähle außerdem entweder aus den vorgefertigten [[Hintergründe|Hintergründen]]oder lege deine eigene Abenteuer-Motivation fest. 
 Was hat deinen Helden angetrieben, ein Abenteurer zu werden? 
 Wie kennst du die anderen Helden?
 
@@ -76,7 +76,7 @@ Trage deine sekundären Werte ein:
 - Inventarplätze (10 + [[Stärke]]) 
 
 ## 4. Ausrüstung & Geld
-Helden beginnen auf Stufe 1 mit der für ihre Klasse und ihren Hintergrund vorgeschriebenen Ausrüstung oder mit **50 GM**, um ihre Startausrüstung zu kaufen. 
+Helden beginnen auf Stufe 1 mit der für ihre [[Klasse]] und ihren [[Hintergründe|Hintergrund]] vorgeschriebenen Ausrüstung oder mit **50 GM**, um ihre Startausrüstung zu kaufen. 
 Wenn du auf höherer Stufe beginnst, multipliziere den Betrag mit deiner Startstufe.
 
 > [!faq]- Aber mein Charakter ist ein wohlhabender Adliger!  

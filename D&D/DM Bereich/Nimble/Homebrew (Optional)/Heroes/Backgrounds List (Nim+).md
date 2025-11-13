@@ -2,104 +2,104 @@
 
 ---
 
-![[Common]]
+![[Gewöhnlich]]
 
 ---
 
-![[Kind of a Big Deal]]
+![[_Kind of a Big Deal]]
 
 ---
 
-![[Overconfident]]
+![[_Overconfident]]
 
 ---
 
-![[Plucky Wannabe Hero]]
+![[_Plucky Wannabe Hero]]
 
 ---
 
-![[Field Chef]]
+![[Feldkoch]]
 
 ---
 
-![[Iron Gut]]
+![[_Iron Gut]]
 
 ---
 
-![[Fearful]]
+![[Furchtsam]]
 
 ---
 
-![[Insecure]]
+![[_Insecure]]
 
 ---
 
-![[Exile]]
+![[Verbannt]]
 
 ---
 
-![[Wild Child]]
+![[Wildes Kind]]
 
 ---
 
-![[Out For Vengeance]]
+![[Auf Rache aus]]
 
 ---
 
-![[Treasure Hunter]]
+![[Schatzsucher]]
 
 ---
 
-![[Bounty Hunter]]
+![[Kopfgeldjäger]]
 
 ---
 
-![[Scribe]]
+![[DM Bereich/Nimble/Charaktere/Hintergründe/Schreiber]]
 
 ---
 
-![[Forgemate]]
+![[_Forgemate]]
 
 ---
 
-![[Hunted]]
+![[_Hunted]]
 
 ---
 
-![[Big Fella]]
+![[Großer Kerl]]
 
 ---
 
-![[Determined]]
+![[Entschlossen]]
 
 ---
 
-![[Arena Fighter]]
+![[Arenakämpfer]]
 
 ---
 
-![[Street-smart]]
+![[_Street-smart]]
 
 ---
 
-![[Thuggish]]
+![[_Thuggish]]
 
 ---
 
-![[Disgraced Politician]]
+![[Geächteter Politiker]]
 
 ---
 
-![[Peg Leg]]
+![[_Peg Leg]]
 
 ---
 
-![[Daydreamer]]
+![[Tagträumer]]
 
 ---
 
-![[Overprepared]]
+![[_Overprepared]]
 
 ---
 
-![[Long Lost]]
+![[_Long Lost]]

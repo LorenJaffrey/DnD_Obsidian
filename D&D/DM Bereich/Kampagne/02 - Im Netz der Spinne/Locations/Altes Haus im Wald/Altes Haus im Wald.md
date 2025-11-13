@@ -181,7 +181,7 @@ Charaktere mit [[Dunkelsicht]] oder einer Lichtquelle sehen Folgendes:
 >Auf dem Schreibtisch an der Wand liegen die Überreste eines frisch ausgeweideten Kleintieres und eine Art ritueller Opferdolch in Form eines Blitzes.
 
 Jeder Charakter, der erfolgreich auf Intelligenz [[Religion]] mit [[Schwierigkeitsgrad|SG]] 15 würfelt, erkennt das Symbol von [[Talos]], dem bösen Gott der Stürme. 
-[[Kleriker]] der [[Domäne des Sturms]] brauchen nicht zu würfeln.
+[[Kleriker DnD]] der [[Domäne des Sturms]] brauchen nicht zu würfeln.
 Wenn die Charaktere es bis hierher geschafft haben, ohne [[Grannoc]] auf sich aufmerksam zu machen, führt er hier gerade ein Ritual durch:
 
 >[!info]

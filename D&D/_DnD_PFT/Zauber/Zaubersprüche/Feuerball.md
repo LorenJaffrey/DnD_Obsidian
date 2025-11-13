@@ -19,7 +19,7 @@ Schaden: 8d6
 Schadensart: "[[Feuerschaden]]"
 Ziel: AoE
 Klassen:
-  - "[[Magier]]"
+  - "[[Magier DnD]]"
   - "[[Zauberer]]"
 Typ: "[[Offensivzauber]]"
 ---

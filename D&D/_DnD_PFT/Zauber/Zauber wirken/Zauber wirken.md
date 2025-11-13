@@ -116,6 +116,6 @@ Die Effekte verschiedener Zauber addieren sich, wenn sich die Wirkungsdauer der 
 Die Effekte des gleichen Zaubers, der mehrmals gewirkt wird, addieren sich hingegen nicht. 
 Stattdessen wird der stärkste Effekt - beispielsweise der höchste Bonus - der Zauber angewendet, solange sich deren Wirkungsdauern überschneiden. 
 Oder es gilt der neueste Effekt, falls die Effekte gleich stark sind und sich die Wirkungsdauern überschneiden. 
-Wirken beispielsweise zwei [[Kleriker]] [[Segnen]] auf dasselbe Ziel, so erhält dieses den Vorzug des Zaubers nur einmal. 
+Wirken beispielsweise zwei [[Kleriker DnD]] [[Segnen]] auf dasselbe Ziel, so erhält dieses den Vorzug des Zaubers nur einmal. 
 Es erhält keine zwei Bonuswürfel. 
 Der Effekt bleibt jedoch bestehen, bis die Wirkungsdauer des zweiten Zaubers [[Segnen]] endet.
