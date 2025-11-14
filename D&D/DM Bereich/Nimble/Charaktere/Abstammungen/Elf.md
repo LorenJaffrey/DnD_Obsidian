@@ -27,4 +27,4 @@ Sowohl in der Diplomatie als auch im Kampf sind sie beeindruckend und schlagen o
 `$=dv.list(dv.current().Merkmale)`
 
 ### Elfisch
-Du kennst [[Elfisch]], wenn dein INT nicht negativ ist.
+Du kennst [[Elfisch]], wenn deine [[Intelligenz|IN]] nicht negativ ist.

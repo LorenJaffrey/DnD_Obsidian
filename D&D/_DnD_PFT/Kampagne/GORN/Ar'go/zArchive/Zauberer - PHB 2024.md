@@ -89,7 +89,7 @@ cssclasses:
 
 #### Grad 2:
 - [[Arkane Vitalität]]
-- [[Drachenodem]]
+- [[Drakonischer Odem]]
 - [[Flammenklinge]]
 - [[Gedankendorn]]
 - [[Magische Waffe]]

@@ -42,8 +42,6 @@ SORT file.name
 # Exotic Ancestries
 Your setting may or may not support these choices—check with your GM first before selecting one.
 - [[Bunbun]]
-- [[Dragonborn]]
-- [[Fiendkin]]
 - [[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Goblin|Goblin]]
 - [[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Kobold|Kobold]]
 - [[Orc]]

@@ -17,14 +17,19 @@ FROM #Regeln/Nimble/Attribut
 SORT file.name
 ```
 
+## Kernattribute
+Jede [[Klassen|Klasse]] hat zwei Kernattribute.
+Die restlichen Attribute werden als Sekundärattribute bezeichnet.
+
 ## Attributswurf
 Ein Attributswurf repräsentiert den Versuch einer Kreatur, mithilfe ihrer Fähigkeiten und Kenntnisse eine Herausforderung zu meistern. 
 Beispielsweise eine verklemmte Tür aufzubrechen, ein Schloss zu knacken, ein Publikum zu unterhalten oder eine Geheimschrift zu entschlüsseln.
 Der SL und die Regeln verlangen meist einen Attributswurf, wenn eine Kreatur einen solchen Versuch unternimmt, sofern dieser Versuch kein [[Angriff]] ist, die Möglichkeit des Scheiterns besteht und ein Scheitern Folgen hätte.
 Ist der Ausgang ungewiss und für die Geschichte interessant, so bestimmen die Würfel das Ergebnis.
 
-W20 + [[Attribute|Attributswert]] + Bonus/Malus
-Besonderer [[Erfolg]] oder [[Misserfolg]] für 5, 10, 15 Punkte unter/über [[Schwierigkeitsgrad|SG]]
+>[!info]
+>W20 + [[Attribute|Attributswert]] + Bonus/Malus
+>Besonderer [[Erfolg]] oder [[Misserfolg]] für 5, 10, 15 Punkte unter/über [[Schwierigkeitsgrad|SG]]
 
 ### Kombinierte Würfe
 Kombinieren von mehreren [[Fertigkeiten]] oder [[Attribute|Attributen]] um eine Aufgabe zu ermöglichen bzw. zu vereinfachen

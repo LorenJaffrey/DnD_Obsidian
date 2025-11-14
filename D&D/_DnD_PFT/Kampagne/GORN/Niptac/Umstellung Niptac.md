@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Schurke]]
+1. [[Klassen DnD|Klasse]] [[Schurke]]
 	1. [[Raffinierter Schlag]]
 2. [[Herkunft]] 
 	1. [[Herkunft]] [[Scharlatan]]

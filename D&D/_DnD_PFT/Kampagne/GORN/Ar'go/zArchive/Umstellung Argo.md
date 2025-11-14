@@ -1,7 +1,7 @@
 ![[Charaktererstellung|no-title]]
 
 # `=this.file.name`
-1. [[_DnD_PFT/Charaktere/Klassen/Klassen|Klasse]] [[Zauberer]]
+1. [[Klassen DnD|Klasse]] [[Zauberer]]
 2. [[Herkunft]] 
 	1. [[Herkunft]] [[Händler]]
 	2. [[Spezies]] [[Drachenblütige]]

@@ -14,7 +14,7 @@ mapmarker: Tierladen
 >[!quote] Beschreibung
 >Fell und Pfote ist ein bescheidenes eingeschossiges Gebäude aus Ziegelstein und Holz. Die Vorderseite ist mit einem großen orangefarbenen Teppich bis zu einem hölzernen Tresen in der Mitte des Raums geschmückt. Hinter dem Tresen befinden sich zahlreiche Käfige unterschiedlicher Größen. 
 
-In diesem Laden werden Haustiere, sowohl normale als auch magische, verkauft. Einige der größeren und magischen Tiere werden im hinteren Bereich gehalten. Interessierte Kunden können dem Besitzer in den hinteren Bereich folgen. Das Große Kaufhaus wird von einer rot-häutigen weiblichen [[Tieflinge|Tiefling]] in ihren frühen 30ern namens [[Brimine]] geführt. Sie ist eine gutherzige Seele, besonders gegenüber Tieren und exotischen Rassen. Sie spricht mit Tieren in einer Baby-Stimme. 
+In diesem Laden werden Haustiere, sowohl normale als auch magische, verkauft. Einige der größeren und magischen Tiere werden im hinteren Bereich gehalten. Interessierte Kunden können dem Besitzer in den hinteren Bereich folgen. Das Große Kaufhaus wird von einer rot-häutigen weiblichen [[Tieflinge DnD|Tiefling]] in ihren frühen 30ern namens [[Brimine]] geführt. Sie ist eine gutherzige Seele, besonders gegenüber Tieren und exotischen Rassen. Sie spricht mit Tieren in einer Baby-Stimme. 
 
 Die hier verkauften Tiere sind in drei Kategorien unterteilt: 
 1. Die normalen Haustiere, die vorne verkauft werden. Dies sind die stereotypischen Haustiere: Hunde, Katzen, Eulen, Schlangen, Reptilien. 

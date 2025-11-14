@@ -54,7 +54,7 @@ HinterhältigerAngriff:
 |  15   | `=this.HinterhältigerAngriff.Stufe15 + "W6"` | [[Entschlüpfender Geist]]                                    |
 |  16   | `=this.HinterhältigerAngriff.Stufe16 + "W6"` | [[Talente\|Talent]]                                          |
 |  17   | `=this.HinterhältigerAngriff.Stufe17 + "W6"` | Merkmal Schurkenarchetyp                                     |
-|  18   | `=this.HinterhältigerAngriff.Stufe18 + "W6"` | [[Schwer zu Fassen]]                                         |
+|  18   | `=this.HinterhältigerAngriff.Stufe18 + "W6"` | [[Schwer zu fassen]]                                         |
 |  19   | `=this.HinterhältigerAngriff.Stufe19 + "W6"` | [[Talente\|Talent]]                                          |
 |  20   | `=this.HinterhältigerAngriff.Stufe20 + "W6"` | [[Glückstreffer]]                                            |
 
