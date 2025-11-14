@@ -9,6 +9,7 @@
   "enableBacklinks": true,
   "enableQuickSwitcher": true,
   "enableSuggestor": true,
+  "enableBases": true,
   "selectors": [
     {
       "type": "tag",
@@ -73,7 +74,7 @@
     {
       "type": "tag",
       "name": "",
-      "value": "Spezies",
+      "value": "Regeln/Nimble/Charakter/Abstammung",
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "d2cb-d9fd",

@@ -8,7 +8,7 @@ Ein [[Fertigkeiten#Fertigkeitswurf]] stellt eine konkretere Art von [[Attribute#
 
 ```dataview
 TABLE attribut AS "Attribut"
-FROM #Fertigkeit
+FROM #Regeln/Nimble/Fertigkeit
 SORT attribut, file.name
 ```
 

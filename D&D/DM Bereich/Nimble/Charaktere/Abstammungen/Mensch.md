@@ -2,15 +2,14 @@
 tags:
   - Regeln/Nimble/Charakter/Abstammung
 Kreaturtyp: "[[Humanoide]]"
-Größenkategorie: "[[Mittelgroß]] (150 - 180 cm)"
-Bewegungsrate: 7
-Vorkommen: Häufig
+Größenkategorie: "[[Mittelgroß]] (150 - 200 cm)"
+Bewegungsrate: 6
+Vorkommen: Allgegenwärtig
 Merkmale:
-  - "[[Aufmerksam]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title fit] `=this.file.name`
-> ![[elf_highelf.png|350]]
+> ![[human.png|350]]
 
 |                              |                         |
 | ---------------------------- | ----------------------- |
@@ -19,12 +18,9 @@ Merkmale:
 | [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
 
 ## Beschreibung
-Elfen verkörpern Schnelligkeit und Anmut. 
-Ihre hohen, schlanken Gestalten täuschen ihre angeborene Geschwindigkeit, Grazie und Klugheit. 
-Sowohl in der Diplomatie als auch im Kampf sind sie beeindruckend und schlagen oft schnell zu, um das Schlimmste durch ein frühzeitiges Handeln zu verhindern.
+In jedem Gelände und Umfeld zu finden, treiben sie Neugierde und Ehrgeiz an, jede Ecke der Welt zu erkunden, was sie zu einer allgegenwärtigen und vielseitigen Rasse macht.
 
 ## Merkmale
-`$=dv.list(dv.current().Merkmale)`
 
-### Elfisch
-Du kennst [[Elfisch]], wenn dein INT nicht negativ ist.
+### Vielseitig  
++1 auf alle [[Fertigkeiten]].

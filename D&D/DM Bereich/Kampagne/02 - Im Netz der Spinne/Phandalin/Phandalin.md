@@ -8,7 +8,7 @@ mapmarker: Dorf
 ---
 # `=this.file.name`
 Der Grenzort [[Phandalin]] wurde auf den Ruinen einer viel älteren Ansiedlung errichtet. 
-Das alte [[Phandalin]] war vor Jahrhunderten ein blühendes Städtchen, dessen menschliche Bewohner mit ihren benachbarten [[Zwerge]]n und [[_DnD_PFT/Charaktere/Spezies/Gnome/Gnome]]n fest verbündet waren. 
+Das alte [[Phandalin]] war vor Jahrhunderten ein blühendes Städtchen, dessen menschliche Bewohner mit ihren benachbarten [[Zwerge]]n und [[DM Bereich/Nimble/Charaktere/Abstammungen/Spezies/Gnome/Gnome]]n fest verbündet waren. 
 Dann fiel eine Horde [[Orks]] über die Gegend her und vernichtete die Ansiedlung. 
 [[Phandalin]] blieb daraufhin eine lange Zeit verlassen.
 

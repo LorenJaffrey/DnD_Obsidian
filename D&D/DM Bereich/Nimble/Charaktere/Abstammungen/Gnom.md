@@ -2,15 +2,15 @@
 tags:
   - Regeln/Nimble/Charakter/Abstammung
 Kreaturtyp: "[[Humanoide]]"
-Größenkategorie: "[[Mittelgroß]] (150 - 180 cm)"
-Bewegungsrate: 7
+Größenkategorie: "[[Klein]] (80 - 100 cm)"
+Bewegungsrate: 5
 Vorkommen: Häufig
 Merkmale:
-  - "[[Aufmerksam]]"
+  - "[[Optimistisch]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title fit] `=this.file.name`
-> ![[elf_highelf.png|350]]
+> ![[Gnom.png|350]]
 
 |                              |                         |
 | ---------------------------- | ----------------------- |
@@ -19,12 +19,11 @@ Merkmale:
 | [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
 
 ## Beschreibung
-Elfen verkörpern Schnelligkeit und Anmut. 
-Ihre hohen, schlanken Gestalten täuschen ihre angeborene Geschwindigkeit, Grazie und Klugheit. 
-Sowohl in der Diplomatie als auch im Kampf sind sie beeindruckend und schlagen oft schnell zu, um das Schlimmste durch ein frühzeitiges Handeln zu verhindern.
+Exzentrisch, neugierig und stets optimistisch, sind Gnome fröhlich – besonders im Vergleich zu ihren meist mürrischeren und größeren Verwandten, den Zwergen. 
+Bekannt für ihr Tüfteln, das Verbreiten von Heiterkeit und verspielte Streiche, verfolgen Gnome ihre Leidenschaften mit zerstreuter Begeisterung.
 
 ## Merkmale
 `$=dv.list(dv.current().Merkmale)`
 
-### Elfisch
-Du kennst [[Elfisch]], wenn dein INT nicht negativ ist.
+### Gnomisch
+Du sprichst [[Gnomisch]], sofern deine [[Intelligenz|IN]] nicht negativ ist.

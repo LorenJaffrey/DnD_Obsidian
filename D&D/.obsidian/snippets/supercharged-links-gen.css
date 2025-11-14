@@ -137,13 +137,13 @@ div[data-id="24e5-53b9"] div.setting-item-description::before,
 }
 
 div[data-id="d2cb-d9fd"] div.setting-item-description,
-[data-link-tags*="Spezies" i] {
+[data-link-tags*="Regeln/Nimble/Charakter/Abstammung" i] {
     color: var(--d2cb-d9fd-color) !important;
     font-weight: var(--d2cb-d9fd-weight);
 }
 
 div[data-id="d2cb-d9fd"] div.setting-item-description::before,
-.data-link-icon[data-link-tags*="Spezies" i]::before {
+.data-link-icon[data-link-tags*="Regeln/Nimble/Charakter/Abstammung" i]::before {
     content: var(--d2cb-d9fd-before);
 }
 
@@ -532,7 +532,7 @@ settings:
         quotes: true
     - 
         id: d2cb-d9fd
-        title: tag is Spezies
+        title: tag is Regeln/Nimble/Charakter/Abstammung
         description: Example note
         type: heading
         collapsed: true
