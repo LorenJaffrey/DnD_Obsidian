@@ -6,15 +6,15 @@
 
 ---
 
-![[_Kind of a Big Deal]]
+![[Ganz schön wichtig]]
 
 ---
 
-![[_Overconfident]]
+![[Überheblich]]
 
 ---
 
-![[_Plucky Wannabe Hero]]
+![[Mutiger Möchtegern-Held]]
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-![[_Iron Gut]]
+![[Eiserner Magen]]
 
 ---
 
@@ -30,7 +30,7 @@
 
 ---
 
-![[_Insecure]]
+![[Unsicher]]
 
 ---
 
@@ -58,11 +58,11 @@
 
 ---
 
-![[_Forgemate]]
+![[Schmiedekamerad]]
 
 ---
 
-![[_Hunted]]
+![[Gejagt]]
 
 ---
 
@@ -78,11 +78,11 @@
 
 ---
 
-![[_Street-smart]]
+![[Straßenschlau]]
 
 ---
 
-![[_Thuggish]]
+![[Schläger]]
 
 ---
 
@@ -90,7 +90,7 @@
 
 ---
 
-![[_Peg Leg]]
+![[Holzbein]]
 
 ---
 
@@ -98,8 +98,8 @@
 
 ---
 
-![[_Overprepared]]
+![[Übervorbereitet]]
 
 ---
 
-![[_Long Lost]]
+![[Lange verschollen]]
