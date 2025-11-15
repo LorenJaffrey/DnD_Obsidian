@@ -6,11 +6,11 @@ Größenkategorie: "[[Mittelgroß]] (120 - 210 cm) oder [[Klein]] (90 - 120 cm)"
 Bewegungsrate: 6
 Vorkommen: Ungewöhnlich
 Merkmale:
-  - "[[Aufmerksam]]"
 ---
 # `=this.file.name`
 > [!recite|right no-title fit] `=this.file.name`
-> ![[elf_highelf.png|350]]
+> ![[Tiefling 1.png|350]]
+
 
 |                              |                         |
 | ---------------------------- | ----------------------- |
