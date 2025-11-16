@@ -11,16 +11,17 @@ Merkmale:
 > [!recite|right no-title fit] `=this.file.name`
 > ![[human.png|350]]
 
-|                              |                         |
-| ---------------------------- | ----------------------- |
-| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
-| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
-| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
+|                              |                                                                            |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`                                                         | 
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie`                                                    |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"` |
 
 ## Beschreibung
 In jedem Gelände und Umfeld zu finden, treiben sie Neugierde und Ehrgeiz an, jede Ecke der Welt zu erkunden, was sie zu einer allgegenwärtigen und vielseitigen Rasse macht.
 
 ## Merkmale
+`$=dv.list(dv.current().Merkmale)`
 
 ### Vielseitig  
-+1 auf alle [[Fertigkeiten]].
+Du erhältst einen Bonus von +1 auf drei [[Fertigkeiten]] deiner Wahl.

@@ -12,11 +12,11 @@ Merkmale:
 > ![[Tiefling 1.png|350]]
 
 
-|                              |                         |
-| ---------------------------- | ----------------------- |
-| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
-| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
-| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
+|                              |                                                                            |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`                                                         | 
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie`                                                    |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"` |
 
 ## Beschreibung
 Verkörpert durch die Verbindung von Mensch und Dämon oder durch einen verfluchten Blutlinie, sind Tieflinge oft in der Gesellschaft ausgestoßen. 

@@ -11,11 +11,11 @@ Merkmale:
 > [!recite|right no-title fit] `=this.file.name`
 > ![[dwarf_mountain.webp|350]]
 
-|                              |                         |
-| ---------------------------- | ----------------------- |
-| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
-| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
-| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
+|                              |                                                                            |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`                                                         | 
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie`                                                    |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"` |
 
 ## Beschreibung
 „Zwerg“ bedeutet in der alten Sprache „Stein.“ 

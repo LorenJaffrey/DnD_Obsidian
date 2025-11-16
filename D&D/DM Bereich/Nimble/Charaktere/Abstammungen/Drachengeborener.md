@@ -12,11 +12,11 @@ Merkmale:
 > [!recite|right no-title fit] `=this.file.name`
 > ![[dragonborn.png|350]]
 
-|                              |                         |
-| ---------------------------- | ----------------------- |
-| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`      |
-| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie` |
-| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"`   |
+|                              |                                                                            |
+| ---------------------------- | -------------------------------------------------------------------------- |
+| [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`                                                         | 
+| [[Größenkategorie\|Größe]]   | `=this.Größenkategorie`                                                    |
+| [[Bewegungsrate]]            | `=this.Bewegungsrate*1.5 + " Meter (" + this.Bewegungsrate + " Kästchen)"` |
 
 ## Beschreibung
 In dir lodert die Seele eines Drachen, deine schuppige Haut ist hart wie geschmiedeter Stahl. 
@@ -30,7 +30,7 @@ Rufe deinen Zorn an, sprich in der Sprache deiner Ahnen und entfessele ungezüge
 Du sprichst [[Drakonisch]], sofern deine [[Intelligenz|IN]] nicht negativ ist.
 
 ### Drachenerbe 
-Deine Schuppenhaut verleiht dir einen zusätzlichen Punkt auf deine [[Rüstungsklasse]].
+Deine Schuppenhaut verleiht dir einen Bonus von +1 auf deine [[Rüstungsklasse]].
 Wähle außerdem eine drakonische Abstammung:
 
 | Abstammung | Schadensart      |

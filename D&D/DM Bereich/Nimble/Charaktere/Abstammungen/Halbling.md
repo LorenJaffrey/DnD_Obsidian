@@ -32,4 +32,4 @@ Stell dir mal vor, wie viel Glück du in diesen kleinen Dingern stecken hast!
 Du sprichst [[Halblingisch]], sofern deine [[Intelligenz|IN]] nicht negativ ist.
 
 ### Verstohlen  
-Du erhältst einen Bonus von +1 auf [[Heimlichkeit]]. 
+Du erhältst einen Bonus von +1 auf [[Heimlichkeit]] und [[Fingerfertigkeit]]. 
