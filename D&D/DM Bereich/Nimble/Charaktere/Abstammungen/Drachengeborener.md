@@ -41,7 +41,9 @@ Wähle außerdem eine drakonische Abstammung:
 | Schwarz    | [[Säureschaden]] |
 | Weiß       | [[Kälteschaden]] |
 | Gold       | [[Feuerschaden]] |
-| Bronze     | [[Blitzschaden]] |
 | Silber     | [[Kälteschaden]] |
+| Bronze     | [[Blitzschaden]] |
 | Kupfer     | [[Säureschaden]] |
 | Messing    | [[Giftschaden]]  |
+
+Du erhältst [[Schadensarten#Schadensresistenz]] gegen die gewählte [[Schadensarten|Schadensart]].

@@ -6,9 +6,9 @@ aliases:
 ---
 # `=this.file.name`
 Deine Verwandtschaft, Abstammung, Herkunft oder Rasse – so ist dein Charakter geboren und so sehen ihn andere auf den ersten Blick. 
-Du kannst zum Beispiel ein Zwerg sein, der mit unzähligen anderen Zwergen in den Minen unter dem Berg aufgewachsen ist, oder ein [[Elf]], der von Goblin großgezogen wurde! 
+Du kannst zum Beispiel ein Zwerg sein, der mit unzähligen anderen Zwergen in den Minen unter dem Berg aufgewachsen ist, oder ein Elf, der von Goblin großgezogen wurde! 
 Es liegt an dir, wie dein Charakter seine Geschichte beginnt. 
-Wähle eine [[Abstammung]] und trage ihren Bonus auf deinem Charakterbogen ein.
+Wähle eine [[Abstammungen|Abstammung]] und trage ihren Bonus auf deinem Charakterbogen ein.
 
 > [!tip]- Freie Gestaltung  
 > Möchtest du lieber einen stämmigen Halbling anstatt eines heimlichen spielen? 
@@ -46,11 +46,10 @@ Your setting may or may not support these choices—check with your GM first bef
 - [[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Kobold|Kobold]]
 - [[Orc]]
 - [[Birdfolk]]
-- [[Celestial]]
+- [[Aasimar]]
 - [[Changeling]]
 - [[Crystalborn]]
 - [[Dryad, Shroomling]]
-- [[Half-Giant]]
 - [[Minotaur, Beastfolk]]
 - [[Oozeling, Construct]]
 - [[Planarbeing]]

@@ -11,7 +11,6 @@ Merkmale:
 > [!recite|right no-title fit] `=this.file.name`
 > ![[Tiefling 1.png|350]]
 
-
 |                              |                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------- |
 | [[Kreaturtypen\|Kreaturtyp]] | `=this.Kreaturtyp`                                                         | 
@@ -29,5 +28,11 @@ Ihre Vorfahren sind nicht aus den Tiefen des Ewigen Feuers hervorgekommen, um si
 ### Infernalisch
 Du kennst [[Infernalisch]], wenn deine [[Intelligenz|IN]] nicht negativ ist.
 
-### Feuergeboren  
-Einer deiner neutralen [[Rettungswurf|Rettungswürfe]] ist im [[Vorteil und Nachteil|Vorteil]].
+### Teuflisches Charisma
+Du erhältst einen Bonus von +1 auf [[Überzeugen]] und [[Täuschen]].
+
+### Feuergeboren
+Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]], jedoch auch [[Schadensarten#Schadensanfälligkeit]] gegen [[Gleißender Schaden|gleißenden Schaden]].
+
+
+

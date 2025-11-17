@@ -3,8 +3,6 @@ tags:
   - Regeln/Nimble
 aliases:
   - Schadensart
-tags:
-  - Schadensart
 ---
 # `=this.file.name`
 
