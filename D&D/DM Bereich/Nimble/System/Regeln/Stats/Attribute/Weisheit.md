@@ -22,4 +22,4 @@ FROM #Regeln/Nimble/Fertigkeit/Weisheit
 - herausfinden ob eine scheinbar lebende oder tote Kreatur untot ist
 
 ## Attribut zum Zauberwirken
-[[Druide DnD]], [[Kleriker DnD]] und [[Waldläufer]] benutzen [[Weisheit]] als [[Zauberattribut|Attribut zum Zauberwirken]] und bestimmen damit den [[Zauberrettungswurf-Schwierigkeitsgrad]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswürfe|Zauberangriffswurf]].
+[[Druide DnD]], [[Kleriker DnD]] und [[Waldläufer]] benutzen [[Weisheit]] als [[Zauberattribut|Attribut zum Zauberwirken]] und bestimmen damit den [[Zauberrettungswurf-Schwierigkeitsgrad]] gegen von ihnen gewirkte Zauber und den Bonus auf den [[Zauberangriffswurf]].

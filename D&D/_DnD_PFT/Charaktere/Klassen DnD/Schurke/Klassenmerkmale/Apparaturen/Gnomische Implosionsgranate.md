@@ -3,7 +3,7 @@ tags:
   - Merkmal/Klasse/Schurke/Meistertüftler/Apparatur
 SG: 14
 Stufe: 3
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 > [!infobox]
 > # `=this.file.name`

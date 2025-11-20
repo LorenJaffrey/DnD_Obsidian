@@ -5,7 +5,7 @@ tags:
   - Zauber/Offensiv
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: true

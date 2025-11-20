@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Die Kreatur kann ihre `=this.Einsatz` nutzen um sich in ein [[Wildschwein]] oder zurück zu verwandeln.

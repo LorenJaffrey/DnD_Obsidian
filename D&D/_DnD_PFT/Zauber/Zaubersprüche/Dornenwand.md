@@ -4,7 +4,7 @@ tags:
   - Zauber/Offensiv
 Grad: 6
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true

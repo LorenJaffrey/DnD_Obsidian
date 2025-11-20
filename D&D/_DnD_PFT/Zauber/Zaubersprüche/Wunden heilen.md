@@ -6,7 +6,7 @@ tags:
   - Regeln/PHB2024
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 3
 Schule: "[[Bannzauber|Bannmagie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true

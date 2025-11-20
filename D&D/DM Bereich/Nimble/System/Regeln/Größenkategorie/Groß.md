@@ -1,6 +1,5 @@
 ---
 aliases:
-- groß
 - große
 - großer
 tags:

@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal/Magischer_Gegenstand
-Aktivierung: "[[Aktion]]"
+Aktivierung: "[[Aktionen]]"
 Ladungen:
 Regeneration:
 ---

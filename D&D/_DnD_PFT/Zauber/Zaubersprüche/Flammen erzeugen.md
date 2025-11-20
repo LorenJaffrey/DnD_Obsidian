@@ -37,8 +37,8 @@ In deiner Hand erscheint für die Wirkungsdauer eine flackernde Flamme.
 Sie strahlt keine Wärme aus und kann nichts entzünden, spendet jedoch in einem Radius von 6 Metern [[Helles Licht]] und in einem Radius von weiteren 6 Metern dämmriges Licht. 
 Der Zauber endet vorzeitig, wenn du ihn erneut wirkst.
 
-Bis der Zauber endet, kannst du eine magische [[Aktion]]ausführen, um Feuer auf eine Kreatur oder einen Gegenstand im Abstand von bis zu 18 Metern von dir zu schleudern. 
-Führe einen [[Zauberangriffswürfe|Fernkampf-Zauberangriff]] aus. Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
+Bis der Zauber endet, kannst du eine magische [[Aktionen]]ausführen, um Feuer auf eine Kreatur oder einen Gegenstand im Abstand von bis zu 18 Metern von dir zu schleudern. 
+Führe einen [[Zauberangriffswurf|Fernkampf-Zauberangriff]] aus. Bei einem Treffer erleidet das Ziel 1W8 [[Feuerschaden]].
 
 ### Auf höheren Graden
 Der Schaden dieses Zaubers steigt auf höheren Stufen:

@@ -5,4 +5,4 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Angriff]] [[Aktion]] ausführen
+Darf einen zusätzlichen [[Angriff]] bei jeder durchgeführten [[Angriff]] [[Aktionen]] ausführen

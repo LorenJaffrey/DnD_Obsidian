@@ -2,8 +2,6 @@
 tags:
   - Regeln/PHB2024
 aliases:
-  - Hintergrund
-  - Hintergründe
 ---
 # `=this.file.name`
 ```dataview

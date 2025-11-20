@@ -2,7 +2,6 @@
 tags:
   - Regeln/Nimble
 aliases: 
-  - Bewegen
 ---
 # `=this.file.name`
 Die Bewegungsgrate wird meist durch die [[Spezies]] festgelegt und beträgt in den meisten Fällen 9m (6 Kästchen) pro [[Zug]].

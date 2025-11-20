@@ -12,6 +12,6 @@ Jede Fasskrabbe ist ein großer Gegenstand mit [[Rüstungsklasse]] 15, 30 [[Tref
 Fasskrabben können einen einzelnen kleinen Humanoiden aufnehmen. 
 Auch mittelgroße Humanoide können sich mit einigen Unannehmlichkeiten hineinquetschen.
 Kreaturen, die sich bei geschlossener Luke in einer Fasskrabbe befinden, verfügen über [[Vollständige Deckung]] gegen Angriffe von außerhalb der Fasskrabbe.
-Sie können eine [[Aktion]] aufwenden, um die Vorrichtung mit einer Schrittbewegungsrate von 4,5 Metern über den Boden krabbeln oder einen Angriff mit der Greifschere ausführen zu lassen.
+Sie können eine [[Aktionen]] aufwenden, um die Vorrichtung mit einer Schrittbewegungsrate von 4,5 Metern über den Boden krabbeln oder einen Angriff mit der Greifschere ausführen zu lassen.
 
 Greifschere: Nahkampf-Waffenangriff: +2 zum Treffen, Reichweite 1,5 Meter, ein Ziel. Treffer: 5 (2W4) Stichschaden, das Ziel wird gepackt (Rettungswurf SG 10).

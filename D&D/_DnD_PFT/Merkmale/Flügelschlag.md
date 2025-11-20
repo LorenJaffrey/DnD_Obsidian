@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Die Kreatur schlägt mit ihren Flügeln.

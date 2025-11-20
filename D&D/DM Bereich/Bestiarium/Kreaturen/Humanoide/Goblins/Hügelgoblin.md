@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Goblins
 tags:
   - Kreatur/Humanoide/Goblinoide/Goblin
 Bild: "[[hill_goblin_grunt.png | 350]]"

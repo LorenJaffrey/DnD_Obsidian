@@ -5,7 +5,7 @@ tags:
   - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Kegel 4,5 Meter
 Verbal: true
 Geste: true

@@ -5,7 +5,7 @@ tags:
   - Zauber/Offensiv
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

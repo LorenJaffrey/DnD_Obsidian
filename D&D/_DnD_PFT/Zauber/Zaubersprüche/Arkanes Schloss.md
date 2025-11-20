@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 2
 Schule: "[[Bannzauber|Bannmagie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

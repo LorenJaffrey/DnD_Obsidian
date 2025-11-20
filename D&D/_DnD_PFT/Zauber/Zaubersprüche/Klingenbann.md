@@ -6,7 +6,7 @@ tags:
   - Regeln/PHB2024
 Grad: 0
 Schule: "[[Bannzauber|Bannmagie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Selbst
 Verbal: true
 Geste: true

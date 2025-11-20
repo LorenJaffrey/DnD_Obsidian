@@ -1,7 +1,7 @@
 ---
-tags: 
+tags:
   - Regeln/Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Springe bis zu 2 mal [[Geschicklichkeit]] Kästchen auf einen Feind zu. 

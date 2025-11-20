@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 4
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 150 Meter
 Verbal: true
 Geste: false

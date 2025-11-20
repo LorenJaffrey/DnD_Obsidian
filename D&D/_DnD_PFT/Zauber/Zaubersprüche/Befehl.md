@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 18 m
 Verbal: true
 Geste: false
@@ -32,7 +32,7 @@ Du gibst einer Kreatur in Reichweite, die du sehen kannst, einen Befehl, bei dem
 **Fallenlassen**: Das Ziel lässt fallen, was es in den Händen hält, und beendet dann seinen Zug.
 **Flieh**: Das Ziel verbringt seinen Zug damit, sich schnellstmöglich von dir wegzubewegen.
 **Kriech**: Das Ziel erhält den Zustand liegend und beendet seinen Zug.
-**Stopp**: Das Ziel bewegt sich nicht und führt keine [[Aktion]] aus.
+**Stopp**: Das Ziel bewegt sich nicht und führt keine [[Aktionen]] aus.
 
 Eine fliegende Kreatur verbleibt schwebend an Ort und Stelle, wenn sie dazu imstande ist. Muss sie sich bewegen, um in der Luft zu bleiben, fliegt sie die Mindestentfernung, die notwendig ist, um nicht abzustürzen.
 

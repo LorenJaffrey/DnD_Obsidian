@@ -10,9 +10,9 @@ aliases:
 Jeder Charakter würfelt 1W20 und addiert seinen Initiativebonus (normalerweise [[Geschicklichkeit]]).
 Wenn ein Charakter [[Überraschung|überrascht]] ist oder seine Gegner überrascht, kann ihm dies [[Vorteil und Nachteil|Vorteil]] bzw. [[Vorteil und Nachteil|Nachteil]] auf den [[Initiative|Initiativewurf]] geben.
 
-Eine einstellige Zahl bedeutet, dass der Charakter den Kampf mit 1 [[Aktion]] beginnt. 
-Eine zweistellige Zahl bedeutet, er startet mit 2 [[Aktion|Aktionen]]. 
-Ein Ergebnis von 20+ (oder eine natürliche 20) bedeutet, der Charakter beginnt mit 3 [[Aktion|Aktionen]].
+Eine einstellige Zahl bedeutet, dass der Charakter den Kampf mit 1 [[Aktionen]] beginnt. 
+Eine zweistellige Zahl bedeutet, er startet mit 2 [[Aktionen|Aktionen]]. 
+Ein Ergebnis von 20+ (oder eine natürliche 20) bedeutet, der Charakter beginnt mit 3 [[Aktionen|Aktionen]].
 
 | W20 + Initiativebonus | Aktionen |
 | --------------------- | --------:|

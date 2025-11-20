@@ -17,7 +17,7 @@ Wenn du [[Vertrauten finden]] wirkst, verleihst du dem beschworenen Vertrauten e
 Der Vertraute erhält entweder eine [[Fliegen]]- oder eine [[Schwimmen]]-[[Bewegungsrate]] (nach deiner Wahl) von zwölf Metern (9 Kästchen).
 
 ## Schneller Angriff
-Als [[Bonusaktion]] kannst du deinem Vertrauten befehlen, die [[Angriff]]-[[Aktion]] auszuführen.
+Als [[Bonusaktion]] kannst du deinem Vertrauten befehlen, die [[Angriff]]-[[Aktionen]] auszuführen.
 
 ## Gleißender oder nekrotischer Schaden
 Wann immer der Vertraute [[Hiebschaden]], [[Stichschaden]] oder [[Wuchtschaden]] bewirkt, kannst du diesen in [[Gleißender Schaden|gleißenden Schaden]] oder [[Nekrotischer Schaden|nekrotischen Schaden]] umwandeln.

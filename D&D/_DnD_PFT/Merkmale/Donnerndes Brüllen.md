@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 *Die Kreatur stößt ein ohrenbetäubendes Brüllen aus.*

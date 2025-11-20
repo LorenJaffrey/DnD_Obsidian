@@ -5,7 +5,7 @@ tags:
   - Zauber/Offensiv
 Grad: 0
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true
@@ -37,4 +37,4 @@ Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst:
 - drei Strahlen auf der 11. Stufe
 - vier Strahlen auf der 17. Stufe
 Du kannst die Strahlen auf dasselbe oder unterschiedliche Ziele lenken.
-Mache einen eigenständigen [[Zauberangriffswürfe|Zauberangriffswurf]] für jeden Strahl.
+Mache einen eigenständigen [[Zauberangriffswurf|Zauberangriffswurf]] für jeden Strahl.

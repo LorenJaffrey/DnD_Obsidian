@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 *Du stößt eine qualerfüllte Wehklage aus*

@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Die Kreatur wirft einen Fläschchen mit einer Halluzinogenen Flüssigkeit an einen Ort innerhalb von 9 Metern (6 Kästchen). 

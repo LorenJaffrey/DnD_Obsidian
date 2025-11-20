@@ -5,7 +5,7 @@ tags:
 ---
 # `=this.file.name`
 Während du [[Sterbend]] bist:
-- sind deine [[Aktion|Aktionen]] auf 1 beschränkt
+- sind deine [[Aktionen|Aktionen]] auf 1 beschränkt
 - [[Konzentration]] ist gebrochen
 - du bist der Gefahr weiterer schwerer Verletzungen ausgesetzt:
 	- [[Angreifen]] oder [[Magie wirken|Zaubern]] verursacht **1 [[Wunden|Wunde]]**, es sei denn, du bestehst einen [[Rettungswurf]] auf [[Konstitution]] gegen [[Schwierigkeitsgrad|SG]] 10.

@@ -10,14 +10,14 @@ Schaden: 1d6
 Schadensart: "[[Hiebschaden]]"
 Eigenschaften:
   - "[[Finesse]]"
-  - "[[Parieren]]"
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
   - "[[Tödlich]]"
-SchadenFern: 
-SchadensartFern: 
-Range1: 
-Range2: 
-Range3: 
-EigenschaftenFern: 
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
 Kategorie: "[[Kriegswaffen]]"
 Hände: 1
 Größe: 2

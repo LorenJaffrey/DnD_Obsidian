@@ -8,14 +8,14 @@
 | [[Hellebarde]]           |   5    | 1W10    | Hieb, Stich |   2   |   5   | Krieg   | [[Weitreichend]], [[Defensiv]], [[Unhandlich]],     | -1    | [[Rüstungsbrechend]]      |
 | [[Partisane]]            |   4    | 1W8     | Stich       |   2   |   5   | Krieg   | [[Weitreichend]],  [[Unhandlich]]                   |       | [[Defensiv]]              |
 | [[Wurfspeer]]            |   3    | 1W6     | Stich       |   1   |   4   | Krieg   |                                                     |       |                           |
-| [[Kampfstab]]            |   4    | 1W8     | Wucht       |   2   |   4   | Einfach | [[Finesse]]                                         |       | [[Parieren]]              |
+| [[Kampfstab]]            |   4    | 1W8     | Wucht       |   2   |   4   | Einfach | [[Finesse]]                                         |       | [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]              |
 | [[Wurfmesser]]           |   1    | 1W3     | Stich       |   1   |   1   | Einfach | [[Leicht]], [[Finesse]]                             |       |                           |
 | [[Dolch]]                |   2    | 1W4     | Stich       |   1   |   1   | Einfach | [[Leicht]], [[Finesse]]                             |       | [[Kritisch]], [[Tödlich]] |
-| [[Kurzschwert]]          |   3    | 2W3     | Hieb, Stich |   1   |   2   | Krieg   | [[Leicht]], [[Finesse]]                             |       | [[Parieren]]              |
-| [[Langschwert]]          |   4    | 2W4     | Hieb, Stich |   1   |   3   | Krieg   | [[Finesse]], [[Vielseitig]]                         |       | [[Parieren]]              |
+| [[Kurzschwert]]          |   3    | 2W3     | Hieb, Stich |   1   |   2   | Krieg   | [[Leicht]], [[Finesse]]                             |       | [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]              |
+| [[Langschwert]]          |   4    | 2W4     | Hieb, Stich |   1   |   3   | Krieg   | [[Finesse]], [[Vielseitig]]                         |       | [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]              |
 | [[Zweihandschwert]]      |   6    | 2W6     | Hieb, Stich |   2   |   4   | Krieg   | [[Weitreichend]], [[Schwer]]                        | -1    |                           |
-| [[Krummsäbel]]           |   3    | 1W6     | Hieb        |   1   |   2   | Krieg   | [[Finesse]], [[Tödlich]], [[Parieren]]              |       |                           |
-| [[Rapier]]               |   3    | 1W6     | Stich       |   1   |   2   | Krieg   | [[Finesse]], [[Leicht]], [[Kritisch]], [[Parieren]] |       |                           |
+| [[Krummsäbel]]           |   3    | 1W6     | Hieb        |   1   |   2   | Krieg   | [[Finesse]], [[Tödlich]], [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]              |       |                           |
+| [[Rapier]]               |   3    | 1W6     | Stich       |   1   |   2   | Krieg   | [[Finesse]], [[Leicht]], [[Kritisch]], [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]] |       |                           |
 | [[Knüppel]]              |   3    | 1W6     | Wucht       |   2   |   2   | Einfach | [[Leicht]]                                          |       |                           |
 | [[Streitkolben]]         |   4    | 1W8     | Wucht       |   1   |   3   | Einfach | [[Vielseitig]]                                      |       |                           |
 | [[Zweihandstreitkolben]] |   6    | 1W12    | Wucht       |   2   |   4   | Einfach | [[Schwer]]                                          | -1    |                           |

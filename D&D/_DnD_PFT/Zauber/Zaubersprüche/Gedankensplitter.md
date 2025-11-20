@@ -1,12 +1,11 @@
 ---
 aliases:
-  - Ray of Frost
 tags:
   - Zauber/Offensiv
   - Regeln/PHB2024
 Grad: 0
 Schule: "[[Verzauberungen|Verzauberung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 18 Meter
 Verbal: true
 Geste: false

@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Die Kreatur beschwört [[Plagen]] in einem Umkreis von 6 m um sich herum. 

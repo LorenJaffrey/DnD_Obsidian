@@ -2,7 +2,6 @@
 tags:
   - Beruf/Kräuterkunde/Umgebung
 aliases:
-  - Sumpfland
 ---
 # `=this.file.name`
 |  W10  | Zutat               |

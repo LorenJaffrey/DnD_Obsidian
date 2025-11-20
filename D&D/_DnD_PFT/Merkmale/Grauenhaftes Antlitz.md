@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Alle nicht-[[Untote|untoten]] Kreaturen innerhalb von 18 m (12 Kästchen) um dich, die dich sehen können, müssen einen [[Rettungswurf]] auf [[Weisheit]] gegen [[Schwierigkeitsgrad|SG]] 13 ablegen.

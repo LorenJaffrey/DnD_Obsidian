@@ -5,7 +5,7 @@ tags:
   - Zauber/Offensiv
 Grad: 1
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true
@@ -28,7 +28,7 @@ Typ: "[[Offensivzauber|Angriff]]"
 
 ## Beschreibung
 Du schleuderst eine wogende Masse chaotischer Energie auf eine Kreatur in Reichweite. 
-Führe einen Fernkampf-[[Zauberangriffswürfe|Zauberangriffswurf]] gegen das Ziel durch. 
+Führe einen Fernkampf-[[Zauberangriffswurf|Zauberangriffswurf]] gegen das Ziel durch. 
 Bei einem Treffer erleidet das Ziel 2x W8 + 1x W6 Schaden. 
 Wähle einen der beiden W8 aus. 
 Die gewürfelte Zahl bestimmt die Schadensart wie unten aufgeführt.

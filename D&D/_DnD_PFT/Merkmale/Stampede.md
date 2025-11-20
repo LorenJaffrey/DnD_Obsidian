@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Die Kreatur stürmt in einer geraden [[Linie]] von bis zu 12 Metern vorwärts. 

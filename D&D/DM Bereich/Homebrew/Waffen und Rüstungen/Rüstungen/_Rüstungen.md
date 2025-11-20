@@ -23,7 +23,7 @@
 
 | Rüstung                | Klasse | SR  | Dex Cap | Stärke | Heimlichkeit | Gewicht | Kosten | Eigenschaften              |
 | ---------------------- | ------ |:---:|:-------:|:------:|:------------:| -------:| ------ | -------------------------- |
-| [[Faustschild]]        | Schild |  -  |    -    |   -    |      -       |       3 | 10 GM  | [[Parieren]], nur Nahkampf |
+| [[Faustschild]]        | Schild |  -  |    -    |   -    |      -       |       3 | 10 GM  | [[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]], nur Nahkampf |
 | [[Holzschild]]         | Schild |  1  |   -1    |   10   |      -1      |       8 | 10 GM  | [[Nichtmetallisch]]        |
 | [[Verstärkter Schild]] | Schild |  2  |   -2    |   12   |      -1      |      12 | 20 GM  |                            |
 | [[Turmschild]]         | Schild |  3  |   -3    |   14   |      -2      |      18 | 30 GM  | +1 SR gegen Fernkampf      |

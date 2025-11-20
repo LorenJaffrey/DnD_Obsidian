@@ -46,7 +46,6 @@ Your setting may or may not support these choices—check with your GM first bef
 - [[DM Bereich/Nimble/Charaktere/Abstammungen/Selten/Kobold|Kobold]]
 - [[Orc]]
 - [[Birdfolk]]
-- [[Aasimar]]
 - [[Changeling]]
 - [[Crystalborn]]
 - [[Dryad, Shroomling]]

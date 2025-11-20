@@ -4,7 +4,7 @@ tags:
   - Zauber
 Grad: 2
 Schule: "[[Nekromantiezauber|Nekromantie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: false

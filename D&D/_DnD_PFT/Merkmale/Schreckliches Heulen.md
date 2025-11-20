@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Jede Kreatur innerhalb von 18 Metern (12 Kästchen), die dich hören kann muss einen [[Rettungswurf]] auf [[Weisheit]] gegen [[Schwierigkeitsgrad|SG]] 10 ablegen.

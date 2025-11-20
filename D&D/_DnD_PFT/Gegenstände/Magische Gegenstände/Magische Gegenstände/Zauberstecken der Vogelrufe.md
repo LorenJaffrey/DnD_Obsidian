@@ -16,7 +16,7 @@ Reichweite: 1,5(1)
 Schaden: 1d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-  - "[[Parieren]]"
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
   - "[[Finesse]]"
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
@@ -34,7 +34,7 @@ Gewicht: 3 Pfund
 Dieser hölzerne Stecken ist mit Vogelschnitzereien verziert. 
 
 Er hat zehn Ladungen. 
-Wenn du ihn hältst, kannst du mithilfe einer [[Aktion]] eine seiner Ladungen verbrauchen, damit er eines der folgenden Geräusche mit einer Reichweite von bis zu 18 Metern erzeugt: 
+Wenn du ihn hältst, kannst du mithilfe einer [[Aktionen]] eine seiner Ladungen verbrauchen, damit er eines der folgenden Geräusche mit einer Reichweite von bis zu 18 Metern erzeugt: 
 - ein Finkenzwitschern
 - ein Rabenkrächzen
 - ein Entenquaken

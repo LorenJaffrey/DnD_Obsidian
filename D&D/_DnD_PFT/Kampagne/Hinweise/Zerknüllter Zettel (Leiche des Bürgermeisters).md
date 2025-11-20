@@ -1,1 +1,0 @@
-„Ich will das Relikt. Wenn es wirklich bei ihnen ist, müssen sie beobachtet werden. Keine Konfrontation – noch nicht.“

@@ -5,7 +5,7 @@ tags:
   - Regeln/PHB2024
 Grad: 2
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 18 Meter
 Verbal: true
 Geste: false

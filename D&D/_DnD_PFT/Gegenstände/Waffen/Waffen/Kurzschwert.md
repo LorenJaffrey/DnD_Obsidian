@@ -12,13 +12,13 @@ Schadensart: "[[Hiebschaden]]/[[Stichschaden]]"
 Eigenschaften:
   - "[[Leicht]]"
   - "[[Finesse]]"
-  - "[[Parieren]]"
-SchadenFern: 
-SchadensartFern: 
-Range1: 
-Range2: 
-Range3: 
-EigenschaftenFern: 
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
+SchadenFern:
+SchadensartFern:
+Range1:
+Range2:
+Range3:
+EigenschaftenFern:
 Kategorie: "[[Kriegswaffen]]"
 Hände: 1
 Größe: 2

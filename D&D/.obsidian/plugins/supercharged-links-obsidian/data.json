@@ -238,6 +238,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Attribut",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d683-2016",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

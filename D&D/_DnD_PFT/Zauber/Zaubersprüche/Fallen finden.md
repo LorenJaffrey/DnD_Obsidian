@@ -4,7 +4,7 @@ tags:
   - Zauber
 Grad: 2
 Schule: "[[Erkenntniszauber|Erkenntnis]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 36 Meter
 Verbal: true
 Geste: true

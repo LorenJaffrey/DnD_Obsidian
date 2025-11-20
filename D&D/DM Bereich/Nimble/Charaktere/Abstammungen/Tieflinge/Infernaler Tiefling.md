@@ -33,6 +33,3 @@ Du erhältst einen Bonus von +1 auf [[Überzeugen]] und [[Täuschen]].
 
 ### Feuergeboren
 Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]], jedoch auch [[Schadensarten#Schadensanfälligkeit]] gegen [[Gleißender Schaden|gleißenden Schaden]].
-
-
-

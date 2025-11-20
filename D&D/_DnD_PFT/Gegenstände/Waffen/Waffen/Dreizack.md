@@ -12,8 +12,7 @@ Schadensart: "[[Stichschaden]]"
 Eigenschaften:
   - "[[Weitreichend]]"
   - "[[Vielseitig]]"
-  - "[[Parieren]]"
-
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
 SchadenFern: 1d6
 SchadensartFern: "[[Stichschaden]]"
 Range1: 1,5(1)
@@ -21,7 +20,6 @@ Range2: 6(4)
 Range3: 18(12)
 EigenschaftenFern:
   - "[[Wurfwaffe]]"
-
 Kategorie: "[[Kriegswaffen]]"
 Hände: 1
 Größe: 4

@@ -4,7 +4,7 @@ tags:
   - Zauber/Offensiv
 Grad: 4
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 90 mr
 Verbal: true
 Geste: true

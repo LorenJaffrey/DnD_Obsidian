@@ -2,6 +2,8 @@
 tags: 
   - Zug/Reaktion
   - Regeln/Nimble
+Beschreibung: "Einem Verbündeten [[Vorteil und Nachteil|Vorteil]] gewähren."
+Kosten: "1 [[Aktionspunkte|AP]]"
 ---
 # `=this.file.name`
 Gewähre einem Verbündeten [[Vorteil und Nachteil|Vorteil]] auf einen Wurf, sofern du dem SL eine plausible Erklärung gibst, wie du in der Situation helfen kannst. 

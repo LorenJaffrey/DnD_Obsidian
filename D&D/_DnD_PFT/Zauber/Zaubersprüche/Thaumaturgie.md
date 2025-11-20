@@ -6,7 +6,7 @@ tags:
   - Regeln/PHB2024
 Grad: 0
 Schule: "[[Verwandlungszauber|Verwandlung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: false
@@ -29,7 +29,7 @@ Typ: "[[Beeinflussung]]"
 
 Du manifestierst in Reichweite ein kleines Wunder. Du bewirkst in Reichweite einen der Effekte unten.
 Wenn du diesen Zauber mehrmals wirkst, können bis zu 3 seiner 1 minütigen Effekte gleichzeitig wirken. 
-Du kannst einen solchen Effekt verwerfen (keine [[Aktion]] erforderlich).
+Du kannst einen solchen Effekt verwerfen (keine [[Aktionen]] erforderlich).
 
 - **Beben**: Du bewirkst ein harmloses Erdbeben, das eine Minute lang andauert.
 - **Dröhnende Stimme**: Deine Stimme ertönt 1 Minute lang bis zu dreimal so laut wie sonst. 

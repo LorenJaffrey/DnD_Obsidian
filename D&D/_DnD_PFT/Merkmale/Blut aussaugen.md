@@ -9,4 +9,4 @@ Während sie angeheftet ist greift die Kreatur nicht an.
 Stattdessen verliert das Ziel automatisch jeden [[Zug]] Trefferpunkte in Höhe des Angriffs der [[Blut aussaugen]] verursacht hat aufgrund des Blutverlusts.
 Die Kreatur löst sich automatisch wenn sie sich bewegt oder wenn sie 10 [[Trefferpunkte]] an Blut ausgesaugt hat. 
 
-Das Ziel oder eine andere nahe Kreatur kann eine [[Aktion]] aufwenden um die Kreatur zu entfernen.
+Das Ziel oder eine andere nahe Kreatur kann eine [[Aktionen]] aufwenden um die Kreatur zu entfernen.

@@ -3,11 +3,11 @@ tags:
   - Gegenstand/Rüstung/Schild
 Klasse: "[[Schilde|Schild]]"
 RP: 1
-SR: 
-Stärke: 
-Dex_cap: 
+SR:
+Stärke:
+Dex_cap:
 Eigenschaften:
-  - "[[Parieren]]"
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
   - "[[Freihändig]]"
 Gewicht: 2 Pfund
 Kosten: 10 GM

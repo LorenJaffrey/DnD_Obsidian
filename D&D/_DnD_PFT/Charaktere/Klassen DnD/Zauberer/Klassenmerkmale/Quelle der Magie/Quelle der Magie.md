@@ -29,7 +29,7 @@ Du kannst [[Zauberplätze]] des höchstens 5. [[Zaubergrad|Grades]] erzeugen.
 Alle mit diesem Merkmal erschaffenen [[Zauberplätze]] verschwinden nach einer [[Lange Rast|Langen Rast]].
 
 ### Zauberplätze in Zaubereipunkte umwandeln
-Du kannst einen [[Zauberplätze|Zauberplatz]] verbrauchen, um eine Anzahl von [[Zaubereipunkte|Zaubereipunkten]] in Höhe des [[Zaubergrad|Zauberplatzgrades]] zu erhalten (keine [[Aktion]] erforderlich).
+Du kannst einen [[Zauberplätze|Zauberplatz]] verbrauchen, um eine Anzahl von [[Zaubereipunkte|Zaubereipunkten]] in Höhe des [[Zaubergrad|Zauberplatzgrades]] zu erhalten (keine [[Aktionen]] erforderlich).
 
 ### Umwandlungstabellen
 

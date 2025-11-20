@@ -2,7 +2,6 @@
 tags:
   - Beruf/Kräuterkunde/Umgebung
 aliases:
-  - Wüste
 ---
 # `=this.file.name`
 |  W10  | Zutat                  |

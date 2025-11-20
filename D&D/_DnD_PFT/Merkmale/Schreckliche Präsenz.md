@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Jede andere Kreatur nach Wahl innerhalb von 36 Metern um Kreatur die sie wahrnimmt, muss einen [[Rettungswurf]] auf [[Weisheit]] gegen [[Schwierigkeitsgrad|SG]] 14  bestehen oder wird für 1 Minute [[Verängstigt]]. 

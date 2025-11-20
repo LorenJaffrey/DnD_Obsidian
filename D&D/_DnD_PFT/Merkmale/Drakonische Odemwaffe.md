@@ -3,7 +3,7 @@ aliases:
 tags:
   - Merkmal/Spezies/Drachenblütiger
   - Regeln/PHB2024
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Wenn du in deinem Zug die [[Angreifen|Angriffsaktion]] ausführst, kannst du einen der [[Angriff|Angriffe]] durch ein Ausatmen magischer Energie ersetzen.

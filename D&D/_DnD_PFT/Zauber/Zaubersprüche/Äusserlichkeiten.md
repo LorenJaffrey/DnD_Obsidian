@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 5
 Schule: "[[Illusionszauber|Illusion]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 9 Meter
 Verbal: true
 Geste: true

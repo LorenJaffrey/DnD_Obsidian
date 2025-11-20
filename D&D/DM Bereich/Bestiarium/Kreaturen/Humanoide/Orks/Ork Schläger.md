@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Orks
 tags:
   - Kreatur/Humanoide/Ork
 Bild: "[[orc_bruiser.png]]"

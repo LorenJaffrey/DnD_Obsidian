@@ -5,7 +5,7 @@ tags:
   - Zauber
 Grad: 5
 Schule: "[[Nekromantiezauber|Nekromantie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

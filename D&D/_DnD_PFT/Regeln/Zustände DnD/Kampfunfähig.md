@@ -4,4 +4,4 @@ tags:
 ---
 # `=this.file.name`
 
-Eine kampfunfähige Kreatur kann keine [[Aktion|Aktionen]] oder [[Reaktion|Reaktionen]] ausführen.
+Eine kampfunfähige Kreatur kann keine [[Aktionen|Aktionen]] oder [[Reaktion|Reaktionen]] ausführen.

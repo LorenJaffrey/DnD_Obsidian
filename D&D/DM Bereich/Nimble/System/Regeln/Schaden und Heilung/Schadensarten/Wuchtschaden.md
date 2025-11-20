@@ -9,4 +9,4 @@ Zustand: "[[Benommen]]"
 ## Kritischer Wuchtschaden
 Kritischer [[Wuchtschaden]] macht das Ziel benommen und beeinträchtigt seine Reflexe.
 Das Ziel erhält den Zustand [[Benommen]].
-Eine benommene Kreatur kann ihre [[Aktion]] aufwenden und einen [[Rettungswurf]] auf [[Konstitution]] mit [[Schwierigkeitsgrad|SG]] 15 ablegen um die Benommenheit abzuschütteln.
+Eine benommene Kreatur kann ihre [[Aktionen]] aufwenden und einen [[Rettungswurf]] auf [[Konstitution]] mit [[Schwierigkeitsgrad|SG]] 15 ablegen um die Benommenheit abzuschütteln.

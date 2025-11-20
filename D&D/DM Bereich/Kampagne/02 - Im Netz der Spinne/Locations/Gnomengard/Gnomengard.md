@@ -53,7 +53,7 @@ Alle Höhlen werden durch hängende Öllampen beleuchtet, die zwecks einfachen �
 Normale Türen bestehen aus stabilem Eichenholz, die Klinken und Scharniere aus Eisen. 
 
 Verschlossene Türen können mit [[Diebeswerkzeug]] und einem erfolgreichem Wurf auf [[Geschicklichkeit]] gegen [[Schwierigkeitsgrad|SG]] 10 geöffnet werden.
-Verschlossene Türen können auch als [[Aktion]] gewaltsam mit einem erfolgreichem Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 15 geöffnet werden. 
+Verschlossene Türen können auch als [[Aktionen]] gewaltsam mit einem erfolgreichem Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 15 geöffnet werden. 
 Geheimtüren bestehen aus Stein und sind von der umgebenden Wand nicht zu unterscheiden. 
 Zum Erkennen einer Geheimtür muss die Wand untersucht und ein erfolgreicher Wurf auf [[Wahrnehmung]] gegen [[Schwierigkeitsgrad|SG]] 10 ausgeführt werden.
 

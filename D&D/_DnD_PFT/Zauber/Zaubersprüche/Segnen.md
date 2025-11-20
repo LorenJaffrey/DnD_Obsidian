@@ -4,7 +4,7 @@ tags:
   - Zauber
 Grad: 1
 Schule: "[[Verzauberungen|Verzauberung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 9 m
 Verbal: true
 Geste: true

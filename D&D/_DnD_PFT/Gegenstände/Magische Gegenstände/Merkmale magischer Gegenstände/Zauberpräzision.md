@@ -6,4 +6,4 @@ Ladungen:
 Regeneration:
 ---
 # `=this.file.name`
-Du erhältst den in Klammern angegebenen Bonus auf deine [[Zauberangriffswürfe]] und deinen [[Zauberrettungswurf-Schwierigkeitsgrad]].
+Du erhältst den in Klammern angegebenen Bonus auf deine [[Zauberangriffswurf|Zauberangriffswürfe]] und deinen [[Zauberrettungswurf-Schwierigkeitsgrad]].

@@ -5,7 +5,7 @@ tags:
   - Regeln/PHB2024
 Grad: 3
 Schule: "[[Beschwörungszauber|Beschwörung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: 18 Meter
 Verbal: true
 Geste: true

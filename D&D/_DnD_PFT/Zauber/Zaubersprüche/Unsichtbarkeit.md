@@ -6,7 +6,7 @@ tags:
   - Regeln/PHB2024
 Grad: 2
 Schule: "[[Illusionszauber|Illusion]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Berührung
 Verbal: true
 Geste: true

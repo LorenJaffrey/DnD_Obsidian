@@ -8,5 +8,5 @@ Stufe: 14
 # `=this.file.name`
 Das Ziel muss einen [[Rettungswurf]] auf [[Konstitution]] bestehen, oder es kann in seinem nächsten [[Zug]] nur eine der folgenden Handlungen vollziehen: 
 - sich bewegen
-- eine [[Aktion]] ausführen
+- eine [[Aktionen]] ausführen
 - eine [[Bonusaktion]] ausführen

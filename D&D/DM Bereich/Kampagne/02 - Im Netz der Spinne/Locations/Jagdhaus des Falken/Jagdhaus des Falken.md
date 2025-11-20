@@ -38,7 +38,7 @@ Die Tiere sind gut gepflegt und nicht gefährlich.
 ### Türen
 Die Türen bestehen aus stabilem Eichenholz, die Klinken und Scharniere aus Eisen. 
 Die Außentüren sind von innen verriegelt. 
-Eine Kreatur kann eine [[Aktion]] darauf verwenden, eine solche Tür mit einem erfolgreichen Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 25 aufzubrechen.
+Eine Kreatur kann eine [[Aktionen]] darauf verwenden, eine solche Tür mit einem erfolgreichen Wurf auf [[Athletik]] gegen [[Schwierigkeitsgrad|SG]] 25 aufzubrechen.
 Jede Tür ist ein mittelgroßer Gegenstand mit [[Rüstungsklasse]] 15,  30 [[Trefferpunkte|Trefferpunkten]] und [[Schadensarten#Schadensimmunität]] gegen [[Giftschaden]] und [[Psychischer Schaden|psychischen Schaden]].
 
 ## Ankunft beim Jagdhaus

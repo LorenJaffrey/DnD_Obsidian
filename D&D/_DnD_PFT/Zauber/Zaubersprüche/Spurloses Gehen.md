@@ -5,7 +5,7 @@ tags:
   - Regeln/PHB2024
 Grad: 2
 Schule: "[[Bannzauber|Bannmagie]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: Selbst (9 Meter)
 Verbal: true
 Geste: true

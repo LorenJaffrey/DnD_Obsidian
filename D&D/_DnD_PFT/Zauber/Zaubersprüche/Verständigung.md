@@ -4,7 +4,7 @@ tags:
   - Zauber
 Grad: 3
 Schule: "[[Hervorrufungszauber|Hervorrufung]]"
-Zeitaufwand: "[[Aktion]]"
+Zeitaufwand: "[[Aktionen]]"
 Reichweite: unbegrenzt
 Verbal: true
 Geste: true

@@ -7,16 +7,16 @@ tags:
   - Gegenstand/Waffe/Größe/Großwaffe
   - Gegenstand/Magischer_Gegenstand/Zauberstecken
 Art: "[[Zauberstecken]]"
-Seltenheit: 
+Seltenheit:
 Einstimmung: true
-Kosten: 
+Kosten:
 Voraussetzung:
 Verflucht: false
 Reichweite: 1,5(1)
 Schaden: 1d8
 Schadensart: "[[Wuchtschaden]]"
 Eigenschaften:
-  - "[[Parieren]]"
+  - "[[_DnD_PFT/Gegenstände/Waffen/Waffeneigenschaften/Parieren]]"
   - "[[Finesse]]"
 Kategorie: "[[Einfache Waffen]]"
 Hände: 2
@@ -44,7 +44,7 @@ Der Stecken hat 10 Ladungen, die genutzt werden können, um die Zauber in seinem
 Es sind keine Komponenten notwendig.
 Du musst Zauberwirker sein um diese Zauber einsetzen zu können.
 
-Mit dem Stecken in Händen kannst du deine [[Aktion]] nutzen und eine Ladung verbrauchen um [[Magierrüstung]] zu wirken.
+Mit dem Stecken in Händen kannst du deine [[Aktionen]] nutzen und eine Ladung verbrauchen um [[Magierrüstung]] zu wirken.
 Alternativ kannst du deine [[Reaktion]] nutzen und zwei Ladungen verbrauchen um [[Schild]] zu wirken. 
  
 Der Stecken erhält immer zur Morgendämmerung 1W6+4 verbrauchte Ladungen zurück. 

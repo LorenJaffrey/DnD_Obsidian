@@ -1,6 +1,5 @@
 ---
 aliases:
-- mittelgroß
 - mittelgroße
 - mittelgroßer
 tags:

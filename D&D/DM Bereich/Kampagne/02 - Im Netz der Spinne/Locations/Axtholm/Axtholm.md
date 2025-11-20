@@ -28,7 +28,7 @@ Alle Kamine in [[Axtholm]] besitzen fugenlose, aus dem Bergfels gehauene Schäch
 Bei der Verteidigung von [[Axtholm]] wurde überwiegend auf Ballisten zurückgegriffen - massive Armbrüste, die schwere Bolzen abfeuern. 
 Jede Balliste wurde üblicherweise von drei Zwergen bedient. 
 Vor dem Abfeuern einer Balliste muss man sie laden und zielen. 
-Das Laden der Waffe erfordert eine [[Aktion]], das Zielen eine weitere und das Abfeuern eine dritte. 
+Das Laden der Waffe erfordert eine [[Aktionen]], das Zielen eine weitere und das Abfeuern eine dritte. 
 Fernkampf-Waffenangriff: +6 auf Treffen, Reichweite 36/145 Meter, ein Ziel. Treffer: 16 (3W10) [[Stichschaden]].
 
 ### Decken

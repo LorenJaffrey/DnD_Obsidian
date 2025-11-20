@@ -1,7 +1,7 @@
 ---
 tags:
   - Merkmal
-Einsatz: "[[Aktion]]"
+Einsatz: "[[Aktionen]]"
 ---
 # `=this.file.name`
 Jede feindliche Kreatur innerhalb von 18 Metern (12 Kästchen) in Hör- oder Sichtweite muss einen [[Rettungswurf]] auf [[Charisma]] bestehen.
