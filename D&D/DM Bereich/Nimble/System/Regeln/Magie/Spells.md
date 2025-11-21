@@ -1,10 +1,10 @@
 # Fire Spells
 
-![[Flame Dart]]
+![[DM Bereich/Nimble/System/Regeln/Magie/Zaubersprüche/Pyromantie/Feuerpfeil]]
 
 ---
 
-![[Heart's Fire]]
+![[Herzensfeuer]]
 
 ---
 

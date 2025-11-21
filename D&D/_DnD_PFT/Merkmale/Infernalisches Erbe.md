@@ -11,7 +11,7 @@ Einsatz: Passiv
 Du besitzt [[Schadensarten#Schadensresistenz]] gegen [[Feuerschaden]].
 
 Außerdem beherrschst du folgende Zauber: 
-- ab Stufe 1: [[Feuerpfeil]] 
+- ab Stufe 1: [[_DnD_PFT/Zauber/Zaubersprüche/Feuerpfeil]] 
 - ab Stufe 3: [[Höllischer Tadel]]
 - ab Stufe 5: [[Dunkelheit]]
 

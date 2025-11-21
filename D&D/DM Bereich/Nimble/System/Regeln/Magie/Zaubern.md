@@ -92,7 +92,7 @@ In der Beschreibung eines Zaubers ist angegeben, ob der Zauber auf Kreaturen, Ge
 ## Zauberschulen
 Es gibt 6 Hauptschulen der Magie. Jede Schule hat eigene Basiszaubertricks und 9 Stufen immer mächtigerer Zauber, die mit steigender Heldenstufe freigeschaltet werden. 
 Helden können jeden Zauber ihrer bekannten Schulen innerhalb ihrer freigeschalteten Stufen nutzen.
-- **[[Feuerzauber]]:** Verursachen hohen, beständigen Schaden auf mittlere Distanz. Manche versengen das Ziel oder richten gegen versengte Gegner zusätzlichen Schaden an.
+- **[[Pyromantie]]:** Verursachen hohen, beständigen Schaden auf mittlere Distanz. Manche versengen das Ziel oder richten gegen versengte Gegner zusätzlichen Schaden an.
 - **[[Eiszauber]]:** Mittleren Schaden auf große Entfernung; legen Fokus auf Kontrolle und Schutz des Zauberers. Einige wirken gegen behinderte Ziele stärker.
 - **[[Blitzzauber]]:** Hohen Schaden auf große Entfernung, Teleporteffekte und Vorteile gegen Gegner mit Metall. Manche können auf den Zaubernden zurückschlagen.
 - **[[Nekromantie]]:** Rufen schreckliche Diener, manipulieren oder fangen Ziele. Riskante Sprüche entziehen Lebensenergie, unterscheiden aber oft nicht zwischen Freund und Feind.
