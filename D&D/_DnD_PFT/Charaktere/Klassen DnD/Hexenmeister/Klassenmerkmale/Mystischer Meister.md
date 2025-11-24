@@ -9,4 +9,4 @@ tags:
 
 Du kannst eine Minute lang einen esoterischen Ritus ausführen. 
 Danach erhältst du alle verbrauchten Paktmagie-[[Zauberplätze]] zurück.
-Du kannst dieses Merkmal erst nach einer [[Lange Rast|langen Rast]] erneut verwenden.
+Du kannst dieses Merkmal erst nach einer [[Sichere Rast|langen Rast]] erneut verwenden.

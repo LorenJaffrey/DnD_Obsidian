@@ -8,8 +8,8 @@ Um ihren genauen Standort zu bestimmen ist wiederum ein [[Navigieren]] Wurf notw
 Die Reisegeschwindigkeit wird durch verschieden Faktoren beeinflusst (siehe [[Reisetempo]]).
 
 ## Rast
-Im Zuge einer [[Lange Rast|Langen Rast]] kann ein Charakter:
+Im Zuge einer [[Sichere Rast|Langen Rast]] kann ein Charakter:
 - nach [[Nahrungssuche|Nahrung suchen]] 
 - [[Zutaten sammeln]]
 
-Ein Gruppenmitglied kann dabei nur eine Suche pro [[Lange Rast|Langer Rast]] durchführen.
+Ein Gruppenmitglied kann dabei nur eine Suche pro [[Sichere Rast|Langer Rast]] durchführen.

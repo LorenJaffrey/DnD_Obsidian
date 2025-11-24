@@ -12,7 +12,7 @@ tags:
 Anwendungen: 2
 Zeitaufwand: [[Bonusaktion]]
 Wirkungsdauer: 1 Minute
-Erholung: [[Lange Rast]]
+Erholung: [[Sichere Rast]]
 
 Während die Dauer erhältst du folgende Vorzüge:
 - Der [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]] deiner Zaubererzauber wird um 1 erhöht.

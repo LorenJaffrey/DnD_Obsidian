@@ -6,14 +6,14 @@ Du kannst die Gestalt auch als [[Bonusaktion]] vorzeitig aufgeben.
 
 ## Anzahl der Anwendungen
 Du kannst [[Tiergestalt]] zweimal einsetzen. 
-Wenn du eine [[kurze Rast]] beendest, erhältst du eine verbrauchte Anwendung zurück. 
-Du erhältst alle verbrauchten Anwendungen nach einer [[Lange Rast|langen Rast]] zurück.
+Wenn du eine [[Feldrast]] beendest, erhältst du eine verbrauchte Anwendung zurück. 
+Du erhältst alle verbrauchten Anwendungen nach einer [[Sichere Rast|langen Rast]] zurück.
 Du erhältst zusätzliche Anwendungen, wenn du bestimmte Druidenstufen erreichst, wie in der Spalte „Tiergestalt" der [[Druide DnD#Klassentabelle]] dargestellt.
 
 ## Bekannte Gestalten
 Du kennst vier Tiergestalten für dieses Merkmal, ausgewählt aus Tieren, die höchstens einen [[Herausforderungsgrad]] von 1/4 und keine Flugbewegungsrate haben. 
 [[Ratte]], [[Reitpferd]], [[Spinne]] und [[Wolf]] werden empfohlen. 
-Wann immer du eine [[lange Rast]] beendest, kannst du eine deiner bekannten Gestalten durch eine andere Gestalt ersetzen, welche die Bedingungen erfüllt.
+Wann immer du eine [[Sichere Rast]] beendest, kannst du eine deiner bekannten Gestalten durch eine andere Gestalt ersetzen, welche die Bedingungen erfüllt.
 
 Wenn du bestimmte Druidenstufen erreichst, werden die Anzahl deiner bekannten Gestalten sowie der maximale [[Herausforderungsgrad]] dieser Gestalten erhöht, wie in der Tabelle „Tiergestalten" dargestellt. 
 Außerdem kannst du ab 8. Stufe Gestalten mit Flugbewegungsrate annehmen.

@@ -12,4 +12,4 @@ Die Aura erstreckt sich 1,50 m nach allen Seiten um dich herum, geht jedoch nich
 Sie hält an, bis du kampfunfähig wirst oder du sie als [[Bonusaktion]] aufhebst.
 Dank der Aura bist du im [[Vorteil und Nachteil|Vorteil]] bei Würfen auf [[Einschüchtern]], aber im [[Vorteil und Nachteil|Nachteil]] bei allen anderen Würfen auf [[Charisma]]. 
 Jede andere Kreatur, die ihren [[Zug]] in der Aura beginnt, erleidet [[Giftschaden]] in Höhe deines [[Charisma#Charismamodifikator]] (mindestens 0 Schaden).
-Wenn du diese Anrufung verwendet hast, kannst du sie erst wieder einsetzen, nachdem du eine [[Kurze Rast]] oder [[Lange Rast]] beendet hast.
+Wenn du diese Anrufung verwendet hast, kannst du sie erst wieder einsetzen, nachdem du eine [[Feldrast]] oder [[Sichere Rast]] beendet hast.

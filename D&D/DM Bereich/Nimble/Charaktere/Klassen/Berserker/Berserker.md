@@ -5,6 +5,19 @@ Trefferwürfel: 12
 Kernattribute:
   - "[[Stärke]]"
   - "[[Geschicklichkeit]]"
+Übung:
+  Waffen:
+    - "[[Einfache Waffen]]"
+    - "[[Kriegswaffen]]"
+  Rüstungen:
+Rettungswürfe:
+  Vorteil:
+    - "[[Rettungswurf#Stärkerettungswurf]]"
+    - "[[Rettungswurf#Geschicklichkeitsrettungswurf|Geschicklichkeitsrettungswürfe]]"
+  Nachteil:
+    - "[[Rettungswurf#Intelligenzrettungswurf|Intelligenzrettungswürfe]]"
+    - "[[Rettungswurf#Weisheitsrettungswurf]]"
+    - "[[Rettungswurf#Charismarettungswurf]]"
 Beschreibung: "Unaufhaltsame Kraft aus Zorn und Zerstörung."
 ---
 # `=this.file.name`
@@ -31,17 +44,16 @@ Als Berserker kannst du:
 [[Trefferpunkte]] pro Stufenaufstieg: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` (min. 7) + [[Konstitution]]
 
 ## Waffen
-- [[Einfache Waffen]] 
-- [[Kriegswaffen]] 
+`$=dv.list(dv.current().Übung.Waffen)`
+
+## Rüstung
+`$=dv.list(dv.current().Übung.Rüstungen)`
 
 ## Rettungswürfe
 - [[Vorteil und Nachteil|Vorteil]] auf **EINEN** der folgenden:
-	- [[Rettungswurf#Stärkerettungswurf|Stärkerettungswürfe]] 
-	- [[Rettungswurf#Geschicklichkeitsrettungswurf|Geschicklichkeitsrettungswürfe]]
+`$=dv.list(dv.current().Rettungswürfe.Vorteil)`
 - [[Vorteil und Nachteil|Nachteil]] auf **EINEN** der folgenden: 
-	- [[Rettungswurf#Intelligenzrettungswurf|Intelligenzrettungswürfe]]
-	- [[Rettungswurf#Weisheitsrettungswurf|Weisheitsrettungswürfe]]
-	- [[Rettungswurf#Charismarettungswurf|Charismarettungswürfe]]
+`$=dv.list(dv.current().Rettungswürfe.Nachteil)`
 
 ## Ausrüstung
 - [[Streitaxt]]
@@ -56,19 +68,19 @@ Als Berserker kannst du:
 | ----- | --------- | ------------------------------------------------------------------------- |
 | 1     | W4        | [[Wut]], [[Wüten]], [[War das schon alles]]                               |
 | 2     | W4        | [[Aufsteigende Wut]], [[Eins mit den Ahnen]]                              |
-| 3     | W4        | [[Berserker Subklassen\|Berserker Subklasse]], [[Blutrausch]]             |
+| 3     | W4        | [[Subklassen Berserker\|Berserker Subklasse]], [[Blutrausch]]             |
 | 4     | W4        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]], [[Andauernde Wut]] |
 | 5     | W4        | [[Sekundäre Attributswerterhöhung]], [[Verbessertes Wüten]]               | 
 | 6     | W6        | [[Wildes Arsenal]]                                                        |
-| 7     | W6        | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 7     | W6        | [[Subklassen Berserker\|Subklassen Merkmal]]                              |
 | 8     | W6        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
 | 9     | W8        | [[Sekundäre Attributswerterhöhung]]                                       |
 | 10    | W8        | [[Wildes Arsenal]]                                                        |
-| 11    | W8        | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 11    | W8        | [[Subklassen Berserker\|Subklassen Merkmal]]                              |
 | 12    | W8        | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
 | 13    | W10       | [[Sekundäre Attributswerterhöhung]]                                       |
 | 14    | W10       | [[Wildes Arsenal]]                                                        |
-| 15    | W10       | [[Berserker Subklassen\|Subklassen Merkmal]]                              |
+| 15    | W10       | [[Subklassen Berserker\|Subklassen Merkmal]]                              |
 | 16    | W10       | [[Primäre Attributswerterhöhung]], [[Wildes Arsenal]]                     |
 | 17    | W12       | [[Sekundäre Attributswerterhöhung]]                                       |
 | 18    | W12       | [[Tiefe Wut]]                                                             |

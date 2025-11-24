@@ -18,4 +18,4 @@ Dieser Schaden steigt auf höheren Stufen:
 	- `dice:4d10` ab Stufe 17
 
 Die Häufigkeit, mit der du diese Odemwaffe einsetzen kannst, entspricht deinem [[_Übung|Übungsbonus]]. 
-Du erhältst alle verbrauchten Anwendungen nach einer [[Lange Rast|Langen Rast]] zurück.
+Du erhältst alle verbrauchten Anwendungen nach einer [[Sichere Rast|Langen Rast]] zurück.

@@ -4,4 +4,4 @@ tags:
 ---
 # `=this.file.name`
 
-Du kannst keine [[Lange Rast]] nehmen, und eine[[Kurze Rast]] dauert 8 Stunden.
+Du kannst keine [[Sichere Rast]] nehmen, und eine[[Feldrast]] dauert 8 Stunden.

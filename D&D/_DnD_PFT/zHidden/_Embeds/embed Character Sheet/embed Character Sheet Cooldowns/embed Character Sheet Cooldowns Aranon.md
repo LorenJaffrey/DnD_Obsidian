@@ -1,9 +1,9 @@
 |                    | Maximal                                                                                   | Aufladung      |
 | ------------------ | ----------------------------------------------------------------------------------------- | -------------- |
-| [[Tiergestalt]]    | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` | [[Kurze Rast]] |
-| [[Geistertotem]]   | `INPUT[toggle:InputData.GeistertotemLadung]`                                              | [[Kurze Rast]] |
-| [[Nebelschritt]]   | `INPUT[toggle:InputData.NebelschrittLadung]`                                              | [[Lange Rast]] |
-| [[Identifizieren]] | `INPUT[toggle:InputData.IdentifizierenLadung]`                                            | [[Lange Rast]] |
+| [[Tiergestalt]]    | `INPUT[toggle:InputData.TiergestaltLadung1]` `INPUT[toggle:InputData.TiergestaltLadung2]` | [[Feldrast]] |
+| [[Geistertotem]]   | `INPUT[toggle:InputData.GeistertotemLadung]`                                              | [[Feldrast]] |
+| [[Nebelschritt]]   | `INPUT[toggle:InputData.NebelschrittLadung]`                                              | [[Sichere Rast]] |
+| [[Identifizieren]] | `INPUT[toggle:InputData.IdentifizierenLadung]`                                            | [[Sichere Rast]] |
 
 #### Tiergestalten
  ```dataview

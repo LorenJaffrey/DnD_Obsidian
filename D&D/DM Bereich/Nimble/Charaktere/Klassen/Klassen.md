@@ -5,7 +5,7 @@
 - [[Path of the Red Mist]]
 # The Cheat
 - [[The Cheat Levels]]
-- [[Underhanded Abilities]]
+- [[Schmutzige Tricks]]
 - [[Tools of the Scoundrel]]
 - [[Tools of the Silent Blade]]
 # Commander

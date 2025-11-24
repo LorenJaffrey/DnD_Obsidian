@@ -13,7 +13,7 @@ Jedes Mal, wenn du neue [[Kampfüberlegenheit#Manöver]] lernst, kannst du zusä
 ## Überlegenheitswürfel 
 Du besitzt vier Überlegenheitswürfel, die W8 sind. 
 Benutzt du einen Überlegenheitswürfel im Rahmen eines [[Kampfüberlegenheit#Manöver]] wird er verbraucht. 
-Du erhältst alle verbrauchten Überlegenheitswürfel nach Beenden einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] zurück.
+Du erhältst alle verbrauchten Überlegenheitswürfel nach Beenden einer [[Feldrast|Kurzen Rast]] oder [[Sichere Rast|Langen Rast]] zurück.
 
 ## Rettungswürfe
 Manche deiner Manöver erfordern von deinem Ziel einen [[Rettungswurf]], um den Auswirkungen des [[Kampfüberlegenheit#Manöver]]s zu widerstehen. 

@@ -12,4 +12,4 @@ Dieser Würfel wird zu den [[Kampfüberlegenheit#Überlegenheitswürfel]], die d
 Dieser Würfel dient als „Treibstoff" für deine [[Kampfüberlegenheit#Manöver]]. 
 Verwendest du einen [[Kampfüberlegenheit#Überlegenheitswürfel]], verbrauchst du ihn damit.
 
-Durch eine [[Kurze Rast]] oder [[Lange Rast]] werden verbrauchte [[Kampfüberlegenheit#Überlegenheitswürfel]] zurückgewonnen.
+Durch eine [[Feldrast]] oder [[Sichere Rast]] werden verbrauchte [[Kampfüberlegenheit#Überlegenheitswürfel]] zurückgewonnen.

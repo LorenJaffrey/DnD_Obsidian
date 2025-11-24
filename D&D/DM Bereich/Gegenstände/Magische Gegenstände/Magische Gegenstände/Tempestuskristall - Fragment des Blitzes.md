@@ -15,7 +15,7 @@ Kosten:
 Der Träger erhält +1 auf [[Angriffswurf|Angriffswürfe]] und [[Schadenswurf|Schadenswürfe]] für [[Blitzschaden]] (dieser Bonus erhöht sich um +1 für jedes weitere Fragment des [[Tempestus Kristall|Tempestus Kristalls]] im Besitz des Trägers).
 
 **Überspringen**
-Einmal pro [[kurze Rast]] kann der Träger einen [[Nahkampfangriff]] oder Zauber, der [[Blitzschaden]] verursacht, mit „elektrischer Überladung“ verstärken. 
+Einmal pro [[Feldrast]] kann der Träger einen [[Nahkampfangriff]] oder Zauber, der [[Blitzschaden]] verursacht, mit „elektrischer Überladung“ verstärken. 
 Dadurch springt der Schaden auf ein weiteres Ziel innerhalb von 10 Fuß über.
 Das zweite Ziel muss einen [[Rettungswurf]] auf [[Geschicklichkeit]] gegen den [[Zauberrettungswurf-Schwierigkeitsgrad|Zauberrettungswurf-SG]] des Benutzers ablegen.
 Bei einem [[Misserfolg]] erleidet es den halben Schaden des ursprünglichen Angriffs oder Zaubers.

@@ -13,4 +13,4 @@ Als [[Aktionen]] kannst du eine Anwendung aufbrauchen um zu versuchen eine Kreat
 
 ## Wunden versorgen
 Als [[Aktionen]] kannst du eine Anwendung aufbrauchen, um eine Kreatur zu behandeln und bei ihr 1W4 + deinen [[_Übung|Übungsbonus]] an [[Trefferpunkte|Trefferpunkten]] wiederherzustellen.
-Die Kreatur kann erst erneut mit diesem Talent geheilt werden, nachdem sie eine [[Lange Rast]] beendet hat.
+Die Kreatur kann erst erneut mit diesem Talent geheilt werden, nachdem sie eine [[Sichere Rast]] beendet hat.

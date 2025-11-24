@@ -7,7 +7,7 @@ tags:
 Kreaturen, die mit dieser Krankheit sterben, verfallen schließlich zu verdorrten Hüllen, die auf ewig dem Hunger ausgeliefert sind.*
 
 Kreaturen, die an [[Ghulfieber]] erkrankt sind, können für die Dauer dieser [[Krankheiten|Krankheit]] keine [[Trefferpunkte]] zurückerlangen.  
-Immer wenn eine betroffene Kreatur eine [[kurze Rast]] macht, kann sie keine [[Trefferwürfel]] verwenden, und sie erhält auch keine [[Trefferwürfel]] zurück, wenn sie eine [[lange Rast]] beendet.
+Immer wenn eine betroffene Kreatur eine [[Feldrast]] macht, kann sie keine [[Trefferwürfel]] verwenden, und sie erhält auch keine [[Trefferwürfel]] zurück, wenn sie eine [[Sichere Rast]] beendet.
 
 Kreaturen, die sterben, während sie infiziert sind können für die Dauer der [[Krankheiten|Krankheit]] weder wiederbelebt noch in [[Untote]] verwandelt werden.  
 Nach einer Stunde kehrt diese Kreatur als [[Ghul Brut]] ins Leben zurück.

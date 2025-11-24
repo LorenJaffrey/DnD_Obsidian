@@ -11,8 +11,8 @@ Einsatz: "[[Bonusaktion]]"
 Du kannst dich als [[Bonusaktion]] in [[Kampfrausch]] versetzen, sofern du keine [[schwere Rüstung]] trägst.
 
 Wie oft du dies tun kannst, ist in der [[Barbar#Klassentabelle]] nach Barbarenstufe aufgeführt. 
-Wenn du eine [[kurze Rast]] beendest, erhältst du eine verbrauchte Anwendung zurück.
-Du erhältst alle verbrauchten Anwendungen nach einer [[Lange Rast|langen Rast]] zurück.
+Wenn du eine [[Feldrast]] beendest, erhältst du eine verbrauchte Anwendung zurück.
+Du erhältst alle verbrauchten Anwendungen nach einer [[Sichere Rast|langen Rast]] zurück.
 
 Solange dein [[Kampfrausch]] aktiv ist, gelten für ihn folgende Regeln:
 	- Du bist gegen [[Hiebschaden]], [[Stichschaden]] und [[Wuchtschaden]] [[Schadensarten#Schadensresistenz|resistent]].

@@ -23,6 +23,6 @@ These Boons are temporary and last only until the heroes take another Safe Rest.
 ---
 
 **Related**
-- [[Resting]]
+- [[Unterkunft]]
 - [[Downtime]]
 - [[Boons]]

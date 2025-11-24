@@ -6,13 +6,13 @@ tags:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Du hast raffinierte Methoden entwickelt, deinen [[Hinterhältiger Angriff|Hinterhältigen Angriff]]einzusetzen.
+Du hast raffinierte Methoden entwickelt, deinen [[Hinterhältiger Angriff (old)|Hinterhältigen Angriff]]einzusetzen.
 Wenn du mit diesem Schaden bewirkst, kannst du **ZWEI** der folgenden Effekte von [[Raffinierter Schlag]] hinzufügen. 
-Jeder Effekt hat Würfelkosten in Form der Schadenswürfel für [[Hinterhältiger Angriff]], auf die du verzichten musst, um den Effekt hinzuzufügen. 
+Jeder Effekt hat Würfelkosten in Form der Schadenswürfel für [[Hinterhältiger Angriff (old)]], auf die du verzichten musst, um den Effekt hinzuzufügen. 
 Du musst diese Würfel vor dem Wurf entfernen, und der Effekt tritt auf, sobald der Schaden des Angriffs bewirkt wurde. 
 
 >[!example] Beispiel
->Wenn du den Gift-Effekt hinzufügst, entfernst du 1W6 von den Schadenswürfeln des [[Hinterhältiger Angriff|Hinterhältigen Angriffs]], bevor du würfelst.
+>Wenn du den Gift-Effekt hinzufügst, entfernst du 1W6 von den Schadenswürfeln des [[Hinterhältiger Angriff (old)|Hinterhältigen Angriffs]], bevor du würfelst.
 
 Wenn ein Effekt von Raffinierter Schlag einen [[Rettungswurf]] erfordert, entspricht der [[Schwierigkeitsgrad|SG]] 8 plus deinem [[Geschicklichkeit#Geschicklichkeitsmodifikator]] plus deinem [[_Übung|Übungsbonus]].
 

@@ -37,13 +37,13 @@ HinterhältigerAngriff:
 
 | Stufe |            Hinterhältiger Angriff            | Merkmale                                                     |
 |:-----:|:--------------------------------------------:| ------------------------------------------------------------ |
-|   1   | `=this.HinterhältigerAngriff.Stufe1 + "W6"`  | [[Expertise]], [[Hinterhältiger Angriff]], [[Diebessprache]] |
-|   2   | `=this.HinterhältigerAngriff.Stufe2 + "W6"`  | [[Raffinierte Aktion]]                                       |
+|   1   | `=this.HinterhältigerAngriff.Stufe1 + "W6"`  | [[Expertise]], [[Hinterhältiger Angriff (old)]], [[Diebessprache (old)]] |
+|   2   | `=this.HinterhältigerAngriff.Stufe2 + "W6"`  | [[Raffinierte Aktion (old)]]                                       |
 |   3   | `=this.HinterhältigerAngriff.Stufe3 + "W6"`  | [[Schurkenarchetypen]], [[Zielsicher]]                       |
 |   4   | `=this.HinterhältigerAngriff.Stufe4 + "W6"`  | [[Talente\|Talent]]                                          |
 |   5   | `=this.HinterhältigerAngriff.Stufe5 + "W6"`  | [[Raffinierter Schlag]], [[Unglaubliches Ausweichen]]        |
 |   6   | `=this.HinterhältigerAngriff.Stufe6 + "W6"`  | [[Expertise]]                                                |
-|   7   | `=this.HinterhältigerAngriff.Stufe7 + "W6"`  | [[Entrinnen]], [[Verlässliches Talent]]                      |
+|   7   | `=this.HinterhältigerAngriff.Stufe7 + "W6"`  | [[Entrinnen]], [[Verlässliches Talent (old)]]                      |
 |   8   | `=this.HinterhältigerAngriff.Stufe8 + "W6"`  | [[Talente\|Talent]]                                          |
 |   9   | `=this.HinterhältigerAngriff.Stufe9 + "W6"`  | Merkmal Schurkenarchetyp                                     |
 |  10   | `=this.HinterhältigerAngriff.Stufe10 + "W6"` | [[Talente\|Talent]]                                          |

@@ -45,12 +45,3 @@ An overabundance of gold has its challenges and it may attract unwanted attentio
 * **Fame.** Opportunists, sycophants, bounty hunters, or warlords all may want a cut.
 * **People In Need.** A destitute village, public works projects, beggars, allies in need.
 * **Greedy Monsters.** Dragons and other powerful beings are drawn to large hoards of gold.
-
----
-
-**Related**
-- [[Adventuring Equipment]]
-- [[Weapons]]
-- [[Armor]]
-- [[Spell Scrolls]]
-- [[Wands]]

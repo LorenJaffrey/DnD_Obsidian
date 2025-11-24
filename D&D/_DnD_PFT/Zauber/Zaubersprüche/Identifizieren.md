@@ -49,4 +49,4 @@ Du erlangst auch Kenntnis darüber, ob Zauber auf dem Gegenstand liegen und welc
 
 Wenn du stattdessen eine Kreatur berührst, während du den Zauber wirkst, erfährst du, welche Zauber das Ziel augenblicklich beeinflussen.
 
-Wenn du beim Identifizieren eines Gegenstands auf diese Weise scheiterst, kannst du es nach einer [[Kurze Rast|Kurzen Rast]] erneut versuchen.
+Wenn du beim Identifizieren eines Gegenstands auf diese Weise scheiterst, kannst du es nach einer [[Feldrast|Kurzen Rast]] erneut versuchen.

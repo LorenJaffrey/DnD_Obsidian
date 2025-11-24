@@ -30,7 +30,7 @@ Wenn du dich mit anderen Werkzeugen auskennst, verbessert das die Qualität dein
 Wenn du zum Beispiel im Umgang mit der [[Fälscherausrüstung]] und im Umgang mit dem [[Kartographenwerkzeug]] geübt bist, könntest du die beiden Fähigkeiten kombinieren, um eine Karte zu fälschen.
 
 ### Rasche Fälschung
-Als Teil einer [[Kurze Rast|Kurzen Rast]] kannst du ein gefälschtes Dokument anfertigen, das nicht länger als eine Seite sein darf. Als Teil einer langen Rast kannst du ein Dokument fälschen, das nicht länger als vier Seiten sein darf.
+Als Teil einer [[Feldrast|Kurzen Rast]] kannst du ein gefälschtes Dokument anfertigen, das nicht länger als eine Seite sein darf. Als Teil einer langen Rast kannst du ein Dokument fälschen, das nicht länger als vier Seiten sein darf.
 Dein Wurf auf [[Intelligenz]] mit der [[Fälscherausrüstung]] bestimmt den [[Schwierigkeitsgrad|SG]] des Wurfes auf [[Nachforschungen]], um die Fälschung als solche zu erkennen.
 
 ## Beispiel-SG

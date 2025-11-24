@@ -17,7 +17,7 @@ Wenn du über [[Temporäre Trefferpunkte]] verfügst und Schaden erleidest, verl
 >Du verlierst die temporären Trefferpunkte und dann 2 reguläre Trefferpunkte.
 
 ## Wirkungsdauer
-[[Temporäre Trefferpunkte]] bleiben bestehen, bis sie verbraucht sind oder du eine[[ lange Rast]] beendest.
+[[Temporäre Trefferpunkte]] bleiben bestehen, bis sie verbraucht sind oder du eine[[Sichere Rast]] beendest.
 
 ## Nicht stapelbar
 [[Temporäre Trefferpunkte]] können nicht addiert werden.

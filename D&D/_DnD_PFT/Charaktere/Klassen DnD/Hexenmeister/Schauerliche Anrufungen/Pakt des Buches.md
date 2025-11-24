@@ -11,7 +11,7 @@ Wiederholbar: false
 Mindeststufe: Stufe `=this.Mindeststufe` 
 Voraussetzung: `=this.Voraussetzung` 
 
-Du fügst die Fäden der Schatten zusammen und beschwörst am Ende einer [[Kurze Rast|kurzen Rast]] oder [[Lange Rast|langen Rast]] ein Buch in deiner Hand. 
+Du fügst die Fäden der Schatten zusammen und beschwörst am Ende einer [[Feldrast|kurzen Rast]] oder [[Sichere Rast|langen Rast]] ein Buch in deiner Hand. 
 Dieses [[Pakt des Buches#Buch der Schatten]] (du bestimmst sein Erscheinungsbild) enthält mystische Magie, die nur dir zur Verfügung steht und dir die unten beschriebenen Vorzüge gewährt. 
 Das Buch verschwindet, wenn du ein weiteres Buch mit diesem Merkmal beschwörst oder wenn du stirbst.
 

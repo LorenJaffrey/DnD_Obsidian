@@ -10,4 +10,4 @@ Wenn deine Trefferpunkte auf 0 sinken, während du im [[Kampfrausch]] bist, stir
 Bei einem Erfolg erhältst du [[Trefferpunkte]] in doppelter Höhe deiner Barbarenstufe.
 
 Jedes Mal, wenn du dieses Merkmal nutzt, erhöht sich der [[Schwierigkeitsgrad|SG]] um 5. 
-Nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] sinkt der [[Schwierigkeitsgrad|SG]] wieder auf 10.
+Nach einer [[Feldrast|Kurzen Rast]] oder [[Sichere Rast|Langen Rast]] sinkt der [[Schwierigkeitsgrad|SG]] wieder auf 10.

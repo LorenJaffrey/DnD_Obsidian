@@ -15,7 +15,7 @@ Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für 
 
 ## Zauberplätze
 Die [[Druide DnD#Klassentabelle]] gibt an, wie viele [[Zauberplätze]] pro [[Zaubergrad]] dir auf jeder Stufe zur Verfügung stehen. 
-Du erhältst alle verbrauchten [[Zauberplätze]] nach einer [[Lange Rast|langen Rast]] zurück.
+Du erhältst alle verbrauchten [[Zauberplätze]] nach einer [[Sichere Rast|langen Rast]] zurück.
 
 ## Zauber Vorbereiten
 Du musst Zaubersprüche vorbereiten, um sie wirken zu können.

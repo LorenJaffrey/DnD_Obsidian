@@ -26,7 +26,7 @@ Du lernst weitere Arten, deine Zaubereipunkte zu nutzen, wenn du höhere Stufen 
 Als [[Bonusaktion]] kannst du in deinem Zug unverbrauchte [[Zaubereipunkte]] in einen [[Zauberplätze|Zauberplatz]] umwandeln. 
 In der Tabelle „Zauberplätze erschaffen“ sind die Kosten von [[Zauberplätze|Zauberplätzen]] bestimmter Grade sowie die zum Umwandeln erforderliche [[Zaubergrad|Zaubererstufe]] angegeben. 
 Du kannst [[Zauberplätze]] des höchstens 5. [[Zaubergrad|Grades]] erzeugen.
-Alle mit diesem Merkmal erschaffenen [[Zauberplätze]] verschwinden nach einer [[Lange Rast|Langen Rast]].
+Alle mit diesem Merkmal erschaffenen [[Zauberplätze]] verschwinden nach einer [[Sichere Rast|Langen Rast]].
 
 ### Zauberplätze in Zaubereipunkte umwandeln
 Du kannst einen [[Zauberplätze|Zauberplatz]] verbrauchen, um eine Anzahl von [[Zaubereipunkte|Zaubereipunkten]] in Höhe des [[Zaubergrad|Zauberplatzgrades]] zu erhalten (keine [[Aktionen]] erforderlich).

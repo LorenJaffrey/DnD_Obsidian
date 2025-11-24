@@ -16,6 +16,6 @@ Eine Kreatur kann mit deiner Erlaubnis eine [[Aktionen]] ausführen, um ihren Na
 Die höchstmögliche Anzahl von Namen auf der Seite entspricht deinem [[Charisma#Charismamodifikator]] (mindestens ein Name).
 
 Wenn die [[Trefferpunkte]] einer Kreatur, deren Name auf der Seite steht, auf 0 sinken, die Kreatur aber noch nicht stirbt, erhält sie auf magische Art einen [[Trefferpunkte|Trefferpunkt]] zurück. 
-Wenn diese Magie ausgelöst wurde, kann sie erst nach einer [[Lange Rast|langen Rast]] erneut verwendet werden.
+Wenn diese Magie ausgelöst wurde, kann sie erst nach einer [[Sichere Rast|langen Rast]] erneut verwendet werden.
 
 Als magische [[Aktionen]] kannst du einen Namen von der Seite entfernen, indem du ihn berührst.

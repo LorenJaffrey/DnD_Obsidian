@@ -9,4 +9,4 @@ mindeststufe: 5
 Voraussetzung: Stufe 5
 
 Du kannst [[Verlangsamen]] einmal wirken, indem du einen [[Zauberplätze|Zauberplatz]] verbrauchst. 
-Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Lange Rast]] beendet hast.
+Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine [[Sichere Rast]] beendet hast.

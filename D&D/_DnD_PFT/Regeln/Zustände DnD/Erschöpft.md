@@ -23,7 +23,7 @@ Deine [[Bewegungsrate]] ist um eine Anzahl von Metern in Höhe des 1,5-Fachen de
 
 ## Erschöpfung reduzieren
 Ein Effekt, der Erschöpfung verringert, verringert die Stufe um die Menge, die im Effekt beschrieben ist. 
-Wenn du eine [[lange Rast]] abschließt, wird beispielsweise eine deiner Erschöpfungsstufen entfernt.
+Wenn du eine [[Sichere Rast]] abschließt, wird beispielsweise eine deiner Erschöpfungsstufen entfernt.
 Sobald du keine Erschöpfungsstufen mehr hast, endet der Zustand.
 
 - [ ] Erschöpfungslogik in embeds wieder einbauen (siehe commits 04.12.24 bis 09.12.24) [priority::high]

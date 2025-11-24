@@ -35,7 +35,7 @@ Auch bei diesem muss der [[Zaubergrad|Grad]] deiner [[Zauberplätze]] dem [[Zaub
 
 ## Zauber wirken
 Um einen dir bekannten [[Zauberliste des Hexenmeisters|Zauber des Hexenmeisters]] zu wirken, musst du einen [[Zauberplätze|Zauberplatz]] verbrauchen. 
-Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Kurze Rast|Kurzen Rast]] oder [[Lange Rast|Langen Rast]] wieder zur Verfügung.
+Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Feldrast|Kurzen Rast]] oder [[Sichere Rast|Langen Rast]] wieder zur Verfügung.
 
 >[!example]
 >Bist du beispielsweise ein [[Hexenmeister]] der 5. Stufe, hast du zwei [[Zauberplätze]] des 3. [[Zaubergrad|Grades]]. 

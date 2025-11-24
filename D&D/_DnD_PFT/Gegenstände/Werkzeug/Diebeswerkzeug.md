@@ -21,7 +21,7 @@ Beim Suchen nach Fallen gewinnst du zusätzliche Erkenntnisse, weil du mit einer
 
 ## Besondere Anwendungsmöglichkeiten
 ### Eine Falle stellen
-Du kannst Fallen nicht nur entschärfen, sondern sie auch stellen. Als Teil einer [[Kurze Rast|Kurzen Rast]] kannst du eine Falle aus Gegenständen bauen, die du zur Verfügung hast. Das Gesamtergebnis deines Wurfs ist der SG für Würfe, um diese Falle zu entdecken oder zu entschärfen. 
+Du kannst Fallen nicht nur entschärfen, sondern sie auch stellen. Als Teil einer [[Feldrast|Kurzen Rast]] kannst du eine Falle aus Gegenständen bauen, die du zur Verfügung hast. Das Gesamtergebnis deines Wurfs ist der SG für Würfe, um diese Falle zu entdecken oder zu entschärfen. 
 Die Falle fügt Schaden zu, der von den Materialien abhängt, die bei der Konstruktion verwendet wurden (beispielsweise Gift oder eine Waffe).
 
 ## Beispiel-SG

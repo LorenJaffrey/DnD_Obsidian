@@ -1,7 +1,7 @@
 |                            |                                                                                                                       |
 | -------------------------- |:---------------------------------------------------------------------------------------------------------------------:|
 | [[Verschwinden]]           |                                  `INPUT[toggle:InputData.Fähigkeiten.Verschwinden]`                                   |
-| [[Hinterhältiger Angriff]] | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
+| [[Hinterhältiger Angriff (old)]] | `$="```dice:" + dv.page(dv.current().Hintergrund.Klasse).HinterhältigerAngriff["Stufe"+dv.current().Stufe] + "d6```"` |
 
 ```dataview
 TABLE WITHOUT ID

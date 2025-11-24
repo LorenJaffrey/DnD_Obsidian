@@ -14,4 +14,4 @@ Als [[Bonusaktion]] kannst du dir geisterhafte Flügel wachsen lassen, die zehn 
 Mit den Flügeln hast du eine Flugbewegungsrate in Höhe deiner [[Bewegungsrate]]. 
 Das Erscheinungsbild deiner Flügel entspricht der Energie deiner [[Odemwaffe]]. 
 
-Du kannst dieses Merkmal erst nach einer [[lange Rast|Langen Rast]] erneut verwenden.
+Du kannst dieses Merkmal erst nach einer [[Sichere Rast|Langen Rast]] erneut verwenden.

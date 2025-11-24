@@ -8,4 +8,4 @@ mindeststufe: 7
 
 Voraussetzung: Stufe 7
 Du kannst einmal [[Bewegungsfreiheit]] auf dich selbst wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] zu verbrauchen. 
-Du kannst diese Fähigkeit wieder nutzen, nachdem du eine [[Lange Rast]] beendet hast.
+Du kannst diese Fähigkeit wieder nutzen, nachdem du eine [[Sichere Rast]] beendet hast.

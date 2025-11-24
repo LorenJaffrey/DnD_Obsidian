@@ -9,4 +9,4 @@ mindeststufe: 15
 
 Voraussetzung: Stufe 15, [[Segen des Pakts#Pakt der Kette]]
 Du kannst nach Belieben [[Monster festhalten]] auf eine celestische Kreatur, einen [[Unholde|Unhold]] oder einen [[Elementare|Elementar]] wirken, ohne dafür einen [[Zauberplätze|Zauberplatz]] oder [[Material (M)]] aufwenden zu müssen. 
-Du musst eine [[Lange Rast]] beenden, bevor du diese Fähigkeit erneut auf dieselbe Kreatur anwenden kannst.
+Du musst eine [[Sichere Rast]] beenden, bevor du diese Fähigkeit erneut auf dieselbe Kreatur anwenden kannst.

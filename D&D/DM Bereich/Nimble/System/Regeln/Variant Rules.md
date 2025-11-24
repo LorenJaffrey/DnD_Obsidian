@@ -28,8 +28,6 @@ Whenever a Hero drops to 0 HP, they can attempt to play dead by falling prone an
 Whenever a hero does something memorable (role-plays a great moment, makes everyone laugh, miss an attack multiple times in a row, or otherwise engages in desired behavior), the GM can grant Inspiration: the ability to reroll any single die. Inspiration expires after a Safe Rest.
 ### Retreat
 The world is dangerous, and some fights may be unwinnable. Any hero may call for a retreat on their turn. If the party agrees—unless there is a good reason story-wise that a party can’t escape (e.g., they are trapped in nets and completely surrounded by a band of nasty kobolds)—the GM allows them to flee. Each hero describes their escape (e.g., casting a spell, using equipment, or making a skill check). Consequences may follow, such as taking damage, suffering a Wound, or failing a quest. If the escape is particularly clever, the GM may allow the party to escape without additional consequence. After all, the shame of retreating is often punishment enough!
-### Different Key Stats
-Players can swap KEY or Secondary stats for a class if it makes sense (e.g., DEX and WIL for the Cheat).
 ### Complex Characters
 A GM may allow heroes to pick 2 backgrounds and/or ancestry bonuses.
 ### Custom Weapon Dice

@@ -47,11 +47,11 @@ Nachdem der Stab durch die Vernichtung des Gulthiasbaums im [[Niewinterwald]] er
 [[Aranon]] ist nun in der Lage seine [[Tiergestalt]] zu nutzen um eine [[Geringe Baumhirtengestalt]] anzunehmen.
 
 ## Pflanzenflüstern
-Der Träger kann den Zauber [[Mit Pflanzen sprechen]] einmal pro [[Lange Rast]] ohne [[Zauberplätze|Zauberplatz]] wirken.
+Der Träger kann den Zauber [[Mit Pflanzen sprechen]] einmal pro [[Sichere Rast]] ohne [[Zauberplätze|Zauberplatz]] wirken.
 
 ## Natürliche Aura
 Der Träger und Verbündete im Umkreis von 3 Metern erhalten +1 auf Würfe auf [[Überlebenskunst]] und [[Wahrnehmung]] in Waldgebieten.
 
 ## Segen des Einhorns
-Der Träger kann diese Fähigkeit einmal pro [[Lange Rast|langer Rast]] aktivieren.
+Der Träger kann diese Fähigkeit einmal pro [[Sichere Rast|langer Rast]] aktivieren.
 Alle Verbündeten im Umkreis von 6 Metern (20 Fuß) erhalten 5 [[Trefferpunkte]] Heilung.

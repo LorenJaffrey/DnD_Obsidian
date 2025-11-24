@@ -29,7 +29,7 @@ Auch für diesen musst du einen dem [[Zaubergrad|Grad]] des Spruches entsprechen
 
 ## Zauber wirken
 Um einen dir bekannten Spruch zu wirken, musst du einen [[Zauberplätze|Zauberplatz]] des gleichen oder eines höheren [[Zaubergrad|Grades]] verbrauchen. 
-Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Lange Rast|Langen Rast]] wieder zur Verfügung.
+Alle verbrauchten [[Zauberplätze]] stehen dir nach einer [[Sichere Rast|Langen Rast]] wieder zur Verfügung.
 
 >[!example]
 >Ist dir beispielsweise der Zauber [[Brennende Hände]] des 1. [[Zaubergrad|Grades]] bekannt und besitzt du sowohl einen freien [[Zauberplätze|Zauberplatz]] des 1. [[Zaubergrad|Grades]] und einen des 2. [[Zaubergrad|Grades]], kannst du jeden der beiden [[Zauberplätze]] verwenden, um [[Brennende Hände]] zu wirken.

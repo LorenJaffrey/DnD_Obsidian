@@ -17,7 +17,7 @@ Wähle eine Anzahl von unverbrauchten Anwendungen von [[Tiergestalt]] aus und wa
 >[!example] Beispiel
 >Wenn du zwei Anwendungen von [[Tiergestalt]] umwandelst, erhältst du einen [[Zauberplätze|Zauberplatz]] des 4. [[Zaubergrad|Grades]].
 
-Du kannst diesen Vorzug erst nach einer [[Lange Rast|langen Rast]] erneut verwenden.
+Du kannst diesen Vorzug erst nach einer [[Sichere Rast|langen Rast]] erneut verwenden.
 
 ## Langlebigkeit
 Die Urmagie, die du wirkst, lässt dich langsamer altern. 
