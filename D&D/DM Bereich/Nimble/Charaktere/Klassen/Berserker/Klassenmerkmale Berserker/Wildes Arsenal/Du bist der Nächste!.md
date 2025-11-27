@@ -1,7 +1,7 @@
 ---
 tags: 
   - Regeln/Nimble/Merkmal/Klasse/Berserker/Wildes_Arsenal
-Einsatz: "1 [[Aktion]]"
+Einsatz: "1 [[Aktionspunkte|AP]]"
 ---
 # `=this.file.name`
 Während du [[Wut|wütend]] bist, kannst du einen [[Stärke|Stärkewurf]] ablegen, um einen Gegner innerhalb von 18 Metern (12 Kästchen) einzuschüchtern.

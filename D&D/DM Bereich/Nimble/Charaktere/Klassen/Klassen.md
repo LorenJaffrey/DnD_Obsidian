@@ -22,7 +22,7 @@
 - [[Beastmaster]]
 # Mage
 - [[Mage Levels]]
-- [[Spellshaper Abilities & Control Table]]
+- [[DM Bereich/Nimble/Charaktere/Klassen/Arkanist/Klassenmerkmale Arkanist/Metamagie/Metamagie]]
 - [[Invoker of Chaos]]
 - [[Invoker of Control]]
 # Oathsworn

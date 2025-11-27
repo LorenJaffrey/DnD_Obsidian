@@ -12,12 +12,12 @@ Kernattribute:
   Rüstungen:
 Rettungswürfe:
   Vorteil:
-    - "[[Rettungswurf#Stärkerettungswurf]]"
+    - "[[Rettungswurf#Stärkerettungswurf|Stärkerettungswürfe]]"
     - "[[Rettungswurf#Geschicklichkeitsrettungswurf|Geschicklichkeitsrettungswürfe]]"
   Nachteil:
     - "[[Rettungswurf#Intelligenzrettungswurf|Intelligenzrettungswürfe]]"
-    - "[[Rettungswurf#Weisheitsrettungswurf]]"
-    - "[[Rettungswurf#Charismarettungswurf]]"
+    - "[[Rettungswurf#Weisheitsrettungswurf|Weisheitsrettungswürfe]]"
+    - "[[Rettungswurf#Charismarettungswurf|Charismarettungswürfe]]"
 Beschreibung: "Unaufhaltsame Kraft aus Zorn und Zerstörung."
 ---
 # `=this.file.name`
@@ -41,7 +41,7 @@ Als Berserker kannst du:
 ## Trefferpunkte
 [[Trefferwürfel]]: 1`="W" + this.Trefferwürfel` pro Stufe
 [[Trefferpunkte]] auf Stufe 1: `=this.Trefferwürfel` + [[Konstitution]]
-[[Trefferpunkte]] pro Stufenaufstieg: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` (min. 7) + [[Konstitution]]
+[[Trefferpunkte]] pro Stufenaufstieg: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` (min. `=this.Trefferwürfel/2`) + [[Konstitution]]
 
 ## Waffen
 `$=dv.list(dv.current().Übung.Waffen)`

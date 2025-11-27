@@ -7,9 +7,9 @@ tags:
 
 *Du erlangst die Fähigkeit, deine Zauber zu verändern, um sie deinen Bedürfnissen anzupassen.*
 
-Suche dir zwei der folgenden [[Metamagie#Metamagische Optionen]] aus. 
+Suche dir zwei der folgenden [[_DnD_PFT/Charaktere/Klassen DnD/Zauberer/Klassenmerkmale/Metamagie/Metamagie#Metamagische Optionen]] aus. 
 Auf höheren Stufen erhältst du weitere Optionen deiner Wahl entsprechend deiner [[Zauberer#Klassentabelle]]. 
-Du kannst immer nur eine [[Metamagie#Metamagische Optionen|metamagische Option]] pro gewirktem Zauberspruch anwenden, außer es ist in der Beschreibung anders angegeben.
+Du kannst immer nur eine [[_DnD_PFT/Charaktere/Klassen DnD/Zauberer/Klassenmerkmale/Metamagie/Metamagie#Metamagische Optionen|metamagische Option]] pro gewirktem Zauberspruch anwenden, außer es ist in der Beschreibung anders angegeben.
 
 ## Metamagische Optionen
 ```dataview
