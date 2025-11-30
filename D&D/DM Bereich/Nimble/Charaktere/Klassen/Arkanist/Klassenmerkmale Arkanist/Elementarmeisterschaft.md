@@ -5,4 +5,4 @@ aliases:
 Einsatz: Passiv
 ---
 # `=this.file.name`
-Du kennst die [[Zaubertricks]] der Schulen [[Pyromantie]], [[Eiszauber]] und [[Blitzzauber]].
+Lerne die [[Nutzzauber]] aus einer [[Zauberschulen|Zauberschule]], die du kennst.

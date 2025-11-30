@@ -16,3 +16,21 @@ Learn 1 cantrip and 1 tiered spell from the Necrotic school.
 ### Level 15
 **Supreme Control**
 Whenever you Demand Control, you may choose to trigger the selected option twice. You may Demand Control as a Reaction.
+
+
+
+# Kontrolletafel
+
+_**Magie ist gefährlich.** Du kannst ihre ausfransenden Ränder eine Zeit lang zu deinem eigenen Vorteil zusammennähen._
+
+**ICH BESTEHE DARAUF**  
+Wirke einen Zaubertrick kostenlos, ignoriere allen Nachteil; er kann nicht verfehlen.
+
+**ELEMENTARE PLAGE**  
+Eine Kreatur deiner Wahl im Umkreis von 12 Feldern erhält den Zustand Aufgeladen, Versengt oder Verlangsamt.
+
+**NEIN**  
+Wähle eine Kreatur; sie kann in ihrem nächsten Zug keiner Kreatur deiner Wahl Schaden zufügen.
+
+**KONTROLLVERLUST**  
+Führe alles Obige aus – aber der SL wählt jedes Mal die Optionen.
