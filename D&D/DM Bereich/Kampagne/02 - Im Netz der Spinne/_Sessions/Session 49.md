@@ -14,8 +14,6 @@ date: 2025-11-06
 	- Inhalt des Dialogs sollte auf Erfolgsgrad des Wurfs angepasst sein
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-- [ ] Plot Recap [priority:: highest]
 
 ## Recap
 - [[Gnomengard]]
