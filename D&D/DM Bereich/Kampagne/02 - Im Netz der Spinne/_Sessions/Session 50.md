@@ -8,17 +8,12 @@ date: 2025-12-03
 - [[Erschöpft|Erschöpfung]]
 
 ## Organisatorisches
-- Zukunft der Runde nach der aktuellen Kampagne
-- Charisma-Würfe
-	- erst würfeln, dann reden
-	- Inhalt des Dialogs sollte auf Erfolgsgrad des Wurfs angepasst sein
 
 ## TODO
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-- [ ] Plot Recap [priority:: highest]
+
 
 ## Recap
-Klar, hier das **ultraknappe Recap in 6 Punkten**:
 1. **Die Spinne besitzt zwei Fragmente** (Zwerg + Gnom). Das dritte Fragment (Menschen) kennt _nur_ Thargrim → daher reist er mit.
 2. **Axtholm**: Todesfee getötet, Thargrim gerettet, Infos über das Codewort erhalten.    
 3. **Gnomengard**: Mimic beseitigt, Herrscher entparanoiisiert, Bestätigung: Spinnen-Agenten haben das zweite Fragment gestohlen.
