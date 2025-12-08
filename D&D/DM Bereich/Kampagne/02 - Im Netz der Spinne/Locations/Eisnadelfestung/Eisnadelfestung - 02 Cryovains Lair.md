@@ -1,2 +1,0 @@
-**Schatz.** Wer sucht, findet einen verzierten Holzstuhl ohne Armlehne. Von Meereselfen für Landelfen gefertigt, mit sechs roten Korallenästen (je 25 GM wert).
-**Schatz.** Wer den Dreck durchsucht, findet einen Ledersack mit 450 HK und 182 SK sowie ein zerbrochenes Fernrohr (100 GM wert).

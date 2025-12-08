@@ -10,8 +10,6 @@ date: 2025-12-03
 ## Organisatorisches
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-
 
 ## Recap
 1. **Die Spinne besitzt zwei Fragmente** (Zwerg + Gnom). Das dritte Fragment (Menschen) kennt _nur_ Thargrim → daher reist er mit.
@@ -22,9 +20,6 @@ date: 2025-12-03
 6. **Cryovain** hat sie unterwegs angegriffen, verletzt, eine Lawine ausgelöst und ist geflohen → finaler Kampf in der Festung.
 
 # Ablauf
-
-
-
 
 ---
 ## Background

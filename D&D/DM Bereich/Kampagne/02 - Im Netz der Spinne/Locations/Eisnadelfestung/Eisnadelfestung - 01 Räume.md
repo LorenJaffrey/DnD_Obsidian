@@ -1,6 +1,9 @@
 ![[Untitled.png|1200]]
 
-Dieser schmale Pfad klammert sich an den Berg, während er sich windend um ihn herum nach oben zum Torhaus schlängelt. Spuren von Pferden, die den Pfad auf und ab gekommen sind, sind deutlich sichtbar. Die Charaktere müssen den Pfad einzeln durchqueren. Wenn mehrere Charaktere vorhanden sind, legt ihre Marschordnung fest und wie weit sie voneinander entfernt sind, falls es relevant wird.
+Dieser schmale Pfad klammert sich an den Berg, während er sich windend um ihn herum nach oben zum Torhaus schlängelt.
+Spuren von Pferden, die den Pfad auf und ab gekommen sind, sind deutlich sichtbar. 
+Die Charaktere müssen den Pfad einzeln durchqueren. 
+Wenn mehrere Charaktere vorhanden sind, legt ihre Marschordnung fest und wie weit sie voneinander entfernt sind, falls es relevant wird.
 
 Der Pfad ist sicher, obwohl ein 6 Meter langer Abschnitt unter Schutt begraben liegt, der schwieriges Gelände darstellt.
 
