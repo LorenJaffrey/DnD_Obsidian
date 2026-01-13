@@ -33,7 +33,7 @@
 - [[Oathbreaker]]
 # Shadowmancer
 - [[Shadowmancer Levels]]
-- [[Invocations]]
+- [[Anrufungen]]
 - [[Pact of the Abyssal Depths]]
 - [[Pact of the Red Dragon]]
 - [[Reaver]]

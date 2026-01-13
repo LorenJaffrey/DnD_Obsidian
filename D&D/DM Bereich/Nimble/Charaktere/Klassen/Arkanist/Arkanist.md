@@ -34,27 +34,11 @@ Was einen Arkanisten ausmacht:
 - **Elementarmeisterschaft.** Entfessele die Macht der Elemente – lass Feuer vom Himmel regnen, friere Feinde an Ort und Stelle ein oder schlage mit donnernden Blitzen zu.
 - **Chaos oder Kontrolle.** Reißt du das ausgefranste Gewebe des Manas unter deine Kontrolle – oder gibst du dich den Kräften des Chaos hin? Was erwartet dich … Diamanthaut? Elementare Fesselung? Verflüssigte Beine?
 
-## Kernattribute
-`$=dv.list(dv.current().Kernattribute)`
+```dynamic-embed
+[[embed Klasse]]
+```
 
-## Trefferpunkte
-[[Trefferwürfel]]: 1`="W" + this.Trefferwürfel` pro Stufe
-[[Trefferpunkte]] auf Stufe 1: `=this.Trefferwürfel` + [[Konstitution]]
-[[Trefferpunkte]] pro Stufenaufstieg: `$="```dice:1d" + dv.current().Trefferwürfel + "```"` (min. `=this.Trefferwürfel/2`) + [[Konstitution]]
-
-## Waffen
-`$=dv.list(dv.current().Übung.Waffen)`
-
-## Rüstung
-`$=dv.list(dv.current().Übung.Rüstungen)`
-
-## Rettungswürfe
-- [[Vorteil und Nachteil|Vorteil]] auf **EINEN** der folgenden:
-`$=dv.list(dv.current().Rettungswürfe.Vorteil)`
-- [[Vorteil und Nachteil|Nachteil]] auf **EINEN** der folgenden: 
-`$=dv.list(dv.current().Rettungswürfe.Nachteil)`
-
-## Ausrüstung
+## Startausrüstung
 - [[Kampfstab]]
 - [[Robe]]
 - 5 [[Ration|Rationen]]

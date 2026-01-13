@@ -4,6 +4,7 @@ tags:
   - Regeln/Nimble
 aliases: 
   - Sicheren Rast
+  - sicherer Rast
 ---
 # `=this.file.name`
 Sichere Rasten finden an einem vom SL als sicher bestimmten Ort statt, typischerweise einer Übernachtung im Gasthaus. 
