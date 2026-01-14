@@ -29,32 +29,44 @@
 - haben versucht das Amulett zu identifizieren -> nicht erfolgreich
 - wurde durch die [[Schwarze Spinne]] gestohlen
 
-### Kennwort
-- besteht aus drei Teilen
-	- ein Teil für jedes Volk beteiligt an Phandelvers Pakt (Zwerge, Gnome, Menschen)
+### **Herz der Schmiede – Artefaktbeschreibung**
 
-#### 1. Fragment (Zwergen-Inschrift in Axtholm)
-> „Die Flamme, die das Eisen biegt, zerstört allein.  
-> Doch im Herd der Brüder wird aus Glut Werkzeug und Hoffnung.“
+#### **Gesamtartefakt**
+- **Aussehen:** Wenn alle drei Fragmente zusammengesetzt sind, entsteht ein würfelförmiges Artefakt von etwa faustgroßer Größe. Jede Seite zeigt Gravuren und Muster aus den jeweiligen Kulturen (Zwergenrunen, gnomische Zahnräder, menschliche Runen der Willenskraft).
+- **Mechanik:** Die Fragmente lassen sich mechanisch ineinanderfügen. Jedes Fragment hat **verzahnte Nuten, Einkerbungen oder Haltehaken**, die nur in der korrekten Kombination ineinander passen.
+- **Magischer Effekt:** Vollständig zusammengesetzt pulsiert das Herz der Schmiede in rhythmischen Wellen, als ob es „atmet“. Ein magisches Summen ist zu hören. Ohne alle Fragmente ist das Summen schwach oder verzerrt.
+- **Gefühl beim Anfassen:** Schwer, kalt oder warm je nach Fragment, leichtes Vibrieren. Spieler spüren intuitiv die „Passform“ der Fragmente.
 
-- **Falsche Interpretation**: _Feuer ist Macht_ → „Zerstörung“
-- **Wahre Interpretation**: _Feuer ist das Symbol für gemeinsames Schaffen_ → **„Einheit“**
+---
 
-#### 📜 2. Fragment (Gnomenspruch in der Garde)
+#### **Fragment 1 – Zwergenfragment (Stabilität)**
+- **Funktion:** Sichert die strukturelle und magische Stabilität der Schmiede. Ohne dieses Fragment würde die Schmiede instabil und gefährlich arbeiten.
+- **Aussehen:** Handgroßer, rechteckiger Kristallblock aus dunkelgrau-metallischem Material. Auf der Oberfläche sind **tiefe, geometrische Gravuren in Zwergensprache**, die wie Zahnräder und Hebel wirken.
+- **Besonderheit:** Das Fragment wirkt **kühl und schwer**, fast wie ein Stück gediegenes Metall. Die Einkerbungen passen nur an der Seite des Gesamtwürfels, die zur Zwergenfraktion gehört.
 
-> „Ein Gedanke wird geboren – zwei Hände bauen.  
-> Nur wenn Köpfe sich neigen, entsteht ein Werk.“
+---
 
-- **Falsche Interpretation**: _„Wissen“ als Machtmittel_
-- **Wahre Lösung**: **„Zusammenarbeit“**
+#### **Fragment 2 – Gnomefragment (Kontrolle/Modulation)**
+- **Funktion:** Reguliert präzise magische Energie. Ohne dieses Fragment läuft die Schmiede unkontrolliert und fehlerhaft.
+- **Aussehen:** Kleine, durchsichtige **Bernsteinkugel**, etwa faustgroß, mit eingravierten **miniaturisierten Zahnrädern und Spiralen**, die im Licht funkeln.
+- **Besonderheit:** Die Kugel hat **eine Nut, die genau in die Zwergen- und Menschenfragmente passt**, als ob sie die beiden stabilen Blöcke „verbindet“. Sie reagiert leicht auf Berührung und dreht sich in den Fingern, als ob sie lebendig wäre.
 
-#### 📜 3. Fragment (Menschenrelikt in der Eisnadelfestung)
+---
 
-> „Allein flackert das Licht, gemeinsam brennt das Feuer.  
-> Die Gabe der Magie ist nur sicher in treuer Hand.“
+#### **Fragment 3 – Menschenfragment (Intentionsanker)**
+- **Funktion:** Bindet die Schmiede an die Willenskraft des Benutzers. Ohne dieses Fragment kann die Schmiede nicht gezielt gesteuert werden.
+- **Aussehen:** Ein kristalliner Anhänger mit flüssigem Kern, rot-gold schimmernd, in einem **dreifach verschlungenen Ring**, der sich mechanisch mit den Nuten der anderen Fragmente verbindet.
+- **Besonderheit:** Das Fragment pulsiert leicht im Rhythmus der Umgebungsmagie und **fühlt sich warm** an. Wird es in Kontakt mit den anderen Fragmenten gebracht, verbindet es sich fast magnetisch und lässt die Zusammenführung intuitiv wirken.
 
-- **Falsche Interpretation**: _„Magie“ als Ziel_
-- **Wahre Lösung**: **„Vertrauen“**
+---
+
+#### **Zusammenbau**
+- Die drei Fragmente lassen sich **nur in einer spezifischen Reihenfolge korrekt zusammensetzen**:
+    1. Zwergenfragment als Basis (Stabilität)
+    2. Gnomefragment zur Verbindung und Regulierung
+    3. Menschenfragment als Abschluss (Willenskraft)
+- Mechanische Passungen und magische Resonanzen machen sofort sichtbar, wenn ein Fragment falsch eingesetzt ist: Vibrationen, leichtes Summen, falsche Pulsationen.
+- **Finale Form:** Ein pulsierender, würfelförmiger Kristallblock, in dem alle Gravuren und Muster harmonisch ineinander übergehen.
 
 ---
 
