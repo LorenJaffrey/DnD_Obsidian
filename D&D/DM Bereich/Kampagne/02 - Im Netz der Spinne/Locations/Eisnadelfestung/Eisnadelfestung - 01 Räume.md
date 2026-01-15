@@ -86,7 +86,7 @@ Rostige Haken hielten einst Rüstungen, Schilde und Helme.
 Während ihre Soldaten verhungerten, unterdrückte Delsendra Amzarr einen Aufstand ihrer Gefolgsleute. 
 Nachdem sie sie tötete, nahm sie sich mit Gift aus einem Kelch das Leben. 
 Skelette im Raum zeugen davon:
-- Drei humanide Skelette in rostigen Kettenhemden liegen bei rostigen Langschwertern.
+- Drei humanoide Skelette in rostigen Kettenhemden liegen bei rostigen Langschwertern.
 - Ein viertes Skelett in rostiger Plattenrüstung sitzt zusammengesunken vor dem Kamin. 
   Ein Stahkelch liegt zwischen den Stuhlbeinen.
   (Der Orkhäuptling stahl die Streitaxt der toten Kriegsherrin, zu finden in [Bereich H19].)

@@ -1,5 +1,5 @@
 ---
-date: 2026-01-14
+date: 2025-12-10
 ---
 # `=this.file.name`
 
@@ -10,6 +10,7 @@ date: 2026-01-14
 ## Organisatorisches
 
 ## TODO
+- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - **Aufstieg in die Berge:**  
