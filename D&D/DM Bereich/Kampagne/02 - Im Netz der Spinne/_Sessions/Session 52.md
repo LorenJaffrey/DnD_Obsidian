@@ -13,7 +13,8 @@ date: 2026-02-11
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
-
+- Gruppe ist in den Hort des Drachen vorgedrungen
+- Gruppe hat den Drachen bekämpft
 
 # Ablauf
 
@@ -23,108 +24,6 @@ date: 2026-02-11
 - Cryovain nutzt **Lair Actions auf Ini 20 (losing ties)**
 
 ---
-
-### **Kampfablauf & Taktik – Cryovain**
-
-#### **Vor Kampfbeginn (kein Ini)**
-- Cryovain liegt reglos, halb von Eis und Schnee bedeckt
-- Passive Wahrnehmung ≥ 15 bemerkt:
-    - unnatürliche Stille
-    - Atemwolken an der Decke
-- Kobolde ziehen sich **unauffällig zurück**, sobald Cryovain angreift
-
----
-
-### **Runde 1 – Der Hinterhalt**
-**Ziel:** Chaos, Positionen zerstören, Rückzug verhindern
-#### **Lair Action (Ini 20)**
-**Gefrierender Boden**
-- 6–9 m Radius um den Zugang
-- Gebiet wird schwieriges Gelände
-- DEX-Save oder prone
-
-➡️ Rückzug sofort problematisch
-
-#### **Cryovains Zug**
-- **Frostodem** in den **Zugang + Frontlinie**
-    - Trifft bewusst nicht alle
-    - Ziel ist **Positionierung**, nicht Maximalschaden
-- **Bewegung:** Fliegt hoch an die Decke (außer Reichweite von Nahkämpfern)
-**Warum?**
-- Ressourcenabzug
-- Gruppe muss reagieren, nicht planen
-
----
-
-### **Runde 2 – Trennen & Isolieren**
-**Ziel:** Einzelne SC herauslösen
-#### **Lair Action (Ini 20)**
-**Eiszapfen von der Decke**
-- Ziel: Zauberwirker oder Heiler
-- DEX-Save oder:
-    - moderater Schaden
-    - Bewegungsreduktion (eingefrorene Füße)
-
-#### **Cryovains Zug**
-- **Sturzflug** auf isolierten oder liegenden SC
-- **Multiattack** (Biss + Klaue)
-- **Grapple/Positionierung**: Er bleibt **nicht** stehen
-
-➡️ Er zieht den Kampf in die Höhe / an den Rand der Höhle
-
----
-
-### **Runde 3 – Druck erhöhen**
-**Ziel:** Entscheidungen erzwingen
-#### **Lair Action (Ini 20)**
-**Gefrierender Nebel**
-- Leichte Verdeckung in Teilen der Höhle
-- Wahrnehmung & Fernkampf erschwert
-
-#### **Cryovains Zug**
-- Kein Odem (Recharge abwarten)
-- **Flügelangriff**
-    - Knock prone
-    - Platz schaffen
-- Bewegung zurück in die Luft
-
-➡️ Cryovain bleibt **mobil**, niemals festnageln lassen
-
----
-
-### **Runde 4 – Der Killerinstinkt**
-**Ziel:** Einen SC ernsthaft bedrohen
-#### **Lair Action (Ini 20)**
-**Erneut Boden vereist oder Eiszapfen**
-- Immer dort, wo Heilung / Stabilisierung stattfindet
-
-#### **Cryovains Zug**
-- Falls Odem wieder da:
-    - **gezielt auf verletzte SC**
-- Sonst:
-    - Fokus auf **denselben SC wie zuvor**
-
-➡️ Cryovain spielt nicht fair. Er will töten.
-
----
-
-### **Wenn die Gruppe fliehen will**
-- **Lair Action:** Engpass vereist erneut
-- Cryovain:
-    - Jagd auf Nachzügler
-    - Keine Verfolgung über lange Distanz
-    - Er ist Herr des Horts, kein Verfolger
-
----
-
-### **Cryovains Denkweise (für dich als SL)**
-- Er bleibt **max. 1 Runde** im Nahkampf
-- Er greift **immer aus der Bewegung**
-- Er nutzt den Hort **jede Runde aktiv**
-- Er zieht sich zurück, wenn:
-    - unter ⅓ HP
-    - mehrere SC kampfunfähig
-    - Odem nicht verfügbar und Position schlecht
 
 #### **Hortaktionen – Cryovain (Eisnadelfestung)**
 
@@ -246,8 +145,36 @@ Die Spieler sollen merken: _„Die meinen es ernst.“_
 - **Misty Step**, sobald er unter Druck gerät
 - Greift **nie** unnötig an
 
-👉 Er **überlebt**. Wenn er stirbt, fühlt sich der Sieg verdient an.
+### Zaubergrad 0 (At-Will)
+- **Ray of Frost** (Verlangsamung)
+- **Chill Touch** (Heilungsunterbindung – gut gegen Druide)
+- **Mage Hand**
+- **Minor Illusion**
 
+### Grad 1 (4 Slots)
+- **Shield** (Pflicht)
+- **Absorb Elements**
+- **Mage Armor** (vorbereitet)
+- **Silvery Barbs** (wenn erlaubt – sonst _Magic Missile_)
+
+### Grad 2 (3 Slots)
+- **Mirror Image** (erste Aktion oder vorbereitet)
+- **Misty Step** (Bonusaktion Reposition)
+- **Hold Person** (Barbar/Schurke als Ziel)
+
+### Grad 3 (3 Slots)
+- **Counterspell** (gegen Wizard/Warlock)
+- **Fireball** (Klassiker, aber nicht mehrfach spammen)
+- **Hypnotic Pattern** (starkes Control – besonders in der Höhle)
+
+### Grad 4 (3 Slots)
+- **Greater Invisibility** (für sich selbst oder Shadowblade)
+- **Banishment** (temporär 1 Spieler entfernen → Druck)
+- **Wall of Fire** (Gang blockieren / Rückzug verhindern)
+
+### Grad 5 (1 Slot)
+- **Cone of Cold**  
+- 
 ---
 
 #### ⚔️ Elite Warriors – Raumkontrolle
