@@ -1,6 +1,5 @@
 ---
 tags:
-  - Regeln/Nimble/Charakter/Klasse
 ---
 # `=this.file.name`
 

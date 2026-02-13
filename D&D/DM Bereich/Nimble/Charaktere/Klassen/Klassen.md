@@ -1,13 +1,13 @@
-# Berserker
-- [[Berserker]]
-- [[Wildes Arsenal]]
-- [[Path of the Mountainheart]]
-- [[Path of the Red Mist]]
-# The Cheat
-- [[The Cheat Levels]]
-- [[Schmutzige Tricks]]
-- [[Tools of the Scoundrel]]
-- [[Tools of the Silent Blade]]
+```dataview
+TABLE WITHOUT ID
+
+file.link AS "Title"
+
+FROM #Regeln/Nimble/Charakter/Klasse
+
+SORT file.name
+```
+
 # Commander
 - [[Commander Levels]]
 - [[Combat Abilities & Weapon Mastery]]
@@ -20,23 +20,12 @@
 - [[Keeper of the Shadowpath]]
 - [[Keeper of the Wild Heart]]
 - [[Beastmaster]]
-# Mage
-- [[Mage Levels]]
-- [[DM Bereich/Nimble/Charaktere/Klassen/Arkanist/Klassenmerkmale Arkanist/Metamagie/Metamagie]]
-- [[Invoker of Chaos]]
-- [[Invoker of Control]]
 # Oathsworn
 - [[Oathsworn Levels]]
 - [[Sacred Decrees]]
 - [[Oath of Refuge]]
 - [[Oath of Vengeance]]
 - [[Oathbreaker]]
-# Shadowmancer
-- [[Shadowmancer Levels]]
-- [[Anrufungen]]
-- [[Pact of the Abyssal Depths]]
-- [[Pact of the Red Dragon]]
-- [[Reaver]]
 # Shepherd
 - [[Shepherd Levels]]
 - [[Sacred Graces]]
