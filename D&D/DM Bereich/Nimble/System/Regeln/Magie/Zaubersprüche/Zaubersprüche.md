@@ -6,17 +6,17 @@
 - Wind Spells. Aid in moving friend and foe alike around the battlefield. They can also slice and cut through entire groups of foes and viciously deal extra damage on critical hits.
 
 ## Magieschulen
-| Magieschule      | [[Arkanist]] | [[Paladin]] | [[Schattenrufer]] | [[Kleriker]] | [[Klangweber]] | [[Druide]] |
-| ---------------- |:------------:|:-----------:|:-----------------:|:------------:|:--------------:|:----------:|
-| [[Arkanzauber]]  |      X       |             |                   |              |                |            |
-| [[Pyromantie]]   |      X       |             |        (X)        |              |      (X)       |            |
-| [[Eiszauber]]    |      X       |             |        (X)        |              |      (X)       |            |
-| [[Blitzzauber]]  |      X       |             |                   |              |      (X)       |     X      |
-| [[Windzauber]]   |              |             |                   |              |       X        |     X      |
-| [[Nekromantie]]  |              |             |         X         |      X       |                |            |
-| [[Lichtzauber]]  |              |      X      |                   |      X       |                |            |
-| [[Erdzauber]]    |              |             |                   |              |      (X)       |     X      |
-| [[Wasserzauber]] |              |             |                   |              |      (X)       |     X      |
+| Magieschule      | [[Arkanist]] | [[Paladin]] | [[Schattenrufer]] | [[Kleriker]] | [[Klangweber]] | [[Druide]] | [[Windläufer]] | [[Gauner]] | [[Berserker]] | [[Kommandant]] | [[Jäger]] |
+| ---------------- |:------------:|:-----------:|:-----------------:|:------------:|:--------------:|:----------:|:--------------:|:----------:|:-------------:|:--------------:|:---------:|
+| [[Arkanzauber]]  |      X       |             |                   |              |                |            |                |            |               |                |           |
+| [[Pyromantie]]   |      X       |             |        (X)        |              |      (X)       |            |      (X)       |            |               |                |           |
+| [[Eiszauber]]    |      X       |             |        (X)        |              |      (X)       |            |                |            |               |                |           |
+| [[Blitzzauber]]  |      X       |             |                   |              |      (X)       |     X      |                |            |               |                |           |
+| [[Windzauber]]   |              |             |                   |              |       X        |     X      |      (X)       |            |               |                |           |
+| [[Nekromantie]]  |              |             |         X         |      X       |                |            |                |            |               |                |           |
+| [[Lichtzauber]]  |              |      X      |                   |      X       |                |            |                |            |               |                |           |
+| [[Erdzauber]]    |              |             |                   |              |      (X)       |     X      |      (X)       |            |               |                |           |
+| [[Wasserzauber]] |              |             |                   |              |      (X)       |     X      |      (X)       |            |               |                |           |
 
 
 ## Verteilung

@@ -10,7 +10,7 @@ SORT file.name
 
 # Commander
 - [[Commander Levels]]
-- [[Combat Abilities & Weapon Mastery]]
+- [[Klassenmerkmale Kommandant]]
 - [[Champion of the Bulwark]]
 - [[Champion of the Vanguard]]
 - [[Spellblade]]

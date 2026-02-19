@@ -5,7 +5,7 @@
 | ----------------- |:---:|:---:|:---:|:---:|:---:|:---:|:----:|
 | [[Berserker]]     |  A  |     |  A  |     |     |     |  X   |
 | Zephyr            |     |     |  A  |     |  A  |     |  X   |
-| Commander         |  A  |     |     |     |     |  A  |  X   |
+| [[Kommandant]]    |  A  |     |     |     |     |  A  |  X   |
 | Shepherd          |  A  |     |     |     |  A  |     |  X   |
 | Oathsworn         |  A  |     |     |     |     |  A  |  X   |
 | [[Gauner]]        |     |     |  A  |  A  |     |     |  X   |
@@ -20,7 +20,7 @@
 | ----------------- |:---:|:---:|:---:|:---:|:---:|:---:|:----:|
 | [[Berserker]]     |  A  |     |  B  |  -  |  -  |  -  |      |
 | Zephyr            |     |  -  |  A  |  -  |  B  |  -  |      |
-| Commander         |  A  |     |  -  |  -  |  -  |  B  |      |
+| [[Kommandant]]    |  A  |     |  -  |  -  |  -  |  B  |      |
 | Shepherd          |  B  |     |  -  |  -  |  A  |  -  |      |
 | Oathsworn         |  A  |     |  -  |  -  |  -  |  B  |      |
 | [[Gauner]]        |  -  |  -  |  A  |  B  |  -  |     |      |
@@ -36,7 +36,7 @@
 | ----------------- |:---:|:---:|:---:|:---:|:---:|:---:|
 | [[Berserker]]     |  X  |     |     |     |     |     |
 | Zephyr            |     |     |  X  |     |  X  |     |
-| Commander         |  X  |     |  X  |     |     |     |
+| [[Kommandant]]    |  X  |     |  X  |     |     |     |
 | Shepherd          |     |     |     |     |  X  |     |
 | Oathsworn         |  X  |     |     |     |     |  X  |
 | [[Gauner]]        |     |     |  X  |     |     |     |
@@ -51,7 +51,7 @@
 | ----------------- |:---:|:---:|:---:|:---:|:---:|:---:|
 | [[Berserker]]     |  X  |  X  |     |  -  |     |  -  |
 | Zephyr            |  X  |     |  X  |  -  |     |  -  |
-| Commander         |  X  |  X  |  -  |  -  |     |     |
+| [[Kommandant]]    |  X  |  X  |  -  |  -  |     |     |
 | Shepherd          |     |     |     |     |  X  |  X  |
 | Oathsworn         |     |     |     |     |  X  |  X  |
 | [[Gauner]]        |     |     |  X  |  X  |     |     |
@@ -66,7 +66,7 @@
 | ----------------- |:---:|:---:|:---:|:---:|:---:|:---:|
 | [[Berserker]]     |  X  | (X) |  X  |     |     |     |
 | Zephyr            | (X) |  X  |  X  |     |     |     |
-| Commander         |  X  | (X) |     |  X  |     |     |
+| [[Kommandant]]    |  X  | (X) |     |  X  |     |     |
 | Shepherd          |  X  | (X) |     |     |  X  | (X) |
 | Oathsworn         |  X  | (X) |     |     |  X  | (X) |
 | [[Gauner]]        |     |     |  X  |  X  |     |     |
@@ -81,7 +81,7 @@
 | ----------------- |:-------:|:----------------:|:-----------------:|:----------------:|
 | [[Berserker]]     | Schaden |     Bewegung     |                   |                  |
 | Zephyr            | Schaden | Klassenressource |                   |                  |
-| Commander         | Schaden |                  | Klassenressource  |                  |
+| [[Kommandant]]    | Schaden |                  | Klassenressource  |                  |
 | Shepherd          | Schaden |                  |                   |  Zauberattribut  |
 | Oathsworn         | Schaden |                  |                   |  Zauberattribut  |
 | [[Gauner]]        |         |     Schaden      | Klassenressource  |                  |
