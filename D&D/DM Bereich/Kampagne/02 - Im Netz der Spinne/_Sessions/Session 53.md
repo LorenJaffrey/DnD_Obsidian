@@ -75,7 +75,7 @@ date: 2026-02-11
 
 ### Grad 5 (1 Slot)
 - **Cone of Cold**  
-- 
+
 ---
 
 #### ⚔️ Elite Warriors – Raumkontrolle
