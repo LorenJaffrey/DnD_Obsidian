@@ -15,9 +15,11 @@ Um den Effekt einer `=this.aliases[0]` nutzen zu können muss ein Charakter zwei
 Ein Charakter kann von einer `=this.aliases[0]` nur einmal innerhalb von 24 Stunden profitieren. 
 Außerdem muss er am Anfang der Rast mindestens 1 [[Trefferpunkte|Trefferpunkt]] besitzen, um ihre Vorteile in Anspruch nehmen zu können.
 
-Das Rasten in Rüstung kann den Effekt einer `=this.aliases[0]` beeinflussen. Ein Charakter der in einer [[Rüstungen|Rüstung]] ohne die Eigenschaft [[Bequem]] schläft, kann nur den halben Effekt nutzen.
+Das Rasten in Rüstung kann den Effekt einer `=this.aliases[0]` beeinflussen. 
+Ein Charakter der in einer [[Rüstungen|Rüstung]] ohne die Eigenschaft [[Bequem]] schläft, kann nur den halben Effekt nutzen.
 
-Nach Beenden einer `=this.aliases[0]` erlangt ein Charakter alle verlorenen [[Trefferpunkte]] zurück. Außerdem erhält er verbrauchte [[Trefferwürfel]] in Höhe der Hälfte seiner Gesamtzahl zurück (mindestens 1). 
+Nach Beenden einer `=this.aliases[0]` erlangt ein Charakter alle verlorenen [[Trefferpunkte]] zurück. 
+Außerdem erhält er verbrauchte [[Trefferwürfel]] in Höhe der Hälfte seiner Gesamtzahl zurück (mindestens 1). 
 Beispielsweise bekommt ein Abenteurer, der über 8 [[Trefferwürfel]] verfügt, nach Abschließen einer `=this.aliases[0]` bis zu vier davon zurück.
 
 >[!Info] Zusammenfassung
