@@ -16,7 +16,9 @@ date: 2026-02-25
 - Gruppe hat die Drow besiegt
 
 # Ablauf
+- Erholung vom Kampf gegen die Drow und den Drachen
 
+- [[Wellenhallhöhle]]
 
 ## Background
 [[Hintergrundinfos]]
