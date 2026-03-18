@@ -10,7 +10,7 @@ date: 2026-02-11
 ## Organisatorisches
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - Gruppe ist in den Hort des Drachen vorgedrungen

@@ -10,7 +10,7 @@ date: 2026-02-25
 ## Organisatorisches
 
 ## TODO
-- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
 
 ## Recap
 - Gruppe hat den Drachen besiegt
