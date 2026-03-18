@@ -1,5 +1,5 @@
 ---
-Stufe: 5
+Stufe: 6
 Niptac:
   Apparaturen:
     - "[[Gnomischer Flammenwerfer]]"

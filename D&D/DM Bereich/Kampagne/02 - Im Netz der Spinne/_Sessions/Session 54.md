@@ -11,6 +11,7 @@ date: 2026-02-25
 
 ## TODO
 - [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [ ] Statblock Thargrim [priority:: highest]
 
 ## Recap
 - Gruppe hat die Drow besiegt
@@ -35,9 +36,11 @@ date: 2026-02-25
 Thargrim:
 „Bei den Ahnen… sie will die Schmiede mit unvollständigem Artefakt starten! 
 Mit nur zwei Fragmenten werden die Leylinien kollabieren und die Realität zerreißen!
-Wir müssen sie aufhalten und die Schmiede stabilisieren!"
+Wir müssen sie aufhalten und die Schmiede stabilisieren, sonst droht uns eine Apokalypse!"
 
-## 
+## Reise zur Wellenhallhöhle
+- es wird wieder merklich wärmer und frühlingshaft
+- Thragrims beherzter Schritt
 
 ## Background
 [[Hintergrundinfos]]
