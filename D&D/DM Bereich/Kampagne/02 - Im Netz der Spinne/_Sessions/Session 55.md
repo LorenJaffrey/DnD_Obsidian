@@ -10,8 +10,8 @@ date: 2026-02-25
 ## Organisatorisches
 
 ## TODO
-- [x] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
-- [x] Statblock Thargrim  [priority:: highest]
+- [ ] Drogans [[Äxte des brennenden Zorns]] vervollständigen  [priority:: highest]
+- [ ] Statblock Thargrim [priority:: highest]
 
 ## Recap
 - Gruppe hat die Drow besiegt
