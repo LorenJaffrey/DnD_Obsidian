@@ -69,38 +69,38 @@ Fraktion:
 - _Magieblitz_
 
 ## 1. Grad
-- _Magisches Geschoss_
+- [[Magisches]] Geschoss_
 - _Schutz vor Bösem und Gutem_
 - _Schlaf_ (nicht mehr relevant)
 - _Zauberhaut_
 
 ## 2. Grad
-- _Dunkelheit_ (angeboren)
-- _Spiegelbild_
+- [[Dunkelheit]] (angeboren)
+- [[Spiegelbilder]]
 - _Spinnennetz_
-- _Unsichtbarkeit_
+- [[Unsichtbarkeit]]
 
 ## 3. Grad
-- _Feenfeuer_ (angeboren)
-- _Gegenmagie_
+- [[Feenfeuer]] (angeboren)
+- [[Gegenzauber]]
 - _Fliegen_
-- _Blitzschlag_
+- [[Blitzschlag]]
 - _Langzeitwirkung_
 
 ## 4. Grad
 - _Bannkreis_
 - _Dimensionstürze_
 - _Eissturm_
-- _Person festhalten_
+- [[Person festhalten]]
 
 ## 5. Grad
 - _Animieren Objekte_
 - _Kältekegel_
-- _Telekinese_
+- [[Telekinese]]
 - _Wand der Macht_
 
 ## 6. Grad
-- _Kettenblitz_
+- [[Kettenblitz]]
 - _Person beherrschen_
 - _Wand aus Eis_
 
