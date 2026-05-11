@@ -4,7 +4,7 @@ tags:
 ---
 # `=this.file.name`
 
->[!info] Hochsprung
+>[!info] Weitsprung
 >Maximale Entfernung = [[Stärke]] x 0,15m (x 2 wenn min. 3 Meter Anlauf)
 
 Jeder gesprungene Meter kostet einen Meter [[Bewegungsrate]].
